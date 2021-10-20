@@ -1,0 +1,28 @@
+{. 2021-10-20 15:35:50 . garrygippert . /Users/garrygippert/group/wzy_polymerases/csdb/ . CSDB record ids organized by taxonomy .
+
+	There are three sets of 'CSDB' download results in this directory.
+
+		Acinetobacter	== RDF3 (11 records)
+		Yersinia	== RDF4 (18 records)
+		Streptococcus	== RDF6 (60 records)
+
+	For each taxa, there are an
+		.html file (downloaded from CSDB website)
+		.json file (converted using a py script in this directory)
+		directory (containing images downloaded or copied from the CSDB website)
+
+.}
+
+{. 2021-10-20 16:08:40 . garrygippert . /Users/garrygippert/group/wzy_polymerases/data/csdb/ . Python scripts .
+
+	Python scripts used to download and/or process CSDB data.
+
+	csdb_html_to_json.py - 	run after 'Make RDF in RDF/JSON' and save as html file,
+				to convert RDF<x>.html to RDF<x>.json
+				(needs editing for each <x> file) 
+
+	csdb_wget_images.py -	download CSDB images (gif files), reads from RDF<x>.json file
+				(needs editing for each <x> file)
+
+.}
+
