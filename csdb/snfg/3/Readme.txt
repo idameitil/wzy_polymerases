@@ -1,11 +1,22 @@
-Low-resolution SFNG images for selected CSDB entrys by record_id.gif.
+Low-resolution SFNG image files <CSDB_record_ID>.gif for selected CSDB records.
 
-For some record_ids, the visualization failed, apparently due to the presence of
-percentage values (for subpopulations) within the encoded csdb_linear sugar string.
-These were identified manually and removed from the sugar string before retrieving
-the images.
+Values for CSDB_record_ID and CSDB_linear are found in the TSV 'CSDB_slice_for_Ida.txt'.
 
-For example, for CSDB record_id 11556, compare the following:
+A subset of CSDB_record_IDs provided manually by Ida M were used, as well as records selected by
+matching Taxonomy.
+
+In most cases, an image was successfully generated using the CSDB_linear string provided, using
+a 'wget' call to csdb.glycoscience.ru server. However, manual inspection of the gif files revealed
+some failed, with the commonality that all contained text in square brackets describing subpopulations
+of sugars. In these cases a sugar structure image could be obtained by removing the comment.
+Therefore some of the images do not contain these elements.
+
+For an additional subset of failed cases, an image could not be retrieved. These are 'registered'
+in this directory as a zero-length file.
+
+# Example where removing the 'subpopulations comment' enabled rendering.
+
+For CSDB record_id 11556, compare the following:
 
 (1) This link directly produced within CSDB, in this case failing to parse the sugar structure,
 thus failing to provide an image.
