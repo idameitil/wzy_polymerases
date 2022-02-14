@@ -1,3 +1,5 @@
+import os
+import subprocess
 
 network_file = open("ssn/polymerases_all_vs_all_60_feb2.txt", "r")
 
@@ -43,7 +45,7 @@ def make_fasta_and_txt(start_accession):
     if len(accessions_cluster) > 3:
         # Make fasta
         combined_fasta = open("data/combined_polymerases.fasta")
-        fasta_outfile = open(f"ssn/cluster60/cluster_60_{start_accession}.fasta", "w")
+        fasta_outfile = open(f"ssn/cluster60/fastas/cluster_60_{start_accession}.fasta", "w")
         flag = False
         for line in combined_fasta:
             if line.startswith(">"):
@@ -57,7 +59,7 @@ def make_fasta_and_txt(start_accession):
                 if flag:
                     fasta_outfile.write(line)
         # Make txt
-        list_outfile = open(f"ssn/cluster60/cluster_60_{start_accession}.txt", "w")
+        list_outfile = open(f"ssn/cluster60/txt/cluster_60_{start_accession}.txt", "w")
         for accession in accessions_cluster:
             list_outfile.write(accession+'\n')
 
@@ -69,3 +71,9 @@ for start_accession in neighbor_dict:
     if start_accession not in accessions_done:
         accessions_cluster = make_fasta_and_txt(start_accession)
         accessions_done.extend(accessions_cluster)
+
+for filename in os.listdir("ssn/cluster60/fastas"):
+    outfile_alignment = "/Users/idamei/wzy_polymerases/ssn/cluster60/alignments2/" + filename.replace('fasta', 'txt')
+    command = f"/Users/idamei/mafft-mac/mafft.bat --localpair --clustalout --maxiterate 100 " \
+              f"ssn/cluster60/fastas/{filename} > {outfile_alignment}"
+    os.system(command)

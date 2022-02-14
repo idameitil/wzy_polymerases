@@ -33,8 +33,6 @@ new_df = pd.DataFrame(data, columns=list(csdb_df.columns)+['id'])
 new_df.drop(['Taxonomic_name', 'Strain_or_Serogroup'], axis = 1, inplace = True)
 
 # Join dataframes
-#merged = pd.merge(polymerase_df, new_df, left_on='id', right_on='id', how='left', validate="m:1")
-
 merged = pd.merge(polymerase_df, new_df, on='id', how='left')
 
 # Write to file
