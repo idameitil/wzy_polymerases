@@ -1,4 +1,6 @@
 #! /usr/bin/python3
+''' Download png images for csdb sugars
+'''
 
 WZY = "/Users/garrygippert/group/wzy_polymerases"
 DB = WZY + "/csdb/dat/CSDB_slice_for_Ida.txt"
@@ -69,6 +71,7 @@ def fetch_snfg_image(record_id, csdb_linear, scale=3, overwrite=False):
 
 wanted = []
 
+
 # Open DB file, iterate over rows, avoiding record_ids we have already seen
 seen = []
 columns = []
@@ -86,13 +89,13 @@ with open(DB, 'r') as fp:
 		CSDB_record_ID, CSDB_Linear, glycoct, CSDB_nonpersistent_article_ID, doi, pmid, Taxonomic_name, Strain_or_Serogroup, NCBI_TaxID = row
 		#print( CSDB_record_ID, CSDB_Linear, glycoct, CSDB_nonpersistent_article_ID, doi, pmid, Taxonomic_name, Strain_or_Serogroup, NCBI_TaxID)
 
+		if Taxonomic_name != "Escherichia coli":
+			continue
+
 		# Avoid repeating an id
 		if CSDB_record_ID in seen:
 			continue
 		seen.append(CSDB_record_ID)
-
-		if Taxonomic_name != "Escherichia coli":
-			continue
 
 		if len(wanted)>0 and int(CSDB_record_ID) not in wanted:
 			continue
