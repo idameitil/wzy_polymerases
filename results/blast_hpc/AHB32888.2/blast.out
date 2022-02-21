@@ -1,0 +1,3422 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           449,466,297 sequences; 168,524,408,266 total letters
+
+
+
+Query= AHB32888.2 aa20eb300257fb633c6cda2195429286
+
+Length=310
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_065118370.1 Unknown                                                591     0.0   
+WP_000053677.1 Unknown                                                590     0.0   
+WP_000053679.1 Unknown                                                590     0.0   
+WP_000053678.1 EpsG family protein [Acinetobacter baumannii]          590     0.0   
+WP_156995592.1 Unknown                                                590     0.0   
+WP_157010731.1 Unknown                                                590     0.0   
+WP_106474212.1 Unknown                                                590     0.0   
+AHB32888.2 Wzy [Acinetobacter baumannii]                              590     0.0   
+MBZ0488423.1 Unknown                                                  589     0.0   
+WP_223234794.1 Unknown                                                589     0.0   
+AHM95381.1 Unknown                                                    589     0.0   
+WP_032028071.1 Unknown                                                589     0.0   
+WP_031958231.1 Unknown                                                589     0.0   
+WP_032023495.1 EpsG family protein [Acinetobacter baumannii]          589     0.0   
+WP_087867409.1 EpsG family protein [Acinetobacter baumannii]          589     0.0   
+HAV5800562.1 TPA: EpsG family protein [Acinetobacter baumannii]       589     0.0   
+EHR8891662.1 Unknown                                                  588     0.0   
+EHR8866922.1 Unknown                                                  588     0.0   
+WP_139418114.1 EpsG family protein [Acinetobacter baumannii]          588     0.0   
+WP_147399386.1 Unknown                                                588     0.0   
+EIQ8046439.1 Unknown                                                  588     0.0   
+MBE2353524.1 EpsG family protein [Acinetobacter baumannii]            588     0.0   
+WP_086987805.1 EpsG family protein [Acinetobacter baumannii]          588     0.0   
+OWX40759.1 beta-carotene 15,15'-monooxygenase [Acinetobacter baum...  587     0.0   
+EIR5945449.1 EpsG family protein [Acinetobacter baumannii]            587     0.0   
+MBE2834555.1 EpsG family protein [Acinetobacter baumannii]            587     0.0   
+WP_228149670.1 EpsG family protein [Acinetobacter baumannii]          587     0.0   
+WP_111906220.1 Unknown                                                587     0.0   
+WP_031952485.1 Unknown                                                586     0.0   
+WP_065189071.1 EpsG family protein [Acinetobacter baumannii]          586     0.0   
+WP_138155551.1 EpsG family protein [Acinetobacter baumannii]          585     0.0   
+WP_141101090.1 Unknown                                                580     0.0   
+WP_223234204.1 Unknown                                                558     0.0   
+HAV6249884.1 TPA: EpsG family protein [Acinetobacter baumannii]       553     0.0   
+WP_147399154.1 EpsG family protein [Acinetobacter baumannii]          540     0.0   
+WP_031954506.1 Unknown                                                539     0.0   
+WP_225471148.1 Unknown                                                533     0.0   
+WP_228146940.1 Unknown                                                526     0.0   
+WP_228303484.1 EpsG family protein [Acinetobacter baumannii]          526     0.0   
+EHN8359264.1 EpsG family protein [Acinetobacter baumannii]            523     0.0   
+WP_085840892.1 EpsG family protein [Acinetobacter baumannii]          523     0.0   
+WP_105914304.1 Unknown                                                522     0.0   
+WP_085840848.1 Unknown                                                516     0.0   
+WP_105918462.1 Unknown                                                516     0.0   
+HBM1769576.1 TPA: EpsG family protein [Acinetobacter baumannii]       515     0.0   
+WP_218215334.1 Unknown                                                513     0.0   
+WP_085845550.1 Unknown                                                513     0.0   
+WP_094850258.1 EpsG family protein [Acinetobacter baumannii]          507     5e-180
+WP_133388105.1 Unknown                                                508     2e-179
+EHO9570770.1 Unknown                                                  502     3e-177
+WP_228132095.1 Unknown                                                497     5e-176
+EGY2907786.1 Unknown                                                  496     3e-175
+WP_138059216.1 Unknown                                                494     2e-174
+HAV6179451.1 Unknown                                                  491     6e-173
+EGY2479425.1 EpsG family protein [Acinetobacter baumannii]            489     2e-172
+EIL2181842.1 Unknown                                                  485     3e-171
+WP_088758366.1 Unknown                                                456     4e-160
+WP_223238592.1 EpsG family protein [Acinetobacter baumannii]          451     4e-158
+WP_094146402.1 Unknown                                                439     1e-153
+WP_223132218.1 Unknown                                                432     6e-151
+EIM7610879.1 EpsG family protein [Acinetobacter baumannii]            420     4e-146
+WP_228133709.1 Unknown                                                411     1e-142
+WP_147504387.1 EpsG family protein [Acinetobacter baumannii]          405     9e-140
+EHZ7762082.1 EpsG family protein [Acinetobacter baumannii]            400     5e-138
+WP_032028469.1 Unknown                                                399     6e-138
+WP_147402336.1 EpsG family protein [Acinetobacter baumannii]          397     1e-136
+WP_223491408.1 Unknown                                                396     2e-136
+WP_000053676.1 EpsG family protein [Acinetobacter baumannii]          389     1e-133
+EIL2149658.1 EpsG family protein [Acinetobacter baumannii]            377     1e-129
+WP_223618636.1 Unknown                                                376     3e-129
+WP_138060194.1 EpsG family protein [Acinetobacter baumannii]          373     2e-127
+MBU0324031.1 Unknown                                                  371     1e-126
+WP_228306985.1 EpsG family protein [Acinetobacter baumannii]          370     2e-126
+HAW6243947.1 TPA: EpsG family protein [Acinetobacter baumannii]       370     2e-126
+EIM7567995.1 EpsG family protein [Acinetobacter baumannii]            369     2e-126
+HBI1362028.1 TPA: EpsG family protein [Acinetobacter baumannii]       368     1e-125
+WP_171256810.1 Unknown                                                366     2e-125
+HAV3513254.1 TPA: EpsG family protein [Acinetobacter baumannii]       364     1e-124
+AHB32746.2 Unknown                                                    363     4e-124
+WP_041172577.1 Unknown                                                363     7e-124
+EEX02159.1 hypothetical protein HMPREF0010_03279 [Acinetobacter b...  361     2e-123
+EHN8583713.1 Unknown                                                  355     1e-120
+HAV3495309.1 Unknown                                                  351     7e-119
+WP_228268735.1 EpsG family protein [Acinetobacter baumannii]          345     3e-117
+WP_005200905.1 Unknown                                                349     2e-116
+HAV4607227.1 TPA: EpsG family protein [Acinetobacter baumannii]       342     2e-115
+MBU0353250.1 EpsG family protein [Acinetobacter baumannii]            339     7e-115
+EGY3043915.1 Unknown                                                  340     8e-115
+WP_171292262.1 Unknown                                                340     1e-114
+EIM7575900.1 EpsG family protein [Acinetobacter baumannii]            337     1e-113
+HAV3978917.1 TPA: EpsG family protein [Acinetobacter baumannii]       335     2e-113
+HAV4497103.1 Unknown                                                  337     2e-113
+EHD4319573.1 Unknown                                                  335     7e-113
+WP_228307202.1 EpsG family protein [Acinetobacter baumannii]          333     1e-112
+HAV6238493.1 TPA: EpsG family protein [Acinetobacter baumannii]       330     3e-111
+QBM04691.1 Wzy [Acinetobacter baumannii]                              330     3e-109
+WP_191016112.1 EpsG family protein [Acinetobacter seifertii]          331     3e-109
+WP_104504119.1 EpsG family protein [Acinetobacter indicus]            331     4e-109
+AHB32666.1 Wzy [Acinetobacter nosocomialis]                           330     5e-109
+QBM04667.1 Unknown                                                    330     6e-109
+WP_223234915.1 Unknown                                                330     6e-109
+WP_032014441.1 Unknown                                                330     9e-109
+WP_025469574.1 Unknown                                                330     9e-109
+BCZ12522.1 hypothetical protein OCUAc18_00620 [Acinetobacter baum...  329     1e-108
+WP_031982922.1 Unknown                                                329     2e-108
+WP_221255378.1 EpsG family protein [Acinetobacter baumannii]          329     2e-108
+WP_227555782.1 EpsG family protein [Acinetobacter baumannii]          328     3e-108
+AQQ74322.1 Unknown                                                    327     5e-108
+EHM8058692.1 Unknown                                                  328     6e-108
+WP_032067856.1 EpsG family protein [Acinetobacter baumannii]          328     6e-108
+WP_079739463.1 EpsG family protein [Acinetobacter baumannii]          321     9e-108
+WP_171545281.1 MULTISPECIES: EpsG family protein [Acinetobacter]      327     9e-108
+WP_002123290.1 Unknown                                                327     1e-107
+WP_227553730.1 EpsG family protein [Acinetobacter baumannii]          326     3e-107
+WP_227572687.1 Unknown                                                319     6e-107
+MBJ9432744.1 Unknown                                                  325     6e-107
+HAV3693673.1 Unknown                                                  319     1e-106
+WP_079744198.1 Unknown                                                316     6e-106
+WP_187407221.1 EpsG family protein [Acinetobacter baumannii]          315     9e-106
+WP_223129760.1 Unknown                                                315     2e-105
+WP_212277671.1 Unknown                                                319     1e-104
+WP_171265756.1 Unknown                                                313     2e-104
+EHN8352946.1 Unknown                                                  312     5e-104
+WP_171483606.1 Unknown                                                312     6e-104
+WP_151789230.1 Unknown                                                315     8e-103
+EHO9561249.1 Unknown                                                  308     2e-102
+ERH71907.1 hypothetical protein N173_12750 [Acinetobacter baumann...  311     4e-102
+EXD20838.1 Unknown                                                    306     6e-102
+RXD28446.1 Unknown                                                    306     6e-102
+EHZ7935098.1 Unknown                                                  307     7e-102
+WP_151741735.1 EpsG family protein [Acinetobacter seifertii]          309     1e-100
+WP_228148810.1 EpsG family protein [Acinetobacter baumannii]          302     2e-100
+WP_205667377.1 EpsG family protein [Acinetobacter johnsonii]          308     5e-100
+HAV4514544.1 Unknown                                                  300     8e-100
+EGY2661200.1 EpsG family protein [Acinetobacter baumannii]            301     9e-100
+EHZ6783451.1 EpsG family protein [Acinetobacter baumannii]            297     3e-98 
+EYR85232.1 Unknown                                                    296     3e-98 
+WP_223237793.1 EpsG family protein [Acinetobacter baumannii]          292     1e-96 
+EGY3112346.1 Unknown                                                  293     1e-96 
+WP_227567674.1 Unknown                                                292     2e-96 
+WP_171488447.1 EpsG family protein [Acinetobacter baumannii]          291     3e-96 
+WP_228133317.1 Unknown                                                290     7e-96 
+WP_227500650.1 Unknown                                                290     7e-96 
+WP_225873535.1 Unknown                                                289     1e-95 
+WP_228135001.1 EpsG family protein [Acinetobacter baumannii]          287     4e-94 
+WP_171263678.1 EpsG family protein [Acinetobacter baumannii]          286     7e-94 
+WP_085841146.1 Unknown                                                281     2e-92 
+OUJ76852.1 Unknown                                                    281     2e-92 
+WP_031979198.1 Unknown                                                281     4e-92 
+HBC3643763.1 TPA: EpsG family protein [Acinetobacter baumannii]       279     1e-91 
+EHN8402135.1 Unknown                                                  280     1e-91 
+WP_151795245.1 EpsG family protein [Acinetobacter soli]               286     1e-91 
+WP_171491147.1 Unknown                                                276     1e-90 
+WP_019204955.1 Unknown                                                276     2e-90 
+WP_223240975.1 EpsG family protein [Acinetobacter baumannii]          271     9e-89 
+WP_088758302.1 EpsG family protein [Acinetobacter baumannii]          268     1e-87 
+WP_180041256.1 Unknown                                                273     1e-86 
+WP_171253552.1 Unknown                                                267     2e-86 
+WP_171251388.1 EpsG family protein [Acinetobacter baumannii]          266     5e-86 
+WP_171355180.1 Unknown                                                265     7e-86 
+EHZ6771378.1 Unknown                                                  264     9e-86 
+EHZ6870191.1 Unknown                                                  263     4e-85 
+HBC3642900.1 Unknown                                                  263     5e-85 
+WP_227567679.1 EpsG family protein [Acinetobacter baumannii]          261     1e-84 
+WP_151815818.1 Unknown                                                268     1e-84 
+WP_171251405.1 EpsG family protein [Acinetobacter baumannii]          260     5e-84 
+WP_228157100.1 Unknown                                                260     8e-84 
+WP_151747144.1 Unknown                                                266     1e-83 
+WP_151752945.1 Unknown                                                266     1e-83 
+WP_004944395.1 Unknown                                                265     2e-83 
+RTQ39826.1 Unknown                                                    256     9e-83 
+WP_228269742.1 EpsG family protein [Acinetobacter baumannii]          255     3e-82 
+MQZ82510.1 Unknown                                                    253     3e-81 
+WP_171501770.1 EpsG family protein [Acinetobacter baumannii]          253     4e-81 
+RXD25847.1 EpsG family protein [Acinetobacter baumannii]              253     5e-81 
+WP_228138478.1 Unknown                                                248     6e-80 
+HAV4278103.1 TPA: EpsG family protein [Acinetobacter baumannii]       250     9e-79 
+WP_171488983.1 Unknown                                                244     5e-78 
+WP_033857570.1 Unknown                                                243     3e-76 
+WP_151837462.1 EpsG family protein [Acinetobacter ursingii]           243     6e-76 
+WP_171250515.1 EpsG family protein [Acinetobacter baumannii]          239     7e-76 
+MBU0378530.1 EpsG family protein [Acinetobacter baumannii]            238     7e-76 
+WP_050675500.1 Unknown                                                241     7e-76 
+WP_171259974.1 Unknown                                                239     1e-75 
+WP_171252287.1 EpsG family protein [Acinetobacter baumannii]          236     6e-75 
+OUJ93370.1 Unknown                                                    234     2e-74 
+WP_228260670.1 EpsG family protein [Acinetobacter baumannii]          236     2e-73 
+EGY3176076.1 Unknown                                                  231     7e-73 
+WP_079801696.1 Unknown                                                228     1e-71 
+EHN8622211.1 EpsG family protein [Acinetobacter baumannii]            227     5e-71 
+EIJ7033985.1 EpsG family protein [Acinetobacter baumannii]            225     2e-70 
+EHM8489621.1 Unknown                                                  224     6e-70 
+WP_171481116.1 EpsG family protein [Acinetobacter baumannii]          222     3e-69 
+WP_223132209.1 EpsG family protein [Acinetobacter baumannii]          220     1e-68 
+PVA01788.1 EpsG family protein [Acinetobacter nosocomialis]           223     3e-68 
+WP_171487525.1 Unknown                                                219     6e-68 
+WP_084083020.1 Unknown                                                218     7e-68 
+KCZ30569.1 Unknown                                                    217     3e-66 
+WP_171480072.1 EpsG family protein [Acinetobacter baumannii]          214     3e-66 
+WP_171476891.1 Unknown                                                212     3e-65 
+WP_084082224.1 EpsG family protein [Acinetobacter baumannii]          208     5e-64 
+WP_227553825.1 EpsG family protein [Acinetobacter baumannii]          208     6e-64 
+WP_171490008.1 EpsG family protein [Acinetobacter baumannii]          206     4e-63 
+HAV4477156.1 TPA: EpsG family protein [Acinetobacter baumannii]       203     5e-62 
+WP_139699885.1 EpsG family protein [Acinetobacter baumannii]          204     1e-61 
+WP_019204954.1 Unknown                                                203     2e-61 
+HAV3980579.1 TPA: EpsG family protein [Acinetobacter baumannii]       196     9e-60 
+EHN8723298.1 EpsG family protein [Acinetobacter baumannii]            197     1e-59 
+EXE29450.1 putative membrane protein [Acinetobacter baumannii 554...  194     8e-59 
+WP_171489336.1 Unknown                                                192     7e-58 
+RTQ46994.1 Unknown                                                    191     1e-57 
+WP_171339304.1 Unknown                                                191     1e-57 
+WP_134989171.1 EpsG family protein [Acinetobacter baumannii]          192     1e-57 
+HAV6239083.1 TPA: EpsG family protein [Acinetobacter baumannii]       189     1e-56 
+TVT02004.1 Unknown                                                    187     4e-56 
+EIM7568084.1 Unknown                                                  188     4e-56 
+EGY4267085.1 EpsG family protein [Acinetobacter baumannii]            184     1e-54 
+PQI18827.1 EpsG family protein [Acinetobacter baumannii]              182     4e-54 
+KCZ27722.1 putative membrane protein [Acinetobacter baumannii 259...  181     1e-52 
+EGT93673.1 Unknown                                                    178     1e-52 
+WP_042009273.1 EpsG family protein [Capnocytophaga canis]             185     5e-52 
+WP_171500064.1 EpsG family protein [Acinetobacter ursingii]           178     7e-52 
+WP_228146900.1 EpsG family protein [Acinetobacter baumannii]          175     7e-51 
+WP_212905518.1 Unknown                                                181     8e-51 
+HAV4289959.1 Unknown                                                  177     1e-50 
+WP_095909418.1 EpsG family protein [Capnocytophaga gingivalis]        181     2e-50 
+EXG50838.1 Unknown                                                    171     6e-50 
+WP_212899018.1 EpsG family protein [Capnocytophaga cynodegmi]         178     1e-49 
+WP_203970479.1 Unknown                                                178     2e-49 
+EGY2529579.1 EpsG family protein [Acinetobacter baumannii]            169     9e-49 
+WP_202040477.1 EpsG family protein [Aeromonas caviae]                 176     1e-48 
+WP_228133711.1 EpsG family protein [Acinetobacter baumannii]          166     3e-48 
+EXV23010.1 putative membrane protein [Acinetobacter baumannii 249...  165     1e-47 
+EXE97971.1 putative membrane protein [Acinetobacter baumannii 159...  165     2e-47 
+WP_015781963.1 EpsG family protein [Capnocytophaga ochracea]          172     3e-47 
+WP_171490152.1 Unknown                                                163     8e-47 
+WP_002674248.1 EpsG family protein [Capnocytophaga ochracea]          169     4e-46 
+WP_098714362.1 EpsG family protein [Acinetobacter baumannii]          169     4e-46 
+WP_223234762.1 Unknown                                                161     9e-46 
+WP_151754056.1 Unknown                                                164     3e-45 
+WP_218197157.1 EpsG family protein [Acinetobacter baumannii]          159     5e-45 
+WP_002047707.1 Unknown                                                165     2e-44 
+WP_171488985.1 Unknown                                                157     3e-44 
+RJO07959.1 Unknown                                                    155     5e-44 
+WP_228133320.1 Unknown                                                155     7e-44 
+WP_171500069.1 Unknown                                                156     3e-43 
+WP_181831347.1 EpsG family protein [Capnocytophaga ochracea]          161     7e-43 
+TLF03956.1 Unknown                                                    150     5e-42 
+WP_216946838.1 Unknown                                                158     6e-42 
+WP_032005733.1 Unknown                                                157     1e-41 
+WP_202733462.1 EpsG family protein [Acinetobacter pittii]             157     3e-41 
+WP_171497772.1 EpsG family protein [Acinetobacter soli]               151     8e-41 
+WP_005037632.1 Unknown                                                155     1e-40 
+WP_032032681.1 Unknown                                                147     3e-40 
+WP_066429347.1 Unknown                                                154     5e-40 
+WP_065709085.1 Unknown                                                153     7e-40 
+WP_032045433.1 EpsG family protein [Acinetobacter baumannii]          145     7e-40 
+WP_005034698.1 Unknown                                                150     6e-39 
+WP_065709043.1 EpsG family protein [Acinetobacter baumannii]          149     3e-38 
+WP_005041793.1 Unknown                                                147     1e-37 
+MBD0084640.1 EpsG family protein [Acinetobacter baumannii]            141     1e-37 
+WP_163048040.1 Unknown                                                147     2e-37 
+WP_017897834.1 EpsG family protein [Acinetobacter baumannii]          145     5e-37 
+WP_212259750.1 EpsG family protein [Acinetobacter nosocomialis]       145     6e-37 
+WP_038344802.1 EpsG family protein [Acinetobacter baumannii]          144     1e-36 
+WP_171490797.1 EpsG family protein [Acinetobacter baumannii]          136     2e-36 
+WP_038350319.1 EpsG family protein [Acinetobacter baumannii]          144     2e-36 
+WP_151816168.1 EpsG family protein [Acinetobacter seifertii]          144     2e-36 
+WP_016143973.1 Unknown                                                144     2e-36 
+WP_126053840.1 EpsG family protein [Acinetobacter baumannii]          144     2e-36 
+PAR82598.1 hypothetical protein CGT85_11655 [Vibrio cholerae]         144     3e-36 
+WP_162810505.1 Unknown                                                144     3e-36 
+WP_151766511.1 EpsG family protein [Acinetobacter seifertii]          143     4e-36 
+WP_046127459.1 EpsG family protein [Acinetobacter baumannii]          142     8e-36 
+WP_218229305.1 Unknown                                                142     9e-36 
+WP_032024227.1 EpsG family protein [Acinetobacter baumannii]          134     2e-35 
+WP_228133323.1 Unknown                                                133     3e-35 
+WP_223233995.1 EpsG family protein [Acinetobacter baumannii]          134     1e-34 
+WP_004823635.1 Unknown                                                138     5e-34 
+WP_086267389.1 EpsG family protein [Acinetobacter baumannii]          136     2e-33 
+WP_188199595.1 Unknown                                                135     3e-33 
+EIM4934918.1 EpsG family protein [Acinetobacter baumannii]            134     2e-32 
+EYR84686.1 Unknown                                                    125     2e-32 
+VCY89087.1 Unknown                                                    125     5e-32 
+WP_039105522.1 Unknown                                                132     5e-32 
+WP_018122467.1 EpsG family protein [Wohlfahrtiimonas chitiniclast...  132     6e-32 
+WP_046004787.1 Unknown                                                131     1e-31 
+KJZ09382.1 hypothetical protein TW77_09700 [Pseudoalteromonas rubra]  131     1e-31 
+ALU43240.1 hypothetical protein AT705_09975 [Pseudoalteromonas ru...  131     2e-31 
+WP_208856769.1 EpsG family protein [Pseudoalteromonas rubra]          131     2e-31 
+WP_147251109.1 EpsG family protein [Acinetobacter baumannii]          128     3e-31 
+WP_021111498.1 Unknown                                                129     1e-30 
+MQZ81775.1 Unknown                                                    120     2e-30 
+WP_171407714.1 EpsG family protein [Acinetobacter baumannii]          120     3e-30 
+SSR15756.1 Unknown                                                    114     2e-26 
+EXF16682.1 putative membrane protein [Acinetobacter baumannii 159...  108     8e-26 
+WP_171288431.1 EpsG family protein [Acinetobacter baumannii]          107     2e-25 
+QDX16391.1 Unknown                                                    114     3e-25 
+WP_180139496.1 EpsG family protein [Acinetobacter sp. YH12043]        114     5e-25 
+WP_171261481.1 Unknown                                                106     9e-25 
+WP_171497044.1 Unknown                                                105     4e-24 
+WP_205625437.1 EpsG family protein [Acinetobacter baumannii]          103     7e-24 
+WP_227499865.1 Unknown                                                103     2e-23 
+PVA02643.1 EpsG family protein [Acinetobacter nosocomialis]           101     7e-23 
+KHN54687.1 Unknown                                                    107     1e-22 
+WP_032058387.1 Unknown                                                101     1e-22 
+WP_162183340.1 EpsG family protein [Pectobacterium fontis]            107     1e-22 
+WP_205627319.1 Unknown                                                99.0    3e-22 
+HAV4535182.1 TPA: EpsG family protein [Acinetobacter baumannii]       99.0    4e-22 
+MBC7710596.1 EpsG family protein [Rhizobacter sp.]                    103     3e-21 
+EIL2150552.1 EpsG family protein [Acinetobacter baumannii]            95.9    6e-21 
+EXV20918.1 putative membrane protein [Acinetobacter baumannii 249...  92.8    4e-20 
+WP_004647642.1 MULTISPECIES: EpsG family protein [Acinetobacter]      100     4e-20 
+KCX82333.1 Unknown                                                    93.2    7e-20 
+EMT86238.1 Unknown                                                    92.4    7e-20 
+TLT13377.1 Unknown                                                    91.3    1e-19 
+RIW54736.1 EpsG family protein [Acinetobacter baumannii]              89.0    1e-18 
+WP_180138626.1 EpsG family protein [Acinetobacter sp. YH12043]        95.5    3e-18 
+EGY3062991.1 Unknown                                                  87.8    6e-18 
+MBC6801999.1 Unknown                                                  86.7    7e-18 
+WP_180116289.1 EpsG family protein [Acinetobacter sp. YH12140]        93.6    1e-17 
+TXI21828.1 Unknown                                                    94.0    1e-17 
+VCW40980.1 Unknown                                                    84.7    9e-17 
+TDI31425.1 EpsG family protein [Acinetobacter baumannii]              80.5    1e-15 
+EHD4497382.1 Unknown                                                  79.7    7e-15 
+WP_229116269.1 EpsG family protein [Bacteroides clarus]               81.6    2e-13 
+RTL22454.1 Unknown                                                    81.6    2e-13 
+KCX81521.1 Unknown                                                    75.5    3e-13 
+EJP43857.1 Unknown                                                    72.4    2e-12 
+TLT53326.1 Unknown                                                    71.6    2e-12 
+EGY2668367.1 Unknown                                                  70.1    2e-11 
+MCA4446322.1 Unknown                                                  68.9    1e-10 
+HAV4509747.1 TPA: hypothetical protein [Acinetobacter baumannii]      71.2    2e-10 
+PQI46049.1 EpsG family protein [Acinetobacter baumannii]              66.2    5e-10 
+MBR2116180.1 Unknown                                                  71.6    6e-10 
+AXU43674.1 hypothetical protein C6W84_1775 [Acinetobacter baumannii]  67.0    2e-09 
+WP_022011503.1 MULTISPECIES: EpsG family protein [Bacteroides]        69.7    2e-09 
+KCX81783.1 putative membrane protein [Acinetobacter baumannii 6112]   63.9    3e-09 
+WP_164518169.1 EpsG family protein [Pseudoalteromonas rubra]          69.7    3e-09 
+WP_139299394.1 Unknown                                                69.7    3e-09 
+POB21975.1 Unknown                                                    69.7    4e-09 
+OJI49977.1 Unknown                                                    69.3    4e-09 
+WP_230850935.1 EpsG family protein [Bacteroides fragilis]             68.2    1e-08 
+WP_042971985.1 Unknown                                                67.8    1e-08 
+WP_008659278.1 Unknown                                                67.8    1e-08 
+WP_146331341.1 EpsG family protein [Bacteroides fragilis]             67.8    1e-08 
+WP_102315702.1 Unknown                                                67.4    2e-08 
+WP_117902315.1 EpsG family protein [Bacteroides stercoris]            66.6    3e-08 
+WP_168353894.1 Unknown                                                66.2    4e-08 
+TGY02984.1 EpsG family protein [Muribaculum sp. NM65_B17]             66.2    5e-08 
+WP_196300348.1 Unknown                                                65.5    9e-08 
+MBL3694906.1 Unknown                                                  65.5    9e-08 
+WP_080838050.1 EpsG family protein [Klebsiella quasipneumoniae]       65.1    1e-07 
+WP_005524801.1 EpsG family protein [Vibrio mimicus]                   64.3    2e-07 
+WP_101089184.1 Unknown                                                64.3    2e-07 
+RGZ30430.1 Unknown                                                    63.5    2e-07 
+WP_032813265.1 EpsG family protein [Bacteroides thetaiotaomicron]     63.5    3e-07 
+RHK28762.1 Unknown                                                    63.5    3e-07 
+WP_223051190.1 Unknown                                                63.5    4e-07 
+WP_135781677.1 EpsG family protein [Klebsiella pneumoniae]            63.5    4e-07 
+WP_074422416.1 Unknown                                                63.5    4e-07 
+WP_104159139.1 EpsG family protein [Klebsiella pneumoniae]            63.5    4e-07 
+WP_176702571.1 Unknown                                                63.2    4e-07 
+EOS03234.1 Unknown                                                    63.2    4e-07 
+WP_080973901.1 EpsG family protein [Bacteroides thetaiotaomicron]     63.2    4e-07 
+WP_174890750.1 Unknown                                                63.2    5e-07 
+WP_002695544.1 Unknown                                                62.4    9e-07 
+WP_197192504.1 Unknown                                                62.4    9e-07 
+WP_213872528.1 Unknown                                                62.0    1e-06 
+WP_114785928.1 EpsG family protein [Vibrio tetraodonis]               61.6    1e-06 
+WP_215642954.1 EpsG family protein [Bacteroides thetaiotaomicron]     61.2    2e-06 
+MBT9898728.1 hypothetical protein [Bacteroides thetaiotaomicron]      60.8    2e-06 
+WP_055030402.1 EpsG family protein [Vibrio metoecus]                  60.8    3e-06 
+WP_009419447.1 EpsG family protein [Capnocytophaga sp. oral taxon...  60.5    3e-06 
+HAV4806842.1 Unknown                                                  57.4    8e-06 
+WP_099293609.1 Unknown                                                59.3    9e-06 
+WP_201872835.1 Unknown                                                59.3    1e-05 
+WP_055033878.1 Unknown                                                58.5    1e-05 
+QOS24736.1 hypothetical protein VP5_00018 [Vibrio parahaemolyticus]   58.5    2e-05 
+WP_181485668.1 Unknown                                                58.2    2e-05 
+PHR95114.1 hypothetical protein COA80_11250 [Leeuwenhoekiella sp.]    57.0    3e-05 
+WP_134817874.1 Unknown                                                57.4    4e-05 
+MBE7175756.1 Unknown                                                  57.0    5e-05 
+WP_004291093.1 EpsG family protein [Bacteroides eggerthii]            56.6    7e-05 
+WP_071595960.1 Unknown                                                56.2    8e-05 
+MBA94299.1 hypothetical protein [Rickettsiales bacterium]             56.2    8e-05 
+WP_159730174.1 Unknown                                                56.2    8e-05 
+HBC9557793.1 TPA: EpsG family protein [Escherichia coli]              55.8    1e-04 
+WP_063615947.1 MULTISPECIES: EpsG family protein [Enterobacter cl...  55.5    1e-04 
+WP_200928718.1 EpsG family protein [Pseudomonas monteilii]            55.1    2e-04 
+HAY0632086.1 TPA: EpsG family protein [Serratia marcescens]           55.5    2e-04 
+EGR2303499.1 hypothetical protein [Vibrio parahaemolyticus]           54.3    2e-04 
+WP_146222613.1 EpsG family protein [Serratia marcescens]              55.1    2e-04 
+WP_150182828.1 EpsG family protein [Enterobacter asburiae]            55.1    2e-04 
+WP_161779118.1 Unknown                                                55.1    2e-04 
+PYB12706.1 Unknown                                                    54.7    2e-04 
+WP_174136036.1 Unknown                                                55.1    2e-04 
+WP_110612639.1 Unknown                                                54.7    2e-04 
+MBW7870604.1 EpsG family protein [Flavobacteriia bacterium]           54.7    3e-04 
+WP_049199046.1 Unknown                                                54.7    3e-04 
+WP_038881021.1 Unknown                                                54.7    3e-04 
+WP_219963686.1 Unknown                                                54.7    3e-04 
+QLP23151.1 EpsG family protein [Enterobacter roggenkampii]            54.7    3e-04 
+EJP29990.1 putative membrane protein [Prevotella sp. MSX73]           54.3    3e-04 
+WP_110593329.1 Unknown                                                54.7    3e-04 
+WP_083844120.1 Unknown                                                54.3    3e-04 
+MBT6325582.1 Unknown                                                  53.1    3e-04 
+WP_197623623.1 EpsG family protein [Pseudomonas poae]                 54.3    4e-04 
+WP_039167827.1 Unknown                                                54.3    4e-04 
+GJM47737.1 hypothetical protein WSSLDB02_02940 [Weissella soli]       53.9    5e-04 
+WP_051941665.1 EpsG family protein [Maribacter forsetii]              53.9    5e-04 
+WP_083852688.1 Unknown                                                53.9    6e-04 
+WP_217542328.1 EpsG family protein [Vibrio cholerae]                  53.5    7e-04 
+MBD9983792.1 Unknown                                                  53.1    8e-04 
+MBR6938584.1 EpsG family protein [Prevotella sp.]                     53.1    8e-04 
+WP_096816890.1 Unknown                                                53.1    0.001 
+WP_111897974.1 EpsG family protein [Pseudoprevotella muciniphila]     52.8    0.001 
+MBQ7057207.1 EpsG family protein [Bacteroidaceae bacterium]           52.8    0.001 
+MCD9544468.1 Unknown                                                  52.8    0.001 
+WP_091816200.1 EpsG family protein [Prevotella sp. BP1-148]           52.8    0.001 
+WP_192463873.1 Unknown                                                52.4    0.001 
+WP_149162841.1 EpsG family protein [Treponema phagedenis]             52.0    0.002 
+QQO62350.1 EpsG family protein [Providencia vermicola]                52.4    0.002 
+WP_074168274.1 Unknown                                                52.0    0.002 
+WP_071994487.1 Unknown                                                52.0    0.002 
+EHN8920423.1 EpsG family protein [Enterobacter asburiae]              51.6    0.002 
+WP_132218288.1 Unknown                                                51.6    0.003 
+WP_123715168.1 EpsG family protein [Pseudomonas poae]                 51.2    0.003 
+WP_208788148.1 Unknown                                                51.2    0.004 
+RZQ35992.1 Unknown                                                    51.2    0.004 
+WP_165388624.1 EpsG family protein [Vibrio vulnificus]                50.8    0.005 
+WP_074589542.1 Unknown                                                50.8    0.006 
+WP_226564824.1 EpsG family protein [Shewanella chilikensis]           50.4    0.006 
+EGQ9048511.1 Unknown                                                  50.4    0.008 
+WP_187376886.1 EpsG family protein [Vibrio mimicus]                   50.1    0.008 
+WP_165852839.1 Unknown                                                50.1    0.009 
+EGQ8098765.1 EpsG family protein [Vibrio parahaemolyticus]            50.1    0.009 
+WP_109850271.1 Unknown                                                50.1    0.009 
+WP_075192411.1 Unknown                                                50.1    0.009 
+TXY10348.1 EpsG family protein [Vibrio mimicus]                       50.1    0.009 
+WP_168387058.1 Unknown                                                50.1    0.009 
+WP_160171286.1 Unknown                                                49.7    0.010 
+WP_017045423.1 Unknown                                                49.7    0.011 
+MBE4471106.1 Unknown                                                  49.7    0.011 
+EFU7112338.1 Unknown                                                  49.7    0.011 
+WP_107182790.1 O118/O151 family O-antigen polymerase [Escherichia...  49.7    0.012 
+EEX7263944.1 O118/O151 family O-antigen polymerase [Escherichia c...  49.3    0.013 
+NBJ07491.1 Unknown                                                    49.7    0.013 
+EEU4646411.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.9    0.014 
+EHL6059934.1 Unknown                                                  49.3    0.014 
+EGQ8399918.1 Unknown                                                  48.5    0.015 
+HBA4152158.1 TPA: EpsG family protein [Escherichia coli]              49.3    0.016 
+EEZ6358869.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.9    0.016 
+EEQ2048604.1 Unknown                                                  49.3    0.016 
+EFJ6130823.1 O118/O151 family O-antigen polymerase [Escherichia c...  49.3    0.018 
+EER6325821.1 Unknown                                                  48.9    0.018 
+EGJ6849464.1 Unknown                                                  48.9    0.018 
+EHT3442027.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.5    0.019 
+EET0204782.1 Unknown                                                  48.5    0.020 
+EFF5521382.1 Unknown                                                  48.9    0.020 
+EEX1899886.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.9    0.020 
+EIH2611250.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.5    0.020 
+EGA8678903.1 Unknown                                                  48.9    0.021 
+EEZ4599908.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.9    0.021 
+EET8992662.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.5    0.021 
+KAB0035867.1 Unknown                                                  48.5    0.021 
+WP_077896238.1 Unknown                                                48.5    0.021 
+EEG9565681.1 Unknown                                                  48.5    0.021 
+HAL6490997.1 TPA: O118/O151 family O-antigen polymerase [Escheric...  48.9    0.021 
+EFI4507964.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.5    0.021 
+EER6417671.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.9    0.022 
+EEV1288018.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.1    0.022 
+EFA5661456.1 Unknown                                                  48.5    0.022 
+EEZ2714717.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.9    0.022 
+EIH4072623.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.5    0.022 
+EFA8106849.1 Unknown                                                  48.9    0.022 
+EEW7538701.1 Unknown                                                  48.5    0.023 
+WP_174563684.1 O118/O151 family O-antigen polymerase [Escherichia...  48.9    0.023 
+EEV4658617.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.5    0.023 
+EHY9791863.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.5    0.023 
+EEQ3919841.1 Unknown                                                  48.5    0.023 
+EEQ9352662.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.1    0.023 
+EEC7488495.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.1    0.023 
+EGV6476668.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.1    0.023 
+EFO4370604.1 Unknown                                                  48.1    0.023 
+EEX1364946.1 Unknown                                                  48.1    0.024 
+EFC0346617.1 Unknown                                                  48.1    0.024 
+EEZ9448872.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.5    0.024 
+EHH4911569.1 Unknown                                                  48.9    0.024 
+EIH3612638.1 Unknown                                                  48.9    0.025 
+EEX4801292.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.1    0.025 
+WP_106424699.1 Unknown                                                48.1    0.025 
+EEW0096549.1 Unknown                                                  48.5    0.026 
+TZC16126.1 Unknown                                                    48.1    0.026 
+EFJ2052496.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.1    0.026 
+EFA1245002.1 Unknown                                                  48.1    0.027 
+WP_001380547.1 MULTISPECIES: O118/O151 family O-antigen polymeras...  48.5    0.027 
+EED1620742.1 O118/O151 family O-antigen polymerase [Escherichia c...  48.1    0.027 
+EFI1616196.1 Unknown                                                  48.1    0.027 
+MBD8970605.1 EpsG family protein [Prevotella sp.]                     48.5    0.028 
+
+
+Sequence with id WP_065118370 no longer exists in database...alignment skipped
+Sequence with id WP_000053677 no longer exists in database...alignment skipped
+Sequence with id WP_000053679 no longer exists in database...alignment skipped
+>WP_000053678.1 EpsG family protein [Acinetobacter baumannii]
+ EKB40340.1 hypothetical protein W9M_03064 [Acinetobacter baumannii Ab44444]
+Length=346
+
+ Score = 590 bits (1522),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 309/310 (99%), Positives = 310/310 (100%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLV+FYVTWTFQASEF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVVFYVTWTFQASEF  336
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  337  IKNNYFLPLS  346
+
+
+Sequence with id WP_156995592 no longer exists in database...alignment skipped
+Sequence with id WP_157010731 no longer exists in database...alignment skipped
+Sequence with id WP_106474212 no longer exists in database...alignment skipped
+>AHB32888.2 Wzy [Acinetobacter baumannii]
+Length=310
+
+ Score = 590 bits (1520),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 310/310 (100%), Positives = 310/310 (100%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  301  IKNNYFLPLS  310
+
+
+Sequence with id MBZ0488423 no longer exists in database...alignment skipped
+Sequence with id WP_223234794 no longer exists in database...alignment skipped
+Sequence with id AHM95381 no longer exists in database...alignment skipped
+Sequence with id WP_032028071 no longer exists in database...alignment skipped
+Sequence with id WP_031958231 no longer exists in database...alignment skipped
+>WP_032023495.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=325
+
+ Score = 589 bits (1518),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 310/310 (100%), Positives = 310/310 (100%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  16   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  75
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  76   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  135
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  136  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  195
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  196  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  255
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  256  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  315
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  316  IKNNYFLPLS  325
+
+
+>WP_087867409.1 EpsG family protein [Acinetobacter baumannii]
+ OVO08501.1 beta-carotene 15,15'-monooxygenase [Acinetobacter baumannii]
+Length=346
+
+ Score = 589 bits (1518),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 309/310 (99%), Positives = 310/310 (100%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIF+VGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFSVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  336
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  337  IKNNYFLPLS  346
+
+
+>HAV5800562.1 EpsG family protein [Acinetobacter baumannii]
+ HAV5872238.1 EpsG family protein [Acinetobacter baumannii]
+Length=346
+
+ Score = 589 bits (1518),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 308/310 (99%), Positives = 310/310 (100%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKN+GSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNMGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  336
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  337  IKNNYFLPLS  346
+
+
+Sequence with id EHR8891662 no longer exists in database...alignment skipped
+Sequence with id EHR8866922 no longer exists in database...alignment skipped
+>WP_139418114.1 EpsG family protein [Acinetobacter baumannii]
+Length=346
+
+ Score = 588 bits (1516),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 308/310 (99%), Positives = 309/310 (99%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLL KFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLTKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  336
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  337  IKNNYFLPLS  346
+
+
+Sequence with id WP_147399386 no longer exists in database...alignment skipped
+Sequence with id EIQ8046439 no longer exists in database...alignment skipped
+>MBE2353524.1 EpsG family protein [Acinetobacter baumannii]
+ MBE2386381.1 EpsG family protein [Acinetobacter baumannii]
+ MBE2500709.1 EpsG family protein [Acinetobacter baumannii]
+ MBE2551249.1 EpsG family protein [Acinetobacter baumannii]
+ MBE2649611.1 EpsG family protein [Acinetobacter baumannii]
+Length=346
+
+ Score = 588 bits (1515),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 309/310 (99%), Positives = 309/310 (99%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLY SGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYFSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  336
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  337  IKNNYFLPLS  346
+
+
+>WP_086987805.1 EpsG family protein [Acinetobacter baumannii]
+ SFY08372.1 Uncharacterised protein [Acinetobacter baumannii]
+Length=346
+
+ Score = 588 bits (1515),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 308/310 (99%), Positives = 309/310 (99%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLE YSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEDYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  336
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  337  IKNNYFLPLS  346
+
+
+>OWX40759.1 beta-carotene 15,15'-monooxygenase [Acinetobacter baumannii]
+Length=338
+
+ Score = 587 bits (1514),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 308/310 (99%), Positives = 309/310 (99%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  29   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  88
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  89   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  148
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  149  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  208
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  209  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  268
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRL NTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  269  AFYDFGILSGRLXNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  328
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  329  IKNNYFLPLS  338
+
+
+>EIR5945449.1 EpsG family protein [Acinetobacter baumannii]
+ EIR6200709.1 EpsG family protein [Acinetobacter baumannii]
+ EIR6519576.1 EpsG family protein [Acinetobacter baumannii]
+ EIR6598700.1 EpsG family protein [Acinetobacter baumannii]
+Length=346
+
+ Score = 587 bits (1514),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 308/310 (99%), Positives = 309/310 (99%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLV FYVTWTFQASEF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVFFYVTWTFQASEF  336
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  337  IKNNYFLPLS  346
+
+
+>MBE2834555.1 EpsG family protein [Acinetobacter baumannii]
+Length=346
+
+ Score = 587 bits (1513),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 309/310 (99%), Positives = 309/310 (99%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRL KIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLYKIYLYIYFLLYFLVIFYVTWTFQASEF  336
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  337  IKNNYFLPLS  346
+
+
+>WP_228149670.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=339
+
+ Score = 587 bits (1513),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 308/310 (99%), Positives = 309/310 (99%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  30   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  89
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  90   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  149
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  150  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  209
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  210  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  269
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRL NTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  270  AFYDFGILSGRLXNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  329
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  330  IKNNYFLPLS  339
+
+
+Sequence with id WP_111906220 no longer exists in database...alignment skipped
+Sequence with id WP_031952485 no longer exists in database...alignment skipped
+>WP_065189071.1 EpsG family protein [Acinetobacter baumannii]
+ OBM88759.1 beta-carotene 15,15'-monooxygenase [Acinetobacter baumannii]
+Length=346
+
+ Score = 586 bits (1510),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 308/310 (99%), Positives = 308/310 (99%), Gaps = 0/310 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAF L FISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFFLFFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  336
+
+Query  301  IKNNYFLPLS  310
+            IKNNYFLPLS
+Sbjct  337  IKNNYFLPLS  346
+
+
+>WP_138155551.1 EpsG family protein [Acinetobacter baumannii]
+ TLL33744.1 EpsG family protein [Acinetobacter baumannii]
+ HAV2930382.1 EpsG family protein [Acinetobacter baumannii]
+Length=348
+
+ Score = 585 bits (1508),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 309/312 (99%), Positives = 310/312 (99%), Gaps = 2/312 (1%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLAFILI--FISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  178
+            LFHQSSLAFILI  FISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY
+Sbjct  157  LFHQSSLAFILILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  216
+
+Query  179  FQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSL  238
+            FQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSL
+Sbjct  217  FQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSL  276
+
+Query  239  RVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQAS  298
+            RVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQAS
+Sbjct  277  RVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQAS  336
+
+Query  299  EFIKNNYFLPLS  310
+            EFIKNNYFLPLS
+Sbjct  337  EFIKNNYFLPLS  348
+
+
+Sequence with id WP_141101090 no longer exists in database...alignment skipped
+Sequence with id WP_223234204 no longer exists in database...alignment skipped
+>HAV6249884.1 EpsG family protein [Acinetobacter baumannii]
+Length=291
+
+ Score = 553 bits (1424),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 291/291 (100%), Positives = 291/291 (100%), Gaps = 0/291 (0%)
+
+Query  20   ETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGF  79
+            ETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGF
+Sbjct  1    ETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGF  60
+
+Query  80   FMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFF  139
+            FMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFF
+Sbjct  61   FMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFF  120
+
+Query  140  NNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSL  199
+            NNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSL
+Sbjct  121  NNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSL  180
+
+Query  200  SNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLI  259
+            SNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLI
+Sbjct  181  SNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLI  240
+
+Query  260  EVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  310
+            EVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS
+Sbjct  241  EVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  291
+
+
+>WP_147399154.1 EpsG family protein, partial [Acinetobacter baumannii]
+ MBP3072000.1 EpsG family protein [Acinetobacter baumannii]
+ RIW42794.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=321
+
+ Score = 540 bits (1391),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 285/285 (100%), Positives = 285/285 (100%), Gaps = 0/285 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYF  285
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYF
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYF  321
+
+
+Sequence with id WP_031954506 no longer exists in database...alignment skipped
+Sequence with id WP_225471148 no longer exists in database...alignment skipped
+Sequence with id WP_228146940 no longer exists in database...alignment skipped
+>WP_228303484.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=305
+
+ Score = 526 bits (1355),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 276/277 (99%), Positives = 277/277 (100%), Gaps = 0/277 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  29   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  88
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  89   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  148
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  149  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  208
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  209  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  268
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYL  277
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYL
+Sbjct  269  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYL  305
+
+
+>EHN8359264.1 EpsG family protein [Acinetobacter baumannii]
+Length=311
+
+ Score = 523 bits (1348),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 275/275 (100%), Positives = 275/275 (100%), Gaps = 0/275 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKI  275
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKI
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKI  311
+
+
+>WP_085840892.1 EpsG family protein, partial [Acinetobacter baumannii]
+ PQH54193.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=310
+
+ Score = 523 bits (1346),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 274/274 (100%), Positives = 274/274 (100%), Gaps = 0/274 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNK  274
+            AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNK
+Sbjct  277  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNK  310
+
+
+Sequence with id WP_105914304 no longer exists in database...alignment skipped
+Sequence with id WP_085840848 no longer exists in database...alignment skipped
+Sequence with id WP_105918462 no longer exists in database...alignment skipped
+>HBM1769576.1 EpsG family protein [Acinetobacter baumannii]
+Length=273
+
+ Score = 515 bits (1327),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 272/273 (99%), Positives = 273/273 (100%), Gaps = 0/273 (0%)
+
+Query  38   SDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLV  97
+            SDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLV
+Sbjct  1    SDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLV  60
+
+Query  98   IYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINI  157
+            IYGSVLYLSGKKYISLVFFILA+LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINI
+Sbjct  61   IYGSVLYLSGKKYISLVFFILAVLFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINI  120
+
+Query  158  LILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNN  217
+            LILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNN
+Sbjct  121  LILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNN  180
+
+Query  218  RLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYL  277
+            RLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYL
+Sbjct  181  RLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYL  240
+
+Query  278  YIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  310
+            YIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS
+Sbjct  241  YIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  273
+
+
+Sequence with id WP_218215334 no longer exists in database...alignment skipped
+Sequence with id WP_085845550 no longer exists in database...alignment skipped
+>WP_094850258.1 EpsG family protein, partial [Acinetobacter baumannii]
+ OZI92022.1 beta-carotene 15,15'-monooxygenase, partial [Acinetobacter baumannii]
+Length=267
+
+ Score = 507 bits (1306),  Expect = 5e-180, Method: Compositional matrix adjust.
+ Identities = 266/267 (99%), Positives = 267/267 (100%), Gaps = 0/267 (0%)
+
+Query  5    NIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVE  64
+            NIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVE
+Sbjct  1    NIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVE  60
+
+Query  65   IKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQ  124
+            IKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+LFHQ
+Sbjct  61   IKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAVLFHQ  120
+
+Query  125  SSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEA  184
+            SSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEA
+Sbjct  121  SSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEA  180
+
+Query  185  YSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYD  244
+            YSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYD
+Sbjct  181  YSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYD  240
+
+Query  245  FGILSGRLSNTFLLIEVFLMPMLLSSR  271
+            FGILSGRLSNTFLLIEVFLMPMLLSSR
+Sbjct  241  FGILSGRLSNTFLLIEVFLMPMLLSSR  267
+
+
+Sequence with id WP_133388105 no longer exists in database...alignment skipped
+Sequence with id EHO9570770 no longer exists in database...alignment skipped
+Sequence with id WP_228132095 no longer exists in database...alignment skipped
+Sequence with id EGY2907786 no longer exists in database...alignment skipped
+Sequence with id WP_138059216 no longer exists in database...alignment skipped
+Sequence with id HAV6179451 no longer exists in database...alignment skipped
+>EGY2479425.1 EpsG family protein [Acinetobacter baumannii]
+Length=293
+
+ Score = 489 bits (1259),  Expect = 2e-172, Method: Compositional matrix adjust.
+ Identities = 257/257 (100%), Positives = 257/257 (100%), Gaps = 0/257 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  276
+
+Query  241  AFYDFGILSGRLSNTFL  257
+            AFYDFGILSGRLSNTFL
+Sbjct  277  AFYDFGILSGRLSNTFL  293
+
+
+Sequence with id EIL2181842 no longer exists in database...alignment skipped
+Sequence with id WP_088758366 no longer exists in database...alignment skipped
+>WP_223238592.1 EpsG family protein, partial [Acinetobacter baumannii]
+ MBZ0447079.1 EpsG family protein [Acinetobacter baumannii]
+Length=238
+
+ Score = 451 bits (1159),  Expect = 4e-158, Method: Compositional matrix adjust.
+ Identities = 237/238 (99%), Positives = 238/238 (100%), Gaps = 0/238 (0%)
+
+Query  73   YYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILI  132
+            YYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+LFHQSSLAFILI
+Sbjct  1    YYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAVLFHQSSLAFILI  60
+
+Query  133  FISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAE  192
+            FISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAE
+Sbjct  61   FISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAE  120
+
+Query  193  SVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRL  252
+            SVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRL
+Sbjct  121  SVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRL  180
+
+Query  253  SNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  310
+            SNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS
+Sbjct  181  SNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  238
+
+
+Sequence with id WP_094146402 no longer exists in database...alignment skipped
+Sequence with id WP_223132218 no longer exists in database...alignment skipped
+>EIM7610879.1 EpsG family protein [Acinetobacter baumannii]
+Length=223
+
+ Score = 420 bits (1079),  Expect = 4e-146, Method: Compositional matrix adjust.
+ Identities = 223/223 (100%), Positives = 223/223 (100%), Gaps = 0/223 (0%)
+
+Query  39   DSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVI  98
+            DSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVI
+Sbjct  1    DSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVI  60
+
+Query  99   YGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINIL  158
+            YGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINIL
+Sbjct  61   YGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINIL  120
+
+Query  159  ILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNR  218
+            ILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNR
+Sbjct  121  ILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNR  180
+
+Query  219  LLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEV  261
+            LLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEV
+Sbjct  181  LLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEV  223
+
+
+Sequence with id WP_228133709 no longer exists in database...alignment skipped
+>WP_147504387.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=246
+
+ Score = 405 bits (1040),  Expect = 9e-140, Method: Compositional matrix adjust.
+ Identities = 209/210 (99%), Positives = 210/210 (100%), Gaps = 0/210 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIEFFL  210
+            RLEAYSTTDYAESVGFFSLSNIKFYIEFFL
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIEFFL  246
+
+
+>EHZ7762082.1 EpsG family protein [Acinetobacter baumannii]
+Length=243
+
+ Score = 400 bits (1028),  Expect = 5e-138, Method: Compositional matrix adjust.
+ Identities = 207/207 (100%), Positives = 207/207 (100%), Gaps = 0/207 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFYIE  207
+            RLEAYSTTDYAESVGFFSLSNIKFYIE
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFYIE  243
+
+
+Sequence with id WP_032028469 no longer exists in database...alignment skipped
+>WP_147402336.1 EpsG family protein, partial [Acinetobacter baumannii]
+ RJO05416.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=241
+
+ Score = 397 bits (1019),  Expect = 1e-136, Method: Compositional matrix adjust.
+ Identities = 205/205 (100%), Positives = 205/205 (100%), Gaps = 0/205 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSNIKFY  205
+            RLEAYSTTDYAESVGFFSLSNIKFY
+Sbjct  217  RLEAYSTTDYAESVGFFSLSNIKFY  241
+
+
+Sequence with id WP_223491408 no longer exists in database...alignment skipped
+>WP_000053676.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=237
+
+ Score = 389 bits (999),  Expect = 1e-133, Method: Compositional matrix adjust.
+ Identities = 201/201 (100%), Positives = 201/201 (100%), Gaps = 0/201 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAESVGFFSLSN  201
+            RLEAYSTTDYAESVGFFSLSN
+Sbjct  217  RLEAYSTTDYAESVGFFSLSN  237
+
+
+>EIL2149658.1 EpsG family protein [Acinetobacter baumannii]
+Length=202
+
+ Score = 377 bits (968),  Expect = 1e-129, Method: Compositional matrix adjust.
+ Identities = 202/202 (100%), Positives = 202/202 (100%), Gaps = 0/202 (0%)
+
+Query  109  KYISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVAR  168
+            KYISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVAR
+Sbjct  1    KYISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVAR  60
+
+Query  169  FILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFF  228
+            FILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFF
+Sbjct  61   FILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFF  120
+
+Query  229  VFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVI  288
+            VFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVI
+Sbjct  121  VFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVI  180
+
+Query  289  FYVTWTFQASEFIKNNYFLPLS  310
+            FYVTWTFQASEFIKNNYFLPLS
+Sbjct  181  FYVTWTFQASEFIKNNYFLPLS  202
+
+
+Sequence with id WP_223618636 no longer exists in database...alignment skipped
+>WP_138060194.1 EpsG family protein, partial [Acinetobacter baumannii]
+ TLT52588.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=228
+
+ Score = 373 bits (957),  Expect = 2e-127, Method: Compositional matrix adjust.
+ Identities = 191/192 (99%), Positives = 192/192 (100%), Gaps = 0/192 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYAE  192
+            RLEAYSTTDYAE
+Sbjct  217  RLEAYSTTDYAE  228
+
+
+Sequence with id MBU0324031 no longer exists in database...alignment skipped
+>WP_228306985.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=219
+
+ Score = 370 bits (950),  Expect = 2e-126, Method: Compositional matrix adjust.
+ Identities = 191/191 (100%), Positives = 191/191 (100%), Gaps = 0/191 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  29   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  88
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  89   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  148
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  149  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  208
+
+Query  181  RLEAYSTTDYA  191
+            RLEAYSTTDYA
+Sbjct  209  RLEAYSTTDYA  219
+
+
+>HAW6243947.1 EpsG family protein [Acinetobacter baumannii]
+Length=227
+
+ Score = 370 bits (950),  Expect = 2e-126, Method: Compositional matrix adjust.
+ Identities = 190/191 (99%), Positives = 191/191 (100%), Gaps = 0/191 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDYA  191
+            RLEAYSTTDYA
+Sbjct  217  RLEAYSTTDYA  227
+
+
+>EIM7567995.1 EpsG family protein [Acinetobacter baumannii]
+Length=198
+
+ Score = 369 bits (947),  Expect = 2e-126, Method: Compositional matrix adjust.
+ Identities = 198/198 (100%), Positives = 198/198 (100%), Gaps = 0/198 (0%)
+
+Query  113  LVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILL  172
+            LVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILL
+Sbjct  1    LVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILL  60
+
+Query  173  DAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIF  232
+            DAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIF
+Sbjct  61   DAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIF  120
+
+Query  233  TVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVT  292
+            TVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVT
+Sbjct  121  TVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVT  180
+
+Query  293  WTFQASEFIKNNYFLPLS  310
+            WTFQASEFIKNNYFLPLS
+Sbjct  181  WTFQASEFIKNNYFLPLS  198
+
+
+>HBI1362028.1 EpsG family protein [Acinetobacter baumannii]
+Length=226
+
+ Score = 368 bits (945),  Expect = 1e-125, Method: Compositional matrix adjust.
+ Identities = 190/190 (100%), Positives = 190/190 (100%), Gaps = 0/190 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  180
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQ  216
+
+Query  181  RLEAYSTTDY  190
+            RLEAYSTTDY
+Sbjct  217  RLEAYSTTDY  226
+
+
+Sequence with id WP_171256810 no longer exists in database...alignment skipped
+>HAV3513254.1 EpsG family protein [Acinetobacter baumannii]
+Length=195
+
+ Score = 364 bits (935),  Expect = 1e-124, Method: Compositional matrix adjust.
+ Identities = 195/195 (100%), Positives = 195/195 (100%), Gaps = 0/195 (0%)
+
+Query  116  FILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAA  175
+            FILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAA
+Sbjct  1    FILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAA  60
+
+Query  176  MDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVG  235
+            MDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVG
+Sbjct  61   MDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVG  120
+
+Query  236  LSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTF  295
+            LSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTF
+Sbjct  121  LSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTF  180
+
+Query  296  QASEFIKNNYFLPLS  310
+            QASEFIKNNYFLPLS
+Sbjct  181  QASEFIKNNYFLPLS  195
+
+
+Sequence with id AHB32746 no longer exists in database...alignment skipped
+Sequence with id WP_041172577 no longer exists in database...alignment skipped
+>EEX02159.1 hypothetical protein HMPREF0010_03279 [Acinetobacter baumannii 
+ATCC 19606 = CIP 70.34 = JCM 6841]
+ EXD53654.1 putative membrane protein [Acinetobacter baumannii 662545-1347]
+ EXF16683.1 putative membrane protein [Acinetobacter baumannii 1593273]
+ EXW33798.1 putative membrane protein [Acinetobacter baumannii 44857_9]
+ KFC04905.1 epsG family protein [Acinetobacter baumannii ATCC 19606 = CIP 
+70.34 = JCM 6841]
+Length=193
+
+ Score = 361 bits (927),  Expect = 2e-123, Method: Compositional matrix adjust.
+ Identities = 192/193 (99%), Positives = 193/193 (100%), Gaps = 0/193 (0%)
+
+Query  118  LAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMD  177
+            +AILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMD
+Sbjct  1    MAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMD  60
+
+Query  178  YFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLS  237
+            YFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLS
+Sbjct  61   YFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLS  120
+
+Query  238  LRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQA  297
+            LRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQA
+Sbjct  121  LRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQA  180
+
+Query  298  SEFIKNNYFLPLS  310
+            SEFIKNNYFLPLS
+Sbjct  181  SEFIKNNYFLPLS  193
+
+
+Sequence with id EHN8583713 no longer exists in database...alignment skipped
+Sequence with id HAV3495309 no longer exists in database...alignment skipped
+>WP_228268735.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=185
+
+ Score = 345 bits (886),  Expect = 3e-117, Method: Compositional matrix adjust.
+ Identities = 183/185 (99%), Positives = 185/185 (100%), Gaps = 0/185 (0%)
+
+Query  47   IFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLS  106
+            +FSFFTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLS
+Sbjct  1    MFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLS  60
+
+Query  107  GKKYISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIV  166
+            GKKYISLVFFILA+LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIV
+Sbjct  61   GKKYISLVFFILAVLFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIV  120
+
+Query  167  ARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIV  226
+            ARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIV
+Sbjct  121  ARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIV  180
+
+Query  227  FFVFI  231
+            FFVFI
+Sbjct  181  FFVFI  185
+
+
+Sequence with id WP_005200905 no longer exists in database...alignment skipped
+>HAV4607227.1 EpsG family protein [Acinetobacter baumannii]
+Length=214
+
+ Score = 342 bits (876),  Expect = 2e-115, Method: Compositional matrix adjust.
+ Identities = 177/178 (99%), Positives = 178/178 (100%), Gaps = 0/178 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  178
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  214
+
+
+>MBU0353250.1 EpsG family protein [Acinetobacter baumannii]
+Length=180
+
+ Score = 339 bits (870),  Expect = 7e-115, Method: Compositional matrix adjust.
+ Identities = 180/180 (100%), Positives = 180/180 (100%), Gaps = 0/180 (0%)
+
+Query  78   GFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYL  137
+            GFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYL
+Sbjct  1    GFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYL  60
+
+Query  138  FFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFF  197
+            FFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFF
+Sbjct  61   FFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFF  120
+
+Query  198  SLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFL  257
+            SLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFL
+Sbjct  121  SLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFL  180
+
+
+Sequence with id EGY3043915 no longer exists in database...alignment skipped
+Sequence with id WP_171292262 no longer exists in database...alignment skipped
+>EIM7575900.1 EpsG family protein [Acinetobacter baumannii]
+Length=212
+
+ Score = 337 bits (865),  Expect = 1e-113, Method: Compositional matrix adjust.
+ Identities = 176/176 (100%), Positives = 176/176 (100%), Gaps = 0/176 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAM  176
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAM
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAM  212
+
+
+>HAV3978917.1 EpsG family protein [Acinetobacter baumannii]
+Length=179
+
+ Score = 335 bits (860),  Expect = 2e-113, Method: Compositional matrix adjust.
+ Identities = 179/179 (100%), Positives = 179/179 (100%), Gaps = 0/179 (0%)
+
+Query  132  IFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYA  191
+            IFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYA
+Sbjct  1    IFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYA  60
+
+Query  192  ESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGR  251
+            ESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGR
+Sbjct  61   ESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGR  120
+
+Query  252  LSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  310
+            LSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS
+Sbjct  121  LSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  179
+
+
+Sequence with id HAV4497103 no longer exists in database...alignment skipped
+Sequence with id EHD4319573 no longer exists in database...alignment skipped
+>WP_228307202.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=177
+
+ Score = 333 bits (855),  Expect = 1e-112, Method: Compositional matrix adjust.
+ Identities = 177/177 (100%), Positives = 177/177 (100%), Gaps = 0/177 (0%)
+
+Query  81   MMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFFN  140
+            MMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFFN
+Sbjct  1    MMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFFN  60
+
+Query  141  NFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLS  200
+            NFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLS
+Sbjct  61   NFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLS  120
+
+Query  201  NIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFL  257
+            NIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFL
+Sbjct  121  NIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFL  177
+
+
+>HAV6238493.1 EpsG family protein [Acinetobacter baumannii]
+Length=175
+
+ Score = 330 bits (845),  Expect = 3e-111, Method: Compositional matrix adjust.
+ Identities = 175/175 (100%), Positives = 175/175 (100%), Gaps = 0/175 (0%)
+
+Query  136  YLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVG  195
+            YLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVG
+Sbjct  1    YLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVG  60
+
+Query  196  FFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNT  255
+            FFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNT
+Sbjct  61   FFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNT  120
+
+Query  256  FLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  310
+            FLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS
+Sbjct  121  FLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  175
+
+
+>QBM04691.1 Wzy [Acinetobacter baumannii]
+ BBR71740.1 hypothetical protein WP4W18E11_00560 [Acinetobacter baumannii]
+ SSP46276.1 Uncharacterised protein [Acinetobacter baumannii]
+Length=322
+
+ Score = 330 bits (847),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 168/310 (54%), Positives = 238/310 (77%), Gaps = 4/310 (1%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  14   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  73
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  74   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  133
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  134  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GIIFSRVVFLPLALSFF  191
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLR  239
+             RL++Y+ TDYAESV    L+NIKFYIEF  I L +N + L +KF+++ +FIFT+GL++R
+Sbjct  192  SRLQSYANTDYAESVSLLGLANIKFYIEFIFILLFMNKKDLNDKFLIYMIFIFTIGLAIR  251
+
+Query  240  VAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASE  299
+            +AF+DF ILSGRLSN FL IE+FLMP  +  R +K+ L++  L YF+++ +++W FQ +E
+Sbjct  252  IAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKMVLFLSLLFYFILVGFISWNFQVAE  311
+
+Query  300  FIKNNYFLPL  309
+            ++ ++YF PL
+Sbjct  312  YLADSYFSPL  321
+
+
+>WP_191016112.1 EpsG family protein [Acinetobacter seifertii]
+ QNX87529.1 EpsG family protein [Acinetobacter seifertii]
+Length=346
+
+ Score = 331 bits (848),  Expect = 3e-109, Method: Compositional matrix adjust.
+ Identities = 169/310 (55%), Positives = 238/310 (77%), Gaps = 4/310 (1%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  38   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  98   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  157
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  158  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GIIFSRVVFLPLALSFF  215
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLR  239
+             RL++Y+ TDYAESV    L+NIKFYIEF  I L +N + L +KF+++ VFIFT+GL++R
+Sbjct  216  SRLQSYANTDYAESVSLLGLANIKFYIEFIFILLFMNKKDLNDKFLIYMVFIFTIGLAIR  275
+
+Query  240  VAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASE  299
+            +AF+DF ILSGRLSN FL IE+FLMP  +  R +K+ L++  L YF+++ +++W FQ +E
+Sbjct  276  IAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKMVLFLSLLFYFILVGFISWNFQVAE  335
+
+Query  300  FIKNNYFLPL  309
+            ++ ++YF PL
+Sbjct  336  YLADSYFSPL  345
+
+
+>WP_104504119.1 EpsG family protein [Acinetobacter indicus]
+Length=345
+
+ Score = 331 bits (848),  Expect = 4e-109, Method: Compositional matrix adjust.
+ Identities = 176/309 (57%), Positives = 238/309 (77%), Gaps = 1/309 (0%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKNI  Y+L ++  FY ETGVE+GWG+YSKI+S+F++SP++LF +FSFFTF+  Y+ S 
+Sbjct  38   IFKNIELYNLKSYKEFYLETGVELGWGIYSKIVSIFTESPIILFGLFSFFTFWIIYKSSE  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++ +KF  V+++YLP+ +F+MQQFMQIRQGFA+P+VI  S+LYL G K   ++FFILAI 
+Sbjct  98   ILNLKFNNVLVFYLPSAYFLMQQFMQIRQGFAVPVVILASLLYLKGNKIAGIIFFILAIF  157
+
+Query  122  FHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQR  181
+            FHQ  + +I++F+ YL  N +  I +S F+F I+N+LIL+ GFI+ R I+   A   F+R
+Sbjct  158  FHQVVIPYIIVFMIYLIVNKYFPIASS-FRFKILNVLILIIGFIIVRSIIYPIAFVAFER  216
+
+Query  182  LEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVA  241
+            L+AYS +DY+E VGFFSLSNIKFYIEFF+I    N +L  NKF +F  FIFT+GL+LRVA
+Sbjct  217  LQAYSESDYSEKVGFFSLSNIKFYIEFFIILFFSNKKLYDNKFYIFLAFIFTIGLTLRVA  276
+
+Query  242  FYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFI  301
+            F+DF ILSGRLSN FL+ E+FLMPML+ SR   IY Y+ F +YF +I YVTW FQAS ++
+Sbjct  277  FFDFAILSGRLSNVFLMSEIFLMPMLILSRFKLIYAYMLFYIYFFLILYVTWFFQASPYL  336
+
+Query  302  KNNYFLPLS  310
+            + +YF+PLS
+Sbjct  337  EKSYFIPLS  345
+
+
+>AHB32666.1 Wzy [Acinetobacter nosocomialis]
+ ENV42290.1 hypothetical protein F958_00653 [Acinetobacter nosocomialis NIPH 
+386]
+ CDG73618.1 hypothetical protein ANICBIBUN_11485 [Acinetobacter nosocomialis 
+28F]
+Length=322
+
+ Score = 330 bits (845),  Expect = 5e-109, Method: Compositional matrix adjust.
+ Identities = 167/310 (54%), Positives = 238/310 (77%), Gaps = 4/310 (1%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  14   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  73
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+V+Y S LYL  KK ++++FF LA+L
+Sbjct  74   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVVYASFLYLENKKLLAILFFSLAVL  133
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  134  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GIIFSRVVFLPLALSFF  191
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLR  239
+             RL++Y+ TDYAESV    L+NIKFYIEF  I L +N + L +KF+++ +FIFT+GL++R
+Sbjct  192  SRLQSYANTDYAESVSLLGLANIKFYIEFIFILLFMNKKDLNDKFLIYMIFIFTIGLAIR  251
+
+Query  240  VAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASE  299
+            +AF+DF ILSGRLSN FL IE+FLMP  +  R +K+ L++  L YF+++ +++W FQ +E
+Sbjct  252  IAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKMVLFLSLLFYFILVGFISWNFQVAE  311
+
+Query  300  FIKNNYFLPL  309
+            ++ ++YF PL
+Sbjct  312  YLADSYFSPL  321
+
+
+Sequence with id QBM04667 no longer exists in database...alignment skipped
+Sequence with id WP_223234915 no longer exists in database...alignment skipped
+Sequence with id WP_032014441 no longer exists in database...alignment skipped
+Sequence with id WP_025469574 no longer exists in database...alignment skipped
+>BCZ12522.1 hypothetical protein OCUAc18_00620 [Acinetobacter baumannii]
+Length=324
+
+ Score = 329 bits (843),  Expect = 1e-108, Method: Compositional matrix adjust.
+ Identities = 170/310 (55%), Positives = 238/310 (77%), Gaps = 4/310 (1%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKNI  Y+LTNFS FY ETGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  16   IFKNINYYNLTNFSDFYLETGVELGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  75
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  76   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  135
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  136  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GIIFSRVVFLPLALSFF  193
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLR  239
+             RL++Y+ TDYAESV    L+NIKFYIEF  I L +N + L +KF+++ +FIFT+GL++R
+Sbjct  194  SRLQSYANTDYAESVSLLGLANIKFYIEFIFILLFMNKKDLNDKFLIYMIFIFTIGLAIR  253
+
+Query  240  VAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASE  299
+            +AF+DF ILSGRLSN FL IE+FLMP  +  R +K+ L++  L YF+++ +++W FQ +E
+Sbjct  254  IAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKMVLFLSLLFYFILVGFISWNFQVAE  313
+
+Query  300  FIKNNYFLPL  309
+            ++ ++YF PL
+Sbjct  314  YLADSYFSPL  323
+
+
+Sequence with id WP_031982922 no longer exists in database...alignment skipped
+>WP_221255378.1 EpsG family protein [Acinetobacter baumannii]
+Length=346
+
+ Score = 329 bits (843),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 170/310 (55%), Positives = 238/310 (77%), Gaps = 4/310 (1%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKNI  Y+LTNFS FY ETGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  38   IFKNINYYNLTNFSDFYLETGVELGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  98   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  157
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  158  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GIIFSRVVFLPLALSFF  215
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLR  239
+             RL++Y+ TDYAESV    L+NIKFYIEF  I L +N + L +KF+++ +FIFT+GL++R
+Sbjct  216  SRLQSYANTDYAESVSLLGLANIKFYIEFIFILLFMNKKDLNDKFLIYMIFIFTIGLAIR  275
+
+Query  240  VAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASE  299
+            +AF+DF ILSGRLSN FL IE+FLMP  +  R +K+ L++  L YF+++ +++W FQ +E
+Sbjct  276  IAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKMVLFLSLLFYFILVGFISWNFQVAE  335
+
+Query  300  FIKNNYFLPL  309
+            ++ ++YF PL
+Sbjct  336  YLADSYFSPL  345
+
+
+>WP_227555782.1 EpsG family protein [Acinetobacter baumannii]
+Length=340
+
+ Score = 328 bits (842),  Expect = 3e-108, Method: Compositional matrix adjust.
+ Identities = 168/310 (54%), Positives = 236/310 (76%), Gaps = 4/310 (1%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  32   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  91
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  92   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  151
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  152  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GTIFSRVVFLPLALSFF  209
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLR  239
+             RL++Y+ TDYAESV    L+NIKFYIEF  I   ++ + L +KF+++ +F+FT+GL++R
+Sbjct  210  SRLQSYANTDYAESVSLLGLANIKFYIEFIFILFFMHKKDLNDKFLIYMIFVFTIGLAIR  269
+
+Query  240  VAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASE  299
+            +AF+DF ILSGRLSN FL IE+FLMP  +  R +KI L    +LYFL+I +++W FQ +E
+Sbjct  270  IAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKIVLLTTLVLYFLIIGFISWNFQVAE  329
+
+Query  300  FIKNNYFLPL  309
+            ++ ++YF PL
+Sbjct  330  YLADSYFYPL  339
+
+
+Sequence with id AQQ74322 no longer exists in database...alignment skipped
+Sequence with id EHM8058692 no longer exists in database...alignment skipped
+>WP_032067856.1 EpsG family protein [Acinetobacter baumannii]
+ EXC52953.1 putative membrane protein [Acinetobacter baumannii 99063]
+ MBJ9700822.1 EpsG family protein [Acinetobacter baumannii]
+Length=346
+
+ Score = 328 bits (840),  Expect = 6e-108, Method: Compositional matrix adjust.
+ Identities = 168/310 (54%), Positives = 236/310 (76%), Gaps = 4/310 (1%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  38   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  98   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  157
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  158  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GTIFSRVVFLPLALSFF  215
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLR  239
+             RL++Y+ TDYAESV    L+NIKFYIEF  I   ++ + L +KF+++ +F+FT+GL++R
+Sbjct  216  SRLQSYANTDYAESVSLLGLANIKFYIEFIFILFFMHKKDLNDKFLIYMIFVFTIGLAIR  275
+
+Query  240  VAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASE  299
+            +AF+DF ILSGRLSN FL IE+FLMP  +  R +KI L    +LYFL+I +++W FQ +E
+Sbjct  276  IAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKIVLLTTLVLYFLIIGFISWNFQVAE  335
+
+Query  300  FIKNNYFLPL  309
+            ++ ++YF PL
+Sbjct  336  YLADSYFYPL  345
+
+
+>WP_079739463.1 EpsG family protein, partial [Acinetobacter baumannii]
+ KOR72998.1 beta-carotene 15,15'-monooxygenase, partial [Acinetobacter baumannii]
+Length=170
+
+ Score = 321 bits (822),  Expect = 9e-108, Method: Compositional matrix adjust.
+ Identities = 170/170 (100%), Positives = 170/170 (100%), Gaps = 0/170 (0%)
+
+Query  141  NFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLS  200
+            NFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLS
+Sbjct  1    NFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLS  60
+
+Query  201  NIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIE  260
+            NIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIE
+Sbjct  61   NIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIE  120
+
+Query  261  VFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  310
+            VFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS
+Sbjct  121  VFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  170
+
+
+>WP_171545281.1 MULTISPECIES: EpsG family protein [Acinetobacter]
+Length=340
+
+ Score = 327 bits (838),  Expect = 9e-108, Method: Compositional matrix adjust.
+ Identities = 168/310 (54%), Positives = 235/310 (76%), Gaps = 4/310 (1%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  32   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  91
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  92   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  151
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  152  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GTIFSRVVFLPLALSFF  209
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLR  239
+             RL++Y+ TDYAESV    L+NIKFYIEF  I   ++ + L +KF++  +F+FT+GL++R
+Sbjct  210  SRLQSYANTDYAESVSLLGLANIKFYIEFIFILFFMHKKDLNDKFLILMIFVFTIGLAIR  269
+
+Query  240  VAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASE  299
+            +AF+DF ILSGRLSN FL IE+FLMP  +  R +KI L    +LYFL+I +++W FQ +E
+Sbjct  270  IAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKIVLLTTLVLYFLIIGFISWNFQVAE  329
+
+Query  300  FIKNNYFLPL  309
+            ++ ++YF PL
+Sbjct  330  YLADSYFYPL  339
+
+
+Sequence with id WP_002123290 no longer exists in database...alignment skipped
+>WP_227553730.1 EpsG family protein [Acinetobacter baumannii]
+Length=340
+
+ Score = 326 bits (835),  Expect = 3e-107, Method: Compositional matrix adjust.
+ Identities = 167/310 (54%), Positives = 234/310 (75%), Gaps = 4/310 (1%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  32   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  91
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  92   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  151
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  152  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GTIFSRVVFLPLALSFF  209
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLR  239
+             RL++Y+ TDYAESV    L+NIKFYIE   I   ++ + L +KF++  +F+FT+GL++R
+Sbjct  210  SRLQSYANTDYAESVSLLGLANIKFYIELIFILFFMHKKDLNDKFLILMIFVFTIGLAIR  269
+
+Query  240  VAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASE  299
+            +AF+DF ILSGRLSN FL IE+FLMP  +  R +KI L    +LYFL+I +++W FQ +E
+Sbjct  270  IAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKIVLLTTLVLYFLIIGFISWNFQVAE  329
+
+Query  300  FIKNNYFLPL  309
+            ++ ++YF PL
+Sbjct  330  YLADSYFYPL  339
+
+
+Sequence with id WP_227572687 no longer exists in database...alignment skipped
+Sequence with id MBJ9432744 no longer exists in database...alignment skipped
+Sequence with id HAV3693673 no longer exists in database...alignment skipped
+Sequence with id WP_079744198 no longer exists in database...alignment skipped
+>WP_187407221.1 EpsG family protein, partial [Acinetobacter baumannii]
+ MBC6802033.1 beta-carotene 15,15'-monooxygenase [Acinetobacter baumannii]
+Length=166
+
+ Score = 315 bits (808),  Expect = 9e-106, Method: Compositional matrix adjust.
+ Identities = 166/166 (100%), Positives = 166/166 (100%), Gaps = 0/166 (0%)
+
+Query  51   FTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKY  110
+            FTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKY
+Sbjct  1    FTFFTFYRISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKY  60
+
+Query  111  ISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFI  170
+            ISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFI
+Sbjct  61   ISLVFFILAILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFI  120
+
+Query  171  LLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLN  216
+            LLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLN
+Sbjct  121  LLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLN  166
+
+
+Sequence with id WP_223129760 no longer exists in database...alignment skipped
+Sequence with id WP_212277671 no longer exists in database...alignment skipped
+Sequence with id WP_171265756 no longer exists in database...alignment skipped
+Sequence with id EHN8352946 no longer exists in database...alignment skipped
+Sequence with id WP_171483606 no longer exists in database...alignment skipped
+Sequence with id WP_151789230 no longer exists in database...alignment skipped
+Sequence with id EHO9561249 no longer exists in database...alignment skipped
+>ERH71907.1 hypothetical protein N173_12750 [Acinetobacter baumannii EGD-HP18]
+Length=299
+
+ Score = 311 bits (798),  Expect = 4e-102, Method: Compositional matrix adjust.
+ Identities = 160/299 (54%), Positives = 226/299 (76%), Gaps = 4/299 (1%)
+
+Query  13   NFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVML  72
+            N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S ++++KF+YVM 
+Sbjct  2    NYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSDIIKLKFIYVMC  61
+
+Query  73   YYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFIL-  131
+            +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+LFHQ+ + +IL 
+Sbjct  62   FYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVLFHQTVIVYILF  121
+
+Query  132  IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDY  190
+            +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F RL++Y+ TDY
+Sbjct  122  LFVFLLIYKYFFEENKPLNFKIYMISILLL--GTIFSRVVFLPLALSFFSRLQSYANTDY  179
+
+Query  191  AESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSG  250
+            AESV    L+NIKFYIEF  I   ++ + L +KF++  +F+FT+GL++R+AF+DF ILSG
+Sbjct  180  AESVSLLGLANIKFYIEFIFILFFMHKKDLNDKFLILMIFVFTIGLAIRIAFFDFAILSG  239
+
+Query  251  RLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPL  309
+            RLSN FL IE+FLMP  +  R +KI L    +LYFL+I +++W FQ +E++ ++YF PL
+Sbjct  240  RLSNVFLFIEIFLMPYFIYKRFSKIVLLTTLVLYFLIIGFISWNFQVAEYLADSYFYPL  298
+
+
+Sequence with id EXD20838 no longer exists in database...alignment skipped
+Sequence with id RXD28446 no longer exists in database...alignment skipped
+Sequence with id EHZ7935098 no longer exists in database...alignment skipped
+>WP_151741735.1 EpsG family protein [Acinetobacter seifertii]
+Length=346
+
+ Score = 309 bits (791),  Expect = 1e-100, Method: Compositional matrix adjust.
+ Identities = 157/308 (51%), Positives = 224/308 (73%), Gaps = 0/308 (0%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKNI  Y+LTNFS FY ETGVE+GWGLYSK IS FS+S VVLF+ FS  T +  Y+   
+Sbjct  38   IFKNINYYNLTNFSDFYLETGVELGWGLYSKFISFFSNSEVVLFSFFSLLTLYFIYKTCD  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPT FF+MQQFMQIRQGFA+ + IY S LYL+ +K+IS++FFILA L
+Sbjct  98   IIKLKFIYVMCFYLPTSFFLMQQFMQIRQGFAVTVAIYASFLYLNNRKFISILFFILAFL  157
+
+Query  122  FHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQR  181
+            FHQ+ + +IL F+++LF    +     +  F    + +L+ G + AR I++  A+ +F R
+Sbjct  158  FHQTIIVYILFFLAFLFAYEKIFKQVKILNFKTYMLFVLLIGIMFARIIVMPLALSFFDR  217
+
+Query  182  LEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVA  241
+            L+AYS+T Y+ESV    L+NIKFY+EF  I   ++ + L +KF++  +F+FT+GL++R+A
+Sbjct  218  LQAYSSTGYSESVSLVGLANIKFYLEFIFILFFMHKKDLNDKFLILMIFVFTIGLAIRIA  277
+
+Query  242  FYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFI  301
+            F+DF ILSGRLSN FL IE+FLMP  +  R +KI L    +LYFL+I +++W FQ +E++
+Sbjct  278  FFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKIVLLTSLVLYFLIIGFISWNFQVAEYL  337
+
+Query  302  KNNYFLPL  309
+             ++YF PL
+Sbjct  338  ADSYFYPL  345
+
+
+>WP_228148810.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=159
+
+ Score = 302 bits (773),  Expect = 2e-100, Method: Compositional matrix adjust.
+ Identities = 158/159 (99%), Positives = 159/159 (100%), Gaps = 0/159 (0%)
+
+Query  59   ISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFIL  118
+            +SRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFIL
+Sbjct  1    MSRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFIL  60
+
+Query  119  AILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  178
+            AILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY
+Sbjct  61   AILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  120
+
+Query  179  FQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNN  217
+            FQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNN
+Sbjct  121  FQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNN  159
+
+
+>WP_205667377.1 EpsG family protein [Acinetobacter johnsonii]
+ QSE45801.1 EpsG family protein [Acinetobacter johnsonii]
+Length=345
+
+ Score = 308 bits (788),  Expect = 5e-100, Method: Compositional matrix adjust.
+ Identities = 172/311 (55%), Positives = 236/311 (76%), Gaps = 5/311 (2%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKNI  YDL+NF  FY ETGVE+GWGLYSKIIS FS+S VVLF IFSF TF+  Y+   
+Sbjct  36   IFKNINYYDLSNFVDFYVETGVELGWGLYSKIISFFSNSSVVLFFIFSFLTFYFIYKTCD  95
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            +++++F+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  +K  S++FF+LA L
+Sbjct  96   VIKLRFVYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENRKKSSIIFFVLAFL  155
+
+Query  122  FHQSSLAFILIFISYLFFNN--FLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ +A+ILIFI +LFF    F +   S FK ++I++ ++  G ++AR + +  A+ +F
+Sbjct  156  FHQAIIAYILIFIIFLFFYKRVFEQGKISSFKIYMISVFLV--GILLARAVFMPLALSFF  213
+
+Query  180  QRLEAY-STTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSL  238
+             RL+AY S+T Y+ESV    L+NIKFY+EF  I L ++ + L +KF++F +FIFT+GL++
+Sbjct  214  DRLQAYSSSTGYSESVSLLGLANIKFYLEFVFILLFMHKKDLNDKFLIFMIFIFTIGLAI  273
+
+Query  239  RVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQAS  298
+            RVAF+DF ILSGRLSN FL IE+FLMP  +  R +K+ L+I   LYFLVI Y++W FQ +
+Sbjct  274  RVAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKLVLFITLALYFLVIGYISWNFQVA  333
+
+Query  299  EFIKNNYFLPL  309
+            E++ ++YF PL
+Sbjct  334  EYLADSYFSPL  344
+
+
+Sequence with id HAV4514544 no longer exists in database...alignment skipped
+>EGY2661200.1 EpsG family protein [Acinetobacter baumannii]
+Length=192
+
+ Score = 301 bits (771),  Expect = 9e-100, Method: Compositional matrix adjust.
+ Identities = 156/156 (100%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIIN  156
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIIN
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIIN  192
+
+
+>EHZ6783451.1 EpsG family protein [Acinetobacter baumannii]
+Length=190
+
+ Score = 297 bits (761),  Expect = 3e-98, Method: Compositional matrix adjust.
+ Identities = 154/154 (100%), Positives = 154/154 (100%), Gaps = 0/154 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFI  154
+            LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFI
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTSVFKFFI  190
+
+
+Sequence with id EYR85232 no longer exists in database...alignment skipped
+>WP_223237793.1 EpsG family protein, partial [Acinetobacter baumannii]
+ MBZ0490608.1 EpsG family protein [Acinetobacter baumannii]
+Length=154
+
+ Score = 292 bits (747),  Expect = 1e-96, Method: Compositional matrix adjust.
+ Identities = 154/154 (100%), Positives = 154/154 (100%), Gaps = 0/154 (0%)
+
+Query  157  ILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLN  216
+            ILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLN
+Sbjct  1    ILILVFGFIVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLN  60
+
+Query  217  NRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIY  276
+            NRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIY
+Sbjct  61   NRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIY  120
+
+Query  277  LYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  310
+            LYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS
+Sbjct  121  LYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  154
+
+
+Sequence with id EGY3112346 no longer exists in database...alignment skipped
+Sequence with id WP_227567674 no longer exists in database...alignment skipped
+>WP_171488447.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=154
+
+ Score = 291 bits (744),  Expect = 3e-96, Method: Compositional matrix adjust.
+ Identities = 152/154 (99%), Positives = 153/154 (99%), Gaps = 0/154 (0%)
+
+Query  20   ETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGF  79
+            ETG EIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGF
+Sbjct  1    ETGAEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYLPTGF  60
+
+Query  80   FMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFILIFISYLFF  139
+            FMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+LFHQSSLAFILIFISYLFF
+Sbjct  61   FMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAVLFHQSSLAFILIFISYLFF  120
+
+Query  140  NNFLKINTSVFKFFIINILILVFGFIVARFILLD  173
+            NNFLKINTSVFKFFIINILILVFGFIVARFILLD
+Sbjct  121  NNFLKINTSVFKFFIINILILVFGFIVARFILLD  154
+
+
+Sequence with id WP_228133317 no longer exists in database...alignment skipped
+Sequence with id WP_227500650 no longer exists in database...alignment skipped
+Sequence with id WP_225873535 no longer exists in database...alignment skipped
+>WP_228135001.1 EpsG family protein [Acinetobacter baumannii]
+Length=202
+
+ Score = 287 bits (735),  Expect = 4e-94, Method: Compositional matrix adjust.
+ Identities = 148/150 (99%), Positives = 149/150 (99%), Gaps = 0/150 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINTSVF  150
+            LFHQSSLAFILIFISYLFFNNFLKINT +F
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINTYLF  186
+
+
+>WP_171263678.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=183
+
+ Score = 286 bits (732),  Expect = 7e-94, Method: Compositional matrix adjust.
+ Identities = 147/147 (100%), Positives = 147/147 (100%), Gaps = 0/147 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISYLFFNNFLKINT  147
+            LFHQSSLAFILIFISYLFFNNFLKINT
+Sbjct  157  LFHQSSLAFILIFISYLFFNNFLKINT  183
+
+
+Sequence with id WP_085841146 no longer exists in database...alignment skipped
+Sequence with id OUJ76852 no longer exists in database...alignment skipped
+Sequence with id WP_031979198 no longer exists in database...alignment skipped
+>HBC3643763.1 EpsG family protein [Acinetobacter baumannii]
+Length=146
+
+ Score = 279 bits (714),  Expect = 1e-91, Method: Compositional matrix adjust.
+ Identities = 146/146 (100%), Positives = 146/146 (100%), Gaps = 0/146 (0%)
+
+Query  165  IVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKF  224
+            IVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKF
+Sbjct  1    IVARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKF  60
+
+Query  225  IVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLY  284
+            IVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLY
+Sbjct  61   IVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLY  120
+
+Query  285  FLVIFYVTWTFQASEFIKNNYFLPLS  310
+            FLVIFYVTWTFQASEFIKNNYFLPLS
+Sbjct  121  FLVIFYVTWTFQASEFIKNNYFLPLS  146
+
+
+Sequence with id EHN8402135 no longer exists in database...alignment skipped
+>WP_151795245.1 EpsG family protein [Acinetobacter soli]
+Length=344
+
+ Score = 286 bits (732),  Expect = 1e-91, Method: Compositional matrix adjust.
+ Identities = 151/310 (49%), Positives = 223/310 (72%), Gaps = 1/310 (0%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            +FKNI +YDLT++  FY+E+G E+GWGLYSK IS+ S+S  VLF+IFSF  F   Y+IS 
+Sbjct  35   VFKNIDNYDLTSYWGFYSESGFELGWGLYSKAISIVSNSSFVLFSIFSFLIFLVIYKISN  94
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            + ++ +L+VM +YL +GFFM+QQFMQIRQ F++P+ +  S+L+L   +  S + F+LA L
+Sbjct  95   IYKLNYLHVMCFYLASGFFMLQQFMQIRQAFSVPVALLASLLFLKDMRLKSFLLFLLAFL  154
+
+Query  122  FHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQR  181
+            FHQ++LAFIL+F +YLF +    +  S+ +F I++ L ++  FI++R + L  A   F R
+Sbjct  155  FHQTTLAFILVFFAYLFLDKKYPLGNSLKRFHILSFLFIIITFILSRVVFLPLAFSLFDR  214
+
+Query  182  LEAYSTTD-YAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRV  240
+            L AY+  D Y+ESVGFF L+NIK+Y+EF +I LL NN+L+ +K  ++  F+F +GLSLR+
+Sbjct  215  LVAYANDDQYSESVGFFGLANIKYYVEFIVILLLANNKLIKDKNFIYMFFLFVIGLSLRI  274
+
+Query  241  AFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEF  300
+            +FYDF ILSGRLSN FL +E+F++P +   RL  I  Y+    YFL++ + TW F+A+ F
+Sbjct  275  SFYDFEILSGRLSNVFLFVEIFILPYVFYHRLKPITFYLVIFFYFLIVGFTTWYFRAAPF  334
+
+Query  301  IKNNYFLPLS  310
+            ++  YF+PLS
+Sbjct  335  LEQAYFIPLS  344
+
+
+Sequence with id WP_171491147 no longer exists in database...alignment skipped
+Sequence with id WP_019204955 no longer exists in database...alignment skipped
+>WP_223240975.1 EpsG family protein, partial [Acinetobacter baumannii]
+ RDF37517.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=142
+
+ Score = 271 bits (694),  Expect = 9e-89, Method: Compositional matrix adjust.
+ Identities = 142/142 (100%), Positives = 142/142 (100%), Gaps = 0/142 (0%)
+
+Query  169  FILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFF  228
+            FILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFF
+Sbjct  1    FILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFF  60
+
+Query  229  VFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVI  288
+            VFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVI
+Sbjct  61   VFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVI  120
+
+Query  289  FYVTWTFQASEFIKNNYFLPLS  310
+            FYVTWTFQASEFIKNNYFLPLS
+Sbjct  121  FYVTWTFQASEFIKNNYFLPLS  142
+
+
+>WP_088758302.1 EpsG family protein, partial [Acinetobacter baumannii]
+ RDF69659.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=140
+
+ Score = 268 bits (686),  Expect = 1e-87, Method: Compositional matrix adjust.
+ Identities = 140/140 (100%), Positives = 140/140 (100%), Gaps = 0/140 (0%)
+
+Query  171  LLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVF  230
+            LLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVF
+Sbjct  1    LLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVF  60
+
+Query  231  IFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFY  290
+            IFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFY
+Sbjct  61   IFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFY  120
+
+Query  291  VTWTFQASEFIKNNYFLPLS  310
+            VTWTFQASEFIKNNYFLPLS
+Sbjct  121  VTWTFQASEFIKNNYFLPLS  140
+
+
+Sequence with id WP_180041256 no longer exists in database...alignment skipped
+Sequence with id WP_171253552 no longer exists in database...alignment skipped
+>WP_171251388.1 EpsG family protein, partial [Acinetobacter baumannii]
+ PQI18458.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=172
+
+ Score = 266 bits (679),  Expect = 5e-86, Method: Compositional matrix adjust.
+ Identities = 136/136 (100%), Positives = 136/136 (100%), Gaps = 0/136 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIFISY  136
+            LFHQSSLAFILIFISY
+Sbjct  157  LFHQSSLAFILIFISY  172
+
+
+Sequence with id WP_171355180 no longer exists in database...alignment skipped
+Sequence with id EHZ6771378 no longer exists in database...alignment skipped
+Sequence with id EHZ6870191 no longer exists in database...alignment skipped
+Sequence with id HBC3642900 no longer exists in database...alignment skipped
+>WP_227567679.1 EpsG family protein, partial [Acinetobacter baumannii]
+ RJO00730.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=136
+
+ Score = 261 bits (666),  Expect = 1e-84, Method: Compositional matrix adjust.
+ Identities = 136/136 (100%), Positives = 136/136 (100%), Gaps = 0/136 (0%)
+
+Query  175  AMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTV  234
+            AMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTV
+Sbjct  1    AMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTV  60
+
+Query  235  GLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWT  294
+            GLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWT
+Sbjct  61   GLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWT  120
+
+Query  295  FQASEFIKNNYFLPLS  310
+            FQASEFIKNNYFLPLS
+Sbjct  121  FQASEFIKNNYFLPLS  136
+
+
+Sequence with id WP_151815818 no longer exists in database...alignment skipped
+>WP_171251405.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=169
+
+ Score = 260 bits (665),  Expect = 5e-84, Method: Compositional matrix adjust.
+ Identities = 133/133 (100%), Positives = 133/133 (100%), Gaps = 0/133 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LFHQSSLAFILIF  133
+            LFHQSSLAFILIF
+Sbjct  157  LFHQSSLAFILIF  169
+
+
+Sequence with id WP_228157100 no longer exists in database...alignment skipped
+Sequence with id WP_151747144 no longer exists in database...alignment skipped
+Sequence with id WP_151752945 no longer exists in database...alignment skipped
+Sequence with id WP_004944395 no longer exists in database...alignment skipped
+Sequence with id RTQ39826 no longer exists in database...alignment skipped
+>WP_228269742.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=134
+
+ Score = 255 bits (651),  Expect = 3e-82, Method: Compositional matrix adjust.
+ Identities = 133/134 (99%), Positives = 134/134 (100%), Gaps = 0/134 (0%)
+
+Query  166  VARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFI  225
+            +ARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFI
+Sbjct  1    MARFILLDAAMDYFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFI  60
+
+Query  226  VFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYF  285
+            VFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYF
+Sbjct  61   VFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYF  120
+
+Query  286  LVIFYVTWTFQASE  299
+            LVIFYVTWTFQASE
+Sbjct  121  LVIFYVTWTFQASE  134
+
+
+Sequence with id MQZ82510 no longer exists in database...alignment skipped
+>WP_171501770.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=156
+
+ Score = 253 bits (645),  Expect = 4e-81, Method: Compositional matrix adjust.
+ Identities = 128/128 (100%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  29   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  88
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  89   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  148
+
+Query  121  LFHQSSLA  128
+            LFHQSSLA
+Sbjct  149  LFHQSSLA  156
+
+
+>RXD25847.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=164
+
+ Score = 253 bits (645),  Expect = 5e-81, Method: Compositional matrix adjust.
+ Identities = 127/128 (99%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA+
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAV  156
+
+Query  121  LFHQSSLA  128
+            LFHQSSLA
+Sbjct  157  LFHQSSLA  164
+
+
+Sequence with id WP_228138478 no longer exists in database...alignment skipped
+>HAV4278103.1 EpsG family protein [Acinetobacter baumannii]
+Length=252
+
+ Score = 250 bits (639),  Expect = 9e-79, Method: Compositional matrix adjust.
+ Identities = 127/252 (50%), Positives = 190/252 (75%), Gaps = 4/252 (2%)
+
+Query  60   SRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILA  119
+            S ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA
+Sbjct  2    SDIIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLA  61
+
+Query  120  ILFHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMD  177
+            +LFHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ 
+Sbjct  62   VLFHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GIIFSRVVFLPLALS  119
+
+Query  178  YFQRLEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLS  237
+            +F RL++Y+ TDYAESV    L+NIKFYIEF  I L +N + L +KF+++ +FIFT+GL+
+Sbjct  120  FFSRLQSYANTDYAESVSLLGLANIKFYIEFIFILLFMNKKDLNDKFLIYMIFIFTIGLA  179
+
+Query  238  LRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQA  297
+            +R+AF+DF ILSGRLSN FL IE+FLMP  +  R +K+ L++  L YF+++ +++W FQ 
+Sbjct  180  IRIAFFDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKMVLFLSLLFYFILVGFISWNFQV  239
+
+Query  298  SEFIKNNYFLPL  309
+            +E++ ++YF PL
+Sbjct  240  AEYLADSYFSPL  251
+
+
+Sequence with id WP_171488983 no longer exists in database...alignment skipped
+Sequence with id WP_033857570 no longer exists in database...alignment skipped
+>WP_151837462.1 EpsG family protein, partial [Acinetobacter ursingii]
+Length=246
+
+ Score = 243 bits (619),  Expect = 6e-76, Method: Compositional matrix adjust.
+ Identities = 124/247 (50%), Positives = 185/247 (75%), Gaps = 4/247 (2%)
+
+Query  65   IKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQ  124
+            +KF+Y+M +YLPT FF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+LFHQ
+Sbjct  1    LKFIYLMCFYLPTCFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVLFHQ  60
+
+Query  125  SSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYFQRL  182
+            + + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F RL
+Sbjct  61   TVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GIIFSRVVFLPLALSFFSRL  118
+
+Query  183  EAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAF  242
+            ++Y+ TDYAESV    L+NIKFYIEF  I L +N + L +KF+++ +FIFT+GL++R+AF
+Sbjct  119  QSYANTDYAESVSLLGLANIKFYIEFIFILLFMNKKDLNDKFLIYMIFIFTIGLAIRIAF  178
+
+Query  243  YDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIK  302
+            +DF ILSGRLSN FL IE+FLMP  +  R +K+ L++  L YF+++ +++W FQ +E++ 
+Sbjct  179  FDFAILSGRLSNVFLFIEIFLMPYFIYKRFSKMVLFLSLLFYFILVGFISWNFQVAEYLA  238
+
+Query  303  NNYFLPL  309
+            ++YF PL
+Sbjct  239  DSYFSPL  245
+
+
+>WP_171250515.1 EpsG family protein, partial [Acinetobacter baumannii]
+ KOR72993.1 beta-carotene 15,15'-monooxygenase, partial [Acinetobacter baumannii]
+Length=158
+
+ Score = 239 bits (611),  Expect = 7e-76, Method: Compositional matrix adjust.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  156
+
+Query  121  LF  122
+            LF
+Sbjct  157  LF  158
+
+
+>MBU0378530.1 EpsG family protein [Acinetobacter baumannii]
+Length=126
+
+ Score = 238 bits (608),  Expect = 7e-76, Method: Compositional matrix adjust.
+ Identities = 126/126 (100%), Positives = 126/126 (100%), Gaps = 0/126 (0%)
+
+Query  185  YSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYD  244
+            YSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYD
+Sbjct  1    YSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYD  60
+
+Query  245  FGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNN  304
+            FGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNN
+Sbjct  61   FGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNN  120
+
+Query  305  YFLPLS  310
+            YFLPLS
+Sbjct  121  YFLPLS  126
+
+
+Sequence with id WP_050675500 no longer exists in database...alignment skipped
+Sequence with id WP_171259974 no longer exists in database...alignment skipped
+>WP_171252287.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=125
+
+ Score = 236 bits (601),  Expect = 6e-75, Method: Compositional matrix adjust.
+ Identities = 120/120 (100%), Positives = 120/120 (100%), Gaps = 0/120 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  6    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  65
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  120
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI
+Sbjct  66   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAI  125
+
+
+Sequence with id OUJ93370 no longer exists in database...alignment skipped
+>WP_228260670.1 EpsG family protein [Acinetobacter baumannii]
+Length=241
+
+ Score = 236 bits (602),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 121/239 (51%), Positives = 179/239 (75%), Gaps = 4/239 (2%)
+
+Query  73   YYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAILFHQSSLAFIL-  131
+            +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+LFHQ+ + +IL 
+Sbjct  4    FYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVLFHQTVIVYILF  63
+
+Query  132  IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYFQRLEAYSTTDY  190
+            +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F RL++Y+ TDY
+Sbjct  64   LFVFLLIYKYFFEENKPLNFKIYMISILLL--GIIFSRVVFLPLALSFFSRLQSYANTDY  121
+
+Query  191  AESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSG  250
+            AESV    L+NIKFYIEF  I L +N + L +KF+++ +FIFT+GL++R+AF+DF ILSG
+Sbjct  122  AESVSLLGLANIKFYIEFIFILLFMNKKDLNDKFLIYMIFIFTIGLAIRIAFFDFAILSG  181
+
+Query  251  RLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPL  309
+            RLSN FL IE+FLMP  +  R +K+ L++  L YF+++ +++W FQ +E++ ++YF PL
+Sbjct  182  RLSNVFLFIEIFLMPYFIYKRFSKMVLFLSLLFYFILVGFISWNFQVAEYLADSYFSPL  240
+
+
+Sequence with id EGY3176076 no longer exists in database...alignment skipped
+Sequence with id WP_079801696 no longer exists in database...alignment skipped
+>EHN8622211.1 EpsG family protein [Acinetobacter baumannii]
+Length=150
+
+ Score = 227 bits (578),  Expect = 5e-71, Method: Compositional matrix adjust.
+ Identities = 114/114 (100%), Positives = 114/114 (100%), Gaps = 0/114 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLV  114
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLV
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLV  150
+
+
+>EIJ7033985.1 EpsG family protein [Acinetobacter baumannii]
+Length=149
+
+ Score = 225 bits (574),  Expect = 2e-70, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISL  113
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISL
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISL  149
+
+
+Sequence with id EHM8489621 no longer exists in database...alignment skipped
+>WP_171481116.1 EpsG family protein, partial [Acinetobacter baumannii]
+ EHN8748577.1 EpsG family protein [Acinetobacter baumannii]
+ TVT07653.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=147
+
+ Score = 222 bits (566),  Expect = 3e-69, Method: Compositional matrix adjust.
+ Identities = 111/111 (100%), Positives = 111/111 (100%), Gaps = 0/111 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYI  111
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYI  147
+
+
+>WP_223132209.1 EpsG family protein, partial [Acinetobacter baumannii]
+ MBZ0441060.1 EpsG family protein [Acinetobacter baumannii]
+Length=146
+
+ Score = 220 bits (561),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 110/110 (100%), Positives = 110/110 (100%), Gaps = 0/110 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKY  110
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKY
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKY  146
+
+
+>PVA01788.1 EpsG family protein, partial [Acinetobacter nosocomialis]
+Length=246
+
+ Score = 223 bits (568),  Expect = 3e-68, Method: Compositional matrix adjust.
+ Identities = 116/204 (57%), Positives = 157/204 (77%), Gaps = 4/204 (2%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  38   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  98   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  157
+
+Query  122  FHQSSLAFIL-IFISYLFFNNFLKINTSV-FKFFIINILILVFGFIVARFILLDAAMDYF  179
+            FHQ+ + +IL +F+  L +  F + N  + FK ++I+IL+L  G I +R + L  A+ +F
+Sbjct  158  FHQTVIVYILFLFVFLLIYKYFFEENKPLNFKIYMISILLL--GTIFSRVVFLPLALSFF  215
+
+Query  180  QRLEAYSTTDYAESVGFFSLSNIK  203
+             RL++Y+ TDYAESV    L+NIK
+Sbjct  216  SRLQSYANTDYAESVSLLGLANIK  239
+
+
+Sequence with id WP_171487525 no longer exists in database...alignment skipped
+Sequence with id WP_084083020 no longer exists in database...alignment skipped
+Sequence with id KCZ30569 no longer exists in database...alignment skipped
+>WP_171480072.1 EpsG family protein, partial [Acinetobacter baumannii]
+ EHZ6770449.1 EpsG family protein [Acinetobacter baumannii]
+ EIL2093424.1 EpsG family protein [Acinetobacter baumannii]
+Length=143
+
+ Score = 214 bits (545),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 107/107 (100%), Positives = 107/107 (100%), Gaps = 0/107 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSG  107
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSG
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSG  143
+
+
+Sequence with id WP_171476891 no longer exists in database...alignment skipped
+>WP_084082224.1 EpsG family protein, partial [Acinetobacter baumannii]
+ MBH8348349.1 EpsG family protein [Acinetobacter baumannii]
+ MBU0379993.1 EpsG family protein [Acinetobacter baumannii]
+Length=140
+
+ Score = 208 bits (530),  Expect = 5e-64, Method: Compositional matrix adjust.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLY  104
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLY
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLY  140
+
+
+>WP_227553825.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=132
+
+ Score = 208 bits (529),  Expect = 6e-64, Method: Compositional matrix adjust.
+ Identities = 104/104 (100%), Positives = 104/104 (100%), Gaps = 0/104 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  29   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  88
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLY  104
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLY
+Sbjct  89   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLY  132
+
+
+>WP_171490008.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=131
+
+ Score = 206 bits (524),  Expect = 4e-63, Method: Compositional matrix adjust.
+ Identities = 103/103 (100%), Positives = 103/103 (100%), Gaps = 0/103 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  29   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  88
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVL  103
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVL
+Sbjct  89   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVL  131
+
+
+>HAV4477156.1 EpsG family protein [Acinetobacter baumannii]
+Length=137
+
+ Score = 203 bits (517),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 101/101 (100%), Positives = 101/101 (100%), Gaps = 0/101 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGS  101
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGS
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGS  137
+
+
+>WP_139699885.1 EpsG family protein [Acinetobacter baumannii]
+Length=175
+
+ Score = 204 bits (518),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 116/116 (100%), Positives = 116/116 (100%), Gaps = 0/116 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFF  116
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFF
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFF  152
+
+
+Sequence with id WP_019204954 no longer exists in database...alignment skipped
+>HAV3980579.1 EpsG family protein [Acinetobacter baumannii]
+Length=99
+
+ Score = 196 bits (499),  Expect = 9e-60, Method: Compositional matrix adjust.
+ Identities = 99/99 (100%), Positives = 99/99 (100%), Gaps = 0/99 (0%)
+
+Query  16   LFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYL  75
+            LFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYL
+Sbjct  1    LFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISRLVEIKFLYVMLYYL  60
+
+Query  76   PTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLV  114
+            PTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLV
+Sbjct  61   PTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLV  99
+
+
+>EHN8723298.1 EpsG family protein [Acinetobacter baumannii]
+Length=134
+
+ Score = 197 bits (501),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 98/98 (100%), Positives = 98/98 (100%), Gaps = 0/98 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVI  98
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVI  134
+
+
+>EXE29450.1 putative membrane protein, partial [Acinetobacter baumannii 554515]
+Length=107
+
+ Score = 194 bits (493),  Expect = 8e-59, Method: Compositional matrix adjust.
+ Identities = 103/103 (100%), Positives = 103/103 (100%), Gaps = 0/103 (0%)
+
+Query  122  FHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQR  181
+            FHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQR
+Sbjct  3    FHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDYFQR  62
+
+Query  182  LEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKF  224
+            LEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKF
+Sbjct  63   LEAYSTTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKF  105
+
+
+Sequence with id WP_171489336 no longer exists in database...alignment skipped
+Sequence with id RTQ46994 no longer exists in database...alignment skipped
+Sequence with id WP_171339304 no longer exists in database...alignment skipped
+>WP_134989171.1 EpsG family protein [Acinetobacter baumannii]
+ RND09426.1 hypothetical protein ED855_12775 [Acinetobacter baumannii]
+Length=139
+
+ Score = 192 bits (488),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 109/109 (100%), Positives = 109/109 (100%), Gaps = 0/109 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKK  109
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKK
+Sbjct  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKK  109
+
+
+>HAV6239083.1 EpsG family protein [Acinetobacter baumannii]
+Length=130
+
+ Score = 189 bits (481),  Expect = 1e-56, Method: Compositional matrix adjust.
+ Identities = 94/94 (100%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAI  94
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAI
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAI  130
+
+
+Sequence with id TVT02004 no longer exists in database...alignment skipped
+Sequence with id EIM7568084 no longer exists in database...alignment skipped
+>EGY4267085.1 EpsG family protein [Acinetobacter baumannii]
+ HAV4515881.1 EpsG family protein [Acinetobacter baumannii]
+Length=127
+
+ Score = 184 bits (467),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 91/91 (100%), Positives = 91/91 (100%), Gaps = 0/91 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQG  91
+            RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQG
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMQIRQG  127
+
+
+>PQI18827.1 EpsG family protein, partial [Acinetobacter baumannii]
+Length=95
+
+ Score = 182 bits (461),  Expect = 4e-54, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  216  NNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKI  275
+            NNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKI
+Sbjct  1    NNRLLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKI  60
+
+Query  276  YLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  310
+            YLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS
+Sbjct  61   YLYIYFLLYFLVIFYVTWTFQASEFIKNNYFLPLS  95
+
+
+>KCZ27722.1 putative membrane protein [Acinetobacter baumannii 25977_9]
+Length=194
+
+ Score = 181 bits (460),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 86/130 (66%), Positives = 110/130 (85%), Gaps = 0/130 (0%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  38   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  98   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  157
+
+Query  122  FHQSSLAFIL  131
+            FHQ+ + +IL
+Sbjct  158  FHQTVIVYIL  167
+
+
+Sequence with id EGT93673 no longer exists in database...alignment skipped
+>WP_042009273.1 EpsG family protein [Capnocytophaga canis]
+ CEN53977.1 conserved membrane hypothetical protein [Capnocytophaga canis]
+Length=344
+
+ Score = 185 bits (469),  Expect = 5e-52, Method: Compositional matrix adjust.
+ Identities = 122/313 (39%), Positives = 182/313 (58%), Gaps = 10/313 (3%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            +FK +  +DL N   FY  TG+EIG+G YS  ISLF+ S  +LF +FSF TF+  Y+ S 
+Sbjct  38   VFKGVQEFDLLNPVKFYIVTGMEIGFGWYSLFISLFTSSRFLLFAVFSFLTFYVIYKTSE  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+             +  K L VML YL +G+F +QQFMQIRQG A PL +Y   +++      SL F +L++L
+Sbjct  98   KMTSKHLLVMLLYLSSGYFFLQQFMQIRQGIATPLALYAIAVFIEKNNRFSLQFVLLSLL  157
+
+Query  122  ---FHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  178
+               FHQ +L  I++ I+  F     K   SV KF I  +++LV    +++ +L++  + +
+Sbjct  158  AVSFHQVALPVIVVGITTGFM--LAKKERSVGKFRIFCLVVLVMFVFISKVLLINLLISF  215
+
+Query  179  FQRLEAYS-TTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLS  237
+              R+E YS + +YA  +G F L NIK +  +  I + +N R+  NK  V F  +FT+GL+
+Sbjct  216  SSRVETYSKSAEYAAEIGLFRLPNIKAFFTYLFILIFINERIYQNKLFVVFFTLFTLGLA  275
+
+Query  238  LRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQA  297
+             R+ F DF ILSGR +  F   E++L+P +   R    Y  I  LL+ +V    T+ +QA
+Sbjct  276  FRIGFSDFAILSGRFATAFSYSEIYLLPFVF-YRFR--YGIILLLLFVVVQAIATYGYQA  332
+
+Query  298  SEFIKNNYFLPLS  310
+              F+  +YF PL 
+Sbjct  333  -PFVFEDYFKPLQ  344
+
+
+>WP_171500064.1 EpsG family protein, partial [Acinetobacter ursingii]
+Length=162
+
+ Score = 178 bits (452),  Expect = 7e-52, Method: Compositional matrix adjust.
+ Identities = 84/124 (68%), Positives = 106/124 (85%), Gaps = 0/124 (0%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            IFKN+ SYDL N+S FY+ TGVE+GWGLYSKIISLFS+S VVLFTIFS  TF+  Y+ S 
+Sbjct  38   IFKNVDSYDLMNYSDFYSRTGVEVGWGLYSKIISLFSNSEVVLFTIFSLLTFYFIYKTSD  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+            ++++KF+YVM +YLPTGFF+MQQFMQIRQGFA+P+VIY S LYL  KK ++++FF LA+L
+Sbjct  98   IIKLKFIYVMCFYLPTGFFLMQQFMQIRQGFAVPVVIYASFLYLENKKLLAILFFSLAVL  157
+
+Query  122  FHQS  125
+            FHQ+
+Sbjct  158  FHQT  161
+
+
+>WP_228146900.1 EpsG family protein [Acinetobacter baumannii]
+Length=150
+
+ Score = 175 bits (444),  Expect = 7e-51, Method: Compositional matrix adjust.
+ Identities = 86/88 (98%), Positives = 87/88 (99%), Gaps = 0/88 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQFMQI  88
+            RLVEIKFLYVMLYYLPTGFFMMQQFM +
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQFMHV  124
+
+
+Sequence with id WP_212905518 no longer exists in database...alignment skipped
+Sequence with id HAV4289959 no longer exists in database...alignment skipped
+>WP_095909418.1 EpsG family protein [Capnocytophaga gingivalis]
+ ATA85966.1 beta-carotene 15,15'-monooxygenase [Capnocytophaga gingivalis]
+Length=347
+
+ Score = 181 bits (458),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 126/318 (40%), Positives = 187/318 (59%), Gaps = 19/318 (6%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            +FKNI S DL N   FY  TG+EIG+G Y  II+L + S V+LFTIFS FTF   Y IS+
+Sbjct  39   VFKNIDSLDLLNPIKFYLFTGMEIGFGWYCYIINLITHSHVILFTIFSLFTFLIIYLISK  98
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+             + +  L V+L Y+ TG+F++QQFMQIRQG A PL ++   +++      S+ F ++ +L
+Sbjct  99   KLNVTILSVLLLYISTGYFLLQQFMQIRQGLATPLALFAITVFIMDNNKFSIKFLLITLL  158
+
+Query  122  ---FHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  178
+               FHQ +L  IL  I  L      KI+ S+ +F  I++ + +   I+A+F+L++   + 
+Sbjct  159  AFSFHQIALPVIL--IGVLLSIILKKIDLSINEFKWISVFLFIIFIIIAKFLLVNLLTNI  216
+
+Query  179  FQRLEAYS-TTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLS  237
+              R+E YS +++YAE+VG F L NIK +  F  I  L+N ++  NK    F  +F VG++
+Sbjct  217  SSRVEVYSNSSEYAENVGIFRLPNIKAFFTFLFILFLMNEKMYRNKLFTIFFLLFIVGVA  276
+
+Query  238  LRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYV-----T  292
+             R+ F DF ILSGR +  F   E+F++P          Y + YF   FL++F +     T
+Sbjct  277  FRIGFSDFAILSGRFATAFSFSEIFILPF-------AFYRFKYFNHIFLILFVIAQAIAT  329
+
+Query  293  WTFQASEFIKNNYFLPLS  310
+            + FQA  F+  +YF PLS
+Sbjct  330  YMFQA-PFVIEDYFKPLS  346
+
+
+Sequence with id EXG50838 no longer exists in database...alignment skipped
+>WP_212899018.1 EpsG family protein [Capnocytophaga cynodegmi]
+ GIM52670.1 hypothetical protein CAPN004_17000 [Capnocytophaga cynodegmi]
+Length=348
+
+ Score = 178 bits (452),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 122/315 (39%), Positives = 194/315 (62%), Gaps = 14/315 (4%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            +FKNI + DL N   FY  TG+EIG+G YS +ISLF++S  +LF +FSF TF+  Y+IS 
+Sbjct  42   VFKNIKNLDLLNPLKFYIFTGMEIGFGWYSFLISLFTNSKFILFFVFSFLTFYIIYKISE  101
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+             + I++++V+  YL +G+F++QQFMQIRQG AIPL +    L+ +   +ISL F  L++L
+Sbjct  102  KIIIEYVFVVSIYLSSGYFLLQQFMQIRQGLAIPLALLAVALF-TKNNHISLKFISLSLL  160
+
+Query  122  ---FHQSSLAFILIFI-SYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMD  177
+               FHQ++L  +L+ + S L F    K   S+ KF ++ ++ L+    +++  L    ++
+Sbjct  161  SVSFHQAALPVVLVGVLSSLIFTE--KKEISIDKFRVLCVIGLITFVFLSKMFLSSILIN  218
+
+Query  178  YFQRLEAYS-TTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNK-FIVFFVFIFTVG  235
+               R+E YS + +YA  +G F L NIK +  +  I + +N +   NK F+VFFV +FT+G
+Sbjct  219  LSNRVETYSKSAEYAAELGLFRLPNIKAFCTYLFILIFMNEKTYQNKLFVVFFV-LFTLG  277
+
+Query  236  LSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTF  295
+            L+ R+ F DF ILSGR +  F   E+FL+P +  +R  +  + I  L++ +     T+ +
+Sbjct  278  LAFRIGFSDFAILSGRFATAFTFAEIFLLPFIF-NRFKQGSIII--LIFVIAQAIATYMY  334
+
+Query  296  QASEFIKNNYFLPLS  310
+            QA  F+  +YF PL+
+Sbjct  335  QA-PFVFEDYFKPLN  348
+
+
+Sequence with id WP_203970479 no longer exists in database...alignment skipped
+>EGY2529579.1 EpsG family protein [Acinetobacter baumannii]
+Length=120
+
+ Score = 169 bits (427),  Expect = 9e-49, Method: Compositional matrix adjust.
+ Identities = 84/84 (100%), Positives = 84/84 (100%), Gaps = 0/84 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFFMMQQ  84
+            RLVEIKFLYVMLYYLPTGFFMMQQ
+Sbjct  97   RLVEIKFLYVMLYYLPTGFFMMQQ  120
+
+
+>WP_202040477.1 EpsG family protein [Aeromonas caviae]
+ MBL0587308.1 EpsG family protein [Aeromonas caviae]
+Length=351
+
+ Score = 176 bits (446),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 116/316 (37%), Positives = 185/316 (59%), Gaps = 14/316 (4%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            +F NIG YDLTN  LFY E+G+EIG+G YS II  F+ SP VLF IFSF  F   ++ ++
+Sbjct  38   VFANIGDYDLTNPFLFYKESGMEIGFGWYSFIIGHFTSSPFVLFFIFSFLNFIFIFKTAQ  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGK-KYISLVFFILAI  120
+            L+ + F YV L Y+ + +F +QQFMQ+RQG AI +  Y  V  L  K  ++ L+  +++ 
+Sbjct  98   LLGVNFFYVFLVYVSSSYFFLQQFMQMRQGLAISIAFYCFVYMLRCKVNFLVLLLLVMSF  157
+
+Query  121  LFHQSSLAFILIFISYLFFN--NFLKINTSVFKFFIIN----ILILVFGFIVARFILLDA  174
+              HQS+L     ++ Y+F    +F  +   +   +I+     +LILVF F+   F++  +
+Sbjct  158  FLHQSTLFITSFYLFYVFLRRIDFFCLTRHINPIYIVTTISLVLILVFKFVFLSFLIYMS  217
+
+Query  175  AMDYFQRLEAYS-TTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFT  233
+                  RL+ Y+ T+ Y+  +G+FSL NIK  +   + F+LLN +L  +  ++F  F+  
+Sbjct  218  G-----RLQDYANTSQYSGEIGYFSLPNIKLLLTICIFFILLNRKLQFDSCLLFLTFMCF  272
+
+Query  234  VGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTW  293
+            +  S+R+ F +  I+SGRLS  F   E+FL+P L  +R +++  +   ++ FL+   +T 
+Sbjct  273  IAFSVRIGFSEMAIMSGRLSTAFSYAEIFLIPALFEARFSRLVGFSCIVILFLIQLTITI  332
+
+Query  294  TFQASEFIKNNYFLPL  309
+             +QA   I N+YF PL
+Sbjct  333  GYQAPYLI-NDYFNPL  347
+
+
+>WP_228133711.1 EpsG family protein [Acinetobacter baumannii]
+Length=92
+
+ Score = 166 bits (421),  Expect = 3e-48, Method: Compositional matrix adjust.
+ Identities = 88/92 (96%), Positives = 91/92 (99%), Gaps = 1/92 (1%)
+
+Query  59   ISRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFIL  118
+            +SRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFIL
+Sbjct  1    MSRLVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFIL  60
+
+Query  119  AILFHQSSLAFILIFISYLFFNNFLK-INTSV  149
+            AILFHQSSLAFILIFISYLFFNNFLK I++SV
+Sbjct  61   AILFHQSSLAFILIFISYLFFNNFLKIIHSSV  92
+
+
+>EXV23010.1 putative membrane protein, partial [Acinetobacter baumannii 24975_5]
+Length=87
+
+ Score = 165 bits (417),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 86/87 (99%), Positives = 87/87 (100%), Gaps = 0/87 (0%)
+
+Query  219  LLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLY  278
+            +LLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLY
+Sbjct  1    MLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLY  60
+
+Query  279  IYFLLYFLVIFYVTWTFQASEFIKNNY  305
+            IYFLLYFLVIFYVTWTFQASEFIKNNY
+Sbjct  61   IYFLLYFLVIFYVTWTFQASEFIKNNY  87
+
+
+>EXE97971.1 putative membrane protein, partial [Acinetobacter baumannii 1593273]
+Length=92
+
+ Score = 165 bits (417),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 86/87 (99%), Positives = 87/87 (100%), Gaps = 0/87 (0%)
+
+Query  219  LLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLY  278
+            +LLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLY
+Sbjct  1    MLLNKFIVFFVFIFTVGLSLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLY  60
+
+Query  279  IYFLLYFLVIFYVTWTFQASEFIKNNY  305
+            IYFLLYFLVIFYVTWTFQASEFIKNNY
+Sbjct  61   IYFLLYFLVIFYVTWTFQASEFIKNNY  87
+
+
+>WP_015781963.1 EpsG family protein [Capnocytophaga ochracea]
+ ACU92255.1 hypothetical protein Coch_0697 [Capnocytophaga ochracea DSM 7271]
+ UAK51007.1 EpsG family protein [Capnocytophaga ochracea]
+Length=347
+
+ Score = 172 bits (437),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 118/318 (37%), Positives = 189/318 (59%), Gaps = 19/318 (6%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            +FK I  +DL N   FY  TG+EIG+G Y  +ISL + S ++ FTIFSF TF+  + +S+
+Sbjct  39   VFKYIDVFDLLNPIQFYAFTGMEIGFGWYCFLISLLTQSHIIFFTIFSFLTFYIIFLVSK  98
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFF---IL  118
+             + IK + V+L YL +G+F++QQF QIRQGF+ PL +Y    ++S     S+ F    +L
+Sbjct  99   KINIKIIPVLLLYLSSGYFLLQQFTQIRQGFSTPLALYALAFFISKDNKFSMKFLFLTLL  158
+
+Query  119  AILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  178
+            A+ FHQ++L  ++I I +     FL ++ + F++   +++IL+   I+A+F+L+D  +  
+Sbjct  159  ALSFHQTALLIVIIGIFFSLILKFLSLSFNEFRW--CSVIILIVFIIIAKFVLVDILISI  216
+
+Query  179  FQRLEAYS-TTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLS  237
+              R+E YS +T+YAE +G F L NIK +  F  I   +N ++  N     F  +F VG++
+Sbjct  217  SSRVEEYSFSTEYAEDLGIFRLPNIKAFFTFLFILFFMNGKMYENNLFKVFFLLFVVGVA  276
+
+Query  238  LRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYV-----T  292
+             R+ F DF ILSGR +  F   E+F++P +        Y + YF    LV+F +     T
+Sbjct  277  FRIGFSDFAILSGRFATAFSFSEIFILPFVF-------YRFKYFSTILLVLFVILQAIAT  329
+
+Query  293  WTFQASEFIKNNYFLPLS  310
+            + FQA  ++ ++YF PL+
+Sbjct  330  YVFQA-PYVIDDYFKPLA  346
+
+
+Sequence with id WP_171490152 no longer exists in database...alignment skipped
+>WP_002674248.1 EpsG family protein [Capnocytophaga ochracea]
+ EFS97047.1 hypothetical protein HMPREF1977_1673 [Capnocytophaga ochracea 
+F0287]
+ EJF45219.1 hypothetical protein HMPREF1319_0139 [Capnocytophaga ochracea 
+str. Holt 25]
+ UEB42430.1 EpsG family protein [Capnocytophaga ochracea]
+Length=345
+
+ Score = 169 bits (429),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 119/314 (38%), Positives = 185/314 (59%), Gaps = 14/314 (4%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            +FK I   DL N + FY  TG+EIG+G Y  +IS  ++S +VLFT+FSF TF+  Y +SR
+Sbjct  39   VFKYINILDLLNPAKFYIFTGMEIGFGWYCYLISFITNSHIVLFTVFSFITFYIIYLVSR  98
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKK--YIS-LVFFIL  118
+             +EI  ++V+L YL +G+F++QQFMQIRQGFA PL +Y   +++  +   YI  L+  +L
+Sbjct  99   KIEINPIFVLLLYLSSGYFLLQQFMQIRQGFATPLALYALTIFMGKEDKFYIRFLLITLL  158
+
+Query  119  AILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  178
+            A  FHQ +L  + I I        L+I  S+  F  ++I+IL+   ++A+F L D  ++ 
+Sbjct  159  AFSFHQVALPIVCIGILLSL---LLRIRMSLINFKWLSIVILIVFILIAKFALTDFLVNV  215
+
+Query  179  FQRLEAYS-TTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLS  237
+              R+E YS + +Y+  +G F L NIK +  F  I   +N  L  NK    F  +FT+G++
+Sbjct  216  SSRVETYSNSAEYSGDIGIFRLPNIKAFFTFLFILFFMNKNLYENKLFAIFFLLFTIGVA  275
+
+Query  238  LRVAFYDFGILSGRLSNTFLLIEVFLMPMLLS--SRLNKIYLYIYFLLYFLVIFYVTWTF  295
+             R+ F +F ILSGR +  F   E+F++P + +     N + L ++ +   +     T+ F
+Sbjct  276  FRIGFSEFSILSGRFATAFSFSEIFILPFVFNRFKHFNNVLLALFVITQAI----ATYMF  331
+
+Query  296  QASEFIKNNYFLPL  309
+            QAS F+  +YF PL
+Sbjct  332  QAS-FVLEDYFKPL  344
+
+
+>WP_098714362.1 EpsG family protein [Acinetobacter baumannii]
+Length=345
+
+ Score = 169 bits (429),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 121/313 (39%), Positives = 190/313 (61%), Gaps = 11/313 (4%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            +FK I S++L +   FY ETG+EIG+G YS +I   S+S  +LF +FS   F+  Y+ S 
+Sbjct  38   VFKYIDSFNLWDPKGFYQETGMEIGFGWYSWLIGSISNSSFILFFVFSLINFYFIYKTSE  97
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFFILAIL  121
+             + +  +Y +L+YLP+ +F MQQFMQ+RQG AI +V+Y  +  L+ +K I L + +L I 
+Sbjct  98   YLRLPSIYSLLFYLPSAYFFMQQFMQMRQGLAISMVVYSCIRLLNSRKDI-LPWLVLLIS  156
+
+Query  122  F--HQSS-LAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  178
+            F  HQ++ L F+   I Y F ++FL  +T   K+ +  +L      +  +F LL   +D 
+Sbjct  157  FFIHQTAGLVFLFAVIFYFFKDSFL-FSTERIKWTL--LLSFFIFVLFFKFFLLSLLVDS  213
+
+Query  179  FQRLEAYSTTD-YAESVGFFSLSNIK-FYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGL  236
+            F RL++Y+ TD Y+E++  FSL NI+   +  FL+F    N L+ N +  FF+++  + L
+Sbjct  214  FARLQSYANTDNYSENIALFSLPNIRTMLVVAFLLFFSKENILIKNSY-KFFLYLMIIAL  272
+
+Query  237  SLRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYVTWTFQ  296
+            + RV F +F I+SGRLS  F  +E+F +P+LL SR NK Y  ++ + YF++   +T  FQ
+Sbjct  273  AARVGFSEFAIMSGRLSTAFSYVEIFALPILLLSRFNKGYCLLFAITYFILQIVITLGFQ  332
+
+Query  297  ASEFIKNNYFLPL  309
+            A   I+  Y+ PL
+Sbjct  333  APYLIE-MYYYPL  344
+
+
+Sequence with id WP_223234762 no longer exists in database...alignment skipped
+Sequence with id WP_151754056 no longer exists in database...alignment skipped
+>WP_218197157.1 EpsG family protein, partial [Acinetobacter baumannii]
+ MBV6571418.1 EpsG family protein [Acinetobacter baumannii]
+Length=116
+
+ Score = 159 bits (402),  Expect = 5e-45, Method: Compositional matrix adjust.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1    MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  60
+            MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS
+Sbjct  37   MIFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRIS  96
+
+Query  61   RLVEIKFLYVMLYYLPTGFF  80
+            RLVEIKFLYVMLYYLPTGFF
+Sbjct  97   RLVEIKFLYVMLYYLPTGFF  116
+
+
+Sequence with id WP_002047707 no longer exists in database...alignment skipped
+Sequence with id WP_171488985 no longer exists in database...alignment skipped
+Sequence with id RJO07959 no longer exists in database...alignment skipped
+Sequence with id WP_228133320 no longer exists in database...alignment skipped
+Sequence with id WP_171500069 no longer exists in database...alignment skipped
+>WP_181831347.1 EpsG family protein [Capnocytophaga ochracea]
+ VDG81724.1 Uncharacterised protein [Capnocytophaga ochracea]
+Length=347
+
+ Score = 161 bits (407),  Expect = 7e-43, Method: Compositional matrix adjust.
+ Identities = 117/318 (37%), Positives = 189/318 (59%), Gaps = 19/318 (6%)
+
+Query  2    IFKNIGSYDLTNFSLFYNETGVEIGWGLYSKIISLFSDSPVVLFTIFSFFTFFTFYRISR  61
+            +FK I  +DL N   FY  TG+EIG+G Y  +ISL + S ++ FTIFSF TF+  + +S+
+Sbjct  39   VFKYIDVFDLLNPIQFYAFTGMEIGFGWYCFLISLLTQSHIIFFTIFSFLTFYIIFLVSK  98
+
+Query  62   LVEIKFLYVMLYYLPTGFFMMQQFMQIRQGFAIPLVIYGSVLYLSGKKYISLVFF---IL  118
+             + IK + ++L YL +G+F++QQF QIRQGF+ PL +Y    ++S     S+ F    +L
+Sbjct  99   KINIKIIPILLLYLSSGYFLLQQFTQIRQGFSTPLALYALAFFISKDNKFSMKFLFLTLL  158
+
+Query  119  AILFHQSSLAFILIFISYLFFNNFLKINTSVFKFFIINILILVFGFIVARFILLDAAMDY  178
+            A+ FHQ++L  ++I I +     FL ++ + F++   +++IL+   I+A+F+L+D  +  
+Sbjct  159  ALSFHQTALLIVIIGIFFSLILKFLSLSFNEFRW--CSVIILIVFIIIAKFVLVDILISI  216
+
+Query  179  FQRLEAY-STTDYAESVGFFSLSNIKFYIEFFLIFLLLNNRLLLNKFIVFFVFIFTVGLS  237
+              R+E Y S+T+YAE +G F L NIK +  F  I   +N ++  N     F  +F VG++
+Sbjct  217  SSRVEEYSSSTEYAEDLGIFRLPNIKAFFTFLFILFFMNGKMYENNLFKVFFLLFVVGVA  276
+
+Query  238  LRVAFYDFGILSGRLSNTFLLIEVFLMPMLLSSRLNKIYLYIYFLLYFLVIFYV-----T  292
+             R+ F DF ILSGR +  F   E+F++P +        Y + YF    LV+F +     T
+Sbjct  277  FRIGFSDFAILSGRFATAFSFSEIFILPFVF-------YRFKYFSTILLVLFVILQAIAT  329
+
+Query  293  WTFQASEFIKNNYFLPLS  310
+            + FQA  ++ ++YF PL+
+Sbjct  330  YVFQA-PYVIDDYFKPLA  346
+
+
+Sequence with id TLF03956 no longer exists in database...alignment skipped
+Sequence with id WP_216946838 no longer exists in database...alignment skipped
+Sequence with id WP_032005733 no longer exists in database...alignment skipped
+
+Lambda      K        H        a         alpha
+   0.340    0.153    0.457    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14165208486496
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jan 3, 2022  2:35 AM
+  Number of letters in database: 168,524,408,266
+  Number of sequences in database:  449,466,297
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

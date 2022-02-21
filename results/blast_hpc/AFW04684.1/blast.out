@@ -1,0 +1,3501 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           449,466,297 sequences; 168,524,408,266 total letters
+
+
+
+Query= AFW04684.1 24cc4f2fef926eb06ed1d634cf828935
+
+Length=374
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AFW04684.1 Unknown                                                    733     0.0   
+WP_079817733.1 Unknown                                                721     0.0   
+EGY1756633.1 EpsG family protein [Salmonella enterica]                719     0.0   
+EIP3526296.1 EpsG family protein [Salmonella enterica]                718     0.0   
+EAY3718270.1 EpsG family protein [Salmonella enterica]                575     0.0   
+EGY5277941.1 EpsG family protein [Salmonella enterica]                551     0.0   
+EDW4289472.1 Unknown                                                  533     0.0   
+EBA7040509.1 EpsG family protein [Salmonella enterica]                531     0.0   
+EGG6885812.1 Unknown                                                  522     0.0   
+EEP5305367.1 EpsG family protein [Salmonella enterica]                521     0.0   
+EEJ2065308.1 EpsG family protein [Salmonella enterica subsp. diar...  515     0.0   
+EEF3230420.1 EpsG family protein [Salmonella enterica]                498     2e-175
+EHS6392484.1 EpsG family protein [Salmonella enterica]                492     4e-173
+ECJ2412997.1 EpsG family protein [Salmonella enterica subsp. diar...  475     1e-166
+WP_155848042.1 Unknown                                                465     1e-160
+WP_200015063.1 EpsG family protein [Citrobacter freundii]             464     4e-160
+EAO5057031.1 Unknown                                                  458     8e-160
+EBV2375356.1 Unknown                                                  456     3e-159
+MBJ8674661.1 EpsG family protein [Citrobacter freundii]               459     2e-158
+WP_187252201.1 EpsG family protein [Citrobacter braakii]              458     6e-158
+EDU3631650.1 Unknown                                                  447     8e-156
+EDV5772037.1 EpsG family protein [Salmonella enterica subsp. diar...  441     3e-153
+EFB5766100.1 EpsG family protein [Escherichia coli]                   439     9e-151
+EGB0928297.1 Unknown                                                  438     6e-150
+WP_154735967.1 Unknown                                                438     7e-150
+HAW0989915.1 Unknown                                                  437     1e-149
+WP_000539504.1 Unknown                                                437     2e-149
+WP_000539505.1 Unknown                                                437     2e-149
+WP_039025712.1 Unknown                                                437     2e-149
+WP_163435987.1 O78 family O-antigen polymerase [Escherichia coli]     437     2e-149
+EAA2746691.1 Unknown                                                  437     2e-149
+EFI7760529.1 Unknown                                                  437     2e-149
+WP_199266087.1 Unknown                                                436     3e-149
+EEQ8725177.1 Unknown                                                  434     4e-149
+WP_203104381.1 EpsG family protein [Escherichia coli]                 434     4e-149
+WP_134692146.1 O78 family O-antigen polymerase [Escherichia coli]     436     6e-149
+EEW2587699.1 EpsG family protein [Escherichia coli]                   435     9e-149
+EFI6032773.1 O78 family O-antigen polymerase [Escherichia coli]       434     2e-148
+HAL3248163.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  433     3e-148
+HBA9437631.1 Unknown                                                  429     6e-147
+MBB0488509.1 O78 family O-antigen polymerase [Escherichia coli]       430     7e-147
+WP_089518867.1 Unknown                                                429     1e-146
+HAW8998772.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  428     1e-146
+EEZ5379711.1 O78 family O-antigen polymerase [Escherichia coli]       411     3e-140
+HAN8543457.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  391     2e-132
+EFC4312598.1 EpsG family protein [Escherichia coli]                   392     2e-132
+EGI4690747.1 O78 family O-antigen polymerase [Escherichia coli]       375     7e-126
+MBB6818552.1 O78 family O-antigen polymerase [Escherichia coli]       363     1e-121
+EAM0984564.1 EpsG family protein [Salmonella enterica]                335     3e-112
+EEZ5394947.1 Unknown                                                  328     4e-108
+EIO7586977.1 O78 family O-antigen polymerase [Escherichia coli]       315     3e-103
+MBB6777989.1 O78 family O-antigen polymerase [Escherichia coli]       314     7e-103
+WP_097410834.1 Unknown                                                311     7e-102
+EHH9807158.1 O78 family O-antigen polymerase [Escherichia coli]       312     1e-101
+EFF2234737.1 EpsG family protein [Escherichia coli]                   309     4e-101
+EHU3539369.1 Unknown                                                  303     6e-100
+EFG1745684.1 Unknown                                                  306     8e-100
+EGV0971133.1 Unknown                                                  301     6e-98 
+HAN8275825.1 Unknown                                                  299     3e-97 
+EIG4521580.1 Unknown                                                  297     2e-96 
+EHO8336751.1 Unknown                                                  294     3e-95 
+EFJ9113680.1 O78 family O-antigen polymerase [Escherichia coli]       291     3e-94 
+EHV2527794.1 Unknown                                                  291     8e-94 
+EFK1312615.1 Unknown                                                  291     9e-94 
+HAN9044408.1 Unknown                                                  291     1e-93 
+EEQ8750620.1 O78 family O-antigen polymerase [Escherichia coli]       290     2e-93 
+EHN1486071.1 O78 family O-antigen polymerase [Escherichia coli]       287     6e-93 
+EGM1846835.1 O78 family O-antigen polymerase [Escherichia coli]       288     6e-93 
+EEC8797184.1 O78 family O-antigen polymerase [Escherichia coli]       287     2e-92 
+WP_096012995.1 O78 family O-antigen polymerase [Escherichia coli]     286     6e-92 
+HAN9001459.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  280     9e-90 
+EFF6171952.1 Unknown                                                  278     6e-89 
+HAM2284181.1 Unknown                                                  273     6e-87 
+EHY6171421.1 Unknown                                                  273     7e-87 
+EFK1186352.1 O78 family O-antigen polymerase [Escherichia coli]       272     7e-87 
+EES2923932.1 Unknown                                                  267     6e-85 
+EET8974597.1 Unknown                                                  266     2e-84 
+EFN8285362.1 Unknown                                                  266     2e-84 
+EHA1124951.1 EpsG family protein [Vibrio navarrensis]                 271     3e-84 
+EIK6473082.1 Unknown                                                  265     4e-84 
+RCX95798.1 EpsG family protein [Escherichia coli]                     265     5e-84 
+WP_103155085.1 EpsG family protein [Vibrio vulnificus]                269     2e-83 
+EGQ6121559.1 Unknown                                                  260     3e-82 
+WP_222551728.1 EpsG family protein [Photobacterium rosenbergii]       263     3e-81 
+HAN7967748.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  256     2e-80 
+HAW8024295.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  254     6e-80 
+EFL6546973.1 O78 family O-antigen polymerase [Escherichia coli]       253     2e-79 
+EFF2376818.1 Unknown                                                  253     3e-79 
+HAN8305414.1 Unknown                                                  251     3e-79 
+HAN8422298.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  250     3e-78 
+HAW8909035.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  245     2e-76 
+HAW9022453.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  245     2e-76 
+EFH5046835.1 EpsG family protein [Escherichia coli]                   245     2e-76 
+PSL65039.1 Unknown                                                    244     3e-76 
+EGI4148232.1 Unknown                                                  244     6e-76 
+EHK0640716.1 O78 family O-antigen polymerase [Escherichia coli]       242     1e-75 
+EIG6162365.1 Unknown                                                  243     1e-75 
+PPW53555.1 EpsG family protein [Escherichia coli]                     243     2e-75 
+HAN8048575.1 Unknown                                                  242     2e-75 
+HAM0232538.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  241     3e-75 
+EFG1600218.1 Unknown                                                  242     5e-75 
+PSK23959.1 EpsG family protein [Escherichia coli]                     241     6e-75 
+EEQ5436672.1 O78 family O-antigen polymerase [Escherichia coli]       241     8e-75 
+EHO6998867.1 Unknown                                                  241     1e-74 
+EFK2837048.1 O78 family O-antigen polymerase [Escherichia coli]       241     1e-74 
+HAM0398447.1 Unknown                                                  241     1e-74 
+EHN1490904.1 O78 family O-antigen polymerase [Escherichia coli]       241     1e-74 
+EFI6232570.1 Unknown                                                  239     2e-74 
+EHX8329020.1 Unknown                                                  239     4e-74 
+HAN8982415.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  239     5e-74 
+HAN9054027.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  237     9e-74 
+EIM1115076.1 Unknown                                                  238     1e-73 
+MCD3727077.1 Unknown                                                  237     1e-73 
+EFJ9503871.1 Unknown                                                  238     2e-73 
+EHN0035309.1 O78 family O-antigen polymerase [Escherichia coli]       237     2e-73 
+EHB4159702.1 O78 family O-antigen polymerase [Escherichia coli]       234     7e-73 
+GDN25191.1 Unknown                                                    235     9e-73 
+EFG2917148.1 O78 family O-antigen polymerase [Escherichia coli]       235     1e-72 
+EER3151574.1 O78 family O-antigen polymerase [Escherichia coli]       233     4e-72 
+HAN9078044.1 Unknown                                                  232     1e-71 
+EGI4156990.1 O78 family O-antigen polymerase [Escherichia coli]       230     6e-71 
+EHL4964787.1 Unknown                                                  230     1e-70 
+EFB3597573.1 Unknown                                                  228     4e-70 
+HAN8947802.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  228     5e-70 
+EHL80335.1 Unknown                                                    226     3e-69 
+EFI3003364.1 O78 family O-antigen polymerase [Escherichia coli]       226     3e-69 
+HAN7962590.1 Unknown                                                  224     8e-69 
+HAM0279355.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  224     1e-68 
+EFC4179714.1 EpsG family protein [Escherichia coli]                   222     4e-68 
+EHW5774946.1 Unknown                                                  219     1e-66 
+EAM0984556.1 EpsG family protein [Salmonella enterica]                216     3e-66 
+HAN8266222.1 Unknown                                                  218     6e-66 
+EFC4179445.1 Unknown                                                  213     1e-64 
+EHQ6926856.1 O78 family O-antigen polymerase [Escherichia coli]       213     2e-64 
+ECP3589224.1 EpsG family protein [Salmonella enterica]                208     2e-63 
+EHH9790796.1 Unknown                                                  207     5e-62 
+ECJ8077802.1 Unknown                                                  201     7e-61 
+PSM29296.1 EpsG family protein [Escherichia coli]                     203     1e-60 
+HBB7372063.1 Unknown                                                  197     2e-58 
+EHQ6927288.1 Unknown                                                  197     4e-58 
+HAN8261217.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  195     7e-58 
+PSL66394.1 EpsG family protein [Escherichia coli]                     196     9e-58 
+HAN8947853.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  195     2e-57 
+MBN6281360.1 Unknown                                                  194     2e-57 
+PSM28748.1 Unknown                                                    193     3e-57 
+EFB3596992.1 EpsG family protein [Escherichia coli]                   188     6e-55 
+HAN9058790.1 Unknown                                                  185     1e-53 
+EFI3003317.1 Unknown                                                  182     7e-53 
+HAW8961586.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  182     1e-52 
+HAN8049061.1 Unknown                                                  181     2e-52 
+EFJ4222860.1 O78 family O-antigen polymerase [Escherichia coli]       181     3e-52 
+EII7637338.1 Unknown                                                  178     2e-51 
+EAY5301799.1 Unknown                                                  175     6e-51 
+RCX97701.1 Unknown                                                    177     9e-51 
+EFB1391941.1 Unknown                                                  176     1e-50 
+EHB4159555.1 Unknown                                                  174     6e-50 
+EEW4280843.1 EpsG family protein [Escherichia coli]                   172     4e-49 
+RCX82305.1 Unknown                                                    172     9e-49 
+EEZ6098736.1 O78 family O-antigen polymerase [Escherichia coli]       171     1e-48 
+RBY39197.1 EpsG family protein [Escherichia coli]                     169     1e-47 
+EFK2836659.1 Unknown                                                  168     2e-47 
+MBA0997992.1 Unknown                                                  167     7e-47 
+EIH0288815.1 O78 family O-antigen polymerase [Escherichia coli]       166     9e-47 
+EIL6840832.1 O78 family O-antigen polymerase [Escherichia coli]       166     1e-46 
+HAN7915377.1 Unknown                                                  165     3e-46 
+EFI1469876.1 O78 family O-antigen polymerase [Escherichia coli]       163     2e-45 
+HAM0767421.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  162     5e-45 
+EFL6546710.1 Unknown                                                  159     6e-44 
+EHL4964788.1 O78 family O-antigen polymerase [Escherichia coli]       157     2e-43 
+MBB8257257.1 O78 family O-antigen polymerase [Escherichia coli]       156     6e-43 
+EHP2085092.1 O78 family O-antigen polymerase [Escherichia coli]       156     8e-43 
+EHK0733856.1 Unknown                                                  155     9e-43 
+EHS6392480.1 Unknown                                                  153     2e-42 
+EFD7672610.1 Unknown                                                  154     2e-42 
+EFN8282061.1 Unknown                                                  154     2e-42 
+EFK4012064.1 O78 family O-antigen polymerase [Escherichia coli]       154     2e-42 
+HBC0093435.1 Unknown                                                  154     3e-42 
+EEJ2068314.1 Unknown                                                  151     9e-42 
+EET6514145.1 O78 family O-antigen polymerase [Escherichia coli]       152     2e-41 
+EHL5575799.1 Unknown                                                  152     2e-41 
+EEQ1632971.1 Unknown                                                  152     2e-41 
+HAM2284151.1 Unknown                                                  151     2e-41 
+EHH7927580.1 O78 family O-antigen polymerase [Escherichia coli]       151     2e-41 
+EEZ9780023.1 Unknown                                                  151     3e-41 
+EGI4152049.1 Unknown                                                  151     3e-41 
+EGI4156952.1 Unknown                                                  151     3e-41 
+EHK0640695.1 Unknown                                                  150     4e-41 
+RBY40992.1 Unknown                                                    150     5e-41 
+MBB6877492.1 Unknown                                                  150     6e-41 
+EEZ6097799.1 O78 family O-antigen polymerase [Escherichia coli]       150     1e-40 
+EFA4503702.1 EpsG family protein [Escherichia coli]                   149     2e-40 
+EHA9774469.1 O78 family O-antigen polymerase [Escherichia coli]       149     2e-40 
+HBA5638663.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  148     4e-40 
+EGQ6118580.1 Unknown                                                  149     5e-40 
+EET8974664.1 O78 family O-antigen polymerase [Escherichia coli]       145     3e-39 
+HAM0866269.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  144     1e-38 
+EDU3631644.1 EpsG family protein [Salmonella enterica]                142     2e-38 
+EEZ3059837.1 Unknown                                                  143     2e-38 
+EBA7040208.1 EpsG family protein [Salmonella enterica]                140     1e-37 
+EEW0785444.1 Unknown                                                  140     2e-37 
+HAN8549186.1 Unknown                                                  139     8e-37 
+EEY1417527.1 Unknown                                                  137     3e-36 
+HAN7963036.1 Unknown                                                  138     5e-36 
+EFF6174133.1 Unknown                                                  137     7e-36 
+EHU3539359.1 Unknown                                                  135     1e-35 
+EHN0035312.1 EpsG family protein [Escherichia coli]                   135     3e-35 
+EHL4931316.1 Unknown                                                  133     2e-34 
+ECC1576552.1 EpsG family protein [Salmonella enterica subsp. diar...  132     2e-34 
+EFM1838618.1 EpsG family protein [Escherichia coli]                   132     3e-34 
+EEZ8821797.1 Unknown                                                  130     2e-33 
+HAN9020350.1 Unknown                                                  128     2e-32 
+EHE2628671.1 Unknown                                                  127     3e-32 
+EFU8361703.1 Unknown                                                  125     1e-31 
+HAM0352808.1 Unknown                                                  125     2e-31 
+EIH0289085.1 Unknown                                                  125     3e-31 
+EIN7468331.1 Unknown                                                  125     3e-31 
+HBI8203301.1 Unknown                                                  125     4e-31 
+HBA5468866.1 TPA: EpsG family protein [Escherichia coli]              123     9e-31 
+MBB6777943.1 O78 family O-antigen polymerase [Escherichia coli]       122     5e-30 
+EHX8329359.1 O78 family O-antigen polymerase [Escherichia coli]       122     6e-30 
+EEY9272301.1 Unknown                                                  120     1e-29 
+EIR2631161.1 Unknown                                                  119     7e-29 
+RBY38554.1 EpsG family protein [Escherichia coli]                     119     7e-29 
+HAN8082761.1 TPA: EpsG family protein [Escherichia coli]              117     1e-28 
+EHN0063640.1 EpsG family protein [Escherichia coli]                   115     7e-28 
+EEC8797736.1 O78 family O-antigen polymerase [Escherichia coli]       116     1e-27 
+MHW15094.1 Unknown                                                    115     1e-27 
+HBA5497368.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  115     1e-27 
+EEZ3060092.1 O78 family O-antigen polymerase [Escherichia coli]       115     1e-27 
+EET4461533.1 Unknown                                                  114     3e-27 
+EHQ6948252.1 O78 family O-antigen polymerase [Escherichia coli]       113     9e-27 
+HAN8338834.1 TPA: EpsG family protein [Escherichia coli]              112     9e-27 
+EFG1743604.1 O78 family O-antigen polymerase [Escherichia coli]       111     5e-26 
+EHW7644794.1 Unknown                                                  111     6e-26 
+HAJ1288523.1 Unknown                                                  109     3e-25 
+EFF2235264.1 EpsG family protein [Escherichia coli]                   109     3e-25 
+EEY1415148.1 O78 family O-antigen polymerase [Escherichia coli]       108     6e-25 
+HAN7054373.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  107     2e-24 
+EHO8333874.1 Unknown                                                  107     2e-24 
+HAN8275925.1 Unknown                                                  105     6e-24 
+HBH9929990.1 TPA: O78 family O-antigen polymerase [Escherichia coli]  103     5e-23 
+EEW0785713.1 O78 family O-antigen polymerase [Escherichia coli]       102     1e-22 
+EGM1847761.1 O78 family O-antigen polymerase [Escherichia coli]       99.0    2e-21 
+EHL80336.1 hypothetical protein HMPREF9428_02002 [Citrobacter por...  97.8    5e-21 
+EII7605300.1 O78 family O-antigen polymerase [Escherichia coli]       97.4    6e-21 
+EGV0971875.1 O78 family O-antigen polymerase [Escherichia coli]       97.4    7e-21 
+HAN4944151.1 Unknown                                                  95.9    2e-20 
+EHH1192048.1 Unknown                                                  97.4    2e-20 
+EBV2375355.1 EpsG family protein [Salmonella enterica subsp. ente...  92.4    1e-19 
+MBB6819859.1 Unknown                                                  91.3    1e-18 
+EIH0289154.1 EpsG family protein [Escherichia coli]                   90.5    2e-18 
+EIM4670098.1 EpsG family protein [Escherichia coli]                   88.2    9e-18 
+HAN8987095.1 Unknown                                                  87.4    1e-17 
+WP_128781913.1 Unknown                                                94.7    2e-17 
+HBA5619301.1 TPA: EpsG family protein [Escherichia coli]              86.7    5e-17 
+HAN8358354.1 Unknown                                                  85.9    6e-17 
+WP_107286702.1 Unknown                                                93.6    6e-17 
+WP_058119549.1 EpsG family protein [Photobacterium kishitanii]        92.8    1e-16 
+EEZ8718646.1 Unknown                                                  82.8    8e-16 
+EFH5043079.1 EpsG family protein [Escherichia coli]                   82.4    2e-15 
+EFM3302562.1 EpsG family protein [Escherichia coli]                   80.9    4e-15 
+WP_050648487.1 EpsG family protein [Vibrio sp. J2-4]                  88.2    4e-15 
+EFB4055542.1 Unknown                                                  80.1    7e-15 
+WP_148552706.1 Unknown                                                86.7    1e-14 
+HAM0640506.1 Unknown                                                  78.2    3e-14 
+WP_187527032.1 Unknown                                                85.1    4e-14 
+WP_219277803.1 Unknown                                                84.3    8e-14 
+WP_210446201.1 Unknown                                                84.0    1e-13 
+WP_016768921.1 Unknown                                                84.0    1e-13 
+EIO7217580.1 Unknown                                                  76.3    1e-13 
+WP_082791855.1 EpsG family protein [Aeromonas enteropelogenes]        83.2    2e-13 
+EEQ8750121.1 EpsG family protein [Escherichia coli]                   73.9    2e-12 
+HAN8300386.1 Unknown                                                  73.2    2e-12 
+WP_121636922.1 EpsG family protein [Pseudoalteromonas agarivorans]    79.0    4e-12 
+NAP62730.1 Unknown                                                    71.6    7e-12 
+EHX8766430.1 Unknown                                                  71.2    9e-12 
+EFN1778588.1 Unknown                                                  70.5    2e-11 
+WP_005817864.1 Unknown                                                76.3    4e-11 
+WP_220251744.1 Unknown                                                75.5    7e-11 
+WP_218241162.1 EpsG family protein [Comamonas sp. CJ34]               75.1    8e-11 
+WP_029773729.1 MULTISPECIES: EpsG family protein [unclassified Ps...  74.7    1e-10 
+EHN7293818.1 EpsG family protein [Escherichia coli]                   68.2    1e-10 
+WP_130624675.1 Unknown                                                73.2    2e-10 
+WP_182195635.1 Unknown                                                73.6    2e-10 
+WP_024596601.1 MULTISPECIES: EpsG family protein [unclassified Ps...  73.6    3e-10 
+EHQ8382434.1 Unknown                                                  67.0    3e-10 
+WP_182675833.1 Unknown                                                73.6    3e-10 
+WP_216561946.1 EpsG family protein [Paraclostridium bifermentans]     73.2    4e-10 
+WP_054631730.1 Unknown                                                73.2    4e-10 
+WP_057536749.1 EpsG family protein [Paeniclostridium sordellii]       73.2    4e-10 
+WP_057538591.1 Unknown                                                72.8    5e-10 
+EHK0733914.1 Unknown                                                  66.6    7e-10 
+WP_197183285.1 EpsG family protein [Pseudoalteromonas sp. NZS37]      72.4    8e-10 
+WP_198572608.1 Unknown                                                72.4    8e-10 
+WP_137170448.1 EpsG family protein [Marinomonas sp. FW-1]             72.0    9e-10 
+HAM0232497.1 Unknown                                                  65.5    9e-10 
+WP_148549699.1 Unknown                                                72.0    1e-09 
+WP_076516052.1 EpsG family protein [Oleibacter marinus]               71.6    1e-09 
+WP_009132818.1 EpsG family protein [Alistipes indistinctus]           71.6    1e-09 
+HAN7744507.1 TPA: EpsG family protein [Escherichia coli]              65.1    1e-09 
+HBA8586409.1 Unknown                                                  65.1    1e-09 
+MBO7608001.1 Unknown                                                  71.2    2e-09 
+WP_138609455.1 EpsG family protein [Pseudoalteromonas sp. S1609]      70.1    4e-09 
+WP_086997638.1 EpsG family protein [Pseudoalteromonas sp. JB197]      70.1    4e-09 
+WP_214631707.1 Unknown                                                70.1    4e-09 
+WP_136975182.1 EpsG family protein [Vibrio sp. F13]                   69.7    7e-09 
+WP_102332621.1 EpsG family protein [Vibrio sp. 10N.261.52.E5]         69.7    7e-09 
+WP_012788758.1 EpsG family protein [Chitinophaga pinensis]            69.3    9e-09 
+WP_182769690.1 Unknown                                                68.9    9e-09 
+EGR0597925.1 Unknown                                                  68.9    1e-08 
+WP_098069371.1 Unknown                                                68.9    1e-08 
+MBR5374639.1 Unknown                                                  68.6    1e-08 
+PDY95928.1 hypothetical protein CON09_00715 [Bacillus anthracis]      68.9    1e-08 
+WP_152155219.1 EpsG family protein [Bacillus sp. B3-WWTP-C-10-D-3]    68.9    1e-08 
+WP_098234831.1 EpsG family protein [Bacillus sp. AFS001701]           68.6    1e-08 
+VAL00821.1 Unknown                                                    68.2    2e-08 
+EGQ9495112.1 Unknown                                                  67.8    2e-08 
+WP_180253233.1 Unknown                                                67.8    2e-08 
+WP_073084274.1 Unknown                                                67.0    4e-08 
+WP_069538492.1 EpsG family protein [Vibrio parahaemolyticus]          66.2    6e-08 
+WP_229614599.1 EpsG family protein [Vibrio parahaemolyticus]          66.2    7e-08 
+WP_212745521.1 Unknown                                                65.9    9e-08 
+EEZ3060091.1 Unknown                                                  60.5    9e-08 
+WP_193764364.1 Unknown                                                65.9    1e-07 
+WP_122274300.1 Unknown                                                65.9    1e-07 
+ANF29902.1 transmembrane protein EpsG [Hafnia alvei]                  65.9    1e-07 
+WP_212903041.1 EpsG family protein [Clostridium polyendosporum]       65.5    1e-07 
+EII3037779.1 EpsG family protein [Vibrio parahaemolyticus]            64.7    1e-07 
+EOS03234.1 Unknown                                                    65.1    2e-07 
+WP_032813265.1 EpsG family protein [Bacteroides thetaiotaomicron]     65.1    2e-07 
+WP_171028100.1 EpsG family protein [Bacteroides caccae]               64.7    2e-07 
+WP_059222965.1 EpsG family protein [Fusobacterium nucleatum]          63.9    2e-07 
+MBJ7745777.1 transmembrane protein EpsG [Chitinophaga sp. OAE873]     64.7    2e-07 
+WP_176702571.1 Unknown                                                64.7    2e-07 
+WP_080973901.1 EpsG family protein [Bacteroides thetaiotaomicron]     64.7    2e-07 
+MBR5696450.1 EpsG family protein [Paludibacteraceae bacterium]        64.3    3e-07 
+MBE6278193.1 Unknown                                                  64.7    3e-07 
+WP_209564654.1 Unknown                                                64.3    3e-07 
+RHK28762.1 Unknown                                                    63.9    3e-07 
+WP_159969849.1 EpsG family protein [Chryseobacterium humi]            64.3    3e-07 
+WP_148356711.1 Unknown                                                64.3    3e-07 
+WP_014615311.1 EpsG family protein [Shewanella baltica]               63.9    4e-07 
+MBG0859039.1 Unknown                                                  63.9    4e-07 
+TWP25327.1 Unknown                                                    63.9    4e-07 
+WP_107942064.1 EpsG family protein [Metasolibacillus fluoroglycof...  63.5    5e-07 
+WP_124072702.1 Unknown                                                63.5    5e-07 
+EGV2732725.1 Unknown                                                  62.4    7e-07 
+EHY0964261.1 Unknown                                                  62.0    7e-07 
+EII5836635.1 EpsG family protein [Vibrio parahaemolyticus]            62.0    7e-07 
+WP_169191830.1 Unknown                                                63.2    8e-07 
+WP_011015761.1 Unknown                                                63.2    8e-07 
+WP_028761152.1 EpsG family protein [Shewanella putrefaciens]          63.2    8e-07 
+WP_120341943.1 EpsG family protein [Bacillus toyonensis]              62.8    9e-07 
+WP_014478040.1 biofilm exopolysaccharide biosynthesis protein Eps...  62.8    1e-06 
+WP_149890030.1 Unknown                                                62.8    1e-06 
+WP_015466155.1 EpsG family protein [Psychromonas sp. CNPT3]           62.8    1e-06 
+WP_041055100.1 Unknown                                                62.4    1e-06 
+OEY71864.1 Unknown                                                    62.4    1e-06 
+WP_099293609.1 Unknown                                                62.4    1e-06 
+WP_163131482.1 biofilm exopolysaccharide biosynthesis protein Eps...  62.4    1e-06 
+WP_216122749.1 Unknown                                                62.4    2e-06 
+WP_161644138.1 EpsG family protein [Flavobacterium undicola]          62.4    2e-06 
+WP_200000698.1 EpsG family protein [Acinetobacter seifertii]          62.0    2e-06 
+WP_187956571.1 biofilm exopolysaccharide biosynthesis protein Eps...  62.0    2e-06 
+WP_157823651.1 EpsG family protein [Salegentibacter salarius]         62.0    2e-06 
+WP_100741228.1 Unknown                                                62.0    2e-06 
+MBS1307070.1 EpsG family protein [Bacteroides sp.]                    62.0    2e-06 
+WP_122894738.1 biofilm exopolysaccharide biosynthesis protein Eps...  61.6    2e-06 
+WP_118468515.1 Unknown                                                61.6    2e-06 
+WP_087993513.1 Unknown                                                61.6    2e-06 
+WP_002596835.1 EpsG family protein [Clostridium thermobutyricum]      61.6    2e-06 
+WP_166848155.1 Unknown                                                61.6    2e-06 
+WP_187954067.1 biofilm exopolysaccharide biosynthesis protein Eps...  61.6    2e-06 
+WP_133954049.1 biofilm exopolysaccharide biosynthesis protein Eps...  61.6    2e-06 
+WP_040081752.1 MULTISPECIES: biofilm exopolysaccharide biosynthes...  61.6    3e-06 
+WP_161476682.1 biofilm exopolysaccharide biosynthesis protein Eps...  61.6    3e-06 
+WP_003228259.1 Unknown                                                61.6    3e-06 
+WP_163407808.1 EpsG family protein [Flavobacterium ajazii]            61.6    3e-06 
+WP_163189783.1 biofilm exopolysaccharide biosynthesis protein Eps...  61.2    3e-06 
+WP_100192172.1 Unknown                                                61.2    3e-06 
+WP_215681159.1 EpsG family protein [Parabacteroides distasonis]       61.2    3e-06 
+WP_005857339.1 MULTISPECIES: EpsG family protein [Parabacteroides]    61.2    3e-06 
+WP_164123650.1 Unknown                                                61.2    3e-06 
+WP_125589594.1 EpsG family protein [Bacillus sp. 2B09]                61.2    3e-06 
+WP_100843423.1 Unknown                                                61.2    3e-06 
+WP_035701465.1 Unknown                                                61.2    3e-06 
+MBE6600264.1 Unknown                                                  61.2    3e-06 
+WP_152846468.1 Unknown                                                61.2    3e-06 
+WP_057698770.1 Unknown                                                61.2    3e-06 
+WP_039075431.1 biofilm exopolysaccharide biosynthesis protein Eps...  61.2    3e-06 
+WP_121643333.1 biofilm exopolysaccharide biosynthesis protein Eps...  61.2    3e-06 
+WP_005862732.1 MULTISPECIES: EpsG family protein [Parabacteroides]    61.2    3e-06 
+WP_208753426.1 EpsG family protein [Acinetobacter pittii]             61.2    3e-06 
+WP_094582319.1 Unknown                                                61.2    4e-06 
+WP_138810401.1 EpsG family protein [Alteribacter natronophilus]       60.8    4e-06 
+WP_046160875.1 Unknown                                                60.8    4e-06 
+WP_185183978.1 biofilm exopolysaccharide biosynthesis protein Eps...  60.8    4e-06 
+WP_160245509.1 biofilm exopolysaccharide biosynthesis protein Eps...  60.8    4e-06 
+WP_015384700.1 Unknown                                                60.8    4e-06 
+WP_099709514.1 EpsG family protein [Flavobacterium sp. 9]             61.2    4e-06 
+WP_192858023.1 Unknown                                                60.8    4e-06 
+WP_204715737.1 Unknown                                                60.8    4e-06 
+WP_015714749.1 Unknown                                                60.8    4e-06 
+WP_212060877.1 EpsG family protein [Bacillus subtilis]                60.8    4e-06 
+WP_148982556.1 biofilm exopolysaccharide biosynthesis protein Eps...  60.8    5e-06 
+WP_077671050.1 biofilm exopolysaccharide biosynthesis protein Eps...  60.8    5e-06 
+WP_069322921.1 Unknown                                                60.8    5e-06 
+WP_119899798.1 biofilm exopolysaccharide biosynthesis protein Eps...  60.8    5e-06 
+WP_153256510.1 Unknown                                                60.8    5e-06 
+HAV9806773.1 TPA: EpsG family protein [Escherichia coli]              60.8    5e-06 
+WP_216919468.1 Unknown                                                60.5    5e-06 
+WP_012262022.1 Unknown                                                60.5    5e-06 
+WP_075751455.1 Unknown                                                60.5    5e-06 
+WP_091203626.1 EpsG family protein [Flavobacterium xueshanense]       60.5    5e-06 
+WP_187143816.1 Unknown                                                60.5    6e-06 
+WP_029318365.1 biofilm exopolysaccharide biosynthesis protein Eps...  60.5    6e-06 
+WP_213379825.1 EpsG family protein [Bacillus subtilis]                60.5    6e-06 
+WP_195648205.1 Unknown                                                60.5    6e-06 
+WP_176276543.1 EpsG family protein [Bacillus licheniformis]           60.5    6e-06 
+MRZ86425.1 Unknown                                                    60.1    6e-06 
+WP_103031036.1 Unknown                                                60.5    6e-06 
+WP_212129165.1 Unknown                                                60.5    6e-06 
+WP_069838682.1 MULTISPECIES: biofilm exopolysaccharide biosynthes...  60.5    6e-06 
+WP_010993520.1 Unknown                                                60.5    7e-06 
+WP_223061068.1 Unknown                                                60.5    7e-06 
+WP_015251179.1 biofilm exopolysaccharide biosynthesis protein Eps...  60.1    7e-06 
+WP_160221827.1 Unknown                                                60.1    7e-06 
+WP_020453026.1 Unknown                                                60.1    7e-06 
+SEG42646.1 EpsG family protein [Chryseobacterium humi]                60.1    7e-06 
+WP_086496437.1 Unknown                                                60.5    7e-06 
+WP_195536855.1 Unknown                                                60.1    7e-06 
+WP_047774250.1 EpsG family protein [Flavobacterium sp. ABG]           60.5    7e-06 
+WP_105979725.1 EpsG family protein [Bacillus paralicheniformis]       60.1    8e-06 
+WP_078432586.1 EpsG family protein [Metabacillus halosaccharovorans]  60.1    8e-06 
+WP_124044166.1 biofilm exopolysaccharide biosynthesis protein Eps...  60.1    8e-06 
+WP_057536933.1 EpsG family protein [Paeniclostridium sordellii]       60.1    8e-06 
+WP_061521659.1 Unknown                                                60.1    8e-06 
+WP_118122010.1 EpsG family protein [Odoribacter splanchnicus]         60.1    9e-06 
+WP_043928458.1 Unknown                                                60.1    9e-06 
+MBP5424170.1 Unknown                                                  60.1    9e-06 
+WP_072173478.1 biofilm exopolysaccharide biosynthesis protein Eps...  59.7    9e-06 
+HBC3604841.1 Unknown                                                  59.7    9e-06 
+WP_096187557.1 EpsG family protein [Escherichia coli]                 59.7    1e-05 
+WP_051941665.1 EpsG family protein [Maribacter forsetii]              59.7    1e-05 
+WP_206046531.1 Unknown                                                59.7    1e-05 
+WP_075746801.1 biofilm exopolysaccharide biosynthesis protein Eps...  59.7    1e-05 
+EFN4854372.1 Unknown                                                  59.7    1e-05 
+WP_161997980.1 Unknown                                                59.7    1e-05 
+WP_016937859.1 MULTISPECIES: EpsG family protein [Bacillus]           59.7    1e-05 
+GIM28308.1 hypothetical protein CPJCM30710_09740 [Clostridium pol...  59.3    1e-05 
+WP_090629336.1 EpsG family protein [Neobacillus massiliamazoniensis]  59.7    1e-05 
+WP_220797580.1 EpsG family protein [Paraclostridium bifermentans]     59.7    1e-05 
+WP_049627447.1 EpsG family protein [Bacillus sp. JFL15]               59.7    1e-05 
+WP_061554685.1 EpsG family protein [Obesumbacterium proteus]          59.7    1e-05 
+WP_204529968.1 Unknown                                                59.7    1e-05 
+KXS42119.1 hypothetical protein AWU54_1415 [Candidatus Frackibact...  59.3    1e-05 
+WP_185855234.1 Unknown                                                59.3    1e-05 
+EGR2552343.1 EpsG family protein [Vibrio alginolyticus]               59.3    1e-05 
+WP_141316555.1 Unknown                                                59.3    1e-05 
+WP_140186359.1 EpsG family protein [Trichococcus shcherbakoviae]      59.3    1e-05 
+MBP3046053.1 Unknown                                                  59.3    2e-05 
+WP_129110000.1 Unknown                                                59.3    2e-05 
+WP_209767113.1 EpsG family protein [Acinetobacter nosocomialis]       58.9    2e-05 
+WP_224137591.1 Unknown                                                58.9    2e-05 
+WP_195972244.1 Unknown                                                58.9    2e-05 
+WP_157942524.1 Unknown                                                58.5    2e-05 
+MUT99619.1 Unknown                                                    58.9    2e-05 
+WP_180977980.1 MULTISPECIES: EpsG family protein [unclassified Me...  58.5    2e-05 
+HBB9862046.1 Unknown                                                  58.5    2e-05 
+WP_015532871.1 EpsG family protein [Bacteroides xylanisolvens]        58.5    2e-05 
+WP_064778589.1 EpsG family protein [Bacillus siamensis]               58.5    2e-05 
+HBC7578489.1 Unknown                                                  58.2    2e-05 
+WP_229089545.1 Unknown                                                58.5    2e-05 
+WP_118234423.1 EpsG family protein [Fusobacterium mortiferum]         58.5    3e-05 
+WP_154500372.1 Unknown                                                58.5    3e-05 
+WP_229093739.1 EpsG family protein [Bacteroides cellulosilyticus]     58.2    3e-05 
+WP_072832964.1 EpsG family protein [Escherichia coli]                 58.5    3e-05 
+MHU24853.1 EpsG family protein [Escherichia coli]                     58.5    3e-05 
+HBA4152158.1 TPA: EpsG family protein [Escherichia coli]              58.2    3e-05 
+HAO6643596.1 Unknown                                                  58.2    3e-05 
+WP_225382072.1 EpsG family protein [Escherichia coli]                 58.2    3e-05 
+WP_214813042.1 MULTISPECIES: EpsG family protein [Bacteria]           58.2    3e-05 
+WP_154276682.1 EpsG family protein [Faecalibacterium prausnitzii]     58.2    3e-05 
+EGF7405217.1 Unknown                                                  58.2    3e-05 
+OKZ14379.1 Unknown                                                    58.2    3e-05 
+WP_061527826.1 Unknown                                                58.2    4e-05 
+WP_203401753.1 EpsG family protein [Escherichia coli]                 57.8    4e-05 
+HAH2340609.1 TPA: hypothetical protein [Escherichia coli]             57.8    4e-05 
+WP_052925270.1 EpsG family protein [Escherichia coli]                 57.8    4e-05 
+SEU05578.1 EpsG family protein [Draconibacterium orientale]           58.2    4e-05 
+HAM0219266.1 Unknown                                                  57.8    4e-05 
+MBX9597224.1 Unknown                                                  57.8    4e-05 
+WP_026706971.1 Unknown                                                57.8    4e-05 
+WP_070179552.1 Unknown                                                57.8    5e-05 
+MAD15239.1 hypothetical protein [Alteromonadaceae bacterium]          57.8    5e-05 
+MBE6307858.1 Unknown                                                  57.8    5e-05 
+WP_131391565.1 EpsG family protein [Hafnia alvei]                     57.8    5e-05 
+EHH8722447.1 Unknown                                                  57.4    5e-05 
+EHD9087964.1 Unknown                                                  57.4    5e-05 
+HAJ0675504.1 TPA: hypothetical protein [Escherichia coli]             57.4    5e-05 
+
+
+Sequence with id AFW04684 no longer exists in database...alignment skipped
+Sequence with id WP_079817733 no longer exists in database...alignment skipped
+>EGY1756633.1 EpsG family protein [Salmonella enterica]
+Length=373
+
+ Score = 719 bits (1857),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 370/374 (99%), Positives = 371/374 (99%), Gaps = 1/374 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN
+Sbjct  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+            LLNQANIY+FFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV
+Sbjct  61   LLNQANIYNFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML
+Sbjct  121  -YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG
+Sbjct  180  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FSLKYLELLIVFYCYYERK FLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL
+Sbjct  240  FSLKYLELLIVFYCYYERKVFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  299
+
+Query  301  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF  360
+            SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVF RYYQLVYSPVRVPGEMSHLERF
+Sbjct  300  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFTRYYQLVYSPVRVPGEMSHLERF  359
+
+Query  361  ENYCSIFNERECQR  374
+            ENYCSIFNERECQR
+Sbjct  360  ENYCSIFNERECQR  373
+
+
+>EIP3526296.1 EpsG family protein [Salmonella enterica]
+Length=373
+
+ Score = 718 bits (1854),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 370/374 (99%), Positives = 371/374 (99%), Gaps = 1/374 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN
+Sbjct  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+            LLNQANIY+FFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV
+Sbjct  61   LLNQANIYNFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML
+Sbjct  121  -YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDM GLKSLMSKIPALNIYLNNSTLSYKVG
+Sbjct  180  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMQGLKSLMSKIPALNIYLNNSTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FSLKYLELLIVFYCYYERK FLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL
+Sbjct  240  FSLKYLELLIVFYCYYERKVFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  299
+
+Query  301  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF  360
+            SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF
+Sbjct  300  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF  359
+
+Query  361  ENYCSIFNERECQR  374
+            ENYCSIFNERECQR
+Sbjct  360  ENYCSIFNERECQR  373
+
+
+>EAY3718270.1 EpsG family protein [Salmonella enterica]
+Length=302
+
+ Score = 575 bits (1481),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 300/303 (99%), Positives = 301/303 (99%), Gaps = 1/303 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN
+Sbjct  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+            LLNQANIY+FFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV
+Sbjct  61   LLNQANIYNFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML
+Sbjct  121  -YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG
+Sbjct  180  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FSLKYLELLIVFYCYYERK FLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL
+Sbjct  240  FSLKYLELLIVFYCYYERKVFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  299
+
+Query  301  SVY  303
+            SVY
+Sbjct  300  SVY  302
+
+
+>EGY5277941.1 EpsG family protein [Salmonella enterica]
+Length=290
+
+ Score = 551 bits (1419),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 288/291 (99%), Positives = 289/291 (99%), Gaps = 1/291 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN
+Sbjct  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+            LLNQANIY+FFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV
+Sbjct  61   LLNQANIYNFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML
+Sbjct  121  -YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG
+Sbjct  180  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFN  291
+            FSLKYLELLIVFYCYYERK FLPLINNFGIRQFWIFKGLIIIELMIYSIFN
+Sbjct  240  FSLKYLELLIVFYCYYERKVFLPLINNFGIRQFWIFKGLIIIELMIYSIFN  290
+
+
+Sequence with id EDW4289472 no longer exists in database...alignment skipped
+>EBA7040509.1 EpsG family protein [Salmonella enterica]
+Length=279
+
+ Score = 531 bits (1368),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 277/280 (99%), Positives = 278/280 (99%), Gaps = 1/280 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN
+Sbjct  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+            LLNQANIY+FFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV
+Sbjct  61   LLNQANIYNFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML
+Sbjct  121  -YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG
+Sbjct  180  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLI  280
+            FSLKYLELLIVFYCYYERK FLPLINNFGIRQFWIFKGLI
+Sbjct  240  FSLKYLELLIVFYCYYERKVFLPLINNFGIRQFWIFKGLI  279
+
+
+Sequence with id EGG6885812 no longer exists in database...alignment skipped
+>EEP5305367.1 EpsG family protein [Salmonella enterica]
+Length=273
+
+ Score = 521 bits (1341),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 271/274 (99%), Positives = 272/274 (99%), Gaps = 1/274 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN
+Sbjct  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+            LLNQANIY+FFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV
+Sbjct  61   LLNQANIYNFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML
+Sbjct  121  -YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG
+Sbjct  180  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFW  274
+            FSLKYLELLIVFYCYYERK FLPLINNFGIRQFW
+Sbjct  240  FSLKYLELLIVFYCYYERKVFLPLINNFGIRQFW  273
+
+
+>EEJ2065308.1 EpsG family protein [Salmonella enterica subsp. diarizonae]
+Length=271
+
+ Score = 515 bits (1327),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 269/272 (99%), Positives = 270/272 (99%), Gaps = 1/272 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN
+Sbjct  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+            LLNQANIY+FFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV
+Sbjct  61   LLNQANIYNFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML
+Sbjct  121  -YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG
+Sbjct  180  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQ  272
+            FSLKYLELLIVFYCYYERK FLPLINNFGIRQ
+Sbjct  240  FSLKYLELLIVFYCYYERKVFLPLINNFGIRQ  271
+
+
+>EEF3230420.1 EpsG family protein [Salmonella enterica]
+Length=258
+
+ Score = 498 bits (1283),  Expect = 2e-175, Method: Compositional matrix adjust.
+ Identities = 257/259 (99%), Positives = 257/259 (99%), Gaps = 1/259 (0%)
+
+Query  116  LGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHI  175
+            LGKFV YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHI
+Sbjct  1    LGKFV-YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHI  59
+
+Query  176  SAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTL  235
+            SAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTL
+Sbjct  60   SAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTL  119
+
+Query  236  SYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSI  295
+            SYKVGFSLKYLELLIVFYCYYERK FLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSI
+Sbjct  120  SYKVGFSLKYLELLIVFYCYYERKVFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSI  179
+
+Query  296  IYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMS  355
+            IYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMS
+Sbjct  180  IYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMS  239
+
+Query  356  HLERFENYCSIFNERECQR  374
+            HLERFENYCSIFNERECQR
+Sbjct  240  HLERFENYCSIFNERECQR  258
+
+
+>EHS6392484.1 EpsG family protein [Salmonella enterica]
+Length=260
+
+ Score = 492 bits (1267),  Expect = 4e-173, Method: Compositional matrix adjust.
+ Identities = 258/261 (99%), Positives = 259/261 (99%), Gaps = 1/261 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN
+Sbjct  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+            LLNQANIY+FFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV
+Sbjct  61   LLNQANIYNFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML
+Sbjct  121  -YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG
+Sbjct  180  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFF  261
+            FSLKYLELLIVFYCYYERK F
+Sbjct  240  FSLKYLELLIVFYCYYERKVF  260
+
+
+>ECJ2412997.1 EpsG family protein [Salmonella enterica subsp. diarizonae]
+Length=243
+
+ Score = 475 bits (1223),  Expect = 1e-166, Method: Compositional matrix adjust.
+ Identities = 242/243 (99%), Positives = 242/243 (99%), Gaps = 0/243 (0%)
+
+Query  132  GYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIAN  191
+            GYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIAN
+Sbjct  1    GYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIAN  60
+
+Query  192  RVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIV  251
+            RVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIV
+Sbjct  61   RVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIV  120
+
+Query  252  FYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIA  311
+            FYCYYERK FLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIA
+Sbjct  121  FYCYYERKVFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIA  180
+
+Query  312  IAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERE  371
+            IAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERE
+Sbjct  181  IAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERE  240
+
+Query  372  CQR  374
+            CQR
+Sbjct  241  CQR  243
+
+
+Sequence with id WP_155848042 no longer exists in database...alignment skipped
+>WP_200015063.1 EpsG family protein [Citrobacter freundii]
+ EIJ7983959.1 EpsG family protein [Citrobacter freundii]
+ MBJ9054034.1 EpsG family protein [Citrobacter freundii]
+ HAT2329757.1 EpsG family protein [Citrobacter freundii]
+Length=373
+
+ Score = 464 bits (1193),  Expect = 4e-160, Method: Compositional matrix adjust.
+ Identities = 246/374 (66%), Positives = 305/374 (82%), Gaps = 1/374 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M IYLVLL  +   S++++L   K+     L +Y++LL LF+GLR+HTGWDWEAYDYFF+
+Sbjct  1    MGIYLVLLTIVAIISVIILLINIKQGIKFTLTVYIVLLFLFSGLRYHTGWDWEAYDYFFD  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L +ANI   F YNIF YEPGFV  +YIS +LNIPPFL F+IITVSLI+SSAH+YLGK+V
+Sbjct  61   ELAKANIITLFHYNIFGYEPGFVFFTYISSVLNIPPFLFFSIITVSLIISSAHRYLGKYV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             +IFCL+YLYYGYFHNFSIVRQG+AAALFAYSIRFLI+ + KFY VI+  +LFHISA ML
+Sbjct  121  -FIFCLLYLYYGYFHNFSIVRQGVAAALFAYSIRFLILNNNKFYVVIMIGALFHISAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+             AIPLL   + ++PF  ++LLS+  VL P+S+M+GLK+++S +PAL  YLNN TLSYKVG
+Sbjct  180  FAIPLLCRWSKKIPFTPIVLLSLITVLFPISEMIGLKTILSTVPALKNYLNNDTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FSLKY+ELL++FYC+Y+ +F   +  NF  + F+IF+ LI++EL+IYSIFND+SI YERL
+Sbjct  240  FSLKYVELLLIFYCFYDGRFVELMKKNFSEQNFYIFRSLILVELLIYSIFNDFSIFYERL  299
+
+Query  301  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF  360
+            SVYFEFSHAIAIAMI+S FKY+R+QF L++ILL  VF RYYQLV SPVRV GEMSHLERF
+Sbjct  300  SVYFEFSHAIAIAMIISAFKYRRVQFLLLMILLLIVFFRYYQLVNSPVRVQGEMSHLERF  359
+
+Query  361  ENYCSIFNERECQR  374
+            ENYCSIF +  CQR
+Sbjct  360  ENYCSIFTKEACQR  373
+
+
+Sequence with id EAO5057031 no longer exists in database...alignment skipped
+Sequence with id EBV2375356 no longer exists in database...alignment skipped
+>MBJ8674661.1 EpsG family protein [Citrobacter freundii]
+ MBJ9082009.1 EpsG family protein [Citrobacter freundii]
+ MBJ9285020.1 EpsG family protein [Citrobacter freundii]
+Length=373
+
+ Score = 459 bits (1182),  Expect = 2e-158, Method: Compositional matrix adjust.
+ Identities = 246/374 (66%), Positives = 305/374 (82%), Gaps = 1/374 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M IYLVLL  +   S++++L   K+     L +Y++LL LF+GLR+HTGWDWEAYDYFF+
+Sbjct  1    MGIYLVLLAIVAIISVIILLINKKQGIKFTLTVYIVLLFLFSGLRYHTGWDWEAYDYFFD  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L +ANI   F YNIF YEPGFV  +YIS +LNIPPFL F+IITVSLI+SSAH+YLGK+V
+Sbjct  61   ELAKANIITLFHYNIFGYEPGFVFFTYISSVLNIPPFLFFSIITVSLIISSAHRYLGKYV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             +IFCL+YLYYGYFHNFSIVRQG+AAALFAYSIRFLI+ + KFY VI+  +LFHISA ML
+Sbjct  121  -FIFCLLYLYYGYFHNFSIVRQGVAAALFAYSIRFLILNNNKFYVVIMIGALFHISAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+             AIPLL   + ++PF  ++LLS+  VL P+S+M+GLK+++S +PAL  YLNN TLSYKVG
+Sbjct  180  FAIPLLCRWSKKIPFTPMVLLSLITVLFPISEMIGLKTILSTVPALKNYLNNDTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FSLKY+ELL++FYC+Y+ +F   +  NF  + F+IF+ LI++EL+IYSIFND+SI YERL
+Sbjct  240  FSLKYVELLLIFYCFYDGRFVELMKKNFSEQNFYIFRSLILVELLIYSIFNDFSIFYERL  299
+
+Query  301  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF  360
+            SVYFEFSHAIAIAMI+S FKY+R+QF L++ILL  VF RYYQLV SPVRV GEMSHLERF
+Sbjct  300  SVYFEFSHAIAIAMIISAFKYRRVQFLLLMILLLIVFFRYYQLVNSPVRVQGEMSHLERF  359
+
+Query  361  ENYCSIFNERECQR  374
+            ENYCSIF +  CQR
+Sbjct  360  ENYCSIFTKEACQR  373
+
+
+>WP_187252201.1 EpsG family protein [Citrobacter braakii]
+ MBC6554385.1 EpsG family protein [Citrobacter braakii]
+Length=373
+
+ Score = 458 bits (1179),  Expect = 6e-158, Method: Compositional matrix adjust.
+ Identities = 242/374 (65%), Positives = 302/374 (81%), Gaps = 1/374 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MV+YLVLL  +   S+V++L   KR     L +YV++L LF+GLR+HTGWDWEAYDYFF+
+Sbjct  1    MVMYLVLLTIVAIISVVILLINKKRGIKFTLTVYVVILFLFSGLRYHTGWDWEAYDYFFD  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L +ANI   F YNIF YEPGFV  +YIS +LN+PPFL F+IITVSLI+SSA++YLGK+V
+Sbjct  61   ELTKANIITLFHYNIFGYEPGFVFFTYISSVLNVPPFLFFSIITVSLIISSAYRYLGKYV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             +IFCL+YLYYGYFHNFSIVRQG+AAALFAYSIRFLI+ + KFY +I+  SLFHISA ML
+Sbjct  121  -FIFCLLYLYYGYFHNFSIVRQGVAAALFAYSIRFLILNNKKFYIMIMIGSLFHISAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+             +IP L     ++PF +++LLS+  VL P+S++ GLK+++S +PAL  YLNN TLSYKVG
+Sbjct  180  FSIPFLCRWLKKIPFMVIVLLSLITVLFPISELFGLKTILSTVPALKNYLNNDTLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FSLKY+ELL++ YC+Y+ +F   +  NF  + F+IF+ LI++EL+IYSIFND+SI YERL
+Sbjct  240  FSLKYVELLLISYCFYDGRFVELMKKNFSEQSFYIFRSLILVELLIYSIFNDFSIFYERL  299
+
+Query  301  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF  360
+            SVYFEFSHAIAIAMI+S FKY+R+QF L++ILL  VF RYYQLV SPVRV GEMSHLERF
+Sbjct  300  SVYFEFSHAIAIAMIISAFKYRRVQFLLLMILLLIVFFRYYQLVNSPVRVQGEMSHLERF  359
+
+Query  361  ENYCSIFNERECQR  374
+            ENYCSIF    CQR
+Sbjct  360  ENYCSIFTREACQR  373
+
+
+Sequence with id EDU3631650 no longer exists in database...alignment skipped
+>EDV5772037.1 EpsG family protein [Salmonella enterica subsp. diarizonae]
+Length=231
+
+ Score = 441 bits (1134),  Expect = 3e-153, Method: Compositional matrix adjust.
+ Identities = 230/232 (99%), Positives = 231/232 (99%), Gaps = 1/232 (0%)
+
+Query  12   FSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFF  71
+            FSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIY+FF
+Sbjct  1    FSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYNFF  60
+
+Query  72   SYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYY  131
+            SYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV YIFCLIYLYY
+Sbjct  61   SYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV-YIFCLIYLYY  119
+
+Query  132  GYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIAN  191
+            GYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIAN
+Sbjct  120  GYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIAN  179
+
+Query  192  RVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSL  243
+            RVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSL
+Sbjct  180  RVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSL  231
+
+
+>EFB5766100.1 EpsG family protein [Escherichia coli]
+ EFN5236412.1 EpsG family protein [Escherichia coli]
+Length=336
+
+ Score = 439 bits (1128),  Expect = 9e-151, Method: Compositional matrix adjust.
+ Identities = 228/337 (68%), Positives = 281/337 (83%), Gaps = 1/337 (0%)
+
+Query  38   LSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPF  97
+            LSL AGLRFHTGWDWEAYDYFF  L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPF
+Sbjct  1    LSLLAGLRFHTGWDWEAYDYFFYELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPF  60
+
+Query  98   LLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLI  157
+            L F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI
+Sbjct  61   LFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLI  119
+
+Query  158  VRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLK  217
+             +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+K
+Sbjct  120  AKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMK  179
+
+Query  218  SLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFK  277
+            SL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+
+Sbjct  180  SLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFR  239
+
+Query  278  GLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVF  337
+             LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F
+Sbjct  240  CLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIF  299
+
+Query  338  ARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+             RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  300  VRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  336
+
+
+Sequence with id EGB0928297 no longer exists in database...alignment skipped
+Sequence with id WP_154735967 no longer exists in database...alignment skipped
+Sequence with id HAW0989915 no longer exists in database...alignment skipped
+Sequence with id WP_000539504 no longer exists in database...alignment skipped
+Sequence with id WP_000539505 no longer exists in database...alignment skipped
+Sequence with id WP_039025712 no longer exists in database...alignment skipped
+>WP_163435987.1 O78 family O-antigen polymerase [Escherichia coli]
+ MBT9220394.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=373
+
+ Score = 437 bits (1123),  Expect = 2e-149, Method: Compositional matrix adjust.
+ Identities = 237/374 (63%), Positives = 300/374 (80%), Gaps = 1/374 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F +ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFTLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVG
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL
+Sbjct  240  FSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERL  299
+
+Query  301  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF  360
+            +VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERF
+Sbjct  300  TVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERF  359
+
+Query  361  ENYCSIFNERECQR  374
+            ENYCS+FN ++CQR
+Sbjct  360  ENYCSVFNTKDCQR  373
+
+
+Sequence with id EAA2746691 no longer exists in database...alignment skipped
+Sequence with id EFI7760529 no longer exists in database...alignment skipped
+Sequence with id WP_199266087 no longer exists in database...alignment skipped
+Sequence with id EEQ8725177 no longer exists in database...alignment skipped
+>WP_203104381.1 EpsG family protein, partial [Escherichia coli]
+ MBM0524713.1 EpsG family protein [Escherichia coli]
+Length=333
+
+ Score = 434 bits (1117),  Expect = 4e-149, Method: Compositional matrix adjust.
+ Identities = 224/333 (67%), Positives = 279/333 (84%), Gaps = 1/333 (0%)
+
+Query  42   AGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFA  101
+            AGLRFHTGWDWEAYDYFF  L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F+
+Sbjct  2    AGLRFHTGWDWEAYDYFFYELTNSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFS  61
+
+Query  102  IITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSY  161
+            +ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SY
+Sbjct  62   LITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSY  120
+
+Query  162  KFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMS  221
+            K+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S
+Sbjct  121  KYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLS  180
+
+Query  222  KIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLII  281
+             I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+
+Sbjct  181  GINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIV  240
+
+Query  282  IELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYY  341
+            IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S+FKYKR+Q FL+LILL  +F RYY
+Sbjct  241  IEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISSFKYKRVQLFLLLILLSLIFVRYY  300
+
+Query  342  QLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            QL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  301  QLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  333
+
+
+>WP_134692146.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=373
+
+ Score = 436 bits (1120),  Expect = 6e-149, Method: Compositional matrix adjust.
+ Identities = 236/374 (63%), Positives = 300/374 (80%), Gaps = 1/374 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y  I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYIFIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVG
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL
+Sbjct  240  FSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERL  299
+
+Query  301  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF  360
+            +VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERF
+Sbjct  300  TVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERF  359
+
+Query  361  ENYCSIFNERECQR  374
+            ENYCS+FN ++CQR
+Sbjct  360  ENYCSVFNTKDCQR  373
+
+
+>EEW2587699.1 EpsG family protein [Escherichia coli]
+Length=373
+
+ Score = 435 bits (1119),  Expect = 9e-149, Method: Compositional matrix adjust.
+ Identities = 235/374 (63%), Positives = 300/374 (80%), Gaps = 1/374 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVG
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FS KY ELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL
+Sbjct  240  FSFKYFELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERL  299
+
+Query  301  SVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERF  360
+            +VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERF
+Sbjct  300  TVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERF  359
+
+Query  361  ENYCSIFNERECQR  374
+            ENYCS+FN ++CQR
+Sbjct  360  ENYCSVFNTKDCQR  373
+
+
+>EFI6032773.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=365
+
+ Score = 434 bits (1116),  Expect = 2e-148, Method: Compositional matrix adjust.
+ Identities = 234/360 (65%), Positives = 295/360 (82%), Gaps = 1/360 (0%)
+
+Query  15   SIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYN  74
+            SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF  L  +N+++    N
+Sbjct  7    SIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFYELTNSNLFEISKAN  66
+
+Query  75   IFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYF  134
+            IFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYF
+Sbjct  67   IFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYF  125
+
+Query  135  HNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVP  194
+            HNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+P
+Sbjct  126  HNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIP  185
+
+Query  195  FFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYC  254
+            F  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   
+Sbjct  186  FSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVL  245
+
+Query  255  YYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAM  314
+            +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAM
+Sbjct  246  FYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAM  305
+
+Query  315  IVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            I+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  306  IISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  365
+
+
+>HAL3248163.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=360
+
+ Score = 433 bits (1114),  Expect = 3e-148, Method: Compositional matrix adjust.
+ Identities = 233/360 (65%), Positives = 295/360 (82%), Gaps = 1/360 (0%)
+
+Query  15   SIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYN  74
+            SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF  L  +N+++    N
+Sbjct  2    SIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFYELTNSNLFEISKAN  61
+
+Query  75   IFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYF  134
+            +FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYF
+Sbjct  62   VFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYF  120
+
+Query  135  HNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVP  194
+            HNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+P
+Sbjct  121  HNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIP  180
+
+Query  195  FFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYC  254
+            F  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   
+Sbjct  181  FSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVL  240
+
+Query  255  YYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAM  314
+            +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAM
+Sbjct  241  FYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAM  300
+
+Query  315  IVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            I+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  301  IISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  360
+
+
+Sequence with id HBA9437631 no longer exists in database...alignment skipped
+>MBB0488509.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=356
+
+ Score = 430 bits (1105),  Expect = 7e-147, Method: Compositional matrix adjust.
+ Identities = 235/358 (66%), Positives = 293/358 (82%), Gaps = 2/358 (1%)
+
+Query  17   VMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIF  76
+            V+  N  K T N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF  L  +N+++    N+F
+Sbjct  1    VLFHNDVKFT-NVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFYELTNSNLFEISKANVF  59
+
+Query  77   NYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHN  136
+            NYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHN
+Sbjct  60   NYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHN  118
+
+Query  137  FSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFF  196
+            FSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF 
+Sbjct  119  FSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFS  178
+
+Query  197  LLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYY  256
+             LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y
+Sbjct  179  ALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFY  238
+
+Query  257  ERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIV  316
+             ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+
+Sbjct  239  NKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMII  298
+
+Query  317  STFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  299  SAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  356
+
+
+Sequence with id WP_089518867 no longer exists in database...alignment skipped
+>HAW8998772.1 O78 family O-antigen polymerase [Escherichia coli]
+ HBI8687895.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=338
+
+ Score = 428 bits (1101),  Expect = 1e-146, Method: Compositional matrix adjust.
+ Identities = 222/330 (67%), Positives = 275/330 (83%), Gaps = 1/330 (0%)
+
+Query  45   RFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIIT  104
+            RFHTGWDWEAYDYFF  L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++IT
+Sbjct  10   RFHTGWDWEAYDYFFYELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLIT  69
+
+Query  105  VSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFY  164
+            V+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y
+Sbjct  70   VTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYY  128
+
+Query  165  FVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIP  224
+             +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I 
+Sbjct  129  ILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGIN  188
+
+Query  225  ALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIEL  284
+            ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+
+Sbjct  189  ALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEV  248
+
+Query  285  MIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLV  344
+            MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL 
+Sbjct  249  MIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLF  308
+
+Query  345  YSPVRVPGEMSHLERFENYCSIFNERECQR  374
+             SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  309  NSPVRVDGEMTHYERFENYCSVFNTKDCQR  338
+
+
+>EEZ5379711.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=323
+
+ Score = 411 bits (1057),  Expect = 3e-140, Method: Compositional matrix adjust.
+ Identities = 216/324 (67%), Positives = 269/324 (83%), Gaps = 1/324 (0%)
+
+Query  51   DWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVS  110
+            DWEAYDYFF  L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ 
+Sbjct  1    DWEAYDYFFYELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIK  60
+
+Query  111  SAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFA  170
+            SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A
+Sbjct  61   SAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVA  119
+
+Query  171  SLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYL  230
+            +LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+
+Sbjct  120  ALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYI  179
+
+Query  231  NNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIF  290
+            NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+F
+Sbjct  180  NNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLF  239
+
+Query  291  NDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRV  350
+            ND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV
+Sbjct  240  NDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRV  299
+
+Query  351  PGEMSHLERFENYCSIFNERECQR  374
+             GEM+H ERFENYCS+FN ++CQR
+Sbjct  300  DGEMTHYERFENYCSVFNTKDCQR  323
+
+
+>HAN8543457.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=313
+
+ Score = 391 bits (1005),  Expect = 2e-132, Method: Compositional matrix adjust.
+ Identities = 207/313 (66%), Positives = 260/313 (83%), Gaps = 1/313 (0%)
+
+Query  62   LNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVP  121
+            L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV 
+Sbjct  2    LTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV-  60
+
+Query  122  YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLL  181
+            YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL
+Sbjct  61   YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLL  120
+
+Query  182  AIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGF  241
+             +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGF
+Sbjct  121  IVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGF  180
+
+Query  242  SLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLS  301
+            S KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+
+Sbjct  181  SFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLT  240
+
+Query  302  VYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFE  361
+            VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFE
+Sbjct  241  VYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFE  300
+
+Query  362  NYCSIFNERECQR  374
+            NYCS+FN ++CQR
+Sbjct  301  NYCSVFNTKDCQR  313
+
+
+>EFC4312598.1 EpsG family protein [Escherichia coli]
+Length=314
+
+ Score = 392 bits (1006),  Expect = 2e-132, Method: Compositional matrix adjust.
+ Identities = 207/313 (66%), Positives = 260/313 (83%), Gaps = 1/313 (0%)
+
+Query  62   LNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVP  121
+            L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV 
+Sbjct  3    LTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV-  61
+
+Query  122  YIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLL  181
+            YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL
+Sbjct  62   YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLL  121
+
+Query  182  AIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGF  241
+             +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGF
+Sbjct  122  IVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGF  181
+
+Query  242  SLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLS  301
+            S KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+
+Sbjct  182  SFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLT  241
+
+Query  302  VYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFE  361
+            VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFE
+Sbjct  242  VYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFE  301
+
+Query  362  NYCSIFNERECQR  374
+            NYCS+FN ++CQR
+Sbjct  302  NYCSVFNTKDCQR  314
+
+
+>EGI4690747.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=335
+
+ Score = 375 bits (964),  Expect = 7e-126, Method: Compositional matrix adjust.
+ Identities = 203/325 (62%), Positives = 261/325 (80%), Gaps = 1/325 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVG
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERL  300
+            FS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL
+Sbjct  240  FSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERL  299
+
+Query  301  SVYFEFSHAIAIAMIVSTFKYKRIQ  325
+            +VYFEFSHAI IAMI+S FKYKR+Q
+Sbjct  300  TVYFEFSHAICIAMIISAFKYKRVQ  324
+
+
+>MBB6818552.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=288
+
+ Score = 363 bits (932),  Expect = 1e-121, Method: Compositional matrix adjust.
+ Identities = 193/289 (67%), Positives = 242/289 (84%), Gaps = 1/289 (0%)
+
+Query  86   SYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIA  145
+            SYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+A
+Sbjct  1    SYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVA  59
+
+Query  146  AALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICM  205
+            AALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ M
+Sbjct  60   AALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLM  119
+
+Query  206  VLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLI  265
+            V   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + 
+Sbjct  120  VYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIA  179
+
+Query  266  NNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQ  325
+            + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q
+Sbjct  180  SKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQ  239
+
+Query  326  FFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+             FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  240  LFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  288
+
+
+>EAM0984564.1 EpsG family protein [Salmonella enterica]
+Length=175
+
+ Score = 335 bits (858),  Expect = 3e-112, Method: Compositional matrix adjust.
+ Identities = 174/175 (99%), Positives = 174/175 (99%), Gaps = 0/175 (0%)
+
+Query  130  YYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVI  189
+            YYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVI
+Sbjct  1    YYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVI  60
+
+Query  190  ANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELL  249
+            ANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELL
+Sbjct  61   ANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELL  120
+
+Query  250  IVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYF  304
+            IVFYCYYERK FLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYF
+Sbjct  121  IVFYCYYERKVFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYF  175
+
+
+Sequence with id EEZ5394947 no longer exists in database...alignment skipped
+>EIO7586977.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAN7054455.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=251
+
+ Score = 315 bits (807),  Expect = 3e-103, Method: Compositional matrix adjust.
+ Identities = 166/251 (66%), Positives = 208/251 (83%), Gaps = 0/251 (0%)
+
+Query  124  FCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAI  183
+            F LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +
+Sbjct  1    FLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIV  60
+
+Query  184  PLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSL  243
+            P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS 
+Sbjct  61   PFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSF  120
+
+Query  244  KYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVY  303
+            KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VY
+Sbjct  121  KYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVY  180
+
+Query  304  FEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENY  363
+            FEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENY
+Sbjct  181  FEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENY  240
+
+Query  364  CSIFNERECQR  374
+            CS+FN ++CQR
+Sbjct  241  CSVFNTKDCQR  251
+
+
+>MBB6777989.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=249
+
+ Score = 314 bits (804),  Expect = 7e-103, Method: Compositional matrix adjust.
+ Identities = 165/249 (66%), Positives = 207/249 (83%), Gaps = 0/249 (0%)
+
+Query  126  LIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPL  185
+            LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P 
+Sbjct  1    LIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPF  60
+
+Query  186  LLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKY  245
+            L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KY
+Sbjct  61   LYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKY  120
+
+Query  246  LELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFE  305
+            LELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFE
+Sbjct  121  LELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFE  180
+
+Query  306  FSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCS  365
+            FSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS
+Sbjct  181  FSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCS  240
+
+Query  366  IFNERECQR  374
+            +FN ++CQR
+Sbjct  241  VFNTKDCQR  249
+
+
+Sequence with id WP_097410834 no longer exists in database...alignment skipped
+>EHH9807158.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=288
+
+ Score = 312 bits (800),  Expect = 1e-101, Method: Compositional matrix adjust.
+ Identities = 172/289 (60%), Positives = 227/289 (79%), Gaps = 1/289 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVG
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSI  289
+            FS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+
+Sbjct  240  FSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSL  288
+
+
+>EFF2234737.1 EpsG family protein [Escherichia coli]
+Length=246
+
+ Score = 309 bits (792),  Expect = 4e-101, Method: Compositional matrix adjust.
+ Identities = 162/246 (66%), Positives = 204/246 (83%), Gaps = 0/246 (0%)
+
+Query  129  LYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLV  188
+            LYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  
+Sbjct  1    LYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYK  60
+
+Query  189  IANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLEL  248
+            IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLEL
+Sbjct  61   IANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLEL  120
+
+Query  249  LIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSH  308
+            LI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSH
+Sbjct  121  LIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSH  180
+
+Query  309  AIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFN  368
+            AI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN
+Sbjct  181  AICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFN  240
+
+Query  369  ERECQR  374
+             ++CQR
+Sbjct  241  TKDCQR  246
+
+
+Sequence with id EHU3539369 no longer exists in database...alignment skipped
+Sequence with id EFG1745684 no longer exists in database...alignment skipped
+Sequence with id EGV0971133 no longer exists in database...alignment skipped
+Sequence with id HAN8275825 no longer exists in database...alignment skipped
+Sequence with id EIG4521580 no longer exists in database...alignment skipped
+Sequence with id EHO8336751 no longer exists in database...alignment skipped
+>EFJ9113680.1 O78 family O-antigen polymerase [Escherichia coli]
+ EIR2632738.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=238
+
+ Score = 291 bits (745),  Expect = 3e-94, Method: Compositional matrix adjust.
+ Identities = 154/238 (65%), Positives = 196/238 (82%), Gaps = 0/238 (0%)
+
+Query  137  FSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFF  196
+            FSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF 
+Sbjct  1    FSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFS  60
+
+Query  197  LLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYY  256
+             LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y
+Sbjct  61   ALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFY  120
+
+Query  257  ERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIV  316
+             ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+
+Sbjct  121  NKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMII  180
+
+Query  317  STFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  181  SAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  238
+
+
+Sequence with id EHV2527794 no longer exists in database...alignment skipped
+Sequence with id EFK1312615 no longer exists in database...alignment skipped
+Sequence with id HAN9044408 no longer exists in database...alignment skipped
+>EEQ8750620.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=237
+
+ Score = 290 bits (741),  Expect = 2e-93, Method: Compositional matrix adjust.
+ Identities = 153/237 (65%), Positives = 195/237 (82%), Gaps = 0/237 (0%)
+
+Query  138  SIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFL  197
+            SIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  
+Sbjct  1    SIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSA  60
+
+Query  198  LLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYE  257
+            LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y 
+Sbjct  61   LLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYN  120
+
+Query  258  RKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVS  317
+            ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S
+Sbjct  121  KRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIIS  180
+
+Query  318  TFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+             FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  181  AFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  237
+
+
+>EHN1486071.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=214
+
+ Score = 287 bits (735),  Expect = 6e-93, Method: Compositional matrix adjust.
+ Identities = 150/214 (70%), Positives = 181/214 (85%), Gaps = 1/214 (0%)
+
+Query  38   LSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPF  97
+            LSL AGLRFHTGWDWEAYDYFF  L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPF
+Sbjct  1    LSLLAGLRFHTGWDWEAYDYFFYELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPF  60
+
+Query  98   LLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLI  157
+            L F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI
+Sbjct  61   LFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLI  119
+
+Query  158  VRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLK  217
+             +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+K
+Sbjct  120  AKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMK  179
+
+Query  218  SLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIV  251
+            SL+S I ALNIY+NNS+LSYKVGFS KYLELLI+
+Sbjct  180  SLLSGINALNIYINNSSLSYKVGFSFKYLELLII  213
+
+
+>EGM1846835.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAN8242178.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=236
+
+ Score = 288 bits (737),  Expect = 6e-93, Method: Compositional matrix adjust.
+ Identities = 152/236 (64%), Positives = 194/236 (82%), Gaps = 0/236 (0%)
+
+Query  139  IVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLL  198
+            IVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  L
+Sbjct  1    IVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSAL  60
+
+Query  199  LLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYER  258
+            LL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y +
+Sbjct  61   LLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNK  120
+
+Query  259  KFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVST  318
+            +F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S 
+Sbjct  121  RFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISA  180
+
+Query  319  FKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  181  FKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  236
+
+
+>EEC8797184.1 O78 family O-antigen polymerase [Escherichia coli]
+ EER2424003.1 O78 family O-antigen polymerase [Escherichia coli]
+ EHL4969510.1 O78 family O-antigen polymerase [Escherichia coli]
+ EHW7646889.1 O78 family O-antigen polymerase [Escherichia coli]
+ EIE5056101.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=235
+
+ Score = 287 bits (734),  Expect = 2e-92, Method: Compositional matrix adjust.
+ Identities = 151/235 (64%), Positives = 193/235 (82%), Gaps = 0/235 (0%)
+
+Query  140  VRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLL  199
+            VRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LL
+Sbjct  1    VRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALL  60
+
+Query  200  LLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERK  259
+            L S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++
+Sbjct  61   LFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKR  120
+
+Query  260  FFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTF  319
+            F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S F
+Sbjct  121  FSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAF  180
+
+Query  320  KYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            KYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  181  KYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  235
+
+
+>WP_096012995.1 O78 family O-antigen polymerase, partial [Escherichia coli]
+ PBK19323.1 hypothetical protein CMR93_10500, partial [Escherichia coli]
+Length=255
+
+ Score = 286 bits (732),  Expect = 6e-92, Method: Compositional matrix adjust.
+ Identities = 160/256 (63%), Positives = 203/256 (79%), Gaps = 1/256 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVG
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVG  239
+
+Query  241  FSLKYLELLIVFYCYY  256
+            FS KYLELLI+   +Y
+Sbjct  240  FSFKYLELLIILVLFY  255
+
+
+>HAN9001459.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=247
+
+ Score = 280 bits (717),  Expect = 9e-90, Method: Compositional matrix adjust.
+ Identities = 157/248 (63%), Positives = 198/248 (80%), Gaps = 1/248 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVG  240
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSY+VG
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYEVG  239
+
+Query  241  FSLKYLEL  248
+            FS KYLEL
+Sbjct  240  FSFKYLEL  247
+
+
+Sequence with id EFF6171952 no longer exists in database...alignment skipped
+Sequence with id HAM2284181 no longer exists in database...alignment skipped
+Sequence with id EHY6171421 no longer exists in database...alignment skipped
+>EFK1186352.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=228
+
+ Score = 272 bits (696),  Expect = 7e-87, Method: Compositional matrix adjust.
+ Identities = 145/228 (64%), Positives = 186/228 (82%), Gaps = 0/228 (0%)
+
+Query  147  ALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMV  206
+            ALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV
+Sbjct  1    ALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMV  60
+
+Query  207  LLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLIN  266
+               +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + +
+Sbjct  61   YTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIAS  120
+
+Query  267  NFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQF  326
+             F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q 
+Sbjct  121  KFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQL  180
+
+Query  327  FLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  181  FLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  228
+
+
+Sequence with id EES2923932 no longer exists in database...alignment skipped
+Sequence with id EET8974597 no longer exists in database...alignment skipped
+Sequence with id EFN8285362 no longer exists in database...alignment skipped
+>EHA1124951.1 EpsG family protein [Vibrio navarrensis]
+Length=380
+
+ Score = 271 bits (693),  Expect = 3e-84, Method: Compositional matrix adjust.
+ Identities = 168/360 (47%), Positives = 234/360 (65%), Gaps = 16/360 (4%)
+
+Query  25   RTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVL  84
+            R A  FL I  L+L+LF+GLR+HTGWDWEAYDYF + L      DFF+ N+FNYEP FV+
+Sbjct  27   RKATVFLSI--LVLALFSGLRYHTGWDWEAYDYFIDTLPGIISGDFFASNVFNYEPLFVI  84
+
+Query  85   LSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGI  144
+               +   L+   F  F+++TVSL + SAH YLG+F+  +F + YL+YGYFHNFSIVRQGI
+Sbjct  85   TVSVLNELSFSVFFFFSLMTVSLTILSAHVYLGRFIC-VFLVTYLFYGYFHNFSIVRQGI  143
+
+Query  145  AAALFAYSIRFLIVRS-YKFYFVIIFASLFHISAAMLLAIPLLL--VIANRVPFFLLLLL  201
+            AAALF YSIR++  RS YK+  +I  ASLFH+S+ +L  I  +   V+ ++    L + +
+Sbjct  144  AAALFIYSIRYIESRSFYKYSLIIFVASLFHVSSLILFFIYYIASNVVPSKSKLLLYIFI  203
+
+Query  202  SICMVLLPL----SDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYE  257
+            S   V  P+    +D++   S+      +++YL+N  LSYK GFSLKYLELLI+ Y +  
+Sbjct  204  SFLFVAFPILSKANDIVPFLSIFG--SKVSLYLSNENLSYKAGFSLKYLELLILVYIFSF  261
+
+Query  258  RKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVS  317
+             K+     ++FG + F IF  L+ I+L +YS  ND+SI+YER+SVYFE S  + I+M+V 
+Sbjct  262  EKYRNLGQSHFG-KYFNIFGCLVTIQLGVYSFINDFSILYERISVYFEVSQGVFISMVVV  320
+
+Query  318  TFKYKRIQFFLMLILLFFVFARYYQLVY---SPVRVPGEMSHLERFENYCSIFNERECQR  374
+             F+ K  +F ++ I+   VF RY +L Y   +  R+  E  HLERFENYCSIF++  C R
+Sbjct  321  CFRGKVSKFLIISIIFTMVFIRYERLFYHSNNDERLGDEAGHLERFENYCSIFDKETCTR  380
+
+
+Sequence with id EIK6473082 no longer exists in database...alignment skipped
+>RCX95798.1 EpsG family protein, partial [Escherichia coli]
+Length=233
+
+ Score = 265 bits (678),  Expect = 5e-84, Method: Compositional matrix adjust.
+ Identities = 141/224 (63%), Positives = 182/224 (81%), Gaps = 0/224 (0%)
+
+Query  151  YSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPL  210
+            YSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +
+Sbjct  10   YSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSV  69
+
+Query  211  SDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGI  270
+            S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  
+Sbjct  70   SELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSK  129
+
+Query  271  RQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLML  330
+            +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+L
+Sbjct  130  KQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLL  189
+
+Query  331  ILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            ILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  190  ILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  233
+
+
+>WP_103155085.1 EpsG family protein [Vibrio vulnificus]
+ AVX00189.1 hypothetical protein BJD94_09970 [Vibrio vulnificus Env1]
+ POB71798.1 hypothetical protein CRN59_02105 [Vibrio vulnificus]
+ POC66666.1 hypothetical protein CRN56_12825 [Vibrio vulnificus Env1]
+Length=380
+
+ Score = 269 bits (687),  Expect = 2e-83, Method: Compositional matrix adjust.
+ Identities = 167/360 (46%), Positives = 232/360 (64%), Gaps = 16/360 (4%)
+
+Query  25   RTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVL  84
+            R    FL I  L+L+LF+GLR+HTGWDWEAYDYF   L      DFF+ N+FNYEP FV+
+Sbjct  27   RKTTVFLSI--LVLALFSGLRYHTGWDWEAYDYFIATLPGIASGDFFASNVFNYEPLFVI  84
+
+Query  85   LSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGI  144
+               +   L+   F  F+++TVSL + SA+ YLG+F+  +F + YL+YGYFHNFSIVRQGI
+Sbjct  85   TVSVLNELSFSVFFFFSLMTVSLTILSANVYLGRFIC-VFLVTYLFYGYFHNFSIVRQGI  143
+
+Query  145  AAALFAYSIRFLIVRS-YKFYFVIIFASLFHISAAMLLAIPLLL--VIANRVPFFLLLLL  201
+            AAALF YSIR++  RS YK+  +I  ASLFH+S+ +L  I  ++  V+ N+    L + +
+Sbjct  144  AAALFLYSIRYIESRSFYKYSLIIFVASLFHVSSLILFFIYYIVNNVVPNKSKLLLYIFI  203
+
+Query  202  SICMVLLPL----SDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYE  257
+            S   V  P+    +D++   S+      +++YL+N  LSYK GFSLKYLELLI+ Y +  
+Sbjct  204  SFLFVAFPILSKANDIVPFLSIFGN--KVSLYLSNENLSYKAGFSLKYLELLILVYIFSF  261
+
+Query  258  RKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVS  317
+             K+      +FG + F IF  L+ ++L +YS  ND+SI+YER+SVYFE S  I I+M+V 
+Sbjct  262  EKYRNLGQGHFG-KYFNIFGCLVTVQLGVYSFINDFSILYERISVYFEVSQGIFISMVVV  320
+
+Query  318  TFKYKRIQFFLMLILLFFVFARYYQLVY---SPVRVPGEMSHLERFENYCSIFNERECQR  374
+             F+ K  +F ++ I+   VF RY +L Y   +  R+  E  HLERFENYCSIF++  C R
+Sbjct  321  CFRGKVSKFLIISIIFTMVFIRYERLFYHSNNEERLGDEAGHLERFENYCSIFDKETCTR  380
+
+
+Sequence with id EGQ6121559 no longer exists in database...alignment skipped
+>WP_222551728.1 EpsG family protein [Photobacterium rosenbergii]
+ MBY5947414.1 EpsG family protein [Photobacterium rosenbergii]
+Length=380
+
+ Score = 263 bits (672),  Expect = 3e-81, Method: Compositional matrix adjust.
+ Identities = 163/355 (46%), Positives = 228/355 (64%), Gaps = 24/355 (7%)
+
+Query  35   VLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNI  94
+            +L+L LF+GLR+HTGWDWEAYDYF + L      D F+ NIFNYEP FV+   I    +I
+Sbjct  35   ILVLGLFSGLRYHTGWDWEAYDYFISSLPGFLSGDVFANNIFNYEPLFVITVSILNEFSI  94
+
+Query  95   PPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIR  154
+              F  FA+ TV L ++SA +YLGK++  +F + YL+YGYFHNFSI+RQGI+AA+F YS+R
+Sbjct  95   SVFAFFALTTVMLTITSAKRYLGKYLG-VFFVCYLFYGYFHNFSIIRQGISAAIFIYSVR  153
+
+Query  155  FLIVRSYKFYFVIIF-ASLFHISAAMLLAIPLLL--VIANRVPFFLLLLLSICMVLLPLS  211
+            F+  +    Y + IF ASLFH S+ +LL +  ++  V  N+    + +++S   V+ PL 
+Sbjct  154  FIHGKKAFHYLISIFVASLFHASSLILLPVYFVVNKVEPNQKKVLIFIVISFLFVMTPL-  212
+
+Query  212  DMLGLKSLMSKIP-------ALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPL  264
+                L SL S IP        +N+YL+N  LSYK GFSLKYLE +I+   +   +F    
+Sbjct  213  ----LSSLNSVIPFLSLFGEKVNMYLSNENLSYKAGFSLKYLEQIILVAIFSFSRF--RY  266
+
+Query  265  INN--FGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYK  322
+            I N  FG R F IF  L++++L +YS  ND+SI+YER++V+FE S  I +AMI+  FK +
+Sbjct  267  IGNRIFG-RYFTIFGLLVMVQLSVYSFLNDFSILYERIAVFFEVSQGIFMAMILVCFKGQ  325
+
+Query  323  RIQFFLMLILLFFVFARYYQLVY---SPVRVPGEMSHLERFENYCSIFNERECQR  374
+              +FF++L++   VF RY +L Y   +  R+  E  HLERFENYCSIF++  C R
+Sbjct  326  ISKFFIILMIFSMVFIRYERLFYHSNNEARLGDEAGHLERFENYCSIFDKDRCTR  380
+
+
+>HAN7967748.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=218
+
+ Score = 256 bits (653),  Expect = 2e-80, Method: Compositional matrix adjust.
+ Identities = 136/218 (62%), Positives = 176/218 (81%), Gaps = 0/218 (0%)
+
+Query  157  IVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGL  216
+            I +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+
+Sbjct  1    IAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGM  60
+
+Query  217  KSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIF  276
+            KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F
+Sbjct  61   KSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVF  120
+
+Query  277  KGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFV  336
+            + LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +
+Sbjct  121  RCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLI  180
+
+Query  337  FARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  181  FVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  218
+
+
+>HAW8024295.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=216
+
+ Score = 254 bits (649),  Expect = 6e-80, Method: Compositional matrix adjust.
+ Identities = 135/216 (63%), Positives = 175/216 (81%), Gaps = 0/216 (0%)
+
+Query  159  RSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKS  218
+            +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KS
+Sbjct  1    KSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKS  60
+
+Query  219  LMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKG  278
+            L+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ 
+Sbjct  61   LLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRC  120
+
+Query  279  LIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFA  338
+            LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F 
+Sbjct  121  LIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFV  180
+
+Query  339  RYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  181  RYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  216
+
+
+>EFL6546973.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=215
+
+ Score = 253 bits (646),  Expect = 2e-79, Method: Compositional matrix adjust.
+ Identities = 135/215 (63%), Positives = 174/215 (81%), Gaps = 0/215 (0%)
+
+Query  160  SYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSL  219
+            SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL
+Sbjct  1    SYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSL  60
+
+Query  220  MSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGL  279
+            +S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ L
+Sbjct  61   LSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCL  120
+
+Query  280  IIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFAR  339
+            I+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F R
+Sbjct  121  IVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVR  180
+
+Query  340  YYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            YYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  181  YYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  215
+
+
+Sequence with id EFF2376818 no longer exists in database...alignment skipped
+Sequence with id HAN8305414 no longer exists in database...alignment skipped
+>HAN8422298.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=228
+
+ Score = 250 bits (639),  Expect = 3e-78, Method: Compositional matrix adjust.
+ Identities = 142/229 (62%), Positives = 180/229 (79%), Gaps = 1/229 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIY  229
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIY  228
+
+
+>HAW8909035.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=207
+
+ Score = 245 bits (625),  Expect = 2e-76, Method: Compositional matrix adjust.
+ Identities = 130/205 (63%), Positives = 167/205 (81%), Gaps = 0/205 (0%)
+
+Query  170  ASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIY  229
+            A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY
+Sbjct  3    AALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIY  62
+
+Query  230  LNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSI  289
+            +NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+
+Sbjct  63   INNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSL  122
+
+Query  290  FNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVR  349
+            FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVR
+Sbjct  123  FNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVR  182
+
+Query  350  VPGEMSHLERFENYCSIFNERECQR  374
+            V GEM+H ERFENYCS+FN ++CQR
+Sbjct  183  VDGEMTHYERFENYCSVFNTKDCQR  207
+
+
+>HAW9022453.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=208
+
+ Score = 245 bits (625),  Expect = 2e-76, Method: Compositional matrix adjust.
+ Identities = 131/208 (63%), Positives = 168/208 (81%), Gaps = 0/208 (0%)
+
+Query  167  IIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPAL  226
+            I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I AL
+Sbjct  1    IFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINAL  60
+
+Query  227  NIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMI  286
+            NIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MI
+Sbjct  61   NIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMI  120
+
+Query  287  YSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYS  346
+            YS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  S
+Sbjct  121  YSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNS  180
+
+Query  347  PVRVPGEMSHLERFENYCSIFNERECQR  374
+            PVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  181  PVRVDGEMTHYERFENYCSVFNTKDCQR  208
+
+
+>EFH5046835.1 EpsG family protein [Escherichia coli]
+Length=206
+
+ Score = 245 bits (625),  Expect = 2e-76, Method: Compositional matrix adjust.
+ Identities = 130/205 (63%), Positives = 167/205 (81%), Gaps = 0/205 (0%)
+
+Query  170  ASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIY  229
+            A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY
+Sbjct  2    AALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIY  61
+
+Query  230  LNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSI  289
+            +NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+
+Sbjct  62   INNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSL  121
+
+Query  290  FNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVR  349
+            FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVR
+Sbjct  122  FNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVR  181
+
+Query  350  VPGEMSHLERFENYCSIFNERECQR  374
+            V GEM+H ERFENYCS+FN ++CQR
+Sbjct  182  VDGEMTHYERFENYCSVFNTKDCQR  206
+
+
+Sequence with id PSL65039 no longer exists in database...alignment skipped
+Sequence with id EGI4148232 no longer exists in database...alignment skipped
+>EHK0640716.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=183
+
+ Score = 242 bits (617),  Expect = 1e-75, Method: Compositional matrix adjust.
+ Identities = 126/183 (69%), Positives = 153/183 (84%), Gaps = 1/183 (1%)
+
+Query  39   SLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFL  98
+            SL AGLRFHTGWDWEAYDYFF  L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL
+Sbjct  1    SLLAGLRFHTGWDWEAYDYFFYELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFL  60
+
+Query  99   LFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIV  158
+             F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI 
+Sbjct  61   FFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIA  119
+
+Query  159  RSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKS  218
+            +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KS
+Sbjct  120  KSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKS  179
+
+Query  219  LMS  221
+            L+S
+Sbjct  180  LLS  182
+
+
+Sequence with id EIG6162365 no longer exists in database...alignment skipped
+>PPW53555.1 EpsG family protein, partial [Escherichia coli]
+Length=224
+
+ Score = 243 bits (620),  Expect = 2e-75, Method: Compositional matrix adjust.
+ Identities = 137/225 (61%), Positives = 176/225 (78%), Gaps = 1/225 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPA  225
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I A
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINA  224
+
+
+Sequence with id HAN8048575 no longer exists in database...alignment skipped
+>HAM0232538.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=181
+
+ Score = 241 bits (614),  Expect = 3e-75, Method: Compositional matrix adjust.
+ Identities = 126/182 (69%), Positives = 152/182 (84%), Gaps = 1/182 (1%)
+
+Query  37   LLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPP  96
+            LLSL AGLRFHTGWDWEAYDYFF  L  +N+++    NIFNYEPGFVLLSYIS+LL+IPP
+Sbjct  1    LLSLLAGLRFHTGWDWEAYDYFFYELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPP  60
+
+Query  97   FLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFL  156
+            FL F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+L
+Sbjct  61   FLFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYL  119
+
+Query  157  IVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGL  216
+            I +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+
+Sbjct  120  IAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGM  179
+
+Query  217  KS  218
+            KS
+Sbjct  180  KS  181
+
+
+Sequence with id EFG1600218 no longer exists in database...alignment skipped
+>PSK23959.1 EpsG family protein, partial [Escherichia coli]
+Length=193
+
+ Score = 241 bits (614),  Expect = 6e-75, Method: Compositional matrix adjust.
+ Identities = 126/184 (68%), Positives = 153/184 (83%), Gaps = 1/184 (1%)
+
+Query  45   RFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIIT  104
+            RFHTGWDWEAYDYFF  L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++IT
+Sbjct  11   RFHTGWDWEAYDYFFYELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLIT  70
+
+Query  105  VSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFY  164
+            V+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y
+Sbjct  71   VTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYY  129
+
+Query  165  FVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIP  224
+             +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I 
+Sbjct  130  ILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGIN  189
+
+Query  225  ALNI  228
+            ALNI
+Sbjct  190  ALNI  193
+
+
+>EEQ5436672.1 O78 family O-antigen polymerase [Escherichia coli]
+ EII7604803.1 O78 family O-antigen polymerase [Escherichia coli]
+ RCX77350.1 EpsG family protein, partial [Escherichia coli]
+Length=202
+
+ Score = 241 bits (614),  Expect = 8e-75, Method: Compositional matrix adjust.
+ Identities = 128/202 (63%), Positives = 164/202 (81%), Gaps = 0/202 (0%)
+
+Query  173  FHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNN  232
+            FH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NN
+Sbjct  1    FHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINN  60
+
+Query  233  STLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFND  292
+            S+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND
+Sbjct  61   SSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFND  120
+
+Query  293  YSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPG  352
+            +SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV G
+Sbjct  121  FSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDG  180
+
+Query  353  EMSHLERFENYCSIFNERECQR  374
+            EM+H ERFENYCS+FN ++CQR
+Sbjct  181  EMTHYERFENYCSVFNTKDCQR  202
+
+
+Sequence with id EHO6998867 no longer exists in database...alignment skipped
+>EFK2837048.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=220
+
+ Score = 241 bits (615),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 136/221 (62%), Positives = 174/221 (79%), Gaps = 1/221 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMS  221
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLS  220
+
+
+Sequence with id HAM0398447 no longer exists in database...alignment skipped
+>EHN1490904.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=221
+
+ Score = 241 bits (614),  Expect = 1e-74, Method: Compositional matrix adjust.
+ Identities = 135/221 (61%), Positives = 174/221 (79%), Gaps = 1/221 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMS  221
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLS  220
+
+
+Sequence with id EFI6232570 no longer exists in database...alignment skipped
+Sequence with id EHX8329020 no longer exists in database...alignment skipped
+>HAN8982415.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=215
+
+ Score = 239 bits (610),  Expect = 5e-74, Method: Compositional matrix adjust.
+ Identities = 133/207 (64%), Positives = 168/207 (81%), Gaps = 1/207 (0%)
+
+Query  15   SIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYN  74
+            SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF  L  +N+++    N
+Sbjct  10   SIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFYELTNSNLFEISKAN  69
+
+Query  75   IFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYF  134
+            IFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYF
+Sbjct  70   IFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYF  128
+
+Query  135  HNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVP  194
+            HNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+P
+Sbjct  129  HNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIP  188
+
+Query  195  FFLLLLLSICMVLLPLSDMLGLKSLMS  221
+            F  LLL S+ MV   +S+++G+KSL+S
+Sbjct  189  FSALLLFSLLMVYTSVSELIGMKSLLS  215
+
+
+>HAN9054027.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=179
+
+ Score = 237 bits (605),  Expect = 9e-74, Method: Compositional matrix adjust.
+ Identities = 123/179 (69%), Positives = 150/179 (84%), Gaps = 1/179 (1%)
+
+Query  43   GLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAI  102
+            GLRFHTGWDWEAYDYFF  L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++
+Sbjct  1    GLRFHTGWDWEAYDYFFYELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSL  60
+
+Query  103  ITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYK  162
+            ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK
+Sbjct  61   ITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYK  119
+
+Query  163  FYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMS  221
+            +Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S
+Sbjct  120  YYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLS  178
+
+
+Sequence with id EIM1115076 no longer exists in database...alignment skipped
+Sequence with id MCD3727077 no longer exists in database...alignment skipped
+Sequence with id EFJ9503871 no longer exists in database...alignment skipped
+>EHN0035309.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=217
+
+ Score = 237 bits (605),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 133/218 (61%), Positives = 171/218 (78%), Gaps = 1/218 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKS  218
+            L +P L  IANR+PF  LLL S+ MV   +S+++G+KS
+Sbjct  180  LIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKS  217
+
+
+>EHB4159702.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=177
+
+ Score = 234 bits (598),  Expect = 7e-73, Method: Compositional matrix adjust.
+ Identities = 123/178 (69%), Positives = 148/178 (83%), Gaps = 1/178 (1%)
+
+Query  38   LSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPF  97
+            LSL AGLRFHTGWDWEAYDYFF  L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPF
+Sbjct  1    LSLLAGLRFHTGWDWEAYDYFFYELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPF  60
+
+Query  98   LLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLI  157
+            L F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI
+Sbjct  61   LFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLI  119
+
+Query  158  VRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLG  215
+             +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G
+Sbjct  120  AKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIG  177
+
+
+Sequence with id GDN25191 no longer exists in database...alignment skipped
+>EFG2917148.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAW8965813.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=199
+
+ Score = 235 bits (600),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 126/199 (63%), Positives = 161/199 (81%), Gaps = 0/199 (0%)
+
+Query  176  SAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTL  235
+            SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+L
+Sbjct  1    SAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSL  60
+
+Query  236  SYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSI  295
+            SYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SI
+Sbjct  61   SYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSI  120
+
+Query  296  IYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMS  355
+            IYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+
+Sbjct  121  IYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMT  180
+
+Query  356  HLERFENYCSIFNERECQR  374
+            H ERFENYCS+FN ++CQR
+Sbjct  181  HYERFENYCSVFNTKDCQR  199
+
+
+>EER3151574.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=198
+
+ Score = 233 bits (595),  Expect = 4e-72, Method: Compositional matrix adjust.
+ Identities = 125/198 (63%), Positives = 160/198 (81%), Gaps = 0/198 (0%)
+
+Query  177  AAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLS  236
+            A MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LS
+Sbjct  1    AIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLS  60
+
+Query  237  YKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSII  296
+            YKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SII
+Sbjct  61   YKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSII  120
+
+Query  297  YERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSH  356
+            YERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H
+Sbjct  121  YERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTH  180
+
+Query  357  LERFENYCSIFNERECQR  374
+             ERFENYCS+FN ++CQR
+Sbjct  181  YERFENYCSVFNTKDCQR  198
+
+
+Sequence with id HAN9078044 no longer exists in database...alignment skipped
+>EGI4156990.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=197
+
+ Score = 230 bits (587),  Expect = 6e-71, Method: Compositional matrix adjust.
+ Identities = 128/194 (66%), Positives = 159/194 (82%), Gaps = 1/194 (1%)
+
+Query  25   RTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVL  84
+            +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF  L  +N+++    N+FNYEPGFVL
+Sbjct  5    KFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFYELTSSNLFEISKANVFNYEPGFVL  64
+
+Query  85   LSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGI  144
+            LSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+
+Sbjct  65   LSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGV  123
+
+Query  145  AAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSIC  204
+            AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ 
+Sbjct  124  AAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLL  183
+
+Query  205  MVLLPLSDMLGLKS  218
+            MV   +S+++G+KS
+Sbjct  184  MVYTSVSELIGMKS  197
+
+
+Sequence with id EHL4964787 no longer exists in database...alignment skipped
+Sequence with id EFB3597573 no longer exists in database...alignment skipped
+>HAN8947802.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAN9034774.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=192
+
+ Score = 228 bits (581),  Expect = 5e-70, Method: Compositional matrix adjust.
+ Identities = 121/192 (63%), Positives = 156/192 (81%), Gaps = 0/192 (0%)
+
+Query  183  IPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFS  242
+            +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS
+Sbjct  1    VPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFS  60
+
+Query  243  LKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSV  302
+             KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+V
+Sbjct  61   FKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTV  120
+
+Query  303  YFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFEN  362
+            YFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFEN
+Sbjct  121  YFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFEN  180
+
+Query  363  YCSIFNERECQR  374
+            YCS+FN ++CQR
+Sbjct  181  YCSVFNTKDCQR  192
+
+
+Sequence with id EHL80335 no longer exists in database...alignment skipped
+>EFI3003364.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=209
+
+ Score = 226 bits (577),  Expect = 3e-69, Method: Compositional matrix adjust.
+ Identities = 122/194 (63%), Positives = 154/194 (79%), Gaps = 1/194 (1%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAML  180
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA ML
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIML  179
+
+Query  181  LAIPLLLVIANRVP  194
+            L +P L  IANR+P
+Sbjct  180  LIVPFLYKIANRIP  193
+
+
+Sequence with id HAN7962590 no longer exists in database...alignment skipped
+>HAM0279355.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=188
+
+ Score = 224 bits (572),  Expect = 1e-68, Method: Compositional matrix adjust.
+ Identities = 119/186 (64%), Positives = 153/186 (82%), Gaps = 0/186 (0%)
+
+Query  189  IANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLEL  248
+            IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLEL
+Sbjct  3    IANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLEL  62
+
+Query  249  LIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSH  308
+            LI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSH
+Sbjct  63   LIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSH  122
+
+Query  309  AIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFN  368
+            AI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN
+Sbjct  123  AICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFN  182
+
+Query  369  ERECQR  374
+             ++CQR
+Sbjct  183  TKDCQR  188
+
+
+>EFC4179714.1 EpsG family protein [Escherichia coli]
+Length=171
+
+ Score = 222 bits (566),  Expect = 4e-68, Method: Compositional matrix adjust.
+ Identities = 112/156 (72%), Positives = 132/156 (85%), Gaps = 1/156 (1%)
+
+Query  45   RFHTGWDWEAYDYFFNLLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIIT  104
+            RFHTGWDWEAYDYFF  L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++IT
+Sbjct  16   RFHTGWDWEAYDYFFYELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLIT  75
+
+Query  105  VSLIVSSAHKYLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFY  164
+            V+LI+ SA+KYLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y
+Sbjct  76   VTLIIKSAYKYLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYY  134
+
+Query  165  FVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLL  200
+             +I  A+LFH+SA MLL +P L  IANR+PF  LLL
+Sbjct  135  ILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLL  170
+
+
+Sequence with id EHW5774946 no longer exists in database...alignment skipped
+>EAM0984556.1 EpsG family protein [Salmonella enterica]
+ ECJ2414712.1 EpsG family protein [Salmonella enterica subsp. diarizonae]
+Length=111
+
+ Score = 216 bits (549),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 110/111 (99%), Positives = 111/111 (100%), Gaps = 0/111 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN
+Sbjct  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSS  111
+            LLNQANIY+FFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSS
+Sbjct  61   LLNQANIYNFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSS  111
+
+
+Sequence with id HAN8266222 no longer exists in database...alignment skipped
+Sequence with id EFC4179445 no longer exists in database...alignment skipped
+>EHQ6926856.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=164
+
+ Score = 213 bits (542),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 107/164 (65%), Positives = 138/164 (84%), Gaps = 0/164 (0%)
+
+Query  211  SDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGI  270
+            S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  
+Sbjct  1    SELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSK  60
+
+Query  271  RQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLML  330
+            +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+L
+Sbjct  61   KQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLL  120
+
+Query  331  ILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            ILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  121  ILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  164
+
+
+>ECP3589224.1 EpsG family protein [Salmonella enterica]
+Length=111
+
+ Score = 208 bits (529),  Expect = 2e-63, Method: Compositional matrix adjust.
+ Identities = 111/111 (100%), Positives = 111/111 (100%), Gaps = 0/111 (0%)
+
+Query  139  IVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLL  198
+            IVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLL
+Sbjct  1    IVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLL  60
+
+Query  199  LLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELL  249
+            LLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELL
+Sbjct  61   LLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELL  111
+
+
+Sequence with id EHH9790796 no longer exists in database...alignment skipped
+Sequence with id ECJ8077802 no longer exists in database...alignment skipped
+>PSM29296.1 EpsG family protein, partial [Escherichia coli]
+Length=173
+
+ Score = 203 bits (516),  Expect = 1e-60, Method: Compositional matrix adjust.
+ Identities = 111/174 (64%), Positives = 139/174 (80%), Gaps = 1/174 (1%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFH  174
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFH  173
+
+
+Sequence with id HBB7372063 no longer exists in database...alignment skipped
+Sequence with id EHQ6927288 no longer exists in database...alignment skipped
+>HAN8261217.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=149
+
+ Score = 195 bits (496),  Expect = 7e-58, Method: Compositional matrix adjust.
+ Identities = 99/149 (66%), Positives = 125/149 (84%), Gaps = 0/149 (0%)
+
+Query  226  LNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELM  285
+            LNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+M
+Sbjct  1    LNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVM  60
+
+Query  286  IYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVY  345
+            IYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  
+Sbjct  61   IYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFN  120
+
+Query  346  SPVRVPGEMSHLERFENYCSIFNERECQR  374
+            SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  121  SPVRVDGEMTHYERFENYCSVFNTKDCQR  149
+
+
+>PSL66394.1 EpsG family protein, partial [Escherichia coli]
+Length=166
+
+ Score = 196 bits (497),  Expect = 9e-58, Method: Compositional matrix adjust.
+ Identities = 107/167 (64%), Positives = 134/167 (80%), Gaps = 1/167 (1%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVI  167
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILI  166
+
+
+>HAN8947853.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=163
+
+ Score = 195 bits (495),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 106/164 (65%), Positives = 132/164 (80%), Gaps = 1/164 (1%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFY  164
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYY  163
+
+
+Sequence with id MBN6281360 no longer exists in database...alignment skipped
+Sequence with id PSM28748 no longer exists in database...alignment skipped
+>EFB3596992.1 EpsG family protein [Escherichia coli]
+Length=159
+
+ Score = 188 bits (477),  Expect = 6e-55, Method: Compositional matrix adjust.
+ Identities = 102/160 (64%), Positives = 128/160 (80%), Gaps = 1/160 (1%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRS  160
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +S
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKS  159
+
+
+Sequence with id HAN9058790 no longer exists in database...alignment skipped
+Sequence with id EFI3003317 no longer exists in database...alignment skipped
+>HAW8961586.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=154
+
+ Score = 182 bits (462),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 100/155 (65%), Positives = 124/155 (80%), Gaps = 1/155 (1%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRF  155
+             YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRY  154
+
+
+Sequence with id HAN8049061 no longer exists in database...alignment skipped
+>EFJ4222860.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=141
+
+ Score = 181 bits (458),  Expect = 3e-52, Method: Compositional matrix adjust.
+ Identities = 92/141 (65%), Positives = 117/141 (83%), Gaps = 0/141 (0%)
+
+Query  234  TLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDY  293
+            +LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+
+Sbjct  1    SLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDF  60
+
+Query  294  SIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGE  353
+            SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GE
+Sbjct  61   SIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGE  120
+
+Query  354  MSHLERFENYCSIFNERECQR  374
+            M+H ERFENYCS+FN ++CQR
+Sbjct  121  MTHYERFENYCSVFNTKDCQR  141
+
+
+Sequence with id EII7637338 no longer exists in database...alignment skipped
+Sequence with id EAY5301799 no longer exists in database...alignment skipped
+Sequence with id RCX97701 no longer exists in database...alignment skipped
+Sequence with id EFB1391941 no longer exists in database...alignment skipped
+Sequence with id EHB4159555 no longer exists in database...alignment skipped
+>EEW4280843.1 EpsG family protein [Escherichia coli]
+ EEZ8744160.1 O78 family O-antigen polymerase [Escherichia coli O78]
+ EEY8489559.1 O78 family O-antigen polymerase [Escherichia coli]
+ EFM1423649.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAM0399965.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=136
+
+ Score = 172 bits (437),  Expect = 4e-49, Method: Compositional matrix adjust.
+ Identities = 88/136 (65%), Positives = 112/136 (82%), Gaps = 0/136 (0%)
+
+Query  239  VGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYE  298
+            VGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYE
+Sbjct  1    VGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYE  60
+
+Query  299  RLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLE  358
+            RL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H E
+Sbjct  61   RLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYE  120
+
+Query  359  RFENYCSIFNERECQR  374
+            RFENYCS+FN ++CQR
+Sbjct  121  RFENYCSVFNTKDCQR  136
+
+
+Sequence with id RCX82305 no longer exists in database...alignment skipped
+>EEZ6098736.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAN9058257.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=135
+
+ Score = 171 bits (433),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 87/135 (64%), Positives = 111/135 (82%), Gaps = 0/135 (0%)
+
+Query  240  GFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYER  299
+            GFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYER
+Sbjct  1    GFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYER  60
+
+Query  300  LSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLER  359
+            L+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ER
+Sbjct  61   LTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYER  120
+
+Query  360  FENYCSIFNERECQR  374
+            FENYCS+FN ++CQR
+Sbjct  121  FENYCSVFNTKDCQR  135
+
+
+>RBY39197.1 EpsG family protein, partial [Escherichia coli]
+Length=146
+
+ Score = 169 bits (427),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 90/146 (62%), Positives = 116/146 (79%), Gaps = 0/146 (0%)
+
+Query  128  YLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLL  187
+            YLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L 
+Sbjct  1    YLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLY  60
+
+Query  188  VIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLE  247
+             IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLE
+Sbjct  61   KIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLE  120
+
+Query  248  LLIVFYCYYERKFFLPLINNFGIRQF  273
+            LLI+   +Y ++F   + + F  +Q+
+Sbjct  121  LLIILVLFYNKRFSELIASKFSKKQY  146
+
+
+Sequence with id EFK2836659 no longer exists in database...alignment skipped
+Sequence with id MBA0997992 no longer exists in database...alignment skipped
+>EIH0288815.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAW9066216.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=133
+
+ Score = 166 bits (420),  Expect = 9e-47, Method: Compositional matrix adjust.
+ Identities = 85/133 (64%), Positives = 109/133 (82%), Gaps = 0/133 (0%)
+
+Query  242  SLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLS  301
+            S KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+
+Sbjct  1    SFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLT  60
+
+Query  302  VYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFE  361
+            VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFE
+Sbjct  61   VYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFE  120
+
+Query  362  NYCSIFNERECQR  374
+            NYCS+FN ++CQR
+Sbjct  121  NYCSVFNTKDCQR  133
+
+
+>EIL6840832.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=153
+
+ Score = 166 bits (421),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 89/153 (58%), Positives = 122/153 (80%), Gaps = 0/153 (0%)
+
+Query  149  FAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLL  208
+            FAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  LLL S+ MV  
+Sbjct  1    FAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYT  60
+
+Query  209  PLSDMLGLKSLMSKIPALNIYLNNSTLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNF  268
+             +S+++G+KSL+S I ALNIY+NNS+LSYKVGFS KYLELLI+   +Y ++F   + + F
+Sbjct  61   SVSELIGMKSLLSGINALNIYINNSSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKF  120
+
+Query  269  GIRQFWIFKGLIIIELMIYSIFNDYSIIYERLS  301
+              +Q+++F+ LI+IE+MIYS+FND+SIIYERL+
+Sbjct  121  SKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLT  153
+
+
+Sequence with id HAN7915377 no longer exists in database...alignment skipped
+>EFI1469876.1 O78 family O-antigen polymerase [Escherichia coli]
+ EGJ1954514.1 O78 family O-antigen polymerase [Escherichia coli]
+ EHH9790545.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAM0668805.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAN8078029.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=130
+
+ Score = 163 bits (412),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 83/130 (64%), Positives = 107/130 (82%), Gaps = 0/130 (0%)
+
+Query  245  YLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYF  304
+            YLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYF
+Sbjct  1    YLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYF  60
+
+Query  305  EFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYC  364
+            EFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYC
+Sbjct  61   EFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYC  120
+
+Query  365  SIFNERECQR  374
+            S+FN ++CQR
+Sbjct  121  SVFNTKDCQR  130
+
+
+>HAM0767421.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=142
+
+ Score = 162 bits (409),  Expect = 5e-45, Method: Compositional matrix adjust.
+ Identities = 86/142 (61%), Positives = 114/142 (80%), Gaps = 0/142 (0%)
+
+Query  173  FHISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNN  232
+            FH+SA MLL +P L  IANR+PF  LLL S+ MV   +S+++G+KSL+S I ALNIY+NN
+Sbjct  1    FHMSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSELIGMKSLLSGINALNIYINN  60
+
+Query  233  STLSYKVGFSLKYLELLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFND  292
+            S+LSYKVGFS KYLELLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND
+Sbjct  61   SSLSYKVGFSFKYLELLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFND  120
+
+Query  293  YSIIYERLSVYFEFSHAIAIAM  314
+            +SIIYERL+VYFEFSHAI IAM
+Sbjct  121  FSIIYERLTVYFEFSHAICIAM  142
+
+
+Sequence with id EFL6546710 no longer exists in database...alignment skipped
+>EHL4964788.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=127
+
+ Score = 157 bits (397),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 80/127 (63%), Positives = 104/127 (82%), Gaps = 0/127 (0%)
+
+Query  248  LLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFS  307
+            LLI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFS
+Sbjct  1    LLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFS  60
+
+Query  308  HAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIF  367
+            HAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+F
+Sbjct  61   HAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVF  120
+
+Query  368  NERECQR  374
+            N ++CQR
+Sbjct  121  NTKDCQR  127
+
+
+>MBB8257257.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=127
+
+ Score = 156 bits (394),  Expect = 6e-43, Method: Compositional matrix adjust.
+ Identities = 79/127 (62%), Positives = 104/127 (82%), Gaps = 0/127 (0%)
+
+Query  248  LLIVFYCYYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFS  307
+            +LI+   +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFS
+Sbjct  1    VLIILVLFYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFS  60
+
+Query  308  HAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIF  367
+            HAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+F
+Sbjct  61   HAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVF  120
+
+Query  368  NERECQR  374
+            N ++CQR
+Sbjct  121  NTKDCQR  127
+
+
+>EHP2085092.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=140
+
+ Score = 156 bits (395),  Expect = 8e-43, Method: Compositional matrix adjust.
+ Identities = 87/141 (62%), Positives = 110/141 (78%), Gaps = 1/141 (1%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFSIVR  141
+             YIF LIYLYYGYFHNFSIVR
+Sbjct  121  -YIFLLIYLYYGYFHNFSIVR  140
+
+
+Sequence with id EHK0733856 no longer exists in database...alignment skipped
+Sequence with id EHS6392480 no longer exists in database...alignment skipped
+Sequence with id EFD7672610 no longer exists in database...alignment skipped
+Sequence with id EFN8282061 no longer exists in database...alignment skipped
+>EFK4012064.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=122
+
+ Score = 154 bits (390),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 77/120 (64%), Positives = 100/120 (83%), Gaps = 0/120 (0%)
+
+Query  255  YYERKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAM  314
+            +Y ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAM
+Sbjct  3    FYNKRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAM  62
+
+Query  315  IVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            I+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  63   IISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  122
+
+
+Sequence with id HBC0093435 no longer exists in database...alignment skipped
+Sequence with id EEJ2068314 no longer exists in database...alignment skipped
+>EET6514145.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=117
+
+ Score = 152 bits (384),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 76/117 (65%), Positives = 98/117 (84%), Gaps = 0/117 (0%)
+
+Query  258  RKFFLPLINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVS  317
+            ++F   + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S
+Sbjct  1    KRFSELIASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIIS  60
+
+Query  318  TFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+             FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  61   AFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  117
+
+
+Sequence with id EHL5575799 no longer exists in database...alignment skipped
+Sequence with id EEQ1632971 no longer exists in database...alignment skipped
+Sequence with id HAM2284151 no longer exists in database...alignment skipped
+>EHH7927580.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=111
+
+ Score = 151 bits (382),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 75/111 (68%), Positives = 95/111 (86%), Gaps = 0/111 (0%)
+
+Query  264  LINNFGIRQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKR  323
+            + + F  +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR
+Sbjct  1    IASKFSKKQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKR  60
+
+Query  324  IQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            +Q FL+LILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  61   VQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  111
+
+
+Sequence with id EEZ9780023 no longer exists in database...alignment skipped
+Sequence with id EGI4152049 no longer exists in database...alignment skipped
+Sequence with id EGI4156952 no longer exists in database...alignment skipped
+Sequence with id EHK0640695 no longer exists in database...alignment skipped
+Sequence with id RBY40992 no longer exists in database...alignment skipped
+Sequence with id MBB6877492 no longer exists in database...alignment skipped
+>EEZ6097799.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAN9034796.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=137
+
+ Score = 150 bits (380),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 85/138 (62%), Positives = 107/138 (78%), Gaps = 1/138 (1%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGKFV  120
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG FV
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGNFV  120
+
+Query  121  PYIFCLIYLYYGYFHNFS  138
+             YIF LIYLYYGYFHNFS
+Sbjct  121  -YIFLLIYLYYGYFHNFS  137
+
+
+>EFA4503702.1 EpsG family protein [Escherichia coli]
+ EFJ2161017.1 O78 family O-antigen polymerase [Escherichia coli]
+ EFN8093044.1 EpsG family protein [Escherichia coli]
+ EFN8271099.1 EpsG family protein [Escherichia coli]
+ EHH9767210.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=104
+
+ Score = 149 bits (376),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 74/104 (71%), Positives = 92/104 (88%), Gaps = 0/104 (0%)
+
+Query  271  RQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLML  330
+            +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+L
+Sbjct  1    KQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLL  60
+
+Query  331  ILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            ILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  61   ILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  104
+
+
+>EHA9774469.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=106
+
+ Score = 149 bits (376),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 74/104 (71%), Positives = 92/104 (88%), Gaps = 0/104 (0%)
+
+Query  271  RQFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLML  330
+            +Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+L
+Sbjct  3    KQYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLL  62
+
+Query  331  ILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            ILL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  63   ILLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  106
+
+
+>HBA5638663.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=103
+
+ Score = 148 bits (373),  Expect = 4e-40, Method: Compositional matrix adjust.
+ Identities = 74/103 (72%), Positives = 91/103 (88%), Gaps = 0/103 (0%)
+
+Query  272  QFWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLI  331
+            Q+++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LI
+Sbjct  1    QYYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLI  60
+
+Query  332  LLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            LL  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  61   LLSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  103
+
+
+Sequence with id EGQ6118580 no longer exists in database...alignment skipped
+>EET8974664.1 O78 family O-antigen polymerase [Escherichia coli]
+ EGM8402606.1 O78 family O-antigen polymerase [Escherichia coli]
+ HBA8618825.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=102
+
+ Score = 145 bits (367),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 73/102 (72%), Positives = 90/102 (88%), Gaps = 0/102 (0%)
+
+Query  273  FWIFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLIL  332
+            +++F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LIL
+Sbjct  1    YYVFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLIL  60
+
+Query  333  LFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            L  +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  61   LSLIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  102
+
+
+>HAM0866269.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=100
+
+ Score = 144 bits (363),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 73/100 (73%), Positives = 88/100 (88%), Gaps = 0/100 (0%)
+
+Query  275  IFKGLIIIELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLF  334
+            +F+ LI+IE+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL 
+Sbjct  1    VFRCLIVIEVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLS  60
+
+Query  335  FVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+             +F RYYQL  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  61   LIFVRYYQLFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  100
+
+
+>EDU3631644.1 EpsG family protein [Salmonella enterica]
+Length=68
+
+ Score = 142 bits (358),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 68/68 (100%), Positives = 68/68 (100%), Gaps = 0/68 (0%)
+
+Query  307  SHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSI  366
+            SHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSI
+Sbjct  1    SHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSI  60
+
+Query  367  FNERECQR  374
+            FNERECQR
+Sbjct  61   FNERECQR  68
+
+
+Sequence with id EEZ3059837 no longer exists in database...alignment skipped
+>EBA7040208.1 EpsG family protein [Salmonella enterica]
+Length=67
+
+ Score = 140 bits (353),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 67/67 (100%), Positives = 67/67 (100%), Gaps = 0/67 (0%)
+
+Query  308  HAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIF  367
+            HAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIF
+Sbjct  1    HAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIF  60
+
+Query  368  NERECQR  374
+            NERECQR
+Sbjct  61   NERECQR  67
+
+
+Sequence with id EEW0785444 no longer exists in database...alignment skipped
+Sequence with id HAN8549186 no longer exists in database...alignment skipped
+Sequence with id EEY1417527 no longer exists in database...alignment skipped
+Sequence with id HAN7963036 no longer exists in database...alignment skipped
+Sequence with id EFF6174133 no longer exists in database...alignment skipped
+Sequence with id EHU3539359 no longer exists in database...alignment skipped
+>EHN0035312.1 EpsG family protein [Escherichia coli]
+ HAW9061298.1 EpsG family protein [Escherichia coli]
+Length=92
+
+ Score = 135 bits (340),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 69/92 (75%), Positives = 81/92 (88%), Gaps = 0/92 (0%)
+
+Query  283  ELMIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQ  342
+            E+MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQ
+Sbjct  1    EVMIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQ  60
+
+Query  343  LVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            L  SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  61   LFNSPVRVDGEMTHYERFENYCSVFNTKDCQR  92
+
+
+Sequence with id EHL4931316 no longer exists in database...alignment skipped
+>ECC1576552.1 EpsG family protein [Salmonella enterica subsp. diarizonae]
+Length=63
+
+ Score = 132 bits (331),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 63/63 (100%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  312  IAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERE  371
+            IAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERE
+Sbjct  1    IAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERE  60
+
+Query  372  CQR  374
+            CQR
+Sbjct  61   CQR  63
+
+
+>EFM1838618.1 EpsG family protein [Escherichia coli]
+Length=90
+
+ Score = 132 bits (333),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 68/90 (76%), Positives = 79/90 (88%), Gaps = 0/90 (0%)
+
+Query  285  MIYSIFNDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLV  344
+            MIYS+FND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL 
+Sbjct  1    MIYSLFNDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLF  60
+
+Query  345  YSPVRVPGEMSHLERFENYCSIFNERECQR  374
+             SPVRV GEM+H ERFENYCS+FN ++CQR
+Sbjct  61   NSPVRVDGEMTHYERFENYCSVFNTKDCQR  90
+
+
+Sequence with id EEZ8821797 no longer exists in database...alignment skipped
+Sequence with id HAN9020350 no longer exists in database...alignment skipped
+Sequence with id EHE2628671 no longer exists in database...alignment skipped
+Sequence with id EFU8361703 no longer exists in database...alignment skipped
+Sequence with id HAM0352808 no longer exists in database...alignment skipped
+Sequence with id EIH0289085 no longer exists in database...alignment skipped
+Sequence with id EIN7468331 no longer exists in database...alignment skipped
+Sequence with id HBI8203301 no longer exists in database...alignment skipped
+>HBA5468866.1 EpsG family protein [Escherichia coli]
+Length=84
+
+ Score = 123 bits (308),  Expect = 9e-31, Method: Compositional matrix adjust.
+ Identities = 63/84 (75%), Positives = 73/84 (87%), Gaps = 0/84 (0%)
+
+Query  291  NDYSIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRV  350
+            ND+SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV
+Sbjct  1    NDFSIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRV  60
+
+Query  351  PGEMSHLERFENYCSIFNERECQR  374
+             GEM+H ERFENYCS+FN ++CQR
+Sbjct  61   DGEMTHYERFENYCSVFNTKDCQR  84
+
+
+>MBB6777943.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=117
+
+ Score = 122 bits (306),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 66/117 (56%), Positives = 89/117 (76%), Gaps = 0/117 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLG  117
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLG  117
+
+
+>EHX8329359.1 O78 family O-antigen polymerase [Escherichia coli]
+ EIE5056492.1 O78 family O-antigen polymerase [Escherichia coli]
+ EIG4521800.1 O78 family O-antigen polymerase [Escherichia coli]
+ HAW8909092.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=117
+
+ Score = 122 bits (306),  Expect = 6e-30, Method: Compositional matrix adjust.
+ Identities = 67/117 (57%), Positives = 89/117 (76%), Gaps = 0/117 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLG  117
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLG  117
+
+
+Sequence with id EEY9272301 no longer exists in database...alignment skipped
+Sequence with id EIR2631161 no longer exists in database...alignment skipped
+>RBY38554.1 EpsG family protein, partial [Escherichia coli]
+Length=114
+
+ Score = 119 bits (298),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 63/104 (61%), Positives = 83/104 (80%), Gaps = 0/104 (0%)
+
+Query  15   SIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLLNQANIYDFFSYN  74
+            SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF  L  +N+++    N
+Sbjct  11   SIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFYELTNSNLFEISKAN  70
+
+Query  75   IFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHKYLGK  118
+            +FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+KYLG 
+Sbjct  71   VFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYKYLGN  114
+
+
+>HAN8082761.1 EpsG family protein [Escherichia coli]
+Length=81
+
+ Score = 117 bits (293),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 61/81 (75%), Positives = 70/81 (86%), Gaps = 0/81 (0%)
+
+Query  294  SIIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGE  353
+            SIIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GE
+Sbjct  1    SIIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGE  60
+
+Query  354  MSHLERFENYCSIFNERECQR  374
+            M+H ERFENYCS+FN ++CQR
+Sbjct  61   MTHYERFENYCSVFNTKDCQR  81
+
+
+>EHN0063640.1 EpsG family protein [Escherichia coli]
+ EIN4055469.1 EpsG family protein [Escherichia coli]
+ HAN8237382.1 EpsG family protein [Escherichia coli]
+ HAN9044358.1 EpsG family protein [Escherichia coli]
+Length=80
+
+ Score = 115 bits (288),  Expect = 7e-28, Method: Compositional matrix adjust.
+ Identities = 60/80 (75%), Positives = 69/80 (86%), Gaps = 0/80 (0%)
+
+Query  295  IIYERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEM  354
+            IIYERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM
+Sbjct  1    IIYERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEM  60
+
+Query  355  SHLERFENYCSIFNERECQR  374
+            +H ERFENYCS+FN ++CQR
+Sbjct  61   THYERFENYCSVFNTKDCQR  80
+
+
+>EEC8797736.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=114
+
+ Score = 116 bits (290),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 64/114 (56%), Positives = 86/114 (75%), Gaps = 0/114 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAHK  114
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+K
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAYK  114
+
+
+Sequence with id MHW15094 no longer exists in database...alignment skipped
+>HBA5497368.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=97
+
+ Score = 115 bits (288),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 67/98 (68%), Positives = 79/98 (81%), Gaps = 1/98 (1%)
+
+Query  115  YLGKFVPYIFCLIYLYYGYFHNFSIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFH  174
+            YLG FV YIF LIYLYYGYFHNFSIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH
+Sbjct  1    YLGNFV-YIFLLIYLYYGYFHNFSIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFH  59
+
+Query  175  ISAAMLLAIPLLLVIANRVPFFLLLLLSICMVLLPLSD  212
+            +SA MLL +P L  IANR+PF  LLL S+ MV   +S+
+Sbjct  60   MSAIMLLIVPFLYKIANRIPFSALLLFSLLMVYTSVSE  97
+
+
+>EEZ3060092.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=100
+
+ Score = 115 bits (287),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 64/100 (64%), Positives = 82/100 (82%), Gaps = 0/100 (0%)
+
+Query  138  SIVRQGIAAALFAYSIRFLIVRSYKFYFVIIFASLFHISAAMLLAIPLLLVIANRVPFFL  197
+            SIVRQG+AAALFAYSIR+LI +SYK+Y +I  A+LFH+SA MLL +P L  IANR+PF  
+Sbjct  1    SIVRQGVAAALFAYSIRYLIAKSYKYYILIFVAALFHMSAIMLLIVPFLYKIANRIPFSA  60
+
+Query  198  LLLLSICMVLLPLSDMLGLKSLMSKIPALNIYLNNSTLSY  237
+            LLL S+ MV   +S+++G+KSL+S I ALNIY+NNS+LSY
+Sbjct  61   LLLFSLLMVYTSVSELIGMKSLLSGINALNIYINNSSLSY  100
+
+
+Sequence with id EET4461533 no longer exists in database...alignment skipped
+>EHQ6948252.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=113
+
+ Score = 113 bits (283),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 62/113 (55%), Positives = 85/113 (75%), Gaps = 0/113 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSSAH  113
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ SA+
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKSAY  113
+
+
+>HAN8338834.1 EpsG family protein [Escherichia coli]
+Length=78
+
+ Score = 112 bits (280),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 58/78 (74%), Positives = 67/78 (86%), Gaps = 0/78 (0%)
+
+Query  297  YERLSVYFEFSHAIAIAMIVSTFKYKRIQFFLMLILLFFVFARYYQLVYSPVRVPGEMSH  356
+            YERL+VYFEFSHAI IAMI+S FKYKR+Q FL+LILL  +F RYYQL  SPVRV GEM+H
+Sbjct  1    YERLTVYFEFSHAICIAMIISAFKYKRVQLFLLLILLSLIFVRYYQLFNSPVRVDGEMTH  60
+
+Query  357  LERFENYCSIFNERECQR  374
+             ERFENYCS+FN ++CQR
+Sbjct  61   YERFENYCSVFNTKDCQR  78
+
+
+>EFG1743604.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=111
+
+ Score = 111 bits (278),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 62/111 (56%), Positives = 83/111 (75%), Gaps = 0/111 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIVSS  111
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+ S
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLIIKS  111
+
+
+Sequence with id EHW7644794 no longer exists in database...alignment skipped
+Sequence with id HAJ1288523 no longer exists in database...alignment skipped
+>EFF2235264.1 EpsG family protein [Escherichia coli]
+Length=109
+
+ Score = 109 bits (272),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 61/109 (56%), Positives = 82/109 (75%), Gaps = 0/109 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLIV  109
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI+
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLII  109
+
+
+>EEY1415148.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=108
+
+ Score = 108 bits (270),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 61/108 (56%), Positives = 81/108 (75%), Gaps = 0/108 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSLI  108
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++ITV+LI
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLITVTLI  108
+
+
+>HAN7054373.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=107
+
+ Score = 107 bits (267),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 59/107 (55%), Positives = 80/107 (75%), Gaps = 0/107 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILMTVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIITVSL  107
+             L  +N+++    N+FNYEPGFVLLSYIS+LL+IPPFL F++ITV+L
+Sbjct  61   ELTSSNLFEISKANVFNYEPGFVLLSYISVLLHIPPFLFFSLITVTL  107
+
+
+Sequence with id EHO8333874 no longer exists in database...alignment skipped
+Sequence with id HAN8275925 no longer exists in database...alignment skipped
+>HBH9929990.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=104
+
+ Score = 103 bits (257),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 58/104 (56%), Positives = 77/104 (74%), Gaps = 0/104 (0%)
+
+Query  1    MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+            M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1    MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61   LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIIT  104
+             L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++IT
+Sbjct  61   ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLIT  104
+
+
+>EEW0785713.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=103
+
+ Score = 102 bits (254),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 57/102 (56%), Positives = 76/102 (75%), Gaps = 0/102 (0%)
+
+Query  3    IYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFNLL  62
+            +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF  L
+Sbjct  2    VYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFYEL  61
+
+Query  63   NQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLFAIIT  104
+              +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F++IT
+Sbjct  62   TNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFFSLIT  103
+
+
+>EGM1847761.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=100
+
+ Score = 99.0 bits (245),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 56/100 (56%), Positives = 73/100 (73%), Gaps = 0/100 (0%)
+
+Query  1   MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+           M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1   MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61  LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFLLF  100
+            L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL F
+Sbjct  61  ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFLFF  100
+
+
+>EHL80336.1 hypothetical protein HMPREF9428_02002 [Citrobacter portucalensis]
+Length=91
+
+ Score = 97.8 bits (242),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 48/86 (56%), Positives = 61/86 (71%), Gaps = 0/86 (0%)
+
+Query  1   MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+           M IYLVLL  +   S++++L   K+     L +Y++LL LF+GLR+HTGWDWEAYDYFF+
+Sbjct  1   MGIYLVLLTIVAIISVIILLINKKQGIKFTLTVYIVLLFLFSGLRYHTGWDWEAYDYFFD  60
+
+Query  61  LLNQANIYDFFSYNIFNYEPGFVLLS  86
+            L +ANI   F YNIF YEPGFV L 
+Sbjct  61  ELAKANIITLFHYNIFGYEPGFVFLH  86
+
+
+>EII7605300.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=98
+
+ Score = 97.4 bits (241),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 55/98 (56%), Positives = 72/98 (73%), Gaps = 0/98 (0%)
+
+Query  1   MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+           M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1   MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61  LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFL  98
+            L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL
+Sbjct  61  ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFL  98
+
+
+>EGV0971875.1 O78 family O-antigen polymerase [Escherichia coli]
+Length=99
+
+ Score = 97.4 bits (241),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 55/98 (56%), Positives = 72/98 (73%), Gaps = 0/98 (0%)
+
+Query  1   MVIYLVLLIFIFSFSIVMMLNPSKRTANKFLGIYVLLLSLFAGLRFHTGWDWEAYDYFFN  60
+           M +Y +L+      SI+++ +   +  N ++  Y+LLLSL AGLRFHTGWDWEAYDYFF 
+Sbjct  1   MGVYFILITVALLISIIVLFHNDVKFTNVYIYTYILLLSLLAGLRFHTGWDWEAYDYFFY  60
+
+Query  61  LLNQANIYDFFSYNIFNYEPGFVLLSYISILLNIPPFL  98
+            L  +N+++    NIFNYEPGFVLLSYIS+LL+IPPFL
+Sbjct  61  ELTNSNLFEISKANIFNYEPGFVLLSYISVLLHIPPFL  98
+
+
+Sequence with id HAN4944151 no longer exists in database...alignment skipped
+Sequence with id EHH1192048 no longer exists in database...alignment skipped
+>EBV2375355.1 EpsG family protein [Salmonella enterica subsp. enterica serovar 
+Enteritidis]
+Length=42
+
+ Score = 92.4 bits (228),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 42/42 (100%), Positives = 42/42 (100%), Gaps = 0/42 (0%)
+
+Query  333  LFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  374
+            LFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR
+Sbjct  1    LFFVFARYYQLVYSPVRVPGEMSHLERFENYCSIFNERECQR  42
+
+
+Sequence with id MBB6819859 no longer exists in database...alignment skipped
+
+Lambda      K        H        a         alpha
+   0.338    0.151    0.463    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 19721756075549
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jan 3, 2022  2:35 AM
+  Number of letters in database: 168,524,408,266
+  Number of sequences in database:  449,466,297
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

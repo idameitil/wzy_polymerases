@@ -1,0 +1,3158 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           449,466,297 sequences; 168,524,408,266 total letters
+
+
+
+Query= AAV34523.1 9445ce9bef8be9d4a5e0fc59aec6478a
+
+Length=325
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AAV34523.1 Unknown                                                    629     0.0   
+EAA8952460.1 Unknown                                                  626     0.0   
+EBQ4855951.1 polymerase [Salmonella enterica subsp. salamae]          625     0.0   
+WP_079796738.1 Unknown                                                625     0.0   
+ECT8652494.1 Unknown                                                  623     0.0   
+EHC9777112.1 Unknown                                                  612     0.0   
+EAZ2931974.1 Unknown                                                  612     0.0   
+WP_085347982.1 Unknown                                                611     0.0   
+WP_051124289.1 EpsG family protein [Salmonella enterica]              611     0.0   
+ECI0413954.1 Unknown                                                  611     0.0   
+EHE9228144.1 polymerase [Salmonella enterica]                         611     0.0   
+EFO7944625.1 Unknown                                                  610     0.0   
+EAS0583903.1 polymerase [Salmonella enterica]                         610     0.0   
+WP_079894445.1 EpsG family protein [Salmonella enterica]              610     0.0   
+EEO7837564.1 polymerase [Salmonella enterica]                         610     0.0   
+ECO0585523.1 Unknown                                                  609     0.0   
+EDQ9953325.1 Unknown                                                  609     0.0   
+EAN8469837.1 polymerase [Salmonella enterica]                         606     0.0   
+EHP9585354.1 Unknown                                                  603     0.0   
+EAX2479147.1 polymerase [Salmonella enterica]                         589     0.0   
+EAS1881970.1 Unknown                                                  585     0.0   
+EAO7825024.1 polymerase [Salmonella enterica]                         441     7e-154
+EGF1371312.1 polymerase [Salmonella enterica subsp. diarizonae se...  419     1e-145
+EAV7091517.1 Unknown                                                  417     1e-144
+EAN8972348.1 Unknown                                                  401     1e-138
+EBA9490128.1 polymerase [Salmonella enterica]                         399     6e-138
+EAM8827041.1 Unknown                                                  377     2e-129
+EAW1322493.1 Unknown                                                  369     2e-126
+MID24397.1 Unknown                                                    351     2e-119
+WP_187258758.1 EpsG family protein [Citrobacter freundii]             342     9e-114
+ECE6874293.1 Unknown                                                  324     9e-109
+EAB3066881.1 polymerase [Salmonella enterica]                         320     3e-107
+ECE6784201.1 Unknown                                                  317     4e-106
+ECI4598969.1 Unknown                                                  315     3e-105
+WP_209303710.1 EpsG family protein [Escherichia coli]                 318     5e-104
+EFL6171340.1 Unknown                                                  318     5e-104
+HAJ6505196.1 Unknown                                                  317     6e-104
+WP_053897571.1 O55 family O-antigen polymerase [Escherichia coli]     317     6e-104
+WP_028127142.1 Unknown                                                317     2e-103
+WP_161400943.1 Unknown                                                316     2e-103
+WP_226867171.1 Unknown                                                316     3e-103
+WP_097736709.1 O55 family O-antigen polymerase [Escherichia coli]     316     3e-103
+ECI4025433.1 Unknown                                                  309     5e-103
+EAA2984910.1 polymerase [Salmonella enterica subsp. diarizonae]       309     5e-103
+EES2671773.1 Unknown                                                  315     7e-103
+EHY3302255.1 O55 family O-antigen polymerase [Escherichia coli]       315     7e-103
+QLW09352.1 O55 family O-antigen polymerase [Escherichia coli]         315     8e-103
+WP_000482333.1 O55 family O-antigen polymerase [Escherichia coli]     315     8e-103
+WP_001592235.1 O55 family O-antigen polymerase [Escherichia coli]     314     1e-102
+WP_052909300.1 Unknown                                                314     1e-102
+EEZ9681639.1 Unknown                                                  313     3e-102
+EFO4565670.1 O55 family O-antigen polymerase [Escherichia coli]       313     3e-102
+EFP0777165.1 O55 family O-antigen polymerase [Escherichia coli]       311     1e-101
+WP_000482337.1 Unknown                                                311     1e-101
+EFF2432026.1 O55 family O-antigen polymerase [Escherichia coli]       311     2e-101
+EIH0604266.1 Unknown                                                  310     7e-101
+EBJ2743989.1 Unknown                                                  300     2e-99 
+BAG11898.1 Unknown                                                    303     2e-98 
+MJB99403.1 Unknown                                                    295     2e-97 
+EDV0459455.1 Unknown                                                  293     8e-97 
+ECJ4381029.1 Unknown                                                  291     3e-96 
+EAU9200954.1 Unknown                                                  287     1e-94 
+ECJ4379830.1 polymerase [Salmonella enterica subsp. diarizonae]       286     4e-94 
+HBD0078194.1 TPA: O55 family O-antigen polymerase [Escherichia coli]  290     2e-93 
+EHY3431284.1 O55 family O-antigen polymerase [Escherichia coli]       288     1e-92 
+ECF6948379.1 polymerase [Salmonella enterica subsp. diarizonae]       281     5e-92 
+MIY24163.1 polymerase [Salmonella enterica subsp. enterica]           278     6e-91 
+ECJ4765918.1 Unknown                                                  277     1e-90 
+ECE6784016.1 Unknown                                                  277     1e-90 
+EAP7257232.1 Unknown                                                  277     1e-90 
+EGB4549627.1 polymerase [Salmonella enterica]                         277     1e-90 
+EAA2984150.1 polymerase [Salmonella enterica subsp. diarizonae]       274     1e-89 
+EGP1524067.1 Unknown                                                  274     2e-89 
+ECI5686908.1 Unknown                                                  272     6e-89 
+EEU4853411.1 polymerase [Salmonella enterica]                         273     6e-89 
+EFT3774568.1 Unknown                                                  272     7e-89 
+EEG3350754.1 Unknown                                                  272     8e-89 
+EHF4920434.1 Unknown                                                  272     9e-89 
+EBM0070471.1 Unknown                                                  272     1e-88 
+WP_139815398.1 hypothetical protein [Salmonella enterica]             271     3e-88 
+EFT4156865.1 polymerase [Salmonella enterica]                         271     4e-88 
+EAY0970969.1 hypothetical protein [Salmonella enterica]               269     2e-87 
+EDB6599873.1 hypothetical protein [Salmonella enterica subsp. dia...  268     2e-87 
+EAS6513953.1 Unknown                                                  268     3e-87 
+EGP1439319.1 Unknown                                                  266     1e-86 
+EGD4219309.1 polymerase [Salmonella enterica]                         266     1e-86 
+EHD0028231.1 polymerase [Salmonella enterica subsp. houtenae sero...  266     3e-86 
+EEO0293690.1 Unknown                                                  265     6e-86 
+EGV2888066.1 Unknown                                                  264     9e-86 
+EGS4558632.1 polymerase [Salmonella enterica]                         263     3e-85 
+WP_209292501.1 polymerase [Escherichia coli]                          268     5e-85 
+ESE89922.1 Unknown                                                    263     1e-84 
+EGS4480892.1 polymerase [Salmonella enterica]                         261     1e-84 
+EGA8267392.1 polymerase [Salmonella enterica]                         259     6e-84 
+EGL5746953.1 Unknown                                                  259     7e-84 
+EGC8442171.1 Unknown                                                  259     1e-83 
+EEA7926316.1 hypothetical protein [Salmonella enterica subsp. ent...  258     2e-83 
+EHI9813644.1 Unknown                                                  258     2e-83 
+EBM1816155.1 polymerase [Salmonella enterica]                         258     3e-83 
+ECE6873748.1 Unknown                                                  256     1e-82 
+EGS4262927.1 Unknown                                                  254     6e-82 
+ECI4598535.1 polymerase [Salmonella enterica subsp. salamae]          253     1e-81 
+EEQ0906748.1 polymerase [Salmonella enterica subsp. houtenae]         253     2e-81 
+EBK6543649.1 polymerase [Salmonella enterica]                         250     3e-80 
+EFQ2549180.1 Unknown                                                  250     4e-80 
+EGH5398850.1 polymerase [Salmonella enterica]                         248     2e-79 
+EGJ1437892.1 polymerase [Salmonella enterica]                         247     4e-79 
+ECG0741673.1 Unknown                                                  245     2e-78 
+EHH3086414.1 polymerase [Salmonella enterica]                         245     2e-78 
+EGF0779237.1 polymerase [Salmonella enterica]                         243     2e-77 
+EFU5159187.1 polymerase [Salmonella enterica]                         242     2e-77 
+EAR4440562.1 polymerase [Salmonella enterica]                         240     1e-76 
+EBL9886628.1 polymerase [Salmonella enterica]                         239     3e-76 
+EEG2532001.1 polymerase [Salmonella enterica]                         239     6e-76 
+EHE1555921.1 Unknown                                                  237     4e-75 
+EAB9864284.1 Unknown                                                  236     7e-75 
+EAY1578632.1 Unknown                                                  236     8e-75 
+EBK0812382.1 polymerase [Salmonella enterica]                         234     4e-74 
+MJB98971.1 polymerase [Salmonella enterica subsp. diarizonae]         233     7e-74 
+EDX6329584.1 Unknown                                                  233     2e-73 
+EGD6430989.1 polymerase [Salmonella enterica]                         229     4e-72 
+ECJ4766899.1 Unknown                                                  226     5e-71 
+ECG8526728.1 polymerase [Salmonella enterica subsp. diarizonae]       225     1e-70 
+EGK0779101.1 Unknown                                                  225     2e-70 
+EBB6853533.1 Unknown                                                  223     7e-70 
+ECP3145678.1 Unknown                                                  223     8e-70 
+EAQ9840582.1 Unknown                                                  221     5e-69 
+EGV8273393.1 Unknown                                                  220     9e-69 
+ECQ1027671.1 polymerase [Salmonella enterica subsp. diarizonae]       219     2e-68 
+EFG3221943.1 Unknown                                                  223     4e-68 
+EFL6574378.1 polymerase [Escherichia coli]                            222     4e-68 
+EEV5925354.1 polymerase [Escherichia coli]                            222     4e-68 
+EES4605220.1 Unknown                                                  222     5e-68 
+EDU4583539.1 Unknown                                                  218     7e-68 
+EDZ2133894.1 Unknown                                                  218     1e-67 
+ECP8615777.1 polymerase [Salmonella enterica subsp. diarizonae]       216     3e-67 
+ECG0741784.1 polymerase [Salmonella enterica subsp. salamae]          216     3e-67 
+EEA7930913.1 polymerase [Salmonella enterica subsp. enterica]         215     1e-66 
+EAB9864496.1 polymerase [Salmonella enterica subsp. salamae]          214     2e-66 
+EBK5909271.1 polymerase [Salmonella enterica]                         214     3e-66 
+EAM1113585.1 polymerase [Salmonella enterica]                         214     3e-66 
+EDJ1269066.1 polymerase [Salmonella enterica]                         213     9e-66 
+EAP7257225.1 Unknown                                                  212     1e-65 
+ECC8720347.1 polymerase [Salmonella enterica subsp. houtenae]         212     2e-65 
+EAN1160283.1 Unknown                                                  211     4e-65 
+EBL7412136.1 Unknown                                                  211     5e-65 
+EAU0428924.1 Unknown                                                  210     6e-65 
+EHH7214723.1 O55 family O-antigen polymerase [Escherichia coli]       215     7e-65 
+ECJ2261041.1 Unknown                                                  209     2e-64 
+EAM8825686.1 Unknown                                                  209     3e-64 
+EFN9639513.1 polymerase [Escherichia coli]                            211     4e-64 
+EDW1774878.1 Unknown                                                  207     7e-64 
+EBD8379466.1 Unknown                                                  207     1e-63 
+EAU6333647.1 polymerase [Salmonella enterica]                         206     3e-63 
+EAQ0536880.1 polymerase [Salmonella enterica]                         206     3e-63 
+WP_209300351.1 Unknown                                                211     3e-63 
+EBD7684031.1 Unknown                                                  206     4e-63 
+EAO6826286.1 polymerase [Salmonella enterica]                         205     5e-63 
+EAT3565924.1 Unknown                                                  205     5e-63 
+EBE5065347.1 Unknown                                                  205     6e-63 
+ECG1274731.1 Unknown                                                  205     8e-63 
+EAS3781540.1 polymerase [Salmonella enterica]                         204     1e-62 
+ECI5368440.1 polymerase [Salmonella enterica subsp. diarizonae]       203     3e-62 
+EAU9200029.1 polymerase [Salmonella enterica]                         203     4e-62 
+EAU6333482.1 Unknown                                                  202     6e-62 
+ECI5368451.1 Unknown                                                  202     8e-62 
+EAO8683661.1 polymerase [Salmonella enterica]                         200     6e-61 
+EBB1675350.1 Unknown                                                  200     7e-61 
+EAB3066894.1 polymerase [Salmonella enterica]                         199     9e-61 
+EAZ4771040.1 polymerase [Salmonella enterica]                         197     4e-60 
+EAB4062661.1 polymerase [Salmonella enterica]                         197     7e-60 
+WP_213855254.1 EpsG family protein [Escherichia coli]                 201     2e-59 
+WP_205933960.1 Unknown                                                201     2e-59 
+EBO4352208.1 polymerase [Salmonella enterica]                         195     5e-59 
+MIY24275.1 polymerase [Salmonella enterica subsp. enterica]           195     6e-59 
+WP_071698212.1 EpsG family protein [Citrobacter freundii]             202     1e-58 
+EAQ2040984.1 polymerase [Salmonella enterica]                         194     1e-58 
+EEM9513171.1 polymerase [Salmonella enterica]                         193     2e-58 
+ECH0720490.1 polymerase [Salmonella enterica]                         193     2e-58 
+EAS9110228.1 polymerase [Salmonella enterica]                         191     1e-57 
+WP_229996352.1 Unknown                                                196     1e-57 
+EAZ0208561.1 polymerase [Salmonella enterica]                         191     1e-57 
+ECI4176167.1 polymerase [Salmonella enterica subsp. diarizonae]       190     3e-57 
+EGT9890250.1 polymerase [Salmonella enterica]                         190     5e-57 
+ECS9465467.1 polymerase [Salmonella enterica]                         189     9e-57 
+EHI9814233.1 Unknown                                                  186     9e-56 
+EEJ1986976.1 Unknown                                                  186     1e-55 
+EAU0428132.1 Unknown                                                  185     3e-55 
+EGD4379289.1 polymerase [Salmonella enterica]                         185     4e-55 
+EAQ1169402.1 Unknown                                                  183     1e-54 
+EEX1904930.1 Unknown                                                  187     1e-54 
+ECI4040685.1 Unknown                                                  183     2e-54 
+EDK8675626.1 polymerase [Salmonella enterica]                         181     1e-53 
+EEZ2414112.1 polymerase [Escherichia coli]                            183     3e-53 
+GDQ37342.1 hypothetical protein BvCmsNSP009_00272 [Escherichia coli]  183     3e-53 
+EBM2983167.1 polymerase [Salmonella enterica]                         180     3e-53 
+EGD6480677.1 Unknown                                                  179     5e-53 
+EDS5069864.1 polymerase [Salmonella enterica]                         177     2e-52 
+EIJ9474963.1 O55 family O-antigen polymerase [Escherichia coli]       179     6e-52 
+EBL9885276.1 Unknown                                                  176     9e-52 
+ECS6419356.1 Unknown                                                  176     1e-51 
+EAZ5904969.1 polymerase [Salmonella enterica]                         175     2e-51 
+ECE3268407.1 Unknown                                                  175     2e-51 
+EFG3363018.1 O55 family O-antigen polymerase [Escherichia coli]       177     4e-51 
+EAW1322480.1 polymerase [Salmonella enterica subsp. diarizonae]       174     7e-51 
+EFL6317454.1 Unknown                                                  178     7e-51 
+STK76065.1 O-antigen polymerase Wzy [Escherichia coli]                178     8e-51 
+EIR5376223.1 polymerase [Salmonella enterica]                         174     8e-51 
+WP_180775028.1 Unknown                                                181     9e-51 
+EAR4660825.1 Unknown                                                  172     3e-50 
+ECC1649541.1 Unknown                                                  171     7e-50 
+EBQ5217576.1 Unknown                                                  170     2e-49 
+EBI5991152.1 polymerase [Salmonella enterica]                         169     5e-49 
+EFE3171244.1 Unknown                                                  172     7e-49 
+EAR1801664.1 polymerase [Salmonella enterica]                         168     7e-49 
+EFG2378700.1 O55 family O-antigen polymerase [Escherichia coli]       172     7e-49 
+EFK4109877.1 O55 family O-antigen polymerase [Escherichia coli]       172     8e-49 
+EER9673645.1 Unknown                                                  171     1e-48 
+EFM4298057.1 Unknown                                                  170     2e-48 
+WP_025918687.1 Unknown                                                175     2e-48 
+EHV30320.1 Unknown                                                    171     3e-48 
+HAX2047697.1 Unknown                                                  170     6e-48 
+HBD0039195.1 Unknown                                                  170     6e-48 
+HAX2665107.1 Unknown                                                  170     7e-48 
+ECU9652446.1 Unknown                                                  166     8e-48 
+EHV38941.1 Unknown                                                    170     1e-47 
+WP_227104990.1 EpsG family protein [Chromobacterium rhizoryzae]       173     1e-47 
+EEV3374165.1 O55 family O-antigen polymerase [Escherichia coli]       168     2e-47 
+EAS3781536.1 Unknown                                                  165     2e-47 
+WP_121301468.1 hypothetical protein [Pectobacterium parmentieri]      172     2e-47 
+EFC6141681.1 Unknown                                                  168     2e-47 
+EBR2692388.1 Unknown                                                  164     2e-47 
+EEE5037626.1 Unknown                                                  164     5e-47 
+EAY0971213.1 Unknown                                                  163     7e-47 
+EDH1076696.1 polymerase [Salmonella enterica subsp. diarizonae]       163     1e-46 
+EEZ2486913.1 Unknown                                                  165     2e-46 
+VEA91506.1 Unknown                                                    162     3e-46 
+EAT7910317.1 polymerase [Salmonella enterica]                         160     7e-46 
+EDW8947530.1 Unknown                                                  160     9e-46 
+EBO9227789.1 polymerase [Salmonella enterica]                         160     1e-45 
+EFF4377144.1 Unknown                                                  161     5e-45 
+ECJ2409706.1 polymerase [Salmonella enterica subsp. houtenae]         158     7e-45 
+ECK3074348.1 polymerase [Salmonella enterica]                         158     9e-45 
+WP_083860557.1 Unknown                                                166     9e-45 
+EER8376914.1 Unknown                                                  159     1e-44 
+EFK4149224.1 O55 family O-antigen polymerase [Escherichia coli]       159     1e-44 
+EFK4060621.1 O55 family O-antigen polymerase [Escherichia coli]       159     2e-44 
+EAS6370962.1 Unknown                                                  157     2e-44 
+EFK2561106.1 Unknown                                                  160     2e-44 
+ECI4176712.1 polymerase [Salmonella enterica subsp. diarizonae]       157     2e-44 
+EFK3967966.1 O55 family O-antigen polymerase [Escherichia coli]       158     2e-44 
+EIO8457731.1 polymerase [Salmonella enterica]                         156     3e-44 
+MBB7132557.1 Unknown                                                  159     4e-44 
+EFA9670300.1 O55 family O-antigen polymerase [Escherichia coli]       159     6e-44 
+EFG4671528.1 O55 family O-antigen polymerase [Escherichia coli]       158     8e-44 
+EFK3900197.1 Unknown                                                  157     8e-44 
+EFO0250780.1 Unknown                                                  157     9e-44 
+EFF2259630.1 polymerase [Escherichia coli]                            157     1e-43 
+EHL5782900.1 Unknown                                                  157     1e-43 
+EAT9223615.1 Unknown                                                  154     1e-43 
+EFE7478686.1 Unknown                                                  157     1e-43 
+HAE6207054.1 TPA: polymerase [Salmonella enterica subsp. diarizon...  154     2e-43 
+EFK3519164.1 Unknown                                                  157     2e-43 
+EAW9311664.1 polymerase [Salmonella enterica]                         154     2e-43 
+EFF8241493.1 Unknown                                                  155     3e-43 
+EIF3155796.1 Unknown                                                  155     4e-43 
+EFA9671261.1 Unknown                                                  155     4e-43 
+EFG4674623.1 polymerase [Escherichia coli]                            155     4e-43 
+EFG9142225.1 Unknown                                                  155     4e-43 
+EEU2005780.1 Unknown                                                  156     5e-43 
+EFK3793216.1 polymerase [Escherichia coli]                            155     5e-43 
+EFK3502259.1 Unknown                                                  155     6e-43 
+EFG7898249.1 O55 family O-antigen polymerase [Escherichia coli]       155     6e-43 
+EFK3581139.1 Unknown                                                  155     7e-43 
+EEZ2491343.1 Unknown                                                  154     7e-43 
+EFG3286383.1 O55 family O-antigen polymerase [Escherichia coli]       155     7e-43 
+EFE3175633.1 Unknown                                                  154     7e-43 
+EFK4429186.1 O55 family O-antigen polymerase [Escherichia coli]       155     7e-43 
+EFK3522794.1 O55 family O-antigen polymerase [Escherichia coli]       155     7e-43 
+EEX5286734.1 Unknown                                                  155     8e-43 
+EFG8285434.1 Unknown                                                  155     8e-43 
+EGK4106389.1 Unknown                                                  154     8e-43 
+EEY1552373.1 Unknown                                                  155     8e-43 
+EFJ6597638.1 Unknown                                                  154     8e-43 
+EES3435719.1 Unknown                                                  155     9e-43 
+EFA1314330.1 Unknown                                                  155     9e-43 
+EAV3919334.1 Unknown                                                  152     1e-42 
+EAN5693840.1 polymerase [Salmonella enterica]                         152     1e-42 
+EEZ1242223.1 O55 family O-antigen polymerase [Escherichia coli]       154     1e-42 
+EFK3793337.1 O55 family O-antigen polymerase [Escherichia coli]       155     2e-42 
+EAU9133386.1 polymerase [Salmonella enterica]                         152     2e-42 
+EHE8608049.1 polymerase [Salmonella enterica]                         150     7e-42 
+EAZ8276580.1 Unknown                                                  150     8e-42 
+EFK5769999.1 polymerase [Escherichia coli]                            151     1e-41 
+EFK5770051.1 O55 family O-antigen polymerase [Escherichia coli]       152     2e-41 
+EFF4378093.1 O55 family O-antigen polymerase [Escherichia coli]       150     2e-41 
+EFK3968324.1 Unknown                                                  152     2e-41 
+EFG1432600.1 O55 family O-antigen polymerase [Escherichia coli]       152     3e-41 
+EAB2656529.1 Unknown                                                  149     3e-41 
+EFK4426653.1 Unknown                                                  150     6e-41 
+EEX5284214.1 O55 family O-antigen polymerase [Escherichia coli]       150     6e-41 
+EFG2173944.1 Unknown                                                  149     7e-41 
+EHY3181197.1 Unknown                                                  149     8e-41 
+WP_182936628.1 hypothetical protein [Citrobacter freundii]            153     2e-40 
+MID24431.1 polymerase [Salmonella enterica]                           147     2e-40 
+EHW5909170.1 O55 family O-antigen polymerase [Escherichia coli]       149     2e-40 
+HBD0114822.1 TPA: O55 family O-antigen polymerase [Escherichia coli]  148     5e-40 
+EEY1551613.1 Unknown                                                  148     6e-40 
+EFJ6597645.1 O55 family O-antigen polymerase [Escherichia coli]       147     2e-39 
+EFG9142266.1 O55 family O-antigen polymerase [Escherichia coli]       147     2e-39 
+EFK3856989.1 O55 family O-antigen polymerase [Escherichia coli]       144     8e-39 
+EFG3282131.1 Unknown                                                  145     9e-39 
+EFF2254943.1 Unknown                                                  145     9e-39 
+EFA1312620.1 Unknown                                                  144     2e-38 
+EFK2092492.1 Unknown                                                  143     3e-38 
+EEG1248630.1 hypothetical protein [Salmonella enterica]               140     5e-38 
+EAA6553605.1 Unknown                                                  140     5e-38 
+WP_025382884.1 EpsG family protein [Yersinia similis]                 148     6e-38 
+EEW6242915.1 O55 family O-antigen polymerase [Escherichia coli]       142     6e-38 
+EIP2181408.1 Unknown                                                  141     7e-38 
+EFG7897082.1 Unknown                                                  140     3e-37 
+EIP2182084.1 Unknown                                                  140     3e-37 
+EFA7176427.1 O55 family O-antigen polymerase [Escherichia coli]       138     7e-37 
+HAL7763126.1 TPA: O55 family O-antigen polymerase [Escherichia coli]  139     1e-36 
+EEW5033633.1 Unknown                                                  136     7e-36 
+HBD0070078.1 Unknown                                                  136     1e-35 
+EFG7749861.1 Unknown                                                  135     3e-35 
+EAO7825184.1 Unknown                                                  132     6e-35 
+WP_000076215.1 hypothetical protein [Escherichia coli]                132     3e-34 
+EFO0250841.1 Unknown                                                  132     3e-34 
+EAN5460121.1 Unknown                                                  130     4e-34 
+HAX2047060.1 Unknown                                                  131     5e-34 
+EFK2096210.1 Unknown                                                  131     5e-34 
+EFK2001980.1 Unknown                                                  130     2e-33 
+EHO3212095.1 Unknown                                                  130     3e-33 
+EFG5795461.1 O55 family O-antigen polymerase [Escherichia coli]       129     8e-33 
+EFH0281908.1 Unknown                                                  127     1e-32 
+EIJ2466622.1 O55 family O-antigen polymerase [Escherichia coli]       127     3e-32 
+EFK3896730.1 Unknown                                                  127     3e-32 
+WP_186722812.1 Unknown                                                133     4e-32 
+EFG3363333.1 O55 family O-antigen polymerase [Escherichia coli]       126     1e-31 
+EFU8371353.1 O55 family O-antigen polymerase [Escherichia coli]       125     1e-31 
+EER8376928.1 Unknown                                                  124     4e-31 
+WP_226719112.1 Unknown                                                130     4e-31 
+EES3435229.1 O55 family O-antigen polymerase [Escherichia coli]       124     7e-31 
+WP_050088863.1 EpsG family protein [Yersinia intermedia]              130     8e-31 
+EAA4963333.1 Unknown                                                  120     2e-30 
+EGO4482979.1 polymerase [Escherichia coli]                            120     4e-30 
+HAW6060339.1 TPA: hypothetical protein [Escherichia coli]             127     5e-30 
+EAS6513948.1 Unknown                                                  118     1e-29 
+HBA5381186.1 Unknown                                                  117     6e-29 
+EEX1904985.1 Unknown                                                  113     6e-27 
+EHU22831.1 Unknown                                                    112     9e-27 
+VEA76347.1 Uncharacterised protein [Salmonella enterica subsp. ar...  110     1e-26 
+EFD5504955.1 Unknown                                                  110     1e-26 
+EFM7982047.1 Unknown                                                  109     4e-26 
+EFE7478619.1 Unknown                                                  111     4e-26 
+EFG2744245.1 O55 family O-antigen polymerase [Escherichia coli]       110     1e-25 
+EFO1420404.1 polymerase [Escherichia coli]                            108     3e-25 
+EHV31151.1 putative membrane protein [Escherichia coli DEC5B]         107     3e-25 
+EEY2075948.1 O55 family O-antigen polymerase [Escherichia coli]       107     1e-24 
+EFG3231918.1 polymerase [Escherichia coli]                            105     1e-24 
+EEZ7908168.1 O55 family O-antigen polymerase [Escherichia coli]       103     2e-23 
+CNJ77372.1 Unknown                                                    107     4e-23 
+EGK4001408.1 Unknown                                                  103     5e-23 
+EFN9967136.1 polymerase [Escherichia coli]                            100     8e-23 
+EFP0223850.1 polymerase [Escherichia coli]                            99.4    3e-22 
+EHC5028479.1 Unknown                                                  100     5e-22 
+EFB4505219.1 Unknown                                                  100     5e-22 
+EFK3556147.1 O55 family O-antigen polymerase [Escherichia coli]       99.0    2e-21 
+EEC9111082.1 O55 family O-antigen polymerase [Escherichia coli]       98.6    2e-21 
+EFC6142105.1 polymerase [Escherichia coli]                            97.1    2e-21 
+HAZ6625855.1 TPA: O55 family O-antigen polymerase [Escherichia coli]  97.8    3e-21 
+EFD5504865.1 Unknown                                                  97.4    5e-21 
+HAT3815230.1 TPA: hypothetical protein [Citrobacter freundii]         99.4    5e-21 
+EFN9636218.1 polymerase [Escherichia coli]                            96.7    1e-20 
+EFL6154591.1 O55 family O-antigen polymerase [Escherichia coli]       96.7    1e-20 
+EEZ1242148.1 O55 family O-antigen polymerase [Escherichia coli]       95.9    2e-20 
+HAL1931249.1 TPA: O55 family O-antigen polymerase [Escherichia coli]  95.5    2e-20 
+EHB4542008.1 Unknown                                                  94.7    4e-20 
+EFK3159686.1 O55 family O-antigen polymerase [Escherichia coli]       94.7    4e-20 
+EGO4483696.1 Unknown                                                  92.8    1e-19 
+EEV5925265.1 Unknown                                                  92.0    3e-19 
+PAV01976.1 Unknown                                                    96.3    5e-19 
+EFD0789495.1 Unknown                                                  91.3    6e-19 
+EFK4060762.1 Unknown                                                  90.1    1e-18 
+EEV3371224.1 O55 family O-antigen polymerase [Escherichia coli]       90.5    1e-18 
+EGK4105676.1 O55 family O-antigen polymerase [Escherichia coli]       90.5    1e-18 
+EFK4149015.1 O55 family O-antigen polymerase [Escherichia coli]       89.0    5e-18 
+EFL6574347.1 O55 family O-antigen polymerase [Escherichia coli]       87.8    1e-17 
+HBA5410228.1 TPA: polymerase [Escherichia coli]                       86.7    1e-17 
+EEZ7908208.1 Unknown                                                  85.9    2e-17 
+EEU2005773.1 Unknown                                                  86.3    4e-17 
+EFO1391668.1 polymerase [Escherichia coli]                            84.7    2e-16 
+EED1912515.1 Unknown                                                  83.6    4e-16 
+EFK3581220.1 Unknown                                                  82.8    6e-16 
+EEW5033522.1 Unknown                                                  82.4    1e-15 
+EER1861866.1 Unknown                                                  80.9    3e-15 
+WP_139008445.1 hypothetical protein [Escherichia coli]                80.9    6e-15 
+EHY9666324.1 polymerase [Escherichia coli]                            80.1    6e-15 
+EHV24604.1 putative membrane protein [Escherichia coli DEC5A]         80.9    6e-15 
+EFK0604645.1 polymerase [Escherichia coli]                            78.2    3e-14 
+WP_140441934.1 hypothetical protein [Escherichia coli]                73.9    1e-12 
+EEZ2414182.1 Unknown                                                  70.9    1e-11 
+EAR4344843.1 polymerase [Salmonella enterica]                         67.4    1e-10 
+WP_050073417.1 hypothetical protein [Yersinia intermedia]             66.2    5e-09 
+HBA5385817.1 Unknown                                                  58.2    3e-07 
+HBA5502067.1 TPA: polymerase [Escherichia coli]                       54.7    6e-06 
+EFD0789680.1 polymerase [Escherichia coli]                            53.1    2e-05 
+HBA5381159.1 Unknown                                                  50.8    1e-04 
+HBA5440206.1 Unknown                                                  47.4    0.002 
+EFL6180079.1 polymerase [Escherichia coli]                            47.4    0.002 
+WP_077631808.1 Unknown                                                45.4    0.018 
+EHU13431.1 Unknown                                                    38.9    2.2   
+
+
+Sequence with id AAV34523 no longer exists in database...alignment skipped
+Sequence with id EAA8952460 no longer exists in database...alignment skipped
+>EBQ4855951.1 polymerase [Salmonella enterica subsp. salamae]
+ EEI7808318.1 polymerase [Salmonella enterica]
+ EEJ4445942.1 polymerase [Salmonella enterica subsp. salamae serovar 50:b:z6]
+ ECJ2390915.1 polymerase [Salmonella enterica subsp. salamae]
+ EHT0428456.1 EpsG family protein [Salmonella enterica]
+Length=325
+
+ Score = 625 bits (1612),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 323/325 (99%), Positives = 324/325 (99%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL
+Sbjct  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAI+LANIRKDNII
+Sbjct  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAILLANIRKDNII  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+            PFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+
+
+Sequence with id WP_079796738 no longer exists in database...alignment skipped
+Sequence with id ECT8652494 no longer exists in database...alignment skipped
+Sequence with id EHC9777112 no longer exists in database...alignment skipped
+Sequence with id EAZ2931974 no longer exists in database...alignment skipped
+Sequence with id WP_085347982 no longer exists in database...alignment skipped
+>WP_051124289.1 EpsG family protein [Salmonella enterica]
+ EAA3840502.1 polymerase [Salmonella enterica subsp. houtenae]
+ ECH8282565.1 polymerase [Salmonella enterica subsp. enterica]
+ EEK1482159.1 polymerase [Salmonella enterica subsp. enterica serovar Typhimurium]
+ HAC6519031.1 polymerase [Salmonella enterica subsp. houtenae serovar 45:g,z51:-]
+ HAE4739197.1 polymerase [Salmonella enterica subsp. houtenae serovar 41:z4,z23:-]
+ HAE7575889.1 polymerase [Salmonella enterica subsp. houtenae serovar 48:g,z51:-]
+Length=325
+
+ Score = 611 bits (1576),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 314/325 (97%), Positives = 319/325 (98%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIIL
+Sbjct  181  SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIIL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNII
+Sbjct  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNII  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+            PFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+
+
+Sequence with id ECI0413954 no longer exists in database...alignment skipped
+>EHE9228144.1 polymerase [Salmonella enterica]
+ EIQ2466476.1 EpsG family protein [Salmonella enterica]
+Length=325
+
+ Score = 611 bits (1575),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 313/325 (96%), Positives = 319/325 (98%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCK+IFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKIIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIIL
+Sbjct  181  SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIIL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNII
+Sbjct  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNII  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+            PFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+
+
+Sequence with id EFO7944625 no longer exists in database...alignment skipped
+>EAS0583903.1 polymerase [Salmonella enterica]
+Length=325
+
+ Score = 610 bits (1573),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 313/325 (96%), Positives = 319/325 (98%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIIL
+Sbjct  181  SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIIL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            IMVKVDKKSYSW+LYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNII
+Sbjct  241  IMVKVDKKSYSWNLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNII  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+            PFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+
+
+>WP_079894445.1 EpsG family protein [Salmonella enterica]
+ HAE7876318.1 polymerase [Salmonella enterica subsp. enterica serovar 1,9,12:-:-]
+ EAY0640807.1 polymerase [Salmonella enterica]
+ EAY0844608.1 polymerase [Salmonella enterica]
+ EAY1329174.1 polymerase [Salmonella enterica]
+ EAY6166801.1 polymerase [Salmonella enterica]
+Length=325
+
+ Score = 610 bits (1573),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 313/325 (96%), Positives = 318/325 (98%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIIL
+Sbjct  181  SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIIL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNII
+Sbjct  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNII  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+            PFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+
+
+>EEO7837564.1 polymerase [Salmonella enterica]
+Length=325
+
+ Score = 610 bits (1572),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 313/325 (96%), Positives = 318/325 (98%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIIL
+Sbjct  181  SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIIL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            IMVKVDKKSYSWSLYKLSLFFCILSIA YQNWQLSWR+FVPAATLGSAIVLANIRKDNII
+Sbjct  241  IMVKVDKKSYSWSLYKLSLFFCILSIAFYQNWQLSWRIFVPAATLGSAIVLANIRKDNII  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+            PFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+
+
+Sequence with id ECO0585523 no longer exists in database...alignment skipped
+Sequence with id EDQ9953325 no longer exists in database...alignment skipped
+>EAN8469837.1 polymerase [Salmonella enterica]
+ EDX5691775.1 polymerase [Salmonella enterica subsp. arizonae]
+ EAY4650543.1 polymerase [Salmonella enterica]
+ EFU5020026.1 polymerase [Salmonella enterica]
+ EGA5116953.1 polymerase [Salmonella enterica]
+Length=325
+
+ Score = 606 bits (1563),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 311/325 (96%), Positives = 318/325 (98%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPA+GLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIY+KIN +SN  ISFIYAILLLST
+Sbjct  61   FEPAIGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYVKINGESNVRISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFS+SKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSESKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGGELTIFLDK SDSIKRIIIGVSFLIIL
+Sbjct  181  SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGELTIFLDKGSDSIKRIIIGVSFLIIL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNII
+Sbjct  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNII  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+            PFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+
+
+Sequence with id EHP9585354 no longer exists in database...alignment skipped
+>EAX2479147.1 polymerase [Salmonella enterica]
+Length=314
+
+ Score = 589 bits (1518),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 303/314 (96%), Positives = 308/314 (98%), Gaps = 0/314 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIIL
+Sbjct  181  SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIIL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNII
+Sbjct  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNII  300
+
+Query  301  PFLGVVLSTIPTMR  314
+            PFLGVVLSTIPTMR
+Sbjct  301  PFLGVVLSTIPTMR  314
+
+
+Sequence with id EAS1881970 no longer exists in database...alignment skipped
+>EAO7825024.1 polymerase [Salmonella enterica]
+Length=237
+
+ Score = 441 bits (1133),  Expect = 7e-154, Method: Compositional matrix adjust.
+ Identities = 229/237 (97%), Positives = 232/237 (98%), Gaps = 0/237 (0%)
+
+Query  89   LVNFITVLIYIKINEQSNTSISFIYAILLLSTYYIFSNNIYVWRTIISLYFFILFVFSKS  148
+            LVNFITVLIYIKINE+SN SISFIYAILLLSTYYIFSNNIYVWRTIISLYFFILFVFS S
+Sbjct  1    LVNFITVLIYIKINEESNASISFIYAILLLSTYYIFSNNIYVWRTIISLYFFILFVFSNS  60
+
+Query  149  KSCKVIFFSLGFLFHYSFLLFYFCYIICKFNKSSLKFFLIYAFLFSLFISNVLNFLSYFS  208
+            KSCKVIFFSLGFLFHYSFLLFYFCYIICKFNKSSLK FLIYAFLFSLFISN LNFLSYFS
+Sbjct  61   KSCKVIFFSLGFLFHYSFLLFYFCYIICKFNKSSLKVFLIYAFLFSLFISNALNFLSYFS  120
+
+Query  209  FFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIAL  268
+            FFVSGG+LTIFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIAL
+Sbjct  121  FFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIAL  180
+
+Query  269  YQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            YQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  181  YQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  237
+
+
+>EGF1371312.1 polymerase [Salmonella enterica subsp. diarizonae serovar 50:r:z]
+Length=228
+
+ Score = 419 bits (1078),  Expect = 1e-145, Method: Compositional matrix adjust.
+ Identities = 218/228 (96%), Positives = 222/228 (97%), Gaps = 0/228 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIK  228
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIK
+Sbjct  181  SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIK  228
+
+
+Sequence with id EAV7091517 no longer exists in database...alignment skipped
+Sequence with id EAN8972348 no longer exists in database...alignment skipped
+>EBA9490128.1 polymerase [Salmonella enterica]
+Length=218
+
+ Score = 399 bits (1026),  Expect = 6e-138, Method: Compositional matrix adjust.
+ Identities = 208/218 (95%), Positives = 212/218 (97%), Gaps = 0/218 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTI  218
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+L I
+Sbjct  181  SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLAI  218
+
+
+Sequence with id EAM8827041 no longer exists in database...alignment skipped
+Sequence with id EAW1322493 no longer exists in database...alignment skipped
+Sequence with id MID24397 no longer exists in database...alignment skipped
+>WP_187258758.1 EpsG family protein [Citrobacter freundii]
+ MBC6500479.1 polymerase [Citrobacter freundii]
+ MBC6505345.1 polymerase [Citrobacter freundii]
+Length=325
+
+ Score = 342 bits (878),  Expect = 9e-114, Method: Compositional matrix adjust.
+ Identities = 187/325 (58%), Positives = 244/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            M  KK + +F G L S+L +LPLA+QGGFDDSLVYY QA YIW+ GL DGL AIY QTNK
+Sbjct  1    MLNKKYVVIFWGGLLSLLCSLPLAIQGGFDDSLVYYEQAIYIWNNGLLDGLSAIYYQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGLLF ++ F    +F F+LLNL LVNF+++LIY+KIN +   S S + A L+L +
+Sbjct  61   FEVGMGLLFHLQVFFGEGRFVFILLNLALVNFLSILIYLKINNEVRISPSLLCASLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K IF  LG LFHYSF+LF   Y  C+ NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKCKKTIFIVLGLLFHYSFILFLCVYYFCRLNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            +S   F+I + + S  IS  L ++SY SFFVSGGEL++F+ + +D++KR+II  +FL +L
+Sbjct  181  TSKFKFVIISIIISFIISKFLYWMSYASFFVSGGELSLFMSQDNDALKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ ++ +W LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI++ + +
+Sbjct  241  LMINLESETNNWVLYKLSLFFCILSILLCDNWQLSWRVFVPAAILGTAIILSNIKRKDGL  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LGV LS IPT R+IYNLL LGHP
+Sbjct  301  VLLGVTLSIIPTFRLIYNLLILGHP  325
+
+
+Sequence with id ECE6874293 no longer exists in database...alignment skipped
+>EAB3066881.1 polymerase [Salmonella enterica]
+Length=171
+
+ Score = 320 bits (821),  Expect = 3e-107, Method: Compositional matrix adjust.
+ Identities = 165/171 (96%), Positives = 168/171 (98%), Gaps = 0/171 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYF  171
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCKVIFFSLGFLFHYSFLLFYF
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKVIFFSLGFLFHYSFLLFYF  171
+
+
+Sequence with id ECE6784201 no longer exists in database...alignment skipped
+Sequence with id ECI4598969 no longer exists in database...alignment skipped
+>WP_209303710.1 EpsG family protein [Escherichia coli]
+Length=325
+
+ Score = 318 bits (814),  Expect = 5e-104, Method: Compositional matrix adjust.
+ Identities = 180/325 (55%), Positives = 245/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLIFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF + Y  C  NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLYVYYFCWINK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSL  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+Sequence with id EFL6171340 no longer exists in database...alignment skipped
+Sequence with id HAJ6505196 no longer exists in database...alignment skipped
+>WP_053897571.1 O55 family O-antigen polymerase [Escherichia coli]
+ CTT80074.1 O-antigen polymerase Wzy [Escherichia coli]
+Length=325
+
+ Score = 317 bits (813),  Expect = 6e-104, Method: Compositional matrix adjust.
+ Identities = 179/325 (55%), Positives = 244/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL F+++GF+   +F F+LLNL LVNF+ VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLFFYLQGFLGEGRFVFILLNLFLVNFLAVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C+ NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIASIIISFIISNFLYWMSYASLFVSGGELSLFMSQDNEALKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ ++ +W LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESETNNWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSV  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+Sequence with id WP_028127142 no longer exists in database...alignment skipped
+Sequence with id WP_161400943 no longer exists in database...alignment skipped
+Sequence with id WP_226867171 no longer exists in database...alignment skipped
+>WP_097736709.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=325
+
+ Score = 316 bits (809),  Expect = 3e-103, Method: Compositional matrix adjust.
+ Identities = 180/325 (55%), Positives = 244/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLIFYLQGFLGGGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCWINK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSL  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+Sequence with id ECI4025433 no longer exists in database...alignment skipped
+>EAA2984910.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=165
+
+ Score = 309 bits (792),  Expect = 5e-103, Method: Compositional matrix adjust.
+ Identities = 158/165 (96%), Positives = 161/165 (98%), Gaps = 0/165 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFIVTEKFYFLLLNL LVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLALVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYS  165
+            YYIFSNNIYVWRTIISLYFFILFVFS SKSCKVIFFSLGFLFHYS
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNSKSCKVIFFSLGFLFHYS  165
+
+
+Sequence with id EES2671773 no longer exists in database...alignment skipped
+>EHY3302255.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=325
+
+ Score = 315 bits (806),  Expect = 7e-103, Method: Compositional matrix adjust.
+ Identities = 179/325 (55%), Positives = 243/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGG DDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGVDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLIFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYCFCWINK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSL  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+>QLW09352.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=325
+
+ Score = 315 bits (806),  Expect = 8e-103, Method: Compositional matrix adjust.
+ Identities = 179/325 (55%), Positives = 243/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY Q NK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQANK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLIFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCWINK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSL  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+>WP_000482333.1 O55 family O-antigen polymerase [Escherichia coli]
+ EET3379807.1 O55 family O-antigen polymerase [Escherichia coli O111]
+ BAG11954.1 O-antigen polymerase Wzy [Escherichia coli O55:H6]
+ AAL67557.1 O-antigen polymerase Wzy [Escherichia coli]
+ ADD57108.1 O-antigen polymerase Wzy [Escherichia coli O55:H7 str. CB9615]
+ AEZ41042.1 O-antigen polymerase Wzy [Escherichia coli O55:H7 str. RM12579]
+Length=325
+
+ Score = 315 bits (806),  Expect = 8e-103, Method: Compositional matrix adjust.
+ Identities = 179/325 (55%), Positives = 244/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL F+++GF+   +F F+LLNL LVNF+ VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLFFYLQGFLGEGRFVFILLNLFLVNFLAVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C+ NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIVSIIISFIISNFLYWMSYASLFVSGGELSLFMSQDNEALKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ ++ +W LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESETNNWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSV  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+>WP_001592235.1 O55 family O-antigen polymerase [Escherichia coli]
+ EFD7765139.1 polymerase [Escherichia coli]
+ EHW5530054.1 O55 family O-antigen polymerase [Escherichia coli]
+ ELG36003.1 hypothetical protein A1W3_02447 [Escherichia coli KTE84]
+Length=325
+
+ Score = 314 bits (805),  Expect = 1e-102, Method: Compositional matrix adjust.
+ Identities = 179/325 (55%), Positives = 245/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLFFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C+ NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIVSIIISFIISNFLYWMSYASLFVSGGELSLFMSQDNETLKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ ++ +W LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESETNNWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSL  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+Sequence with id WP_052909300 no longer exists in database...alignment skipped
+Sequence with id EEZ9681639 no longer exists in database...alignment skipped
+>EFO4565670.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=325
+
+ Score = 313 bits (802),  Expect = 3e-102, Method: Compositional matrix adjust.
+ Identities = 179/325 (55%), Positives = 243/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLIFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCWINK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGG L++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIISIIISFIISNFLYWMSYASLFVSGGGLSVFMSQDNETLKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSL  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+>EFP0777165.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=325
+
+ Score = 311 bits (798),  Expect = 1e-101, Method: Compositional matrix adjust.
+ Identities = 178/325 (55%), Positives = 243/325 (75%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL F+++GF+   +F F+LLNL LVNF+ VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLFFYLQGFLGEGRFVFILLNLFLVNFLAVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C+ NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGG L++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIVSIIISFIISNFLYWMSYASLFVSGGGLSLFMSQDNEALKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ ++ +W LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESETNNWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSV  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+Sequence with id WP_000482337 no longer exists in database...alignment skipped
+>EFF2432026.1 O55 family O-antigen polymerase [Escherichia coli]
+ EHX9345472.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=325
+
+ Score = 311 bits (797),  Expect = 2e-101, Method: Compositional matrix adjust.
+ Identities = 178/325 (55%), Positives = 242/325 (74%), Gaps = 0/325 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGG DDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGVDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLIFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCWINK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGG L++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIISIIISFIISNFLYWMSYASLFVSGGGLSVFMSQDNETLKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSL  300
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+              LG+ LS IPT R+I+NLL LGHP
+Sbjct  301  VLLGITLSIIPTFRLIFNLLILGHP  325
+
+
+Sequence with id EIH0604266 no longer exists in database...alignment skipped
+Sequence with id EBJ2743989 no longer exists in database...alignment skipped
+Sequence with id BAG11898 no longer exists in database...alignment skipped
+Sequence with id MJB99403 no longer exists in database...alignment skipped
+Sequence with id EDV0459455 no longer exists in database...alignment skipped
+Sequence with id ECJ4381029 no longer exists in database...alignment skipped
+Sequence with id EAU9200954 no longer exists in database...alignment skipped
+>ECJ4379830.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=150
+
+ Score = 286 bits (731),  Expect = 4e-94, Method: Compositional matrix adjust.
+ Identities = 145/150 (97%), Positives = 147/150 (98%), Gaps = 0/150 (0%)
+
+Query  176  CKFNKSSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVS  235
+            CKFNKSSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVS
+Sbjct  1    CKFNKSSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVS  60
+
+Query  236  FLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIR  295
+            FLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIR
+Sbjct  61   FLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIR  120
+
+Query  296  KDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            KDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  121  KDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  150
+
+
+>HBD0078194.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=308
+
+ Score = 290 bits (742),  Expect = 2e-93, Method: Compositional matrix adjust.
+ Identities = 168/308 (55%), Positives = 230/308 (75%), Gaps = 0/308 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLIFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCWINK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSL  300
+
+Query  301  PFLGVVLS  308
+              LG+ LS
+Sbjct  301  VLLGITLS  308
+
+
+>EHY3431284.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=308
+
+ Score = 288 bits (737),  Expect = 1e-92, Method: Compositional matrix adjust.
+ Identities = 167/308 (54%), Positives = 229/308 (74%), Gaps = 0/308 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGG DDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGVDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLIFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCWINK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +
+Sbjct  241  LMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSL  300
+
+Query  301  PFLGVVLS  308
+              LG+ LS
+Sbjct  301  VLLGITLS  308
+
+
+>ECF6948379.1 polymerase [Salmonella enterica subsp. diarizonae]
+ ECG1275502.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=146
+
+ Score = 281 bits (718),  Expect = 5e-92, Method: Compositional matrix adjust.
+ Identities = 145/146 (99%), Positives = 145/146 (99%), Gaps = 0/146 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFS  146
+            YYIFSNNIYVWRTIISLYFFILFVFS
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFS  146
+
+
+>MIY24163.1 polymerase [Salmonella enterica subsp. enterica]
+Length=152
+
+ Score = 278 bits (711),  Expect = 6e-91, Method: Compositional matrix adjust.
+ Identities = 140/152 (92%), Positives = 147/152 (97%), Gaps = 0/152 (0%)
+
+Query  174  IICKFNKSSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIG  233
+            IICKFNKSSLK FLIYA L SLFISN+LNFLSYFSFFVSGGELTIFLDKSSDS+KRIIIG
+Sbjct  1    IICKFNKSSLKGFLIYALLISLFISNILNFLSYFSFFVSGGELTIFLDKSSDSVKRIIIG  60
+
+Query  234  VSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLAN  293
+            VSFLIILIMVKVDKKSY+W+LYKLSLFFCILSIALYQNWQLSWRVFVPAATLGS IVLAN
+Sbjct  61   VSFLIILIMVKVDKKSYTWNLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSVIVLAN  120
+
+Query  294  IRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            IRKDNIIPFLG++LS IPT+RIIYNLLYLGHP
+Sbjct  121  IRKDNIIPFLGMILSAIPTIRIIYNLLYLGHP  152
+
+
+Sequence with id ECJ4765918 no longer exists in database...alignment skipped
+Sequence with id ECE6784016 no longer exists in database...alignment skipped
+Sequence with id EAP7257232 no longer exists in database...alignment skipped
+>EGB4549627.1 polymerase [Salmonella enterica]
+Length=148
+
+ Score = 277 bits (708),  Expect = 1e-90, Method: Compositional matrix adjust.
+ Identities = 142/148 (96%), Positives = 145/148 (98%), Gaps = 0/148 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKS  148
+            YYIFSNNIYVWRTIISLYFFILFVFS S
+Sbjct  121  YYIFSNNIYVWRTIISLYFFILFVFSNS  148
+
+
+>EAA2984150.1 polymerase [Salmonella enterica subsp. diarizonae]
+ ECE6701238.1 polymerase [Salmonella enterica subsp. houtenae]
+Length=145
+
+ Score = 274 bits (701),  Expect = 1e-89, Method: Compositional matrix adjust.
+ Identities = 140/145 (97%), Positives = 142/145 (98%), Gaps = 0/145 (0%)
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            SSLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIIL
+Sbjct  1    SSLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIIL  60
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNII
+Sbjct  61   IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNII  120
+
+Query  301  PFLGVVLSTIPTMRIIYNLLYLGHP  325
+            PFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  121  PFLGVVLSTIPTMRIIYNLLYLGHP  145
+
+
+Sequence with id EGP1524067 no longer exists in database...alignment skipped
+Sequence with id ECI5686908 no longer exists in database...alignment skipped
+>EEU4853411.1 polymerase [Salmonella enterica]
+Length=144
+
+ Score = 273 bits (697),  Expect = 6e-89, Method: Compositional matrix adjust.
+ Identities = 139/144 (97%), Positives = 141/144 (98%), Gaps = 0/144 (0%)
+
+Query  182  SLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILI  241
+            SLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIILI
+Sbjct  1    SLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILI  60
+
+Query  242  MVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIP  301
+            MVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIP
+Sbjct  61   MVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIP  120
+
+Query  302  FLGVVLSTIPTMRIIYNLLYLGHP  325
+            FLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  121  FLGVVLSTIPTMRIIYNLLYLGHP  144
+
+
+Sequence with id EFT3774568 no longer exists in database...alignment skipped
+Sequence with id EEG3350754 no longer exists in database...alignment skipped
+Sequence with id EHF4920434 no longer exists in database...alignment skipped
+Sequence with id EBM0070471 no longer exists in database...alignment skipped
+>WP_139815398.1 hypothetical protein [Salmonella enterica]
+ ECC1666262.1 hypothetical protein [Salmonella enterica subsp. diarizonae]
+ EDT1293106.1 hypothetical protein [Salmonella enterica subsp. houtenae]
+ EDW9607388.1 hypothetical protein [Salmonella enterica subsp. houtenae serovar 
+50:z4,z23:-]
+ EHD0027748.1 hypothetical protein [Salmonella enterica subsp. houtenae serovar 
+50:g,z51:-]
+ EAQ2040453.1 hypothetical protein [Salmonella enterica]
+Length=143
+
+ Score = 271 bits (692),  Expect = 3e-88, Method: Compositional matrix adjust.
+ Identities = 137/143 (96%), Positives = 140/143 (98%), Gaps = 0/143 (0%)
+
+Query  183  LKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIM  242
+            +K FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIILIM
+Sbjct  1    MKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILIM  60
+
+Query  243  VKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPF  302
+            VKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPF
+Sbjct  61   VKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPF  120
+
+Query  303  LGVVLSTIPTMRIIYNLLYLGHP  325
+            LGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  121  LGVVLSTIPTMRIIYNLLYLGHP  143
+
+
+>EFT4156865.1 polymerase [Salmonella enterica]
+Length=144
+
+ Score = 271 bits (692),  Expect = 4e-88, Method: Compositional matrix adjust.
+ Identities = 138/144 (96%), Positives = 140/144 (97%), Gaps = 0/144 (0%)
+
+Query  182  SLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILI  241
+            SLK FLIYAFLFSLFISN LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILI
+Sbjct  1    SLKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILI  60
+
+Query  242  MVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIP  301
+            MVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIP
+Sbjct  61   MVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIP  120
+
+Query  302  FLGVVLSTIPTMRIIYNLLYLGHP  325
+            FLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  121  FLGVVLSTIPTMRIIYNLLYLGHP  144
+
+
+>EAY0970969.1 hypothetical protein [Salmonella enterica]
+ EDQ1018068.1 hypothetical protein [Salmonella enterica subsp. houtenae serovar 
+50:z4,z23:-]
+ EDV3253711.1 hypothetical protein [Salmonella enterica subsp. houtenae]
+ EDW0441659.1 hypothetical protein [Salmonella enterica subsp. arizonae serovar 
+50:z4,z23:-]
+ EAY1680186.1 hypothetical protein [Salmonella enterica]
+Length=143
+
+ Score = 269 bits (687),  Expect = 2e-87, Method: Compositional matrix adjust.
+ Identities = 136/143 (95%), Positives = 139/143 (97%), Gaps = 0/143 (0%)
+
+Query  183  LKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIM  242
+            +K FLIYAFLFSLFISN LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIM
+Sbjct  1    MKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIM  60
+
+Query  243  VKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPF  302
+            VKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPF
+Sbjct  61   VKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPF  120
+
+Query  303  LGVVLSTIPTMRIIYNLLYLGHP  325
+            LGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  121  LGVVLSTIPTMRIIYNLLYLGHP  143
+
+
+>EDB6599873.1 hypothetical protein [Salmonella enterica subsp. diarizonae]
+Length=143
+
+ Score = 268 bits (686),  Expect = 2e-87, Method: Compositional matrix adjust.
+ Identities = 136/143 (95%), Positives = 139/143 (97%), Gaps = 0/143 (0%)
+
+Query  183  LKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIM  242
+            +K FLIYAFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIILIM
+Sbjct  1    MKVFLIYAFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILIM  60
+
+Query  243  VKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPF  302
+            VKVDKKSYSWSLYKLSLFFCILSI LYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPF
+Sbjct  61   VKVDKKSYSWSLYKLSLFFCILSIVLYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPF  120
+
+Query  303  LGVVLSTIPTMRIIYNLLYLGHP  325
+            LGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  121  LGVVLSTIPTMRIIYNLLYLGHP  143
+
+
+Sequence with id EAS6513953 no longer exists in database...alignment skipped
+Sequence with id EGP1439319 no longer exists in database...alignment skipped
+>EGD4219309.1 polymerase [Salmonella enterica]
+Length=141
+
+ Score = 266 bits (681),  Expect = 1e-86, Method: Compositional matrix adjust.
+ Identities = 135/140 (96%), Positives = 137/140 (98%), Gaps = 0/140 (0%)
+
+Query  186  FLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKV  245
+            FLIYAFLFSLFISN LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIMVKV
+Sbjct  2    FLIYAFLFSLFISNALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIMVKV  61
+
+Query  246  DKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGV  305
+            DKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGV
+Sbjct  62   DKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGV  121
+
+Query  306  VLSTIPTMRIIYNLLYLGHP  325
+            VLSTIPTMRIIYNLLYLGHP
+Sbjct  122  VLSTIPTMRIIYNLLYLGHP  141
+
+
+>EHD0028231.1 polymerase [Salmonella enterica subsp. houtenae serovar 50:g,z51:-]
+Length=140
+
+ Score = 266 bits (679),  Expect = 3e-86, Method: Compositional matrix adjust.
+ Identities = 135/140 (96%), Positives = 138/140 (99%), Gaps = 0/140 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSNNIYVWRTIISLYFF  140
+            YYIFSNNIYVWRTIISLYFF
+Sbjct  121  YYIFSNNIYVWRTIISLYFF  140
+
+
+Sequence with id EEO0293690 no longer exists in database...alignment skipped
+Sequence with id EGV2888066 no longer exists in database...alignment skipped
+>EGS4558632.1 polymerase [Salmonella enterica]
+Length=138
+
+ Score = 263 bits (672),  Expect = 3e-85, Method: Compositional matrix adjust.
+ Identities = 133/138 (96%), Positives = 135/138 (98%), Gaps = 0/138 (0%)
+
+Query  188  IYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDK  247
+            IYAFLFSLFISN LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIMVKVDK
+Sbjct  1    IYAFLFSLFISNALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIMVKVDK  60
+
+Query  248  KSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVL  307
+            KSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVL
+Sbjct  61   KSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVL  120
+
+Query  308  STIPTMRIIYNLLYLGHP  325
+            STIPTMRIIYNLLYLGHP
+Sbjct  121  STIPTMRIIYNLLYLGHP  138
+
+
+>WP_209292501.1 polymerase, partial [Escherichia coli]
+Length=275
+
+ Score = 268 bits (684),  Expect = 5e-85, Method: Compositional matrix adjust.
+ Identities = 150/275 (55%), Positives = 205/275 (75%), Gaps = 0/275 (0%)
+
+Query  51   LRAIYIQTNKFEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSIS  110
+            L +IY QTNKFE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S
+Sbjct  1    LSSIYHQTNKFEIGMGLIFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPS  60
+
+Query  111  FIYAILLLSTYYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFY  170
+             +   L+L +YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF 
+Sbjct  61   LLCVTLMLMSYYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFL  120
+
+Query  171  FCYIICKFNKSSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRI  230
+              Y  C  NK     F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+
+Sbjct  121  CVYYFCWINKIGKFKFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRL  180
+
+Query  231  IIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIV  290
+            II  +FL +L+M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+
+Sbjct  181  IISGTFLFLLLMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAII  240
+
+Query  291  LANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            L+NI+K + +  LG+ L  IPT R+I+NLL LGHP
+Sbjct  241  LSNIKKKDSLVLLGITLPIIPTFRLIFNLLILGHP  275
+
+
+Sequence with id ESE89922 no longer exists in database...alignment skipped
+>EGS4480892.1 polymerase [Salmonella enterica]
+Length=136
+
+ Score = 261 bits (667),  Expect = 1e-84, Method: Compositional matrix adjust.
+ Identities = 132/136 (97%), Positives = 134/136 (99%), Gaps = 0/136 (0%)
+
+Query  190  AFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKS  249
+            AFLFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIILIMVKVDKKS
+Sbjct  1    AFLFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKS  60
+
+Query  250  YSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLST  309
+            YSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLST
+Sbjct  61   YSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLST  120
+
+Query  310  IPTMRIIYNLLYLGHP  325
+            IPTMRIIYNLLYLGHP
+Sbjct  121  IPTMRIIYNLLYLGHP  136
+
+
+>EGA8267392.1 polymerase [Salmonella enterica]
+ EGD6430994.1 polymerase [Salmonella enterica]
+ EGL5950019.1 polymerase [Salmonella enterica]
+Length=136
+
+ Score = 259 bits (663),  Expect = 6e-84, Method: Compositional matrix adjust.
+ Identities = 131/136 (96%), Positives = 133/136 (98%), Gaps = 0/136 (0%)
+
+Query  190  AFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKS  249
+            AFLFSLFISN LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIMVKVDKKS
+Sbjct  1    AFLFSLFISNALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKS  60
+
+Query  250  YSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLST  309
+            YSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLST
+Sbjct  61   YSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLST  120
+
+Query  310  IPTMRIIYNLLYLGHP  325
+            IPTMRIIYNLLYLGHP
+Sbjct  121  IPTMRIIYNLLYLGHP  136
+
+
+Sequence with id EGL5746953 no longer exists in database...alignment skipped
+Sequence with id EGC8442171 no longer exists in database...alignment skipped
+>EEA7926316.1 hypothetical protein [Salmonella enterica subsp. enterica]
+Length=143
+
+ Score = 258 bits (660),  Expect = 2e-83, Method: Compositional matrix adjust.
+ Identities = 129/143 (90%), Positives = 138/143 (97%), Gaps = 0/143 (0%)
+
+Query  183  LKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIM  242
+            +K FLIYA L SLFISN+L+FLSYFSFFVSGGELTIFLDKSSDS+KRIIIGVSFLIILIM
+Sbjct  1    MKGFLIYALLISLFISNILDFLSYFSFFVSGGELTIFLDKSSDSVKRIIIGVSFLIILIM  60
+
+Query  243  VKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPF  302
+            VKVDKKSY+W+LYKLSLFFCILSIALYQNWQLSWRVFVPAATLGS IVLANIRKDNIIPF
+Sbjct  61   VKVDKKSYTWNLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSVIVLANIRKDNIIPF  120
+
+Query  303  LGVVLSTIPTMRIIYNLLYLGHP  325
+            LG++LS IPT+RIIYNLLYLGHP
+Sbjct  121  LGMILSAIPTIRIIYNLLYLGHP  143
+
+
+Sequence with id EHI9813644 no longer exists in database...alignment skipped
+>EBM1816155.1 polymerase [Salmonella enterica]
+Length=134
+
+ Score = 258 bits (658),  Expect = 3e-83, Method: Compositional matrix adjust.
+ Identities = 130/134 (97%), Positives = 132/134 (99%), Gaps = 0/134 (0%)
+
+Query  192  LFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYS  251
+            LFSLFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYS
+Sbjct  1    LFSLFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYS  60
+
+Query  252  WSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIP  311
+            WSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIP
+Sbjct  61   WSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIP  120
+
+Query  312  TMRIIYNLLYLGHP  325
+            TMRIIYNLLYLGHP
+Sbjct  121  TMRIIYNLLYLGHP  134
+
+
+Sequence with id ECE6873748 no longer exists in database...alignment skipped
+Sequence with id EGS4262927 no longer exists in database...alignment skipped
+>ECI4598535.1 polymerase [Salmonella enterica subsp. salamae]
+Length=128
+
+ Score = 253 bits (647),  Expect = 1e-81, Method: Compositional matrix adjust.
+ Identities = 128/128 (100%), Positives = 128/128 (100%), Gaps = 0/128 (0%)
+
+Query  198  SNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKL  257
+            SNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKL
+Sbjct  1    SNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKL  60
+
+Query  258  SLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIY  317
+            SLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIY
+Sbjct  61   SLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIY  120
+
+Query  318  NLLYLGHP  325
+            NLLYLGHP
+Sbjct  121  NLLYLGHP  128
+
+
+>EEQ0906748.1 polymerase [Salmonella enterica subsp. houtenae]
+Length=131
+
+ Score = 253 bits (646),  Expect = 2e-81, Method: Compositional matrix adjust.
+ Identities = 127/131 (97%), Positives = 129/131 (98%), Gaps = 0/131 (0%)
+
+Query  195  LFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSL  254
+            LFISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSL
+Sbjct  1    LFISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSL  60
+
+Query  255  YKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMR  314
+            YKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMR
+Sbjct  61   YKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMR  120
+
+Query  315  IIYNLLYLGHP  325
+            IIYNLLYLGHP
+Sbjct  121  IIYNLLYLGHP  131
+
+
+>EBK6543649.1 polymerase [Salmonella enterica]
+ ECC3893531.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=129
+
+ Score = 250 bits (638),  Expect = 3e-80, Method: Compositional matrix adjust.
+ Identities = 125/129 (97%), Positives = 127/129 (98%), Gaps = 0/129 (0%)
+
+Query  197  ISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYK  256
+            ISN LNFLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYK
+Sbjct  1    ISNALNFLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYK  60
+
+Query  257  LSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRII  316
+            LSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRII
+Sbjct  61   LSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRII  120
+
+Query  317  YNLLYLGHP  325
+            YNLLYLGHP
+Sbjct  121  YNLLYLGHP  129
+
+
+Sequence with id EFQ2549180 no longer exists in database...alignment skipped
+>EGH5398850.1 polymerase [Salmonella enterica]
+Length=129
+
+ Score = 248 bits (633),  Expect = 2e-79, Method: Compositional matrix adjust.
+ Identities = 124/129 (96%), Positives = 126/129 (98%), Gaps = 0/129 (0%)
+
+Query  197  ISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYK  256
+            ISN LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYK
+Sbjct  1    ISNALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYK  60
+
+Query  257  LSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRII  316
+            LSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRII
+Sbjct  61   LSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRII  120
+
+Query  317  YNLLYLGHP  325
+            YNLLYLGHP
+Sbjct  121  YNLLYLGHP  129
+
+
+>EGJ1437892.1 polymerase [Salmonella enterica]
+Length=128
+
+ Score = 247 bits (630),  Expect = 4e-79, Method: Compositional matrix adjust.
+ Identities = 123/128 (96%), Positives = 125/128 (98%), Gaps = 0/128 (0%)
+
+Query  198  SNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKL  257
+            SN LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKL
+Sbjct  1    SNALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKL  60
+
+Query  258  SLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIY  317
+            SLFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIY
+Sbjct  61   SLFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIY  120
+
+Query  318  NLLYLGHP  325
+            NLLYLGHP
+Sbjct  121  NLLYLGHP  128
+
+
+Sequence with id ECG0741673 no longer exists in database...alignment skipped
+>EHH3086414.1 polymerase [Salmonella enterica]
+Length=127
+
+ Score = 245 bits (625),  Expect = 2e-78, Method: Compositional matrix adjust.
+ Identities = 122/127 (96%), Positives = 124/127 (98%), Gaps = 0/127 (0%)
+
+Query  199  NVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLS  258
+            N LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLS
+Sbjct  1    NALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLS  60
+
+Query  259  LFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYN  318
+            LFFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYN
+Sbjct  61   LFFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYN  120
+
+Query  319  LLYLGHP  325
+            LLYLGHP
+Sbjct  121  LLYLGHP  127
+
+
+>EGF0779237.1 polymerase [Salmonella enterica]
+Length=126
+
+ Score = 243 bits (619),  Expect = 2e-77, Method: Compositional matrix adjust.
+ Identities = 121/126 (96%), Positives = 123/126 (98%), Gaps = 0/126 (0%)
+
+Query  200  VLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSL  259
+             LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSL
+Sbjct  1    ALNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSL  60
+
+Query  260  FFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNL  319
+            FFCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNL
+Sbjct  61   FFCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNL  120
+
+Query  320  LYLGHP  325
+            LYLGHP
+Sbjct  121  LYLGHP  126
+
+
+>EFU5159187.1 polymerase [Salmonella enterica]
+ EGV2873401.1 polymerase [Salmonella enterica]
+Length=125
+
+ Score = 242 bits (618),  Expect = 2e-77, Method: Compositional matrix adjust.
+ Identities = 121/125 (97%), Positives = 123/125 (98%), Gaps = 0/125 (0%)
+
+Query  201  LNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLF  260
+            LNFLSYFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLF
+Sbjct  1    LNFLSYFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLF  60
+
+Query  261  FCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLL  320
+            FCILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLL
+Sbjct  61   FCILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLL  120
+
+Query  321  YLGHP  325
+            YLGHP
+Sbjct  121  YLGHP  125
+
+
+>EAR4440562.1 polymerase [Salmonella enterica]
+ ECI4026594.1 polymerase [Salmonella enterica subsp. houtenae]
+ ECI4040244.1 polymerase [Salmonella enterica subsp. houtenae]
+Length=123
+
+ Score = 240 bits (613),  Expect = 1e-76, Method: Compositional matrix adjust.
+ Identities = 120/123 (98%), Positives = 122/123 (99%), Gaps = 0/123 (0%)
+
+Query  203  FLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFC  262
+            FLSYFSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFC
+Sbjct  1    FLSYFSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFC  60
+
+Query  263  ILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYL  322
+            ILSIALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYL
+Sbjct  61   ILSIALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYL  120
+
+Query  323  GHP  325
+            GHP
+Sbjct  121  GHP  123
+
+
+>EBL9886628.1 polymerase [Salmonella enterica]
+ ECF6947032.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=120
+
+ Score = 239 bits (611),  Expect = 3e-76, Method: Compositional matrix adjust.
+ Identities = 120/120 (100%), Positives = 120/120 (100%), Gaps = 0/120 (0%)
+
+Query  206  YFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILS  265
+            YFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILS
+Sbjct  1    YFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILS  60
+
+Query  266  IALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            IALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  61   IALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  120
+
+
+>EEG2532001.1 polymerase [Salmonella enterica]
+Length=126
+
+ Score = 239 bits (609),  Expect = 6e-76, Method: Compositional matrix adjust.
+ Identities = 121/126 (96%), Positives = 124/126 (98%), Gaps = 0/126 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  YYIFSN  126
+            YYIFSN
+Sbjct  121  YYIFSN  126
+
+
+Sequence with id EHE1555921 no longer exists in database...alignment skipped
+Sequence with id EAB9864284 no longer exists in database...alignment skipped
+Sequence with id EAY1578632 no longer exists in database...alignment skipped
+>EBK0812382.1 polymerase [Salmonella enterica]
+Length=120
+
+ Score = 234 bits (597),  Expect = 4e-74, Method: Compositional matrix adjust.
+ Identities = 116/120 (97%), Positives = 118/120 (98%), Gaps = 0/120 (0%)
+
+Query  206  YFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILS  265
+            YFSFFVSGG+L IFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILS
+Sbjct  1    YFSFFVSGGQLAIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILS  60
+
+Query  266  IALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            IALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  61   IALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  120
+
+
+>MJB98971.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=119
+
+ Score = 233 bits (595),  Expect = 7e-74, Method: Compositional matrix adjust.
+ Identities = 116/119 (97%), Positives = 118/119 (99%), Gaps = 0/119 (0%)
+
+Query  207  FSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSI  266
+            FSFFVSGG+LTIFLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSI
+Sbjct  1    FSFFVSGGQLTIFLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSI  60
+
+Query  267  ALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            ALYQNWQLSWR+FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  61   ALYQNWQLSWRIFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  119
+
+
+Sequence with id EDX6329584 no longer exists in database...alignment skipped
+>EGD6430989.1 polymerase [Salmonella enterica]
+Length=121
+
+ Score = 229 bits (584),  Expect = 4e-72, Method: Compositional matrix adjust.
+ Identities = 116/121 (96%), Positives = 119/121 (98%), Gaps = 0/121 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLST  120
+
+Query  121  Y  121
+            Y
+Sbjct  121  Y  121
+
+
+Sequence with id ECJ4766899 no longer exists in database...alignment skipped
+>ECG8526728.1 polymerase [Salmonella enterica subsp. diarizonae]
+ EGY4496610.1 polymerase [Salmonella enterica]
+Length=119
+
+ Score = 225 bits (573),  Expect = 1e-70, Method: Compositional matrix adjust.
+ Identities = 114/119 (96%), Positives = 117/119 (98%), Gaps = 0/119 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLS  119
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFIYAILLLS
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFIYAILLLS  119
+
+
+Sequence with id EGK0779101 no longer exists in database...alignment skipped
+Sequence with id EBB6853533 no longer exists in database...alignment skipped
+Sequence with id ECP3145678 no longer exists in database...alignment skipped
+Sequence with id EAQ9840582 no longer exists in database...alignment skipped
+Sequence with id EGV8273393 no longer exists in database...alignment skipped
+>ECQ1027671.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=112
+
+ Score = 219 bits (558),  Expect = 2e-68, Method: Compositional matrix adjust.
+ Identities = 111/112 (99%), Positives = 111/112 (99%), Gaps = 0/112 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFI  112
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFI
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFI  112
+
+
+Sequence with id EFG3221943 no longer exists in database...alignment skipped
+>EFL6574378.1 polymerase [Escherichia coli]
+Length=211
+
+ Score = 222 bits (566),  Expect = 4e-68, Method: Compositional matrix adjust.
+ Identities = 117/210 (56%), Positives = 158/210 (75%), Gaps = 0/210 (0%)
+
+Query  116  LLLSTYYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYII  175
+            L+L +YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  
+Sbjct  2    LMLMSYYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYF  61
+
+Query  176  CKFNKSSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVS  235
+            C  NK     F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +
+Sbjct  62   CWINKIGKFKFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRLIISGT  121
+
+Query  236  FLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIR  295
+            FL +L+M+ ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+
+Sbjct  122  FLFLLLMINLESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIK  181
+
+Query  296  KDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            K + +  LG+ LS IPT R+I+NLL LGHP
+Sbjct  182  KKDSLVLLGITLSIIPTFRLIFNLLILGHP  211
+
+
+>EEV5925354.1 polymerase [Escherichia coli]
+Length=216
+
+ Score = 222 bits (566),  Expect = 4e-68, Method: Compositional matrix adjust.
+ Identities = 117/216 (54%), Positives = 162/216 (75%), Gaps = 0/216 (0%)
+
+Query  110  SFIYAILLLSTYYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLF  169
+            S +   L+L +YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF
+Sbjct  1    SLLCVTLMLMSYYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILF  60
+
+Query  170  YFCYIICKFNKSSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKR  229
+               Y  C+ NK     F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR
+Sbjct  61   LCVYYFCRVNKIGKFKFVIVSIIISFIISNFLYWMSYASLFVSGGELSLFMSQDNEALKR  120
+
+Query  230  IIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAI  289
+            +II  +FL +L+M+ ++ ++ +W LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI
+Sbjct  121  LIISGTFLFLLLMINLESETNNWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAI  180
+
+Query  290  VLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            +L+NI+K + +  LG+ LS IPT R+I+NLL LGHP
+Sbjct  181  ILSNIKKKDSVVLLGITLSIIPTFRLIFNLLILGHP  216
+
+
+Sequence with id EES4605220 no longer exists in database...alignment skipped
+Sequence with id EDU4583539 no longer exists in database...alignment skipped
+Sequence with id EDZ2133894 no longer exists in database...alignment skipped
+>ECP8615777.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=114
+
+ Score = 216 bits (550),  Expect = 3e-67, Method: Compositional matrix adjust.
+ Identities = 108/114 (95%), Positives = 111/114 (97%), Gaps = 0/114 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYA  114
+            FEPAMGLLFFIEGFIVTEKFYFLLLNL LVNFITVLIYIKINE+SN SISFIYA
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLALVNFITVLIYIKINEESNASISFIYA  114
+
+
+>ECG0741784.1 polymerase [Salmonella enterica subsp. salamae]
+Length=110
+
+ Score = 216 bits (550),  Expect = 3e-67, Method: Compositional matrix adjust.
+ Identities = 109/110 (99%), Positives = 109/110 (99%), Gaps = 0/110 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSIS  110
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSIS
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSIS  110
+
+
+>EEA7930913.1 polymerase [Salmonella enterica subsp. enterica]
+Length=120
+
+ Score = 215 bits (547),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 108/120 (90%), Positives = 112/120 (93%), Gaps = 0/120 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            M KKKS+F FLGLL S+  ALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MVKKKSVFAFLGLLCSLFFALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FEPAMGLLFFIEGFIVT KFYFLL+NL LVNFITVLIYIKINEQSN SI+FIYAILLLST
+Sbjct  61   FEPAMGLLFFIEGFIVTGKFYFLLVNLALVNFITVLIYIKINEQSNASINFIYAILLLST  120
+
+
+>EAB9864496.1 polymerase [Salmonella enterica subsp. salamae]
+Length=109
+
+ Score = 214 bits (546),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 108/109 (99%), Positives = 108/109 (99%), Gaps = 0/109 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSI  109
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSI
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSI  109
+
+
+>EBK5909271.1 polymerase [Salmonella enterica]
+Length=112
+
+ Score = 214 bits (544),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 107/112 (96%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFI  112
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFI
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFI  112
+
+
+>EAM1113585.1 polymerase [Salmonella enterica]
+ EBE6562591.1 polymerase [Salmonella enterica]
+ ECP2455897.1 polymerase [Salmonella enterica]
+ EDQ5001868.1 polymerase [Salmonella enterica]
+ EEG3350745.1 polymerase [Salmonella enterica]
+Length=112
+
+ Score = 214 bits (544),  Expect = 3e-66, Method: Compositional matrix adjust.
+ Identities = 107/112 (96%), Positives = 110/112 (98%), Gaps = 0/112 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFI  112
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN SISFI
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNASISFI  112
+
+
+>EDJ1269066.1 polymerase [Salmonella enterica]
+ EDU0823672.1 polymerase [Salmonella enterica subsp. diarizonae serovar 50:k:z]
+ EDX5486189.1 polymerase [Salmonella enterica subsp. diarizonae]
+ EEL1770166.1 polymerase [Salmonella enterica]
+Length=111
+
+ Score = 213 bits (541),  Expect = 9e-66, Method: Compositional matrix adjust.
+ Identities = 106/111 (95%), Positives = 109/111 (98%), Gaps = 0/111 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISF  111
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE+SN SISF
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEESNASISF  111
+
+
+Sequence with id EAP7257225 no longer exists in database...alignment skipped
+>ECC8720347.1 polymerase [Salmonella enterica subsp. houtenae]
+Length=107
+
+ Score = 212 bits (539),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 105/107 (98%), Positives = 106/107 (99%), Gaps = 0/107 (0%)
+
+Query  219  FLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRV  278
+            FLDK SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+
+Sbjct  1    FLDKGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRI  60
+
+Query  279  FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  61   FVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  107
+
+
+Sequence with id EAN1160283 no longer exists in database...alignment skipped
+Sequence with id EBL7412136 no longer exists in database...alignment skipped
+Sequence with id EAU0428924 no longer exists in database...alignment skipped
+>EHH7214723.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=256
+
+ Score = 215 bits (548),  Expect = 7e-65, Method: Compositional matrix adjust.
+ Identities = 131/256 (51%), Positives = 187/256 (73%), Gaps = 0/256 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL F+++GF+   +F F+LLNL LVNF+ VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLFFYLQGFLGEGRFVFILLNLFLVNFLAVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C+ NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L
+Sbjct  181  IGKFKFVIVSIIISFIISNFLYWMSYASLFVSGGELSLFMSQDNEALKRLIISGTFLFLL  240
+
+Query  241  IMVKVDKKSYSWSLYK  256
+            +M+ ++ ++ +W LYK
+Sbjct  241  LMINLESETNNWVLYK  256
+
+
+Sequence with id ECJ2261041 no longer exists in database...alignment skipped
+Sequence with id EAM8825686 no longer exists in database...alignment skipped
+>EFN9639513.1 polymerase [Escherichia coli]
+Length=201
+
+ Score = 211 bits (538),  Expect = 4e-64, Method: Compositional matrix adjust.
+ Identities = 112/201 (56%), Positives = 150/201 (75%), Gaps = 0/201 (0%)
+
+Query  125  SNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNKSSLK  184
+            SNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK    
+Sbjct  1    SNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCWINKIGKF  60
+
+Query  185  FFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVK  244
+             F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L+M+ 
+Sbjct  61   KFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRLIISGTFLFLLLMIN  120
+
+Query  245  VDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLG  304
+            ++ +  SW LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +  LG
+Sbjct  121  LESEMNSWVLYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSLVLLG  180
+
+Query  305  VVLSTIPTMRIIYNLLYLGHP  325
+            + LS IPT R+I+NLL LGHP
+Sbjct  181  ITLSIIPTFRLIFNLLILGHP  201
+
+
+Sequence with id EDW1774878 no longer exists in database...alignment skipped
+Sequence with id EBD8379466 no longer exists in database...alignment skipped
+>EAU6333647.1 polymerase [Salmonella enterica]
+Length=104
+
+ Score = 206 bits (524),  Expect = 3e-63, Method: Compositional matrix adjust.
+ Identities = 102/104 (98%), Positives = 103/104 (99%), Gaps = 0/104 (0%)
+
+Query  222  KSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVP  281
+            K SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVP
+Sbjct  1    KGSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVP  60
+
+Query  282  AATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            AATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  61   AATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  104
+
+
+>EAQ0536880.1 polymerase [Salmonella enterica]
+Length=108
+
+ Score = 206 bits (524),  Expect = 3e-63, Method: Compositional matrix adjust.
+ Identities = 102/108 (94%), Positives = 105/108 (97%), Gaps = 0/108 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTS  108
+            FEPAMGLLFFIEGFIVTEKFYFLLLNL LVNFITVLIYIKINE+SN S
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLALVNFITVLIYIKINEESNAS  108
+
+
+Sequence with id WP_209300351 no longer exists in database...alignment skipped
+Sequence with id EBD7684031 no longer exists in database...alignment skipped
+>EAO6826286.1 polymerase [Salmonella enterica]
+ EDW9607842.1 polymerase [Salmonella enterica subsp. houtenae serovar 50:z4,z23:-]
+ EAR4226274.1 polymerase [Salmonella enterica]
+ EAZ6175342.1 polymerase [Salmonella enterica]
+ EBE0980067.1 polymerase [Salmonella enterica]
+Length=107
+
+ Score = 205 bits (522),  Expect = 5e-63, Method: Compositional matrix adjust.
+ Identities = 102/107 (95%), Positives = 105/107 (98%), Gaps = 0/107 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNT  107
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKINE+SN 
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKINEESNA  107
+
+
+Sequence with id EAT3565924 no longer exists in database...alignment skipped
+Sequence with id EBE5065347 no longer exists in database...alignment skipped
+Sequence with id ECG1274731 no longer exists in database...alignment skipped
+>EAS3781540.1 polymerase [Salmonella enterica]
+Length=102
+
+ Score = 204 bits (519),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 101/102 (99%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  224  SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAA  283
+            SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAA
+Sbjct  1    SDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAA  60
+
+Query  284  TLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            TLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  61   TLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  102
+
+
+>ECI5368440.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=106
+
+ Score = 203 bits (517),  Expect = 3e-62, Method: Compositional matrix adjust.
+ Identities = 101/106 (95%), Positives = 104/106 (98%), Gaps = 0/106 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSN  106
+            FEPAMGLLFFIEGFIVTEKFYFLLLNL LVNFITVLIYIKINE+SN
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLALVNFITVLIYIKINEESN  106
+
+
+>EAU9200029.1 polymerase [Salmonella enterica]
+ ECJ5911589.1 polymerase [Salmonella enterica subsp. diarizonae]
+ EDV8430903.1 polymerase [Salmonella enterica subsp. diarizonae serovar 50:k:z]
+ EHU5203289.1 polymerase [Salmonella enterica]
+Length=105
+
+ Score = 203 bits (516),  Expect = 4e-62, Method: Compositional matrix adjust.
+ Identities = 101/105 (96%), Positives = 104/105 (99%), Gaps = 0/105 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQS  105
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE+S
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEES  105
+
+
+Sequence with id EAU6333482 no longer exists in database...alignment skipped
+Sequence with id ECI5368451 no longer exists in database...alignment skipped
+>EAO8683661.1 polymerase [Salmonella enterica]
+ EBA3327811.1 polymerase [Salmonella enterica]
+Length=103
+
+ Score = 200 bits (508),  Expect = 6e-61, Method: Compositional matrix adjust.
+ Identities = 100/103 (97%), Positives = 102/103 (99%), Gaps = 0/103 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE  103
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE  103
+
+
+Sequence with id EBB1675350 no longer exists in database...alignment skipped
+>EAB3066894.1 polymerase [Salmonella enterica]
+ MFE80525.1 polymerase [Salmonella enterica]
+Length=100
+
+ Score = 199 bits (507),  Expect = 9e-61, Method: Compositional matrix adjust.
+ Identities = 99/100 (99%), Positives = 100/100 (100%), Gaps = 0/100 (0%)
+
+Query  226  SIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATL  285
+            SIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATL
+Sbjct  1    SIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATL  60
+
+Query  286  GSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            GSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  61   GSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  100
+
+
+>EAZ4771040.1 polymerase [Salmonella enterica]
+ EHN1755509.1 polymerase [Salmonella enterica subsp. diarizonae serovar 50:z52:z35]
+Length=102
+
+ Score = 197 bits (502),  Expect = 4e-60, Method: Compositional matrix adjust.
+ Identities = 99/102 (97%), Positives = 101/102 (99%), Gaps = 0/102 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKIN  102
+            FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKIN
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKIN  102
+
+
+>EAB4062661.1 polymerase [Salmonella enterica]
+ EAR1644589.1 polymerase [Salmonella enterica]
+ EBC8250919.1 polymerase [Salmonella enterica]
+ ECH2655120.1 polymerase [Salmonella enterica]
+ EDV3966960.1 polymerase [Salmonella enterica]
+Length=102
+
+ Score = 197 bits (501),  Expect = 7e-60, Method: Compositional matrix adjust.
+ Identities = 99/102 (97%), Positives = 101/102 (99%), Gaps = 0/102 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKIN  102
+            FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIKIN
+Sbjct  61   FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIKIN  102
+
+
+>WP_213855254.1 EpsG family protein, partial [Escherichia coli]
+Length=236
+
+ Score = 201 bits (511),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 124/236 (53%), Positives = 173/236 (73%), Gaps = 0/236 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL+F+++GF+   +F F+LLNL LVNF++VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLIFYLQGFLGEGRFVFILLNLFLVNFLSVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCWINK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSF  236
+                 F+I + + S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +F
+Sbjct  181  IGKFKFVIISIIISFIISNFLYWMSYASLFVSGGELSVFMSQDNETLKRLIISGTF  236
+
+
+Sequence with id WP_205933960 no longer exists in database...alignment skipped
+>EBO4352208.1 polymerase [Salmonella enterica]
+Length=102
+
+ Score = 195 bits (495),  Expect = 5e-59, Method: Compositional matrix adjust.
+ Identities = 97/102 (95%), Positives = 101/102 (99%), Gaps = 0/102 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKIN  102
+            FEPA+GLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIY+KIN
+Sbjct  61   FEPAIGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYVKIN  102
+
+
+>MIY24275.1 polymerase [Salmonella enterica subsp. enterica]
+Length=107
+
+ Score = 195 bits (495),  Expect = 6e-59, Method: Compositional matrix adjust.
+ Identities = 96/107 (90%), Positives = 99/107 (93%), Gaps = 0/107 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            M KKKS+F FLGLL S+  ALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MVKKKSVFAFLGLLCSLFFALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNT  107
+            FEPAMGLLFFIEGFIVT KFYFLL+NL LVNFITVLIYIKINEQSN 
+Sbjct  61   FEPAMGLLFFIEGFIVTGKFYFLLVNLALVNFITVLIYIKINEQSNA  107
+
+
+>WP_071698212.1 EpsG family protein [Citrobacter freundii]
+ MBJ8877936.1 EpsG family protein [Citrobacter freundii]
+ OIZ47226.1 hypothetical protein BEH71_14400 [Citrobacter freundii]
+ HAT2422957.1 hypothetical protein [Citrobacter freundii]
+Length=322
+
+ Score = 202 bits (513),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 123/311 (40%), Positives = 181/311 (58%), Gaps = 15/311 (5%)
+
+Query  13   LLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNKFEPAMGLLFFIE  72
+            +L  ++ ++PLA+QGGF DS VYY QA Y W+ GL  G   ++ QT K E  M  LF+IE
+Sbjct  11   ILVCLIASIPLAIQGGFADSDVYYEQAIYTWANGLLGGGWGVFQQTGKLEFGMQFLFYIE  70
+
+Query  73   GFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLSTYYIFSNNIYVWR  132
+            G    +K +FL+ N  LVN     + +K +E S   I+ +   +L+ TYY +SN +YVWR
+Sbjct  71   GLFSQDKTFFLIANFILVNLCLYSLLLKCSEISTVKITSVTIFILIFTYYTYSNTLYVWR  130
+
+Query  133  TIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKF--NKSSLKFFLIYA  190
+            T+ +LYFF   + +K    K IFF L   FHY+ LLFY  Y + K+  +K +   F +  
+Sbjct  131  TVFALYFFFTCIHAKMVKDKFIFFVLSVTFHYTALLFYAAYYVAKYLPDKKTSSIFYVVV  190
+
+Query  191  FLFSLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMV-----KV  245
+               S ++   + +L +  +FVSGG   IFL+   + +KR II VSFL IL         V
+Sbjct  191  GTVSGYL--CIAYLPFIKYFVSGGNSDIFLEAQGEYLKRFIINVSFLFILYSSYINSYDV  248
+
+Query  246  DKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGV  305
+             KK    +L+K+ +  C LS+A   NWQLSWR+F PAA LG  ++L++  K+  IP+  +
+Sbjct  249  KKK----NLFKMCILLCSLSVAFSMNWQLSWRLFAPAALLGVPLILSSNYKN--IPYYMM  302
+
+Query  306  VLSTIPTMRII  316
+             LS  PT++++
+Sbjct  303  FLSVFPTLKLM  313
+
+
+>EAQ2040984.1 polymerase [Salmonella enterica]
+ ECS6419351.1 polymerase [Salmonella enterica subsp. diarizonae serovar 50:r:z]
+Length=100
+
+ Score = 194 bits (492),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 97/100 (97%), Positives = 99/100 (99%), Gaps = 0/100 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIK  100
+           FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIK
+Sbjct  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIK  100
+
+
+>EEM9513171.1 polymerase [Salmonella enterica]
+Length=101
+
+ Score = 193 bits (491),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 97/101 (96%), Positives = 99/101 (98%), Gaps = 0/101 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKI  101
+            FEPAMGLLFFIEGFIVTEKFYFLLLNL LVNFITVLIYIKI
+Sbjct  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLALVNFITVLIYIKI  101
+
+
+>ECH0720490.1 polymerase [Salmonella enterica]
+ EDZ0790690.1 polymerase [Salmonella enterica]
+ EEE1644904.1 polymerase [Salmonella enterica]
+ EFV2474196.1 polymerase [Salmonella enterica]
+ EGW0963983.1 polymerase [Salmonella enterica]
+Length=100
+
+ Score = 193 bits (491),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 97/100 (97%), Positives = 99/100 (99%), Gaps = 0/100 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIK  100
+           FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYIK
+Sbjct  61  FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYIK  100
+
+
+>EAS9110228.1 polymerase [Salmonella enterica]
+ EDS0749880.1 polymerase [Salmonella enterica subsp. houtenae]
+ EAY1199195.1 polymerase [Salmonella enterica]
+ EBU1668993.1 polymerase [Salmonella enterica]
+ EDU7763664.1 polymerase [Salmonella enterica]
+Length=99
+
+ Score = 191 bits (486),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 96/99 (97%), Positives = 98/99 (99%), Gaps = 0/99 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYI  99
+           FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIYI
+Sbjct  61  FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIYI  99
+
+
+Sequence with id WP_229996352 no longer exists in database...alignment skipped
+>EAZ0208561.1 polymerase [Salmonella enterica]
+Length=103
+
+ Score = 191 bits (486),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 95/103 (92%), Positives = 96/103 (93%), Gaps = 0/103 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            M KKKSIF FLGLL SI  ALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1    MVKKKSIFAFLGLLCSIFFALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINE  103
+            FEPAMGLLFFIEGFI TEKFYFLLLNL LVNF+TVLIYIKINE
+Sbjct  61   FEPAMGLLFFIEGFIATEKFYFLLLNLALVNFVTVLIYIKINE  103
+
+
+>ECI4176167.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=95
+
+ Score = 190 bits (483),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 94/95 (99%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  231  IIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIV  290
+            IIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIV
+Sbjct  1    IIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIV  60
+
+Query  291  LANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            LANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  61   LANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  95
+
+
+>EGT9890250.1 polymerase [Salmonella enterica]
+Length=98
+
+ Score = 190 bits (482),  Expect = 5e-57, Method: Compositional matrix adjust.
+ Identities = 95/98 (97%), Positives = 97/98 (99%), Gaps = 0/98 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIY  98
+           FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITVLIY
+Sbjct  61  FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITVLIY  98
+
+
+>ECS9465467.1 polymerase [Salmonella enterica]
+Length=94
+
+ Score = 189 bits (480),  Expect = 9e-57, Method: Compositional matrix adjust.
+ Identities = 93/94 (99%), Positives = 94/94 (100%), Gaps = 0/94 (0%)
+
+Query  232  IGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVL  291
+            IGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWR+FVPAATLGSAIVL
+Sbjct  1    IGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRIFVPAATLGSAIVL  60
+
+Query  292  ANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            ANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP
+Sbjct  61   ANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  94
+
+
+Sequence with id EHI9814233 no longer exists in database...alignment skipped
+Sequence with id EEJ1986976 no longer exists in database...alignment skipped
+Sequence with id EAU0428132 no longer exists in database...alignment skipped
+>EGD4379289.1 polymerase [Salmonella enterica]
+ EGL5751667.1 polymerase [Salmonella enterica]
+Length=95
+
+ Score = 185 bits (469),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 92/95 (97%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITV  95
+           FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFITV
+Sbjct  61  FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFITV  95
+
+
+Sequence with id EAQ1169402 no longer exists in database...alignment skipped
+Sequence with id EEX1904930 no longer exists in database...alignment skipped
+Sequence with id ECI4040685 no longer exists in database...alignment skipped
+>EDK8675626.1 polymerase [Salmonella enterica]
+ EEP0053675.1 polymerase [Salmonella enterica subsp. houtenae]
+Length=93
+
+ Score = 181 bits (458),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 90/93 (97%), Positives = 92/93 (99%), Gaps = 0/93 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFI  93
+           FEPAMGLLFFIEGFI TEKFYFLLLNLTLVNFI
+Sbjct  61  FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVNFI  93
+
+
+>EEZ2414112.1 polymerase [Escherichia coli]
+Length=182
+
+ Score = 183 bits (465),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 98/182 (54%), Positives = 134/182 (74%), Gaps = 0/182 (0%)
+
+Query  144  VFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNKSSLKFFLIYAFLFSLFISNVLNF  203
+            ++SK+K  K+IF  LG LFHY+F+LF   Y  C  NK     F+I + + S  ISN L +
+Sbjct  1    IYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCWINKIGKFKFVIISIIISFIISNFLYW  60
+
+Query  204  LSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCI  263
+            +SY S FVSGGEL++F+ + ++++KR+II  +FL +L+M+ ++ +  SW LYKLSLFFCI
+Sbjct  61   MSYASLFVSGGELSVFMSQDNETLKRLIISGTFLFLLLMINLESEMNSWVLYKLSLFFCI  120
+
+Query  264  LSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLG  323
+            LSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +  LG+ LS IPT R+I+NLL LG
+Sbjct  121  LSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSLVLLGITLSIIPTFRLIFNLLILG  180
+
+Query  324  HP  325
+            HP
+Sbjct  181  HP  182
+
+
+>GDQ37342.1 hypothetical protein BvCmsNSP009_00272 [Escherichia coli]
+Length=183
+
+ Score = 183 bits (464),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 97/182 (53%), Positives = 136/182 (75%), Gaps = 0/182 (0%)
+
+Query  144  VFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNKSSLKFFLIYAFLFSLFISNVLNF  203
+            ++SK+K  K+IF  LG LFHY+F+LF   Y  C+ NK     F+I + + S  ISN L +
+Sbjct  2    IYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNKIGKFKFVIVSIIISFIISNFLYW  61
+
+Query  204  LSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCI  263
+            +SY S FVSGGEL++F+ + ++++KR+II  +FL +L+M+ ++ ++ +W LYKLSLFFCI
+Sbjct  62   MSYASLFVSGGELSLFMSQDNEALKRLIISGTFLFLLLMINLESETNNWVLYKLSLFFCI  121
+
+Query  264  LSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLG  323
+            LSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +  LG+ LS IPT R+I+NLL LG
+Sbjct  122  LSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSVVLLGITLSIIPTFRLIFNLLILG  181
+
+Query  324  HP  325
+            HP
+Sbjct  182  HP  183
+
+
+>EBM2983167.1 polymerase [Salmonella enterica]
+Length=92
+
+ Score = 180 bits (456),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 89/92 (97%), Positives = 91/92 (99%), Gaps = 0/92 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNF  92
+           FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNF
+Sbjct  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNF  92
+
+
+Sequence with id EGD6480677 no longer exists in database...alignment skipped
+>EDS5069864.1 polymerase [Salmonella enterica]
+Length=91
+
+ Score = 177 bits (450),  Expect = 2e-52, Method: Compositional matrix adjust.
+ Identities = 88/91 (97%), Positives = 90/91 (99%), Gaps = 0/91 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVN  91
+           FEPAMGLLFFIEGFI TEKFYFLLLNLTLVN
+Sbjct  61  FEPAMGLLFFIEGFIFTEKFYFLLLNLTLVN  91
+
+
+>EIJ9474963.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=179
+
+ Score = 179 bits (455),  Expect = 6e-52, Method: Compositional matrix adjust.
+ Identities = 96/179 (54%), Positives = 133/179 (74%), Gaps = 0/179 (0%)
+
+Query  147  KSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNKSSLKFFLIYAFLFSLFISNVLNFLSY  206
+            K+K  K+IF  LG LFHY+F+LF   Y  C+ NK     F+I + + S  ISN L ++SY
+Sbjct  1    KTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNKIGKFKFVIVSIIISFIISNFLYWMSY  60
+
+Query  207  FSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSI  266
+             S FVSGGEL++F+ + ++++KR+II  +FL +L+M+ ++ ++ +W LYKLSLFFCILSI
+Sbjct  61   ASLFVSGGELSLFMSQDNEALKRLIISGTFLFLLLMINLESETNNWVLYKLSLFFCILSI  120
+
+Query  267  ALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+             L  NWQLSWRVFVPAA LG+AI+L+NI+K + +  LG+ LS IPT R+I+NLL LGHP
+Sbjct  121  FLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSVVLLGITLSIIPTFRLIFNLLILGHP  179
+
+
+Sequence with id EBL9885276 no longer exists in database...alignment skipped
+Sequence with id ECS6419356 no longer exists in database...alignment skipped
+>EAZ5904969.1 polymerase [Salmonella enterica]
+ ECO6174874.1 polymerase [Salmonella enterica]
+Length=90
+
+ Score = 175 bits (444),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 87/90 (97%), Positives = 89/90 (99%), Gaps = 0/90 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLV  90
+           FEPAMGLLFFIEGFIVTEKFYFLLLNLTLV
+Sbjct  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTLV  90
+
+
+Sequence with id ECE3268407 no longer exists in database...alignment skipped
+>EFG3363018.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=176
+
+ Score = 177 bits (449),  Expect = 4e-51, Method: Compositional matrix adjust.
+ Identities = 94/174 (54%), Positives = 130/174 (75%), Gaps = 0/174 (0%)
+
+Query  152  KVIFFSLGFLFHYSFLLFYFCYIICKFNKSSLKFFLIYAFLFSLFISNVLNFLSYFSFFV  211
+            K+IF  LG LFHY+F+LF   Y  C+ NK     F+I + + S  ISN L ++SY S FV
+Sbjct  3    KIIFIGLGLLFHYTFILFLCVYYFCRVNKIGKFKFVIVSIIISFIISNFLYWMSYASLFV  62
+
+Query  212  SGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQN  271
+            SGGEL++F+ + ++++KR+II  +FL +L+M+ ++ ++ +W LYKLSLFFCILSI L  N
+Sbjct  63   SGGELSLFMSQDNEALKRLIISGTFLFLLLMINLESETNNWVLYKLSLFFCILSIFLCDN  122
+
+Query  272  WQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            WQLSWRVFVPAA LG+AI+L+NI+K + +  LG+ LS IPT R+I+NLL LGHP
+Sbjct  123  WQLSWRVFVPAAILGTAIILSNIKKKDSVVLLGITLSIIPTFRLIFNLLILGHP  176
+
+
+>EAW1322480.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=89
+
+ Score = 174 bits (440),  Expect = 7e-51, Method: Compositional matrix adjust.
+ Identities = 86/89 (97%), Positives = 88/89 (99%), Gaps = 0/89 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTL  89
+           FEPAMGLLFFIEGFIVTEKFYFLLLNLTL
+Sbjct  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTL  89
+
+
+Sequence with id EFL6317454 no longer exists in database...alignment skipped
+>STK76065.1 O-antigen polymerase Wzy [Escherichia coli]
+Length=219
+
+ Score = 178 bits (452),  Expect = 8e-51, Method: Compositional matrix adjust.
+ Identities = 116/215 (54%), Positives = 154/215 (72%), Gaps = 0/215 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL F+++GF+   +F F+LLNL LVNF+ VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLFFYLQGFLGEGRFVFILLNLFLVNFLAVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C+ NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNK  180
+
+Query  181  SSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGE  215
+                 F+I + + S  ISN L ++SY S FVSGG 
+Sbjct  181  IGKFKFVIVSIIISFIISNFLYWMSYASLFVSGGS  215
+
+
+>EIR5376223.1 polymerase [Salmonella enterica]
+Length=89
+
+ Score = 174 bits (440),  Expect = 8e-51, Method: Compositional matrix adjust.
+ Identities = 86/89 (97%), Positives = 88/89 (99%), Gaps = 0/89 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLNLTL  89
+           FEPAMGLLFFIEGFI TEKFYFLLLNLTL
+Sbjct  61  FEPAMGLLFFIEGFIFTEKFYFLLLNLTL  89
+
+
+Sequence with id WP_180775028 no longer exists in database...alignment skipped
+Sequence with id EAR4660825 no longer exists in database...alignment skipped
+Sequence with id ECC1649541 no longer exists in database...alignment skipped
+Sequence with id EBQ5217576 no longer exists in database...alignment skipped
+>EBI5991152.1 polymerase [Salmonella enterica]
+ EEE6660651.1 polymerase [Salmonella enterica subsp. diarizonae]
+ EGQ2302310.1 polymerase [Salmonella enterica]
+ EHI6363621.1 polymerase [Salmonella enterica]
+Length=86
+
+ Score = 169 bits (428),  Expect = 5e-49, Method: Compositional matrix adjust.
+ Identities = 83/86 (97%), Positives = 85/86 (99%), Gaps = 0/86 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLN  86
+           FEPAMGLLFFIEGFIVTEKFYFLLLN
+Sbjct  61  FEPAMGLLFFIEGFIVTEKFYFLLLN  86
+
+
+Sequence with id EFE3171244 no longer exists in database...alignment skipped
+>EAR1801664.1 polymerase [Salmonella enterica]
+ ECC8720765.1 polymerase [Salmonella enterica subsp. houtenae]
+ EDR5669207.1 polymerase [Salmonella enterica subsp. houtenae serovar 50:z4,z23:-]
+ EBQ2892643.1 polymerase [Salmonella enterica]
+ ECD9536187.1 polymerase [Salmonella enterica]
+Length=86
+
+ Score = 168 bits (426),  Expect = 7e-49, Method: Compositional matrix adjust.
+ Identities = 83/86 (97%), Positives = 85/86 (99%), Gaps = 0/86 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFYFLLLN  86
+           FEPAMGLLFFIEGFI TEKFYFLLLN
+Sbjct  61  FEPAMGLLFFIEGFIFTEKFYFLLLN  86
+
+
+>EFG2378700.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=182
+
+ Score = 172 bits (435),  Expect = 7e-49, Method: Compositional matrix adjust.
+ Identities = 101/180 (56%), Positives = 134/180 (74%), Gaps = 0/180 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL F+++GF+   +F F+LLNL LVNF+ VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLFFYLQGFLGEGRFVFILLNLFLVNFLAVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C+ NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNK  180
+
+
+>EFK4109877.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=180
+
+ Score = 172 bits (435),  Expect = 8e-49, Method: Compositional matrix adjust.
+ Identities = 101/180 (56%), Positives = 134/180 (74%), Gaps = 0/180 (0%)
+
+Query  1    MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+            MF KK + +  G + S+L +LPL++QGGFDDSLVYY QA YIW+ GL +GL +IY QTNK
+Sbjct  1    MFNKKYVVIIWGGVLSLLCSLPLSIQGGFDDSLVYYEQAIYIWNNGLLEGLSSIYHQTNK  60
+
+Query  61   FEPAMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLST  120
+            FE  MGL F+++GF+   +F F+LLNL LVNF+ VLIY+KIN++   S S +   L+L +
+Sbjct  61   FEIGMGLFFYLQGFLGEGRFVFILLNLFLVNFLAVLIYLKINDEVRISPSLLCVTLMLMS  120
+
+Query  121  YYIFSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNK  180
+            YY+FSNNIYVWR+II LYF +L ++SK+K  K+IF  LG LFHY+F+LF   Y  C+ NK
+Sbjct  121  YYVFSNNIYVWRSIICLYFLVLMIYSKTKYKKIIFIGLGLLFHYTFILFLCVYYFCRVNK  180
+
+
+Sequence with id EER9673645 no longer exists in database...alignment skipped
+Sequence with id EFM4298057 no longer exists in database...alignment skipped
+Sequence with id WP_025918687 no longer exists in database...alignment skipped
+Sequence with id EHV30320 no longer exists in database...alignment skipped
+Sequence with id HAX2047697 no longer exists in database...alignment skipped
+Sequence with id HBD0039195 no longer exists in database...alignment skipped
+Sequence with id HAX2665107 no longer exists in database...alignment skipped
+Sequence with id ECU9652446 no longer exists in database...alignment skipped
+Sequence with id EHV38941 no longer exists in database...alignment skipped
+>WP_227104990.1 EpsG family protein [Chromobacterium rhizoryzae]
+Length=331
+
+ Score = 173 bits (439),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 109/310 (35%), Positives = 179/310 (58%), Gaps = 9/310 (3%)
+
+Query  18   LLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNKFEPAMGLLFFIEGFIVT  77
+            +++LP+A  G F DS +YYSQ+  +W+ GL DG+  I+ +T K E    ++ ++E +I  
+Sbjct  26   IVSLPMAFNGVFADSDIYYSQSQLLWTMGLRDGIEYIFFRTGKVEIGFLIVLYLEQYIAN  85
+
+Query  78   EKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLSTYYIFSNNIYVWRTIISL  137
+             +F F+ +N  + N +   +YIK++E S  SI+F  A +L   Y+ FSN +YVWRTIIS+
+Sbjct  86   SEFIFIFINCLISNILFFQLYIKLSETS--SITFKKAFILFFCYFSFSNAMYVWRTIISV  143
+
+Query  138  YFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKF--NKSSLKFFLIYAFLFSL  195
+            YF +L + S SK   ++F ++ F FHYS ++F   Y++  F  NK +L   +++A   SL
+Sbjct  144  YFLVLSIKSNSKLLSILFLAIAFSFHYSAIIFVSIYLLSTFLPNKKTLT--VLFAIFLSL  201
+
+Query  196  FISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSW-SL  254
+                  + L  F F +S     I+ + ++D  KRI IG+  L ++++   +  ++    L
+Sbjct  202  SFFFTESILQSFDFVMSAQSAEIYTEANNDQWKRIFIGLYLLFVILLCDWNSSNFKHIHL  261
+
+Query  255  YKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMR  314
+            +K      ILS+    N+QLSWR+  P   +   +VLA  ++ N    L + LSTIPT R
+Sbjct  262  FKFCAILSILSVFASSNYQLSWRIHAPVEIIAPCLVLAT-QRSNRNSILLLALSTIPTFR  320
+
+Query  315  IIYNLLYLGH  324
+            +++ LL+ GH
+Sbjct  321  LMF-LLFTGH  329
+
+
+>EEV3374165.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=166
+
+ Score = 168 bits (425),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 89/165 (54%), Positives = 124/165 (75%), Gaps = 0/165 (0%)
+
+Query  161  LFHYSFLLFYFCYIICKFNKSSLKFFLIYAFLFSLFISNVLNFLSYFSFFVSGGELTIFL  220
+            LFHY+F+LF   Y  C+ NK     F+I + + S  ISN L ++SY S FVSGGEL++F+
+Sbjct  2    LFHYTFILFLCVYYFCRVNKIGKFKFVIVSIIISFIISNFLYWMSYASLFVSGGELSLFM  61
+
+Query  221  DKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFV  280
+             + ++++KR+II  +FL +L+M+ ++ ++ +W LYKLSLFFCILSI L  NWQLSWRVFV
+Sbjct  62   SQDNEALKRLIISGTFLFLLLMINLESETNNWVLYKLSLFFCILSIFLCDNWQLSWRVFV  121
+
+Query  281  PAATLGSAIVLANIRKDNIIPFLGVVLSTIPTMRIIYNLLYLGHP  325
+            PAA LG+AI+L+NI+K + +  LG+ LS IPT R+I+NLL LGHP
+Sbjct  122  PAAILGTAIILSNIKKKDSVVLLGITLSIIPTFRLIFNLLILGHP  166
+
+
+Sequence with id EAS3781536 no longer exists in database...alignment skipped
+>WP_121301468.1 hypothetical protein [Pectobacterium parmentieri]
+ AYH23961.1 hypothetical protein C5E21_14295 [Pectobacterium parmentieri]
+Length=321
+
+ Score = 172 bits (437),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 113/317 (36%), Positives = 184/317 (58%), Gaps = 8/317 (3%)
+
+Query  4    KKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNKFEP  63
+             K+IF F   + S+L A+P+AMQG F+DS +YY QA  +W  GL D L ++ IQT K E 
+Sbjct  2    SKAIFFFKCTIISLLAAIPMAMQGLFEDSEIYYQQAMKVWDGGLADALSSLVIQTGKLEW  61
+
+Query  64   AMGLLFFIEGFIVTEKFYFLLLNLTLVNFITVLIYIKINEQSNTSISFIYAILLLSTYYI  123
+               ++ F+E   V ++F F+L+N  L+N   + +   I  ++  +++    I ++S+Y++
+Sbjct  62   GFQVILFLEKPFVGDEFSFILINFVLINLCILHMASIIGNKTGLNLNIYAIICIVSSYFV  121
+
+Query  124  FSNNIYVWRTIISLYFFILFVFSKSKSCKVIFFSLGFLFHYSFLLFYFCYIICKFNKSSL  183
+             SN +Y WRTI ++YF  L V ++S    V+   L   FHY+  +FY  Y+  K      
+Sbjct  122  LSNTLYFWRTIYAIYFLFLGVNNRSIIWTVLLIGLSISFHYTAAIFYILYLAAK-RMPDG  180
+
+Query  184  KFFLIY-AFLFSLFISNVLNFLSYFSFFVS--GGELTIFLDKSSDSIKRIIIGVSFLIIL  240
+            KFF++  +FL S  +   + ++ +   FVS  GG   +FL    +  KR++IGV  LI L
+Sbjct  181  KFFIVKISFLTSFILFLSITYIPFLDSFVSVGGGGAEVFLSTEGELWKRLVIGVFLLICL  240
+
+Query  241  IMVKVDKKSYSWSLYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNII  300
+            +  K + ++   +LYK S+F C +SI L  N+QLS R FVPAA +G  +++    + NII
+Sbjct  241  MCYKPENENK--NLYKFSVFLCCISIFLSFNYQLSSRTFVPAALVGMCLLINT--RGNII  296
+
+Query  301  PFLGVVLSTIPTMRIIY  317
+              + +++S +P++RI Y
+Sbjct  297  LNVLLLVSCLPSIRIFY  313
+
+
+Sequence with id EFC6141681 no longer exists in database...alignment skipped
+Sequence with id EBR2692388 no longer exists in database...alignment skipped
+Sequence with id EEE5037626 no longer exists in database...alignment skipped
+Sequence with id EAY0971213 no longer exists in database...alignment skipped
+>EDH1076696.1 polymerase [Salmonella enterica subsp. diarizonae]
+Length=81
+
+ Score = 163 bits (412),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 80/81 (99%), Positives = 80/81 (99%), Gaps = 0/81 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLL SILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLCSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFY  81
+           FEPAMGLLFFIEGFIVTEKFY
+Sbjct  61  FEPAMGLLFFIEGFIVTEKFY  81
+
+
+Sequence with id EEZ2486913 no longer exists in database...alignment skipped
+Sequence with id VEA91506 no longer exists in database...alignment skipped
+>EAT7910317.1 polymerase [Salmonella enterica]
+ ECK6532749.1 polymerase [Salmonella enterica]
+Length=80
+
+ Score = 160 bits (406),  Expect = 7e-46, Method: Compositional matrix adjust.
+ Identities = 79/80 (99%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLL SILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLCSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKF  80
+           FEPAMGLLFFIEGFIVTEKF
+Sbjct  61  FEPAMGLLFFIEGFIVTEKF  80
+
+
+Sequence with id EDW8947530 no longer exists in database...alignment skipped
+>EBO9227789.1 polymerase [Salmonella enterica]
+ EFQ2549479.1 polymerase [Salmonella enterica]
+ EFU5159191.1 polymerase [Salmonella enterica]
+ EHU8066005.1 polymerase [Salmonella enterica]
+ EIK3375502.1 polymerase [Salmonella enterica]
+Length=81
+
+ Score = 160 bits (405),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 78/81 (96%), Positives = 80/81 (99%), Gaps = 0/81 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKFY  81
+           FEPAMGLLFFIEGFI TEKFY
+Sbjct  61  FEPAMGLLFFIEGFIFTEKFY  81
+
+
+Sequence with id EFF4377144 no longer exists in database...alignment skipped
+>ECJ2409706.1 polymerase [Salmonella enterica subsp. houtenae]
+ ECO6004803.1 polymerase [Salmonella enterica]
+ ECS1056600.1 polymerase [Salmonella enterica]
+ EDF4587502.1 polymerase [Salmonella enterica]
+ EEJ5817412.1 polymerase [Salmonella enterica]
+Length=80
+
+ Score = 158 bits (399),  Expect = 7e-45, Method: Compositional matrix adjust.
+ Identities = 77/80 (96%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKF  80
+           FEPAMGLLFFIEGFI TEKF
+Sbjct  61  FEPAMGLLFFIEGFIFTEKF  80
+
+
+>ECK3074348.1 polymerase [Salmonella enterica]
+Length=80
+
+ Score = 158 bits (399),  Expect = 9e-45, Method: Compositional matrix adjust.
+ Identities = 76/80 (95%), Positives = 79/80 (99%), Gaps = 0/80 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKS+FVFLGLLSSILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSVFVFLGLLSSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEKF  80
+           FEPAMGLLFFIEGFI TEKF
+Sbjct  61  FEPAMGLLFFIEGFIFTEKF  80
+
+
+Sequence with id WP_083860557 no longer exists in database...alignment skipped
+Sequence with id EER8376914 no longer exists in database...alignment skipped
+>EFK4149224.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=133
+
+ Score = 159 bits (402),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 76/132 (58%), Positives = 105/132 (80%), Gaps = 0/132 (0%)
+
+Query  194  SLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWS  253
+            S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L+M+ ++ ++ +W 
+Sbjct  2    SFIISNFLYWMSYASLFVSGGELSLFMSQDNEALKRLIISGTFLFLLLMINLESETNNWV  61
+
+Query  254  LYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTM  313
+            LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +  LG+ LS IPT 
+Sbjct  62   LYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSVVLLGITLSIIPTF  121
+
+Query  314  RIIYNLLYLGHP  325
+            R+I+NLL LGHP
+Sbjct  122  RLIFNLLILGHP  133
+
+
+>EFK4060621.1 O55 family O-antigen polymerase [Escherichia coli]
+Length=134
+
+ Score = 159 bits (402),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 76/132 (58%), Positives = 105/132 (80%), Gaps = 0/132 (0%)
+
+Query  194  SLFISNVLNFLSYFSFFVSGGELTIFLDKSSDSIKRIIIGVSFLIILIMVKVDKKSYSWS  253
+            S  ISN L ++SY S FVSGGEL++F+ + ++++KR+II  +FL +L+M+ ++ ++ +W 
+Sbjct  3    SFIISNFLYWMSYASLFVSGGELSLFMSQDNEALKRLIISGTFLFLLLMINLESETNNWV  62
+
+Query  254  LYKLSLFFCILSIALYQNWQLSWRVFVPAATLGSAIVLANIRKDNIIPFLGVVLSTIPTM  313
+            LYKLSLFFCILSI L  NWQLSWRVFVPAA LG+AI+L+NI+K + +  LG+ LS IPT 
+Sbjct  63   LYKLSLFFCILSIFLCDNWQLSWRVFVPAAILGTAIILSNIKKKDSVVLLGITLSIIPTF  122
+
+Query  314  RIIYNLLYLGHP  325
+            R+I+NLL LGHP
+Sbjct  123  RLIFNLLILGHP  134
+
+
+Sequence with id EAS6370962 no longer exists in database...alignment skipped
+Sequence with id EFK2561106 no longer exists in database...alignment skipped
+>ECI4176712.1 polymerase [Salmonella enterica subsp. diarizonae]
+ EGH5385165.1 polymerase [Salmonella enterica]
+Length=79
+
+ Score = 157 bits (396),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 76/79 (96%), Positives = 78/79 (99%), Gaps = 0/79 (0%)
+
+Query  1   MFKKKSIFVFLGLLSSILLALPLAMQGGFDDSLVYYSQADYIWSYGLYDGLRAIYIQTNK  60
+           MFKKKSIFVFLGLL SILLALPLAMQGGF+DSL+YYSQADYIWSYGLYDGLRAIYIQTNK
+Sbjct  1   MFKKKSIFVFLGLLCSILLALPLAMQGGFEDSLIYYSQADYIWSYGLYDGLRAIYIQTNK  60
+
+Query  61  FEPAMGLLFFIEGFIVTEK  79
+           FEPAMGLLFFIEGFIVTEK
+Sbjct  61  FEPAMGLLFFIEGFIVTEK  79
+
+
+
+Lambda      K        H        a         alpha
+   0.335    0.148    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 15432347100510
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jan 3, 2022  2:35 AM
+  Number of letters in database: 168,524,408,266
+  Number of sequences in database:  449,466,297
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,1150 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           449,466,297 sequences; 168,524,408,266 total letters
+
+
+
+Query= AFW04735.1 ea1856ffd61e794cb859c81301c1b897
+
+Length=314
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AFW04735.1 Unknown                                                    606     0.0  
+EAT8922683.1 EpsG family protein [Salmonella enterica]                597     0.0  
+WP_077946168.1 EpsG family protein [Salmonella enterica]              594     0.0  
+EAV7066398.1 Unknown                                                  593     0.0  
+KSB78657.1 hypothetical protein LFZ51_08470 [Salmonella enterica ...  593     0.0  
+WP_182316800.1 Unknown                                                260     1e-81
+WP_139935532.1 Unknown                                                260     1e-81
+WP_199996024.1 Unknown                                                181     4e-52
+WP_191279047.1 Unknown                                                171     5e-47
+WP_198089411.1 Unknown                                                139     5e-35
+WP_188027414.1 EpsG family protein [Tolumonas osonensis]              129     5e-31
+WP_171971589.1 MULTISPECIES: EpsG family protein [Aeromonas]          111     2e-24
+OLF21772.1 Unknown                                                    111     4e-24
+WP_201883775.1 EpsG family protein [Aeromonas dhakensis]              102     5e-21
+WP_216988514.1 EpsG family protein [Aeromonas sp. FDAARGOS 1408]      100     3e-20
+WP_186725160.1 EpsG family protein [Morganella morganii]              100     4e-20
+WP_044178419.1 Unknown                                                86.3    3e-15
+WP_211139463.1 EpsG family protein [Acinetobacter baretiae]           85.9    5e-15
+WP_086958735.1 EpsG family protein [Photobacterium damselae]          85.1    9e-15
+WP_135275742.1 Unknown                                                83.6    3e-14
+WP_200164106.1 EpsG family protein [Aeromonas caviae]                 75.1    4e-11
+WP_081000916.1 EpsG family protein [Aeromonas caviae]                 73.6    1e-10
+WP_219927969.1 Unknown                                                62.8    3e-08
+WP_126624204.1 EpsG family protein [Acinetobacter ursingii]           60.8    2e-06
+PTT56603.1 hypothetical protein DBR13_05190 [Aeromonas sp. HMWF015]   53.5    2e-05
+WP_165390052.1 Unknown                                                53.5    6e-04
+KAB0542990.1 Unknown                                                  53.1    7e-04
+WP_143994459.1 hypothetical protein [Stenotrophomonas maltophilia]    51.6    0.003
+WP_208315338.1 Unknown                                                50.8    0.005
+WP_032127490.1 hypothetical protein [Stenotrophomonas maltophilia]    50.4    0.007
+OJF76363.1 hypothetical protein BKP49_07790 [Treponema sp. CETP13]    47.0    0.089
+WP_227542222.1 Unknown                                                45.8    0.16 
+WP_134879223.1 Unknown                                                46.2    0.19 
+WP_105665137.1 EpsG family protein [Cronobacter dublinensis]          45.8    0.25 
+WP_105662979.1 EpsG family protein [Cronobacter dublinensis]          45.4    0.27 
+MBQ4588437.1 Unknown                                                  45.1    0.35 
+WP_158700563.1 Unknown                                                45.1    0.44 
+WP_064317585.1 EpsG family protein [Klebsiella pneumoniae]            44.7    0.53 
+WP_225510973.1 EpsG family protein [Klebsiella pneumoniae]            44.7    0.53 
+WP_161586198.1 Unknown                                                44.7    0.54 
+WP_182248998.1 Unknown                                                44.3    0.54 
+WP_081591121.1 Unknown                                                44.3    0.57 
+WP_105636302.1 Unknown                                                44.7    0.60 
+WP_170921484.1 EpsG family protein [Klebsiella quasipneumoniae]       44.3    0.67 
+EGT4378235.1 Unknown                                                  44.3    0.67 
+WP_105654866.1 EpsG family protein [Cronobacter dublinensis]          44.3    0.70 
+WP_038883262.1 Unknown                                                44.3    0.70 
+WP_201976779.1 EpsG family protein [Aeromonas veronii]                43.9    0.74 
+SLX37404.1 Uncharacterised protein [Klebsiella quasipneumoniae]       43.9    0.82 
+WP_158700151.1 EpsG family protein [Cronobacter dublinensis]          43.9    0.93 
+WP_158089030.1 EpsG family protein [Anaeromassilibacillus sp. Mar...  43.9    1.1  
+WP_105679632.1 Unknown                                                43.5    1.2  
+WP_038870811.1 Unknown                                                43.5    1.3  
+WP_105634683.1 EpsG family protein [Cronobacter dublinensis]          43.1    1.9  
+WP_105669255.1 Unknown                                                43.1    1.9  
+WP_203283669.1 Unknown                                                42.4    2.2  
+OJF75886.1 Unknown                                                    42.7    2.4  
+RSW73175.1 hypothetical protein EGH62_25265 [Klebsiella aerogenes]    42.4    2.4  
+MBX9187777.1 EpsG family protein [Bacteroides sp. K03]                42.4    2.5  
+MBS6236261.1 EpsG family protein [Clostridiales bacterium]            42.7    2.6  
+WP_221649401.1 Unknown                                                42.4    2.8  
+WP_158698664.1 Unknown                                                42.4    2.8  
+WP_200676118.1 Unknown                                                41.6    5.2  
+RWR01198.1 hypothetical protein ED28_14855 [[Pantoea] beijingensis]   41.6    5.5  
+WP_119546058.1 Unknown                                                41.6    5.8  
+WP_217847238.1 EpsG family protein [Klebsiella pneumoniae]            41.2    5.8  
+WP_164877300.1 EpsG family protein [[Pantoea] beijingensis]           41.6    5.8  
+EGT5709934.1 Unknown                                                  41.6    5.9  
+WP_219008143.1 hypothetical protein [Aquimarina litoralis]            41.6    6.1  
+WP_182912104.1 EpsG family protein [Klebsiella pneumoniae]            41.2    6.3  
+WP_032439395.1 Unknown                                                41.2    6.6  
+WP_114077835.1 O81 family O-antigen polymerase [Escherichia coli]     41.2    7.2  
+RJP45051.1 Unknown                                                    40.8    8.3  
+WP_040150227.1 Unknown                                                40.8    8.4  
+WP_023316124.1 Unknown                                                40.8    8.5  
+WP_144232295.1 Unknown                                                40.8    9.5  
+
+
+Sequence with id AFW04735 no longer exists in database...alignment skipped
+>EAT8922683.1 EpsG family protein [Salmonella enterica]
+ EAV6588805.1 EpsG family protein [Salmonella enterica]
+Length=321
+
+ Score = 597 bits (1539),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 311/316 (98%), Positives = 314/316 (99%), Gaps = 2/316 (1%)
+
+Query  1    MINKNRYKGYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLE  60
+            MINKN+YKGYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLE
+Sbjct  6    MINKNQYKGYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLE  65
+
+Query  61   ILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVF--ISSFFYMN  118
+            ILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVF  ++SFFYMN
+Sbjct  66   ILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVFYFLTSFFYMN  125
+
+Query  119  AVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK  178
+            AVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK
+Sbjct  126  AVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK  185
+
+Query  179  IILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNIS  238
+            IILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNIS
+Sbjct  186  IILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNIS  245
+
+Query  239  LILVDIIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP  298
+            LILVDIIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP
+Sbjct  246  LILVDIIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP  305
+
+Query  299  SLVILLYYCLNLVKDK  314
+            SLVILLYYCLNLVKDK
+Sbjct  306  SLVILLYYCLNLVKDK  321
+
+
+>WP_077946168.1 EpsG family protein [Salmonella enterica]
+ AXC76712.1 EpsG family protein [Salmonella enterica subsp. arizonae serovar 
+63:g,z51:-]
+Length=321
+
+ Score = 594 bits (1532),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 310/316 (98%), Positives = 313/316 (99%), Gaps = 2/316 (1%)
+
+Query  1    MINKNRYKGYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLE  60
+            MINKN+YKGYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLE
+Sbjct  6    MINKNQYKGYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLE  65
+
+Query  61   ILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVF--ISSFFYMN  118
+            ILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVF  ++SFFYMN
+Sbjct  66   ILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVFYFLTSFFYMN  125
+
+Query  119  AVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK  178
+            AVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK
+Sbjct  126  AVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK  185
+
+Query  179  IILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNIS  238
+            IILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNIS
+Sbjct  186  IILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNIS  245
+
+Query  239  LILVDIIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP  298
+            LILV IIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP
+Sbjct  246  LILVGIIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP  305
+
+Query  299  SLVILLYYCLNLVKDK  314
+            SLVILLYYCLNLVKDK
+Sbjct  306  SLVILLYYCLNLVKDK  321
+
+
+Sequence with id EAV7066398 no longer exists in database...alignment skipped
+>KSB78657.1 hypothetical protein LFZ51_08470 [Salmonella enterica subsp. 
+arizonae serovar 63:g,z51:- str. So 20/20]
+Length=316
+
+ Score = 593 bits (1530),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 310/316 (98%), Positives = 313/316 (99%), Gaps = 2/316 (1%)
+
+Query  1    MINKNRYKGYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLE  60
+            MINKN+YKGYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLE
+Sbjct  1    MINKNQYKGYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLE  60
+
+Query  61   ILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVF--ISSFFYMN  118
+            ILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVF  ++SFFYMN
+Sbjct  61   ILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVFYFLTSFFYMN  120
+
+Query  119  AVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK  178
+            AVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK
+Sbjct  121  AVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK  180
+
+Query  179  IILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNIS  238
+            IILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNIS
+Sbjct  181  IILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNIS  240
+
+Query  239  LILVDIIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP  298
+            LILV IIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP
+Sbjct  241  LILVGIIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP  300
+
+Query  299  SLVILLYYCLNLVKDK  314
+            SLVILLYYCLNLVKDK
+Sbjct  301  SLVILLYYCLNLVKDK  316
+
+
+Sequence with id WP_182316800 no longer exists in database...alignment skipped
+Sequence with id WP_139935532 no longer exists in database...alignment skipped
+Sequence with id WP_199996024 no longer exists in database...alignment skipped
+Sequence with id WP_191279047 no longer exists in database...alignment skipped
+Sequence with id WP_198089411 no longer exists in database...alignment skipped
+>WP_188027414.1 EpsG family protein [Tolumonas osonensis]
+ MBB6056694.1 hypothetical protein [Tolumonas osonensis]
+Length=323
+
+ Score = 129 bits (325),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 97/307 (32%), Positives = 167/307 (54%), Gaps = 11/307 (4%)
+
+Query  10   YYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFF  69
+            ++L +SF  +++F +   Y+S   +  ++DTLEY  NF  I  D++PYG+E L  + M+ 
+Sbjct  15   FWLGVSFVFSVLFVILSCYWSK-NVNYINDTLEYKYNFDSIHVDIYPYGVEFLTSLFMYI  73
+
+Query  70   IKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYN-PLFFIIVF-ISSFFYMNAVLIIRQYI  127
+            +   GG+F DF+ F   +WLP++F+ +  +  N   FF+ +F +S+FFY+NA  +IRQY 
+Sbjct  74   VSVFGGDFSDFILFSYLMWLPIVFLCVNAAGKNITYFFVSIFLLSTFFYLNASYLIRQYY  133
+
+Query  128  SGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNK-IILSVIIP  186
+            +  FF+   +F    KKIS    F S+ SH  +I+W++    +      ++ +I +    
+Sbjct  134  AASFFV-LYIFLSNRKKISYVFLFASLFSHLSSIIWILTSSAFAVKLCKSRFVIFAFAFF  192
+
+Query  187  ISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNISLILVDI-I  245
+                    S   + ++++    + +N+P +L RKI +Y      + S  N+   +  I I
+Sbjct  193  SFFSLTGISIYGFFVEALMHVEVIFNLP-VLTRKIMFYTGGEAELASSVNVRFTVFSILI  251
+
+Query  246  FILSIINLLKQKNEFVL---KLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIPSLVI  302
+            FI+S   L+  K    L   K+ SL+++ S   I+   NIV A+R GF+ ++FSIP  +I
+Sbjct  252  FIMSAF-LMHSKCTLSLLDEKICSLIMYQSLFIIVFNENIVLANRVGFFVFFFSIPCFLI  310
+
+Query  303  LLYYCLN  309
+            L+ Y L 
+Sbjct  311  LIGYYLR  317
+
+
+>WP_171971589.1 MULTISPECIES: EpsG family protein [Aeromonas]
+Length=294
+
+ Score = 111 bits (277),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 93/292 (32%), Positives = 167/292 (57%), Gaps = 25/292 (9%)
+
+Query  38   SDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIY  97
+             DTLEY  NF++I+   FPYG+E L PI+M+ +  +GG+F DF+F  L  W P++F++ Y
+Sbjct  7    GDTLEYMYNFNEIQQYPFPYGVEFLTPIMMWVVSYLGGSFRDFIFICLLFWTPIVFLLGY  66
+
+Query  98   RSCYNPLFFIIV--FISSFFYMNAVLIIRQYISGVFFIYCMLFAYQH---KKISLFLAFL  152
+             S  N LF  +   F++  F  NAV +IRQY + +F+I  +L+  +    K +S  L  L
+Sbjct  67   YSRSNFLFIGVFFYFLTPLFIDNAVFLIRQYNAALFYILFLLYNKRKDPSKLVSFGLLLL  126
+
+Query  153  SILSHSYAIVWLIVVGRWFRNFITNKIILSVI-IPISLFAVS----FSFSSYQLQSVSSF  207
+            S  SH  ++ W ++  +    F  ++++  ++  P+ L A+S     S+    +  +++ 
+Sbjct  127  SFSSHLSSVFWFMISNKITVRFFKHRLVFFIVFFPLILLALSGVDIISWVVDLIFKIANL  186
+
+Query  208  LLQYNMPGLLQRKIQYYNNNN-DPVESVSNIS-LILVDIIFILSIINLLKQKNE---FVL  262
+               Y     + RK+ +Y+++  D V  VSN++ LI   ++F+   +  L Q+N    F +
+Sbjct  187  FDFYE----INRKLMFYSSSEYDAVAKVSNLAELIAFLLLFLSGYLFFLSQRNNGFIFFV  242
+
+Query  263  KLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIPSLVILLYYCLNLVKDK  314
+             + ++L+      ++L +NIV A+RFGF+++YFSIP  ++L+Y+  N+  +K
+Sbjct  243  FVQAMLV------VLLKNNIVMANRFGFFAFYFSIPIFIVLVYHFKNIWIEK  288
+
+
+Sequence with id OLF21772 no longer exists in database...alignment skipped
+>WP_201883775.1 EpsG family protein [Aeromonas dhakensis]
+ MBL0619514.1 EpsG family protein [Aeromonas dhakensis]
+Length=321
+
+ Score = 102 bits (255),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 99/310 (32%), Positives = 162/310 (52%), Gaps = 40/310 (13%)
+
+Query  11   YLILSFFLTLIFAL-RFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFF  69
+            + IL++F  ++F+L  F Y S +E+    DTL+Y+ NF  I+ D FPYG E +   +M+ 
+Sbjct  12   FFILAYFGFIVFSLVSFGYASTFEV--KGDTLQYFYNFESIKLDPFPYGFEFVTSGIMWL  69
+
+Query  70   IKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFII--VFISSFFYMNAVLIIRQYI  127
+            +  +GG+F  FLF  L +W P++FI+I  S  NP+F  I   F++  F  NA+ I+RQY 
+Sbjct  70   VNFLGGDFRLFLFVCLFMWSPIVFIVILLSRRNPMFIFIYLFFLTPIFMSNALYIVRQYH  129
+
+Query  128  SGVFFIYCMLFAYQHKKI---SLFLAFLSILSHSYAIVWLIVVGRWFRNFITNKIILSVI  184
+            + +FFI  +      +KI   SL L  +S  SH  AI+W          F++ + ++S+ 
+Sbjct  130  AALFFIMFIYLQKSERKIKIASLVLFLVSFCSHLSAILWF---------FLSRQRVVSLF  180
+
+Query  185  IPISLFAVSFSFSSY-----QLQSVSSFLLQY----NMPGL--LQRKIQYYNNNND-PVE  232
+            +    F  + +F+ +      + S+S F+       N  G   + RK+ +Y        E
+Sbjct  181  VK-PFFIYTMAFTPFFLLLINVNSISVFVDALIEISNFFGASDINRKLAFYTTGEYLLAE  239
+
+Query  233  SVSNISLILVDIIFILSIINLLKQKNE----FVLKLSSLLIFNSFCFIMLGSNIVSASRF  288
+             +    + +  II ILS+  +L   +E    F++   SLL+      + L  NI+ A+RF
+Sbjct  240  PIGYQFIFISAIIIILSVYLMLYTAHENTWVFLMFTQSLLL------VTLKDNIIIANRF  293
+
+Query  289  GFWSYYFSIP  298
+             F+SYYFS+P
+Sbjct  294  AFFSYYFSMP  303
+
+
+>WP_216988514.1 EpsG family protein [Aeromonas sp. FDAARGOS 1408]
+ QXC06444.1 EpsG family protein [Aeromonas sp. FDAARGOS 1408]
+Length=321
+
+ Score = 100 bits (249),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 99/304 (33%), Positives = 156/304 (51%), Gaps = 28/304 (9%)
+
+Query  11   YLILSFFLTLIFAL-RFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFF  69
+            + IL++F  ++F+L  F Y S +E+    DTL+Y+ NF  I+ D FPYG E +   +M+ 
+Sbjct  12   FFILAYFGFIVFSLVSFGYASTFEV--KGDTLQYFYNFESIKLDPFPYGFEFVTSGIMWL  69
+
+Query  70   IKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFII--VFISSFFYMNAVLIIRQYI  127
+            +  +GG+F  FLF  L +W P++FI+I  S  NP+F  I   F++  F  NA+ IIRQY 
+Sbjct  70   VNFLGGDFRLFLFVCLFMWSPIVFIVILLSRRNPMFIFIYLFFLTPIFMSNALYIIRQYH  129
+
+Query  128  SGVFFIYCMLFAYQHKKI---SLFLAFLSILSHSYAIVWL-----IVVGRWFRNFITNKI  179
+            + +FFI  +      +KI   SL L  +S  SH  AI+W       VV  + + F    +
+Sbjct  130  AALFFIMFIYLQKSERKIKIASLVLFLVSFCSHLSAILWFSLSRQRVVSLFVKPFFIYTM  189
+
+Query  180  ILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNND-PVESVSNIS  238
+              +    + +   S S     L  +S+F    +    + RK+ +Y        E +    
+Sbjct  190  AFTPFFLLLINVNSISVFVDALIEISNFFGASD----INRKLAFYTTGEYLLAEPIGYQF  245
+
+Query  239  LILVDIIFILSIINLLKQKNE----FVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYY  294
+            + +  II ILS+  +L   +E    F++   SLL+      + L  NI+ A+RF F+SYY
+Sbjct  246  IFISAIIIILSVYLMLYTAHENTWVFLMFTQSLLL------VTLKDNIIIANRFAFFSYY  299
+
+Query  295  FSIP  298
+            FS+P
+Sbjct  300  FSMP  303
+
+
+>WP_186725160.1 EpsG family protein [Morganella morganii]
+ MBC3996977.1 EpsG family protein [Morganella morganii]
+Length=318
+
+ Score = 100 bits (248),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 79/270 (29%), Positives = 151/270 (56%), Gaps = 10/270 (4%)
+
+Query  37   VSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFII-  95
+            + DTL Y + ++ ++ + F YG+E ++P +M+ + + G  F+DF+F  L LW P++F+  
+Sbjct  38   IGDTLVYSDIYNSVDENYFIYGIEFIVPTVMYILHSCGLYFHDFIFISLCLWTPIVFLAT  97
+
+Query  96   ---IYRSCYNPLFFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFL  152
+               + +  Y  L   I  ++ +F++NA+ +IRQY + +FFI C LF  ++KKI   L   
+Sbjct  98   LMGLEKKYYYLLSLAIFLLTPYFFLNAIFLIRQYYAALFFI-CALFI-KNKKIYFILLCA  155
+
+Query  153  SILSHSYAIVWLIVVGRWFRNFITNKIILSVIIPISLFA-VSFSFSSYQLQSVSSFLLQY  211
+            +I SH  AI+W+++        + +K+IL +++ I++ + V+ S  S  +  +  F   +
+Sbjct  156  AIFSHISAIIWVVLSLPLTYRIVKSKLILFLLLFITICSYVNISIFSLLMDFIIEFSYYF  215
+
+Query  212  NMPGLLQRKIQYYNNNNDPVESVSNISLILVDIIFILSIINLLKQKN--EFVLKLSSLLI  269
+            ++  +L++K  +Y + +  V        +   I   LS + L+ +KN     ++L ++++
+Sbjct  216  DI-DVLKKKTLFYRDRDISVYGGLPFYFLWFSIFCFLSSLYLITRKNIAPVNMRLYTIIL  274
+
+Query  270  FNSFCFIMLGSNIVSASRFGFWSYYFSIPS  299
+              S   I+   NI+ A+R GF+ YYFSIP 
+Sbjct  275  LQSTSLILFKDNIIFANRIGFFVYYFSIPC  304
+
+
+Sequence with id WP_044178419 no longer exists in database...alignment skipped
+>WP_211139463.1 EpsG family protein [Acinetobacter baretiae]
+ MBF7685627.1 EpsG family protein [Acinetobacter baretiae]
+Length=301
+
+ Score = 85.9 bits (211),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 84/293 (29%), Positives = 150/293 (51%), Gaps = 28/293 (10%)
+
+Query  31   HYEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLP  90
+            ++ + L SD L Y+N + +I++D  P+G EI +  LM+F   +G +FY + FF L L+LP
+Sbjct  11   YFRLELDSDNLNYFNIYDNIKSDTLPFGAEIGVSSLMYFFNILGADFYLYTFFKLLLFLP  70
+
+Query  91   LIFIIIYRSCYNPLFFIIVFISSFFYMN----AVLIIRQYISGVFFIYCMLFAYQHKKIS  146
+            +   I Y    N L+    F+ S  Y       + + RQ +S  F + C+L   + +K S
+Sbjct  71   VFIKIDYVFFKNRLYLSSTFLISTLYPPFLDMMIFLSRQSLSITFILLCLL--TESRKKS  128
+
+Query  147  LFLAFLSILSHSYAIVWLIVV--GRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSV  204
+            +F   +++ SH  A ++L VV   +    F+ NK   S+I+   L  + +       Q++
+Sbjct  129  IFWFVIAVCSHLSAFIFLPVVIFYKEIYRFLINKYFQSLILIYMLCGLKY-------QTL  181
+
+Query  205  SSFLLQYNM------PGLLQR----KIQYYN-NNNDPVESVSNISLILVDIIFILSII--  251
+            SSF+L+         P +++R    K  +Y+ N+N   +  S + L ++ II ++ I+  
+Sbjct  182  SSFILENINNNINVFPEIIKRNILMKTGFYDWNSNSDFDGFSYLRLTVMIIISLMVILLF  241
+
+Query  252  NLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIPSLVILL  304
+            N      E   KL  + ++++  F +   N + A+R GF+SY+F +P   I+L
+Sbjct  242  NHRAIYTEIEKKLLCIYLYSALLFTLTVDNYMMATRSGFFSYFFCLPWFFIVL  294
+
+
+>WP_086958735.1 EpsG family protein [Photobacterium damselae]
+ MBE8127286.1 EpsG family protein [Photobacterium damselae subsp. piscicida]
+ PSV74395.1 hypothetical protein CTT35_08685 [Photobacterium damselae]
+ PSW77852.1 hypothetical protein CTT37_09140 [Photobacterium damselae]
+ QOD54852.1 EpsG family protein [Photobacterium damselae subsp. piscicida]
+ QOD58204.1 EpsG family protein [Photobacterium damselae subsp. piscicida]
+Length=306
+
+ Score = 85.1 bits (209),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 89/312 (29%), Positives = 165/312 (53%), Gaps = 26/312 (8%)
+
+Query  9    GYYLILSFFLTLIFALRFFYFSHYEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMF  68
+            GY  ++S F    + L   ++SH  + + SDTL Y+ N+ +IE   FPYG+EIL+P +M 
+Sbjct  9    GYQFLVSSF----YFLSCIWWSH-NVEIRSDTLSYFINYQNIEVYPFPYGVEILLPTIML  63
+
+Query  69   FIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNP--LFFIIVFISSFFYMNAVLIIRQY  126
+              K+IG +F DF+  +L +WLP++     +S  NP  +  II F S  F   A+ ++R Y
+Sbjct  64   VCKSIGFDFNDFVALILIMWLPVVQWATRKSVDNPLFILIIIFFFSGKFNELAMFLMRSY  123
+
+Query  127  ISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVG-RWFRNFITNK----IIL  181
+            +S +  ++ +  AY+  +   F   L +LSH  ++++++    R +   + NK    +IL
+Sbjct  124  LSIIMLVFSI--AYRDWRKFAFYG-LCVLSHITSLMFILCYSLRMYVALLGNKLISILIL  180
+
+Query  182  SVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNISLIL  241
+             V I +S    + + S+  + S+S+      MP  + RK+ +Y++ +D + +   I LI+
+Sbjct  181  LVSIIVSKLITASTISNLDIGSISNI-----MPSEINRKLSFYHDTSDFISANPIIILIV  235
+
+Query  242  VDIIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIPSLV  301
+            + +  ++ +   +  K     K+ SL+   +   I L   I  ++R G  ++ F IP   
+Sbjct  236  IIVSLLVILNKPVTDKER---KIDSLIFSQTILCIGLSGVIHLSNRIGIIAFSFYIP---  289
+
+Query  302  ILLYYCLNLVKD  313
+            I++YY  N +++
+Sbjct  290  IMIYYLNNALRN  301
+
+
+Sequence with id WP_135275742 no longer exists in database...alignment skipped
+>WP_200164106.1 EpsG family protein [Aeromonas caviae]
+ QQM75372.1 EpsG family protein [Aeromonas caviae]
+Length=314
+
+ Score = 75.1 bits (183),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 74/275 (27%), Positives = 131/275 (48%), Gaps = 16/275 (6%)
+
+Query  33   EILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLI  92
+             IL   DTL YYN++ +I ++  PYG+E ++P++M     IG +F  F+F +L  W P++
+Sbjct  30   NILFKPDTLVYYNDYLNINSNSLPYGIEFVIPLIMLASNKIGMDFNGFIFILLLFWTPVV  89
+
+Query  93   FIIIYRSCYNPL--FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKISLFLA  150
+            F +      + L  F II F+   F      +IR Y   + F Y   F   + ++     
+Sbjct  90   FFLTKEVSKSLLYIFPIIFFMLPQFQEMVTFLIRSYFGLLMFFY---FTLVNSRVKYIFF  146
+
+Query  151  FLSILSHSYAIVWLIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQ  210
+              SI S   +I++  +    F   +  + I+SV I I+ F   +    + L  +S F   
+Sbjct  147  IFSIFSQITSILFFFLCNSKFHRILFKRSIISVSILIACFL--WGGGQHLLGYLSDFNFD  204
+
+Query  211  YNMPGLLQ----RKIQYYNNNNDPVESVSNISLILVDIIFILSIINLLKQKNEFVLK---  263
+            + +P  L     RK+ +   N D V  + ++   ++ ++F L +I  +K  ++ +     
+Sbjct  205  F-LPSYLNEALYRKLGFQMRNQDSVIYIGDLRKYIL-LVFGLLLITKVKACDKIIKNDNG  262
+
+Query  264  LSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP  298
+            L +L+  N    ++  +N V +SR G  +YYF IP
+Sbjct  263  LDALVFLNVILALLFMNNTVLSSRLGLIAYYFYIP  297
+
+
+>WP_081000916.1 EpsG family protein [Aeromonas caviae]
+Length=314
+
+ Score = 73.6 bits (179),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 73/275 (27%), Positives = 131/275 (48%), Gaps = 16/275 (6%)
+
+Query  33   EILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLI  92
+             IL   DTL YYN++ +I ++  PYG+E ++P++M     IG +F  F+F +L  W P++
+Sbjct  30   NILFKPDTLVYYNDYLNINSNSLPYGIEFVIPLIMLASNKIGMDFNGFIFILLLFWTPVV  89
+
+Query  93   FIIIYRSCYNPL--FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKISLFLA  150
+            F +      + L  F II F+   F      +IR Y   + F Y   F   + ++     
+Sbjct  90   FFLTKEVSKSLLYIFPIIFFMLPQFQEMVTFLIRSYFGLLMFFY---FTLVNSRVKYIFF  146
+
+Query  151  FLSILSHSYAIVWLIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQ  210
+              SI S   +I++  +    F   +  + I+SV I I+ F   +    + L  +S F   
+Sbjct  147  IFSIFSQITSILFFFLCNSKFHRILFKRSIISVSILIACFL--WGEGQHSLGYLSDFNFD  204
+
+Query  211  YNMPGLLQ----RKIQYYNNNNDPVESVSNISLILVDIIFILSIINLLKQKNEFVLK---  263
+            + +P  L     RK+ +   + D V  + ++   ++ ++F L +I  +K  ++ +     
+Sbjct  205  F-LPSYLNEALYRKLGFQMRSQDSVIYIGDLRKYIL-LVFGLLLITKVKACDKIIKNDNG  262
+
+Query  264  LSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIP  298
+            L +L+  N    ++  +N V +SR G  +YYF IP
+Sbjct  263  LDALVFLNVILALLFMNNTVLSSRLGLIAYYFYIP  297
+
+
+Sequence with id WP_219927969 no longer exists in database...alignment skipped
+>WP_126624204.1 EpsG family protein [Acinetobacter ursingii]
+ BBF77215.1 hypothetical protein URS_1199 [Acinetobacter ursingii]
+Length=319
+
+ Score = 60.8 bits (146),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 78/294 (27%), Positives = 147/294 (50%), Gaps = 24/294 (8%)
+
+Query  28   YFSHYEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTL  87
+            Y  ++ + L SD L Y++ F+DI ND FP+  E+ +  LMF    +G +FY + FF L +
+Sbjct  24   YCVYFRLELESDNLNYFSIFNDIRNDPFPFHFEMGVSFLMFIFNILGFDFYTYTFFKLLI  83
+
+Query  88   WLPLIFIIIYRSCYNPLFFIIVFISSFFYMN----AVLIIRQYISGVFFIYCMLFAYQHK  143
+            +LP+   I Y +  N     + F+SS  Y       + + RQ +S  F ++ +L   + K
+Sbjct  84   FLPVFIKIDYLTFNNKPILSLFFLSSTLYPPFLDMMIFLSRQSLSINFLLFSILTYSERK  143
+
+Query  144  KISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQS  203
+            +I  FL  L+ LSH  A +++ ++  +FR   T  I+++    I +F        Y  ++
+Sbjct  144  RIIWFL--LAFLSHLSAFIFIPLI--FFRE-KTFSILINKFFQIFMFFFLIFGLFY--KT  196
+
+Query  204  VSSFLLQ------YNMPGLLQR----KIQYYN-NNNDPVESVSNISLILVDII--FILSI  250
+            VS+ +L+         P  +++    KI +Y+ N N   +  S + L  + +I  F++ +
+Sbjct  197  VSTLILEILNNNIEIFPEFVKQNLIMKIGFYDWNANSDFDGFSYLRLFFIFLINLFMILL  256
+
+Query  251  INLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSIPSLVILL  304
+             N   + ++    L  + +++   F++   N + A R GF+SY+F +    ++L
+Sbjct  257  FNRNGEYSKIQKGLICIYLYSFLIFVLTIDNYMMAMRSGFFSYFFCLSWFFVML  310
+
+
+>PTT56603.1 hypothetical protein DBR13_05190, partial [Aeromonas sp. HMWF015]
+Length=61
+
+ Score = 53.5 bits (127),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 21/50 (42%), Positives = 36/50 (72%), Gaps = 0/50 (0%)
+
+Query  46  NFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFII  95
+           NF++I    FPYG+E++ P++M+ +   GG+F DF+F  L +W P+IF++
+Sbjct  3   NFNEIHQYPFPYGVEVITPLIMWVVSFFGGDFRDFIFICLAIWTPMIFLL  52
+
+
+Sequence with id WP_165390052 no longer exists in database...alignment skipped
+Sequence with id KAB0542990 no longer exists in database...alignment skipped
+>WP_143994459.1 hypothetical protein [Stenotrophomonas maltophilia]
+ VTQ74495.1 Uncharacterised protein [Stenotrophomonas maltophilia]
+ VUP84199.1 hypothetical protein OLMLFMKI_00152 [Stenotrophomonas maltophilia]
+Length=331
+
+ Score = 51.6 bits (122),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 64/273 (23%), Positives = 135/273 (49%), Gaps = 22/273 (8%)
+
+Query  39   DTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFII--I  96
+            D + Y   +  I     P+G+E++  +LM+    +G N++ F+F     WL +I+ +  +
+Sbjct  39   DNIMYRERYDAISLSNLPFGVEVVSALLMYLSSKLGFNYFQFVFLKSISWLWVIYRLYGL  98
+
+Query  97   YRSCYNPLFFIIV-FISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSIL  155
+             RS   P   ++V F+   F+     ++RQ  +  FFI   L A    +++  L  +++L
+Sbjct  99   TRSRRVPACILLVSFLIPSFHDITTFLLRQSFALEFFI---LAATSRSRLARALFAVAML  155
+
+Query  156  -SHSYAIVWLIVVGRWFRNFITNKIILSVII--PISLFAVSFSFSSYQLQSVSSFLLQYN  212
+             S   +I+WL  +       +  K++++V++  P+++    FS  S Q+   S  L+ Y 
+Sbjct  156  FSQITSILWLPFLYLKPGLLVRRKLLMAVLLLAPVTML-TGFSLGS-QVVEASGSLVGYA  213
+
+Query  213  MPGL----LQRKIQYYNNNNDPVE----SVSNISLILVDIIFI-LSIINLLKQKNEFVLK  263
+              G+    +Q K+ +YN     V     S+ N+  +L  ++ + L+   LL Q  + +L+
+Sbjct  214  --GIFAENIQTKVGFYNGGGGGVASSEVSIKNMLAMLGSVLLLALAGPRLLGQIPQAILR  271
+
+Query  264  LSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFS  296
+            +  + I  +  F ++  N++ ++R G+ +Y+ +
+Sbjct  272  VIDIQILAAILFFLMFGNLILSNRLGYAAYFIA  304
+
+
+Sequence with id WP_208315338 no longer exists in database...alignment skipped
+>WP_032127490.1 hypothetical protein [Stenotrophomonas maltophilia]
+ KGM25288.1 hypothetical protein LI87_0102470 [Stenotrophomonas maltophilia]
+Length=331
+
+ Score = 50.4 bits (119),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 62/272 (23%), Positives = 129/272 (47%), Gaps = 20/272 (7%)
+
+Query  39   DTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFII--I  96
+            D + Y   +  I     P+G+E++  +LM+    +G +++ F+F     WL +I+ +  +
+Sbjct  39   DNIMYRERYDAISLGNLPFGVEVVSALLMYLSSKLGFDYFQFVFLKSISWLWVIYRLYGL  98
+
+Query  97   YRSCYNPLFFIIV-FISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSIL  155
+             RS   P   ++V F+   F+     ++RQ  +  FFI       +  +   F A   + 
+Sbjct  99   TRSRRVPACILLVSFLIPSFHDITTFLLRQSFALEFFILAATSKSRFGRA--FFAVAMLF  156
+
+Query  156  SHSYAIVWLIVVGRWFRNFITNKIILSVII--PISLFAVSFSFSSYQLQSVSSFLLQYNM  213
+            S   +I+WL  +       +  K+++SV++  P+++    FS  S Q+   S  L+ Y  
+Sbjct  157  SQITSILWLPFLYLKPGILVRRKLLMSVLLLAPVTML-TGFSLGS-QVVEASGSLVGYA-  213
+
+Query  214  PGL----LQRKIQYYNNNNDPVE----SVSNISLILVDIIFI-LSIINLLKQKNEFVLKL  264
+             G+    +Q K+ +YN     V     S+ NI  +L  ++ + L+   LL Q  + +L++
+Sbjct  214  -GIFAENIQTKVGFYNGGGGGVAGSEVSIKNIVAMLGSVLLLALAGPRLLGQIPQAILRI  272
+
+Query  265  SSLLIFNSFCFIMLGSNIVSASRFGFWSYYFS  296
+              + +     F ++  N++ ++R G+ +Y+ +
+Sbjct  273  VDIQVLAVILFFLMFGNLILSNRLGYAAYFIA  304
+
+
+>OJF76363.1 hypothetical protein BKP49_07790 [Treponema sp. CETP13]
+Length=339
+
+ Score = 47.0 bits (110),  Expect = 0.089, Method: Compositional matrix adjust.
+ Identities = 70/287 (24%), Positives = 128/287 (45%), Gaps = 44/287 (15%)
+
+Query  39   DTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFL-FFVLTLWLPLIFIIIY  97
+            D+L YY+ F   +   F   L   +  + ++     GN+Y F   F L + +P IF +IY
+Sbjct  46   DSLMYYDVFQGTQKAPFDEPLWSFIAQIAYYFH---GNYYVFQSLFYLAVLVP-IFYVIY  101
+
+Query  98   RSCYNPLFFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKISLF-LAFLSILS  156
+            +   +    + +F + F+Y+N+  I+RQ ++    + C  F ++ K I  F   FL++L+
+Sbjct  102  KKSEHYQLSLFLFYAFFYYLNSFCIMRQSLAISMAVLCYYFLFEKKYIKAFAFYFLAVLA  161
+
+Query  157  HSYAIVWLIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMP--  214
+            H  AI+                     I+P+      FS+    L  VS+F++   +P  
+Sbjct  162  HKSAII--------------------TIVPVIFIFYRFSYKQILLILVSTFIIGLVLPIQ  201
+
+Query  215  ------GLLQRKIQYYNNNNDPVESVSNISLILVDIIFILSIINLLKQKNEFVLKLSSLL  268
+                  G  ++ I   ++     + + + +  +++IIF+   I    +KN+     SS +
+Sbjct  202  KLGIFFGSYKKYINMVDHGIRTNQYIFSATFAVLNIIFLF-FIRFDTEKNQ--KSASSSI  258
+
+Query  269  IFNSFCFIMLGSNIVSASRFGFWSYYFSIPSLVILLYYCLNLV-KDK  314
+            +   F  + L   +V A R    + YF I     +LYY  N++ KDK
+Sbjct  259  VLLGFVVMNLSQQLVMALRV---TQYFLIAQ---ILYYTANIIAKDK  299
+
+
+Sequence with id WP_227542222 no longer exists in database...alignment skipped
+Sequence with id WP_134879223 no longer exists in database...alignment skipped
+>WP_105665137.1 EpsG family protein [Cronobacter dublinensis]
+Length=402
+
+ Score = 45.8 bits (107),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 52/207 (25%), Positives = 103/207 (50%), Gaps = 25/207 (12%)
+
+Query  105  FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAY---QHKKISLFLAFLSILSHSYAI  161
+            FF  + +   F    + + RQ +S +FFI  +  +    +H   +LF   L++L+HS A+
+Sbjct  142  FFPAIILYPQFIQQGLFLSRQSLSTLFFIALVAQSRLLTRHYFRNLFWGGLALLAHSSAV  201
+
+Query  162  --VWLIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQR  219
+              + + ++    + F+    +L V+I   LF  + +F +  L S++      N+ G L R
+Sbjct  202  MNIGIFLLSYKVKRFVKWYFVLPVVIVAVLFPFNDAFVTQHLASLA------NITGGLDR  255
+
+Query  220  KIQYYNNNNDPVESVSNISLILVDI---IFILSIINLLKQKNEFVLKLSSLLIFNSFCFI  276
+            KI +Y NN    E++S +SL+++ +     ILS++ +  +K++  +   S++    +C +
+Sbjct  256  KIGFYMNNVPDGEALSIMSLLMLPLHATFLILSVVLIKSRKDKPDIDPFSIIFICLYCVV  315
+
+Query  277  M-----------LGSNIVSASRFGFWS  292
+            +           LG  IV+ S F F++
+Sbjct  316  LFLREYSLLPTRLGMPIVAFSAFFFYN  342
+
+
+>WP_105662979.1 EpsG family protein [Cronobacter dublinensis]
+Length=402
+
+ Score = 45.4 bits (106),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 53/207 (26%), Positives = 104/207 (50%), Gaps = 25/207 (12%)
+
+Query  105  FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAY---QHKKISLFLAFLSILSHSYAI  161
+            FF  + +   F    + + RQ +S +FFI  +  +    +H   +LF A L++L+HS A+
+Sbjct  142  FFPAIILYPQFIQQGLFLSRQSLSTLFFITLVAQSRLLTRHYFRNLFWAGLALLAHSSAV  201
+
+Query  162  --VWLIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQR  219
+              + + ++    + F+    +L V+I   LF  + +F +  L S++      N+ G L R
+Sbjct  202  MNIGIFLLSYKVKRFVKWYFVLPVVIVAILFPFNDAFVTQHLVSLA------NITGGLDR  255
+
+Query  220  KIQYYNNNNDPVESVSNISLILVDI---IFILSIINLLKQKNEFVLKLSSLLIFNSFCFI  276
+            KI +Y NN    E++S +SL+++ +     ILS++ +  +K++  +   S++    +C +
+Sbjct  256  KIGFYMNNVPDGEALSIMSLLMLPLHATFLILSVVLIKSRKDKSDIDPFSIIFICLYCVV  315
+
+Query  277  M-----------LGSNIVSASRFGFWS  292
+            +           LG  IV+ S F F++
+Sbjct  316  LFLREYSLLPTRLGMPIVAFSAFFFYN  342
+
+
+Sequence with id MBQ4588437 no longer exists in database...alignment skipped
+Sequence with id WP_158700563 no longer exists in database...alignment skipped
+>WP_064317585.1 EpsG family protein [Klebsiella pneumoniae]
+ MBC4756776.1 EpsG family protein [Klebsiella pneumoniae]
+ MBK2498085.1 hypothetical protein [Klebsiella pneumoniae]
+ MBL0822309.1 EpsG family protein [Klebsiella pneumoniae]
+ MCB3455027.1 EpsG family protein [Klebsiella pneumoniae]
+ MCB7914262.1 EpsG family protein [Klebsiella pneumoniae]
+Length=321
+
+ Score = 44.7 bits (104),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 77/288 (27%), Positives = 136/288 (47%), Gaps = 34/288 (12%)
+
+Query  32   YEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPL  91
+            Y I +VSD L YYN +++I+ D  P+  E ++ +LM+   ++G +F+ F FF +  +LP 
+Sbjct  25   YTIEMVSDNLNYYNVYNNIQKDTMPFQYEFILSLLMYISSSLGMDFFQFTFFKVLTFLP-  83
+
+Query  92   IFIIIY-------RSCYNPLFFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKK  144
+              IIIY       R+      F+  FIS       + + RQ +S  FF+   L     KK
+Sbjct  84   --IIIYVDRNLSKRNNILSYLFLFSFISPPMIGTLIFLARQSLSLEFFLLLSLIHGFRKK  141
+
+Query  145  ISLFLAFLSILSHSYAIVWLIVVGRWFRNFIT---NKIILSVIIPISLFAVSFSFSSYQL  201
+            I L +  +   +H  +I+W + +  W +  +    +K+   V I I L ++   F+   L
+Sbjct  142  IPLLV--IMFFTHMGSIIW-VPIFLWHKRIVAILNSKLFWVVSILILLISI---FTGMDL  195
+
+Query  202  QSVSSFLLQY-----NMPGL----LQRKIQYY--NNNND-PVESVSNISLILVDIIFILS  249
+                  L+QY     N+P      L RK  +Y  +   D    SV N +  ++  +  + 
+Sbjct  196  TKT---LIQYLSTLNNLPSFLMANLARKRDFYVIHEETDFDTLSVLNTTFAVIPALIYII  252
+
+Query  250  IINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSI  297
+            ++ +   ++  V  L +L   + F F +  +N + A+R GF +Y+F +
+Sbjct  253  MVKIKNVEHYTVECLCALYGLSFFLFALFYNNQIFATRVGFVAYFFGV  300
+
+
+>WP_225510973.1 EpsG family protein [Klebsiella pneumoniae]
+ MCA4073367.1 EpsG family protein [Klebsiella pneumoniae]
+Length=321
+
+ Score = 44.7 bits (104),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 77/288 (27%), Positives = 136/288 (47%), Gaps = 34/288 (12%)
+
+Query  32   YEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPL  91
+            Y I +VSD L YYN +++I+ D  P+  E ++ +LM+   ++G +F+ F FF +  +LP 
+Sbjct  25   YTIEMVSDNLNYYNVYNNIQKDTMPFQYEFILSLLMYISSSLGMDFFQFTFFKVLTFLP-  83
+
+Query  92   IFIIIY-------RSCYNPLFFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKK  144
+              IIIY       R+      F+  FIS       + + RQ +S  FF+   L     KK
+Sbjct  84   --IIIYVDRNLSKRNNILSYLFLFSFISPPMIGTLIFLARQSLSLEFFLLLSLIHGFRKK  141
+
+Query  145  ISLFLAFLSILSHSYAIVWLIVVGRWFRNFIT---NKIILSVIIPISLFAVSFSFSSYQL  201
+            I L +  +   +H  +I+W + +  W +  +    +K+   V I I L ++   F+   L
+Sbjct  142  IPLLV--IMFFTHMGSIIW-VPIFLWHKRIVAILNSKLFWVVSILILLISI---FTGMDL  195
+
+Query  202  QSVSSFLLQY-----NMPGL----LQRKIQYY--NNNND-PVESVSNISLILVDIIFILS  249
+                  L+QY     N+P      L RK  +Y  +   D    SV N +  ++  +  + 
+Sbjct  196  TKT---LIQYLSTLNNLPSFLMANLARKRDFYVIHEETDFDTLSVLNTTFAVIPALIYII  252
+
+Query  250  IINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSI  297
+            ++ +   ++  V  L +L   + F F +  +N + A+R GF +Y+F +
+Sbjct  253  MVKIENVEHYTVECLCALYGLSFFLFALFYNNQIFATRVGFVAYFFGV  300
+
+
+Sequence with id WP_161586198 no longer exists in database...alignment skipped
+Sequence with id WP_182248998 no longer exists in database...alignment skipped
+Sequence with id WP_081591121 no longer exists in database...alignment skipped
+Sequence with id WP_105636302 no longer exists in database...alignment skipped
+>WP_170921484.1 EpsG family protein [Klebsiella quasipneumoniae]
+Length=321
+
+ Score = 44.3 bits (103),  Expect = 0.67, Method: Compositional matrix adjust.
+ Identities = 74/280 (26%), Positives = 141/280 (50%), Gaps = 18/280 (6%)
+
+Query  32   YEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPL  91
+            Y I L+SD L YYN +++I+ND  P+  E ++  LM+    IG ++Y F FF +  +LP+
+Sbjct  25   YTIELISDNLNYYNVYNNIQNDTMPFQYEFILSFLMYISSLIGMDYYQFTFFKVLTFLPI  84
+
+Query  92   IFIIIYR--SCYNPLF---FIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKIS  146
+            I I + R  S +N +F   F+  FIS       + + RQ +S  FF+   L     KKI 
+Sbjct  85   I-ICVDRNISKWNNIFSYLFLFSFISPPMIGTLIFLARQSLSLEFFLLLSLIHGFRKKIP  143
+
+Query  147  LFLAFLSILSHSYAIVWLIVVGRWFRNFIT---NKI--ILSVIIPISLFAVSFSFSSYQL  201
+            + +  +   +H  +I+W + +  W +  +T   +K+  +LS II I         +   +
+Sbjct  144  VLI--IMFFTHMGSIIW-VPIFLWHKRIVTILNSKLFWVLSCIILIVSVFTGMDLTKALI  200
+
+Query  202  QSVSSF--LLQYNMPGLLQRKIQYYNNNNDPVESVS--NISLILVDIIFILSIINLLKQK  257
+            Q +S+   L  + M  L +++  Y  +     +++S  N S  ++  +  + ++ + + +
+Sbjct  201  QYLSTLNDLPNFLMANLARKRDFYVIHEGTDFDTLSVLNTSFAVMPALVYIIMVKIKEVE  260
+
+Query  258  NEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSI  297
+            +  +  L +L   + F F +  +N + A+R GF +Y+F +
+Sbjct  261  HYTIECLCALYGLSFFLFALFYNNQIFATRVGFVAYFFGV  300
+
+
+Sequence with id EGT4378235 no longer exists in database...alignment skipped
+>WP_105654866.1 EpsG family protein [Cronobacter dublinensis]
+Length=402
+
+ Score = 44.3 bits (103),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 51/207 (25%), Positives = 104/207 (50%), Gaps = 25/207 (12%)
+
+Query  105  FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFA---YQHKKISLFLAFLSILSHSYAI  161
+            FF  + +   F    + + RQ +S +FFI  +  +    +H   ++F A L++L+HS A+
+Sbjct  142  FFPAIILYPQFIQQGLFLSRQSLSTLFFITLVAQSKLLTRHYFRNVFWAGLALLAHSSAV  201
+
+Query  162  --VWLIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQR  219
+              + + ++    + F+    +L V+I   LF  + +F +  L S++      N+ G L R
+Sbjct  202  MNIGIFLLSYKVKRFVKWYFVLPVVIVAILFPFNDAFVTQHLVSLA------NITGGLDR  255
+
+Query  220  KIQYYNNNNDPVESVSNISLILVDI---IFILSIINLLKQKNEFVLKLSSLLIFNSFCFI  276
+            KI +Y NN    E++S +SL+++ +     +LS++ +  +K++  +   S++    +C +
+Sbjct  256  KIGFYMNNMPDGEALSIMSLLMLPLHATFLVLSVVLIKSRKDKSDIDPFSIIFICLYCVV  315
+
+Query  277  M-----------LGSNIVSASRFGFWS  292
+            +           LG  IV+ S F F++
+Sbjct  316  LFLREYSLLPTRLGMPIVAFSAFFFYN  342
+
+
+Sequence with id WP_038883262 no longer exists in database...alignment skipped
+>WP_201976779.1 EpsG family protein [Aeromonas veronii]
+ MBL0443870.1 EpsG family protein [Aeromonas veronii]
+Length=321
+
+ Score = 43.9 bits (102),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 63/277 (23%), Positives = 134/277 (48%), Gaps = 21/277 (8%)
+
+Query  32   YEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPL  91
+            Y   +V D   YY+ +  +    +P+G E+++P+LM      G ++YDF FF L LW   
+Sbjct  24   YTQSIVGDIKNYYDIYQQVVVVPYPFGGEVMLPLLMSIANYCGLSYYDFTFFRLLLW--G  81
+
+Query  92   IFIIIYRSCYNPLFFIIVFISSFF-------YMNAVLIIRQYISGVFFIYCMLFAYQHKK  144
+            + II + S       ++VFI  FF       ++N+++ + +    +FF +  L  Y +K 
+Sbjct  82   VVIINWSSHLKKKGLLVVFI--FFVSFSIPPFLNSMIYLARQSLSLFFCFLAL-QYSNKI  138
+
+Query  145  ISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNKIILSVIIPISL--FAVSFSFSSYQLQ  202
+                     + SH  +++WL+ +      F+ +K  + +II + +  + +    SS  ++
+Sbjct  139  AKTLFVTCMLFSHFGSLLWLLPIFGIGIKFVNSKKFVFIIIVVLIINYFMRLDASSLLIK  198
+
+Query  203  SVSSFLLQYNMPGLLQR----KIQYYNNNNDPVESVSNISLILVDIIFILSI-INLLKQK  257
+             ++   L   +P  ++     K+ +Y  + + +++  ++  + + +  +L++ I++ + +
+Sbjct  199  LLTGDYLP--IPSFIKNMYAAKLGFYLYDQEEIKTSLSLYSVAIMLCTLLTLYISINRYR  256
+
+Query  258  NEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYY  294
+            N F  K   L + +S    +  SN V A+R G  SY+
+Sbjct  257  NGFCDKFLYLYLMSSMFLALFYSNDVMANRLGMASYF  293
+
+
+>SLX37404.1 Uncharacterised protein [Klebsiella quasipneumoniae]
+ SLX43838.1 Uncharacterised protein [Klebsiella quasipneumoniae]
+ SLX44238.1 Uncharacterised protein [Klebsiella quasipneumoniae]
+ SLX49789.1 Uncharacterised protein [Klebsiella quasipneumoniae]
+ SLX59278.1 Uncharacterised protein [Klebsiella quasipneumoniae]
+Length=330
+
+ Score = 43.9 bits (102),  Expect = 0.82, Method: Compositional matrix adjust.
+ Identities = 74/280 (26%), Positives = 141/280 (50%), Gaps = 18/280 (6%)
+
+Query  32   YEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPL  91
+            Y I L+SD L YYN +++I+ND  P+  E ++  LM+    IG ++Y F FF +  +LP+
+Sbjct  34   YTIELISDNLNYYNVYNNIQNDTMPFQYEFILSFLMYISSLIGMDYYQFTFFKVLTFLPI  93
+
+Query  92   IFIIIYR--SCYNPLF---FIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKIS  146
+            I I + R  S +N +F   F+  FIS       + + RQ +S  FF+   L     KKI 
+Sbjct  94   I-ICVDRNISKWNNIFSYLFLFSFISPPMIGTLIFLARQSLSLEFFLLLSLIHGFRKKIP  152
+
+Query  147  LFLAFLSILSHSYAIVWLIVVGRWFRNFIT---NKI--ILSVIIPISLFAVSFSFSSYQL  201
+            + +  +   +H  +I+W + +  W +  +T   +K+  +LS II I         +   +
+Sbjct  153  VLI--IMFFTHMGSIIW-VPIFLWHKRIVTILNSKLFWVLSCIILIVSVFTGMDLTKALI  209
+
+Query  202  QSVSSF--LLQYNMPGLLQRKIQYYNNNNDPVESVS--NISLILVDIIFILSIINLLKQK  257
+            Q +S+   L  + M  L +++  Y  +     +++S  N S  ++  +  + ++ + + +
+Sbjct  210  QYLSTLNDLPNFLMANLARKRDFYVIHEGTDFDTLSVLNTSFAVMPALVYIIMVKIKEVE  269
+
+Query  258  NEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSI  297
+            +  +  L +L   + F F +  +N + A+R GF +Y+F +
+Sbjct  270  HYTIECLCALYGLSFFLFALFYNNQIFATRVGFVAYFFGV  309
+
+
+>WP_158700151.1 EpsG family protein, partial [Cronobacter dublinensis]
+Length=371
+
+ Score = 43.9 bits (102),  Expect = 0.93, Method: Compositional matrix adjust.
+ Identities = 51/207 (25%), Positives = 104/207 (50%), Gaps = 25/207 (12%)
+
+Query  105  FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFA---YQHKKISLFLAFLSILSHSYAI  161
+            FF  + +   F    + + RQ +S +FFI  +  +    +H   ++F A L++L+HS A+
+Sbjct  142  FFPAIILYPQFIQQGLFLSRQSLSTLFFITLVAQSKLLTRHYFRNVFWAGLALLAHSSAV  201
+
+Query  162  --VWLIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQR  219
+              + + ++    + F+    +L V+I   LF  + +F +  L S++      N+ G L R
+Sbjct  202  MNIGIFLLSYKVKRFVKWYFVLPVVIVAILFPFNDAFVTQHLVSLA------NITGGLDR  255
+
+Query  220  KIQYYNNNNDPVESVSNISLILVDI---IFILSIINLLKQKNEFVLKLSSLLIFNSFCFI  276
+            KI +Y NN    E++S +SL+++ +     +LS++ +  +K++  +   S++    +C +
+Sbjct  256  KIGFYMNNMPDGEALSIMSLLMLPLHATFLVLSVVLIKSRKDKSDIDPFSIIFICLYCVV  315
+
+Query  277  M-----------LGSNIVSASRFGFWS  292
+            +           LG  IV+ S F F++
+Sbjct  316  LFLREYSLLPTRLGMPIVAFSAFFFYN  342
+
+
+>WP_158089030.1 EpsG family protein [Anaeromassilibacillus sp. Marseille-P3371]
+Length=402
+
+ Score = 43.9 bits (102),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 40/168 (24%), Positives = 81/168 (48%), Gaps = 5/168 (3%)
+
+Query  45   NNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPL  104
+              +S + +D  PY  E    +L F I  + GN + ++  + T+ + L   ++YR C  P 
+Sbjct  68   GGWSFLVSDANPYLTEFGFSLLTFLISLVTGNVFVYMAVIATIMIGLTAWVLYRDCSKPW  127
+
+Query  105  FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKIS-LFLAFLSILSHSYAIVW  163
+              + +F++  F+ N +  IRQ +    F++ + +  + + +  + L  L+   H+  ++ 
+Sbjct  128  IGMFIFVAFNFFGNTLSYIRQSLGIAIFLFAIHYIKEKRIVPYMLLVLLAATFHNSLLLM  187
+
+Query  164  LIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQY  211
+            L V   +      N+I L V   I++  + FS+  + L  V+ F+ QY
+Sbjct  188  LPVY--FLAQIAINRISLGVYGGITVLVLVFSWQIFNL--VTQFVYQY  231
+
+
+Sequence with id WP_105679632 no longer exists in database...alignment skipped
+Sequence with id WP_038870811 no longer exists in database...alignment skipped
+>WP_105634683.1 EpsG family protein [Cronobacter dublinensis]
+Length=402
+
+ Score = 43.1 bits (100),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 51/207 (25%), Positives = 103/207 (50%), Gaps = 25/207 (12%)
+
+Query  105  FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFA---YQHKKISLFLAFLSILSHSYAI  161
+            FF  + +   F    + + RQ +S +FFI  +  +    +H   ++F A L++L+HS A+
+Sbjct  142  FFPAIILYPQFIQQGLFLSRQSLSTLFFITLVAQSKLLTRHYFRNVFWAGLALLAHSSAV  201
+
+Query  162  --VWLIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQYNMPGLLQR  219
+              + + ++    + F+    +L V+I   LF  + +F +  L S++      N+ G L R
+Sbjct  202  MNIGIFLLSYKVKRFVKWYFVLPVVIIAILFPFNDAFVTQHLVSLA------NITGGLDR  255
+
+Query  220  KIQYYNNNNDPVESVSNISLILVDI---IFILSIINLLKQKNEFVLKLSSLLIFNSFCFI  276
+            KI +Y NN    E++  +SL+++ +     ILS++ +  +K++  +   S++    +C +
+Sbjct  256  KIGFYMNNVPDGEALGIMSLLMLPLHATFLILSVVLIKSRKDKPDIDPFSIIFICLYCVV  315
+
+Query  277  M-----------LGSNIVSASRFGFWS  292
+            +           LG  IV+ S F F++
+Sbjct  316  LFLREYSLLPTRLGMPIVAFSAFFFYN  342
+
+
+Sequence with id WP_105669255 no longer exists in database...alignment skipped
+Sequence with id WP_203283669 no longer exists in database...alignment skipped
+Sequence with id OJF75886 no longer exists in database...alignment skipped
+>RSW73175.1 hypothetical protein EGH62_25265 [Klebsiella aerogenes]
+Length=274
+
+ Score = 42.4 bits (98),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 61/260 (23%), Positives = 121/260 (47%), Gaps = 26/260 (10%)
+
+Query  56   PYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYN-----PLFFIIVF  110
+            P+  E ++ +LM+   +IG +FY F FF +  +LP+I I + R+  N        F+  F
+Sbjct  2    PFQYEFILSLLMYISSSIGMDFYQFTFFKVLTFLPII-IYVDRNISNRNNIFSYLFLFSF  60
+
+Query  111  ISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRW  170
+            IS       + + RQ +S  FF+   L     KKI + +  +   +H  +I+W + +  W
+Sbjct  61   ISPPMIGTLIFLARQSLSLEFFMLLSLIHEFRKKIPILI--IMFFTHMGSIIW-VPIFLW  117
+
+Query  171  FRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQY-----NMPGL----LQRKI  221
+             +  +    IL+  +   +  +    S +    ++  L+QY     N+P      L RK 
+Sbjct  118  HKRIVA---ILNSKLFWIISILILLISIFTGMDLTKTLIQYLSTLNNLPSFLMSNLARKR  174
+
+Query  222  QYY----NNNNDPVESVSNISLILVDIIFILSIINLLKQKNEFVLKLSSLLIFNSFCFIM  277
+             +Y      + D +  ++    +   +I+I+ I+ + + ++  +  L +L   + F F +
+Sbjct  175  DFYVIHEETDFDTLSVLNTFFAVFPALIYIV-IVKIREVEHYTIECLCALYGLSFFLFAL  233
+
+Query  278  LGSNIVSASRFGFWSYYFSI  297
+              +N + A+R GF +Y+F +
+Sbjct  234  FYNNQIFATRVGFVAYFFGV  253
+
+
+>MBX9187777.1 EpsG family protein [Bacteroides sp. K03]
+Length=313
+
+ Score = 42.4 bits (98),  Expect = 2.5, Method: Compositional matrix adjust.
+ Identities = 73/268 (27%), Positives = 121/268 (45%), Gaps = 38/268 (14%)
+
+Query  20   LIFALRFFYFSHYEILLVSDTLEYYNNFS-DIENDLFPYGLEILMP---ILMFFIKAIGG  75
+            LI+A  F+  +  +  + +DTL YYN F+  ++N    Y L +  P   +L  F+     
+Sbjct  6    LIYAGLFYIGAFRDYTVGADTLSYYNIFNYAVDNPNVQYMLTLSEPSWALLNLFVATCQY  65
+
+Query  76   NFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVFISSFFYMNAVLIIRQ--YISGVFFI  133
+             +   L+  + L +  +FI +++SC  P   I+ ++  +FY N     RQ   IS VF+ 
+Sbjct  66   EYRTILYIGVFLSITPVFIRVWKSCDRPFEAILFYVLLYFYFNCFNGTRQMIAISFVFYA  125
+
+Query  134  YCMLFAYQHKKISLFLAFLSILSHSYAIVWLIVVGRWFRNFITNKIILS-----VIIPIS  188
+            Y  + +   KK   F+   +   H  A+V L V        + NK+ LS     +I+P+S
+Sbjct  126  YEYILSNHLKKYYWFVVVAATF-HYTALVGLFVP-------VLNKLPLSKYVVLLILPLS  177
+
+Query  189  LFAVSFSFSSYQLQSVSSFLLQYNMPGLLQRKIQYYNNNNDPVESVSNISLILVDIIFIL  248
+             FA       Y +  + S L  +   GL       Y  +     S S    +L++I F+L
+Sbjct  178  YFA-----GIYVVPHLMSLLTVFGKFGL-------YAVSEGASGSASR---LLLNIFFVL  222
+
+Query  249  SIINLLKQKNEFVLKL--SSLLIFNSFC  274
+             + +    K +F LK     +LI+N FC
+Sbjct  223  LLFS--NNKKDFYLKCFFIGILIYNLFC  248
+
+
+>MBS6236261.1 EpsG family protein [Clostridiales bacterium]
+Length=402
+
+ Score = 42.7 bits (99),  Expect = 2.6, Method: Compositional matrix adjust.
+ Identities = 39/168 (23%), Positives = 81/168 (48%), Gaps = 5/168 (3%)
+
+Query  45   NNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPL  104
+              +S + +D  PY  E    +L F I  + GN + ++  + T+ + L   ++YR C  P 
+Sbjct  68   GGWSFLVSDANPYLTEFGFSLLTFLISLVTGNVFVYMAVIATIMIGLTAWVLYRDCSKPW  127
+
+Query  105  FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKIS-LFLAFLSILSHSYAIVW  163
+              + +F++  F+ N +  IRQ +    F++ + +  + + +  + L  L+   H+  ++ 
+Sbjct  128  IGMFIFVAFNFFGNTLSYIRQSLGIAIFLFAIHYIKEKRIVPYMLLVLLAATFHNSLLLM  187
+
+Query  164  LIVVGRWFRNFITNKIILSVIIPISLFAVSFSFSSYQLQSVSSFLLQY  211
+            L V   +      N+I L V   +++  + FS+  + L  V+ F+ QY
+Sbjct  188  LPVY--FLAQIAINRISLGVYGGMTILVLVFSWQIFNL--VTQFVYQY  231
+
+
+Sequence with id WP_221649401 no longer exists in database...alignment skipped
+Sequence with id WP_158698664 no longer exists in database...alignment skipped
+Sequence with id WP_200676118 no longer exists in database...alignment skipped
+>RWR01198.1 hypothetical protein ED28_14855 [[Pantoea] beijingensis]
+Length=424
+
+ Score = 41.6 bits (96),  Expect = 5.5, Method: Compositional matrix adjust.
+ Identities = 52/178 (29%), Positives = 82/178 (46%), Gaps = 29/178 (16%)
+
+Query  10   YYLILSFFLTLIFALRFFYFSHYEILLV-----------SDTLEYYNNFSDIENDL----  54
+            ++LI    L+ +F  RF Y     +L+V           SD  EY N +  + N L    
+Sbjct  42   FFLIFVGILSPVFDARFRYLFSIPVLIVAISFYASLQPFSDLAEYINVYHQVNNGLIDIF  101
+
+Query  55   ----FPYGLEILMPILMFFIKAIG----GNFYDFLFFVLTLWLPLIFIIIYR--SCYNPL  104
+                F YG+EIL+ ++M   K +G    GN    L  +  +    IF+I  +  S +  +
+Sbjct  102  AYPRFGYGVEILILVIM---KCVGYLSNGNDQALLVAIYGIIFSYIFLICRKINSRFGLM  158
+
+Query  105  FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIV  162
+             F  VF+S  F  +    +RQ +S V F+Y + F  +++K+      LS +SH  AIV
+Sbjct  159  LFCTVFLSLGFMESLSYFLRQNLSVVLFLYGV-FCVKNRKLRWVYFCLSFMSHISAIV  215
+
+
+Sequence with id WP_119546058 no longer exists in database...alignment skipped
+>WP_217847238.1 EpsG family protein, partial [Klebsiella pneumoniae]
+ MBV5151981.1 EpsG family protein [Klebsiella pneumoniae]
+Length=311
+
+ Score = 41.2 bits (95),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 78/288 (27%), Positives = 137/288 (48%), Gaps = 34/288 (12%)
+
+Query  32   YEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPL  91
+            Y I +VSD L YYN +++I+ND  P+  E ++ +LM+   ++G +F+ F FF +  +LP 
+Sbjct  25   YTIEMVSDNLNYYNVYNNIQNDTMPFQYEFILSLLMYISSSLGMDFFQFTFFKVLTFLP-  83
+
+Query  92   IFIIIY-------RSCYNPLFFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKK  144
+              IIIY       R+      F+  FIS       + + RQ +S  FF+   L     KK
+Sbjct  84   --IIIYVDRNLSKRNNILSYLFLFSFISPPMIGTLIFLARQSLSLEFFLLLSLIHGFRKK  141
+
+Query  145  ISLFLAFLSILSHSYAIVWLIVVGRWFRNFIT---NKIILSVIIPISLFAVSFSFSSYQL  201
+            I L +  +   +H  +I+W + +  W +  +    +K+   V I I L ++   F+   L
+Sbjct  142  IPLLV--IMFFTHMGSIIW-VPIFLWHKRIVAILNSKLFWVVSILILLISI---FTGMDL  195
+
+Query  202  QSVSSFLLQY-----NMPGL----LQRKIQYY--NNNND-PVESVSNISLILVDIIFILS  249
+                  L+QY     N+P      L RK  +Y  +   D    SV N +  ++  +  + 
+Sbjct  196  TKT---LIQYLSTLNNLPSFLMANLARKRDFYVIHEETDFDTLSVLNTTFAVIPALIYII  252
+
+Query  250  IINLLKQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSI  297
+            ++ +   ++  V  L +L   + F F +  +N + A+R GF +Y+F +
+Sbjct  253  MVKIKNVEHYTVECLCALYGLSFFLFALFYNNQIFATRVGFVAYFFGV  300
+
+
+>WP_164877300.1 EpsG family protein [[Pantoea] beijingensis]
+Length=421
+
+ Score = 41.6 bits (96),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 52/178 (29%), Positives = 82/178 (46%), Gaps = 29/178 (16%)
+
+Query  10   YYLILSFFLTLIFALRFFYFSHYEILLV-----------SDTLEYYNNFSDIENDL----  54
+            ++LI    L+ +F  RF Y     +L+V           SD  EY N +  + N L    
+Sbjct  39   FFLIFVGILSPVFDARFRYLFSIPVLIVAISFYASLQPFSDLAEYINVYHQVNNGLIDIF  98
+
+Query  55   ----FPYGLEILMPILMFFIKAIG----GNFYDFLFFVLTLWLPLIFIIIYR--SCYNPL  104
+                F YG+EIL+ ++M   K +G    GN    L  +  +    IF+I  +  S +  +
+Sbjct  99   AYPRFGYGVEILILVIM---KCVGYLSNGNDQALLVAIYGIIFSYIFLICRKINSRFGLM  155
+
+Query  105  FFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHKKISLFLAFLSILSHSYAIV  162
+             F  VF+S  F  +    +RQ +S V F+Y + F  +++K+      LS +SH  AIV
+Sbjct  156  LFCTVFLSLGFMESLSYFLRQNLSVVLFLYGV-FCVKNRKLRWVYFCLSFMSHISAIV  212
+
+
+Sequence with id EGT5709934 no longer exists in database...alignment skipped
+>WP_219008143.1 hypothetical protein [Aquimarina litoralis]
+ MBW1295771.1 hypothetical protein [Aquimarina litoralis]
+Length=508
+
+ Score = 41.6 bits (96),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 42/167 (25%), Positives = 78/167 (47%), Gaps = 19/167 (11%)
+
+Query  5    NRYKGYYLILSFFLTLIFALRFFYFSHYEI--------LLVSDTLEYYNNFSDIENDLFP  56
+             +Y  Y+L   FF+     L F   +H+E+        LL  D++    + +D+  +   
+Sbjct  10   EKYAPYFLAFVFFV-----LSFIGITHHELWLDESHHWLLARDSI----SITDLITNTKY  60
+
+Query  57   YGLEILMPILMFFIKAIGGNFYDFLFFVLTLWLPLIFIIIYRSCYNPLFFIIVFISSFFY  116
+             G  IL  I +F+I     N +   F  + L   ++F+ + ++ ++ +F I+     F +
+Sbjct  61   EGHPILWNIALFYITRFSANPFWMQFLHIILSTIVVFVFLKKAPFSQVFKILFIFGYFIF  120
+
+Query  117  MNAVLIIRQYISGVFFIYCML--FAYQHKKISLFLAFLSILSHSYAI  161
+                +I R Y  GV  I+C L  F  +++K  LF   L+  +H++AI
+Sbjct  121  FEYNIISRNYGFGVLLIFCALGIFQSRYEKFILFATLLAFANHAHAI  167
+
+
+>WP_182912104.1 EpsG family protein [Klebsiella pneumoniae]
+Length=321
+
+ Score = 41.2 bits (95),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 74/283 (26%), Positives = 141/283 (50%), Gaps = 18/283 (6%)
+
+Query  29   FSHYEILLVSDTLEYYNNFSDIENDLFPYGLEILMPILMFFIKAIGGNFYDFLFFVLTLW  88
+            F  Y I L+SD L YYN +++I+ND+ P+  E ++  LM+    IG ++Y F FF +  +
+Sbjct  22   FKIYTIELISDNLNYYNVYNNIQNDIMPFQYEFILSFLMYISSLIGMDYYQFTFFKVLTF  81
+
+Query  89   LPLIFIIIYR--SCYNPLF---FIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHK  143
+            LP+I I + R  S  N +F   F+  FIS       + + RQ +S  FF+   L     K
+Sbjct  82   LPII-IYVDRNISKRNNIFSYLFLFSFISPPMIGTLIFLARQSLSLEFFLLLSLIHGFRK  140
+
+Query  144  KISLFLAFLSILSHSYAIVWLIVVGRWFRNFIT---NKI--ILSVIIPISLFAVSFSFSS  198
+            K+ + +  +   +H  +I+W + +  W +  +    +K+  +LS II I         + 
+Sbjct  141  KLPVLI--IMFFTHMGSIIW-VPIFLWHKRIVAILNSKLFWVLSCIILIVSVFTGMDLTK  197
+
+Query  199  YQLQSVSSF--LLQYNMPGLLQRKIQYYNNNNDPVESVS--NISLILVDIIFILSIINLL  254
+              +Q +S+   L  + M  L +++  Y  +     +++S  N S  ++  +  + ++ + 
+Sbjct  198  ALIQYLSTLNDLPNFLMANLARKRDFYVIHEETDFDTLSVLNTSFAVMPALIYIIMVKIK  257
+
+Query  255  KQKNEFVLKLSSLLIFNSFCFIMLGSNIVSASRFGFWSYYFSI  297
+            + ++  V  L +L   + F F +  +N + A+R GF +Y+F +
+Sbjct  258  EVEHYTVECLCALYGLSFFLFALFYNNQIFATRVGFVAYFFGV  300
+
+
+Sequence with id WP_032439395 no longer exists in database...alignment skipped
+>WP_114077835.1 O81 family O-antigen polymerase [Escherichia coli]
+ AIG62868.1 O-antigen polymerase [Escherichia coli]
+ EZJ41042.1 putative membrane protein [Escherichia coli 2-005-03_S4_C3]
+ EZJ51217.1 putative membrane protein [Escherichia coli 2-005-03_S4_C2]
+ KDT27629.1 putative membrane protein [Escherichia coli 2-052-05_S4_C1]
+ RGO44302.1 O81 family O-antigen polymerase [Escherichia coli]
+Length=409
+
+ Score = 41.2 bits (95),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 54/168 (32%), Positives = 76/168 (45%), Gaps = 26/168 (15%)
+
+Query  38   SDTLEY---YNNFSDIENDLFPYG-----LEILMPILMFFIKAIG-GNFYDFLFFVLTLW  88
+            SD  EY   Y   +D+  D+F +G     +EI +  LM  +  I  GN Y FLFF  T+ 
+Sbjct  83   SDIAEYMLIYRGVTDV--DIFSFGRFGGGIEIFILALMRLVYFISDGNEYLFLFFCFTII  140
+
+Query  89   LPLIFIIIYR-----SCYNPLFFIIVFISSFFYMNAVLIIRQYISGVFFIYCMLFAYQHK  143
+               +F+  YR     SC   L+F++  +S  +Y      +R  +S VFFI   LF  + K
+Sbjct  141  QIFLFVFCYRVNRRLSC---LYFLVFNLSYAYYSFNAYFLRSMLSAVFFINAFLFISKKK  197
+
+Query  144  KISLFLAFLSILSHS-YAIVWLIVVGR------WFRNFITNKIILSVI  184
+             +  F A +S LS   Y  VW  +  R      W  +  T  II   I
+Sbjct  198  YVYYFFAIISHLSSVLYIGVWEYLRARNKKLKIWVASMATVTIICCFI  245
+
+
+Sequence with id RJP45051 no longer exists in database...alignment skipped
+Sequence with id WP_040150227 no longer exists in database...alignment skipped
+Sequence with id WP_023316124 no longer exists in database...alignment skipped
+Sequence with id WP_144232295 no longer exists in database...alignment skipped
+
+Lambda      K        H        a         alpha
+   0.336    0.150    0.458    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14548051959104
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jan 3, 2022  2:35 AM
+  Number of letters in database: 168,524,408,266
+  Number of sequences in database:  449,466,297
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

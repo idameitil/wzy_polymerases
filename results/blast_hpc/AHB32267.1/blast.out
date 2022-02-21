@@ -1,0 +1,174 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           449,466,297 sequences; 168,524,408,266 total letters
+
+
+
+Query= AHB32267.1 616f56a4680f26f118f44958ca5ca278
+
+Length=361
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+AHB32267.1 Wzy [Acinetobacter baumannii]                              706     0.0   
+WP_005255805.1 Unknown                                                543     0.0   
+WP_206261783.1 Unknown                                                336     3e-110
+WP_182004423.1 hypothetical protein [Acinetobacter lactucae]          331     2e-108
+WP_054580615.1 hypothetical protein [Acinetobacter equi]              318     3e-103
+WP_152514789.1 Unknown                                                234     1e-70 
+ERS03611.1 Unknown                                                    227     7e-68 
+WP_026861626.1 Unknown                                                89.7    7e-16 
+WP_063876360.1 Unknown                                                73.9    2e-10 
+MAH26050.1 Unknown                                                    47.4    0.094 
+HCB02321.1 Unknown                                                    46.6    0.15  
+HCR70070.1 Unknown                                                    44.3    1.1   
+
+
+>AHB32267.1 Wzy [Acinetobacter baumannii]
+Length=361
+
+ Score = 706 bits (1821),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 361/361 (100%), Positives = 361/361 (100%), Gaps = 0/361 (0%)
+
+Query  1    MNSMMINKRLIIYCIIFIFLCLFSIFRFEDGKVGDFLVTNYDELRYLLATDNIIQDTKVY  60
+            MNSMMINKRLIIYCIIFIFLCLFSIFRFEDGKVGDFLVTNYDELRYLLATDNIIQDTKVY
+Sbjct  1    MNSMMINKRLIIYCIIFIFLCLFSIFRFEDGKVGDFLVTNYDELRYLLATDNIIQDTKVY  60
+
+Query  61   GIIYTLENFYNYTQSVHFLHYFVLSFFRYFFNDSMVVWSLYQLSIYTLGCYFFGKFIRLE  120
+            GIIYTLENFYNYTQSVHFLHYFVLSFFRYFFNDSMVVWSLYQLSIYTLGCYFFGKFIRLE
+Sbjct  61   GIIYTLENFYNYTQSVHFLHYFVLSFFRYFFNDSMVVWSLYQLSIYTLGCYFFGKFIRLE  120
+
+Query  121  YDFISTNEEFLATVLMLLYPVFYFLTFSLMRDIAIFSLLSICLYFYKSNNYKLLILFIFV  180
+            YDFISTNEEFLATVLMLLYPVFYFLTFSLMRDIAIFSLLSICLYFYKSNNYKLLILFIFV
+Sbjct  121  YDFISTNEEFLATVLMLLYPVFYFLTFSLMRDIAIFSLLSICLYFYKSNNYKLLILFIFV  180
+
+Query  181  ISLYRLNMMLCILVYILIDQFRDRSILSILKYLILSALILFVVDKVSINFLSRHLSRIYE  240
+            ISLYRLNMMLCILVYILIDQFRDRSILSILKYLILSALILFVVDKVSINFLSRHLSRIYE
+Sbjct  181  ISLYRLNMMLCILVYILIDQFRDRSILSILKYLILSALILFVVDKVSINFLSRHLSRIYE  240
+
+Query  241  FNFLGLINEVLVFLLSPLPFSVDQSLPQYLRFWFMISFWLCVFLIFIYIIFIIKKKNIQL  300
+            FNFLGLINEVLVFLLSPLPFSVDQSLPQYLRFWFMISFWLCVFLIFIYIIFIIKKKNIQL
+Sbjct  241  FNFLGLINEVLVFLLSPLPFSVDQSLPQYLRFWFMISFWLCVFLIFIYIIFIIKKKNIQL  300
+
+Query  301  VLGAPIIGMSLFYIATYSIEAGIGFRQSSILLPFIYIPIFLYFIKQFIPVKSYVNFKGTN  360
+            VLGAPIIGMSLFYIATYSIEAGIGFRQSSILLPFIYIPIFLYFIKQFIPVKSYVNFKGTN
+Sbjct  301  VLGAPIIGMSLFYIATYSIEAGIGFRQSSILLPFIYIPIFLYFIKQFIPVKSYVNFKGTN  360
+
+Query  361  E  361
+            E
+Sbjct  361  E  361
+
+
+Sequence with id WP_005255805 no longer exists in database...alignment skipped
+Sequence with id WP_206261783 no longer exists in database...alignment skipped
+>WP_182004423.1 hypothetical protein [Acinetobacter lactucae]
+Length=350
+
+ Score = 331 bits (849),  Expect = 2e-108, Method: Compositional matrix adjust.
+ Identities = 165/344 (48%), Positives = 246/344 (72%), Gaps = 0/344 (0%)
+
+Query  4    MMINKRLIIYCIIFIFLCLFSIFRFEDGKVGDFLVTNYDELRYLLATDNIIQDTKVYGII  63
+            M I+K   +  + F    ++S + F  GKVGDFLVT YDE+RYL AT+ +I D K YG  
+Sbjct  1    MKIDKNTFLCFLAFFTYSIWSFYTFGSGKVGDFLVTPYDEIRYLEATNRLIVDLKAYGFF  60
+
+Query  64   YTLENFYNYTQSVHFLHYFVLSFFRYFFNDSMVVWSLYQLSIYTLGCYFFGKFIRLEYDF  123
+            YT+EN+YNY+QSVHF HYF+ ++ RYFFNDSM  WS+YQ  IY+LG  +F K++  EY+F
+Sbjct  61   YTIENYYNYSQSVHFGHYFIFAYIRYFFNDSMFFWSVYQNFIYSLGVLYFSKYMMEEYNF  120
+
+Query  124  ISTNEEFLATVLMLLYPVFYFLTFSLMRDIAIFSLLSICLYFYKSNNYKLLILFIFVISL  183
+            I   +    ++L+ LYPVF++L FS+MRDI+IF+  ++ LYFYK N Y  L+L + ++S 
+Sbjct  121  IKITDRKYISLLVFLYPVFHYLAFSIMRDISIFTFFTMSLYFYKRNKYIKLLLVLILLST  180
+
+Query  184  YRLNMMLCILVYILIDQFRDRSILSILKYLILSALILFVVDKVSINFLSRHLSRIYEFNF  243
+            YR+NM+LC+L+Y+ +DQ +  ++ S++KYL+ S  ++  VD V+  F+ R+L+R+  F+ 
+Sbjct  181  YRINMVLCVLLYMFVDQVKGANLFSVMKYLLTSIAVIVFVDSVTFGFIFRNLNRLSAFSL  240
+
+Query  244  LGLINEVLVFLLSPLPFSVDQSLPQYLRFWFMISFWLCVFLIFIYIIFIIKKKNIQLVLG  303
+            +  INE+LV   SPLPFS+D SLP+YLR WF +SF++C+ LI  Y+I +I ++  ++   
+Sbjct  241  IDFINELLVLFFSPLPFSIDTSLPEYLRSWFKLSFFICLLLISFYLIILIYRRFREIAPS  300
+
+Query  304  APIIGMSLFYIATYSIEAGIGFRQSSILLPFIYIPIFLYFIKQF  347
+             PI+ ++L Y+  Y+ EAG+GFRQ+SI+LPFIYIP+F Y ++ F
+Sbjct  301  FPILVVTLLYVFIYTTEAGVGFRQASIILPFIYIPVFFYILRVF  344
+
+
+>WP_054580615.1 hypothetical protein [Acinetobacter equi]
+ ALH94715.1 hypothetical protein AOY20_03735 [Acinetobacter equi]
+Length=349
+
+ Score = 318 bits (815),  Expect = 3e-103, Method: Compositional matrix adjust.
+ Identities = 172/342 (50%), Positives = 238/342 (70%), Gaps = 0/342 (0%)
+
+Query  4    MMINKRLIIYCIIFIFLCLFSIFRFEDGKVGDFLVTNYDELRYLLATDNIIQDTKVYGII  63
+            M I+K   +  ++FI    +S   FE   V + +VT YDE+RYL ATD ++ D K YG +
+Sbjct  1    MNIDKNKFLIFLMFILYVAWSFIFFESSTVYENIVTAYDEIRYLNATDLLLIDLKQYGFL  60
+
+Query  64   YTLENFYNYTQSVHFLHYFVLSFFRYFFNDSMVVWSLYQLSIYTLGCYFFGKFIRLEYDF  123
+            YTLEN+YNY+QSVHFLHYFVL+F RYFFNDSM  W +YQL IY +G ++F +++ LEYDF
+Sbjct  61   YTLENYYNYSQSVHFLHYFVLAFIRYFFNDSMFFWMVYQLLIYCIGAFYFSRYMYLEYDF  120
+
+Query  124  ISTNEEFLATVLMLLYPVFYFLTFSLMRDIAIFSLLSICLYFYKSNNYKLLILFIFVISL  183
+            I         +L+L+YPVF +L+FSLMRDI+IF LLS+ L+FYK NN+  L L + ++S 
+Sbjct  121  IKIEYVKYTALLILVYPVFLYLSFSLMRDISIFCLLSMALFFYKKNNFFRLFLILILLSF  180
+
+Query  184  YRLNMMLCILVYILIDQFRDRSILSILKYLILSALILFVVDKVSINFLSRHLSRIYEFNF  243
+            YR+NMMLCIL YI +DQ +   +  +  Y ++S ++L+ VD VS  F+S+ L R+ +FN 
+Sbjct  181  YRINMMLCILFYIFVDQIKIDGLSKLFIYFLISCVLLYGVDLVSFGFVSKSLGRVDDFNV  240
+
+Query  244  LGLINEVLVFLLSPLPFSVDQSLPQYLRFWFMISFWLCVFLIFIYIIFIIKKKNIQLVLG  303
+            L ++ E L F+ SPLPF++D +LP+YLR WF ISF +C+ L+   +I +I KK   +   
+Sbjct  241  LNVMTEALSFMFSPLPFTIDINLPEYLRLWFKISFIICLVLMIFNLILLIYKKFTIISPS  300
+
+Query  304  APIIGMSLFYIATYSIEAGIGFRQSSILLPFIYIPIFLYFIK  345
+             PI+ MSL YI  YS E G+GFRQ+SILLPFIYIP+  + I+
+Sbjct  301  LPIVMMSLLYIIIYSTEVGVGFRQASILLPFIYIPVLFFIIE  342
+
+
+Sequence with id WP_152514789 no longer exists in database...alignment skipped
+Sequence with id ERS03611 no longer exists in database...alignment skipped
+Sequence with id WP_026861626 no longer exists in database...alignment skipped
+Sequence with id WP_063876360 no longer exists in database...alignment skipped
+Sequence with id MAH26050 no longer exists in database...alignment skipped
+Sequence with id HCB02321 no longer exists in database...alignment skipped
+Sequence with id HCR70070 no longer exists in database...alignment skipped
+
+Lambda      K        H        a         alpha
+   0.338    0.153    0.467    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18677951304926
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jan 3, 2022  2:35 AM
+  Number of letters in database: 168,524,408,266
+  Number of sequences in database:  449,466,297
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

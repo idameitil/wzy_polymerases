@@ -1,0 +1,3137 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           449,466,297 sequences; 168,524,408,266 total letters
+
+
+
+Query= ABA42232.1 9750aa26a7b615b429998505e76075b1
+
+Length=380
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_001297346.1 MULTISPECIES: O148 family O-antigen polymerase [En...  755     0.0   
+WP_097512199.1 O148 family O-antigen polymerase [Escherichia coli]    754     0.0   
+MCA7666338.1 Unknown                                                  753     0.0   
+WP_000220865.1 Unknown                                                753     0.0   
+WP_097737590.1 Unknown                                                753     0.0   
+HAW0527601.1 Unknown                                                  753     0.0   
+EFB7606573.1 oligosaccharide repeat unit polymerase [Escherichia ...  753     0.0   
+WP_053286255.1 O148 family O-antigen polymerase [Escherichia coli]    753     0.0   
+WP_193770088.1 Unknown                                                752     0.0   
+EIP7953622.1 Unknown                                                  751     0.0   
+EGD4853459.1 Unknown                                                  751     0.0   
+WP_187182267.1 O148 family O-antigen polymerase [Escherichia coli]    751     0.0   
+EHO8429937.1 O148 family O-antigen polymerase [Escherichia coli]      748     0.0   
+WP_000220864.1 Unknown                                                746     0.0   
+Q03584.1 Unknown                                                      745     0.0   
+EEV6401261.1 Unknown                                                  743     0.0   
+WP_143356666.1 O148 family O-antigen polymerase [Escherichia coli]    739     0.0   
+EFK2702491.1 Unknown                                                  731     0.0   
+EHW5547083.1 O148 family O-antigen polymerase [Escherichia coli]      714     0.0   
+EIH9924948.1 Unknown                                                  705     0.0   
+EEW0984129.1 Unknown                                                  642     0.0   
+EFN6721186.1 oligosaccharide repeat unit polymerase [Escherichia ...  641     0.0   
+HBH9000349.1 TPA: O148 family O-antigen polymerase [Escherichia c...  567     0.0   
+WP_180470039.1 Unknown                                                555     0.0   
+EEV5987621.1 oligosaccharide repeat unit polymerase [Escherichia ...  546     0.0   
+EEW4351080.1 oligosaccharide repeat unit polymerase [Escherichia ...  518     0.0   
+EEW4306013.1 Unknown                                                  499     7e-176
+MBE8140267.1 Unknown                                                  491     6e-173
+EFL5743264.1 O148 family O-antigen polymerase [Escherichia coli]      479     6e-168
+EAB0397473.1 oligosaccharide repeat unit polymerase [Escherichia ...  473     5e-166
+PQN42979.1 Unknown                                                    404     3e-139
+HBD3377496.1 Unknown                                                  389     4e-133
+HBH9462018.1 TPA: O148 family O-antigen polymerase [Escherichia c...  387     1e-132
+EHH5213098.1 Unknown                                                  383     7e-131
+EEY7242946.1 Unknown                                                  381     4e-130
+RVS64811.1 oligosaccharide repeat unit polymerase [Escherichia coli]  379     3e-129
+EGS3115613.1 O148 family O-antigen polymerase [Escherichia coli]      377     2e-128
+EFB1629889.1 Unknown                                                  366     2e-124
+EHH5063897.1 Unknown                                                  365     8e-124
+HBB5019554.1 Unknown                                                  353     3e-119
+HAL9108756.1 TPA: O148 family O-antigen polymerase [Escherichia c...  350     5e-118
+EEX9686063.1 Unknown                                                  347     4e-117
+EHH5211722.1 O148 family O-antigen polymerase [Escherichia coli]      339     8e-114
+HBH9461503.1 TPA: O148 family O-antigen polymerase [Escherichia c...  328     7e-110
+HBD3377667.1 Unknown                                                  319     5e-106
+RVS64810.1 oligosaccharide repeat unit polymerase [Escherichia coli]  311     5e-103
+EFF9318999.1 Unknown                                                  310     2e-102
+EFX9816450.1 O148 family O-antigen polymerase [Shigella dysenteriae]  304     3e-100
+EHY2884732.1 Unknown                                                  248     1e-78 
+EEV5985761.1 oligosaccharide repeat unit polymerase [Escherichia ...  155     3e-43 
+HBH9000368.1 TPA: oligosaccharide repeat unit polymerase [Escheri...  144     7e-39 
+WP_226440565.1 Unknown                                                140     6e-34 
+EHB4605846.1 oligosaccharide repeat unit polymerase [Escherichia ...  124     3e-31 
+WP_099396418.1 hypothetical protein [Iodobacter sp. BJB302]           89.0    2e-15 
+HAV4963190.1 Unknown                                                  84.7    6e-14 
+WP_139212107.1 Unknown                                                78.2    3e-12 
+EFN6719344.1 oligosaccharide repeat unit polymerase [Escherichia ...  68.9    5e-11 
+WP_146042874.1 Unknown                                                69.3    7e-09 
+WP_133277336.1 Unknown                                                65.5    2e-07 
+EEX9686058.1 Unknown                                                  58.2    3e-07 
+WP_081992033.1 oligosaccharide repeat unit polymerase [Collimonas...  62.8    1e-06 
+OHY69371.1 hypothetical protein BB778_09155 [Pluralibacter gergov...  61.2    1e-06 
+WP_092353219.1 Unknown                                                61.6    3e-06 
+WP_138928582.1 Unknown                                                61.6    3e-06 
+MBA4344760.1 Unknown                                                  60.8    6e-06 
+WP_075441662.1 hypothetical protein [Selenomonas ruminantium]         55.5    2e-04 
+WP_167690153.1 Unknown                                                53.9    8e-04 
+WP_014006657.1 oligosaccharide repeat unit polymerase [Collimonas...  53.1    0.001 
+WP_081261931.1 Unknown                                                53.1    0.002 
+WP_019720063.1 oligosaccharide repeat unit polymerase [Ralstonia ...  52.8    0.002 
+WP_011004488.1 Unknown                                                52.4    0.003 
+AGH87207.1 Unknown                                                    52.0    0.003 
+KLU62675.1 hypothetical protein CEB3_c09870 [Peptococcaceae bacte...  52.0    0.004 
+WP_089191035.1 MULTISPECIES: oligosaccharide repeat unit polymera...  51.6    0.004 
+WP_043898115.1 MULTISPECIES: oligosaccharide repeat unit polymera...  51.6    0.005 
+WP_197346612.1 Unknown                                                51.6    0.005 
+WP_165590641.1 Unknown                                                51.6    0.005 
+WP_041620312.1 Unknown                                                51.6    0.005 
+ADQ79438.1 Unknown                                                    51.2    0.006 
+WP_229761534.1 oligosaccharide repeat unit polymerase [Ferruginib...  51.2    0.006 
+HBE42173.1 TPA: hypothetical protein [Bacteroidales bacterium]        51.2    0.006 
+RYG02236.1 Unknown                                                    50.8    0.008 
+WP_115045911.1 Unknown                                                50.8    0.009 
+WP_073335096.1 Unknown                                                50.8    0.009 
+WP_211441642.1 Unknown                                                50.4    0.009 
+HBK0801963.1 Unknown                                                  49.3    0.015 
+MBQ3293615.1 oligosaccharide repeat unit polymerase [Candidatus S...  49.7    0.023 
+HCN54102.1 TPA: hypothetical protein [Prevotella sp.]                 49.3    0.029 
+MBL5010843.1 Unknown                                                  48.9    0.035 
+UCF23555.1 Unknown                                                    48.9    0.039 
+WP_114635909.1 MULTISPECIES: oligosaccharide repeat unit polymera...  48.9    0.039 
+WP_021555519.1 oligosaccharide repeat unit polymerase [Escherichi...  48.5    0.041 
+WP_059341639.1 Unknown                                                48.5    0.042 
+WP_150887071.1 Unknown                                                48.5    0.047 
+WP_132001896.1 oligosaccharide repeat unit polymerase [Flavobacte...  48.5    0.049 
+WP_167818012.1 oligosaccharide repeat unit polymerase [Enterococc...  48.1    0.055 
+WP_142729881.1 Unknown                                                48.1    0.058 
+WP_194180435.1 Unknown                                                48.1    0.069 
+WP_106379664.1 oligosaccharide repeat unit polymerase [Escherichi...  47.8    0.071 
+WP_187420945.1 Unknown                                                47.8    0.084 
+WP_209551102.1 oligosaccharide repeat unit polymerase [Streptococ...  47.8    0.097 
+WP_103819226.1 Unknown                                                47.4    0.11  
+WP_227969790.1 Unknown                                                47.4    0.12  
+WP_220797087.1 oligosaccharide repeat unit polymerase [Paraclostr...  47.0    0.14  
+WP_025162139.1 Unknown                                                47.0    0.16  
+WP_176798227.1 Unknown                                                46.6    0.18  
+WP_149565771.1 oligosaccharide repeat unit polymerase [Streptococ...  46.6    0.19  
+WP_128834962.1 oligosaccharide repeat unit polymerase [Streptococ...  46.6    0.19  
+WP_125377924.1 oligosaccharide repeat unit polymerase [Streptococ...  46.6    0.20  
+WP_125396550.1 oligosaccharide repeat unit polymerase [Streptococ...  46.6    0.20  
+WP_111694593.1 oligosaccharide repeat unit polymerase [Streptococ...  46.6    0.20  
+WP_125382654.1 oligosaccharide repeat unit polymerase [Streptococ...  46.6    0.22  
+WP_015605928.1 oligosaccharide repeat unit polymerase [Streptococ...  46.2    0.23  
+WP_227965284.1 Unknown                                                46.2    0.23  
+WP_125410556.1 Unknown                                                46.2    0.24  
+MBF1697748.1 Unknown                                                  46.2    0.24  
+WP_061592433.1 Unknown                                                46.2    0.25  
+WP_195418208.1 Unknown                                                46.2    0.25  
+MBQ9569226.1 oligosaccharide repeat unit polymerase [Alloprevotel...  46.2    0.25  
+WP_048773128.1 Unknown                                                46.2    0.25  
+WP_046821793.1 Unknown                                                46.2    0.26  
+WP_125445531.1 Unknown                                                46.2    0.26  
+WP_002917831.1 oligosaccharide repeat unit polymerase [Streptococ...  46.2    0.26  
+WP_125352442.1 Unknown                                                46.2    0.26  
+WP_126434985.1 oligosaccharide repeat unit polymerase [Streptococ...  46.2    0.26  
+WP_002920399.1 oligosaccharide repeat unit polymerase [Streptococ...  46.2    0.27  
+WP_061603223.1 Unknown                                                46.2    0.27  
+MBF1706997.1 Unknown                                                  46.2    0.27  
+WP_002908530.1 Unknown                                                46.2    0.27  
+WP_002894039.1 oligosaccharide repeat unit polymerase [Streptococ...  46.2    0.27  
+MBF1689507.1 oligosaccharide repeat unit polymerase [Streptococcu...  46.2    0.27  
+WP_004192559.1 Unknown                                                46.2    0.28  
+QLB51369.1 oligosaccharide repeat unit polymerase [Streptococcus ...  46.2    0.28  
+WP_002907806.1 Unknown                                                46.2    0.28  
+WP_125347091.1 oligosaccharide repeat unit polymerase [Streptococ...  46.2    0.29  
+WP_002914157.1 oligosaccharide repeat unit polymerase [Streptococ...  46.2    0.29  
+WP_223312062.1 oligosaccharide repeat unit polymerase [Streptococ...  46.2    0.29  
+BDA18882.1 hypothetical protein KAM345_027960 [Aeromonas caviae]      45.4    0.29  
+WP_224017067.1 Unknown                                                46.2    0.30  
+WP_002928269.1 oligosaccharide repeat unit polymerase [Streptococ...  46.2    0.30  
+WP_168930506.1 Unknown                                                45.8    0.31  
+WP_223337775.1 oligosaccharide repeat unit polymerase [Streptococ...  45.8    0.32  
+WP_150843206.1 Unknown                                                45.8    0.33  
+WP_223321637.1 Unknown                                                45.8    0.34  
+WP_223315094.1 oligosaccharide repeat unit polymerase [Streptococ...  45.8    0.35  
+WP_125351509.1 Unknown                                                45.8    0.36  
+WP_168956423.1 Unknown                                                45.8    0.38  
+WP_002899245.1 Unknown                                                45.8    0.39  
+WP_072074729.1 Unknown                                                45.8    0.39  
+WP_214095740.1 oligosaccharide repeat unit polymerase [Morganella...  45.4    0.43  
+WP_118106466.1 oligosaccharide repeat unit polymerase [Streptococ...  45.4    0.46  
+WP_223313684.1 Unknown                                                45.4    0.46  
+WP_221737196.1 Unknown                                                45.4    0.48  
+WP_109623580.1 oligosaccharide repeat unit polymerase [Chryseobac...  45.4    0.49  
+WP_060554225.1 Unknown                                                45.4    0.50  
+WP_211472313.1 Unknown                                                45.1    0.51  
+WP_155972045.1 Unknown                                                45.1    0.57  
+WP_155965990.1 oligosaccharide repeat unit polymerase [Streptococ...  45.1    0.57  
+WP_156008262.1 Unknown                                                45.1    0.58  
+WP_024532600.1 Unknown                                                45.1    0.59  
+WP_223946072.1 oligosaccharide repeat unit polymerase [Aeromonas ...  44.7    0.60  
+WP_125434026.1 oligosaccharide repeat unit polymerase [Streptococ...  45.1    0.64  
+WP_224170705.1 oligosaccharide repeat unit polymerase [Paraclostr...  45.1    0.65  
+WP_002916685.1 oligosaccharide repeat unit polymerase [Streptococ...  45.1    0.66  
+WP_082367525.1 Unknown                                                44.7    0.70  
+WP_009660131.1 Unknown                                                44.7    0.85  
+WP_170075504.1 Unknown                                                44.7    0.86  
+WP_124765023.1 oligosaccharide repeat unit polymerase [Streptococ...  44.7    0.89  
+WP_125401751.1 oligosaccharide repeat unit polymerase [Streptococ...  44.7    0.90  
+WP_035115179.1 Unknown                                                44.7    0.94  
+WP_006846801.1 oligosaccharide repeat unit polymerase [Prevotella...  44.7    1.0   
+MBW7840019.1 Unknown                                                  44.3    1.1   
+WP_021433702.1 Unknown                                                44.3    1.1   
+MBD5132147.1 oligosaccharide repeat unit polymerase [Clostridiale...  44.3    1.1   
+WP_085282284.1 Unknown                                                44.3    1.1   
+WP_125330745.1 oligosaccharide repeat unit polymerase [Streptococ...  44.3    1.2   
+WP_135033576.1 Unknown                                                43.9    1.3   
+EOS19035.1 hypothetical protein C803_01198 [Parabacteroides golds...  43.9    1.4   
+WP_160257462.1 Unknown                                                43.5    1.5   
+NBI98321.1 Unknown                                                    43.5    1.5   
+MBU0742289.1 oligosaccharide repeat unit polymerase [bacterium]       43.9    1.5   
+WP_157310101.1 oligosaccharide repeat unit polymerase [Parabacter...  43.9    1.5   
+RLT82249.1 oligosaccharide repeat unit polymerase [Parabacteroide...  43.9    1.6   
+WP_088398162.1 oligosaccharide repeat unit polymerase [Flavobacte...  43.5    1.7   
+WP_068981941.1 Unknown                                                43.5    1.8   
+WP_128739709.1 oligosaccharide repeat unit polymerase [Leuconosto...  43.5    1.8   
+WP_158664406.1 Unknown                                                43.5    1.8   
+AVA36364.1 Unknown                                                    43.5    1.9   
+ABF09143.1 conserved hypothetical protein [Cupriavidus metallidur...  43.5    1.9   
+WP_071952255.1 Unknown                                                43.5    1.9   
+WP_002902066.1 oligosaccharide repeat unit polymerase [Streptococ...  43.5    1.9   
+WP_082219898.1 oligosaccharide repeat unit polymerase [Cupriavidu...  43.5    2.0   
+MCD8297167.1 Unknown                                                  43.5    2.1   
+MBS1735227.1 oligosaccharide repeat unit polymerase [Bacteroidete...  43.1    2.2   
+RDC50024.1 Unknown                                                    43.1    2.6   
+RYF51584.1 oligosaccharide repeat unit polymerase [Cytophagaceae ...  43.1    2.7   
+WP_223354989.1 Unknown                                                43.1    2.8   
+EGP0011017.1 oligosaccharide repeat unit polymerase [Enterococcus...  42.0    3.1   
+MBS6509108.1 Unknown                                                  42.7    3.2   
+WP_148549886.1 oligosaccharide repeat unit polymerase [Paraclostr...  42.7    3.3   
+WP_106083088.1 oligosaccharide repeat unit polymerase [Streptococ...  42.7    3.5   
+HBJ53696.1 Unknown                                                    42.7    3.6   
+VDM61310.1 unnamed protein product [Angiostrongylus costaricensis]    39.7    3.7   
+WP_224017069.1 oligosaccharide repeat unit polymerase [Ferruginib...  42.4    3.9   
+WP_117589057.1 Unknown                                                42.4    4.1   
+WP_195946118.1 Unknown                                                42.4    4.2   
+WP_212892137.1 oligosaccharide repeat unit polymerase [Capnocytop...  42.4    4.3   
+WP_195335645.1 oligosaccharide repeat unit polymerase [Paraclostr...  42.4    4.4   
+HBE4676150.1 Unknown                                                  42.4    4.6   
+GCP98440.1 hypothetical protein BvCmsHHNP005_04000 [Escherichia c...  42.0    4.7   
+WP_097332060.1 O133 family O-antigen polymerase [Escherichia coli]    42.0    4.8   
+EHB5920884.1 Unknown                                                  42.0    4.8   
+EFH8074228.1 Unknown                                                  42.0    4.9   
+WP_089655912.1 Unknown                                                42.4    5.0   
+WP_130070237.1 O133 family O-antigen polymerase [Escherichia coli]    42.0    5.0   
+HBB9009765.1 Unknown                                                  42.0    5.1   
+WP_074503490.1 O133 family O-antigen polymerase [Escherichia coli]    42.0    5.2   
+WP_155972547.1 Unknown                                                40.8    5.2   
+WP_137455937.1 Unknown                                                42.0    5.2   
+SQL38370.1 Unknown                                                    42.0    5.2   
+WP_012130991.1 Unknown                                                42.0    5.3   
+EEW7579491.1 O133 family O-antigen polymerase [Escherichia coli]      42.0    5.4   
+WP_223926273.1 Unknown                                                42.0    5.5   
+WP_086528087.1 oligosaccharide repeat unit polymerase [Enterobact...  42.0    5.9   
+WP_112032556.1 O133 family O-antigen polymerase [Escherichia coli]    42.0    6.0   
+WP_223929241.1 Unknown                                                42.0    6.0   
+WP_039098257.1 Unknown                                                41.6    6.8   
+WP_175118893.1 Unknown                                                41.6    7.2   
+WP_115223414.1 oligosaccharide repeat unit polymerase [Escherichi...  41.6    7.4   
+HAT2491748.1 TPA: oligosaccharide repeat unit polymerase [Aeromon...  41.6    8.0   
+WP_199884657.1 oligosaccharide repeat unit polymerase [Escherichi...  41.6    8.4   
+MBR3518882.1 oligosaccharide repeat unit polymerase [Paludibacter...  41.2    8.8   
+EGP4915398.1 Unknown                                                  41.2    9.1   
+WP_002336783.1 oligosaccharide repeat unit polymerase [Enterococc...  41.2    9.2   
+MPS86599.1 Unknown                                                    41.2    9.4   
+WP_072974770.1 oligosaccharide repeat unit polymerase [Flavobacte...  41.2    9.9   
+
+
+>WP_001297346.1 MULTISPECIES: O148 family O-antigen polymerase [Enterobacteriaceae]
+ ABA42232.1 Wzy [Escherichia coli]
+ AIF61154.1 Wzy [Escherichia coli B7A]
+ EAA4629269.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ EDV61974.1 Wzy [Escherichia coli B7A]
+ EEU9440592.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+Length=380
+
+ Score = 755 bits (1949),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 380/380 (100%), Positives = 380/380 (100%), Gaps = 0/380 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+            LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF
+Sbjct  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+
+Query  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+            LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY
+Sbjct  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+
+Query  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+            LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA
+Sbjct  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+
+Query  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+            PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM
+Sbjct  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+
+Query  361  HFIYFLCAILLAMRKALEYE  380
+            HFIYFLCAILLAMRKALEYE
+Sbjct  361  HFIYFLCAILLAMRKALEYE  380
+
+
+>WP_097512199.1 O148 family O-antigen polymerase [Escherichia coli]
+ EEU9543232.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+Length=380
+
+ Score = 754 bits (1947),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 379/380 (99%), Positives = 380/380 (100%), Gaps = 0/380 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRV+FSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVIFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+            LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF
+Sbjct  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+
+Query  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+            LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY
+Sbjct  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+
+Query  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+            LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA
+Sbjct  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+
+Query  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+            PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM
+Sbjct  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+
+Query  361  HFIYFLCAILLAMRKALEYE  380
+            HFIYFLCAILLAMRKALEYE
+Sbjct  361  HFIYFLCAILLAMRKALEYE  380
+
+
+Sequence with id MCA7666338 no longer exists in database...alignment skipped
+Sequence with id WP_000220865 no longer exists in database...alignment skipped
+Sequence with id WP_097737590 no longer exists in database...alignment skipped
+Sequence with id HAW0527601 no longer exists in database...alignment skipped
+>EFB7606573.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+Length=380
+
+ Score = 753 bits (1944),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 379/380 (99%), Positives = 380/380 (100%), Gaps = 0/380 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+            LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF
+Sbjct  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+
+Query  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+            LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY
+Sbjct  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+
+Query  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+            LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTK+IPKTDILPWINTGVWDTNVYTAFA
+Sbjct  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKNIPKTDILPWINTGVWDTNVYTAFA  300
+
+Query  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+            PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM
+Sbjct  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+
+Query  361  HFIYFLCAILLAMRKALEYE  380
+            HFIYFLCAILLAMRKALEYE
+Sbjct  361  HFIYFLCAILLAMRKALEYE  380
+
+
+>WP_053286255.1 O148 family O-antigen polymerase [Escherichia coli]
+ HAX4548599.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=380
+
+ Score = 753 bits (1944),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 379/380 (99%), Positives = 380/380 (100%), Gaps = 0/380 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAG+INIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGVINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+            LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF
+Sbjct  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+
+Query  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+            LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY
+Sbjct  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+
+Query  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+            LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA
+Sbjct  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+
+Query  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+            PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM
+Sbjct  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+
+Query  361  HFIYFLCAILLAMRKALEYE  380
+            HFIYFLCAILLAMRKALEYE
+Sbjct  361  HFIYFLCAILLAMRKALEYE  380
+
+
+Sequence with id WP_193770088 no longer exists in database...alignment skipped
+Sequence with id EIP7953622 no longer exists in database...alignment skipped
+Sequence with id EGD4853459 no longer exists in database...alignment skipped
+>WP_187182267.1 O148 family O-antigen polymerase [Escherichia coli]
+ EGK3324170.1 O148 family O-antigen polymerase [Escherichia coli]
+ HAX4978902.1 O148 family O-antigen polymerase [Escherichia coli]
+ HAX5047693.1 O148 family O-antigen polymerase [Escherichia coli]
+ HAX9746708.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=380
+
+ Score = 751 bits (1938),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 377/380 (99%), Positives = 378/380 (99%), Gaps = 0/380 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+            LKVMREGILDGS+SGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF
+Sbjct  121  LKVMREGILDGSISGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+
+Query  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+            LILFLVYIVGINSYVSKKKLLIYG FVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY
+Sbjct  181  LILFLVYIVGINSYVSKKKLLIYGVFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+
+Query  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+            LFSGLAAFNLYVEKN TLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA
+Sbjct  241  LFSGLAAFNLYVEKNATLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+
+Query  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+            PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM
+Sbjct  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+
+Query  361  HFIYFLCAILLAMRKALEYE  380
+            HFIYFLCAILLAMRKALEYE
+Sbjct  361  HFIYFLCAILLAMRKALEYE  380
+
+
+>EHO8429937.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=377
+
+ Score = 748 bits (1931),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 377/377 (100%), Positives = 377/377 (100%), Gaps = 0/377 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+            LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF
+Sbjct  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+
+Query  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+            LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY
+Sbjct  181  LILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVY  240
+
+Query  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+            LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA
+Sbjct  241  LFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFA  300
+
+Query  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+            PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM
+Sbjct  301  PWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+
+Query  361  HFIYFLCAILLAMRKAL  377
+            HFIYFLCAILLAMRKAL
+Sbjct  361  HFIYFLCAILLAMRKAL  377
+
+
+Sequence with id WP_000220864 no longer exists in database...alignment skipped
+Sequence with id Q03584 no longer exists in database...alignment skipped
+Sequence with id EEV6401261 no longer exists in database...alignment skipped
+>WP_143356666.1 O148 family O-antigen polymerase, partial [Escherichia coli]
+Length=372
+
+ Score = 739 bits (1908),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 372/372 (100%), Positives = 372/372 (100%), Gaps = 0/372 (0%)
+
+Query  9    LILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFF  68
+            LILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFF
+Sbjct  1    LILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFF  60
+
+Query  69   SMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGI  128
+            SMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGI
+Sbjct  61   SMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGI  120
+
+Query  129  LDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYI  188
+            LDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYI
+Sbjct  121  LDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYI  180
+
+Query  189  VGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAF  248
+            VGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAF
+Sbjct  181  VGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAF  240
+
+Query  249  NLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGL  308
+            NLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGL
+Sbjct  241  NLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGL  300
+
+Query  309  YAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCA  368
+            YAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCA
+Sbjct  301  YAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCA  360
+
+Query  369  ILLAMRKALEYE  380
+            ILLAMRKALEYE
+Sbjct  361  ILLAMRKALEYE  372
+
+
+Sequence with id EFK2702491 no longer exists in database...alignment skipped
+>EHW5547083.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=358
+
+ Score = 714 bits (1842),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 358/358 (100%), Positives = 358/358 (100%), Gaps = 0/358 (0%)
+
+Query  23   QSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIARSGRVV  82
+            QSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIARSGRVV
+Sbjct  1    QSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIARSGRVV  60
+
+Query  83   FSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGILDGSVSGFGLGISL  142
+            FSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGILDGSVSGFGLGISL
+Sbjct  61   FSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGILDGSVSGFGLGISL  120
+
+Query  143  PLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLI  202
+            PLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLI
+Sbjct  121  PLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLI  180
+
+Query  203  YGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENL  262
+            YGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENL
+Sbjct  181  YGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENL  240
+
+Query  263  LLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYY  322
+            LLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYY
+Sbjct  241  LLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYY  300
+
+Query  323  GIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE  380
+            GIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE
+Sbjct  301  GIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE  358
+
+
+Sequence with id EIH9924948 no longer exists in database...alignment skipped
+Sequence with id EEW0984129 no longer exists in database...alignment skipped
+>EFN6721186.1 oligosaccharide repeat unit polymerase [Escherichia coli H18]
+Length=321
+
+ Score = 641 bits (1653),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 321/321 (100%), Positives = 321/321 (100%), Gaps = 0/321 (0%)
+
+Query  60   FILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHF  119
+            FILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHF
+Sbjct  1    FILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHF  60
+
+Query  120  SLKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKI  179
+            SLKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKI
+Sbjct  61   SLKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKI  120
+
+Query  180  FLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRV  239
+            FLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRV
+Sbjct  121  FLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRV  180
+
+Query  240  YLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAF  299
+            YLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAF
+Sbjct  181  YLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAF  240
+
+Query  300  APWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWK  359
+            APWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWK
+Sbjct  241  APWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWK  300
+
+Query  360  MHFIYFLCAILLAMRKALEYE  380
+            MHFIYFLCAILLAMRKALEYE
+Sbjct  301  MHFIYFLCAILLAMRKALEYE  321
+
+
+>HBH9000349.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=282
+
+ Score = 567 bits (1462),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 282/282 (100%), Positives = 282/282 (100%), Gaps = 0/282 (0%)
+
+Query  99   AGMINIISICFGIILLYNNHFSLKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKK  158
+            AGMINIISICFGIILLYNNHFSLKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKK
+Sbjct  1    AGMINIISICFGIILLYNNHFSLKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKK  60
+
+Query  159  NYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIIL  218
+            NYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIIL
+Sbjct  61   NYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIIL  120
+
+Query  219  GKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIP  278
+            GKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIP
+Sbjct  121  GKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIP  180
+
+Query  279  KTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQ  338
+            KTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQ
+Sbjct  181  KTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQ  240
+
+Query  339  TFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE  380
+            TFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE
+Sbjct  241  TFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE  282
+
+
+Sequence with id WP_180470039 no longer exists in database...alignment skipped
+>EEV5987621.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ EHJ6450865.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=271
+
+ Score = 546 bits (1406),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 271/271 (100%), Positives = 271/271 (100%), Gaps = 0/271 (0%)
+
+Query  110  GIILLYNNHFSLKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSF  169
+            GIILLYNNHFSLKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSF
+Sbjct  1    GIILLYNNHFSLKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSF  60
+
+Query  170  LLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKI  229
+            LLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKI
+Sbjct  61   LLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKI  120
+
+Query  230  ISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTG  289
+            ISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTG
+Sbjct  121  ISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTG  180
+
+Query  290  VWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLF  349
+            VWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLF
+Sbjct  181  VWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLF  240
+
+Query  350  FQEHYLLSWKMHFIYFLCAILLAMRKALEYE  380
+            FQEHYLLSWKMHFIYFLCAILLAMRKALEYE
+Sbjct  241  FQEHYLLSWKMHFIYFLCAILLAMRKALEYE  271
+
+
+>EEW4351080.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ EFC8027849.1 O148 family O-antigen polymerase [Escherichia coli]
+ EHB4605832.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=257
+
+ Score = 518 bits (1335),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 257/257 (100%), Positives = 257/257 (100%), Gaps = 0/257 (0%)
+
+Query  124  MREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLIL  183
+            MREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLIL
+Sbjct  1    MREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLIL  60
+
+Query  184  FLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFS  243
+            FLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFS
+Sbjct  61   FLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFS  120
+
+Query  244  GLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWY  303
+            GLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWY
+Sbjct  121  GLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWY  180
+
+Query  304  QSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFI  363
+            QSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFI
+Sbjct  181  QSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFI  240
+
+Query  364  YFLCAILLAMRKALEYE  380
+            YFLCAILLAMRKALEYE
+Sbjct  241  YFLCAILLAMRKALEYE  257
+
+
+Sequence with id EEW4306013 no longer exists in database...alignment skipped
+Sequence with id MBE8140267 no longer exists in database...alignment skipped
+>EFL5743264.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=237
+
+ Score = 479 bits (1232),  Expect = 6e-168, Method: Compositional matrix adjust.
+ Identities = 237/237 (100%), Positives = 237/237 (100%), Gaps = 0/237 (0%)
+
+Query  144  LSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIY  203
+            LSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIY
+Sbjct  1    LSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIY  60
+
+Query  204  GTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLL  263
+            GTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLL
+Sbjct  61   GTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLL  120
+
+Query  264  LYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYG  323
+            LYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYG
+Sbjct  121  LYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYG  180
+
+Query  324  IWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE  380
+            IWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE
+Sbjct  181  IWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE  237
+
+
+>EAB0397473.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+Length=234
+
+ Score = 473 bits (1218),  Expect = 5e-166, Method: Compositional matrix adjust.
+ Identities = 234/234 (100%), Positives = 234/234 (100%), Gaps = 0/234 (0%)
+
+Query  147  CCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTF  206
+            CCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTF
+Sbjct  1    CCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTF  60
+
+Query  207  VFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYP  266
+            VFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYP
+Sbjct  61   VFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYP  120
+
+Query  267  FKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWF  326
+            FKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWF
+Sbjct  121  FKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWF  180
+
+Query  327  SFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE  380
+            SFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE
+Sbjct  181  SFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILLAMRKALEYE  234
+
+
+Sequence with id PQN42979 no longer exists in database...alignment skipped
+Sequence with id HBD3377496 no longer exists in database...alignment skipped
+>HBH9462018.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=192
+
+ Score = 387 bits (995),  Expect = 1e-132, Method: Compositional matrix adjust.
+ Identities = 190/192 (99%), Positives = 190/192 (99%), Gaps = 0/192 (0%)
+
+Query  189  VGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAF  248
+            VGINSYVSKKKLLIYG FVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAF
+Sbjct  1    VGINSYVSKKKLLIYGVFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAF  60
+
+Query  249  NLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGL  308
+            NLYVEKN TLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGL
+Sbjct  61   NLYVEKNATLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGL  120
+
+Query  309  YAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCA  368
+            YAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCA
+Sbjct  121  YAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCA  180
+
+Query  369  ILLAMRKALEYE  380
+            ILLAMRKALEYE
+Sbjct  181  ILLAMRKALEYE  192
+
+
+Sequence with id EHH5213098 no longer exists in database...alignment skipped
+Sequence with id EEY7242946 no longer exists in database...alignment skipped
+>RVS64811.1 oligosaccharide repeat unit polymerase, partial [Escherichia 
+coli]
+Length=188
+
+ Score = 379 bits (972),  Expect = 3e-129, Method: Compositional matrix adjust.
+ Identities = 186/188 (99%), Positives = 186/188 (99%), Gaps = 0/188 (0%)
+
+Query  191  INSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNL  250
+            INSYVSKKKLLIYG FVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNL
+Sbjct  1    INSYVSKKKLLIYGVFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNL  60
+
+Query  251  YVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYA  310
+            YVEKN TLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYA
+Sbjct  61   YVEKNATLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYA  120
+
+Query  311  AIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAIL  370
+            AIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAIL
+Sbjct  121  AIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAIL  180
+
+Query  371  LAMRKALE  378
+            LAMRKALE
+Sbjct  181  LAMRKALE  188
+
+
+>EGS3115613.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=186
+
+ Score = 377 bits (967),  Expect = 2e-128, Method: Compositional matrix adjust.
+ Identities = 186/186 (100%), Positives = 186/186 (100%), Gaps = 0/186 (0%)
+
+Query  187  YIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLA  246
+            YIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLA
+Sbjct  1    YIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLA  60
+
+Query  247  AFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSL  306
+            AFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSL
+Sbjct  61   AFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSL  120
+
+Query  307  GLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFL  366
+            GLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFL
+Sbjct  121  GLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFL  180
+
+Query  367  CAILLA  372
+            CAILLA
+Sbjct  181  CAILLA  186
+
+
+Sequence with id EFB1629889 no longer exists in database...alignment skipped
+Sequence with id EHH5063897 no longer exists in database...alignment skipped
+Sequence with id HBB5019554 no longer exists in database...alignment skipped
+>HAL9108756.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=177
+
+ Score = 350 bits (897),  Expect = 5e-118, Method: Compositional matrix adjust.
+ Identities = 177/177 (100%), Positives = 177/177 (100%), Gaps = 0/177 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTS  177
+            LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTS
+Sbjct  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTS  177
+
+
+Sequence with id EEX9686063 no longer exists in database...alignment skipped
+>EHH5211722.1 O148 family O-antigen polymerase [Escherichia coli]
+ EHX8768497.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=171
+
+ Score = 339 bits (869),  Expect = 8e-114, Method: Compositional matrix adjust.
+ Identities = 171/171 (100%), Positives = 171/171 (100%), Gaps = 0/171 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLL  171
+            LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLL
+Sbjct  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLFSFLL  171
+
+
+>HBH9461503.1 O148 family O-antigen polymerase [Escherichia coli]
+Length=165
+
+ Score = 328 bits (842),  Expect = 7e-110, Method: Compositional matrix adjust.
+ Identities = 164/165 (99%), Positives = 165/165 (100%), Gaps = 0/165 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARHENKKNYFYCFT  165
+            LKVMREGILDGS+SGFGLGISLPLSFCCMYLARHENKKNYFYCFT
+Sbjct  121  LKVMREGILDGSISGFGLGISLPLSFCCMYLARHENKKNYFYCFT  165
+
+
+Sequence with id HBD3377667 no longer exists in database...alignment skipped
+>RVS64810.1 oligosaccharide repeat unit polymerase, partial [Escherichia 
+coli]
+Length=156
+
+ Score = 311 bits (797),  Expect = 5e-103, Method: Compositional matrix adjust.
+ Identities = 155/156 (99%), Positives = 156/156 (100%), Gaps = 0/156 (0%)
+
+Query  21   PSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIARSGR  80
+            PSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIARSGR
+Sbjct  1    PSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIARSGR  60
+
+Query  81   VVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGILDGSVSGFGLGI  140
+            VVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGILDGS+SGFGLGI
+Sbjct  61   VVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGILDGSISGFGLGI  120
+
+Query  141  SLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLST  176
+            SLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLST
+Sbjct  121  SLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLST  156
+
+
+Sequence with id EFF9318999 no longer exists in database...alignment skipped
+>EFX9816450.1 O148 family O-antigen polymerase [Shigella dysenteriae]
+Length=154
+
+ Score = 304 bits (778),  Expect = 3e-100, Method: Compositional matrix adjust.
+ Identities = 153/154 (99%), Positives = 154/154 (100%), Gaps = 0/154 (0%)
+
+Query  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+            MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1    MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+            ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS
+Sbjct  61   ILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGIILLYNNHFS  120
+
+Query  121  LKVMREGILDGSVSGFGLGISLPLSFCCMYLARH  154
+            LKVMREGILDGS+SGFGLGISLPLSFCCMYLARH
+Sbjct  121  LKVMREGILDGSISGFGLGISLPLSFCCMYLARH  154
+
+
+Sequence with id EHY2884732 no longer exists in database...alignment skipped
+>EEV5985761.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+Length=80
+
+ Score = 155 bits (392),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  1   MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+           MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1   MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61  ILAFLFFFSMTYILIARSGR  80
+           ILAFLFFFSMTYILIARSGR
+Sbjct  61  ILAFLFFFSMTYILIARSGR  80
+
+
+>HBH9000368.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+Length=75
+
+ Score = 144 bits (363),  Expect = 7e-39, Method: Compositional matrix adjust.
+ Identities = 75/75 (100%), Positives = 75/75 (100%), Gaps = 0/75 (0%)
+
+Query  1   MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+           MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1   MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61  ILAFLFFFSMTYILI  75
+           ILAFLFFFSMTYILI
+Sbjct  61  ILAFLFFFSMTYILI  75
+
+
+Sequence with id WP_226440565 no longer exists in database...alignment skipped
+>EHB4605846.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+Length=63
+
+ Score = 124 bits (310),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 63/63 (100%), Positives = 63/63 (100%), Gaps = 0/63 (0%)
+
+Query  1   MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+           MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF
+Sbjct  1   MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYAFNEQYFVPLSATTLFF  60
+
+Query  61  ILA  63
+           ILA
+Sbjct  61  ILA  63
+
+
+>WP_099396418.1 hypothetical protein [Iodobacter sp. BJB302]
+ PHV03479.1 hypothetical protein CSQ88_01850 [Iodobacter sp. BJB302]
+Length=383
+
+ Score = 89.0 bits (219),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 78/266 (29%), Positives = 139/266 (52%), Gaps = 16/266 (6%)
+
+Query  120  SLKVMREGILDGSVSGFGLGISLPLSFCC-MYLARHENKKNYFYCFTLFSFLLAVLSTSK  178
+            S+K+ R  +L+  +S   +GIS PL     +Y + ++ KK+ ++   L+  LLAV+STSK
+Sbjct  118  SMKIFRAALLEDGLS-LRVGISFPLCAAAYLYASFYDKKKSKYFATILW--LLAVVSTSK  174
+
+Query  179  IFLILFLVYIVGI---NSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFD  235
+            IF++L ++Y+ G    +  ++ KK+ I+ +  F LF++  ++ GK +   +  +  ++  
+Sbjct  175  IFIVLSMLYVSGFYKKDFRLNYKKVFIFVSAGFLLFSIVHLLQGKIAGGSDRSLFGSLCF  234
+
+Query  236  TLRVYLFSGLAAFNLYVEKNVTLPENLLLYPFKE--VWGTTK----DIPKTDILPWINTG  289
+            TL  Y   GLAAF   ++ +  L  +++     +  V  ++K    D+   D   W+ TG
+Sbjct  235  TLLGYTLGGLAAFQSILDGDFILRGDVVAITLNKFNVLASSKLMAADVTLAD--GWVKTG  292
+
+Query  290  VWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCFPLLMLF  349
+             W  NVYT  A W+     Y  ++ G ++G  +GI  +F  N    F + F  +PL+ + 
+Sbjct  293  EWLGNVYTGLATWHMWNNTYGVVVFGAVVGVTHGIINAFTGN-GFLFLRVFSYYPLIFII  351
+
+Query  350  FQEHYLLSWKMHFIYFLCAILLAMRK  375
+            F E YL+   M   +   AI+L + K
+Sbjct  352  FAEQYLMGVDMWIAFSCAAIILGLTK  377
+
+
+Sequence with id HAV4963190 no longer exists in database...alignment skipped
+Sequence with id WP_139212107 no longer exists in database...alignment skipped
+>EFN6719344.1 oligosaccharide repeat unit polymerase [Escherichia coli H18]
+Length=44
+
+ Score = 68.9 bits (167),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 44/44 (100%), Positives = 44/44 (100%), Gaps = 0/44 (0%)
+
+Query  1   MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYA  44
+           MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYA
+Sbjct  1   MTYFTGFILILFAIIIKRLTPSQSKKNIVLIANAFWGILLVGYA  44
+
+
+Sequence with id WP_146042874 no longer exists in database...alignment skipped
+Sequence with id WP_133277336 no longer exists in database...alignment skipped
+Sequence with id EEX9686058 no longer exists in database...alignment skipped
+>WP_081992033.1 oligosaccharide repeat unit polymerase [Collimonas arenae]
+ AIY40053.1 macromolecule metabolism; macromolecule synthesis [Collimonas 
+arenae]
+Length=386
+
+ Score = 62.8 bits (151),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 60/182 (33%), Positives = 86/182 (47%), Gaps = 11/182 (6%)
+
+Query  197  KKKLLIYGTFVFG-LFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKN  255
+            KKK+  +  F F  +F L + +L K  S  E  I  +I    +VY+ SGLA FN YV K 
+Sbjct  198  KKKIAFFILFSFVVIFFLLAFLLNKGGS--ENNIFESIAWNFKVYVLSGLAGFNNYVAKG  255
+
+Query  256  VTLPENLLLYP-----FKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYA  310
+                   LL P     F    G   +I  + + P++ T +   NVYTAF PWY   G+ A
+Sbjct  256  DPDISGWLLVPNFIKNFLSALGVQSEITPS-LFPFVETPL-PGNVYTAFFPWYHDGGILA  313
+
+Query  311  AIIIGILLGFYYGIWFSFRQNLAVGFYQTFLC-FPLLMLFFQEHYLLSWKMHFIYFLCAI  369
+              I   ++GF     F  R    +  +   L  +PL+M  F+E YL ++ +  I FL  +
+Sbjct  314  VCIGFFIIGFISMFLFKNRYKSKLSLFNYSLSLYPLIMSIFEEQYLRAYPLWAIVFLLYV  373
+
+Query  370  LL  371
+             L
+Sbjct  374  FL  375
+
+
+>OHY69371.1 hypothetical protein BB778_09155 [Pluralibacter gergoviae]
+Length=227
+
+ Score = 61.2 bits (147),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 66/207 (32%), Positives = 100/207 (48%), Gaps = 30/207 (14%)
+
+Query  170  LLAVLSTSKIFLILFLVYIVGI---NSYVSKKKLLIYGTFVFGLFALSSIILGKFSSD-P  225
+            +LA++ST+K+F I+ L+Y+ G    +  +S  KLL+Y    F +FAL  I++ K S   P
+Sbjct  3    ILAIISTAKMFFIILLLYMSGFYLKDFRISAFKLLVYLIIGFAMFALIHILMNKISHKFP  62
+
+Query  226  EGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYP-----FKEVWGTTKDIPKT  280
+            +  ++S I+ TL  YLF G   F L ++    L  N + Y        + W     I + 
+Sbjct  63   DSIMLSLIY-TLTGYLFGGFGVFQLALDG---LYHNGMGYITFWDFLTDNWVQIGSITEG  118
+
+Query  281  DILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTF  340
+                W+ TG W  NV + F PWY   G Y  I++G  +G  Y   FSF +      Y+ F
+Sbjct  119  G---WVYTGDWLGNVESGFTPWYLYAGGYGLILLGGFMGVIYAFIFSFSKK-----YEEF  170
+
+Query  341  L------CFPLLMLFFQE---HYLLSW  358
+            L       +PL+ L F +   H   +W
+Sbjct  171  LFLKVYSYYPLIFLIFYDTIMHSFTTW  197
+
+
+Sequence with id WP_092353219 no longer exists in database...alignment skipped
+Sequence with id WP_138928582 no longer exists in database...alignment skipped
+Sequence with id MBA4344760 no longer exists in database...alignment skipped
+>WP_075441662.1 hypothetical protein [Selenomonas ruminantium]
+ SFH67143.1 hypothetical protein SAMN04487861_1026 [Selenomonas ruminantium]
+Length=367
+
+ Score = 55.5 bits (132),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 64/216 (30%), Positives = 98/216 (45%), Gaps = 35/216 (16%)
+
+Query  91   ESKYIYWFAGMINIISICFGIILLYNNHFSLKVMREGILDGSVSGFGLGISLPLSFCCMY  150
+            E KY + F  + + I I  GI   Y +  S   +R  I   SVS    GI+  +    M+
+Sbjct  91   EYKYYFAFVMIFSYIEIMIGI--YYVSTSSYAGLRALINANSVS-LHSGITSAMVTSIMF  147
+
+Query  151  LAR---HENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINS---YVSKKKLLIYG  204
+            +     +  K   F  FTLF   LA+LSTSKIF++L ++YIV   +   ++  K+ L   
+Sbjct  148  MEYEFFNRKKVRIFIAFTLF--FLAILSTSKIFILLAIIYIVPWYTKWYHMGVKQSLFML  205
+
+Query  205  TFVFGLFALSSIILGKFSS-DPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLL  263
+              + G F +S ++LGK +  D     + ++  T+  Y   GLA+F L+++          
+Sbjct  206  FIIIGCFMMSQLLLGKVAEIDGSSNAVVSLTYTMMGYYLGGLASFQLFLD----------  255
+
+Query  264  LYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAF  299
+                    G     P      W+ TG W  NVY+AF
+Sbjct  256  --------GIISSEP-----GWVRTGAWLGNVYSAF  278
+
+
+Sequence with id WP_167690153 no longer exists in database...alignment skipped
+>WP_014006657.1 oligosaccharide repeat unit polymerase [Collimonas fungivorans]
+ AEK62504.1 putative O-antigen polymerase transmembrane protein [Collimonas 
+fungivorans Ter331]
+Length=389
+
+ Score = 53.1 bits (126),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 51/164 (31%), Positives = 80/164 (49%), Gaps = 19/164 (12%)
+
+Query  216  IILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYP--FKEVWGT  273
+            +I GK   D E  +   +   L VY  +GLAAFN +V  N    +  LL P  F+ ++  
+Sbjct  216  VIQGKGGDDIE--MWDQVTWNLEVYFLNGLAAFNSFVVNNFPSFDGSLLLPNMFRRLFDI  273
+
+Query  274  TKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWF-------  326
+              + P   +LP++ T +   NVYTA  P+Y   GL     +G++ GF +GI F       
+Sbjct  274  GGE-PAALVLPFVETPLVG-NVYTAMYPYYHDGGL-----LGLVCGF-FGIGFFSQYLYR  325
+
+Query  327  SFRQNLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAIL  370
+              R++    FY +   + L+M  FQE YL ++ +  + F+   L
+Sbjct  326  KRRKSSNHIFYYSVSVYALIMTVFQEQYLQAYPIWVMIFVVPAL  369
+
+
+Sequence with id WP_081261931 no longer exists in database...alignment skipped
+>WP_019720063.1 oligosaccharide repeat unit polymerase [Ralstonia solanacearum]
+Length=390
+
+ Score = 52.8 bits (125),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 58/195 (30%), Positives = 91/195 (47%), Gaps = 27/195 (14%)
+
+Query  197  KKKLLIYGTFVFGLFALSSIIL---GKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE  253
+            +KK       VF  F L+  +L   G F +D    + S I   L VY+ +GLA+FN +V 
+Sbjct  197  RKKTFFASFLVFLCFFLALAVLNGKGAFIND----LYSQITWNLEVYVLNGLASFNHFVT  252
+
+Query  254  KNVTLPENLLLYP--FKEVWGTTKD-IPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYA  310
+             N  + +  +L P   + ++    D IP   +LP++ T  +  NVYTA  PWY   G   
+Sbjct  253  NNHPIFDGNILVPNLLRRIFELEGDAIPL--VLPFVETP-FPGNVYTALYPWYHDGGALG  309
+
+Query  311  AIIIGILLG-----FYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLS---WKMHF  362
+             ++   L+G     FY+    SF+      FY +   + L+M  FQ+ Y+ +   W M  
+Sbjct  310  LMVGFFLIGAFSQYFYHARHKSFKHT----FYYSISAYALIMTIFQDQYIQAYPLWMMAI  365
+
+Query  363  I--YFLCAILLAMRK  375
+            +  +   A+   MRK
+Sbjct  366  LSPFLASALTPKMRK  380
+
+
+Sequence with id WP_011004488 no longer exists in database...alignment skipped
+Sequence with id AGH87207 no longer exists in database...alignment skipped
+>KLU62675.1 hypothetical protein CEB3_c09870 [Peptococcaceae bacterium CEB3]
+Length=444
+
+ Score = 52.0 bits (123),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 57/202 (28%), Positives = 96/202 (48%), Gaps = 23/202 (11%)
+
+Query  172  AVLSTSKIFLILFLVYIVG---INSYVSKKKLLIYGTF--VFGLFALSSIILGKFS-SDP  225
+            AVL+  +  ++L  V +V    I   V  +K+++YG F  + G+   S+  + K++  + 
+Sbjct  188  AVLTLGRTAVLLLTVALVTEYIIYRNVRNRKIMLYGLFFAILGVIIFSAYSVEKYAYVEQ  247
+
+Query  226  EGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLY---PFKEVWGTTKDIPKTDI  282
+               +      TLRVYL  GL AF  ++  N       LLY    F+ ++         D+
+Sbjct  248  NASLYQISTSTLRVYLSGGLVAFQSWITDN---GGRQLLYGQNTFRFIFAVLSKALGYDV  304
+
+Query  283  L--PWIN-----TGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWF---SFRQNL  332
+            +  P +N     +G   +NVYT +  + +  GL   II+   +G  +G  +   + +  L
+Sbjct  305  VARPLVNPFTQISGERTSNVYTIYYYYVRDFGLVYGIIVQYFIGILHGYLYKKAATKSPL  364
+
+Query  333  AVGFYQTFLCFPLLMLFFQEHY  354
+            AV F+ +   FPLLM FFQ+ Y
+Sbjct  365  AVYFF-SLSMFPLLMQFFQDQY  385
+
+
+>WP_089191035.1 MULTISPECIES: oligosaccharide repeat unit polymerase [Ralstonia]
+ ASL76280.1 polymerase [Ralstonia solanacearum]
+ CUV23269.1 putative o-antigen polymerase transmembrane protein [Ralstonia 
+solanacearum]
+ CUV34555.1 putative o-antigen polymerase transmembrane protein [Ralstonia 
+solanacearum]
+ CUV41899.1 putative o-antigen polymerase transmembrane protein [Ralstonia 
+solanacearum]
+ CUV59276.1 putative o-antigen polymerase transmembrane protein [Ralstonia 
+solanacearum]
+Length=390
+
+ Score = 51.6 bits (122),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 58/195 (30%), Positives = 90/195 (46%), Gaps = 27/195 (14%)
+
+Query  197  KKKLLIYGTFVFGLFALSSIIL---GKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE  253
+            +KK       VF  F L+  +L   G F +D    + S I   L VY+ +GLA+FN +V 
+Sbjct  197  RKKTFFASFLVFLCFFLALAVLNGKGAFIND----LYSQITWNLEVYVLNGLASFNHFVT  252
+
+Query  254  KNVTLPENLLLYP--FKEVWGTTKD-IPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYA  310
+             N    +  +L P   + ++    D IP   +LP++ T  +  NVYTA  PWY   G   
+Sbjct  253  NNHPSFDGNILVPNLLRRIFELEGDAIPL--VLPFVETP-FPGNVYTALYPWYHDGGALG  309
+
+Query  311  AIIIGILLG-----FYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLS---WKMHF  362
+             ++   L+G     FY+    SF+      FY +   + L+M  FQ+ Y+ +   W M  
+Sbjct  310  LMVGFFLIGAFSQYFYHARHKSFKHT----FYYSISAYALIMTIFQDQYIQAYPLWMMAI  365
+
+Query  363  I--YFLCAILLAMRK  375
+            +  +   A+   MRK
+Sbjct  366  LSPFLASALTPKMRK  380
+
+
+>WP_043898115.1 MULTISPECIES: oligosaccharide repeat unit polymerase [Ralstonia]
+ KAF3459586.1 oligosaccharide repeat unit polymerase [Ralstonia solanacearum]
+ NKA80650.1 oligosaccharide repeat unit polymerase [Ralstonia solanacearum]
+ NKF98599.1 oligosaccharide repeat unit polymerase [Ralstonia solanacearum]
+ NKG03439.1 oligosaccharide repeat unit polymerase [Ralstonia solanacearum]
+ OAI60434.1 polymerase [Ralstonia solanacearum]
+Length=390
+
+ Score = 51.6 bits (122),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 58/195 (30%), Positives = 90/195 (46%), Gaps = 27/195 (14%)
+
+Query  197  KKKLLIYGTFVFGLFALSSIIL---GKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE  253
+            +KK       VF  F L+  +L   G F +D    + S I   L VY+ +GLA+FN +V 
+Sbjct  197  RKKTFFASFLVFLCFFLALAVLNGKGAFIND----LYSQITWNLEVYVLNGLASFNHFVT  252
+
+Query  254  KNVTLPENLLLYP--FKEVWGTTKD-IPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYA  310
+             N    +  +L P   + ++    D IP   +LP++ T  +  NVYTA  PWY   G   
+Sbjct  253  NNHPSFDGNILVPNLLRRIFELEGDAIPL--VLPFVETP-FPGNVYTALYPWYHDGGALG  309
+
+Query  311  AIIIGILLG-----FYYGIWFSFRQNLAVGFYQTFLCFPLLMLFFQEHYLLS---WKMHF  362
+             ++   L+G     FY+    SF+      FY +   + L+M  FQ+ Y+ +   W M  
+Sbjct  310  LMVGFFLIGAFSQYFYHARHKSFKHT----FYYSISAYALIMTIFQDQYIQAYPLWMMAI  365
+
+Query  363  I--YFLCAILLAMRK  375
+            +  +   A+   MRK
+Sbjct  366  LSPFLASALTPKMRK  380
+
+
+Sequence with id WP_197346612 no longer exists in database...alignment skipped
+Sequence with id WP_165590641 no longer exists in database...alignment skipped
+Sequence with id WP_041620312 no longer exists in database...alignment skipped
+Sequence with id ADQ79438 no longer exists in database...alignment skipped
+>WP_229761534.1 oligosaccharide repeat unit polymerase [Ferruginibacter lapsinanis]
+ UEG50573.1 oligosaccharide repeat unit polymerase [Ferruginibacter lapsinanis]
+Length=431
+
+ Score = 51.2 bits (121),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 58/201 (29%), Positives = 94/201 (47%), Gaps = 20/201 (10%)
+
+Query  172  AVLSTSKIFLILFLVYIVGINSYVSKKK--LLIYGTFVFG---LFALSSIILGKFSS--D  224
+            A+L+T + +  + L   +GI SY  KK   L  YG  + G   +F L  ++ GK     D
+Sbjct  201  ALLATGRTYFFIILSIYLGI-SYFHKKNFSLKKYGLLLIGFLLVFILFGMLYGKGGDLKD  259
+
+Query  225  PEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTL--PENLLLYPFKEVWGTTKDIPKTDI  282
+                 + A  +T  VYL S + A +  + +NV    P    L  F +       +    +
+Sbjct  260  SLKDNLQASSETTGVYLVSSITALDNEIGRNVKARYPGEYTLRFFIKTGQQLNLVSDKKV  319
+
+Query  283  LPWINTGV---WDTNVYTAFAPWYQSLG-LYAAIIIGILLGFYYGIWFSFR----QNLAV  334
+               ++  V   + TNV+T ++P+ +  G +YA ++IG+    +   W   R    +NL  
+Sbjct  320  SSLVSDFVFVPYPTNVFTFYSPYIRDFGKMYAWLMIGLFGALH--TWIYHRSARTKNLRN  377
+
+Query  335  GFYQTFLCFPLLMLFFQEHYL  355
+              Y +FL FPLLM FFQ+ Y+
+Sbjct  378  TLYYSFLLFPLLMSFFQDQYM  398
+
+
+>HBE42173.1 hypothetical protein [Bacteroidales bacterium]
+Length=417
+
+ Score = 51.2 bits (121),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 75/245 (31%), Positives = 112/245 (46%), Gaps = 30/245 (12%)
+
+Query  154  HENKKNYFYCFTLFSFLLAVLSTSKI-FLILFLVYIVGINSYVSKKKLLIYGTFVFGL--  210
+            ++ KK       L SF   VLST +  F   F+V I+ I      K+   +GTF+  L  
+Sbjct  175  NKKKKVKTVLAVLISFGFLVLSTGRTYFFFYFIVVILSIYLKSKIKRKYFWGTFLAALAV  234
+
+Query  211  FALSSIILGKFSSDPE---GKIISAIFDTLRVYLFSGLAAFNLYV--EKNVTLPENL---  262
+            F L  ++L K   + E    K IS+  D +  Y    L AF+ ++  E + T  EN    
+Sbjct  235  FILVGVVLNK-GGNLEYSLAKNISSSMDHILAYFEGPLLAFDRFLNSEFDHTYGENTFRF  293
+
+Query  263  ---LLYPFKEVWGTTKDIPKTDIL-PWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILL  318
+               LLY  K +     D P  DI+  WI    + TNV+T F  +    G    +II  L 
+Sbjct  294  FIALLYELKII-----DKPPLDIVNEWILVP-YPTNVFTVFYEYVMDFGRIGCLIIIFLF  347
+
+Query  319  GFYYGIWFSFRQNLAVGFYQTFLCF---PLLMLFFQEHY--LLSW--KMHFIYFLCAILL  371
+            G  +  W  +R   A   ++    +   PLLM+FFQ+ Y  LLS+  ++ F  FL   +L
+Sbjct  348  GLLHT-WMFYRSKTAGNHFKMITAYSYYPLLMVFFQDQYVSLLSFWIQLWFYSFLILYIL  406
+
+Query  372  AMRKA  376
+             +R++
+Sbjct  407  DIRRS  411
+
+
+Sequence with id RYG02236 no longer exists in database...alignment skipped
+Sequence with id WP_115045911 no longer exists in database...alignment skipped
+Sequence with id WP_073335096 no longer exists in database...alignment skipped
+Sequence with id WP_211441642 no longer exists in database...alignment skipped
+Sequence with id HBK0801963 no longer exists in database...alignment skipped
+>MBQ3293615.1 oligosaccharide repeat unit polymerase [Candidatus Saccharibacteria 
+bacterium]
+Length=441
+
+ Score = 49.7 bits (117),  Expect = 0.023, Method: Compositional matrix adjust.
+ Identities = 71/265 (27%), Positives = 114/265 (43%), Gaps = 40/265 (15%)
+
+Query  124  MREGILDGSVSGFGLGISLPLSFCCMY---LARHENKKNYFYCFTLFSFLLAVLSTSKIF  180
+            ++ G+L   V     GI+L L +  ++   L    NK +YF    LF    A+L+T +  
+Sbjct  152  VQRGLLGRIVLAANKGIALTLIYIIIHNKVLCEKRNKISYFIPIALF-LTEAILTTRRTI  210
+
+Query  181  LILFLVY--IVGINSYVSK---KKLLIYGTFVFGLFALSSIILGKFSSDPEGKII-----  230
+             +  + Y  IV I  Y+SK   K   +    + G+ AL S +L  FSS   GK+I     
+Sbjct  211  FLRIIAYTFIVFIILYISKNGTKVQQLNKVMLIGIGALCSFML-IFSS--LGKLIGKGQY  267
+
+Query  231  SAIFDTLRVYLFSGLAAFNLYVEKNVTLPE-------------NLLLYPFKEVWGTTKDI  277
+             A  D    Y  S +  FN Y+      PE             N L Y    +   +   
+Sbjct  268  DAPIDVFYYYSGSSINLFNKYISSGAE-PESNYFGEHTLYGIYNSLHYISPSIQHNSNPA  326
+
+Query  278  PKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFS-FRQNLAVGF  336
+             +   LP      W +N+YTAF  +YQ  G+   ++I  +LG +YG   S  ++NL   +
+Sbjct  327  LENTYLPH-----WYSNIYTAFRRYYQDYGIIGIVVIPFILGVFYGYLESKAKRNLGKPW  381
+
+Query  337  YQTFLC---FPLLMLFFQEHYLLSW  358
+               F     +P++ +   E +L+++
+Sbjct  382  NTIFFAYSIYPIIEIAIDERFLVNY  406
+
+
+>HCN54102.1 hypothetical protein [Prevotella sp.]
+Length=398
+
+ Score = 49.3 bits (116),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 60/215 (28%), Positives = 96/215 (45%), Gaps = 19/215 (9%)
+
+Query  121  LKVMREGILDGSVS--GFGLGIS--LPLSFCCMYLARHENKKNYFYC-FTLFSFLLAVLS  175
+            L++M  G  D S+    F   IS  +PL F  ++LA+   KK Y      + + + A++S
+Sbjct  128  LRIMNTGT-DPSIQPPAFMKIISYFIPLCFTSLFLAQIYIKKTYLTIWLVIINVMTAIVS  186
+
+Query  176  TSKI-FLILF--LVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISA  232
+             SK+ FL +F  L++++     +  +  +I GT   G     SI+L    S         
+Sbjct  187  MSKLNFLSIFFTLLFVLYAQRKIKIRHFIIGGTVFLGF----SILLQMIRSGSNNADSFD  242
+
+Query  233  IFDTLRVYLFSGLAAFNLYV--EKNVTLPENLL--LYPFKEVWGTTKDIPKTDILPWINT  288
+            I D L +YL S + AF+ +     ++   EN    LY      G     P   ILP++ T
+Sbjct  243  IADFLSMYLLSSMGAFDYHAIACSSINFGENTFRFLYAISHALGG-DTAPIQTILPFVGT  301
+
+Query  289  GVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYG  323
+              + TN YT   P+Y   G    ++  I+ G  +G
+Sbjct  302  PAY-TNTYTCLYPFYTDFGNIGILVFSIIYGVAFG  335
+
+
+Sequence with id MBL5010843 no longer exists in database...alignment skipped
+Sequence with id UCF23555 no longer exists in database...alignment skipped
+>WP_114635909.1 MULTISPECIES: oligosaccharide repeat unit polymerase [Enterococcus]
+ MBL5004818.1 hypothetical protein [Enterococcus lactis]
+ RDG09744.1 hypothetical protein DQM25_04100 [Enterococcus faecium]
+Length=413
+
+ Score = 48.9 bits (115),  Expect = 0.039, Method: Compositional matrix adjust.
+ Identities = 68/287 (24%), Positives = 128/287 (45%), Gaps = 38/287 (13%)
+
+Query  101  MINIISICFGI---ILLYNNHFSLKVM------REGILDGSVSGFGLGI--SLPLSFCCM  149
+            M+ II ICF +   IL   N+F++ +       +E +    V G+G  +  +  ++    
+Sbjct  102  MLEIIFICFVLYTYILYTRNNFNVNIFTTLYSNKENMFGSGVIGYGRNLISAFSIAIIVG  161
+
+Query  150  YLARHENKKNYFYCFTLFSFLLAVLS-----------TSKIFLILFLVYIVGINSYVSKK  198
+            Y    E+KKN +    +    +A+++           ++ + L    + +  INS  + K
+Sbjct  162  YGIIEEDKKNQYKKILMVQIAIALINGILGVTRNGILSALLPLAFACIVVFNINSKKAFK  221
+
+Query  199  KLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFN-LYVEKNVT  257
+             L +   F   +F + S+    ++ + E  I   +   +++Y    LAAF  ++  K  T
+Sbjct  222  TLFVSFLFFLSIFLIVSMQKYWYTINDESVISIQLSKQIQLYASGSLAAFQKIFDTKIYT  281
+
+Query  258  L--PENLLLY---PFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAI  312
+            L   EN   +    F  ++G  K    + +  +IN G    NVYT +  +    G   A+
+Sbjct  282  LLYGENTFRFFIAIFDVIFGVNKS--SSLVQDFINIGNTSINVYTFYQYYLYDFGPIYAL  339
+
+Query  313  IIGILLGFYYGIWFSFRQNLAVG-----FYQTFLCFPLLMLFFQEHY  354
+            I+  ++G  +G+ F   +N+++      F  + L +PLLM FFQ+ Y
+Sbjct  340  IVQFIIGILHGVSF---KNMSMKKPFWIFLYSILIYPLLMQFFQDQY  383
+
+
+>WP_021555519.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ EFA7190914.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ EFI3969157.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ EFM4195906.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ EQW66174.1 hypothetical protein G908_02135 [Escherichia coli UMEA 3108-1]
+ KAB2549296.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+Length=385
+
+ Score = 48.5 bits (114),  Expect = 0.041, Method: Compositional matrix adjust.
+ Identities = 52/175 (30%), Positives = 88/175 (50%), Gaps = 20/175 (11%)
+
+Query  150  YLARHENKKNYFYCFT--LFSFLLAVLSTSKIFLILFLVYIVGINSY---VSKKKLLIYG  204
+            Y +++ NKK+ +  +T  +   L AV+ST+K+ L+L +V +  I SY    S K +++ G
+Sbjct  161  YSSKYFNKKDKYNYYTQLIMCILYAVMSTAKLKLLLVIVPVFFIRSYFKPTSTKLVIVVG  220
+
+Query  205  TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLL  264
+            T   G+F LS I+L K + D EG +I  I  ++  Y F  L AF+       +L  N+ L
+Sbjct  221  TMFLGVFFLSLILLNKIAGD-EG-VIKIIITSIGNYTFFNLYAFD-------SLHFNVFL  271
+
+Query  265  YPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLG  319
+                        +    +LP+   G + TN+YT    + +  G ++ I+   L+G
+Sbjct  272  QS-----KCIDSLNSCSLLPFFEYGDFRTNIYTIMYSFIE-YGFFSYIVFHFLVG  320
+
+
+Sequence with id WP_059341639 no longer exists in database...alignment skipped
+Sequence with id WP_150887071 no longer exists in database...alignment skipped
+>WP_132001896.1 oligosaccharide repeat unit polymerase [Flavobacterium cellulosilyticum]
+ TDD98378.1 oligosaccharide repeat unit polymerase [Flavobacterium cellulosilyticum]
+Length=413
+
+ Score = 48.5 bits (114),  Expect = 0.049, Method: Compositional matrix adjust.
+ Identities = 52/197 (26%), Positives = 92/197 (47%), Gaps = 13/197 (7%)
+
+Query  170  LLAVLSTSKIFLILFLVYIVGINSYVSK--KKLLIYG-TFVFGLFALSSIILGKFSSDPE  226
+            L  V ST + F I ++  I G+     K  KK + YG + +  LF+   I+L K  S   
+Sbjct  187  LFCVFSTGRTFFIFYISLIYGLLIVFQKFKKKYIYYGISGILVLFSTIGILLNKGGSTEN  246
+
+Query  227  G--KIISAIFDTLRVYLFSGLAAFNLYVEKNV--TLPENLLLYPFKEVW--GTTKDIPKT  280
+               + IS I ++  +Y    L+AF+ ++  +   T+ EN   + F  ++  G  +  P  
+Sbjct  247  NLQENISGIVESFVIYFIGSLSAFDAFLHSHYVNTVGENSFRFVFSFLYKFGFIESKPGD  306
+
+Query  281  DILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWF--SFRQ-NLAVGFY  337
+             +  +++   +DTNVYT +  ++Q  G    I +  + G  +  ++  + R+   A    
+Sbjct  307  LVDQYVSIP-FDTNVYTIYKIYFQDFGFIYMIFLLFIFGLVHTYFYLKAIRERKFAPSII  365
+
+Query  338  QTFLCFPLLMLFFQEHY  354
+               + +PL M FFQE Y
+Sbjct  366  YAIMLYPLFMSFFQEQY  382
+
+
+>WP_167818012.1 oligosaccharide repeat unit polymerase [Enterococcus faecium]
+Length=413
+
+ Score = 48.1 bits (113),  Expect = 0.055, Method: Compositional matrix adjust.
+ Identities = 68/287 (24%), Positives = 128/287 (45%), Gaps = 38/287 (13%)
+
+Query  101  MINIISICFGI---ILLYNNHFSLKVM------REGILDGSVSGFGLGI--SLPLSFCCM  149
+            M+ II ICF +   IL   N+F++ +       +E +    V G+G  +  +  ++    
+Sbjct  102  MLEIIFICFVLYTYILYTRNNFNVNIFTTLYSNKENMFGSGVIGYGRNLISAFSIAIIVG  161
+
+Query  150  YLARHENKKNYFYCFTLFSFLLAVLS-----------TSKIFLILFLVYIVGINSYVSKK  198
+            Y    E+KKN +    +    +A+++           ++ + L    + +  INS  + K
+Sbjct  162  YGIIEEDKKNQYRKILMVQIAIALINGILGVTRNGILSALLPLAFACIVVFNINSKKAFK  221
+
+Query  199  KLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFN-LYVEKNVT  257
+             L +   F   +F + S+    ++ + E  I   +   +++Y    LAAF  ++  K  T
+Sbjct  222  TLFVSFLFFLSIFLIVSMQKYWYTINDESVISIQLSKQIQLYASGSLAAFQKIFDTKIYT  281
+
+Query  258  L--PENLLLY---PFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAI  312
+            L   EN   +    F  ++G  K    + +  +IN G    NVYT +  +    G   A+
+Sbjct  282  LLYGENTFRFFIAIFDVIFGVNKS--SSLVQDFINIGNTSINVYTFYQYYLYDFGPIYAL  339
+
+Query  313  IIGILLGFYYGIWFSFRQNLAVG-----FYQTFLCFPLLMLFFQEHY  354
+            I+  ++G  +G+ F   +N+++      F  + L +PLLM FFQ+ Y
+Sbjct  340  IVQFIIGTLHGVSF---KNMSMKKPFWIFLYSILIYPLLMQFFQDQY  383
+
+
+Sequence with id WP_142729881 no longer exists in database...alignment skipped
+Sequence with id WP_194180435 no longer exists in database...alignment skipped
+>WP_106379664.1 oligosaccharide repeat unit polymerase, partial [Escherichia 
+coli]
+Length=299
+
+ Score = 47.8 bits (112),  Expect = 0.071, Method: Compositional matrix adjust.
+ Identities = 48/153 (31%), Positives = 78/153 (51%), Gaps = 19/153 (12%)
+
+Query  150  YLARHENKKNYFYCFT--LFSFLLAVLSTSKIFLILFLVYIVGINSY---VSKKKLLIYG  204
+            Y +++ NKK+ +  +T  +   L AV+ST+K+ L+L +V +  I SY    S K +++ G
+Sbjct  161  YSSKYFNKKDKYNYYTQLIMCILYAVMSTAKLKLLLVIVPVFFIRSYFKPTSTKLVIVVG  220
+
+Query  205  TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLL  264
+            T   G+F LS I+L K + D EG +I  I  ++  Y F  L AF+       +L  N+ L
+Sbjct  221  TMFLGVFFLSLILLNKIAGD-EG-VIKIIITSIGNYTFFNLYAFD-------SLHFNVFL  271
+
+Query  265  YPFKEVWGTTKDIPKTDILPWINTGVWDTNVYT  297
+                        +    +LP+   G + TN+YT
+Sbjct  272  QS-----KCIDSLNSCSLLPFFEYGDFRTNIYT  299
+
+
+Sequence with id WP_187420945 no longer exists in database...alignment skipped
+>WP_209551102.1 oligosaccharide repeat unit polymerase [Streptococcus panodentis]
+ MBP2620733.1 oligosaccharide repeat unit polymerase [Streptococcus panodentis]
+Length=441
+
+ Score = 47.8 bits (112),  Expect = 0.097, Method: Compositional matrix adjust.
+ Identities = 55/195 (28%), Positives = 93/195 (48%), Gaps = 28/195 (14%)
+
+Query  198  KKLLIYGTFVFGLF-ALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYV----  252
+            + LL  G    GLF  + + +L +  S  E      I D L  Y+ S + A + Y+    
+Sbjct  239  RMLLTIGLVFLGLFMVIGTFVLNRVDSQAE----LGILDNLIKYMGSPIQALDYYLKNPS  294
+
+Query  253  --EKNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+              + N    EN L+     V+GT K +       T  LP I+     TNVYT +  + + 
+Sbjct  295  LYDNNQVFGENTLI----AVYGTLKSLGLSSYDLTPFLPVIHFNGDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHY--LLSW  358
+             G ++ +I+ ++ GF+YG  ++S ++     L V  +  F  +PL++ FFQE    LL+ 
+Sbjct  351  FGYFSVLILQLVYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  359  KMHFIYFLCAILLAM  373
+             ++ I +  AI +A+
+Sbjct  410  HINRIVYAFAIYIAI  424
+
+
+Sequence with id WP_103819226 no longer exists in database...alignment skipped
+Sequence with id WP_227969790 no longer exists in database...alignment skipped
+>WP_220797087.1 oligosaccharide repeat unit polymerase [Paraclostridium bifermentans]
+ GIM32928.1 hypothetical protein PAGU1678_21980 [Paraclostridium bifermentans 
+subsp. muricolitidis]
+Length=443
+
+ Score = 47.0 bits (110),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 62/216 (29%), Positives = 96/216 (44%), Gaps = 33/216 (15%)
+
+Query  181  LILFLVYIVGINSY-----VSKKKL----LIYGTFVFGLFALSSIILGKFSS--DP-EGK  228
+            +I+F+ Y + +NS        KK+L    LI G    GL      I GK +   DP EG 
+Sbjct  224  IIVFVAYKIQVNSDKYENGRDKKRLEIKYLIMGILCIGLIFSYFFIAGKLAGKIDPNEG-  282
+
+Query  229  IISAIFDTLRVYLFSGLAAF-NLYVEKNVTLPENLL-LYPFKEVWGTTKDIP------KT  280
+                  + + +YL  G+ AF N Y  KN+TL  +L     F+ ++     IP      + 
+Sbjct  283  -----LNNIAIYLSGGIGAFDNAY--KNLTLSSDLFGQQTFRIIYKALNIIPLFDFETQN  335
+
+Query  281  DILPWI-NTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQN-LAVGFY-  337
+             I   I  TG + TNVYTA   +    G    I+  +L+G ++G  ++  +N +  G + 
+Sbjct  336  TISTTIYGTGGFRTNVYTANLNFMADFGYMGVILCNMLIGMFHGFLYNKSKNEIDAGVWT  395
+
+Query  338  --QTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILL  371
+                F   PL+     E Y  +  ++ IYF+   LL
+Sbjct  396  VLNAFFMMPLVSYLNAEKYFAAMPLNAIYFIVIYLL  431
+
+
+Sequence with id WP_025162139 no longer exists in database...alignment skipped
+Sequence with id WP_176798227 no longer exists in database...alignment skipped
+>WP_149565771.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ KAA0117573.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.6 bits (109),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 53/197 (27%), Positives = 90/197 (46%), Gaps = 26/197 (13%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  HFIYFLCAILLAMRKAL  377
+            H    + A+++ M   L
+Sbjct  410  HINRIIYALVIYMAADL  426
+
+
+>WP_128834962.1 oligosaccharide repeat unit polymerase [Streptococcus sp. DD11]
+ KXT85152.1 O-antigen polymerase [Streptococcus sp. DD11]
+Length=441
+
+ Score = 46.6 bits (109),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 54/196 (28%), Positives = 92/196 (47%), Gaps = 30/196 (15%)
+
+Query  198  KKLLIYGTFVFGLF-ALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYV----  252
+            + LL  G    GLF  + + +L +  S  E      I D L  Y+ S + A + Y+    
+Sbjct  239  RMLLTIGLVFLGLFMVIGTFVLNRVDSQAE----LGILDNLIKYMGSPIQALDYYLKNPS  294
+
+Query  253  --EKNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+              + N    EN L+     V+GT K +       T  LP I+     TNVYT +  + + 
+Sbjct  295  LYDNNQVFGENTLI----AVYGTLKSLGLSSYDLTPFLPVIHFNGDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQNL-----AVGFYQTFLCFPLLMLFFQEHY--LLS  357
+             G ++ +I+ ++ GF+YG  ++S ++       A+ F      +PL++ FFQE    LL+
+Sbjct  351  FGYFSVLILQLVYGFFYGSFYYSIKKRYFTPLKAIVF--ALFAYPLVISFFQETLLSLLT  408
+
+Query  358  WKMHFIYFLCAILLAM  373
+              ++ I +  AI +A+
+Sbjct  409  THINRIVYAFAIYIAI  424
+
+
+>WP_125377924.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RSI32613.1 hypothetical protein D8879_03845 [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.6 bits (109),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSQAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>WP_125396550.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ KAF1306837.1 oligosaccharide repeat-containing polymerase [Streptococcus sanguinis 
+OH0843]
+ MBZ2062415.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2064626.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RSI37867.1 hypothetical protein D8878_02635 [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.6 bits (109),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSQAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>WP_111694593.1 oligosaccharide repeat unit polymerase [Streptococcus cristatus]
+ GEN97395.1 polymerase [Streptococcus cristatus]
+ SQI49939.1 extrracellular polysaccharide polymerase putative [Streptococcus 
+cristatus]
+Length=439
+
+ Score = 46.6 bits (109),  Expect = 0.20, Method: Compositional matrix adjust.
+ Identities = 49/171 (29%), Positives = 80/171 (47%), Gaps = 30/171 (18%)
+
+Query  207  VFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE------KNVTLPE  260
+            V G F L+ I       D + ++     D L  Y+ S + AF+ +++      KN    E
+Sbjct  254  VVGAFVLNRI-------DNQSRL--GFLDNLIKYMGSPIQAFDYFLKNSYLYGKNQIFGE  304
+
+Query  261  NLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIG  315
+            N L+     V+GT K +       T  LP +N     TNVYT +  + +  G ++ +II 
+Sbjct  305  NTLI----SVYGTLKSLGLSHHNLTPFLPVVNFNGDKTNVYTTYYYFIKDFGYFSILIIQ  360
+
+Query  316  ILLGFYYG-IWFSFRQNL----AVGFYQTFLCFPLLMLFFQEHYLLSWKMH  361
+            +L GF++G  ++S ++ L     V  +  F  +PL++ FFQE  L     H
+Sbjct  361  LLYGFFFGSFYYSIKRKLFTPVKVIIFALF-AYPLVISFFQETLLSLLTTH  410
+
+
+>WP_125382654.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RSI48582.1 hypothetical protein D8871_06225 [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.6 bits (109),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSQAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>WP_015605928.1 oligosaccharide repeat unit polymerase [Streptococcus cristatus]
+ AGK72038.1 extrracellular polysaccharide polymerase putative [Streptococcus 
+cristatus AS 1.3089]
+Length=426
+
+ Score = 46.2 bits (108),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 49/171 (29%), Positives = 80/171 (47%), Gaps = 30/171 (18%)
+
+Query  207  VFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE------KNVTLPE  260
+            V G F L+ I       D + ++     D L  Y+ S + AF+ +++      KN    E
+Sbjct  241  VVGAFVLNRI-------DNQSRL--GFLDNLIKYMGSPIQAFDYFLKNSYLYGKNQIFGE  291
+
+Query  261  NLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIG  315
+            N L+     V+GT K +       T  LP +N     TNVYT +  + +  G ++ +II 
+Sbjct  292  NTLI----SVYGTLKSLGLSHHNLTPFLPVVNFNGDKTNVYTTYYYFIKDFGYFSILIIQ  347
+
+Query  316  ILLGFYYG-IWFSFRQNL----AVGFYQTFLCFPLLMLFFQEHYLLSWKMH  361
+            +L GF++G  ++S ++ L     V  +  F  +PL++ FFQE  L     H
+Sbjct  348  LLYGFFFGSFYYSIKRKLFTPVKVIIFALF-AYPLVISFFQETLLSLLTTH  397
+
+
+Sequence with id WP_227965284 no longer exists in database...alignment skipped
+Sequence with id WP_125410556 no longer exists in database...alignment skipped
+Sequence with id MBF1697748 no longer exists in database...alignment skipped
+Sequence with id WP_061592433 no longer exists in database...alignment skipped
+Sequence with id WP_195418208 no longer exists in database...alignment skipped
+>MBQ9569226.1 oligosaccharide repeat unit polymerase [Alloprevotella sp.]
+Length=401
+
+ Score = 46.2 bits (108),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 43/155 (28%), Positives = 76/155 (49%), Gaps = 12/155 (8%)
+
+Query  223  SDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVT--LPENLLLYPFKEVWGTTKDI-PK  279
+             D EG    A  D L VY  S   AF+ Y E + +    E++  + +   +    DI P 
+Sbjct  239  EDQEGGFSGA--DMLSVYTLSPCVAFDYYAEPSSSSFFGEHVFRFFYALGYAFGSDITPA  296
+
+Query  280  TDILPWINTGVWD-TNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWF---SFRQNLAVG  335
+            ++IL ++  GV + TN YT   P+Y   G++  ++ G+  G ++G  +    ++ N+   
+Sbjct  297  SNILKFV--GVPELTNTYTILYPFYTDFGMWGVVVGGMFYGLFFGYLYKRGQYKDNVYFV  354
+
+Query  336  FYQTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAIL  370
+             Y  FL + L++ F QE+ L +  +   Y L A++
+Sbjct  355  LYACFLNY-LILQFVQENVLSNLSLTIQYILIALV  388
+
+
+Sequence with id WP_048773128 no longer exists in database...alignment skipped
+Sequence with id WP_046821793 no longer exists in database...alignment skipped
+Sequence with id WP_125445531 no longer exists in database...alignment skipped
+>WP_002917831.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ EGF17601.1 oligosaccharide repeat-containing polymerase [Streptococcus sanguinis 
+SK408]
+ ETD06830.1 hypothetical protein HMPREF1196_01854 [Streptococcus sanguinis 
+CC94A]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_125352442 no longer exists in database...alignment skipped
+>WP_126434985.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2023889.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2048720.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2051085.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2060156.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MCC3177652.1 putative membrane protein [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHDLTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>WP_002920399.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ EGG38870.1 oligosaccharide repeat-containing polymerase [Streptococcus sanguinis 
+SK1087]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_061603223 no longer exists in database...alignment skipped
+Sequence with id MBF1706997 no longer exists in database...alignment skipped
+Sequence with id WP_002908530 no longer exists in database...alignment skipped
+>WP_002894039.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RKV91644.1 oligosaccharide repeat unit polymerase [Streptococcus sp.]
+ EFX94777.1 hypothetical protein HMPREF9398_0375 [Streptococcus sanguinis 
+VMC66]
+ EGC24536.1 hypothetical protein HMPREF9390_1601 [Streptococcus sanguinis 
+SK405]
+ EGF09808.1 oligosaccharide repeat-containing polymerase [Streptococcus sanguinis 
+SK1057]
+ QKQ45057.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>MBF1689507.1 oligosaccharide repeat unit polymerase [Streptococcus cristatus]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_004192559 no longer exists in database...alignment skipped
+>QLB51369.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.28, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_002907806 no longer exists in database...alignment skipped
+>WP_125347091.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RSI27337.1 hypothetical protein D8880_06745 [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>WP_002914157.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ EGF06357.1 oligosaccharide repeat-containing polymerase [Streptococcus sanguinis 
+SK1 = NCTC 7863]
+ MBZ2075315.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RSI12144.1 hypothetical protein D8887_00530 [Streptococcus sanguinis]
+ SQG29360.1 oligosaccharide repeat-containing polymerase [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>WP_223312062.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2038601.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2068446.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2070910.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>BDA18882.1 hypothetical protein KAM345_027960 [Aeromonas caviae]
+ GJA48189.1 hypothetical protein KAM346_44780 [Aeromonas caviae]
+Length=248
+
+ Score = 45.4 bits (106),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 31/110 (28%), Positives = 53/110 (48%), Gaps = 4/110 (4%)
+
+Query  232  AIFDTLRVYLFSGLAAFNLYVEKNVTLPENL--LLYPFKEVWGTTKDIPKTDILPWINTG  289
+            +I D L +Y++S L A  L +E  +   E    + Y     +G ++  P+  IL ++N  
+Sbjct  122  SIADVLGIYIYSPLVALGL-LENTIHFGEYTFRIFYAVSYYFGFSELPPQETILDYVNVP  180
+
+Query  290  VWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQT  339
+             + TNVYT   P+Y   GL    +  I  G ++G+ F F +   V  ++ 
+Sbjct  181  -FPTNVYTVMQPFYSDFGLLGVFLGAIFYGVFWGVLFKFVERKGVSIHRN  229
+
+
+Sequence with id WP_224017067 no longer exists in database...alignment skipped
+>WP_002928269.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ EGJ43173.1 oligosaccharide repeat-containing polymerase [Streptococcus sanguinis 
+SK355]
+Length=441
+
+ Score = 46.2 bits (108),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_168930506 no longer exists in database...alignment skipped
+>WP_223337775.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2041010.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MCC3170555.1 putative membrane protein [Streptococcus sanguinis]
+Length=441
+
+ Score = 45.8 bits (107),  Expect = 0.32, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_150843206 no longer exists in database...alignment skipped
+Sequence with id WP_223321637 no longer exists in database...alignment skipped
+>WP_223315094.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ MBZ2066975.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+Length=441
+
+ Score = 45.8 bits (107),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLVTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_125351509 no longer exists in database...alignment skipped
+Sequence with id WP_168956423 no longer exists in database...alignment skipped
+Sequence with id WP_002899245 no longer exists in database...alignment skipped
+Sequence with id WP_072074729 no longer exists in database...alignment skipped
+>WP_214095740.1 oligosaccharide repeat unit polymerase [Morganella morganii]
+ MBS9543023.1 oligosaccharide repeat unit polymerase [Morganella morganii subsp. 
+morganii]
+Length=395
+
+ Score = 45.4 bits (106),  Expect = 0.43, Method: Compositional matrix adjust.
+ Identities = 43/139 (31%), Positives = 66/139 (47%), Gaps = 19/139 (14%)
+
+Query  231  SAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYPFKEVW------GTTKDIPKTDILP  284
+            + I+  L  Y++S + AF   +  N T   ++ +Y F+ ++      G   ++P + IL 
+Sbjct  237  NTIYSVLGTYIYSPIVAFGT-LSTN-TDDTSIGIYTFRFIYAFLYKSGFITEVPTSTILD  294
+
+Query  285  WINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLCF-  343
+            ++      TNVYTA  P+Y     Y  I   I+    YG+ +SF  NLA   Y  FL F 
+Sbjct  295  YVYIPT-PTNVYTAMQPFYSDFSFYGIIFGAII----YGVIYSFIYNLARRGYTLFLLFY  349
+
+Query  344  -----PLLMLFFQEHYLLS  357
+                  L+M FF E  LL+
+Sbjct  350  ASMSISLIMSFFAETLLLN  368
+
+
+>WP_118106466.1 oligosaccharide repeat unit polymerase [Streptococcus gordonii]
+ RHE63118.1 oligosaccharide repeat unit polymerase [Streptococcus gordonii]
+Length=439
+
+ Score = 45.4 bits (106),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 55/190 (29%), Positives = 86/190 (45%), Gaps = 29/190 (15%)
+
+Query  192  NSYVSKK---KLLIYGTFVFGLF-ALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAA  247
+            NS+ S+K    LL  G     LF  + + +L +  S  E        D L  Y+ S + A
+Sbjct  230  NSHYSRKLFRTLLTIGFLFIVLFIVVGTFVLNRVDSQSE----LGFLDNLIKYMGSPIQA  285
+
+Query  248  FNLYVEK------NVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVY  296
+            F+ +++       N    EN L+     ++GT K +       T  LP IN     TNVY
+Sbjct  286  FDYFLKNPSLYANNQVFGENTLI----AIYGTLKSLGLSNYDLTPFLPVINFNGDKTNVY  341
+
+Query  297  TAFAPWYQSLGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQ  351
+            T +  + +  G  + +I+ IL GF++G  ++S ++     L V  Y  F  +PL++ FFQ
+Sbjct  342  TIYYYFIKDFGYLSILIMQILYGFFFGSFYYSIKRRGFSPLKVIIYSLF-AYPLVISFFQ  400
+
+Query  352  EHYLLSWKMH  361
+            E  L     H
+Sbjct  401  ETLLSLLTTH  410
+
+
+Sequence with id WP_223313684 no longer exists in database...alignment skipped
+Sequence with id WP_221737196 no longer exists in database...alignment skipped
+>WP_109623580.1 oligosaccharide repeat unit polymerase [Chryseobacterium oncorhynchi]
+ PWN60619.1 hypothetical protein C1638_019280 [Chryseobacterium oncorhynchi]
+Length=389
+
+ Score = 45.4 bits (106),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 59/227 (26%), Positives = 104/227 (46%), Gaps = 16/227 (7%)
+
+Query  148  CMYLARHENK--KNYFYCFTLFSFLLAVLS---TSKIFLILFLVYIVGINSYVSKKKLLI  202
+            C+    + NK  K  +Y   L +FLL +++   TS + L L +  I+   + ++KK    
+Sbjct  155  CLLFTYYYNKISKLKYYIILLCAFLLGLVTLARTSLVILSLGIFIILYFKNVLTKKH---  211
+
+Query  203  YGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENL  262
+            Y TF+    +   ++     S+P  + +S IFDT  +YLF G+ A++  V    T   + 
+Sbjct  212  YLTFIIVFVSFLLLVTALRGSNPYDEKVS-IFDTFSLYLFGGMPAYDTLVYFGSTQFGSY  270
+
+Query  263  ---LLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLG  319
+                 Y F   +G +  + +T I  +    +  TNVYT   P+Y+  G     I G++ G
+Sbjct  271  TFRFFYAFANAFGGSYKVQET-IFTYAYIPI-PTNVYTVMLPFYKDFGYTGVGIFGMIYG  328
+
+Query  320  FYYGIWFSFRQ--NLAVGFYQTFLCFPLLMLFFQEHYLLSWKMHFIY  364
+              +GI +      N+ +    + +   LL+ FF E+  L+   +  Y
+Sbjct  329  LMFGIAYKLSNYGNILMILIYSMILPCLLLQFFGEYIFLNLSTYLQY  375
+
+
+Sequence with id WP_060554225 no longer exists in database...alignment skipped
+Sequence with id WP_211472313 no longer exists in database...alignment skipped
+Sequence with id WP_155972045 no longer exists in database...alignment skipped
+>WP_155965990.1 oligosaccharide repeat unit polymerase [Streptococcus ruminantium]
+Length=436
+
+ Score = 45.1 bits (105),  Expect = 0.57, Method: Compositional matrix adjust.
+ Identities = 51/203 (25%), Positives = 95/203 (47%), Gaps = 29/203 (14%)
+
+Query  198  KKLLIYGTFVFGLFAL-SSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNV  256
+            K +L+YG    GLF L    +L +  + P         D L  Y+ S +A  + +++   
+Sbjct  243  KIILLYGLGSIGLFLLVGEFVLSRLGNSP--------IDNLSKYIGSPIAGLDYFIKNQN  294
+
+Query  257  TLPENLLL--YPFKEVWGTTKDI---PK--TDILPWINTGVWDTNVYTAFAPWYQSLGLY  309
+               EN       F  ++GT K +   P+  +  LP IN     +NVYTA+  + +  G +
+Sbjct  295  FYAENRYFGENTFIAIYGTLKSLGIFPERLSPFLPIINFYGTTSNVYTAYYVFIKDFGYF  354
+
+Query  310  AAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKMH---  361
+             A+++  L G ++G +++  ++N    L +  Y   L + ++++FFQE ++     H   
+Sbjct  355  IAVVVQFLYGLFFGTMYYIIKKNLFSPLLIMLYG-LLSYGMVIMFFQEAFVTLLTTHIIR  413
+
+Query  362  ----FIYFLCAILLAMRKALEYE  380
+                F++FL   +L++ K   Y 
+Sbjct  414  AVFLFMWFLLIKILSVFKLKRYR  436
+
+
+Sequence with id WP_156008262 no longer exists in database...alignment skipped
+Sequence with id WP_024532600 no longer exists in database...alignment skipped
+>WP_223946072.1 oligosaccharide repeat unit polymerase [Aeromonas caviae]
+Length=329
+
+ Score = 44.7 bits (104),  Expect = 0.60, Method: Compositional matrix adjust.
+ Identities = 31/110 (28%), Positives = 53/110 (48%), Gaps = 4/110 (4%)
+
+Query  232  AIFDTLRVYLFSGLAAFNLYVEKNVTLPENL--LLYPFKEVWGTTKDIPKTDILPWINTG  289
+            +I D L +Y++S L A  L +E  +   E    + Y     +G ++  P+  IL ++N  
+Sbjct  203  SIADVLGIYIYSPLVALGL-LENTIHFGEYTFRIFYAVSYYFGFSELPPQETILDYVNVP  261
+
+Query  290  VWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQT  339
+             + TNVYT   P+Y   GL    +  I  G ++G+ F F +   V  ++ 
+Sbjct  262  -FPTNVYTVMQPFYSDFGLLGVFLGAIFYGVFWGVLFKFVERKGVSIHRN  310
+
+
+>WP_125434026.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RSI20930.1 hypothetical protein D8886_01610 [Streptococcus sanguinis]
+Length=441
+
+ Score = 45.1 bits (105),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 49/184 (27%), Positives = 84/184 (46%), Gaps = 32/184 (17%)
+
+Query  212  ALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE------KNVTLPENLLLY  265
+            A+ + +L +  S  E      I D L  Y+ S + A + Y++       N    EN L+ 
+Sbjct  254  AVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPTLYSDNQVFGENTLI-  308
+
+Query  266  PFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGF  320
+                ++GT K +       T  LP ++     TNVYT +  + +  G ++ +I  +L GF
+Sbjct  309  ---AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKDFGYFSVLIFQLLYGF  365
+
+Query  321  YYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKMH-------FIYFLCA  368
+            +YG  ++S ++     L V  +  F  +PL++ FFQE  L     H       F+ ++ A
+Sbjct  366  FYGSFYYSIKKRYFTPLKVIIFALF-AYPLVISFFQETLLSLLTTHINRIIYAFVIYMAA  424
+
+Query  369  ILLA  372
+             LL+
+Sbjct  425  DLLS  428
+
+
+>WP_224170705.1 oligosaccharide repeat unit polymerase [Paraclostridium bifermentans]
+ MBZ6006075.1 oligosaccharide repeat unit polymerase [Paraclostridium bifermentans]
+Length=443
+
+ Score = 45.1 bits (105),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 58/215 (27%), Positives = 95/215 (44%), Gaps = 31/215 (14%)
+
+Query  181  LILFLVYIVGINSY-----VSKKKL----LIYGTFVFGLFALSSIILGKFSS--DP-EGK  228
+            +I+F+ Y + +NS        KK+L    LI G    GL      I GK +   DP EG 
+Sbjct  224  IIVFVAYKIQVNSDKYENGRDKKRLEIKYLIMGILCIGLIFSYFFIAGKLAGKIDPNEG-  282
+
+Query  229  IISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLL-LYPFKEVWGTTKDIP------KTD  281
+                  + + +YL  G+ AF+ +V KN+    +L     F+ ++     IP      +  
+Sbjct  283  -----LNNIAIYLSGGIGAFD-HVYKNLIFTSDLFGQQTFRIIYKALNVIPLFDFETQNT  336
+
+Query  282  ILPWI-NTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQN-LAVGFY--  337
+            I   I  TG + TNVYT+   +    G    I+  +L+G ++G  ++  +N +  G +  
+Sbjct  337  ISTTIYGTGGFRTNVYTSNLNFMADFGYMGVILCNMLIGMFHGFLYNKSKNEIDAGVWTV  396
+
+Query  338  -QTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILL  371
+               F   PL+     E Y  +  ++ IYF+   LL
+Sbjct  397  LNAFFMMPLVSYLNAEKYFAAMPLNAIYFIAIYLL  431
+
+
+>WP_002916685.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ EGF13393.1 oligosaccharide repeat-containing polymerase [Streptococcus sanguinis 
+SK330]
+Length=441
+
+ Score = 45.1 bits (105),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 90/199 (45%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSQAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++  I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVPIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_082367525 no longer exists in database...alignment skipped
+Sequence with id WP_009660131 no longer exists in database...alignment skipped
+Sequence with id WP_170075504 no longer exists in database...alignment skipped
+>WP_124765023.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RRC92904.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+Length=441
+
+ Score = 44.7 bits (104),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 90/199 (45%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++  I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVPIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>WP_125401751.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RSI12008.1 hypothetical protein D8889_04610 [Streptococcus sanguinis]
+ RSI19833.1 hypothetical protein D8884_04775 [Streptococcus sanguinis]
+ RSI24408.1 hypothetical protein D8883_04225 [Streptococcus sanguinis]
+Length=441
+
+ Score = 44.7 bits (104),  Expect = 0.90, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 90/199 (45%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++  I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVPIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_035115179 no longer exists in database...alignment skipped
+>WP_006846801.1 oligosaccharide repeat unit polymerase [Prevotella copri]
+ EFB36387.1 chain length determinant protein [Prevotella copri DSM 18205]
+ MQP18669.1 oligosaccharide repeat unit polymerase [Prevotella copri DSM 
+18205]
+ UEA42421.1 oligosaccharide repeat unit polymerase [Prevotella copri DSM 
+18205]
+Length=683
+
+ Score = 44.7 bits (104),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 58/205 (28%), Positives = 94/205 (46%), Gaps = 28/205 (14%)
+
+Query  179  IFLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLR  238
+            IF +LF   I+ + + V    LLI G ++F L         +  SD + +  ++I D L 
+Sbjct  473  IFFVLFERRIIKLRTIVICGILLIIGFYIFNL--------SRSDSDSDYQKNTSILDFLG  524
+
+Query  239  VYLFSGLAAFNLYVEKNVT---LPENL-LLYPF-KEVWGTTKDIPKTDILPWINTGVWDT  293
+            +YL S   AF  ++ + ++     E+L  +Y +   + G+   I   D   ++   +  T
+Sbjct  525  MYLMSPPVAFG-HLRRTISDSFCSESLWTIYAYTNRLMGSGSIIQHEDFGEFVYVPM-PT  582
+
+Query  294  NVYTAFAPWYQSLGL----YAAIIIGILLGFYYGIWFSFRQNLAVGFYQ-TFLCFPLLML  348
+            NVYT   P+YQ LG     + A I G++ GF   I+   R   A G    T+L F L M 
+Sbjct  583  NVYTIMKPFYQDLGTIGVAFYAFIYGLVTGF---IYRKARNGNAFGICMYTYLVFVLTMQ  639
+
+Query  349  FFQEHYLLS-----WKMHFIYFLCA  368
+            FF E   ++      +M  +Y +C 
+Sbjct  640  FFDELIFVAIPQFLQRMFLVYIICQ  664
+
+
+Sequence with id MBW7840019 no longer exists in database...alignment skipped
+Sequence with id WP_021433702 no longer exists in database...alignment skipped
+>MBD5132147.1 oligosaccharide repeat unit polymerase [Clostridiales bacterium]
+Length=458
+
+ Score = 44.3 bits (103),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 56/227 (25%), Positives = 95/227 (42%), Gaps = 26/227 (11%)
+
+Query  170  LLAVLSTSKIFLILFLVYIVGIN----SYVSKKKLLIYGTFVFGLFALSSIILGKFSSDP  225
+            +LA++S+ +   + F +Y + +      + SK         VF +  L  I++  F    
+Sbjct  204  VLAIMSSDRNIFLRFAIYAICMYVVFFQHKSKNMRYANKQIVFRVIILLMIVVVIFFLMG  263
+
+Query  226  EGKIISAIF-DTLRVYLFSGLAAFNLYVEK--------NVTLPE-----NLLLYPFKEVW  271
+            + K  S+ F   + +Y  SGL  FNL+++K          T        N LL PF    
+Sbjct  264  KAKQYSSDFTRAISIYGGSGLYNFNLWLQKFDGELYYGASTFSTFINLLNTLLSPFGAQI  323
+
+Query  272  GTTKDIPKTD---ILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSF  328
+                DI + D   I    N  V+ +N+Y+A  P+ Q  G +  II    +G +YG  F  
+Sbjct  324  QGVADIARFDEMIIFTSPNGYVYVSNIYSAMYPYVQDFGYFGVIIFPFAIGAFYGFLFER  383
+
+Query  329  RQNLAVGFYQTFLC---FPLLMLFFQEHYLLSWKMHFIYFL--CAIL  370
+             +     F     C   +P++     E  +  + + F+Y +  CAI+
+Sbjct  384  AKKRNNAFSWLIYCLLIYPIVFFAIAEQLIRRFHLGFVYEIVWCAII  430
+
+
+Sequence with id WP_085282284 no longer exists in database...alignment skipped
+>WP_125330745.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ RSI56060.1 hypothetical protein D8870_01655 [Streptococcus sanguinis]
+Length=441
+
+ Score = 44.3 bits (103),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 53/199 (27%), Positives = 90/199 (45%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D    Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGIXDNXVKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHDLTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +L GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLLYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+Sequence with id WP_135033576 no longer exists in database...alignment skipped
+>EOS19035.1 hypothetical protein C803_01198 [Parabacteroides goldsteinii 
+dnLKV18]
+Length=397
+
+ Score = 43.9 bits (102),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 78/323 (24%), Positives = 137/323 (42%), Gaps = 35/323 (11%)
+
+Query  29   VLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIA----RSGRVVFS  84
+            + + ++ W  LL+GY   +    PLS    + ++A++  F +  + ++    R  R+  +
+Sbjct  19   ITLTSSLWLFLLIGYNVIDHGLYPLSDKFYYALMAWIIPFQIACLSMSNKYVRVRRLHLA  78
+
+Query  85   F-GTGFIESKYIYWFAGMINIISICF----GIILLYNNHFS----LKVMREGILDGSVSG  135
+               T  I ++Y+  F  +  IIS+       I+   +N +S    L V  +   +  +SG
+Sbjct  79   HSATPLITNRYVILFISICLIISLVMSYQRAIVFDPSNFYSAWRELSVAVKRNEEAPLSG  138
+
+Query  136  FGLGI----SLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGI  191
+              L       +   FC +YL R E  K Y   F L  F   V+   K  ++ F +  +G+
+Sbjct  139  LHLNTFRVAQMGYMFCLIYLLRDERFK-YKRLFFLLVFAFIVMGADKGSILRFFIGYIGV  197
+
+Query  192  NSYVSK--KKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFN  249
+              + +K   ++L+Y      L  L    +  F  D EG     IFD + +Y+FS L AF+
+Sbjct  198  LCFRNKLNVRILLYS---LSLICLVVYAIQFFRGDSEG---IDIFDLIYIYIFSPLPAFD  251
+
+Query  250  LYV-EKNVTLPE----NLLLYPFKEVWGTTKDIPKTDILPWINTGV----WDTNVYTAFA  300
+             Y+    V L      +L+   F  V     +   T  + + N  +      TNVYT  A
+Sbjct  252  NYILHSQVDLTTYFHGDLVFKNFPLVGRIFANNYNTVDVNYFNYEMVHVPLPTNVYTMMA  311
+
+Query  301  PWYQSLGLYAAIIIGILLGFYYG  323
+             ++        I+ G+  G ++G
+Sbjct  312  GYWVGWKWLGLIVGGLFHGCFWG  334
+
+
+Sequence with id WP_160257462 no longer exists in database...alignment skipped
+Sequence with id NBI98321 no longer exists in database...alignment skipped
+>MBU0742289.1 oligosaccharide repeat unit polymerase [bacterium]
+ MBU1676666.1 oligosaccharide repeat unit polymerase [bacterium]
+Length=404
+
+ Score = 43.9 bits (102),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 58/220 (26%), Positives = 98/220 (45%), Gaps = 24/220 (11%)
+
+Query  156  NKKNYFYCFTLF--SFLLAVLSTSK--IFLILFLVYIVGINSYVSKKK-----LLIYGTF  206
+            +KK       LF  + +  +LS S+  + ++LF    V   S VS+++     +L+ G  
+Sbjct  166  DKKRRGLVVLLFIVALIYQILSASRTGVGILLFSAACV---SAVSRRRIPIKLMLLAGGG  222
+
+Query  207  VFGLFALSSIILGKFSSDPEGKIIS--AIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLL  264
+               LF   +++LGK          S  ++   +R YL SG+ AF+  V            
+Sbjct  223  FLALFLGVALVLGKTGVQHLTGTSSLVSMLHMVRHYLISGIVAFDQVVADPTPFEGGFHS  282
+
+Query  265  YPF----KEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGF  320
+              F      V+G   ++P   +L ++ T  + TNVYT F P Y   GL   ++ G+LLG+
+Sbjct  283  LRFFSIVANVFGAGIEVPDL-VLEYVMT-PYPTNVYTMFFPSYVDFGLAGVVVYGVLLGW  340
+
+Query  321  YYGIWFSFRQN---LAVGFYQTFLCFPLLMLFFQEHYLLS  357
+               + + + QN   +    +   L   LL+    EH+L+S
+Sbjct  341  TCCLLYRWAQNGSLIGTALFGLALA-KLLISGITEHFLVS  379
+
+
+>WP_157310101.1 oligosaccharide repeat unit polymerase [Parabacteroides goldsteinii]
+Length=383
+
+ Score = 43.9 bits (102),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 78/323 (24%), Positives = 137/323 (42%), Gaps = 35/323 (11%)
+
+Query  29   VLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIA----RSGRVVFS  84
+            + + ++ W  LL+GY   +    PLS    + ++A++  F +  + ++    R  R+  +
+Sbjct  5    ITLTSSLWLFLLIGYNVIDHGLYPLSDKFYYALMAWIIPFQIACLSMSNKYVRVRRLHLA  64
+
+Query  85   F-GTGFIESKYIYWFAGMINIISICF----GIILLYNNHFS----LKVMREGILDGSVSG  135
+               T  I ++Y+  F  +  IIS+       I+   +N +S    L V  +   +  +SG
+Sbjct  65   HSATPLITNRYVILFISICLIISLVMSYQRAIVFDPSNFYSAWRELSVAVKRNEEAPLSG  124
+
+Query  136  FGLGI----SLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGI  191
+              L       +   FC +YL R E  K Y   F L  F   V+   K  ++ F +  +G+
+Sbjct  125  LHLNTFRVAQMGYMFCLIYLLRDERFK-YKRLFFLLVFAFIVMGADKGSILRFFIGYIGV  183
+
+Query  192  NSYVSK--KKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFN  249
+              + +K   ++L+Y      L  L    +  F  D EG     IFD + +Y+FS L AF+
+Sbjct  184  LCFRNKLNVRILLYS---LSLICLVVYAIQFFRGDSEG---IDIFDLIYIYIFSPLPAFD  237
+
+Query  250  LYV-EKNVTLPE----NLLLYPFKEVWGTTKDIPKTDILPWINTGV----WDTNVYTAFA  300
+             Y+    V L      +L+   F  V     +   T  + + N  +      TNVYT  A
+Sbjct  238  NYILHSQVDLTTYFHGDLVFKNFPLVGRIFANNYNTVDVNYFNYEMVHVPLPTNVYTMMA  297
+
+Query  301  PWYQSLGLYAAIIIGILLGFYYG  323
+             ++        I+ G+  G ++G
+Sbjct  298  GYWVGWKWLGLIVGGLFHGCFWG  320
+
+
+>RLT82249.1 oligosaccharide repeat unit polymerase [Parabacteroides goldsteinii]
+Length=409
+
+ Score = 43.9 bits (102),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 78/323 (24%), Positives = 137/323 (42%), Gaps = 35/323 (11%)
+
+Query  29   VLIANAFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIA----RSGRVVFS  84
+            + + ++ W  LL+GY   +    PLS    + ++A++  F +  + ++    R  R+  +
+Sbjct  31   ITLTSSLWLFLLIGYNVIDHGLYPLSDKFYYALMAWIIPFQIACLSMSNKYVRVRRLHLA  90
+
+Query  85   F-GTGFIESKYIYWFAGMINIISICF----GIILLYNNHFS----LKVMREGILDGSVSG  135
+               T  I ++Y+  F  +  IIS+       I+   +N +S    L V  +   +  +SG
+Sbjct  91   HSATPLITNRYVILFISICLIISLVMSYQRAIVFDPSNFYSAWRELSVAVKRNEEAPLSG  150
+
+Query  136  FGLGI----SLPLSFCCMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGI  191
+              L       +   FC +YL R E  K Y   F L  F   V+   K  ++ F +  +G+
+Sbjct  151  LHLNTFRVAQMGYMFCLIYLLRDERFK-YKRLFFLLVFAFIVMGADKGSILRFFIGYIGV  209
+
+Query  192  NSYVSK--KKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFN  249
+              + +K   ++L+Y      L  L    +  F  D EG     IFD + +Y+FS L AF+
+Sbjct  210  LCFRNKLNVRILLYS---LSLICLVVYAIQFFRGDSEG---IDIFDLIYIYIFSPLPAFD  263
+
+Query  250  LYV-EKNVTLPE----NLLLYPFKEVWGTTKDIPKTDILPWINTGV----WDTNVYTAFA  300
+             Y+    V L      +L+   F  V     +   T  + + N  +      TNVYT  A
+Sbjct  264  NYILHSQVDLTTYFHGDLVFKNFPLVGRIFANNYNTVDVNYFNYEMVHVPLPTNVYTMMA  323
+
+Query  301  PWYQSLGLYAAIIIGILLGFYYG  323
+             ++        I+ G+  G ++G
+Sbjct  324  GYWVGWKWLGLIVGGLFHGCFWG  346
+
+
+>WP_088398162.1 oligosaccharide repeat unit polymerase [Flavobacterium columnare]
+ OWP77591.1 hypothetical protein BWG23_04450 [Flavobacterium columnare]
+Length=392
+
+ Score = 43.5 bits (101),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 52/195 (27%), Positives = 91/195 (47%), Gaps = 20/195 (10%)
+
+Query  147  CCMYLARHENK--KNYFYCFTLFSFLLAVLSTSKIFLILFLV--YIVGINSYVSKKKLLI  202
+             C+    + NK  K  +Y     +FLL +++ ++  L++  +  +++ +     K+K   
+Sbjct  155  VCLLFTLYYNKISKFKYYVVLFLAFLLGLITLARTSLVVLSISIFVILVAKNAIKRKYYF  214
+
+Query  203  YGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENL  262
+            Y  F F +F L   ++    S  E +  S++ +T  +YLFSG+ AF+   E N  LP   
+Sbjct  215  YFIFFFFIFIL---LVTSLRSIHETEQESSLLETFSIYLFSGMPAFD---EINY-LPTGK  267
+
+Query  263  L-------LYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIG  315
+            +        Y   +  G    + KT IL ++   V  TNVYT   P+++  G       G
+Sbjct  268  VGSNVFRFFYAILDALGYNTKVEKT-ILEYVEVPV-PTNVYTVLYPFFKDFGYNGVGFFG  325
+
+Query  316  ILLGFYYGIWFSFRQ  330
+            I+ GF+Y I + F +
+Sbjct  326  IIYGFFYTILYKFYK  340
+
+
+Sequence with id WP_068981941 no longer exists in database...alignment skipped
+>WP_128739709.1 oligosaccharide repeat unit polymerase [Leuconostoc mesenteroides]
+ QAT27933.1 oligosaccharide repeat unit polymerase [Leuconostoc mesenteroides]
+Length=437
+
+ Score = 43.5 bits (101),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 35/115 (30%), Positives = 52/115 (45%), Gaps = 12/115 (10%)
+
+Query  218  LGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWG--TTK  275
+            LG+ S D       + F  +  YL   +   +L+++ N +         F  V+   T  
+Sbjct  265  LGRTSED-------SFFQYIFRYLGGPMEGLDLFIKSNYSYSHMYGQETFAGVYSLLTKL  317
+
+Query  276  DIPKTDI-LPWI--NTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFS  327
+             I    I L WI   TG+W  NVYTAF  +Y   GL    I+  +LG ++G+ FS
+Sbjct  318  GIENQPIKLSWIMAPTGIWVGNVYTAFRRYYSDFGLSGVAILMFMLGIFFGVLFS  372
+
+
+Sequence with id WP_158664406 no longer exists in database...alignment skipped
+Sequence with id AVA36364 no longer exists in database...alignment skipped
+>ABF09143.1 conserved hypothetical protein [Cupriavidus metallidurans CH34]
+Length=456
+
+ Score = 43.5 bits (101),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 55/240 (23%), Positives = 98/240 (41%), Gaps = 30/240 (13%)
+
+Query  138  LGISLPLSFC------CMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGI  191
+            +G  +P+SF         +L +  NKKN      + +  +A L+T + F ++   ++  +
+Sbjct  192  IGYIVPVSFVIASIRLTQFLDKQTNKKNLAIAIAV-ALCMAYLTTGRTFFMMLFCFL--L  248
+
+Query  192  NSYVSKKKLLIYGTFVFGLFALSSIIL-------GKFSSDPEGKIISAIFDTLRVYLFSG  244
+               + + K+ + G  + G+   +S ++       G  ++      +  I  TLRVY  S 
+Sbjct  249  FPLIFRGKIKLGGVVIAGVVLAASFVMIALLTQRGVSATASVDDNVDGIIKTLRVYFLSP  308
+
+Query  245  LAAFNLYVEKNVTLPEN----LLLYPFKEVWGTTKDIPKTDILPWINTGVW--D-TNVYT  297
+            + A     + N +           Y    V G   +IP     P I   V   D TNV+T
+Sbjct  309  IFAMGSVFDGNGSATYGDYTFRFFYMLANVIGLNIEIP-----PLIRDYVLIPDMTNVFT  363
+
+Query  298  AFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVG--FYQTFLCFPLLMLFFQEHYL  355
+               P+Y+  G+   +I   L G  +   +   ++      F      FPL+M FFQ+ Y+
+Sbjct  364  VMDPYYRDFGVGGVLIFAALSGLAHDALYEKAKSEGGPYIFIHAAFMFPLVMQFFQDMYM  423
+
+
+Sequence with id WP_071952255 no longer exists in database...alignment skipped
+>WP_002902066.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+ ABN45580.1 Oligosaccharide repeat unit polymerase Wzy, putative [Streptococcus 
+sanguinis SK36]
+ EGC27767.1 hypothetical protein HMPREF9392_0288 [Streptococcus sanguinis 
+SK678]
+ MBZ2055517.1 oligosaccharide repeat unit polymerase [Streptococcus sanguinis]
+Length=441
+
+ Score = 43.5 bits (101),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 53/199 (27%), Positives = 90/199 (45%), Gaps = 33/199 (17%)
+
+Query  198  KKLLIYG-TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVE---  253
+            + LLI G  F+    A+ + +L +  S  E      I D L  Y+ S + A + Y++   
+Sbjct  239  RSLLIIGFVFLVLFMAVGTFVLNRVDSRAE----FGILDNLIKYMGSPIQALDYYLKNPT  294
+
+Query  254  ---KNVTLPENLLLYPFKEVWGTTKDI-----PKTDILPWINTGVWDTNVYTAFAPWYQS  305
+                N    EN L+     ++GT K +       T  LP ++     TNVYT +  + + 
+Sbjct  295  LYSDNQVFGENTLI----AIYGTLKSLGLSSHELTPFLPVVHFNDDKTNVYTIYYYFIKD  350
+
+Query  306  LGLYAAIIIGILLGFYYG-IWFSFRQN----LAVGFYQTFLCFPLLMLFFQEHYLLSWKM  360
+             G ++ +I  +  GF+YG  ++S ++     L V  +  F  +PL++ FFQE  L     
+Sbjct  351  FGYFSVLIFQLSYGFFYGSFYYSIKKRYFTPLKVIVFALF-AYPLVISFFQETLLSLLTT  409
+
+Query  361  H-------FIYFLCAILLA  372
+            H       F+ ++ A LL+
+Sbjct  410  HINRIIYAFVIYMAADLLS  428
+
+
+>WP_082219898.1 oligosaccharide repeat unit polymerase [Cupriavidus metallidurans]
+ QGS29973.1 oligosaccharide repeat unit polymerase [Cupriavidus metallidurans]
+Length=454
+
+ Score = 43.5 bits (101),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 55/240 (23%), Positives = 98/240 (41%), Gaps = 30/240 (13%)
+
+Query  138  LGISLPLSFC------CMYLARHENKKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGI  191
+            +G  +P+SF         +L +  NKKN      + +  +A L+T + F ++   ++  +
+Sbjct  190  IGYIVPVSFVIASIRLTQFLDKQTNKKNLAIAIAV-ALCMAYLTTGRTFFMMLFCFL--L  246
+
+Query  192  NSYVSKKKLLIYGTFVFGLFALSSIIL-------GKFSSDPEGKIISAIFDTLRVYLFSG  244
+               + + K+ + G  + G+   +S ++       G  ++      +  I  TLRVY  S 
+Sbjct  247  FPLIFRGKIKLGGVVIAGVVLAASFVMIALLTQRGVSATASVDDNVDGIIKTLRVYFLSP  306
+
+Query  245  LAAFNLYVEKNVTLPEN----LLLYPFKEVWGTTKDIPKTDILPWINTGVW--D-TNVYT  297
+            + A     + N +           Y    V G   +IP     P I   V   D TNV+T
+Sbjct  307  IFAMGSVFDGNGSATYGDYTFRFFYMLANVIGLNIEIP-----PLIRDYVLIPDMTNVFT  361
+
+Query  298  AFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVG--FYQTFLCFPLLMLFFQEHYL  355
+               P+Y+  G+   +I   L G  +   +   ++      F      FPL+M FFQ+ Y+
+Sbjct  362  VMDPYYRDFGVGGVLIFAALSGLAHDALYEKAKSEGGPYIFIHAAFMFPLVMQFFQDMYM  421
+
+
+Sequence with id MCD8297167 no longer exists in database...alignment skipped
+>MBS1735227.1 oligosaccharide repeat unit polymerase [Bacteroidetes bacterium]
+Length=430
+
+ Score = 43.1 bits (100),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 53/200 (27%), Positives = 87/200 (44%), Gaps = 17/200 (9%)
+
+Query  172  AVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTF----VFGLFALSSIILGKFSSDPEG  227
+            AV ST + F  L L   +GI SY+  K+  +   F    VF +F  S  I      D   
+Sbjct  204  AVFSTGRTFFFLILAIYLGI-SYIQGKRFSLRRNFFLLTVFLVFFTSMGIFYGKGGDSGD  262
+
+Query  228  KIISAIF---DTLRVYLFSGLAAFNLYVEKNVTLP---ENLLLYPFKEVWGTTKDIPKTD  281
+             I   ++    T  +YL S L A +  +  N  +    +N L +  K +    K+  KT 
+Sbjct  263  TIKDNLYPASQTTAIYLASSLNALDYELNHNFQINYNGQNTLGFFSKVLSVINKENSKTQ  322
+
+Query  282  ILPWINTGV---WDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFS---FRQNLAVG  335
+                +   V   + TNVYT ++P+ +  G    +++  L    + + F      + +   
+Sbjct  323  ENKLVKEFVFIPYPTNVYTVYSPYIKDFGFIYVLLMLSLFSIIHTLLFCKALHGKKIRFV  382
+
+Query  336  FYQTFLCFPLLMLFFQEHYL  355
+             Y TF+ +PL+M FFQ+ Y+
+Sbjct  383  IYFTFMLYPLMMSFFQDQYM  402
+
+
+Sequence with id RDC50024 no longer exists in database...alignment skipped
+>RYF51584.1 oligosaccharide repeat unit polymerase [Cytophagaceae bacterium]
+Length=392
+
+ Score = 43.1 bits (100),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 63/219 (29%), Positives = 95/219 (43%), Gaps = 19/219 (9%)
+
+Query  170  LLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYGTFVF-----GLFALSSIILGKFSSD  224
+            LL V + S+  L+L L  I     ++S+ K  +   F+       LF++ S+I    S+D
+Sbjct  171  LLTVAAYSRAHLLLGLSVIS--TKWISQSKYRVAYIFIIFVMFAALFSILSVIASVGSAD  228
+
+Query  225  PEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLLYP--FKEVWGTTKDIPKTDI  282
+                +   +F++L VY F G+A F  Y         +LL  P     +     ++P +  
+Sbjct  229  RNAGL-EGVFNSLEVYTFGGVAGFEFYYNTGFPQYNSLLTVPRFIYSIIPGLGNLPPS-Y  286
+
+Query  283  LPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFYQTFLC  342
+             P+I+T V   NV++A  P Y   G Y  II      F YG   S    L     Q +LC
+Sbjct  287  FPFIDT-VPPINVFSALYPPYHDFGKYGLII----FFFIYGALSSVTAVLFQRRRQRYLC  341
+
+Query  343  FPLLMLFFQEHYLLS-WKMHFIYFLCAILLAMRKALEYE  380
+              LL  FF    L+S +   FI  L  ++L +  A  Y 
+Sbjct  342  --LLSGFFLYAALMSPFDDQFIRGLTILILMITGAAVYA  378
+
+
+Sequence with id WP_223354989 no longer exists in database...alignment skipped
+>EGP0011017.1 oligosaccharide repeat unit polymerase [Enterococcus faecium]
+Length=220
+
+ Score = 42.0 bits (97),  Expect = 3.1, Method: Compositional matrix adjust.
+ Identities = 49/186 (26%), Positives = 85/186 (46%), Gaps = 18/186 (10%)
+
+Query  180  FLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRV  239
+            FLIL+++     N+     KL I+   +  L  L  II+  +  + +G    +I DTL +
+Sbjct  31   FLILYIILYTKSNNGNRYNKLKIFSYTIITLLVL--IIVFVYLGNLKGWAGKSITDTLSL  88
+
+Query  240  YLFSGLAAFNLYV----EKNVTLPENLLLYP-----FKEVWGTTKDIPKTDILPWI---N  287
+            Y    +AA N +V      N +    L  +      F  + G   ++  T ILP+    N
+Sbjct  89   YFGGSIAALNNFVGQGVHNNHSFDSGLETFLGVQDLFNRLNGNVSNV--TRILPFTEIGN  146
+
+Query  288  TGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSF-RQNLAVGFYQTFLCFPLL  346
+            +GV  TNVYTA   +    GL   II  +++  +  I +++ +++  + F   F     +
+Sbjct  147  SGVM-TNVYTAIRRYLSDFGLTGLIICSMIVSLFNNIMYTYIKRSNKINFLFIFYAINAM  205
+
+Query  347  MLFFQE  352
+            M+F+Q 
+Sbjct  206  MIFYQS  211
+
+
+Sequence with id MBS6509108 no longer exists in database...alignment skipped
+>WP_148549886.1 oligosaccharide repeat unit polymerase [Paraclostridium bifermentans]
+Length=443
+
+ Score = 42.7 bits (99),  Expect = 3.3, Method: Compositional matrix adjust.
+ Identities = 57/211 (27%), Positives = 91/211 (43%), Gaps = 31/211 (15%)
+
+Query  181  LILFLVYIVGINSY-----VSKKKL----LIYGTFVFGLFALSSIILGKFSS--DP-EGK  228
+            +I+F+ Y + + S        KK+L    LI G    GL      I GK +   DP EG 
+Sbjct  224  IIVFVAYKIQVKSDKYENGRDKKRLEIKYLIMGILCIGLIFSYFFIAGKLAGKIDPNEG-  282
+
+Query  229  IISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLL-LYPFKEVWGTTKDIP------KTD  281
+                  + + +YL  G+ AF+  V KN+T   +L     F+ ++     IP      +  
+Sbjct  283  -----LNNIAIYLSGGIGAFD-SVYKNLTFTSDLFGQQTFRIIYKALNIIPLFDFETQNT  336
+
+Query  282  ILPWI-NTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQN-LAVGFY--  337
+            I   I  TG + TNVYT    +    G    I+  +L+G ++G  +S  +N +  G +  
+Sbjct  337  ISTTIYGTGGFRTNVYTVNLNFMADFGYMGVILCNMLIGMFHGFLYSKSKNEIDAGVWTV  396
+
+Query  338  -QTFLCFPLLMLFFQEHYLLSWKMHFIYFLC  367
+               F   PL+     E Y  +  ++ IYF+ 
+Sbjct  397  LNAFFMMPLVSYLNAEKYFAAMPLNAIYFIA  427
+
+
+>WP_106083088.1 oligosaccharide repeat unit polymerase [Streptococcus anginosus]
+ PRT76740.1 oligosaccharide repeat unit polymerase [Streptococcus anginosus]
+Length=443
+
+ Score = 42.7 bits (99),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 44/178 (25%), Positives = 82/178 (46%), Gaps = 20/178 (11%)
+
+Query  198  KKLLIYGTFVFGLF-ALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNV  256
+            K +L+YG     LF  +  ++L +  S P         D L  Y+ S +A  + +++   
+Sbjct  243  KIILLYGLGSIALFLVVGDVVLNRLGSSP--------LDNLSKYIGSPIAGLDYFIKNQN  294
+
+Query  257  TLPENLLL--YPFKEVWGTTKDI---PK--TDILPWINTGVWDTNVYTAFAPWYQSLGLY  309
+               EN       F  ++GT K +   P+  +  LP IN     +NVYTA+  + +  G  
+Sbjct  295  YYLENRYFGENTFIAIYGTLKTLGIFPEQLSPFLPIINFYGTTSNVYTAYYVFIKDFGYS  354
+
+Query  310  AAIIIGILLGFYYG-IWFSFRQNLAVGFY---QTFLCFPLLMLFFQEHYLLSWKMHFI  363
+             AI++    G ++G +++  ++NL   F       L + ++++FFQE ++     H +
+Sbjct  355  VAILVQFFYGIFFGTMYYIIKKNLFSPFLIMIYGLLSYGMVIMFFQEAFITLLTTHIV  412
+
+
+Sequence with id HBJ53696 no longer exists in database...alignment skipped
+>VDM61310.1 unnamed protein product [Angiostrongylus costaricensis]
+Length=103
+
+ Score = 39.7 bits (91),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 24/66 (36%), Positives = 43/66 (65%), Gaps = 4/66 (6%)
+
+Query  52   PLSATTLFFILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFAGMINIISICFGI  111
+            PL++T +FFI++FL  FS+ Y++ A+  +++F   T ++ S + Y  AG   I S+ + I
+Sbjct  23   PLTSTEIFFIVSFLALFSLIYLIYAQHHKILFYVMTRYVVSGFFYA-AG---IFSVLYMI  78
+
+Query  112  ILLYNN  117
+            I+ Y+N
+Sbjct  79   IVDYDN  84
+
+
+>WP_224017069.1 oligosaccharide repeat unit polymerase [Ferruginibacter sp. KIS38-8]
+ UAY52251.1 oligosaccharide repeat unit polymerase [Ferruginibacter sp. KIS38-8]
+Length=444
+
+ Score = 42.4 bits (98),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 53/205 (26%), Positives = 95/205 (46%), Gaps = 20/205 (10%)
+
+Query  173  VLSTSKIF-LILFLVYI----VGINSYVSKKKLL--IYGTFVFGLFALSSIILGKFSSDP  225
+            V +T +I+ ++LF VY     +  NS+  KK LL  I   FVF +  ++    G  S + 
+Sbjct  208  VFTTGRIYYMMLFAVYFGTSYIYSNSFSLKKVLLACIGFLFVFSIIGIAIYSKGGRSDNT  267
+
+Query  226  EGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPE---NLLLYPFKEVWGTTKDIPKTDI  282
+              +   +  +++ +Y F+ L A    ++     P+   +  L  FK++   T       +
+Sbjct  268  LNENSKSAIESIAIYAFTPLNACGTKIDN--AKPDYTGDRTLRTFKKILYQTGIDRNIVV  325
+
+Query  283  LPWINTGV---WDTNVYTAFAPWYQSLG-LYAAIIIGILLGFYYGIWFS---FRQNLAVG  335
+             P I   V   + TNVY  +  +    G LY+ +++   LGF + + F+     +N+   
+Sbjct  326  RPAIEEYVFVPYPTNVYALYGAYVADYGKLYSWLVVA-FLGFLHTMLFNNLRIYKNMRFS  384
+
+Query  336  FYQTFLCFPLLMLFFQEHYLLSWKM  360
+             Y TF+ FPL + FF++ Y   + M
+Sbjct  385  LYYTFMLFPLFLSFFEDQYFTLFSM  409
+
+
+Sequence with id WP_117589057 no longer exists in database...alignment skipped
+Sequence with id WP_195946118 no longer exists in database...alignment skipped
+>WP_212892137.1 oligosaccharide repeat unit polymerase [Capnocytophaga canimorsus]
+Length=388
+
+ Score = 42.4 bits (98),  Expect = 4.3, Method: Compositional matrix adjust.
+ Identities = 72/286 (25%), Positives = 125/286 (44%), Gaps = 27/286 (9%)
+
+Query  40   LVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIARSGRVVFSFGTGFIESKYIYWFA  99
+            L+ YA       PL    L  IL ++ FF +  IL  R+  +  S     + ++ I+   
+Sbjct  39   LLLYAVIPHNLYPLQEQFLLSILLWVSFFFLGGILFLRNKTITISIN---LYNRKIFNLY  95
+
+Query  100  GMINIISICFGIILL---------YNNHFSLKVMREGILDGSVSGFGLGI-----SLPLS  145
+              I I++    I LL          N    L+++  G+ +G    F LG+     +   +
+Sbjct  96   FYIVIVAAPVVIFLLIEEAIKAGAINFFLRLRIINTGLEEGDT--FSLGVWGYVFNFANT  153
+
+Query  146  FCCMYLARHEN-KKNYFYCFTLFSFLLAVLSTSKIFLILFLVYIVGINSYVSKKKLLIYG  204
+             C ++   +E   K  +Y   + +FLL +++ ++  L++  + I  I  +    K   Y 
+Sbjct  154  VCLLFTYYYERISKWKYYIVLILAFLLGLITLARTSLVVLSLAIFVILYFKGLLKRKHYW  213
+
+Query  205  TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNL---YVEKNVTLPEN  261
+             F+ G+F    +++    S  E   I+A FDT+  YL +G+ AF+    Y+E+ +     
+Sbjct  214  CFI-GVFVAFMVLVTMLRSFHEEGGINA-FDTISGYLLAGMPAFDTLTYYLEEQIGSYTF  271
+
+Query  262  LLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLG  307
+              +Y    V G    +    ILP+  T V  TNVYT   P+Y+  G
+Sbjct  272  RFIYAVANVLGANYQLTHA-ILPYTYTPV-TTNVYTVMFPFYKDFG  315
+
+
+>WP_195335645.1 oligosaccharide repeat unit polymerase [Paraclostridium bifermentans]
+Length=443
+
+ Score = 42.4 bits (98),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 47/170 (28%), Positives = 76/170 (45%), Gaps = 22/170 (13%)
+
+Query  217  ILGKFSS--DP-EGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLL-LYPFKEVWG  272
+            I GK +   DP EG       + + +YL  G+ AF+  V +N+    +L     F+ V+ 
+Sbjct  269  IAGKLAGKIDPNEG------LNNIAIYLSGGIGAFD-NVYRNLAFTSDLFGQQTFRIVYK  321
+
+Query  273  TTKDIP--KTDILPWINT-----GVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIW  325
+                +P    +    INT     G + TNVYTA   +    G    I+  +L+G ++G+ 
+Sbjct  322  ALNIMPLFNFETQNTINTTIYGIGGFRTNVYTANLNFIADFGYIGVIVCNMLIGMFHGLL  381
+
+Query  326  FSFRQN-LAVGFY---QTFLCFPLLMLFFQEHYLLSWKMHFIYFLCAILL  371
+            +S  +N +  G +     F   PL+     E Y  +  ++ IYFL   LL
+Sbjct  382  YSKSKNEIDAGVWTVLNAFFMMPLVSYLNAEKYFAAMPLNAIYFLAIYLL  431
+
+
+Sequence with id HBE4676150 no longer exists in database...alignment skipped
+>GCP98440.1 hypothetical protein BvCmsHHNP005_04000 [Escherichia coli]
+ STN61194.1 Uncharacterised protein [Escherichia coli]
+Length=330
+
+ Score = 42.0 bits (97),  Expect = 4.7, Method: Compositional matrix adjust.
+ Identities = 47/153 (31%), Positives = 73/153 (48%), Gaps = 19/153 (12%)
+
+Query  150  YLARHENKKN-YFYCFTL-FSFLLAVLSTSKIFLILFLVYIVGINSY---VSKKKLLIYG  204
+            Y ++  NKK+ Y Y   L    L AV+ST+K+ L+L +V +  I SY    S K +++ G
+Sbjct  106  YSSKSFNKKDKYNYHMQLIMCILYAVMSTAKLKLLLVIVPVFFIRSYFKPTSTKLIIVVG  165
+
+Query  205  TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLL  264
+            T   G+F LS I+L K + D    +   I  ++  Y F     FNLY   ++   E L +
+Sbjct  166  TMFLGVFFLSLILLNKIAGDI--GVFKIIITSIGNYTF-----FNLYAFDSLHFKEFLKI  218
+
+Query  265  YPFKEVWGTTKDIPKTDILPWINTGVWDTNVYT  297
+                       +     +LP+   G + TN+YT
+Sbjct  219  -------KCIDNSNSCSLLPFFEYGDFRTNIYT  244
+
+
+>WP_097332060.1 O133 family O-antigen polymerase [Escherichia coli]
+ HBE5739085.1 O133 family O-antigen polymerase [Escherichia coli]
+ HBE6894876.1 O133 family O-antigen polymerase [Escherichia coli]
+Length=385
+
+ Score = 42.0 bits (97),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 47/153 (31%), Positives = 73/153 (48%), Gaps = 19/153 (12%)
+
+Query  150  YLARHENKKN-YFYCFTL-FSFLLAVLSTSKIFLILFLVYIVGINSY---VSKKKLLIYG  204
+            Y ++  NKK+ Y Y   L    L AV+ST+K+ L+L +V +  I SY    S K +++ G
+Sbjct  161  YSSKSFNKKDKYNYHMQLIMCILYAVMSTAKLKLLLVIVPVFFIRSYFKPTSTKLIIVVG  220
+
+Query  205  TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLL  264
+            T   G+F LS I+L K + D    +   I  ++  Y F     FNLY   ++   E L +
+Sbjct  221  TMFLGVFFLSLILLNKIAGDI--GVFKIIITSIGNYTF-----FNLYAFDSLHFKEFLKI  273
+
+Query  265  YPFKEVWGTTKDIPKTDILPWINTGVWDTNVYT  297
+                       +     +LP+   G + TN+YT
+Sbjct  274  -------KCIDNSNSCSLLPFFEYGDFRTNIYT  299
+
+
+Sequence with id EHB5920884 no longer exists in database...alignment skipped
+Sequence with id EFH8074228 no longer exists in database...alignment skipped
+Sequence with id WP_089655912 no longer exists in database...alignment skipped
+>WP_130070237.1 O133 family O-antigen polymerase [Escherichia coli]
+ MBI0834243.1 O133 family O-antigen polymerase [Escherichia coli]
+ HBK1411422.1 O133 family O-antigen polymerase [Escherichia coli]
+Length=384
+
+ Score = 42.0 bits (97),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 47/153 (31%), Positives = 73/153 (48%), Gaps = 19/153 (12%)
+
+Query  150  YLARHENKKN-YFYCFTL-FSFLLAVLSTSKIFLILFLVYIVGINSY---VSKKKLLIYG  204
+            Y ++  NKK+ Y Y   L    L AV+ST+K+ L+L +V +  I SY    S K +++ G
+Sbjct  160  YSSKSFNKKDKYNYHMQLIMCILYAVMSTAKLKLLLVIVPVFFIRSYFKPTSTKLIIVVG  219
+
+Query  205  TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLL  264
+            T   G+F LS I+L K + D    +   I  ++  Y F     FNLY   ++   E L +
+Sbjct  220  TMFLGVFFLSLILLNKIAGDI--GVFKIIITSIGNYTF-----FNLYAFDSLHFKEFLKI  272
+
+Query  265  YPFKEVWGTTKDIPKTDILPWINTGVWDTNVYT  297
+                       +     +LP+   G + TN+YT
+Sbjct  273  -------KCIDNSNSCSLLPFFEYGDFRTNIYT  298
+
+
+Sequence with id HBB9009765 no longer exists in database...alignment skipped
+>WP_074503490.1 O133 family O-antigen polymerase [Escherichia coli]
+ KAE9761189.1 O133 family O-antigen polymerase [Enterobacteriaceae bacterium 
+TzEc084]
+ KAE9898832.1 O133 family O-antigen polymerase [Enterobacteriaceae bacterium 
+TzEc052]
+ MVY21176.1 O133 family O-antigen polymerase [Enterobacteriaceae bacterium 
+8376wB8]
+ MVY90578.1 O133 family O-antigen polymerase [Enterobacteriaceae bacterium 
+8376wD7]
+ MVZ05670.1 O133 family O-antigen polymerase [Enterobacteriaceae bacterium 
+8376wG6]
+Length=385
+
+ Score = 42.0 bits (97),  Expect = 5.2, Method: Compositional matrix adjust.
+ Identities = 47/153 (31%), Positives = 73/153 (48%), Gaps = 19/153 (12%)
+
+Query  150  YLARHENKKN-YFYCFTL-FSFLLAVLSTSKIFLILFLVYIVGINSY---VSKKKLLIYG  204
+            Y ++  NKK+ Y Y   L    L AV+ST+K+ L+L +V +  I SY    S K +++ G
+Sbjct  161  YSSKSFNKKDKYNYHMQLIMCILYAVMSTAKLKLLLVIVPVFFIRSYFKPTSTKLIIVVG  220
+
+Query  205  TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLL  264
+            T   G+F LS I+L K + D    +   I  ++  Y F     FNLY   ++   E L +
+Sbjct  221  TMFLGVFFLSLILLNKIAGDI--GVFKIIITSIGNYTF-----FNLYAFDSLHFKEFLKI  273
+
+Query  265  YPFKEVWGTTKDIPKTDILPWINTGVWDTNVYT  297
+                       +     +LP+   G + TN+YT
+Sbjct  274  -------KCIDNSNSCSLLPFFEYGDFRTNIYT  299
+
+
+Sequence with id WP_155972547 no longer exists in database...alignment skipped
+Sequence with id WP_137455937 no longer exists in database...alignment skipped
+Sequence with id SQL38370 no longer exists in database...alignment skipped
+Sequence with id WP_012130991 no longer exists in database...alignment skipped
+>EEW7579491.1 O133 family O-antigen polymerase [Escherichia coli]
+ NPO06922.1 O133 family O-antigen polymerase [Escherichia coli]
+Length=384
+
+ Score = 42.0 bits (97),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 47/153 (31%), Positives = 73/153 (48%), Gaps = 19/153 (12%)
+
+Query  150  YLARHENKKN-YFYCFTL-FSFLLAVLSTSKIFLILFLVYIVGINSY---VSKKKLLIYG  204
+            Y ++  NKK+ Y Y   L    L AV+ST+K+ L+L +V +  I SY    S K +++ G
+Sbjct  160  YSSKSFNKKDKYNYHMQLIMCILYAVMSTAKLKLLLVIVPVFFIRSYFKPTSTKLIIVVG  219
+
+Query  205  TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLL  264
+            T   G+F LS I+L K + D    +   I  ++  Y F     FNLY   ++   E L +
+Sbjct  220  TMFLGVFFLSLILLNKIAGDI--GVFKIIITSIGNYTF-----FNLYAFDSLHFKEFLKI  272
+
+Query  265  YPFKEVWGTTKDIPKTDILPWINTGVWDTNVYT  297
+                       +     +LP+   G + TN+YT
+Sbjct  273  -------KCIDNSNSCSLLPFFEYGDFRTNIYT  298
+
+
+Sequence with id WP_223926273 no longer exists in database...alignment skipped
+>WP_086528087.1 oligosaccharide repeat unit polymerase [Enterobacter cloacae]
+ OUF39159.1 hypothetical protein AZZ64_001855 [Enterobacter cloacae]
+ HBL5000398.1 oligosaccharide repeat unit polymerase [Enterobacter cloacae]
+Length=380
+
+ Score = 42.0 bits (97),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 91/382 (24%), Positives = 159/382 (42%), Gaps = 78/382 (20%)
+
+Query  34   AFWGILLVGYAFNEQYFVPLSATTLFFILAFLFFFSMTYILIARSGRVVFSFGTGFIESK  93
+            + WG+ L+  +F E  F P+S+ TL +IL  +  F +  ++         S    FI+ K
+Sbjct  32   SIWGVTLLLASFYEDVFFPISSDTLMWILTGIASFFVGGLI---------SNPLSFIKIK  82
+
+Query  94   YIYWFAGMINIISICFGIILLYNNHFSLKVMREGILDGSVSGFGLGISLPLSF-------  146
+                +   I I S  + ++L     FS K++ EG ++     F +GI   +++       
+Sbjct  83   SSDVYPIGILITSPLYILVLF----FSYKMVLEGFMENE--NFYVGIRSIINYGEPSWFF  136
+
+Query  147  -----------------CCMYLARHENK--KNYFYCFTLFSFLLAVLSTSKIFLILFLVY  187
+                             C  +    E+K  K+ FY   L +   AV++T+K+ L++  + 
+Sbjct  137  IAFGYLYYLIYPVFFVSCVSHYLNPESKRRKSLFYYHGLIALFYAVMATAKVKLLMLFIT  196
+
+Query  188  IVGINSY---VSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAI-----FDTLRV  239
+             + I SY    S K LLI G     +F LS   L K +   +  I SAI     +    +
+Sbjct  197  WIIIRSYYKKTSTKVLLISGLIFMAMFFLSLFALNKVTGG-DSVIESAISSVGNYSIANI  255
+
+Query  240  YLFSGLAAFNLYVEKNVTLPENLLLYPFKEVWGTTKDIPKTD---ILPWINTGVWDTNVY  296
+            Y F  L  FN       T+P+             T+ I   +   I+P+ + G + TNVY
+Sbjct  256  YAFDSL-NFN-------TIPD-------------TQCINSGEGCIIMPFYDIGSFHTNVY  294
+
+Query  297  TAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQNLAVGFY---QTFLCFPLLMLFFQEH  353
+            T    +  S GL+   I+  L+GF + +     +     F     + L FPL+     + 
+Sbjct  295  TFLYDYIDS-GLFVFAIVMFLIGFSHNLIHKISKRDRNPFLVIISSLLFFPLVYQIINDQ  353
+
+Query  354  YLLSWKMHFIYFLCAILLAMRK  375
+            Y  S  + +++ +  +L  +++
+Sbjct  354  YTSSKYLIYLFVITFLLYFIKR  375
+
+
+>WP_112032556.1 O133 family O-antigen polymerase [Escherichia coli]
+ MCD9173086.1 O133 family O-antigen polymerase [Escherichia coli]
+ HAJ7427379.1 O133 family O-antigen polymerase [Escherichia coli]
+Length=400
+
+ Score = 42.0 bits (97),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 47/153 (31%), Positives = 73/153 (48%), Gaps = 19/153 (12%)
+
+Query  150  YLARHENKKN-YFYCFTL-FSFLLAVLSTSKIFLILFLVYIVGINSY---VSKKKLLIYG  204
+            Y ++  NKK+ Y Y   L    L AV+ST+K+ L+L +V +  I SY    S K +++ G
+Sbjct  176  YSSKSFNKKDKYNYHMQLIMCILYAVMSTAKLKLLLVIVPVFFIRSYFKPTSTKLIIVVG  235
+
+Query  205  TFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRVYLFSGLAAFNLYVEKNVTLPENLLL  264
+            T   G+F LS I+L K + D    +   I  ++  Y F     FNLY   ++   E L +
+Sbjct  236  TMFLGVFFLSLILLNKIAGDI--GVFKIIITSIGNYTF-----FNLYAFDSLHFKEFLKI  288
+
+Query  265  YPFKEVWGTTKDIPKTDILPWINTGVWDTNVYT  297
+                       +     +LP+   G + TN+YT
+Sbjct  289  -------KCIDNSNSCSLLPFFEYGDFRTNIYT  314
+
+
+Sequence with id WP_223929241 no longer exists in database...alignment skipped
+Sequence with id WP_039098257 no longer exists in database...alignment skipped
+Sequence with id WP_175118893 no longer exists in database...alignment skipped
+>WP_115223414.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ EFL5747172.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ STD98688.1 bacteriophage HK620 O-antigen modification protein [Escherichia 
+coli]
+Length=408
+
+ Score = 41.6 bits (96),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 43/151 (28%), Positives = 68/151 (45%), Gaps = 18/151 (12%)
+
+Query  182  ILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKF--SSDPEGKIISAIFDTLRV  239
+            I+  V I  + + +S KK+ IY   V     L+ II+  F   SD +   I+ IF T   
+Sbjct  194  IMMFVTIYELKNGISMKKIFIYAPVV-----LACIIIMHFYRMSDDDSATIAYIFGT---  245
+
+Query  240  YLFSGLAAFNLYVEKNVTLPENLLLYPFKEV---WGTTKDIPKTDILPWINTGVWDTNVY  296
+            Y++S L AF   ++  +    +  L     +    G +   P   IL ++      TNVY
+Sbjct  246  YIYSSLIAFGTLIDSGINWSGDYTLRFINAINYKIGISSVEPVKTILDYVYVPS-PTNVY  304
+
+Query  297  TAFAPWYQSLGLY----AAIIIGILLGFYYG  323
+            +   P+Y  +G+Y     A+I G+LL   Y 
+Sbjct  305  SVMQPFYSDMGIYGVAFGAVIYGVLLSAIYS  335
+
+
+>HAT2491748.1 oligosaccharide repeat unit polymerase [Aeromonas hydrophila]
+ HAT2496529.1 oligosaccharide repeat unit polymerase [Aeromonas hydrophila]
+ HAT2511886.1 oligosaccharide repeat unit polymerase [Aeromonas hydrophila]
+ HAT2532378.1 oligosaccharide repeat unit polymerase [Aeromonas hydrophila]
+Length=370
+
+ Score = 41.6 bits (96),  Expect = 8.0, Method: Compositional matrix adjust.
+ Identities = 27/104 (26%), Positives = 56/104 (54%), Gaps = 7/104 (7%)
+
+Query  261  NLLLYPFKEVWGTTKDIPKTDILPWINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGF  320
+            ++LL  F +++G    +   D+   ++ G  + NV+T   P Y   G+   + +  +LGF
+Sbjct  252  SMLLGSFSKIFG----LNSCDMSISLDAG--EFNVFTHMRPGYMFAGVIGVLTVCSVLGF  305
+
+Query  321  YYGIWFSFRQNLA-VGFYQTFLCFPLLMLFFQEHYLLSWKMHFI  363
+            +YGI FS R+  + + +Y   + +PL++ F+   + L   ++F+
+Sbjct  306  FYGIIFSLRKKYSFLSYYCALMVYPLVISFYDFQFNLVTPIYFL  349
+
+
+>WP_199884657.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ KAA1995564.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+ HAK9280534.1 oligosaccharide repeat unit polymerase [Escherichia coli]
+Length=408
+
+ Score = 41.6 bits (96),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 42/151 (28%), Positives = 69/151 (46%), Gaps = 18/151 (12%)
+
+Query  182  ILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKF--SSDPEGKIISAIFDTLRV  239
+            I+  V I  + + +S KK+     F++ L  L+ II+  F   SD +   I+ IF T   
+Sbjct  194  IMMFVTIYELKNGISMKKI-----FIYALVVLACIIIMHFYRMSDDDSATIAYIFGT---  245
+
+Query  240  YLFSGLAAFNLYVEKNVTLPENLLLYPFKEV---WGTTKDIPKTDILPWINTGVWDTNVY  296
+            Y++S L AF   ++  +    +  L     +    G +   P   IL ++      TNVY
+Sbjct  246  YIYSPLIAFGTLIDSGINWSGDYTLRFINAINYKIGISSVEPVKTILDYVYVPS-PTNVY  304
+
+Query  297  TAFAPWYQSLGLY----AAIIIGILLGFYYG  323
+            +   P+Y  +G+Y     A+I G+LL   Y 
+Sbjct  305  SVMQPFYSDMGIYGVAFGAVIYGVLLSAIYS  335
+
+
+>MBR3518882.1 oligosaccharide repeat unit polymerase [Paludibacteraceae bacterium]
+ MBR4814154.1 oligosaccharide repeat unit polymerase [Paludibacteraceae bacterium]
+Length=400
+
+ Score = 41.2 bits (95),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 48/166 (29%), Positives = 71/166 (43%), Gaps = 9/166 (5%)
+
+Query  169  FLLAVLSTSK-IFLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEG  227
+            FL  V++ SK +FL +FL       S +  KK++    FV  +  L+ + +         
+Sbjct  176  FLFGVVTMSKMVFLSIFLY----TGSILFFKKVIRLKHFVMAMVPLAILFISLQMVRHSS  231
+
+Query  228  KIISAIFDTLRVYLFSGLAAFN-LYVEKNVTLPENL--LLYPFKEVWGTTKDIPKTDILP  284
+            +  +   D +R Y+   ++AF+ L         EN   L Y      G +   P   ILP
+Sbjct  232  QFSAVSSDFIRTYILGNMSAFDTLRPCSAEHFGENTFRLFYAVLYKLGLSSTEPVDVILP  291
+
+Query  285  WINTGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSFRQ  330
+            WI   +  TN YT   P+Y   G+   II  I+LG  YG  F   Q
+Sbjct  292  WIEKPL-VTNTYTGMYPFYVDFGVAGVIIFAIILGGIYGWTFKKAQ  336
+
+
+Sequence with id EGP4915398 no longer exists in database...alignment skipped
+>WP_002336783.1 oligosaccharide repeat unit polymerase [Enterococcus faecium]
+ ELB14031.1 hypothetical protein OIK_02692 [Enterococcus faecium EnGen0027]
+ MCA6771473.1 oligosaccharide repeat unit polymerase [Enterococcus faecium]
+ MUN44959.1 oligosaccharide repeat unit polymerase [Enterococcus faecium]
+ NTK03137.1 oligosaccharide repeat unit polymerase [Enterococcus faecium]
+ PQB65781.1 oligosaccharide repeat unit polymerase [Enterococcus faecium]
+Length=428
+
+ Score = 41.2 bits (95),  Expect = 9.2, Method: Compositional matrix adjust.
+ Identities = 51/195 (26%), Positives = 90/195 (46%), Gaps = 21/195 (11%)
+
+Query  180  FLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSSDPEGKIISAIFDTLRV  239
+            FLIL+++     N+     KL I+   +  L  L  II+  +  + +G    +I DTL +
+Sbjct  215  FLILYIILYTKSNNGNRYNKLKIFSYTIITLLVL--IIVFVYLGNLKGWAGKSITDTLSL  272
+
+Query  240  YLFSGLAAFNLYV----EKNVTLPENLLLYP-----FKEVWGTTKDIPKTDILPWI---N  287
+            Y    +AA N +V      N +    L  +      F  + G   ++  T ILP+    N
+Sbjct  273  YFGGSIAALNNFVGQGVHNNHSFDSGLETFLGVQDLFNRLNGNVSNV--TRILPFTEIGN  330
+
+Query  288  TGVWDTNVYTAFAPWYQSLGLYAAIIIGILLGFYYGIWFSF-RQNLAVGFYQTFLCFPLL  346
+            +GV  TNVYTA   +    GL   II  +++  +  I +++ +++  + F   F     +
+Sbjct  331  SGVM-TNVYTAIRRYLSDFGLTGLIICSMIVSLFNNIMYTYIKRSNKINFLFIFYAINAM  389
+
+Query  347  MLFFQ---EHYLLSW  358
+            M+F+Q   E + +S+
+Sbjct  390  MIFYQSIDEQFFVSF  404
+
+
+Sequence with id MPS86599 no longer exists in database...alignment skipped
+>WP_072974770.1 oligosaccharide repeat unit polymerase [Flavobacterium saccharophilum]
+ SHM62008.1 oligosaccharide repeat unit polymerase [Flavobacterium saccharophilum]
+Length=423
+
+ Score = 41.2 bits (95),  Expect = 9.9, Method: Compositional matrix adjust.
+ Identities = 56/229 (24%), Positives = 106/229 (46%), Gaps = 31/229 (14%)
+
+Query  120  SLKVMREGILDG--SVSGFGLGISLPLSFCCMYLARHENKKNYFYCFTLF--SFLLAVLS  175
+            ++++   G+++   +V  FG G +  +    + L  H+  ++    + LF   F+L++L+
+Sbjct  138  NMRLASAGLIESEYNVGVFGYGKTFTIVALLVNLLIHKVGQSKIKIYLLFFMYFVLSILA  197
+
+Query  176  TSK---IFLILFLVYIVGINSYVSKKKLLIYGTFVFGLFALSSIILGKFSS-DPEGKIIS  231
+              K   +FLI+ ++ +      +SK+ ++I   F F L   S + L + +  D +  +IS
+Sbjct  198  VGKSQFLFLIIAMILVWSFTKTISKRTIII--GFAFLLITFSMLQLARSNEEDDQNDVIS  255
+
+Query  232  AIFDTLRVYLFSGLAAFNLYVEKNVTLPE---NLLLYPFKEVWGTTKDIPKTDILPWINT  288
+             +F +   YLF GL A +  V   +   E   N   + ++      ++  KT+   + N 
+Sbjct  256  GMFYS---YLFGGLPALDQVVNSEMQSSEFGQNSFQFVYRFTKAFEENKAKTEN-TYNND  311
+
+Query  289  GVWD--------TNVYTAFAPWYQSLGLYAAIIIGILL-GFYYGIWFSF  328
+              +D        TNVYT   P++          IG+L+ GF YG+ F F
+Sbjct  312  ITYDGYLFVPNPTNVYTIIGPFWLDFRY-----IGVLIFGFIYGVLFGF  355
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.148    0.470    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 20287930891115
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jan 3, 2022  2:35 AM
+  Number of letters in database: 168,524,408,266
+  Number of sequences in database:  449,466,297
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

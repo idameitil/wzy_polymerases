@@ -1,0 +1,3373 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           449,466,297 sequences; 168,524,408,266 total letters
+
+
+
+Query= AAN23041.1 8764337feceed15da88349f25bfd047f
+
+Length=361
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_012413520.1 Unknown                                                705     0.0   
+WP_123767270.1 Unknown                                                704     0.0   
+WP_049598847.1 Unknown                                                698     0.0   
+WP_106464475.1 Unknown                                                652     0.0   
+WP_024063208.1 Unknown                                                582     0.0   
+WP_106451169.1 hypothetical protein [Yersinia pseudotuberculosis]     561     0.0   
+WP_050312420.1 hypothetical protein [Yersinia intermedia]             503     8e-176
+WP_050941563.1 hypothetical protein [Yersinia enterocolitica]         503     9e-176
+WP_138775468.1 hypothetical protein [Yersinia sp. KBS0713]            501     5e-175
+WP_048619513.1 Unknown                                                500     8e-175
+WP_226715542.1 hypothetical protein [Yersinia intermedia]             498     4e-174
+WP_087815954.1 hypothetical protein [Yersinia intermedia]             498     5e-174
+WP_049602708.1 hypothetical protein [Yersinia bercovieri]             498     5e-174
+WP_005279258.1 Unknown                                                498     5e-174
+WP_054872484.1 hypothetical protein [Yersinia bercovieri]             498     6e-174
+WP_226713528.1 Unknown                                                496     3e-173
+WP_057621671.1 hypothetical protein [Yersinia intermedia]             488     3e-170
+WP_057636168.1 hypothetical protein [Yersinia intermedia]             485     6e-169
+WP_057649559.1 hypothetical protein [Yersinia frederiksenii]          476     2e-165
+WP_050082651.1 MULTISPECIES: hypothetical protein [Yersinia]          476     3e-165
+WP_050873598.1 Unknown                                                475     5e-165
+WP_050125651.1 Unknown                                                472     9e-164
+WP_212584288.1 hypothetical protein [Yersinia sp. Marseille-Q3913]    472     1e-163
+WP_219650035.1 hypothetical protein [Yersinia enterocolitica]         461     4e-159
+CNB71327.1 Unknown                                                    382     7e-130
+WP_050085977.1 hypothetical protein [Yersinia intermedia]             372     3e-124
+WP_019082574.1 hypothetical protein [Yersinia enterocolitica]         368     2e-122
+WP_072622924.1 hypothetical protein [Spirulina major]                 217     2e-63 
+PJD96600.1 hypothetical protein CK423_01020 [Legionella sp.]          200     8e-57 
+WP_018577593.1 hypothetical protein [Legionella shakespearei]         194     3e-54 
+WP_158617416.1 hypothetical protein [Legionella sp. km772]            192     2e-53 
+WP_113660533.1 Unknown                                                154     2e-39 
+WP_182719276.1 Unknown                                                140     3e-34 
+WP_182794892.1 MULTISPECIES: hypothetical protein [unclassified P...  139     5e-34 
+WP_139336483.1 hypothetical protein [Pseudoalteromonas sp. SK20]      129     3e-30 
+QWD20112.1 hypothetical protein G6689_01725 [Polynucleobacter pan...  125     9e-29 
+QWD07843.1 Unknown                                                    125     9e-29 
+WP_094565502.1 hypothetical protein [Herbaspirillum sp. meg3]         123     5e-28 
+WP_182779526.1 Unknown                                                123     7e-28 
+WP_185780244.1 hypothetical protein [Pusillimonas sp. 7-48]           120     5e-27 
+TMN65955.1 Unknown                                                    118     4e-26 
+WP_159016112.1 Unknown                                                116     2e-25 
+SFS11554.1 hypothetical protein SAMN05216570_2534 [Dyella sp. OK004]  116     4e-25 
+SFS97824.1 Unknown                                                    115     6e-25 
+MBY7838680.1 Unknown                                                  115     7e-25 
+WP_140308546.1 hypothetical protein [Vibrio parahaemolyticus]         114     2e-24 
+WP_117981531.1 hypothetical protein [Bacteroides thetaiotaomicron]    113     4e-24 
+WP_143920183.1 hypothetical protein [Bacteroides thetaiotaomicron]    112     6e-24 
+WP_048697676.1 Unknown                                                112     7e-24 
+MBT8578580.1 hypothetical protein [Polynucleobacter paneuropaeus]     111     1e-23 
+MRT26619.1 Unknown                                                    111     1e-23 
+WP_209606508.1 Unknown                                                110     4e-23 
+WP_036166674.1 hypothetical protein [Lysobacter dokdonensis]          110     5e-23 
+WP_148514706.1 hypothetical protein [Vibrio cholerae]                 109     6e-23 
+WP_055230269.1 Unknown                                                108     7e-23 
+MBT8573731.1 Unknown                                                  109     1e-22 
+WP_217741807.1 Unknown                                                108     1e-22 
+WP_195741269.1 Unknown                                                108     1e-22 
+MCE0734471.1 Unknown                                                  108     2e-22 
+WP_230527214.1 Unknown                                                108     2e-22 
+EGR1023376.1 hypothetical protein [Vibrio cholerae]                   108     2e-22 
+WP_217514195.1 Unknown                                                108     2e-22 
+WP_166208076.1 hypothetical protein [Lysobacter telluris]             108     2e-22 
+WP_213434252.1 Unknown                                                108     3e-22 
+WP_122096090.1 hypothetical protein [Rahnella sp. Larv3_ips]          107     4e-22 
+WP_183848708.1 Unknown                                                107     5e-22 
+MCD9211718.1 hypothetical protein [Vibrio cholerae]                   107     6e-22 
+WP_056773302.1 Unknown                                                106     6e-22 
+WP_218049815.1 hypothetical protein [Bacteroides faecis]              107     6e-22 
+WP_111640053.1 Unknown                                                106     9e-22 
+THD56696.1 hypothetical protein ERD95_01025 [Enterobacteriaceae b...  106     1e-21 
+WP_217205050.1 Unknown                                                105     1e-21 
+WP_161419125.1 hypothetical protein [Vibrio cholerae]                 105     1e-21 
+WP_162315171.1 Unknown                                                105     1e-21 
+WP_047782168.1 hypothetical protein [Pragia fontium]                  105     2e-21 
+WP_159565626.1 hypothetical protein [Budvicia diplopodorum]           104     3e-21 
+QWD21895.1 Unknown                                                    104     3e-21 
+CDC56553.1 Unknown                                                    104     5e-21 
+WP_156642685.1 hypothetical protein [Lysobacter gilvus]               104     7e-21 
+QWD37541.1 Unknown                                                    103     1e-20 
+MBL8486665.1 Unknown                                                  103     1e-20 
+WP_138566219.1 hypothetical protein [Pseudoalteromonas phenolica]     103     1e-20 
+WP_144899818.1 hypothetical protein [Luteimonas cucumeris]            103     2e-20 
+TMP83640.1 hypothetical protein CWB73_02130 [Pseudoalteromonas ph...  101     3e-20 
+WP_137265061.1 hypothetical protein [Luteimonas gilva]                102     3e-20 
+WP_111609053.1 Unknown                                                100     1e-19 
+WP_058404641.1 Unknown                                                100     1e-19 
+WP_099610789.1 hypothetical protein [Vibrio fujianensis]              100     2e-19 
+WP_152057574.1 hypothetical protein [Aliarcobacter butzleri]          100     2e-19 
+RUT80129.1 Unknown                                                    99.8    2e-19 
+PMD98442.1 hypothetical protein BWI97_04580 [Siphonobacter sp. BA...  98.2    9e-19 
+WP_127342269.1 hypothetical protein [Ancylomarina longa]              96.7    2e-18 
+WP_138555909.1 MULTISPECIES: hypothetical protein [Pseudoalteromo...  95.9    2e-18 
+WP_152369268.1 hypothetical protein [Tolypothrix campylonemoides]     97.1    3e-18 
+WP_155693977.1 hypothetical protein [Psychrosphaera haliotis]         95.9    6e-18 
+WP_199456976.1 Unknown                                                95.9    6e-18 
+WP_109053617.1 Unknown                                                95.1    8e-18 
+WP_146010872.1 Unknown                                                95.1    8e-18 
+WP_146474764.1 hypothetical protein [Vulcaniibacterium thermophilum]  95.5    9e-18 
+WP_209110429.1 Unknown                                                94.4    2e-17 
+NUS38009.1 hypothetical protein [Lysobacter sp.]                      94.4    2e-17 
+WP_210537208.1 Unknown                                                94.4    2e-17 
+MBD3843020.1 glycosyltransferase family 39 protein [Campylobacter...  93.6    3e-17 
+WP_044301675.1 Unknown                                                93.6    3e-17 
+WP_102519240.1 Unknown                                                92.4    9e-17 
+WP_149196448.1 hypothetical protein [Luteimonas sp. LNNU 24178]       91.7    2e-16 
+WP_143109294.1 hypothetical protein [Dyella sp. OK004]                90.5    3e-16 
+WP_169609801.1 hypothetical protein [Mucilaginibacter sp. F39-2]      90.5    4e-16 
+MBU0694977.1 hypothetical protein [Bacteroidetes bacterium]           89.4    6e-16 
+WP_100637678.1 glycosyltransferase family 39 protein [Marinomonas...  89.4    1e-15 
+WP_139227579.1 hypothetical protein [Sphingobacterium wenxiniae]      87.0    4e-15 
+WP_166332553.1 Unknown                                                86.7    9e-15 
+EGZ6883959.1 hypothetical protein [Vibrio cholerae]                   86.7    1e-14 
+MBP6054683.1 hypothetical protein [Cytophagaceae bacterium]           80.9    5e-14 
+EGZ6803612.1 Unknown                                                  84.3    5e-14 
+MBU2268632.1 hypothetical protein [Bacteroidetes bacterium]           79.7    6e-14 
+MBM3503056.1 Unknown                                                  83.6    9e-14 
+EII5642465.1 hypothetical protein [Vibrio cholerae]                   83.6    1e-13 
+WP_230325943.1 Unknown                                                82.8    1e-13 
+MBU1371240.1 Unknown                                                  80.5    1e-13 
+EXY10163.1 putative membrane protein [Bacteroides fragilis str. 1...  82.4    1e-13 
+MBU1761261.1 hypothetical protein [Bacteroidetes bacterium]           80.5    1e-13 
+EXZ32471.1 Unknown                                                    82.4    2e-13 
+EXY16797.1 putative membrane protein [Bacteroides fragilis str. 2...  82.4    2e-13 
+EHP3508379.1 hypothetical protein [Vibrio cholerae]                   82.4    2e-13 
+WP_005797902.1 Unknown                                                82.4    2e-13 
+WP_032571175.1 Unknown                                                82.0    3e-13 
+WP_136156648.1 Unknown                                                81.6    4e-13 
+MBT3396006.1 Unknown                                                  81.3    7e-13 
+WP_004397426.1 hypothetical protein [Vibrio metschnikovii]            80.1    1e-12 
+EXZ23153.1 Unknown                                                    79.7    2e-12 
+WP_156472483.1 Unknown                                                78.6    2e-12 
+HCY31568.1 TPA: hypothetical protein [Bacteroides thetaiotaomicron]   79.3    2e-12 
+WP_032559920.1 hypothetical protein [Bacteroides fragilis]            79.7    2e-12 
+MBV4312137.1 hypothetical protein [Bacteroides thetaiotaomicron]      78.6    3e-12 
+WP_118422008.1 hypothetical protein [Bacteroides intestinalis]        79.0    3e-12 
+WP_135045410.1 hypothetical protein [Barnesiella sp. WM24]            77.0    2e-11 
+WP_125730395.1 Unknown                                                76.6    2e-11 
+OUX78402.1 Unknown                                                    77.0    2e-11 
+WP_175636903.1 Unknown                                                74.3    6e-11 
+WP_158116959.1 hypothetical protein [Vibrio cincinnatiensis]          75.5    6e-11 
+NUS61283.1 hypothetical protein [Lysobacter sp.]                      70.5    6e-10 
+MBT5859784.1 hypothetical protein [Alphaproteobacteria bacterium]     71.2    6e-10 
+MBM3506200.1 hypothetical protein [Alphaproteobacteria bacterium]     72.0    8e-10 
+NBQ40968.1 Unknown                                                    66.6    1e-09 
+MBL41935.1 Unknown                                                    70.1    4e-09 
+MAI34627.1 Unknown                                                    68.9    7e-09 
+HIF10161.1 TPA: hypothetical protein [Sneathiellales bacterium]       67.8    2e-08 
+PPR79229.1 hypothetical protein CFH01_00552 [Alphaproteobacteria ...  67.8    2e-08 
+RXJ90611.1 Unknown                                                    67.8    2e-08 
+MBO5760957.1 Unknown                                                  67.0    3e-08 
+MBM3489812.1 Unknown                                                  66.2    7e-08 
+MBM3555166.1 hypothetical protein [Alphaproteobacteria bacterium]     65.5    1e-07 
+GGN38554.1 Unknown                                                    61.6    1e-07 
+WP_032482275.1 Unknown                                                62.0    3e-07 
+WP_032482276.1 hypothetical protein [Vibrio cholerae]                 58.9    4e-06 
+MBT3789670.1 Unknown                                                  60.8    4e-06 
+NQV81971.1 hypothetical protein [Alphaproteobacteria bacterium]       59.7    7e-06 
+MBH63928.1 hypothetical protein [Alphaproteobacteria bacterium]       60.1    7e-06 
+WP_182796412.1 hypothetical protein [Vibrio sp. SG41-7]               59.3    1e-05 
+KAA4746877.1 Unknown                                                  57.0    5e-05 
+MBS38973.1 Unknown                                                    56.6    8e-05 
+WP_025534542.1 hypothetical protein [Vibrio parahaemolyticus]         55.1    1e-04 
+WP_025675217.1 hypothetical protein [Salinivibrio socompensis]        53.9    2e-04 
+NJN66452.1 Unknown                                                    55.8    2e-04 
+MBM3516528.1 Unknown                                                  54.3    5e-04 
+HIF09860.1 TPA: hypothetical protein [Sneathiellales bacterium]       53.1    0.001 
+MBR4377027.1 Unknown                                                  51.2    0.006 
+WP_029785665.1 Unknown                                                48.5    0.007 
+MBT4690924.1 hypothetical protein [Rhodospirillaceae bacterium]       50.1    0.013 
+MBM3993241.1 hypothetical protein [Planctomycetes bacterium]          47.0    0.12  
+EAU52251.1 hypothetical protein OM2255_08856 [alpha proteobacteri...  46.6    0.15  
+MBO7048766.1 hypothetical protein [Spirochaetia bacterium]            45.8    0.26  
+WP_036918708.1 MULTISPECIES: hypothetical protein [unclassified P...  45.8    0.33  
+EDN70405.1 conserved hypothetical protein, membrane [Beggiatoa sp...  45.4    0.44  
+MBR4436678.1 hypothetical protein [Spirochaetales bacterium]          44.3    0.66  
+MBR0318465.1 Unknown                                                  44.3    0.97  
+MBR5927724.1 Unknown                                                  44.3    1.0   
+WP_167906325.1 glycosyltransferase family 39 protein [Thermococcu...  44.3    1.3   
+MBT7758854.1 Unknown                                                  43.9    1.3   
+OQW92731.1 Unknown                                                    43.9    1.4   
+MBQ3319957.1 hypothetical protein [Spirochaetia bacterium]            42.4    3.7   
+MBQ3713189.1 Unknown                                                  42.4    3.8   
+WP_029271367.1 Unknown                                                41.6    5.9   
+WP_194567586.1 MULTISPECIES: hypothetical protein [unclassified F...  41.6    5.9   
+MBO4543178.1 Unknown                                                  41.6    8.0   
+MBR4683439.1 Unknown                                                  41.2    9.4   
+
+
+Sequence with id WP_012413520 no longer exists in database...alignment skipped
+Sequence with id WP_123767270 no longer exists in database...alignment skipped
+Sequence with id WP_049598847 no longer exists in database...alignment skipped
+Sequence with id WP_106464475 no longer exists in database...alignment skipped
+Sequence with id WP_024063208 no longer exists in database...alignment skipped
+>WP_106451169.1 hypothetical protein, partial [Yersinia pseudotuberculosis]
+ PSH11131.1 hypothetical protein B7R75_21410, partial [Yersinia pseudotuberculosis]
+Length=285
+
+ Score = 561 bits (1446),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 285/285 (100%), Positives = 285/285 (100%), Gaps = 0/285 (0%)
+
+Query  77   VLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQ  136
+            VLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQ
+Sbjct  1    VLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQ  60
+
+Query  137  FGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAI  196
+            FGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAI
+Sbjct  61   FGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAI  120
+
+Query  197  MLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFIS  256
+            MLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFIS
+Sbjct  121  MLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFIS  180
+
+Query  257  IIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALII  316
+            IIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALII
+Sbjct  181  IIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALII  240
+
+Query  317  ILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVKG  361
+            ILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVKG
+Sbjct  241  ILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVKG  285
+
+
+>WP_050312420.1 hypothetical protein [Yersinia intermedia]
+ CNC18732.1 Uncharacterised protein [Yersinia intermedia]
+Length=362
+
+ Score = 503 bits (1294),  Expect = 8e-176, Method: Compositional matrix adjust.
+ Identities = 255/358 (71%), Positives = 303/358 (85%), Gaps = 0/358 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE  L++LVKV F+FFA FIY++FS L DS RYLNA ++FNN LDRTQFVDN FAF
+Sbjct  1    MIYKKELTLILLVKVFFTFFAVFIYNHFSHLADSERYLNAVVDFNNFLDRTQFVDNIFAF  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+Y+M   LLVNI IS+LFG+SFF+VFKD+  FVDK+LLYM FLLPSFQIWTSVAGKEII
+Sbjct  61   LRYIMLDRLLVNIFISILFGFSFFFVFKDLFCFVDKRLLYMCFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            AV G LFFIKW+IN+QF R N I YL +GI+FG+ LRPHYG+AYIYLAIS  +L++IKF 
+Sbjct  121  AVAGLLFFIKWIINVQFERKNSILYLFVGIVFGILLRPHYGVAYIYLAISVFVLNKIKFS  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+            VFSNG Y++SL  I+I+  L+LALT N+WSA FLSVLD I+ YFL+ D + +NRY IEWG
+Sbjct  181  VFSNGVYIISLTAISIISALLLALTENLWSAPFLSVLDIIKNYFLTSDIAYANRYYIEWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+            T+SDYF NI WG  +SIIGPT NE +NR+VY+PFFIEG+LS +LM VI YRLYK T+ N 
+Sbjct  241  TVSDYFDNILWGSMVSIIGPTFNEVINRIVYIPFFIEGVLSLVLMAVIFYRLYKETHTNT  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYK  358
+            LYRK FYFSF+PA+IIIL+IHYPFGLFNPG+AIRYKQNITPLIYFYPLLM+ACIN+ K
+Sbjct  301  LYRKYFYFSFIPAVIIILLIHYPFGLFNPGAAIRYKQNITPLIYFYPLLMIACINRGK  358
+
+
+>WP_050941563.1 hypothetical protein [Yersinia enterocolitica]
+ CRY05630.1 Uncharacterised protein [Yersinia enterocolitica]
+Length=362
+
+ Score = 503 bits (1294),  Expect = 9e-176, Method: Compositional matrix adjust.
+ Identities = 255/358 (71%), Positives = 303/358 (85%), Gaps = 0/358 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE  L++LVKV F+FFA FIY++FS L DS RYLNA ++FNN LDRTQFVDN FAF
+Sbjct  1    MIYKKELALILLVKVFFTFFAVFIYNHFSHLADSERYLNAVVDFNNFLDRTQFVDNIFAF  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+Y+M   LLVNI IS+LFG+SFF+VFKD+  FVDK+LLYM FLLPSFQIWTSVAGKEII
+Sbjct  61   LRYIMLDRLLVNIFISILFGFSFFFVFKDLFCFVDKRLLYMCFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            AV G LFFIKW+IN+QF R N I YL +GI+FG+ LRPHYG+AYIYLAIS  +L++IKF 
+Sbjct  121  AVAGLLFFIKWIINVQFERKNSILYLFVGIVFGILLRPHYGVAYIYLAISVFVLNKIKFS  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+            VFSNG Y++SL  I+I+  L+LALT N+WSA FLSVLD I+ YFL+ D + +NRY IEWG
+Sbjct  181  VFSNGVYIISLTAISIISALLLALTENLWSAPFLSVLDIIKNYFLTSDIAYANRYYIEWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+            T+SDYF NI WG  +SIIGPT NE +NR+VY+PFFIEG+LS +LM VI YRLYK T+ N 
+Sbjct  241  TVSDYFDNILWGSMVSIIGPTFNEVINRIVYIPFFIEGVLSLVLMAVIFYRLYKETHTNT  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYK  358
+            LYRK FYFSF+PA+IIIL+IHYPFGLFNPG+AIRYKQNITPLIYFYPLLM+ACIN+ K
+Sbjct  301  LYRKYFYFSFIPAVIIILLIHYPFGLFNPGAAIRYKQNITPLIYFYPLLMIACINRGK  358
+
+
+>WP_138775468.1 hypothetical protein [Yersinia sp. KBS0713]
+ QDW34337.1 hypothetical protein FFE93_015555 [Yersinia sp. KBS0713]
+Length=364
+
+ Score = 501 bits (1289),  Expect = 5e-175, Method: Compositional matrix adjust.
+ Identities = 243/360 (68%), Positives = 302/360 (84%), Gaps = 0/360 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE IL+I+VK+LF+ FA F+Y++FS L DS RYLNAT++ NN LDRTQ VDN F+ 
+Sbjct  1    MIYKKELILVIIVKILFTLFAVFVYNHFSHLADSERYLNATMDLNNFLDRTQLVDNIFSL  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+ ++SS LLVNI IS++FG+SF++VFKD+L F+DKKLLY+ FLLPSFQIWTSVAGKEII
+Sbjct  61   LRCLISSKLLVNIFISIIFGFSFYFVFKDLLNFIDKKLLYICFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            A+ G LFF+KW++NIQFGR NRI YL++G+ FG+ LRPHYGIAY YLA S IILS +KF 
+Sbjct  121  AIAGLLFFVKWIVNIQFGRKNRIIYLLVGVFFGILLRPHYGIAYAYLASSIIILSNVKFA  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+             FS  FY+L L I++I+L L+LA+T ++WS +FL+VL  I+ YFLS D + +NRY I+WG
+Sbjct  181  NFSKWFYILLLAIMSIILALILAVTADLWSEKFLAVLVIIKNYFLSSDTAYANRYYIQWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+             ++DYFYNI WGF++SIIGPTL ETLNR+VY PFFIEGI+S  LMI I YR YK T  NV
+Sbjct  241  GVADYFYNIAWGFWVSIIGPTLYETLNRIVYAPFFIEGIISLALMIYIFYRFYKVTEINV  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVK  360
+            LYRK FY +F+PA+II+LMIHYPFG+FNPG+AIRYKQNITPLIYFYPLL+LACIN+ K K
+Sbjct  301  LYRKYFYIAFIPAVIIVLMIHYPFGVFNPGAAIRYKQNITPLIYFYPLLVLACINESKAK  360
+
+
+Sequence with id WP_048619513 no longer exists in database...alignment skipped
+>WP_226715542.1 hypothetical protein [Yersinia intermedia]
+ MCB5321484.1 hypothetical protein [Yersinia intermedia]
+Length=362
+
+ Score = 498 bits (1283),  Expect = 4e-174, Method: Compositional matrix adjust.
+ Identities = 253/358 (71%), Positives = 301/358 (84%), Gaps = 0/358 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE  L++LVKV F+FFA FIY++FS L DS RYLNA ++FNN LDRTQFVDN FAF
+Sbjct  1    MIYKKELTLILLVKVFFTFFAVFIYNHFSHLADSERYLNAVVDFNNFLDRTQFVDNIFAF  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+Y+M   LLVN+ IS+LFG+SFF+VFKD+  FVDK+LLY+ FLLPSFQIWTSVAGKEII
+Sbjct  61   LRYIMLDRLLVNVFISILFGFSFFFVFKDLFCFVDKRLLYICFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            AV G LFFIKW+IN+QF R N I YL +G++FG+FLRPHYGIAYIYLAIS  +L++IKF 
+Sbjct  121  AVAGLLFFIKWIINVQFERKNSILYLFVGVIFGMFLRPHYGIAYIYLAISVFVLNKIKFS  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+            VFSNG Y+ SL  I I+  L++ALT N+WSA FLSVLD I+ YFL+ D + +NRY IEWG
+Sbjct  181  VFSNGVYIASLTAILIISALLIALTENLWSAPFLSVLDIIKNYFLTSDIAYANRYYIEWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+            T+SDYF NI WG  +SIIGPT NE  NR+VY+PFFIEG+LS +LM VI YRLYK T+ N 
+Sbjct  241  TVSDYFDNILWGAMVSIIGPTFNEAFNRIVYIPFFIEGVLSLVLMAVIFYRLYKETHTNT  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYK  358
+            LYRK FYFSF+PA+IIIL+IHYPFGLFNPG+AIRYKQNITPLIYFYPLLM+ACIN+ K
+Sbjct  301  LYRKYFYFSFIPAVIIILLIHYPFGLFNPGAAIRYKQNITPLIYFYPLLMIACINRGK  358
+
+
+>WP_087815954.1 hypothetical protein [Yersinia intermedia]
+ OVZ86563.1 hypothetical protein CBW57_11465 [Yersinia intermedia]
+Length=362
+
+ Score = 498 bits (1282),  Expect = 5e-174, Method: Compositional matrix adjust.
+ Identities = 253/358 (71%), Positives = 301/358 (84%), Gaps = 0/358 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE  L++LVKV F+FFA FIY++FS L DS RYLNA ++FNN LDRTQFVDN FAF
+Sbjct  1    MIYKKELTLILLVKVFFTFFAVFIYNHFSHLADSERYLNAVVDFNNFLDRTQFVDNIFAF  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+Y+M   LLVN+ IS+LFG+SFF+VFKD+  FVDK+LLY+ FLLPSFQIWTSVAGKEII
+Sbjct  61   LRYIMLDRLLVNVFISILFGFSFFFVFKDLFCFVDKRLLYICFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            AV G LFFIKW+IN+QF R N I YL +G++FG+FLRPHYGIAYIYLAIS  +L++IKF 
+Sbjct  121  AVAGLLFFIKWIINVQFERKNSILYLFVGVIFGMFLRPHYGIAYIYLAISVFVLNKIKFS  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+            VFSNG Y+ SL  I I+  L++ALT N+WSA FLSVLD I+ YFL+ D + +NRY IEWG
+Sbjct  181  VFSNGVYIASLTAILIISALLIALTENLWSAPFLSVLDIIKNYFLTSDIAYANRYYIEWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+            T+SDYF NI WG  +SIIGPT NE  NR+VY+PFFIEG+LS +LM VI YRLYK T+ N 
+Sbjct  241  TVSDYFDNILWGAMVSIIGPTFNEAFNRIVYIPFFIEGVLSLVLMAVIFYRLYKETHTNT  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYK  358
+            LYRK FYFSF+PA+IIIL+IHYPFGLFNPG+AIRYKQNITPLIYFYPLLM+ACIN+ K
+Sbjct  301  LYRKYFYFSFIPAVIIILLIHYPFGLFNPGAAIRYKQNITPLIYFYPLLMIACINRGK  358
+
+
+>WP_049602708.1 hypothetical protein [Yersinia bercovieri]
+ CNI86596.1 Uncharacterised protein [Yersinia bercovieri]
+Length=364
+
+ Score = 498 bits (1282),  Expect = 5e-174, Method: Compositional matrix adjust.
+ Identities = 242/360 (67%), Positives = 301/360 (84%), Gaps = 0/360 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE I +I+VK+LF+ FA F+Y++FS L DS RYLNAT++ NN LDRTQ VDN F+ 
+Sbjct  1    MIYKKELISVIIVKILFTLFAVFVYNHFSHLADSERYLNATMDLNNFLDRTQLVDNIFSL  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+ ++SS LLVNI IS++FG+SF++VFKD+L F+DKKLLY+ FLLPSFQIWTSVAGKEII
+Sbjct  61   LRCLISSKLLVNIFISIIFGFSFYFVFKDLLNFIDKKLLYICFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            A+ G LFF+KW++NIQFGR NRI YL++G+ FG+ LRPHYGIAY YLA S IILS +KF 
+Sbjct  121  AIAGLLFFVKWIVNIQFGRKNRIIYLLVGVFFGILLRPHYGIAYAYLASSIIILSNVKFA  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+             FS  FY+L L I++I+L L+LA+T ++WS +FL+VL  I+ YFLS D + +NRY I+WG
+Sbjct  181  NFSKWFYILLLAIMSIILALILAVTADLWSEKFLAVLVIIKNYFLSSDTAYANRYYIQWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+             ++DYFYNI WGF++SIIGPTL ETLNR+VY PFFIEGI+S  LMI I YR YK T  NV
+Sbjct  241  GVADYFYNIAWGFWVSIIGPTLYETLNRIVYAPFFIEGIISLTLMIYIFYRFYKVTEINV  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVK  360
+            LYRK FY +F+PA+II+LMIHYPFG+FNPG+AIRYKQNITPLIYFYPLL+LACIN+ K K
+Sbjct  301  LYRKYFYIAFIPAVIIVLMIHYPFGVFNPGAAIRYKQNITPLIYFYPLLVLACINESKAK  360
+
+
+Sequence with id WP_005279258 no longer exists in database...alignment skipped
+>WP_054872484.1 hypothetical protein [Yersinia bercovieri]
+ CNE91677.1 Uncharacterised protein [Yersinia bercovieri]
+Length=364
+
+ Score = 498 bits (1282),  Expect = 6e-174, Method: Compositional matrix adjust.
+ Identities = 242/360 (67%), Positives = 301/360 (84%), Gaps = 0/360 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE I +I+VK+LF+ FA F+Y++FS L DS RYLNAT++ NN LDRTQ VDN F+ 
+Sbjct  1    MIYKKELISVIIVKILFTLFAVFVYNHFSHLADSERYLNATMDLNNFLDRTQLVDNIFSL  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+ ++SS LLVNI IS++FG+SF++VFKD+L F+DKKLLY+ FLLPSFQIWTSVAGKEII
+Sbjct  61   LRCLISSKLLVNIFISIIFGFSFYFVFKDLLNFIDKKLLYICFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            A+ G LFF+KW++NIQFGR NRI YL++G+ FG+ LRPHYGIAY YLA S IILS +KF 
+Sbjct  121  AIAGLLFFVKWIVNIQFGRKNRIFYLLVGVFFGILLRPHYGIAYAYLASSIIILSNVKFA  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+             FS  FY+L L I++I+L L+LA+T ++WS +FL+VL  I+ YFLS D + +NRY I+WG
+Sbjct  181  NFSKWFYILLLAIMSIILALILAVTADLWSEKFLAVLVIIKNYFLSSDTAYANRYYIQWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+             ++DYFYNI WGF++SIIGPTL ETLNR+VY PFFIEGI+S  LMI I YR YK T  NV
+Sbjct  241  GVADYFYNIAWGFWVSIIGPTLYETLNRIVYAPFFIEGIISLALMIYIFYRFYKVTEINV  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVK  360
+            LYRK FY +F+PA+II+LMIHYPFG+FNPG+AIRYKQNITPLIYFYPLL+LACIN+ K K
+Sbjct  301  LYRKYFYIAFIPAVIIVLMIHYPFGVFNPGAAIRYKQNITPLIYFYPLLVLACINESKAK  360
+
+
+Sequence with id WP_226713528 no longer exists in database...alignment skipped
+>WP_057621671.1 hypothetical protein, partial [Yersinia intermedia]
+Length=349
+
+ Score = 488 bits (1256),  Expect = 3e-170, Method: Compositional matrix adjust.
+ Identities = 249/349 (71%), Positives = 295/349 (85%), Gaps = 0/349 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE  L++LVKV F+FFA FIY++FS L DS RYLNA ++FNN LDRTQFVDN FAF
+Sbjct  1    MIYKKELTLILLVKVFFTFFAVFIYNHFSHLADSERYLNAVVDFNNFLDRTQFVDNIFAF  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+Y+M   LLVNI IS+LFG+SFF+VFKD+  FVDK+LLYM FLLPSFQIWTSVAGKEII
+Sbjct  61   LRYIMLDRLLVNIFISILFGFSFFFVFKDLFCFVDKRLLYMCFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            AV G LFFIKW+IN+QF R N I YL +GI+FG+ LRPHYG+AYIYLAIS  +L++IKF 
+Sbjct  121  AVAGLLFFIKWIINVQFERKNSILYLFVGIVFGILLRPHYGVAYIYLAISVFVLNKIKFS  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+            VFSNG Y++SL  I+I+  L+LALT N+WSA FLSVLD I+ YFL+ D + +NRY IEWG
+Sbjct  181  VFSNGVYIISLTAISIISALLLALTENLWSAPFLSVLDIIKNYFLTSDIAYANRYYIEWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+            T+SDYF NI WG  +SIIGPT NE +NR+VY+PFFIEG+LS +LM VI YRLYK T+ N 
+Sbjct  241  TVSDYFDNILWGSMVSIIGPTFNEVINRIVYIPFFIEGVLSLVLMAVIFYRLYKETHTNT  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLL  349
+            LYRK FYFSF+PA+IIIL+IHYPFGLFNPG+AIRYKQNITPLIYFYPLL
+Sbjct  301  LYRKYFYFSFIPAVIIILLIHYPFGLFNPGAAIRYKQNITPLIYFYPLL  349
+
+
+>WP_057636168.1 hypothetical protein [Yersinia intermedia]
+ CRE86264.1 Uncharacterised protein [Yersinia intermedia]
+Length=364
+
+ Score = 485 bits (1249),  Expect = 6e-169, Method: Compositional matrix adjust.
+ Identities = 251/360 (70%), Positives = 300/360 (83%), Gaps = 2/360 (1%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE  L++LVKV F+FFA FIY++FS L DS RYLNA ++FNN LDRTQFVDN FAF
+Sbjct  1    MIYKKELTLILLVKVFFTFFAVFIYNHFSHLADSERYLNAVVDFNNFLDRTQFVDNIFAF  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIF--VDKKLLYMSFLLPSFQIWTSVAGKE  118
+            L+Y+M   LLVNI IS+LFG+SFF+ F    +F  VDK+LLYM FLLPSFQIWTSVAGKE
+Sbjct  61   LRYIMLDRLLVNIFISILFGFSFFFFFLFKDLFCFVDKRLLYMCFLLPSFQIWTSVAGKE  120
+
+Query  119  IIAVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIK  178
+            IIAV+G LFFIKW+IN+QF R N I YL +GI+FG+ LRPHYG+AYIYLAIS  +L++IK
+Sbjct  121  IIAVVGLLFFIKWIINVQFERKNSILYLFVGIVFGILLRPHYGVAYIYLAISVFVLNKIK  180
+
+Query  179  FRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIE  238
+            F VFSNG Y++SL  I+I+  L+LALT N+WSA FLSVLD I+ YFL+ D + +NRY IE
+Sbjct  181  FSVFSNGVYIISLTAISIISALLLALTENLWSAPFLSVLDIIKNYFLTSDIAYANRYYIE  240
+
+Query  239  WGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNE  298
+            WGT+SDYF NI WG  +SIIGPT NE +NR+VY+PFFIEG+LS +LM VI YRLYK T+ 
+Sbjct  241  WGTVSDYFDNILWGSMVSIIGPTFNEVINRIVYIPFFIEGVLSLVLMAVIFYRLYKETHT  300
+
+Query  299  NVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYK  358
+            N LYRK FYFSF+PA+IIIL+IHYPF LFNPG+AIRYKQNITPLIYFYPLLM+ACIN+ K
+Sbjct  301  NTLYRKYFYFSFIPAVIIILLIHYPFCLFNPGAAIRYKQNITPLIYFYPLLMIACINRGK  360
+
+
+>WP_057649559.1 hypothetical protein [Yersinia frederiksenii]
+ CFR14404.1 Uncharacterised protein [Yersinia frederiksenii]
+Length=362
+
+ Score = 476 bits (1226),  Expect = 2e-165, Method: Compositional matrix adjust.
+ Identities = 230/360 (64%), Positives = 292/360 (81%), Gaps = 0/360 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M YKKEF+ +I+VKV FS FAFFIY++FS L DS RYLNAT+N +N LDRTQFVDN F+ 
+Sbjct  1    MAYKKEFVFIIIVKVFFSLFAFFIYNHFSHLSDSERYLNATVNLSNFLDRTQFVDNIFSI  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L + +SS  L NI IS++FG SF+ VFKD+L F+D+KLLY+ FLLPSFQIWTSVAGKEI+
+Sbjct  61   LMFFISSKFLTNIFISIVFGISFYCVFKDLLEFIDRKLLYICFLLPSFQIWTSVAGKEIL  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            A+ G LF IKW++NIQFGR N   YL++G++FG+ LRPHYGIAY YLAIS IILS++K  
+Sbjct  121  AIAGLLFLIKWIVNIQFGRRNSASYLLLGVVFGLILRPHYGIAYCYLAISVIILSKVKLP  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+             FS   Y+ SL I +++L L+L++TV++WS QFL ++D I+ YFLS + S +NR+ I+WG
+Sbjct  181  FFSKWVYIFSLLIASVILALILSVTVDMWSDQFLIIIDIIKNYFLSSETSYANRHYIQWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+            TI+DYF NI WG ++SI+GPTLNE++NR++Y+PFFIEG+ SFILM+   +R Y  T +  
+Sbjct  241  TITDYFNNIVWGSWVSIVGPTLNESMNRIIYIPFFIEGVFSFILMLFFLFRYYSITEKER  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVK  360
+             YRK FY SF+PALIIILMIHYPFG+FNPG+AIRYKQNITPLIYFYPLL+LACIN+   K
+Sbjct  301  FYRKFFYLSFIPALIIILMIHYPFGVFNPGAAIRYKQNITPLIYFYPLLVLACINESIAK  360
+
+
+>WP_050082651.1 MULTISPECIES: hypothetical protein [Yersinia]
+ ATM84959.1 hypothetical protein CRN74_02005 [Yersinia frederiksenii]
+ AVX39157.1 hypothetical protein DA391_16665 [Yersinia massiliensis]
+ MCB5319082.1 hypothetical protein [Yersinia massiliensis]
+ NIL25604.1 hypothetical protein [Yersinia massiliensis]
+ OWF72920.1 hypothetical protein B4902_11835 [Yersinia frederiksenii]
+Length=362
+
+ Score = 476 bits (1224),  Expect = 3e-165, Method: Compositional matrix adjust.
+ Identities = 230/360 (64%), Positives = 292/360 (81%), Gaps = 0/360 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M YKKEF+ +I+VKV FS FAFFIY++FS L DS RYLNAT+N +N LDRTQFVDN F+ 
+Sbjct  1    MAYKKEFVFIIIVKVFFSLFAFFIYNHFSHLADSERYLNATVNLSNFLDRTQFVDNIFSI  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L + +SS  L NI IS++FG SF+ VFKD+L F+D+KLLY+ FLLPSFQIWTSVAGKEI+
+Sbjct  61   LIFFISSKFLTNIFISIVFGISFYCVFKDLLEFIDRKLLYICFLLPSFQIWTSVAGKEIL  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            A+ G LF IKW++NIQFGR N   YL++G++FG+ LRPHYGIAY YLAIS IILS++K  
+Sbjct  121  AIAGLLFLIKWIVNIQFGRRNSASYLLLGVVFGLILRPHYGIAYCYLAISVIILSKVKLP  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+             FS   Y+ SL I +++L L+L++TV++WS QFL ++D I+ YFLS + S +NR+ I+WG
+Sbjct  181  FFSKWVYIFSLLIASVILALILSVTVDMWSDQFLIIIDIIKNYFLSSETSYANRHYIQWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+            TI+DYF NI WG ++SI+GPTLNE++NR++Y+PFFIEG+ SFILM+   +R Y  T +  
+Sbjct  241  TITDYFNNIVWGSWVSIVGPTLNESMNRIIYIPFFIEGVFSFILMLFFLFRYYSITEKER  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVK  360
+             YRK FY SF+PALIIILMIHYPFG+FNPG+AIRYKQNITPLIYFYPLL+LACIN+   K
+Sbjct  301  FYRKFFYLSFIPALIIILMIHYPFGVFNPGAAIRYKQNITPLIYFYPLLVLACINESIAK  360
+
+
+Sequence with id WP_050873598 no longer exists in database...alignment skipped
+Sequence with id WP_050125651 no longer exists in database...alignment skipped
+>WP_212584288.1 hypothetical protein [Yersinia sp. Marseille-Q3913]
+ MBS0054265.1 hypothetical protein [Yersinia sp. Marseille-Q3913]
+Length=364
+
+ Score = 472 bits (1214),  Expect = 1e-163, Method: Compositional matrix adjust.
+ Identities = 239/361 (66%), Positives = 297/361 (82%), Gaps = 0/361 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE I +I+VK+ F+ FA F+Y+ FS L DS RYLNAT+N NN L+RTQFVDN F+ 
+Sbjct  1    MIYKKELISVIIVKIFFTLFAVFVYNQFSHLADSERYLNATVNLNNFLNRTQFVDNIFSL  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+Y++SS LL+N+ IS++FG+SF++VFKD+L F+D+KLLY+ FLLPSFQIWTSVAGKEII
+Sbjct  61   LRYLISSKLLINVFISIIFGFSFYFVFKDLLNFIDRKLLYICFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            A+ G LFFIKWV+NIQFGR NRI YL +G+ FG+ LRPHYGIAY YLA S IILS +K  
+Sbjct  121  AIAGLLFFIKWVVNIQFGRRNRISYLFVGVFFGILLRPHYGIAYAYLASSIIILSNVKIS  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+             FS   Y+L L II+I+L L+LA+TV +WS +FL+VL  I+ YFLS DA+ +NRY I+WG
+Sbjct  181  NFSKWAYILLLVIISILLALILAVTVGLWSEKFLAVLVIIKNYFLSSDAAYANRYYIQWG  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+            T++DYF NI WG ++SI+GPT  ETLNR+VY PFFIEGI+S +LMI I Y  YK T  NV
+Sbjct  241  TVADYFNNIVWGSWVSIVGPTFYETLNRIVYAPFFIEGIVSLMLMIYIFYLFYKVTEINV  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVK  360
+            LYRK FY +F+PA+II+LMIHYPFG+FNPG+AIRYKQNITPLIYFYPLL+LACIN+ K K
+Sbjct  301  LYRKYFYIAFIPAVIIVLMIHYPFGVFNPGAAIRYKQNITPLIYFYPLLVLACINESKAK  360
+
+Query  361  G  361
+             
+Sbjct  361  N  361
+
+
+>WP_219650035.1 hypothetical protein [Yersinia enterocolitica]
+ MBW5845008.1 hypothetical protein [Yersinia enterocolitica]
+ MBW5862362.1 hypothetical protein [Yersinia enterocolitica]
+Length=364
+
+ Score = 461 bits (1185),  Expect = 4e-159, Method: Compositional matrix adjust.
+ Identities = 234/361 (65%), Positives = 295/361 (82%), Gaps = 0/361 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M+YKKE I +I+VK+ F+FFA +IY+ FS L DS RYLNA ++ NN LDRTQFVDN FAF
+Sbjct  1    MIYKKELIFIIIVKIFFTFFAVYIYNQFSHLADSERYLNAVVSLNNFLDRTQFVDNIFAF  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L+Y++SS LLVN+ IS++FG SFF VFKD+L F+DK+LLY+ FLLPSFQIWTSVAGKEII
+Sbjct  61   LRYLISSKLLVNVLISIIFGLSFFCVFKDLLDFIDKRLLYILFLLPSFQIWTSVAGKEII  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            AV G LFF+KWV+NIQFGR N+I YL IG+LFGV LRPHYGIAY+YLA S I+L  IK  
+Sbjct  121  AVAGLLFFVKWVVNIQFGRKNKIFYLFIGLLFGVLLRPHYGIAYLYLAFSVILLRNIKVA  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+              S G YV ++ I +++L L+LA+T++ W  +FL V++ I+ YFLS D S +NR  I W 
+Sbjct  181  NISKGCYVTTIAIFSMILTLILAITIDFWGDKFLVVINIIKNYFLSSDISYANRNYIPWS  240
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+            T+ DYF NI WG  +S+IGPTL ET++R++YLPFFIEG++ F LMI I YRLYK +NE++
+Sbjct  241  TVLDYFNNILWGIPVSLIGPTLRETIDRIIYLPFFIEGVIGFSLMIYIFYRLYKISNEDI  300
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVK  360
+            +Y+K FYFSF+PA++IIL+IHYPFGLFNPG+AIRYKQNITPLIYFYPLL+LACI K ++K
+Sbjct  301  VYKKYFYFSFIPAMLIILLIHYPFGLFNPGAAIRYKQNITPLIYFYPLLVLACIKKSRIK  360
+
+Query  361  G  361
+             
+Sbjct  361  S  361
+
+
+Sequence with id CNB71327 no longer exists in database...alignment skipped
+>WP_050085977.1 hypothetical protein [Yersinia intermedia]
+ CNB71260.1 Uncharacterised protein [Yersinia intermedia]
+ CRE86296.1 Uncharacterised protein [Yersinia intermedia]
+Length=363
+
+ Score = 372 bits (955),  Expect = 3e-124, Method: Compositional matrix adjust.
+ Identities = 188/355 (53%), Positives = 253/355 (71%), Gaps = 1/355 (0%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M  +K F++++ VK+ F+FFA +IY  FSQLGD+ RYL+ATLN ++  DRT+F DN F+ 
+Sbjct  1    MRCEKYFLIVLTVKIFFTFFAVYIYQQFSQLGDTERYLSATLNTDDFFDRTRFTDNVFSV  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L ++ S  ++VNI I+ +F + FF V K+       KL ++ F LPSFQIWTSVAGKE++
+Sbjct  61   LMFIFSYKIVVNIFIACIFSFVFFSVLKNTFYSKYNKLAWLVFFLPSFQIWTSVAGKEVL  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            A+IGFL  IK+V+ +Q      + YL+IG+  GV LRPHYG+AYIYL +S IIL+R K  
+Sbjct  121  AIIGFLLVIKYVVYLQLNVKCNVLYLIIGVSLGVLLRPHYGLAYIYLLLSTIILARFKTG  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG  240
+              S G Y   L ++ IM  + ++++V +WS  F   +  I  YF+  DA  S  Y IEWG
+Sbjct  181  NISVGVYFFVLSLLGIMFLICVSISVELWSPYFTEAMKIIRNYFIITDAKASREY-IEWG  239
+
+Query  241  TISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENV  300
+             IS Y  NI WG   SIIGPTL+E +NRVVY+PFFI+GI+SF LMI++ Y+LY S+ +  
+Sbjct  240  GISGYLDNIYWGLVYSIIGPTLSEVINRVVYIPFFIDGIISFSLMIILVYKLYCSSRDFA  299
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACIN  355
+             YRK FYFSFLP+ ++ILMIHYPFG+FNPG+AIRYKQNI+PL+YFYPLL+L+ I 
+Sbjct  300  FYRKFFYFSFLPSFVMILMIHYPFGIFNPGAAIRYKQNISPLVYFYPLLVLSYIE  354
+
+
+>WP_019082574.1 hypothetical protein [Yersinia enterocolitica]
+Length=367
+
+ Score = 368 bits (944),  Expect = 2e-122, Method: Compositional matrix adjust.
+ Identities = 186/359 (52%), Positives = 255/359 (71%), Gaps = 5/359 (1%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M  KK F++++ VKV F+FFA +IY  FSQLGD+ RYL+ATLN ++  DRT+F DN F+ 
+Sbjct  1    MRCKKYFLIILTVKVFFTFFAVYIYQQFSQLGDAERYLSATLNTDDFFDRTRFTDNVFSV  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            L ++ S  ++VN+ I+ +F + FF V KD       KL +++F LPSFQIWTSVAGKE++
+Sbjct  61   LIFIFSYKIVVNVFIACIFSFVFFSVLKDTFYLKYYKLAWLAFFLPSFQIWTSVAGKEVL  120
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+            A++GFL  IK+V+ +Q      I YL++G   GV LRPHYG+AY YL IS IIL+R+K  
+Sbjct  121  AIMGFLLVIKYVVCLQLNVKCNILYLIVGGAVGVLLRPHYGLAYAYLLISTIILARLKVG  180
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLS----VLDTIEGYFLSYDASNSNRYD  236
+              S G Y   L +++IM  + +++++++WS  F       +  I  YF+  DA  S R +
+Sbjct  181  RISIGIYFFVLSVLSIMFIICISISIDLWSPYFTEAMKKAMKVIRSYFIITDAKAS-REN  239
+
+Query  237  IEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKST  296
+            IEWG +SDY  N+ WG   SIIGPTL+E +NR VY+PFFIEGI+SF L+I++ Y+LY S+
+Sbjct  240  IEWGGVSDYLNNMYWGVAYSIIGPTLSEVINRSVYMPFFIEGIISFALIIILVYKLYCSS  299
+
+Query  297  NENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACIN  355
+             +   YRK FY SFLP+ ++ILMIHYPFG+FNPG+AIRYKQNI+PLIYFYPLL+L+ I 
+Sbjct  300  RDFSFYRKFFYLSFLPSFVMILMIHYPFGIFNPGAAIRYKQNISPLIYFYPLLVLSYIE  358
+
+
+>WP_072622924.1 hypothetical protein [Spirulina major]
+Length=376
+
+ Score = 217 bits (552),  Expect = 2e-63, Method: Compositional matrix adjust.
+ Identities = 138/366 (38%), Positives = 208/366 (57%), Gaps = 24/366 (7%)
+
+Query  10   LILVKVLFSFFAFFIYSNF-SQLGDSNRYLNATLNFN--NILDRTQFVDNTFAFLKYVMS  66
+            LILVK   SF A F Y      LGDS+RYL+A       N  +RT F D  F FL+ +  
+Sbjct  17   LILVKAAASFIAIFFYGPLLGGLGDSSRYLSAPFKPTLVNFTNRTYFADAVFGFLR-IFL  75
+
+Query  67   SSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFL  126
+              +  ++ IS+L G+  +++F+    F++K   +++FLLP F IWTS  GKE + + GFL
+Sbjct  76   DQIQTHLFISLLNGFFIWFIFRKSYPFLNKICFWIAFLLPHFLIWTSSVGKEALVIPGFL  135
+
+Query  127  FFIKWVINIQFGRDNRIHY--LVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSN  184
+              IK  +N+      +I+Y  +++ +     +RP+Y I+YI+L  S +++ +      +N
+Sbjct  136  LLIK--LNVDIVLKTKINYFQVLLSLWITYLVRPNYLISYIFLTASTLLIYK------TN  187
+
+Query  185  GFYVLS-------LFIIAIMLFLVLAL--TVNIWSAQFLSVLDTIEGYFLSYDASNSNRY  235
+             FY L        L +I I  F+VLAL  T  +W  + L ++   E  F SYDA  +NR 
+Sbjct  188  IFYKLKAKLIANFLLLIYIGTFMVLALFLTYGLWEDKILEIMRFSEWQFFSYDA-RTNRL  246
+
+Query  236  DIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKS  295
+            D++W +  D+F +  WG   SIIGPTL+E +   +  P  IEG  +F L+     +L   
+Sbjct  247  DLDWESTFDFFKHFWWGIPASIIGPTLSEAIQHPLLFPALIEGTFAFTLLFYTILKLTTF  306
+
+Query  296  TNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACIN  355
+            +  N   ++L  F F+PA+II L+ HYP G+ NPGSA+RYKQ++ PL YFYPLL++A I 
+Sbjct  307  SKNNQKIKQLVVFGFIPAVIIGLLSHYPLGILNPGSALRYKQSLAPLFYFYPLLLMARIK  366
+
+Query  356  KYKVKG  361
+            + K + 
+Sbjct  367  QVKEQA  372
+
+
+>PJD96600.1 hypothetical protein CK423_01020 [Legionella sp.]
+ PJD97396.1 hypothetical protein CK426_08115 [Legionella sp.]
+Length=396
+
+ Score = 200 bits (509),  Expect = 8e-57, Method: Compositional matrix adjust.
+ Identities = 128/345 (37%), Positives = 201/345 (58%), Gaps = 5/345 (1%)
+
+Query  21   AFFIYSNFSQLGDSNRY-LNATL-NFNNILDRTQFVDNTFAFLKYVMSSSLLVNISISVL  78
+            A FIY+  +   D++ Y LN +L  F +   RT F    F  LKY++  +LLV+  +S+ 
+Sbjct  49   AVFIYAKVTPFNDADHYYLNTSLATFGSPPFRTAFTIYLFWGLKYLLHYNLLVHGVVSMA  108
+
+Query  79   FGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFG  138
+             G + ++V K    +V+KKLLY    LP F IWT V GKE +A+IGFLF I+  I++   
+Sbjct  109  VGLALWFVIKPEYEYVNKKLLYACLCLPHFLIWTGVVGKEALAIIGFLFIIRACIDLVVW  168
+
+Query  139  RDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGF--YVLSLFIIAI  196
+             + R+  L +G+   +  RPH+ IAYI L   + +++  K ++ S+      L+LF++  
+Sbjct  169  HETRMTLLSVGLFLALIERPHFTIAYICLVSVSFVVAFKKEKLVSHSSVNKSLALFLLCT  228
+
+Query  197  MLFLVLALTV-NIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFI  255
+            MLF  L+  +  ++    L  +  +  YF  +  + + R  I W    D+F N+ WG  +
+Sbjct  229  MLFFALSFLLLPVYGEYLLHFMAKVHHYFSIFPDAKTTRTAIAWSKPDDFFANLPWGVPV  288
+
+Query  256  SIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALI  315
+            SIIGPT  E L R + LP F+EG ++F L+++  + L K+  +   YR L  + FLPAL+
+Sbjct  289  SIIGPTWLEALKRAILLPVFVEGCIAFFLLMISCWLLVKTCKKYNQYRTLIIWGFLPALV  348
+
+Query  316  IILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVK  360
+            I L+++YPFG+FN GS +RYKQ++ PL+Y YP+L++  I K   K
+Sbjct  349  IGLLMNYPFGIFNIGSMLRYKQSLAPLLYLYPVLLIGAIEKRNAK  393
+
+
+>WP_018577593.1 hypothetical protein [Legionella shakespearei]
+ KTD60736.1 hypothetical protein Lsha_1453 [Legionella shakespearei DSM 23087]
+Length=395
+
+ Score = 194 bits (492),  Expect = 3e-54, Method: Compositional matrix adjust.
+ Identities = 120/359 (33%), Positives = 203/359 (57%), Gaps = 14/359 (4%)
+
+Query  8    ILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNN---ILDRTQFVDNTFAFLKYV  64
+            + +++VK+L +  + ++Y+ F+   D+N YL++ +N  +   I +RT F    +  LK++
+Sbjct  33   VFILVVKLLVTVCSVYLYAKFAPFRDANYYLSSEINVWSTALIFNRTMFTIIIYYLLKHL  92
+
+Query  65   MSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIG  124
+            +  ++LV++ +S   G  F+YV ++   ++DK  L +  L P F IWTSV GKE++A+ G
+Sbjct  93   LIYNILVHLFVSFFTGCIFWYVLREEYAYLDKFYLALILLSPHFLIWTSVVGKEVLAITG  152
+
+Query  125  FLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYL-----AISAIILSRIKF  179
+            FL  IK  +++      +I  ++IG      +RPHY +AY YL      I+ +I  +  F
+Sbjct  153  FLLVIKGCVDLSVWNKTKIIPVIIGFSIAALIRPHYALAYAYLFGISYLINILIRKQKMF  212
+
+Query  180  RVFSNGFYVLSLFI--IAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDI  237
+                   +++ +F+  IA+ LF +  L    + +  +  + T +  FL    S  NR+DI
+Sbjct  213  IDVKVSLFLVLMFLSLIALCLFCLEPL----YDSDLVLFMRTQQQSFLKITDSLGNRWDI  268
+
+Query  238  EWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTN  297
+             W + + +FYN+ WG   SI+G T +E L R V  P FIEG ++   +IV    L +   
+Sbjct  269  YWNSAAHFFYNMGWGIPASIVGFTWSEALARFVMFPVFIEGCINLFTLIVTFCLLIRLIK  328
+
+Query  298  ENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINK  356
+                Y  +  + +  A+++ L+++YP G+FNPGSA+RYKQ +TPL YFYPLL +A I +
+Sbjct  329  TEPKYASIIIWGYSLAVLLGLLVNYPAGIFNPGSAVRYKQVLTPLFYFYPLLFIAAIKR  387
+
+
+>WP_158617416.1 hypothetical protein [Legionella sp. km772]
+ RUR12121.1 hypothetical protein ELY15_06125 [Legionella sp. km772]
+Length=395
+
+ Score = 192 bits (487),  Expect = 2e-53, Method: Compositional matrix adjust.
+ Identities = 136/356 (38%), Positives = 214/356 (60%), Gaps = 10/356 (3%)
+
+Query  11   ILVKVLFSFFAFFIYSNFSQLGDSNRYLNATL---NFNNILDRTQFVDNTFAFLKYVMSS  67
+            +++K++ + F+ +IY+  S   D+ +YL+++    +F+ +  RT F  N +A LKY++  
+Sbjct  30   LVLKLMVTLFSIYIYARVSPFIDAEKYLHSSFTSWDFSLLFKRTLFARNIYAGLKYILVY  89
+
+Query  68   SLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLF  127
+             +LV++ +S LF     YVFK    F+DK L   S LLP F IW+SV GKEI+A+ GF  
+Sbjct  90   DILVHLFVSGLFVGVLVYVFKSEYNFLDKVLFTSSLLLPHFLIWSSVVGKEIMALAGFFL  149
+
+Query  128  FIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFY  187
+             IK  +++      RI  L+ G+L    LRPHY +AY+YL   + I+++ K RV   G +
+Sbjct  150  LIKVCVDLTVWNKIRIIPLLTGLLLTTILRPHYALAYLYLFSLSWIIAKSKIRVM--GLF  207
+
+Query  188  VLSLFIIAIMLFLVLALTVNIWSAQF-----LSVLDTIEGYFLSYDASNSNRYDIEWGTI  242
+              S   + ++  +   L +  +  QF     +  ++  + YFL +  S  NR+DI+W   
+Sbjct  208  SSSASCLILLGLMGYGLVLLFYFQQFYVDYLIHFMNETQEYFLRFVQSKGNRWDIDWEYA  267
+
+Query  243  SDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLY  302
+             D+  N+ WG  ISIIGPT +E L R +  P FIEG L+ IL+I+I   L +    N  Y
+Sbjct  268  GDFVANLIWGIPISIIGPTWSEVLERPILAPVFIEGCLALILLILIFCLLVRFVKINPKY  327
+
+Query  303  RKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYK  358
+              +  + F+PA+++ ++I+YP G+FNPGSA+RYKQ++TPL+YFYPLL++A I + K
+Sbjct  328  NSIIIWGFIPAVLLGILINYPVGIFNPGSAVRYKQSLTPLLYFYPLLLIATIKRKK  383
+
+
+Sequence with id WP_113660533 no longer exists in database...alignment skipped
+Sequence with id WP_182719276 no longer exists in database...alignment skipped
+>WP_182794892.1 MULTISPECIES: hypothetical protein [unclassified Pseudoalteromonas]
+ MBB1419599.1 hypothetical protein [Pseudoalteromonas sp. SG44-1]
+ MBB1481808.1 hypothetical protein [Pseudoalteromonas sp. SG41-2]
+Length=367
+
+ Score = 139 bits (351),  Expect = 5e-34, Method: Compositional matrix adjust.
+ Identities = 121/366 (33%), Positives = 197/366 (54%), Gaps = 38/366 (10%)
+
+Query  3    YKKEFIL--LILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTF  58
+            YK+  +L  L ++K LF F A F YS  SQLGDS+RYL +T+ F + L    T  ++ + 
+Sbjct  5    YKQNAVLFYLFIIKFLFIFVAEFGYSKVSQLGDSHRYLESTITFGSSLLYSSTALMEFSG  64
+
+Query  59   AFLKYV------MSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL---PSFQ  109
+            A +KY+      + + +L  I ++V F        K   +F +K LLY+  LL   PS+ 
+Sbjct  65   AIVKYLQPPLYHLPAMILSFIGVAVSFN-----ALKKRSVFNNKWLLYLFILLNVMPSYL  119
+
+Query  110  IWTSVAGKEIIAVIGFLFFIKWVINIQFGRD--NRIHYLVIGILFGVFLRPHYGIAYIYL  167
+            IWTS+  KE +AV+   +F   +IN+   RD  ++I +L    L  +F +P Y +A I +
+Sbjct  120  IWTSIHSKEAVAVLFMSYFAVIIINMIDKRDEISKISFLFFCYLLLIF-KPQYFVAIISV  178
+
+Query  168  AISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSY  227
+             +   +L + +   + +    L +F +  ML + ++  +++ +    S  D         
+Sbjct  179  VVYLYLLIKFRLNAYLSILLFLCMFTVQFMLLVSVSEYIDLVTLNMYSHFDP--------  230
+
+Query  228  DASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIV  287
+            + + S R +I +    D+F  + +G FIS  GPT+NET+ R V+  FF+E   S ++M+V
+Sbjct  231  ENAKSTRENIYFVNEGDFFRGMLYGMFISFWGPTINETIARPVWAVFFLE---SLVIMLV  287
+
+Query  288  ISYRLYKSTNENVLYRKLFYFSF---LPALIIILMIHYPFGLFNPGSAIRYKQNITPLIY  344
+             S+ LY      +L  K  + +F     +L  +L++HYPFG+FNPGSAIRY+QN  P  +
+Sbjct  288  FSF-LYLGQIYRLLSYKFNFIAFGVLFFSLFWLLLVHYPFGIFNPGSAIRYRQNFYP--F  344
+
+Query  345  FYPLLM  350
+              PLL+
+Sbjct  345  LVPLLI  350
+
+
+>WP_139336483.1 hypothetical protein [Pseudoalteromonas sp. SK20]
+Length=355
+
+ Score = 129 bits (325),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 111/346 (32%), Positives = 178/346 (51%), Gaps = 25/346 (7%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAF  60
+            M + + ++    VKVL+SFFA+FIYS F+ LGD+ RYL+     +   + T  +D     
+Sbjct  1    MTFNRYWVTYFGVKVLYSFFAYFIYSEFTSLGDTERYLSGEFKADFFYNSTSMMDFVAGT  60
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDV--LIFVDKKLLYMSFLL--PSFQIWTSVAG  116
+            L  +M  +L  NI  + L   SF+ V+  V  L   +++L+++  LL  PSF +WTSVA 
+Sbjct  61   LGNLMGGAL-ANIPFAFL---SFYGVYYSVTRLGLNNRQLVFVLALLSFPSFGVWTSVAS  116
+
+Query  117  KEIIAVIGFLFFIKWVINI--QFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIIL  174
+            KE I+V         +I+    F  + ++  L+I I   +  +P Y I    L I  +  
+Sbjct  117  KEAISVFYLGIIAGSIIDFINSFKVNKKL--LIISIYLCLLFKPQYIIGLTSLYIFVVFS  174
+
+Query  175  SRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNR  234
+             + K   F     V   FI++ +L   L   +N+++       + +  +F S DA+ S R
+Sbjct  175  RKFKLLGFGKFILVCLFFILSGILLYTLKDQINLFT-------EILPKHF-STDAA-STR  225
+
+Query  235  YDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEG--ILSFILMIVISYRL  292
+             +  W   +D F+N  +G FI+  GPT  E L +  +L  ++E   ILS  LM  +  RL
+Sbjct  226  ENTIWVKENDVFFNAPYGMFIAFFGPTFTEALAKPTHLIVWVESFIILSVFLMACL--RL  283
+
+Query  293  YKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+            + S+  +      F+  F  A + IL +HYPFG+ NPGSA+RY+++
+Sbjct  284  FLSSVYSGKVNIYFFGVFFTAALWILFVHYPFGVLNPGSAVRYRES  329
+
+
+>QWD20112.1 hypothetical protein G6689_01725 [Polynucleobacter paneuropaeus]
+Length=365
+
+ Score = 125 bits (315),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 113/356 (32%), Positives = 188/356 (53%), Gaps = 39/356 (11%)
+
+Query  10   LILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMS---  66
+            ++ +K+L  FFA  I++ ++ L DSN YL   ++ + +L RT+ +++   FL  +     
+Sbjct  19   IVTIKILGVFFAVHIFAKYTPLVDSNLYLQNGMSLDPVL-RTRIINDIAFFLNNIGGLYF  77
+
+Query  67   SSLLVNI-SISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII--AVI  123
+            + L+ ++ SI+   G  ++Y+         + ++    LLPS  +WTS+ GKE I     
+Sbjct  78   AHLIFSLFSIA---GLLYYYLNGG-----RRWVILFFLLLPSSLVWTSIVGKEAIFFGAS  129
+
+Query  124  GFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFS  183
+            G +  I     ++      I +L   +L    LRPHY IA+++L IS  IL R K     
+Sbjct  130  GLIIVIWTKYCVERLSKLEIAFLAACLLICAMLRPHYSIAFVWLYISTFILKRFK-----  184
+
+Query  184  NGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWG---  240
+                V  + ++ + +F +       W A  L       G+F    A+ S+R+++  G   
+Sbjct  185  ---SVAPVILLTLFVFGLFVTYHYSWDALLL------RGFFGIDPAARSSRFEMLGGGHT  235
+
+Query  241  TIS--DYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTN-  297
+            TIS  ++     WG    IIGP  +E  +R  ++PFF+EG+  F LM V +  L ++ N 
+Sbjct  236  TISFLEFKKIALWGIVWGIIGPFPSELFSRSEFIPFFVEGVAIF-LMPVAAIMLARAINL  294
+
+Query  298  ENV--LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLML  351
+            EN+  LYR L++FS  PA++I+L++H PFG+ NPGSAIR++ N   + Y  PLL++
+Sbjct  295  ENIKQLYR-LYFFSLGPAILILLLMHAPFGMLNPGSAIRWRVNFEQIFYLAPLLLI  349
+
+
+Sequence with id QWD07843 no longer exists in database...alignment skipped
+>WP_094565502.1 hypothetical protein [Herbaspirillum sp. meg3]
+ ASU40563.1 hypothetical protein hmeg3_21170 [Herbaspirillum sp. meg3]
+Length=366
+
+ Score = 123 bits (309),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 105/355 (30%), Positives = 178/355 (50%), Gaps = 36/355 (10%)
+
+Query  10   LILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMSSSL  69
+            LI +K+L + FA  +++ FS L DS  YL+     + +L RTQ + +  A     +  + 
+Sbjct  19   LIAIKILGALFATLVFARFSPLVDSKLYLSGYYAIDPLL-RTQLI-HKLAITLNSLGGAF  76
+
+Query  70   LVNISISVLFGYSFFYVFKDVLIFVDKKLLYM-SFLLPSFQIWTSVAGKEIIAVIGF-LF  127
+              ++   ++      Y F        ++ +++   LLPS  +WTS+ GKE +    F L 
+Sbjct  77   FAHVVFGLISTAGLIYYFATG----GRRWIFVWMLLLPSSLVWTSIVGKEALYFGCFNLL  132
+
+Query  128  FIKWVINIQFGRDNRIHYLVIGILFGV--FLRPHYGIAYIYLAISAIILSRIKFRVFSNG  185
+             + W   +   + N +  L   +  G+   LRPHYG+A ++L  S  I+ ++  + +   
+Sbjct  133  LVIWSKYV-VAKLNLLDLLAACMALGICGLLRPHYGVAIVWLFFSTGIIKKLGSKAWP--  189
+
+Query  186  FYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRY---DIEWGTI  242
+                   ++A ++   LA+   +WS         IE       ++ S+R+   D+   + 
+Sbjct  190  ------VLLATIIVAALAVYFYVWSDLLYRGFGGIEA------SARSSRFVLFDMVPNSD  237
+
+Query  243  S--DYFYNITW-GFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNE-  298
+            S  D+F  I   GF + I+GP  +E L R  +LPFF+EG+L  +  I I YR Y S  E 
+Sbjct  238  SGFDHFRKIVLLGFIVGIVGPLPSELLTRPEFLPFFLEGVLILLSPIFI-YR-YASKQEF  295
+
+Query  299  --NVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLML  351
+                L+ +++++  +PA+I I+++H PFGL NPGSA R++ N   L Y  PLL+L
+Sbjct  296  IGTTLFLRIYWWCLVPAIISIMILHAPFGLLNPGSASRWRTNFEALFYMAPLLLL  350
+
+
+Sequence with id WP_182779526 no longer exists in database...alignment skipped
+>WP_185780244.1 hypothetical protein [Pusillimonas sp. 7-48]
+ MBC2770563.1 hypothetical protein [Pusillimonas sp. 7-48]
+Length=360
+
+ Score = 120 bits (302),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 110/369 (30%), Positives = 176/369 (48%), Gaps = 52/369 (14%)
+
+Query  3    YKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLK  62
+            +    + +I++K+  +FFA  ++S FS L D+N YL     +++   RT+ + +    L 
+Sbjct  13   WPSALVYIIIIKLFGAFFATEVFSRFSPLIDANYYLQG-FYYDDAALRTRLIQHIVGLLS  71
+
+Query  63   YVMSSSLLVNISISVLFGYSFFYVFKDVLIFV-----DKKLLYMSFLL-PSFQIWTSVAG  116
+            Y               F +  F +   V IF       +  L MS LL PS  IWTS+  
+Sbjct  72   YTGGD----------FFSHFMFGLVSSVGIFYFYFSGGRGWLVMSALLFPSALIWTSIIS  121
+
+Query  117  KEIIAVIGFLFFIKWVINIQFGRD--NRIHY--LVIGILFGVFLRPHYGIAYIYLAISAI  172
+            KE I   GF F +  VI  +F  D  +RI Y  L I ++    LRPHY +A  +L  SA 
+Sbjct  122  KEAI-YFGF-FSLSLVIWSRFCIDKLSRIDYFLLAIAVVVCGLLRPHYTVAIFWLFGSAF  179
+
+Query  173  ILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTV--NIWSAQFLSVLDTIEGYFLSYDAS  230
+            +L +I ++         S FI+A  +  V A+ V   +W +  L     IE        +
+Sbjct  180  LLKKIGWK---------SAFILAATM-AVFAVCVYFTVWDSLLLRGFGGIE------PTA  223
+
+Query  231  NSNRYDIEWGTISD-------YFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFI  283
+             S+R++ E+G   D       Y   +  G    ++GP   E +NR+ + PFF+EG+L  +
+Sbjct  224  RSSRFE-EFGISQDTGSGFERYKSLVPLGVLYGVVGPMPGEVVNRIEFAPFFVEGVL-IM  281
+
+Query  284  LMIVISYRLYKSTNENVLYRKLFYF--SFLPALIIILMIHYPFGLFNPGSAIRYKQNITP  341
+               +++  L +  N N   R   YF    +P  ++++++H PFGL NPGSA+R++ N   
+Sbjct  282  FAPLLAMLLVRKLNVNFKLRYFLYFVICIIPCCLLLMVLHAPFGLMNPGSAVRWRVNFEA  341
+
+Query  342  LIYFYPLLM  350
+              Y  P+L+
+Sbjct  342  AFYLAPMLL  350
+
+
+Sequence with id TMN65955 no longer exists in database...alignment skipped
+Sequence with id WP_159016112 no longer exists in database...alignment skipped
+>SFS11554.1 hypothetical protein SAMN05216570_2534 [Dyella sp. OK004]
+Length=392
+
+ Score = 116 bits (290),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 96/342 (28%), Positives = 173/342 (51%), Gaps = 28/342 (8%)
+
+Query  16   LFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMSSSLLVNISI  75
+            L++FF+ F+YS+FSQLGDS  YL    +  +   RT  +      L  +++S L+ ++  
+Sbjct  33   LWTFFSVFVYSHFSQLGDSEAYLTGAYD-EDRQARTVVITLLSVKLLSLVNSELVAHLVF  91
+
+Query  76   SVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIAVIGFLFFIKWVIN  134
+            S+       Y++    +    +   ++ +L P F +W SV G+E +  +G L +    + 
+Sbjct  92   SMFAASGMAYLWVHAGLHGKYRWPVLAIMLNPCFGVWASVIGRESL-FVGLLGYFMGAVL  150
+
+Query  135  IQFGRDNRIHYLVIGILFG--VFLRPHYGIAYIYLAISAI--ILSRIKFRV-FSNGFYVL  189
+              +   +  H L+ G+     +F+R  YGI    LAI  I  ++  +  R+  S G +++
+Sbjct  151  AYYTCKHLRHLLLAGVCLAGLIFVRSAYGIG---LAIFLIMFVMYTLPIRMNLSAGVHIV  207
+
+Query  190  SLFIIAIMLFLVLALTVNIWSA--QFL--SVLDTIEGYFLSYDASNSNRYDIEWGTISDY  245
+                +A +L +V       W A   +L   +L   + YF    A+   R  I+  T  D 
+Sbjct  208  LAVGLAALLVIV------AWPALDNYLVNDILPKAKSYFTLTSATT--RTWIQLRTSGDL  259
+
+Query  246  FYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLY--R  303
+            F  + W   ++++GPT  E   R V LPFF+ G+   +++ V+ ++L+ + N  +    R
+Sbjct  260  FSGLWWSLPLALVGPTPGEVAARPVMLPFFVSGL---VIVGVLLHQLWLTLNGAMPKSVR  316
+
+Query  304  KLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYF  345
+            K+   ++LP+L++IL+ + PFG++NPGS IRY   + P + F
+Sbjct  317  KVLMLAWLPSLVVILISYVPFGIYNPGSGIRYLCGVLPFLVF  358
+
+
+Sequence with id SFS97824 no longer exists in database...alignment skipped
+Sequence with id MBY7838680 no longer exists in database...alignment skipped
+>WP_140308546.1 hypothetical protein [Vibrio parahaemolyticus]
+ TOL11543.1 hypothetical protein CGI05_13050 [Vibrio parahaemolyticus]
+Length=353
+
+ Score = 114 bits (284),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 104/348 (30%), Positives = 179/348 (51%), Gaps = 26/348 (7%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKY  63
+             K F ++   K+ +  FA  ++S FSQLGD+  Y++      + L R  F    F  L Y
+Sbjct  8    NKLFFIISFNKIFYLLFATLVFSKFSQLGDTEDYISG-----HYLYREDFTSPAF-ILSY  61
+
+Query  64   VMSS--SLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEII  120
+            + SS   L   I+  ++ G S  Y+ K   +     +L ++ +  PSF IWT++  KE+ 
+Sbjct  62   LGSSLGELGSYIASMIISGASIIYLIKKSNLSNKLNVLILTTIFFPSFGIWTAILSKEVF  121
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVF-LRPHYGIAYIYLAISAIILSRIKF  179
+             ++     + ++I++   R N     V    F +F L+PHY  A I+     ++L  +  
+Sbjct  122  VLLFMSLCVGFLIDVHSNRKNLPSIFVCVFFFILFSLKPHYSAAVIFTYF-LLLLRNLGV  180
+
+Query  180  RVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEW  239
+            R      ++LS+ I++  + + +A+       ++  V+     YF++  ++  N Y   W
+Sbjct  181  R----REFLLSITILSFSIIVPIAIHFIDIIYEYTQVIT--NSYFVNGGSTRKNDY---W  231
+
+Query  240  GTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVIS-YRLYKSTNE  298
+              + D+F     G   + IGPTL E++NR  +LPFFIEG+L FI+ +V S + +Y+S + 
+Sbjct  232  IELYDFFIYAPIGVPKAFIGPTLGESINRFSFLPFFIEGVLIFIITLVGSFFSVYRSRSI  291
+
+Query  299  NVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNIT-PLIYF  345
+            NVL   L    F+   ++++  HYP G+ NPGS+IRY+  I  P++ F
+Sbjct  292  NVLSLCL----FITFTLLLMFTHYPVGIVNPGSSIRYRSGIIFPMLVF  335
+
+
+>WP_117981531.1 hypothetical protein [Bacteroides thetaiotaomicron]
+ RGQ41063.1 hypothetical protein DWY97_16425 [Bacteroides thetaiotaomicron]
+Length=362
+
+ Score = 113 bits (282),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 98/344 (28%), Positives = 169/344 (49%), Gaps = 40/344 (12%)
+
+Query  13   VKVLFSFFAFFIYSNFSQLGDSNRYLNATL----NFNNILDRTQFVDNTFAFLKYVMSSS  68
+            +++L+  FA  IY   +QLGD+ RYLNA+L    +F+ + + T+ +D   + +  +  S+
+Sbjct  18   IRILYLIFAIHIYGKLTQLGDTERYLNASLSSVTDFSFLWNSTKMMDAIGSIMGILGGSN  77
+
+Query  69   LLVNISISVLFGYSFF--------YVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            +L N+  ++L   SFF        Y F+    +++ +LL     LP+F IWT +  KE +
+Sbjct  78   VLTNLPFTIL---SFFTVKWIIDKYHFRQ---YINNRLLLFVLSLPNFCIWTDICSKETV  131
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+             ++       +V++   G  +     +  +   +  +P Y   +I   +  I        
+Sbjct  132  GLVFSAILGSFVLDFLSGNYSIKKKHIFAMYLCLIFKPQYA-PFIIQGLFVI--------  182
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLS-VLDTIEGY----FLSYDASNSNRY  235
+                  YV++ F   I   ++L L V   +A  L  V D +  Y    ++ +D   S+  
+Sbjct  183  ------YVMNRFCRTISRKVLLGLLVIFCNAVLLYLVKDVVNEYANMMYVHFDFDGSSTR  236
+
+Query  236  DIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEG-ILSFILMIVISYRLYK  294
+            D  W   +D+FY    G F++  GPT++E ++   +L   IE  IL  + +I+ SY  Y+
+Sbjct  237  DNLWLKDNDFFYEAPRGMFVAFFGPTVSEMMHTPTHLIAGIESCILLMLFLILGSYFFYR  296
+
+Query  295  STNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+               +  L   LF FS+   +  I ++HYPFG+FNPGSAIRY+ N
+Sbjct  297  LVYQYKLNVTLF-FSYFIIITGIALLHYPFGIFNPGSAIRYRTN  339
+
+
+>WP_143920183.1 hypothetical protein [Bacteroides thetaiotaomicron]
+ QZU82354.1 hypothetical protein KHO73_03777 [Bacteroides thetaiotaomicron]
+ QZU87691.1 hypothetical protein KHO74_03699 [Bacteroides thetaiotaomicron]
+ TSE41490.1 hypothetical protein EH213_05016 [Bacteroides thetaiotaomicron]
+Length=358
+
+ Score = 112 bits (280),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 95/347 (27%), Positives = 167/347 (48%), Gaps = 46/347 (13%)
+
+Query  13   VKVLFSFFAFFIYSNFSQLGDSNRYLNATL----NFNNILDRTQFVDNTFAFLKYVMSSS  68
+            +++L+  FA  IY   +QLGD+ RYLNA+L    +F+ + + T+ +D   + +  +  S+
+Sbjct  18   IRILYLIFAIHIYGKLTQLGDTERYLNASLSSVTDFSFLWNSTKMMDAIGSIMGILGGSN  77
+
+Query  69   LLVNISISVLFGYSFF--------YVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            +L N+  ++L   SFF        Y F+    +++ +LL     LP+F IWT +  KE +
+Sbjct  78   VLTNLPFTIL---SFFTVKWIIDKYHFRQ---YINNRLLLFVLSLPNFCIWTDICSKETV  131
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+             ++       +V++   G  +     +  +   +  +P Y   +I   +  I        
+Sbjct  132  GLVFSAILGSFVLDFLSGNYSIKKKHIFAMYLCLIFKPQYA-PFIIQGLFVI--------  182
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLS-VLDTIEGY----FLSYDASNSNRY  235
+                  YV++ F   I   ++L L V   +A  L  V D +  Y    ++ +D   S+  
+Sbjct  183  ------YVMNRFCRTISRKVLLGLLVIFCNAVLLYLVKDVVNEYANMMYVHFDFDGSSTR  236
+
+Query  236  DIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVIS----YR  291
+            D  W   +D+FY    G F++  GPT++E ++   +L   IE  +  +L +++     YR
+Sbjct  237  DNLWLKDNDFFYEAPRGMFVAFFGPTVSEMMHTPTHLIAGIESCILLMLFLILGSHFFYR  296
+
+Query  292  LYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+            L      NV      +FS+   +  I ++HYPFG+FNPGSAIRY+ N
+Sbjct  297  LVYQYKLNVT----LFFSYFIIITGIALLHYPFGIFNPGSAIRYRTN  339
+
+
+Sequence with id WP_048697676 no longer exists in database...alignment skipped
+>MBT8578580.1 hypothetical protein [Polynucleobacter paneuropaeus]
+Length=363
+
+ Score = 111 bits (278),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 105/358 (29%), Positives = 169/358 (47%), Gaps = 45/358 (13%)
+
+Query  10   LILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMSSS-  68
+            L+L+K+    FA  I++ ++ L DS  YL+        L RT+ V    +FL  +  +  
+Sbjct  18   LLLIKICGIAFALLIFARYTPLTDSALYLSGYYKIEGAL-RTELVGYLASFLNDLGGAYF  76
+
+Query  69   ---LLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII----A  121
+               +    SIS L  Y         ++ V         +LPS  IWTS+ GKE +     
+Sbjct  77   AHFIFALFSISGLIYYCCTGGRHWAILLV--------LILPSSFIWTSIVGKEALYFGAM  128
+
+Query  122  VIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRV  181
+             +  + + K+V +     D  +   +I +L    LRPHYGI+ +++ I+A IL R +   
+Sbjct  129  CLVLVVWTKYVADDADLLDGVLG--LISVLLCFMLRPHYGISLLWIFIAAAILKRCQS--  184
+
+Query  182  FSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRY-----D  236
+                 Y + L  + I +F  L +  N+W          I+        + ++R+     D
+Sbjct  185  -----YAIPLLFL-IFIFGALIVYFNLWDLLLARGFGGID------PNARASRFTSLNID  232
+
+Query  237  IEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKST  296
+                   +Y   I  G    +IGPT  E ++R  +LPFF+EG+L F    +I + + KST
+Sbjct  233  PSQAGFLEYKRLIILGLIYGMIGPTPAEIISRPEFLPFFVEGVLIFSAPAIIYFWVMKST  292
+
+Query  297  NENVLYRK----LFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLM  350
+                L +K    LF+   +PA+II++++H PFGL NPGSA R++ N   + Y  PLL+
+Sbjct  293  ---FLLKKQFILLFWVCLVPAMIILVILHAPFGLLNPGSATRWRTNFDQMFYLAPLLL  347
+
+
+Sequence with id MRT26619 no longer exists in database...alignment skipped
+Sequence with id WP_209606508 no longer exists in database...alignment skipped
+>WP_036166674.1 hypothetical protein [Lysobacter dokdonensis]
+ KGQ19838.1 O-unit flippase-like protein [Lysobacter dokdonensis DS-58]
+Length=392
+
+ Score = 110 bits (275),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 95/331 (29%), Positives = 162/331 (49%), Gaps = 21/331 (6%)
+
+Query  15   VLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMSSSLLVNIS  74
+            V ++ FA FIYS FSQLGD+  YL    +      RT FV      +  ++   +L ++ 
+Sbjct  32   VAWTLFAVFIYSRFSQLGDAKAYLTGGYD-EEASARTYFVTQVATTVVNLLRVDVLAHLV  90
+
+Query  75   ISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIAVIGFL-FFIKWV  132
+             S+       Y+     +    +   ++ LL PSF +W SV G+E +  IG L +F+  +
+Sbjct  91   FSLFAASGVAYLVGQARLHGPYRWPLLAILLIPSFGVWASVVGREAL-YIGLLGYFMGAM  149
+
+Query  133  INIQFGRDN-RIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSL  191
+            +     R   R  + V+ +   +F+R  +G A     + A ++ R   RV       LSL
+Sbjct  150  VGYFRQRSTARWWFAVLCVAGMMFIRTPFGAAMGLFFLMAWLVQRGP-RVG------LSL  202
+
+Query  192  FIIAIMLFLVLAL-TVNIWSA--QFLS--VLDTIEGYFLSYDASNSNRYDIEWGTISDYF  246
+             + A+ML L+ A+  + +W     +++  VL     YF     S + R  I   T + Y 
+Sbjct  203  GVQALMLALLGAVVAIAVWPQIDDYIANDVLPKARAYFTI--GSETTRMWINIDTTNGYL  260
+
+Query  247  YNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLF  306
+             ++ W   ++I+GPT  E   R V LPF + G+  F L++    + ++  +   + RK+ 
+Sbjct  261  SSLWWTLPLAIVGPTPAEVFARPVMLPFLVSGLTVFFLLLYAIQQAFRVPDP--VGRKIL  318
+
+Query  307  YFSFLPALIIILMIHYPFGLFNPGSAIRYKQ  337
+              ++LPA+++ L+ + PFG++NPGS IRY  
+Sbjct  319  VLAWLPAMLLTLVAYVPFGMYNPGSGIRYAS  349
+
+
+>WP_148514706.1 hypothetical protein [Vibrio cholerae]
+ NAR40904.1 hypothetical protein [Vibrio cholerae]
+ TYA60273.1 hypothetical protein FXE53_04205 [Vibrio cholerae]
+Length=369
+
+ Score = 109 bits (273),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 103/354 (29%), Positives = 175/354 (49%), Gaps = 38/354 (11%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNF---NNILDRTQFVD--  55
+            M  KK +    + K+++ F A F+YS F+QLGD+ RY++  +N+   N     T+ +D  
+Sbjct  1    MRVKKIWFFYTISKLIYMFLALFVYSKFTQLGDTKRYISG-VNYGSPNWWYSSTEMMDLL  59
+
+Query  56   -NTFAFLKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFL-LPSFQIWTS  113
+             +TFA     +   +L N+    L  Y  +Y  +      ++K+  + FL LPSF IW+S
+Sbjct  60   AHTFA----KIVGPILANVPFVFLAVYGVYYSVERSGFTYNQKIKVLLFLSLPSFSIWSS  115
+
+Query  114  VAGKEIIAVIGFLFFIKWVINIQFGRDNRIHY-----LVIGILFGVFLRPHYGIAYIYLA  168
+            +A KE +AV    FF+  ++   F   N++       +++ I   V  +P Y I  I + 
+Sbjct  116  IASKEAMAV----FFMGVILGFFFEIINKVKVTNKLLVILCIYLCVIFKPQYMIGLISI-  170
+
+Query  169  ISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYD  228
+             + +  SR  F+  ++  +V        ++FLV++ +V  +    ++    I     S +
+Sbjct  171  FTFVFFSRTAFKSANSKLFVF-------VMFLVVSFSVLYFLRDIINDYSYIMPAHFSLE  223
+
+Query  229  ASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILS----FIL  284
+            A ++   DI W    D F N  +G FI   GPTL+E++ + ++   FIE  +      IL
+Sbjct  224  AGSTRVNDI-WVNDYDVFRNAFYGMFIGFWGPTLSESIAKPIHFLVFIESFIVVGTFLIL  282
+
+Query  285  MIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+            +++   +  +    N+++  L   S    L  IL +HYPFG  NPGSAIRY+ N
+Sbjct  283  LVITCLKFIRYRIINIMFISLVIIS----LSWILFVHYPFGALNPGSAIRYRTN  332
+
+
+Sequence with id WP_055230269 no longer exists in database...alignment skipped
+Sequence with id MBT8573731 no longer exists in database...alignment skipped
+Sequence with id WP_217741807 no longer exists in database...alignment skipped
+Sequence with id WP_195741269 no longer exists in database...alignment skipped
+Sequence with id MCE0734471 no longer exists in database...alignment skipped
+Sequence with id WP_230527214 no longer exists in database...alignment skipped
+>EGR1023376.1 hypothetical protein [Vibrio cholerae]
+Length=353
+
+ Score = 108 bits (269),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 107/359 (30%), Positives = 179/359 (50%), Gaps = 48/359 (13%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKY  63
+            KK   LLI+ KV +  FA F++S FSQLGD+  Y++      + L R  +    F  L +
+Sbjct  8    KKILSLLIINKVFYFIFAIFVFSKFSQLGDTEDYISG-----HYLYREDYTSPAF-LLSW  61
+
+Query  64   V-----MSSSLLVNISISVLFGYSFFYVF-KDVLIFVDKKLLYMSFLLPSFQIWTSVAGK  117
+            +      S S L+++ IS+   +S  Y+  K  L    K L+  +  LPSF +WT++  K
+Sbjct  62   LGNNLGESGSYLLSMLISI---FSVLYLLHKANLTLRLKILILATIFLPSFGVWTAILSK  118
+
+Query  118  EIIAVIGFLFFIKWVIN--IQFGRDNRIHYLVIGILFGVFL---RPHYGIA----YIYLA  168
+            E+      LFF+   +   I    + RI   +  +   VFL   +PHY  A    Y++L 
+Sbjct  119  EVFV----LFFMSLSVGFLIDVYSNKRILPSIFNLACFVFLFSLKPHYSSAVFFTYLFLF  174
+
+Query  169  ISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYD  228
+               + + +            + L +I   L +++ LT+      +         YF++  
+Sbjct  175  FRNLGIRQ-----------EMLLSMIVFCLVIIIPLTIYYIDVIYYYTQLITNNYFINGG  223
+
+Query  229  ASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVI  288
+            ++  N Y   W    D+F     G   + IGPTL+ET+N++ +LPFFIEG++ FIL+++ 
+Sbjct  224  STRPNNY---WNDTYDFFTYAPIGVPKAFIGPTLSETINKISFLPFFIEGVVLFILILLG  280
+
+Query  289  SY-RLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNIT-PLIYF  345
+            S+  +Y+    N+    +F F+F    ++++  HYP G+ NPGS+IRY+  I  P++ F
+Sbjct  281  SFLSIYRKGCVNITSLCVF-FTF---TLLLMFAHYPVGIVNPGSSIRYRSGIIFPMLVF  335
+
+
+Sequence with id WP_217514195 no longer exists in database...alignment skipped
+>WP_166208076.1 hypothetical protein [Lysobacter telluris]
+Length=393
+
+ Score = 108 bits (271),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 90/331 (27%), Positives = 164/331 (50%), Gaps = 20/331 (6%)
+
+Query  15   VLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMSSSLLVNIS  74
+              ++ F+ F+YS+FSQLGD+N YL+   + +    RT F+      L  ++ S L+ ++ 
+Sbjct  35   ACWTLFSVFVYSHFSQLGDANSYLSGAYD-DTGQARTYFITLLATRLMALVHSDLVAHLV  93
+
+Query  75   ISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIAVIGFL-FFIKWV  132
+             S+       Y+ K   +    +   ++ LL P+F +W SV G+E +  IG L FF+  V
+Sbjct  94   YSMFAASGVAYMVKQARVHGRYRWALLAILLCPNFGVWASVIGREAL-FIGLLGFFMGAV  152
+
+Query  133  INIQFGRDNRIHYLVIGILFG-VFLRPHYGIA---YIYLAISAIILSRIKFRVFSN--GF  186
+            I     R      L +  + G VF+R  YGI    ++ + +  +   R +  V     GF
+Sbjct  153  IGYYTQRGFGRLLLALACVGGMVFIRSPYGIGTALFLLMFLVYLWGPRTQLSVGVQFLGF  212
+
+Query  187  YVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYF  246
+              ++ F+    LFL   +  +  +   L    T    F + + S++ R  +   T    F
+Sbjct  213  AAVAGFV----LFLCWPMLDDYIAGDVLPKAKT----FFTIN-SDTTRLWMNLTTTPQLF  263
+
+Query  247  YNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLF  306
+             ++ W   ++++GPT  E  +R + LPFF+ G++   +++   +  ++ +    L RK+ 
+Sbjct  264  KSLWWTLPMALVGPTPGEVASRPLMLPFFLSGVMVLCVLLFSLHVAWRRSPPG-LVRKIL  322
+
+Query  307  YFSFLPALIIILMIHYPFGLFNPGSAIRYKQ  337
+               ++PA+ +IL+ + PFG++NPGS IRY+ 
+Sbjct  323  VLGWMPAMALILVSYVPFGVYNPGSGIRYES  353
+
+
+Sequence with id WP_213434252 no longer exists in database...alignment skipped
+>WP_122096090.1 hypothetical protein [Rahnella sp. Larv3_ips]
+Length=350
+
+ Score = 107 bits (267),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 103/358 (29%), Positives = 175/358 (49%), Gaps = 46/358 (13%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKY  63
+            +++   + L+K+ ++FFA  +++ F+ LGD+  YLN        L+R     N  A   Y
+Sbjct  5    RQQLSGICLIKIAYAFFAVLVFARFTSLGDTGDYLN-----GEYLER-----NNLASTAY  54
+
+Query  64   VMSSSLLVNISISVLFGYSFFYVFK--DVLIFVDK--------KLLYMSFLLPSFQIWTS  113
+            +MS   L+  ++  +  Y F  +     ++  ++K        +L+++  LLPSF +WTS
+Sbjct  55   LMS---LIGAALGNIGSYVFSLILSVWGMVYLLEKAEFSSGNIRLVFVLMLLPSFGVWTS  111
+
+Query  114  VAGKEIIAVIGFLFFIKWVINIQFGRDNRIHY---LVIGILFGVFLRPHYGIAYIYLAIS  170
+            +  KE+  +  F      +I++   R  R+ +    ++G+    F++PHY +  IYL+  
+Sbjct  112  ILSKEVFVLFSFCLCTGGLIDLLSQR--RVFFSLFQLLGLALLTFMKPHYSVC-IYLSAL  168
+
+Query  171  AIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDAS  230
+            AI + R+ FR          + +  + + L+  + V I     +     I     S ++S
+Sbjct  169  AITIFRMGFR--------REILLALLTIALLCTVAVAIHYMDLIYEYTQIIPLHFSANSS  220
+
+Query  231  NSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGI-LSFILMIVIS  289
+            ++   D  W    D+F  +  G  +S IGPTL E L     LPFF+EGI L+  ++   +
+Sbjct  221  STRTNDF-WLNEYDFFTYLPAGLPVSFIGPTLFEALAAPKMLPFFLEGIFLAGFVVFQCA  279
+
+Query  290  YRLYKSTNENVLYRKL-FYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN-ITPLIYF  345
+               +     NVL   L F F+F      +L+ HYPFGLFNPGSA+RY+   I P+  F
+Sbjct  280  RAAFHRGYINVLSLTLVFTFTF-----ALLIAHYPFGLFNPGSAVRYRSGFIFPMCLF  332
+
+
+Sequence with id WP_183848708 no longer exists in database...alignment skipped
+>MCD9211718.1 hypothetical protein [Vibrio cholerae]
+Length=353
+
+ Score = 107 bits (266),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 106/359 (30%), Positives = 178/359 (50%), Gaps = 48/359 (13%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKY  63
+            KK   LLI+ KV +  FA F++S FSQLGD+  Y++      + L R  +    F  L +
+Sbjct  8    KKILSLLIINKVFYFIFAIFVFSKFSQLGDTEDYISG-----HYLYREDYTSPAF-LLSW  61
+
+Query  64   V-----MSSSLLVNISISVLFGYSFFYVF-KDVLIFVDKKLLYMSFLLPSFQIWTSVAGK  117
+            +      S S L+++ IS+   +S  Y+  K  L    K L+  +  LPSF +WT++  K
+Sbjct  62   LGNNLGESGSYLLSMLISI---FSVLYLLHKANLTLRLKILILATIFLPSFGVWTAILSK  118
+
+Query  118  EIIAVIGFLFFIKWVIN--IQFGRDNRIHYLVIGILFGVFL---RPHYGIA----YIYLA  168
+            E+      LFF+   +   I    + RI   +  +   VFL   +PHY  A    Y++L 
+Sbjct  119  EVFV----LFFMSLSVGFLIDVYSNKRILPSIFNLACFVFLFSLKPHYSSAVFFTYLFLF  174
+
+Query  169  ISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYD  228
+               + + +            + L +I   L +++ LT+      +         YF++  
+Sbjct  175  FRNLGIRQ-----------EMLLSMIVFCLVIIIPLTIYYIDVIYYYTQLITNNYFINGG  223
+
+Query  229  ASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVI  288
+            ++  N Y   W    D+F     G   + IGPTL+ET+N++ +LPFFIEG++ FIL+++ 
+Sbjct  224  STRPNNY---WNDTYDFFTYAPIGVPKAFIGPTLSETINKISFLPFFIEGVVLFILILLG  280
+
+Query  289  SY-RLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNIT-PLIYF  345
+            S+  +Y+    N+    +F F+F    ++++  HYP G+ NPGS+ RY+  I  P++ F
+Sbjct  281  SFLSIYRKGCVNITSLCVF-FTF---TLLLMFAHYPVGIVNPGSSTRYRSGIIFPMLVF  335
+
+
+Sequence with id WP_056773302 no longer exists in database...alignment skipped
+>WP_218049815.1 hypothetical protein [Bacteroides faecis]
+Length=362
+
+ Score = 107 bits (266),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 98/356 (28%), Positives = 169/356 (47%), Gaps = 46/356 (13%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATL----NFNNILDRTQFVDNTFA  59
+            K+ ++    +++L+  FA  IY   +QLGD+ RYLNA+L    +F+ + + T+ +D   +
+Sbjct  9    KRFWVYYFAIRILYLIFAIHIYGKLTQLGDTERYLNASLSSVTDFSFLWNSTKMMDAIGS  68
+
+Query  60   FLKYVMSSSLLVNISISVLFGYSFF--------YVFKDVLIFVDKKLLYMSFLLPSFQIW  111
+             +     S++L N+  ++L   SFF        Y F+    +++ +LL     LP+F IW
+Sbjct  69   IMGMFGGSNVLTNLPFTIL---SFFTVKWIIDKYHFRQ---YINNRLLLFVLSLPNFCIW  122
+
+Query  112  TSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISA  171
+            T +  KE + ++        V++   G  +     +  +   +  +P Y   +I   +  
+Sbjct  123  TDICSKETVGLVFSAILGSLVLDFLSGNYSIKKKHIFAMYLCLIFKPQYA-PFIIQGLFV  181
+
+Query  172  IILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLS-VLDTIEGY----FLS  226
+            I              YV++ F   I   ++L L V   +A  L  V D +  Y    ++ 
+Sbjct  182  I--------------YVMNRFCRTISRKVLLGLLVIFCNAVLLYLVKDVVNEYADMMYVH  227
+
+Query  227  YDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMI  286
+            +D   S+  D  W   +D+FY    G F++  GPT++E L+   +L   IE  +  IL +
+Sbjct  228  FDFDGSSTRDNLWLKDNDFFYEAPRGMFVAFFGPTVSEMLHTPTHLMAGIESCILLILFL  287
+
+Query  287  VIS----YRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+            ++     YRL      NV      +FS+   +  I ++HYPFG+FNPGSAIRY+ N
+Sbjct  288  ILGSHFFYRLVYQYKLNVT----IFFSYFIIITGIALLHYPFGIFNPGSAIRYRTN  339
+
+
+Sequence with id WP_111640053 no longer exists in database...alignment skipped
+>THD56696.1 hypothetical protein ERD95_01025 [Enterobacteriaceae bacterium 
+ML5]
+Length=350
+
+ Score = 106 bits (264),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 101/356 (28%), Positives = 171/356 (48%), Gaps = 42/356 (12%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKY  63
+            +++   + L+K+ ++FFA  +++ F+ LGD+  YLN        L+R     N  A   Y
+Sbjct  5    RQQLSGICLIKIAYAFFAVLVFARFTSLGDTGDYLNG-----EYLER-----NNLASTAY  54
+
+Query  64   VMSSSLLVNISISVLFGYSFFYVFK--DVLIFVDK--------KLLYMSFLLPSFQIWTS  113
+            +MS   L+  ++  +  Y F  +     ++  ++K        +L+++  +LPSF +WTS
+Sbjct  55   LMS---LIGAALGNIGSYVFSLILSVWGMVYLLEKAEFSSGNIRLVFVLMMLPSFGVWTS  111
+
+Query  114  VAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGILFG-VFLRPHYGIAYIYLAISAI  172
+            +  KE+  +  F      +I++   R   +    +  L    F++PHY +  IYL+  AI
+Sbjct  112  ILSKEVFVLFSFCLCTGGLIDLLSQRRVFLSLFQLLGLALLTFMKPHYSVC-IYLSALAI  170
+
+Query  173  ILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNS  232
+             + R+ FR          + +  + + L+  + V I     +     I     S ++S++
+Sbjct  171  TIFRMGFR--------REILLALLTIALLCTVAVAIHYMDLIYEYTQIIPLHFSANSSST  222
+
+Query  233  NRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGI-LSFILMIVISYR  291
+               D  W    D+F  +  G  +S IGPTL E L     LPFF+EGI L+  ++   +  
+Sbjct  223  RTNDF-WLNEYDFFTYLPAGLPVSFIGPTLFEALAAPKMLPFFLEGIFLAGFVVFQCARA  281
+
+Query  292  LYKSTNENVLYRKL-FYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN-ITPLIYF  345
+             +     NVL   L F F+F      +L+ HYPFGLFNPGSA+RY+   I P+  F
+Sbjct  282  AFHRGYINVLSLTLVFTFTF-----ALLIAHYPFGLFNPGSAVRYRSGFIFPMCLF  332
+
+
+Sequence with id WP_217205050 no longer exists in database...alignment skipped
+>WP_161419125.1 hypothetical protein [Vibrio cholerae]
+Length=352
+
+ Score = 105 bits (263),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 99/336 (29%), Positives = 166/336 (49%), Gaps = 38/336 (11%)
+
+Query  19   FFAFFIYSNFSQLGDSNRYLNATLNF---NNILDRTQFVD---NTFAFLKYVMSSSLLVN  72
+            F A F+YS F+QLGD+ RY++  +N+   N     T+ +D   +TFA     +   +L N
+Sbjct  2    FLALFVYSKFTQLGDTKRYISG-VNYGSPNWWYSSTEMMDLLAHTFA----KIVGPILAN  56
+
+Query  73   ISISVLFGYSFFYVFKDVLIFVDKKLLYMSFL-LPSFQIWTSVAGKEIIAVIGFLFFIKW  131
+            +    L  Y  +Y  +      ++K+  + FL LPSF IW+S+A KE +AV    FF+  
+Sbjct  57   VPFVFLAVYGVYYSVERSGFTYNQKIKVLLFLSLPSFSIWSSIASKEAMAV----FFMGV  112
+
+Query  132  VINIQFGRDNRIHY-----LVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGF  186
+            ++   F   N++       +++ I   V  +P Y I  I +  + +  SR  F+  ++  
+Sbjct  113  ILGFFFEIINKVKVTNKLLVILCIYLCVIFKPQYMIGLISI-FTFVFFSRTAFKSANSKL  171
+
+Query  187  YVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYF  246
+            +V        ++FLV++ +V  +    ++    I     S +A ++   DI W    D F
+Sbjct  172  FVF-------VMFLVVSFSVLYFLRDIINDYSYIMPAHFSLEAGSTRVNDI-WVNDYDVF  223
+
+Query  247  YNITWGFFISIIGPTLNETLNRVVYLPFFIEGILS----FILMIVISYRLYKSTNENVLY  302
+             N  +G FI   GPTL+E++ + ++   FIE  +      IL+++   +  +    N+++
+Sbjct  224  RNAFYGMFIGFWGPTLSESIAKPIHFLVFIESFIVVGTFLILLVITCLKFIRYRIINIMF  283
+
+Query  303  RKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+              L   S    L  IL +HYPFG  NPGSAIRY+ N
+Sbjct  284  ISLVIIS----LSWILFVHYPFGALNPGSAIRYRTN  315
+
+
+Sequence with id WP_162315171 no longer exists in database...alignment skipped
+>WP_047782168.1 hypothetical protein [Pragia fontium]
+ AKJ43442.1 hypothetical protein QQ39_16410 [Pragia fontium]
+ SFD28777.1 hypothetical protein SAMN02745723_11222 [Pragia fontium DSM 5563 
+= ATCC 49100]
+ SUB83911.1 Uncharacterised protein [Pragia fontium]
+ VEJ56814.1 Uncharacterised protein [Pragia fontium]
+Length=347
+
+ Score = 105 bits (262),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 106/352 (30%), Positives = 172/352 (49%), Gaps = 34/352 (10%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKY  63
+            K   + +IL+K+++SF A F++S FS LGD++ YLN      + L R+ F  ++ A+L  
+Sbjct  5    KNTILYIILIKIVYSFLAVFVFSQFSSLGDTDDYLNG-----HYLHRSDF--SSTAYLMS  57
+
+Query  64   VMSSSLLVNIS----ISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEI  119
+            V+ SSL    S    I +      + + K  L      L+ +   LPSF +WTS+  KEI
+Sbjct  58   VIGSSLGSLGSFLFSIILSIIGILYMLEKANLQHRTLPLVLLLIALPSFGVWTSIFSKEI  117
+
+Query  120  IAVIGFLFFIKWVINIQFGRDNRIH--YLVIGILFGVFLRPHYGIAYIYLAISAIILSRI  177
+              +  F   +  +I+ Q     +    + +  +L   F++PHY I  IY ++  I+  +I
+Sbjct  118  FVLFSFCICVGGLID-QLNDKRKFFSIFQIFALLLLTFIKPHYSIT-IYFSMLTILFYKI  175
+
+Query  178  KFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDI  237
+              +        LS+ +  ++  LV+ ++++   + F      I     S D   + + + 
+Sbjct  176  GIKS------ELSISLNIVVFCLVILISMHYIDSIF--EYSQIMPKHFSSDGGTTRKNEF  227
+
+Query  238  EWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMI---VISYRLYK  294
+             W    D+F  +  G  ++  GPTL E +N V   PFF EG   FIL++   + S  + K
+Sbjct  228  -WHNEYDFFTFMPIGLPMAFSGPTLVEAINNVKLFPFFFEGTFLFILLVYYNLTSIIVRK  286
+
+Query  295  STNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN-ITPLIYF  345
+              N   L     +FSF     +IL+ HYPFGLFN GSA+RY+   I P+  F
+Sbjct  287  KVNTLALS---LFFSF---TCMILITHYPFGLFNAGSAMRYRSGFILPMCVF  332
+
+
+>WP_159565626.1 hypothetical protein [Budvicia diplopodorum]
+Length=334
+
+ Score = 104 bits (259),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 99/343 (29%), Positives = 164/343 (48%), Gaps = 40/343 (12%)
+
+Query  16   LFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMS--SSLLVNI  73
+            ++SF A F+++ FS LGD+N Y+N        LDR    D+ F+   Y+MS   SLL  +
+Sbjct  1    MYSFLAVFVFAQFSSLGDTNDYINGYY-----LDR----DDLFS-TAYLMSVIGSLLGTV  50
+
+Query  74   SISVLFGYSFFYVFKDVLIFVDKKLL--------YMSFLLPSFQIWTSVAGKEIIAVIGF  125
+                 F  S       +L  ++K  L         +   LPSF +WTS+  KEI  +  F
+Sbjct  51   GS---FLLSLLLSITGILYMLEKARLGNNQLVLVLVLLSLPSFGVWTSIFSKEIFVLFSF  107
+
+Query  126  LFFIKWVINIQFGRDNRIH-YLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSN  184
+                  +I +  G+ + +  + ++ +    F++PHY +A +Y ++  I+        + N
+Sbjct  108  CICTGGLIELINGKRSFLSIFQIVALALLTFIKPHYAVA-VYSSMLTIL-------AYKN  159
+
+Query  185  GFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISD  244
+            G        + I++F ++ L    +          +  +F       + R +  W +  D
+Sbjct  160  GIKSELAISVNIIIFCLIILASIYYIEAIFEYTQIMPKHF--SRNGGTTRINEFWNSEYD  217
+
+Query  245  YFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVIS-YRLYKSTNENVLYR  303
+            +F  I  G  ++ IGPTL E++N +  LPFF EG   F+L+I  S   + ++ N N +  
+Sbjct  218  FFTFIPLGLPMAFIGPTLPESINNIKLLPFFFEGCFLFLLIIFYSATSIIRNQNINTMAL  277
+
+Query  304  KLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN-ITPLIYF  345
+             LF  SF     ++L+ HYPFG+FN GSA+RY+   I P+  F
+Sbjct  278  SLF-ISF---TCVLLIAHYPFGVFNAGSAMRYRSGLIMPMCVF  316
+
+
+Sequence with id QWD21895 no longer exists in database...alignment skipped
+Sequence with id CDC56553 no longer exists in database...alignment skipped
+>WP_156642685.1 hypothetical protein [Lysobacter gilvus]
+ MUV15132.1 hypothetical protein [Lysobacter gilvus]
+Length=392
+
+ Score = 104 bits (259),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 89/334 (27%), Positives = 154/334 (46%), Gaps = 27/334 (8%)
+
+Query  15   VLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMSSSLLVNIS  74
+            V ++ FA FIYS FSQLGD+  YL    + +    RT FV      +  ++   +L ++ 
+Sbjct  32   VGWTLFAVFIYSRFSQLGDARAYLTGGYD-DEASARTYFVTQVATTVVGLVRVDVLAHLV  90
+
+Query  75   ISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEII----------AVI  123
+             S+       Y+     +    +   ++ LL PSF +W SV G+E +          A +
+Sbjct  91   FSLFAASGVAYLVGQARLHGPYRWPLLAILLIPSFGVWASVVGRESLYIGLLGYFMGAAV  150
+
+Query  124  GFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFS  183
+            G+     W          +  + V+ +   +F+R  +G A     + A ++ R      S
+Sbjct  151  GYYRKPSW---------GKWWFAVLCVAGLMFIRAPFGGAMGLFFLMAWMVQRGPRVGLS  201
+
+Query  184  NGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTIS  243
+             G     + +IA ++ +     +N + A    VL     YF + D S + R  I   T +
+Sbjct  202  LGVQAFLMALIAGIVVIAAWPQINDYIAN--EVLPKARLYF-TID-SGTTRLWINIDTTT  257
+
+Query  244  DYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYR  303
+             Y  ++ W   ++I+GPT  E   R V LPF I G+  F L++    + ++  +   + R
+Sbjct  258  GYLTSLWWTLPLAIVGPTPAEVYARPVMLPFLISGLTVFFLLLYAIQQAFRCPDP--IGR  315
+
+Query  304  KLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQ  337
+            K+   ++LPA+++ L+ + PFG++NPGS IRY  
+Sbjct  316  KILVLAWLPAVLLTLIAYVPFGMYNPGSGIRYAS  349
+
+
+Sequence with id QWD37541 no longer exists in database...alignment skipped
+Sequence with id MBL8486665 no longer exists in database...alignment skipped
+>WP_138566219.1 hypothetical protein [Pseudoalteromonas phenolica]
+Length=360
+
+ Score = 103 bits (256),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 96/349 (28%), Positives = 169/349 (48%), Gaps = 37/349 (11%)
+
+Query  13   VKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTFAFLKYVMSSSLL  70
+            +K+    FA F+YS  SQLGD++RYL  +  FN  +    T  ++ T + +KY+      
+Sbjct  17   LKIFMMLFAEFVYSQLSQLGDTHRYLETSPFFNASIFYSSTSMMEFTGSLVKYLQPPMYH  76
+
+Query  71   VNISISVLFGYSF-FYVFKDVLIFVDKKLL---YMSFLLPSFQIWTSVAGKEIIAVIGFL  126
+            +   +    G+   F  FK + +F    +L    ++ L+PS+ +WTSV  KE I+V    
+Sbjct  77   LPAMVISFCGFVLVFNYFKSIGVFRSTNILILFVLANLMPSYLLWTSVHSKEAISVFIMS  136
+
+Query  127  FFIKWVINIQFGRDNRIHYL--VIGILFGVFLRPHYGIA--------YIYLAISAIILSR  176
+            FF  ++I  +        +   +I +  G+  +  Y  A        Y+Y  ++   L +
+Sbjct  137  FFAVFLIKYERSEIKGKDWFAFIIFMYLGLVFKAQYFAAIISCLVFIYLYKKLNCKALGK  196
+
+Query  177  IKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASN--SNR  234
+            +       G  VL LF ++    ++ A+T+N++                 +D  N  S R
+Sbjct  197  LMLFTLMIGTQVLILFGLSD---IIDAVTLNMYQ---------------HFDPENARSTR  238
+
+Query  235  YDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYK  294
+             +I +    D+F N+     ++  GPTL E  ++ +   FF+E +   +++I++ + ++K
+Sbjct  239  ENIYFVNEGDFFRNMFSNMLLAAWGPTLAEVASKPLMALFFLESLCIALIIIILLFGMFK  298
+
+Query  295  STNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLI  343
+                  L   +   SFL  +  +L++HYPFG+FNPGSAIRY+QN  PL+
+Sbjct  299  QLLNYQLNISVLVLSFL-MIFWLLLVHYPFGIFNPGSAIRYRQNFYPLL  346
+
+
+>WP_144899818.1 hypothetical protein [Luteimonas cucumeris]
+ TWI01770.1 hypothetical protein IP90_02330 [Luteimonas cucumeris]
+Length=390
+
+ Score = 103 bits (256),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 97/364 (27%), Positives = 176/364 (48%), Gaps = 28/364 (8%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKY  63
+            ++  +L I     ++ F+ ++YS +SQLGD+  YL           RT  +    + L+ 
+Sbjct  24   RRTVVLAIFAA--WTLFSVYVYSRYSQLGDAQAYLTGEYG-EYAQGRTLLITRVASGLRA  80
+
+Query  64   VMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIAV  122
+            ++ + LLV+++ S+       Y+     I    +   ++ LL P+F +W SV G+E I V
+Sbjct  81   MLGADLLVHLAFSMFAASGVCYLIAQGDIRGRYRWPLLAILLNPNFGVWASVTGRESIFV  140
+
+Query  123  IGFLFFIKWVINIQFGRDNRIHYLVIGILF---GVFLRPHYGIAYIYLAISAIILSRIKF  179
+                +F+  V+     R +RI +++I  L     +++R  +GI         I L  + +
+Sbjct  141  GLLAYFMGAVLGHH--RRHRIAHVLIAPLCVAGMIYIRAPFGIG--------IALFYLVY  190
+
+Query  180  RVFSNGFYV-LSLFIIAIMLFLVLALTVNI-WS--AQFLS--VLDTIEGYFLSYDASNSN  233
+             +++ G  + LS+ + A+    +  L +   W     ++S  +L   + YF    AS + 
+Sbjct  191  LLYAWGPRLRLSIGVQAVFFLALATLALAFAWPYIDGYISNEILPLAQSYFTV--ASTTT  248
+
+Query  234  RYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISY-RL  292
+            R  ++  T  D    + W   +S+IGPT  E L R V LPF + G++ F L++   Y  +
+Sbjct  249  RTWVDLHTAGDLLAGLWWILPLSLIGPTPAEVLARPVMLPFLLAGLVVFGLLLHSIYVAM  308
+
+Query  293  YKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLA  352
+            +K+       R +    +LPA+++IL+ + PFG++NPGS IRY       + F  LL+ A
+Sbjct  309  FKAPRGPT--RGILLLGWLPAMLVILVSYAPFGIYNPGSGIRYASCFLLFVIFPALLVRA  366
+
+Query  353  CINK  356
+              + 
+Sbjct  367  AAHA  370
+
+
+>TMP83640.1 hypothetical protein CWB73_02130 [Pseudoalteromonas phenolica]
+Length=340
+
+ Score = 101 bits (252),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 95/342 (28%), Positives = 166/342 (49%), Gaps = 37/342 (11%)
+
+Query  20   FAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTFAFLKYVMSSSLLVNISISV  77
+            FA F+YS  SQLGD++RYL  +  FN  +    T  ++ T + +KY+      +   +  
+Sbjct  4    FAEFVYSQLSQLGDTHRYLETSPFFNASIFYSSTSMMEFTGSLVKYLQPPMYHLPAMVIS  63
+
+Query  78   LFGYSF-FYVFKDVLIFVDKKLL---YMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVI  133
+              G+   F  FK + +F    +L    ++ L+PS+ +WTSV  KE I+V    FF  ++I
+Sbjct  64   FCGFVLVFNYFKSIGVFRSTNILILFVLANLMPSYLLWTSVHSKEAISVFIMSFFAVFLI  123
+
+Query  134  NIQFGRDNRIHYL--VIGILFGVFLRPHYGIA--------YIYLAISAIILSRIKFRVFS  183
+              +        +   +I +  G+  +  Y  A        Y+Y  ++   L ++      
+Sbjct  124  KYERSEIKGKDWFAFIIFMYLGLVFKAQYFAAIISCLVFIYLYKKLNCKALGKLMLFTLM  183
+
+Query  184  NGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASN--SNRYDIEWGT  241
+             G  VL LF ++    ++ A+T+N++                 +D  N  S R +I +  
+Sbjct  184  IGTQVLILFGLSD---IIDAVTLNMYQ---------------HFDPENARSTRENIYFVN  225
+
+Query  242  ISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVL  301
+              D+F N+     ++  GPTL E  ++ +   FF+E +   +++I++ + ++K      L
+Sbjct  226  EGDFFRNMFSNMLLAAWGPTLAEVASKPLMALFFLESLCIALIIIILLFGMFKQLLNYQL  285
+
+Query  302  YRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLI  343
+               +   SFL  +  +L++HYPFG+FNPGSAIRY+QN  PL+
+Sbjct  286  NISVLVLSFL-MIFWLLLVHYPFGIFNPGSAIRYRQNFYPLL  326
+
+
+>WP_137265061.1 hypothetical protein [Luteimonas gilva]
+ TKR32852.1 hypothetical protein FCE95_00510 [Luteimonas gilva]
+Length=369
+
+ Score = 102 bits (253),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 97/364 (27%), Positives = 166/364 (46%), Gaps = 30/364 (8%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLN-FNNILDRTQFVDNTFAFLK  62
+            K+  ++ I V   ++ F+ F+YS +S LGD+  Y+      F+    RT  +      L+
+Sbjct  22   KRAAVVAIFVA--WTLFSVFVYSRYSSLGDAQTYMTGGYGEFSQ--GRTLLITRIAGGLR  77
+
+Query  63   YVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIA  121
+             V+ + LLV+++ S+       Y+     I    +   ++ LL P+F +W SV G+E + 
+Sbjct  78   SVLGTDLLVHLAFSMFAAAGVCYLVAQADIRGRYRWPLLAILLNPNFGVWASVTGRESLF  137
+
+Query  122  VIGFLFFIKWVINIQFGRDNRIHYLVIGILFG--VFLRPHYGIA-----YIYLAISAIIL  174
+            V    FF+  V+    GR    H L+  +     +++R  +GIA      IYL    +  
+Sbjct  138  VGLLAFFMGAVLGNLRGR-RLAHALIAPLCIAGMIYIRAPFGIAIALFYLIYLLY--VWG  194
+
+Query  175  SRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSY--DASNS  232
+             R++        + L+L  + ++L          W      + D I     SY   AS +
+Sbjct  195  PRLRLSTGVQAVFFLALATLGLIL---------AWPHIDAYINDEILPLARSYFTVASTT  245
+
+Query  233  NRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRL  292
+             R  ++  T +D    + W   +S+IGPT  E L R   LPF + G++ F  ++      
+Sbjct  246  TRTWVDLRTTNDLLGGLWWILPLSLIGPTPAEALARPTMLPFMLAGLVVFGSLLYSIGVA  305
+
+Query  293  YKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLA  352
+            +K+    V  R +    +LPA  +IL+ + PFG++NPGS IRY      L   +P L+L+
+Sbjct  306  FKAPRGAV--RGILLLGWLPATFVILVSYAPFGIYNPGSGIRYASCFL-LFLVFPSLLLS  362
+
+Query  353  CINK  356
+               +
+Sbjct  363  TTRQ  366
+
+
+Sequence with id WP_111609053 no longer exists in database...alignment skipped
+Sequence with id WP_058404641 no longer exists in database...alignment skipped
+>WP_099610789.1 hypothetical protein [Vibrio fujianensis]
+Length=384
+
+ Score = 100 bits (249),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 104/332 (31%), Positives = 157/332 (47%), Gaps = 18/332 (5%)
+
+Query  13   VKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTFAFLKYVMSSSLL  70
+            VK ++  FA F+YS  + LGD+ RYL     F+  L  D T  +D T A+   V   S+L
+Sbjct  19   VKFIYMLFALFVYSKMTTLGDTYRYLEGVDAFSATLWHDSTALMD-TLAYSSSVFLGSVL  77
+
+Query  71   VNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIAVIGFLFFI  129
+             N+   VL     +Y    + +  ++ +  ++ L  PSF +WTS+A KE + V      +
+Sbjct  78   GNLPFLVLSIIGVYYPISRLDLKRNQLIFLLALLSLPSFGVWTSIASKEAVGVFFLGIIL  137
+
+Query  130  KWVINIQFGRDNRIHYL-VIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYV  188
+             ++I+    R N+ ++L    +   V  +P Y I      ISA+      F  FS  F +
+Sbjct  138  GFIIDFIKNRPNKQYFLFSFCVYLCVIFKPQYLIG-----ISALF----TFVFFSRKFAL  188
+
+Query  189  LSLFIIAIM-LFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFY  247
+              L    I+ LF V++L         ++ L  I     S DA  S R +  W    D F 
+Sbjct  189  RGLGKTVILILFFVISLFALYLFRNEINELSFIMPRHFSLDA-GSTRDNTIWVNDFDVFR  247
+
+Query  248  NITWGFFISIIGPTLNETLNRVVYLPFFIE-GILSFILMIVISYRLYKSTNENVLYRKLF  306
+            N  +G FI   GPT +E L++  +L  F+E  I+  + +  +   L  S N   L    F
+Sbjct  248  NAPYGMFIGFFGPTFSEALSKPTHLLVFLESAIIVGVFLYALLKLLLISINTGRL-NVYF  306
+
+Query  307  YFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+               FL   + +L +HYPFG  NPGSAIRY++N
+Sbjct  307  VGIFLTVSLWVLFVHYPFGALNPGSAIRYREN  338
+
+
+>WP_152057574.1 hypothetical protein [Aliarcobacter butzleri]
+Length=367
+
+ Score = 100 bits (248),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 95/344 (28%), Positives = 164/344 (48%), Gaps = 21/344 (6%)
+
+Query  3    YKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLN--FNNILDRTQFVDNTFAF  60
+            Y K + +  L+K+ + FFA FIY+  + LGD++R+++  L+     IL  +  + +    
+Sbjct  7    YSKYWFIYFLIKLFYMFFAVFIYAKLTILGDTSRWMSGNLSHSLEQILTNSSMMMDFLGG  66
+
+Query  61   LKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL--PSFQIWTSVAGKE  118
+            +   +  S+L ++   +L  Y  FY    + +  +K+L Y+  LL  PSF +W+S+AGKE
+Sbjct  67   ISSAIFGSVLGHLPFMLLALYGVFYSVSRIQL-SNKQLFYILVLLSLPSFGVWSSIAGKE  125
+
+Query  119  IIAVIGFLFFIKWVINI-QFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRI  177
+             I V        ++I+I    R        +     +  +P Y IA   + +   I  ++
+Sbjct  126  AIGVFYMGIMCGYLIDILNKTRSKPKPIEFLAFYLLLLFKPQYSIAIGSIFLFIFISRKL  185
+
+Query  178  KFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDI  237
+              + +   F  +    +A +LF V    +N  S         +  +F S DA  S R + 
+Sbjct  186  HLKGYGKLFLFIFHVSLAGVLFYVFRDIINELSFM-------LPAHF-SLDA-GSTRENT  236
+
+Query  238  EWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTN  297
+             W    D  YN  +G FI   GPT++E   + +    F+E ++ F   I   ++ +  T 
+Sbjct  237  IWINDYDVIYNAPYGMFIGFWGPTVSEIFEKPIQSFVFVENLIIFAFCIFFIWKFFCKTL  296
+
+Query  298  ENVLYRKLFYFSFLPALIII---LMIHYPFGLFNPGSAIRYKQN  338
+            +     KL  F+F    I++   L +HYPFG+ NPGSA+RY++N
+Sbjct  297  KT---SKLDIFAFSLVFIVLFWLLFVHYPFGVLNPGSAVRYREN  337
+
+
+Sequence with id RUT80129 no longer exists in database...alignment skipped
+>PMD98442.1 hypothetical protein BWI97_04580 [Siphonobacter sp. BAB-5405]
+Length=374
+
+ Score = 98.2 bits (243),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 93/354 (26%), Positives = 165/354 (47%), Gaps = 37/354 (10%)
+
+Query  4    KKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNAT----------LNFNNILDRTQF  53
+            +K ++   L KV +  FA F++S  + LGD+ RY++A+          L+ +     T  
+Sbjct  7    EKIWLFFFLGKVFYMIFAVFVFSKLTILGDTERYISASFPDLLSTIPFLSEDPAGPSTVL  66
+
+Query  54   VDNTFAFLKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFL-LPSFQIWT  112
+            +D   A  + +  +++LV+I   +L      Y    + +   + +L ++ L  PSF IWT
+Sbjct  67   MDLIGAISRIISLNTILVHIPCVILSFIGIRYAVLKLNLSTQELILLLAVLSFPSFGIWT  126
+
+Query  113  SVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYL-VIGILFGVFLRPHYGIAYIYLAISA  171
+            S+  KE I          ++I +      R++ L ++     +  +P Y IA +++ + A
+Sbjct  127  SIVSKEAIGSFYMGIICGYLIEVLKVNRYRLNLLELLAFYLCLLFKPQYMIAILHILLIA  186
+
+Query  172  IILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASN  231
+             I  R++   F N        ++ I +  V  + +  + +  +    +++    S + SN
+Sbjct  187  FIF-RLQLNAFIN--------VLLIGVITVSEIIIIYYFSDLIESFASLQHLHFSIEDSN  237
+
+Query  232  SNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYR  291
+            S R D  W    D+F     G F++  GPT+ E + + +  PFFIE   S I+ +++ Y 
+Sbjct  238  STRDD-PWVNSGDFFKYAPVGMFVAFAGPTILEVMEKPIQAPFFIE---SVIICLIVFYW  293
+
+Query  292  LYKSTNENVLYRKLFYFSFLPALII-------ILMIHYPFGLFNPGSAIRYKQN  338
+              KS     +Y K F +  L  L +       +L +HYPFG  NPGS IRY+ N
+Sbjct  294  FVKS-----MYIKGFVYISLQNLSLWFFTYFWLLFVHYPFGALNPGSGIRYRCN  342
+
+
+>WP_127342269.1 hypothetical protein [Ancylomarina longa]
+Length=343
+
+ Score = 96.7 bits (239),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 88/327 (27%), Positives = 161/327 (49%), Gaps = 21/327 (6%)
+
+Query  19   FFAFFIYSNFSQLGDSNRYLNATLNFN--NILDRTQFVDNTFAFLKYVMSSSLLVNISIS  76
+            F A F+ +  ++LGD+  YLN+++ F+   +   T  +      +K V    ++V+    
+Sbjct  2    FLAVFVIARLTKLGDTELYLNSSIPFSLKGLFISTDLIIYLVRIIKLVFRLDIIVHFFFC  61
+
+Query  77   VLFGYSFFYVFKDV-LIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINI  135
+            +       Y  K + L   + +LL+   +LPSF IWTS+ GK+ +        I  +I+ 
+Sbjct  62   ITSIVGIIYPLKKLSLSKRNYRLLFFLLMLPSFGIWTSIVGKDALGAYAIGIIIGKLID-  120
+
+Query  136  QFGRDNRIHY---LVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLF  192
+             +    +I Y   L   +     L+P Y IA + +     +  ++K ++   G  V+S  
+Sbjct  121  -YSNKGKIKYDFLLCSALYLLAVLKPQYFIALVNIFFLIFLNKKVKDKLVW-GIIVISQI  178
+
+Query  193  IIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWG  252
+            +  + + L  + T++        +   +E +F    +SN+ R +  W   +D+F  I  G
+Sbjct  179  VFCVAVLLYFSDTID-------QLARMMEQHF--SLSSNTTRQNQFWLEKNDFFKKIPIG  229
+
+Query  253  FFISIIGPTLNETLNRVVYLPFFIEGILSFILMI-VISYRLYKSTNENVLYRKLFYFSFL  311
+            F++S +GP+L+E +N ++ L  FIE  +  I+M  ++S +L    +   L+ +  Y  F 
+Sbjct  230  FYLSFVGPSLSE-VNNLLTLSAFIESWIIIIVMTFIVSEKLIIRISLGKLHVRNIYMYF-  287
+
+Query  312  PALIIILMIHYPFGLFNPGSAIRYKQN  338
+              +  I+++HYPFGL NPGSA RY+ N
+Sbjct  288  STVFWIMLVHYPFGLLNPGSANRYRSN  314
+
+
+>WP_138555909.1 MULTISPECIES: hypothetical protein [Pseudoalteromonas]
+Length=308
+
+ Score = 95.9 bits (237),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 86/274 (31%), Positives = 141/274 (51%), Gaps = 21/274 (8%)
+
+Query  84   FYVFKDVLIFVDKKLLYMSFLL---PSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRD  140
+            F   K   +F +K LLY+  LL   PS+ IWTS+  KE IA +   +F   +IN+   R+
+Sbjct  32   FNALKKRDVFRNKWLLYIFILLNLMPSYLIWTSIHSKEAIATLFMSYFAVLLINMIDKRE  91
+
+Query  141  NRIH-YLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLF  199
+                  L+      +  +P Y +A I +AI   +L + +   + +    L +FI+   L 
+Sbjct  92   KVSKVLLLFFCYLLLIFKPQYFVAIISVAIYLYLLIKFRLNAYLSILLFLCIFIVQFALL  151
+
+Query  200  LVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFISIIG  259
+            + ++  +++ +    S  D         + + S R +I +    D+F  +  G F+S  G
+Sbjct  152  VSVSEYIDLVTLNMYSHFDP--------ENAKSTRENIYFVNEGDFFRGMLHGMFLSFWG  203
+
+Query  260  PTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSF---LPALII  316
+            PT+NET+ R V+  FF+E   S ++M+V  + LY      +L  K  + +F     +L  
+Sbjct  204  PTINETITRPVWAVFFLE---SLVIMLVFVF-LYFGQIYKLLSYKFNFIAFGVLFFSLFW  259
+
+Query  317  ILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLM  350
+            +L++HYPFG+FNPGSAIRY+QN  P  +  PLL+
+Sbjct  260  LLLVHYPFGIFNPGSAIRYRQNFYP--FLVPLLI  291
+
+
+>WP_152369268.1 hypothetical protein [Tolypothrix campylonemoides]
+ KAB8313984.1 hypothetical protein SD81_040200 [Tolypothrix campylonemoides 
+VB511288]
+Length=377
+
+ Score = 97.1 bits (240),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 95/363 (26%), Positives = 164/363 (45%), Gaps = 40/363 (11%)
+
+Query  15   VLFSFFAFFIYSNFSQLGDSNRYLNATLNFNN----------ILDRTQFVDNTFAFLKYV  64
+            V +S FA F+YS +SQLGD+  Y       +            +  T  V  TFA + + 
+Sbjct  32   VAWSLFAVFVYSRYSQLGDAESYQTGAYGADAQARTYLVTLIAMRVTSLVGATFAHVVFA  91
+
+Query  65   MSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEI--IAV  122
+            + ++  V            + V +  L    +  L+   L+P+F +W +V G+E   I +
+Sbjct  92   LFAATGVA-----------YLVHQARLRGAHRWPLFALLLIPNFGVWATVVGREAMFIGL  140
+
+Query  123  IGFLFFIKWVINIQFGRDNRIHYLVIGILFG-VFLRPHYGIAYIYLAISAIILSRIKFRV  181
+            +G LF    V +++ G   ++  L I    G VFLR  +G       + A+  +      
+Sbjct  141  LG-LFMGAIVGHVREGGAGKV-LLAIACAAGMVFLRAPFGAGMALFLLVALAYAWGPRTR  198
+
+Query  182  FSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGT  241
+             S G  +L L  +A  + ++L   ++ + A    VL     YF    A+     D++   
+Sbjct  199  MSVGVQLLGLLSLAAFVGVLLWPQIDAYIAT--DVLPKARSYFTVNSATTRLWVDMD--Q  254
+
+Query  242  ISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMI----VISYRLYKSTN  297
+              + F ++ W   +S++GPT  E + R + LPFF+ G++   L+     V   R+ + T 
+Sbjct  255  TGELFGSLWWALPLSLLGPTPAEVMARPMMLPFFLSGLVVLGLLAHQIRVALVRMPRGTP  314
+
+Query  298  ENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKY  357
+                 R +    +LPAL +IL+ + PFG++NPGSAIRY      L    P ++L+ +  +
+Sbjct  315  -----RAVMLVGWLPALTLILVSYVPFGIYNPGSAIRYSATFL-LFLVMPSMLLSGLGAH  368
+
+Query  358  KVK  360
+              +
+Sbjct  369  TPR  371
+
+
+>WP_155693977.1 hypothetical protein [Psychrosphaera haliotis]
+ MUH71338.1 hypothetical protein [Psychrosphaera haliotis]
+Length=363
+
+ Score = 95.9 bits (237),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 93/353 (26%), Positives = 159/353 (45%), Gaps = 25/353 (7%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDN-TFA  59
+            M  +   +LL++ KV+F F +++I    ++LGD+  YL     F      T F+ + T  
+Sbjct  1    MTRRNFLVLLLIAKVIFCFISWYIIGGITKLGDTQDYLRGYFLFRESWTSTAFIMSITGK  60
+
+Query  60   FLKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKL--LYMSFLLPSFQIWTSVAGK  117
+                ++  +++ N  + +L G+   Y+    L+  + +   L +    PS  +WTS+  K
+Sbjct  61   LFSSLVGYNVIANFPL-MLLGFYGIYLGTKQLVLTNSQWFGLLVCLCFPSTLMWTSIHSK  119
+
+Query  118  EII-----AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAI  172
+            E +      V+ FL  IK +    +    ++  L+   L   F +P Y  A  + A  + 
+Sbjct  120  EAVLNLFFGVLAFLL-IKRLNGETWNVKEKVMLLITFALIS-FFKPLYAPAVFWFAFYS-  176
+
+Query  173  ILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNS  232
+              S    RV       L++ ++ I  F+ L   + I+  +  S L T    F +      
+Sbjct  177  --STYNLRV-KKLLITLTISLLGIASFIAL---LYIFEQELASYLQTFHRNFSA--TGEL  228
+
+Query  233  NRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRL  292
+             R    W T+ D+  +   G  I+ +GPT NE  +++  LPFF EGI +  +  V+   L
+Sbjct  229  TRVGRVWQTVDDFLLDALNGMLIAFVGPTFNEAADKITLLPFFFEGIATLFIFAVL---L  285
+
+Query  293  YKS-TNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIY  344
+             KS      +Y   F+  F   +++     YP G FNPGSA+RYKQ   P ++
+Sbjct  286  LKSVAAPQGMYVHTFFMLF-GGVVLFFFAQYPLGFFNPGSALRYKQAFQPFLF  337
+
+
+Sequence with id WP_199456976 no longer exists in database...alignment skipped
+Sequence with id WP_109053617 no longer exists in database...alignment skipped
+Sequence with id WP_146010872 no longer exists in database...alignment skipped
+>WP_146474764.1 hypothetical protein [Vulcaniibacterium thermophilum]
+ GHE29267.1 hypothetical protein GCM10007167_08890 [Vulcaniibacterium thermophilum]
+Length=389
+
+ Score = 95.5 bits (236),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 101/351 (29%), Positives = 171/351 (49%), Gaps = 28/351 (8%)
+
+Query  17   FSFFAFFIYSNFSQLGDSNRYLNATLNFN-NILDRTQFVDNTFAFLKYVMSSSLLVNISI  75
+            ++ FA F+YS +SQLGD+  Y+      +     RT FV    A L   +  +L  +++ 
+Sbjct  35   WTLFAVFVYSRYSQLGDAESYMTGAYAADPETQARTLFVTKLAARLS-ALGGALGAHLAF  93
+
+Query  76   SVLFGYSFFY-VFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVIN  134
+            S+       Y V++       +  L +  LLP+F +WT+V G+E  A+   L  +     
+Sbjct  94   SLFAATGIAYMVWQANAHGRHRWPLLVLLLLPNFGVWTAVIGRE--ALFTGLLGLFLGAL  151
+
+Query  135  IQFGRDNRIHYLVIGILF---GVFLR-PHYGIAYIYLAISAIILSRIKFRVFSNGFYVLS  190
+            I + R   ++ +++ +L     VFLR P    A + L    +I+     R        LS
+Sbjct  152  IGYYRSGGLYRILLALLCVGGMVFLRGPFGMGAGLLLLGFLVIVWGPSTR--------LS  203
+
+Query  191  LFIIAIMLFLVLALTVNIWSAQF-----LSVLDTIEGYFLSYDASNSNRYDIEWGTISDY  245
+              + A+ML  V AL V +   Q        VL     YF  +  S + R  +E  T  D 
+Sbjct  204  AGVQALMLAGVAALAVALLWPQLDRYITEEVLPKARSYFTIH--SPTTRLWVEMDTSGDL  261
+
+Query  246  FYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSF-ILMIVISYRLYKSTNENVLYRK  304
+            F ++ W   ++++GPT  E L R V LPFF+ G++   +L+  I   L+++     L RK
+Sbjct  262  FGSLWWSLPLALLGPTPGEVLARPVMLPFFLSGLIVIGLLLHGIRQALFRAPAG--LPRK  319
+
+Query  305  LFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACIN  355
+            +    +LPA++++L+ + PFG++NPGS IRY      L+  +P ++L+ ++
+Sbjct  320  ILMLGWLPAMLVVLIAYVPFGIYNPGSGIRYAATFL-LLLVFPSMLLSAVD  369
+
+
+Sequence with id WP_209110429 no longer exists in database...alignment skipped
+>NUS38009.1 hypothetical protein [Lysobacter sp.]
+Length=380
+
+ Score = 94.4 bits (233),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 93/348 (27%), Positives = 157/348 (45%), Gaps = 18/348 (5%)
+
+Query  15   VLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMSSSLLVNIS  74
+            V ++ FA F+YS FSQLGD+  YL    +    L RT  V      +  +  + LL +++
+Sbjct  30   VCWTLFAVFVYSKFSQLGDAQSYLLGAYDEEGEL-RTVLVTRIATMVIRLAHNELLAHLA  88
+
+Query  75   ISVLFGYSFFYVFKDVLIFVDKKLLYMS-FLLPSFQIWTSVAGKEIIAVIGFL-FFIKWV  132
+             S+       Y+ +   +    +   ++  LLP+F +W SV G+E +  IG L FF+   
+Sbjct  89   FSMFAATGVAYLVRQARVQGHYRWPLLAILLLPNFGVWASVIGRESL-FIGLLAFFMGAT  147
+
+Query  133  INIQF-GRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSL  191
+            +  Q  G   ++   V+ +     +R  +G A     +  ++  R      S     L  
+Sbjct  148  VGYQARGGLLKLPLAVLCVAGMALIRTPFGAAMGLFLLMFLLYVRGPRMYLSVAVQALGY  207
+
+Query  192  FIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITW  251
+              +A ++  V+   ++ + A    VL     YF     S + R  +   T      ++ W
+Sbjct  208  AAVAALVLAVVWHRLDGYIAN--EVLPKARSYFT--IGSATTRTWVHLDTTGTLLKSLWW  263
+
+Query  252  GFFISIIGPTLNETLNRVVYLPFFIEGILSFILM---IVISYRLYKSTNENVLYRKLFYF  308
+               +S++GPT  E + R V LPF   G+    L+   IV +++           RKL   
+Sbjct  264  TMPLSLLGPTPGEAVARPVMLPFLASGLAIIGLLGYSIVSAFKAPAGAP-----RKLLVL  318
+
+Query  309  SFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINK  356
+             +LPA+ IIL+ + PFG++NPGS IRY      L   YP ++L+ + +
+Sbjct  319  GWLPAVAIILVAYVPFGVYNPGSGIRYASCFL-LFLIYPSMLLSSLAE  365
+
+
+Sequence with id WP_210537208 no longer exists in database...alignment skipped
+>MBD3843020.1 glycosyltransferase family 39 protein [Campylobacterales bacterium]
+Length=346
+
+ Score = 93.6 bits (231),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 92/331 (28%), Positives = 153/331 (46%), Gaps = 29/331 (9%)
+
+Query  20   FAFFIYSNFSQLGDSNRYLNATLNF---NNILDRTQFVDNTFAFLKYVMSSSLLVNISIS  76
+            FA F+YS  + LGD+ RYL    +F   N   + T  +D T     Y++   +L ++   
+Sbjct  3    FAIFVYSTLTTLGDTPRYLYVAPSFLAPNFFYNSTTMMD-TLGHSLYMVFGPVLAHVPFV  61
+
+Query  77   VLFGYSFFYVFKDVLIF-VDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINI  135
+            +   +  +Y  + + I       L +   LPSF +WTS+  KE + V      + ++I++
+Sbjct  62   LASFFGVYYAVQRLEINNYQLFALLILLSLPSFGVWTSIVSKEAVGVFYLGVILGFIIDV  121
+
+Query  136  QFGRDNRIHYLVIGILF--GVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFI  193
+                 N+ +Y ++G  F      +P Y I  + L +   I  +   + F     +   F+
+Sbjct  122  IKSNPNK-NYFLVGFAFYLCAIFKPQYIIGIVALLVFIFISRKFSLKGFGKLVLLGLFFM  180
+
+Query  194  IAIMLFLVLALTVN----IWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNI  249
+            ++ +L  +    +N    I  A F     ++E        + S R +  W    D F N 
+Sbjct  181  VSFILLYLFRYQINELSFILPAHF-----SLE--------AGSTRENTIWVNDFDVFLNA  227
+
+Query  250  TWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYK-STNENVLYRKLFYF  308
+             +G FI   GPT++E L++   L  F+E  + F + +  S +L   S N   L   ++Y 
+Sbjct  228  PYGMFIGFFGPTVSEALSKPTLLLAFLESAIIFGVFLYSSLKLVLISVNTGRL--NIYYL  285
+
+Query  309  S-FLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+              FL A + IL +HYPFG  NPGSAIRY++N
+Sbjct  286  GIFLTATLWILFVHYPFGALNPGSAIRYREN  316
+
+
+Sequence with id WP_044301675 no longer exists in database...alignment skipped
+Sequence with id WP_102519240 no longer exists in database...alignment skipped
+>WP_149196448.1 hypothetical protein [Luteimonas sp. LNNU 24178]
+Length=393
+
+ Score = 91.7 bits (226),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 83/326 (25%), Positives = 154/326 (47%), Gaps = 12/326 (4%)
+
+Query  16   LFSFFAFFIYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMSSSLLVNISI  75
+            +++ F+ ++YS +SQLGD+  Y+       +   RT  +      L+ V+ + +LV++  
+Sbjct  32   VWTIFSAYVYSRYSQLGDAQAYMTDGYG-ESAEGRTLLITRIATSLRSVLGADVLVHLVF  90
+
+Query  76   SVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIAVIGFLFFIKWVI-  133
+            S+       Y+     I    +   ++ LL P+F +W SV G+E + V    FF+  V+ 
+Sbjct  91   SLFAASGVCYLIAQGDIRGRYRWPLLAILLNPNFGVWASVTGRESLFVGLLAFFMGAVLG  150
+
+Query  134  NIQFGRDNRIHYLVIGILFGVFLRPHYGI-AYIYLAISAIILSRIKFRVFSNGFYVLSLF  192
+            N +  R  ++   ++ +   V++R  +G  A ++  +  +     + R+ S G   +   
+Sbjct  151  NYRRRRLAQVALALLCVAGMVYIRAPFGAGAALFFLVYLMYTWGPRLRL-SVGVQSIFFL  209
+
+Query  193  IIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWG  252
+            ++A    L     +N +      +L     YF    A+     D+   T  D    + W 
+Sbjct  210  LLAAQFLLFAWPYINDYIDN--EILPLARSYFTVASATTRTWVDLR--TTGDLLTGLWWA  265
+
+Query  253  FFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISY-RLYKSTNENVLYRKLFYFSFL  311
+              +S+IGPT  E   R V LPFF+ G++ F L++   Y  ++K+       R +    +L
+Sbjct  266  LPLSLIGPTPAEVYARPVMLPFFVAGMIVFGLLLHSIYLAVFKAPRGPT--RGILVLGWL  323
+
+Query  312  PALIIILMIHYPFGLFNPGSAIRYKQ  337
+            PA +++L+ + PFG++NPGS IRY  
+Sbjct  324  PATLVLLVSYVPFGVYNPGSGIRYAS  349
+
+
+>WP_143109294.1 hypothetical protein [Dyella sp. OK004]
+Length=325
+
+ Score = 90.5 bits (223),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 73/251 (29%), Positives = 128/251 (51%), Gaps = 26/251 (10%)
+
+Query  106  PSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGILFG--VFLRPHYGIA  163
+            P F +W SV G+E +  +G L +    +   +   +  H L+ G+     +F+R  YGI 
+Sbjct  56   PCFGVWASVIGRESL-FVGLLGYFMGAVLAYYTCKHLRHLLLAGVCLAGLIFVRSAYGIG  114
+
+Query  164  YIYLAISAI--ILSRIKFRV-FSNGFYVLSLFIIAIMLFLVLALTVNIWSA--QFL--SV  216
+               LAI  I  ++  +  R+  S G +++    +A +L +V       W A   +L   +
+Sbjct  115  ---LAIFLIMFVMYTLPIRMNLSAGVHIVLAVGLAALLVIV------AWPALDNYLVNDI  165
+
+Query  217  LDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFI  276
+            L   + YF    A+   R  I+  T  D F  + W   ++++GPT  E   R V LPFF+
+Sbjct  166  LPKAKSYFTLTSATT--RTWIQLRTSGDLFSGLWWSLPLALVGPTPGEVAARPVMLPFFV  223
+
+Query  277  EGILSFILMIVISYRLYKSTNENVL--YRKLFYFSFLPALIIILMIHYPFGLFNPGSAIR  334
+             G+   +++ V+ ++L+ + N  +    RK+   ++LP+L++IL+ + PFG++NPGS IR
+Sbjct  224  SGL---VIVGVLLHQLWLTLNGAMPKSVRKVLMLAWLPSLVVILISYVPFGIYNPGSGIR  280
+
+Query  335  YKQNITPLIYF  345
+            Y   + P + F
+Sbjct  281  YLCGVLPFLVF  291
+
+
+>WP_169609801.1 hypothetical protein [Mucilaginibacter sp. F39-2]
+ QJD97538.1 hypothetical protein HH214_17495 [Mucilaginibacter sp. F39-2]
+Length=349
+
+ Score = 90.5 bits (223),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 91/333 (27%), Positives = 152/333 (46%), Gaps = 31/333 (9%)
+
+Query  20   FAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTFAFLKYVMSSSLLVNISISV  77
+            FA  ++S+ + LGD+  YLN+ L F++ +    T  +  T A  K V  + +L  I + +
+Sbjct  3    FAVLVFSHLTTLGDTFAYLNSPLIFSSKIFYSSTALMLFTGALFKAVFKADVLACIPLML  62
+
+Query  78   LFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQF  137
+            L  Y  +YV   + ++    ++ +   +P+F +WTS+ GKE I      FF   +  +  
+Sbjct  63   LSFYGVYYVVDRLNLYKLSGIIILLVSMPNFGVWTSIHGKEAIGC----FFSGVIAVMII  118
+
+Query  138  GRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIM  197
+             + N  + L     F ++L   +   Y+   I A+I   +  R+    +     F++  +
+Sbjct  119  KKLNGKYKLKFIDYFALYLCAMFKPQYLIYIIQALIFIELVNRLTDKRYLP---FVLGCI  175
+
+Query  198  LFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASN---SNRYDIEWGTISDYFYNITWGFF  254
+            +F  L + V  +   F+ VL        +Y+  N   S R D  W     +F    +G F
+Sbjct  176  IFF-LNIVVLYFFRDFIDVLAKGMAANFNYNDPNLAKSTRSDAPWLVPYGFFKTAPYGMF  234
+
+Query  255  ISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISY-RLYKSTNENVLYRKLFYFSFLPA  313
+            I+  GPTL+E + +  +L   IE I+  +  IV+   RL  + N          F F P 
+Sbjct  235  IAFFGPTLSEMIAKPTHLLSGIESIIMIVCFIVLLIPRLTYNLNT---------FRFNPT  285
+
+Query  314  LII--------ILMIHYPFGLFNPGSAIRYKQN  338
+            + +        IL + YPFG  NPGSAIRY+ N
+Sbjct  286  VFVAYFIIFAGILFMQYPFGFLNPGSAIRYRCN  318
+
+
+>MBU0694977.1 hypothetical protein [Bacteroidetes bacterium]
+Length=313
+
+ Score = 89.4 bits (220),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 81/264 (31%), Positives = 134/264 (51%), Gaps = 41/264 (16%)
+
+Query  105  LPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLV--IGILFGVFLRPHYGI  162
+            +PSF +WTSV  KE          + W++N+   +  R    +  I +   + +RP  G+
+Sbjct  54   MPSFGMWTSVISKEAFTCFFTCIALVWLVNLFEKKPLRFSVFLNLISLYIIIIMRPTVGV  113
+
+Query  163  AYI-------YLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLS  215
+              +       Y  I+  I   ++F        +L++FI +I   +V  L       +FL 
+Sbjct  114  GLLLLIIILYYFKIT-FINKYVRFLSI-----ILTVFISSI---IVYNLANKYIKDEFLP  164
+
+Query  216  VLDTIEGYF--LSYDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLP  273
+            +    E YF   S+ ++++ ++   W + SD F     G FI+ +GPTL E++N+  ++P
+Sbjct  165  L---AEAYFDPSSFSSTSTRKFGF-WKSASDLFLKAPQGIFIANLGPTLPESINKPYFMP  220
+
+Query  274  FFIEGILSFILMI-----VISYRLYKST-NENVLYRKLFYFSFLPALIIILMIHYPFGLF  327
+            +F+EG+L  I MI     +I  +L++ T N N +   LF       +I+IL ++YPFGLF
+Sbjct  221  YFLEGMLFIITMIYLISAIIFKQLFRDTINPNFVMFLLF------GVILILFMNYPFGLF  274
+
+Query  328  NPGSAIRYKQN-----ITPLIYFY  346
+            NPGSA RY+ +     I  L+YFY
+Sbjct  275  NPGSATRYRSSYYHIIIVGLLYFY  298
+
+
+>WP_100637678.1 glycosyltransferase family 39 protein [Marinomonas sp. ef1]
+Length=378
+
+ Score = 89.4 bits (220),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 99/339 (29%), Positives = 155/339 (46%), Gaps = 30/339 (9%)
+
+Query  12   LVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTFAFLKYVMSSSL  69
+            ++K  +  FA F+YS  + LGD+ RY+     F   L  D T  +D T A+   +    +
+Sbjct  18   VIKFFYMLFALFVYSKLTTLGDTYRYIEGINAFALTLWRDSTALMD-TLAYSFSLFLGPV  76
+
+Query  70   LVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPS-FQIWTSVAGKEIIAV--IGFL  126
+            L NI   +L     +Y    + +  ++ +  +  L    F +WTS+  KE + V  +G +
+Sbjct  77   LANIPFLMLSIIGVYYPVSRLNLAKNQLISLLVLLSLPSFGVWTSIISKEAVGVFFLGVI  136
+
+Query  127  --FFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSN  184
+              FFI +   I+   + R   L + +      +P Y  A   L I   I  +   R F  
+Sbjct  137  LGFFIDY---IKRKPNKRYFLLAVCVYLCALFKPQYLAAIAALFIFVFISRKFSLRGFGK  193
+
+Query  185  GFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISD  244
+               ++  F+ +   F  L L  N      ++ L  I     S DA  S R +  W    D
+Sbjct  194  TVLLILFFVFS---FFALYLFRNE-----INELSFIIPLHFSLDA-GSTRENTIWVNDFD  244
+
+Query  245  YFYNITWGFFISIIGPTLNETLNRVVYLPFFIE-----GILSFILMIVISYRLYKSTNEN  299
+             F N  +G FI+  GPT++E L++  +L  FIE     GI  F L+ ++   +  +   N
+Sbjct  245  VFRNAPYGMFIAFFGPTVSEALSKPTHLLVFIESAIIIGIFLFALLQLLMVTI-NTGRLN  303
+
+Query  300  VLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+            V +  +F    L A + IL +HYPFG  NPGSAIRY++N
+Sbjct  304  VFFVGVF----LTASLWILFVHYPFGALNPGSAIRYREN  338
+
+
+>WP_139227579.1 hypothetical protein [Sphingobacterium wenxiniae]
+Length=309
+
+ Score = 87.0 bits (214),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 82/294 (28%), Positives = 148/294 (50%), Gaps = 29/294 (10%)
+
+Query  57   TFAFLKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAG  116
+            T A  K V    +L +I + +L  Y  +Y    + +    KLL +  ++P+F +WTS+  
+Sbjct  5    TGALFKRVFFVDILASIPLCLLSMYGIYYAIDRLKLLEYPKLLALLLVMPNFGVWTSIHS  64
+
+Query  117  KEIIAVIGFLFFIKWVINIQFGRDN-RIHYL-VIGILFGVFLRPHYGIAYIYLAISAIIL  174
+            KE  AV  F   I  V+ + F   N RI  L ++     +  +P Y + +++ A+  + L
+Sbjct  65   KE--AVACFFLGIIAVLIVNFINGNLRIKLLDIVAFYLCLIFKPQYFL-FVFQALLYLWL  121
+
+Query  175  SRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTI-EGYFL-----SYD  228
+             + KF + + G  +L +F+++  + ++           F  ++D + +G ++     S D
+Sbjct  122  VK-KFYLRAYGALLLGVFMLSCNVVVIYI---------FRDMIDILAQGMYVHFISNSPD  171
+
+Query  229  ASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVI  288
+            A+ S R    W     +F  + +G FI+  GPTL E L +   L   I G+ S ++++++
+Sbjct  172  AAQSTRSADPWFQPYGFFKEMPYGMFIAFWGPTLPEMLRKPAQL---ISGLES-LMIVLL  227
+
+Query  289  SYRLYKSTNENVLYRKLF----YFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+             + ++     N + R +F    +FS+   +  IL +HYPFG  NPGSAIRY++N
+Sbjct  228  FFLVWIKGAVNFILRLIFIPKVFFSYFVVMFGILFVHYPFGYLNPGSAIRYREN  281
+
+
+Sequence with id WP_166332553 no longer exists in database...alignment skipped
+>EGZ6883959.1 hypothetical protein [Vibrio cholerae]
+Length=375
+
+ Score = 86.7 bits (213),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 94/335 (28%), Positives = 150/335 (45%), Gaps = 22/335 (7%)
+
+Query  12   LVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTFAFLKYVMS---  66
+            L+K+ +  F+ F+YSN + LGD+ RYL     F+     + T  +D     L Y  S   
+Sbjct  18   LIKIFYMLFSVFVYSNLTTLGDTYRYLQGPEAFSPTFWHNSTALMDT----LGYSFSFFL  73
+
+Query  67   SSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIAVIGF  125
+              +L NI   VL     +Y    + +  ++ ++ ++ L  PSF +WTS+A KE + V   
+Sbjct  74   GPILANIPFLVLSIIGVYYPISRLSLTNNQLIILLALLSLPSFGVWTSIASKEAVGVFFL  133
+
+Query  126  LFFIKWVINIQFGRDNRIHYLVIGILF-GVFLRPHYGIAYIYLAISAIILSRIKFRVFSN  184
+               + + I+      N+ ++LV   L+  +  +P Y I    L I   +  +   R    
+Sbjct  134  GIILGFCIDFIKRNPNKQYFLVGFCLYLCLIFKPQYLIGVSALFIFVFVSRKFALRGLGK  193
+
+Query  185  GFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISD  244
+               ++  F+ +     +    +N         L  I     S DA+ S R +  W    D
+Sbjct  194  SILLILFFLFSFFALYLFRHQIN--------ELSFIIPLHFSLDAA-STRENTIWVNDFD  244
+
+Query  245  YFYNITWGFFISIIGPTLNETLNRVVYLPFFIE-GILSFILMIVISYRLYKSTNENVLYR  303
+             F N  +G FI   GPT +E L++  +L  F+E  I+  + +  +   L  S N   L  
+Sbjct  245  VFRNAPYGMFIGFFGPTFSEALSKPTHLLVFLESAIIVGVFLYALLKLLLISINTGRL-N  303
+
+Query  304  KLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+              F   FL   +  L +HYPFG  NPGSAIRY++N
+Sbjct  304  VYFVGIFLTVSLWALFVHYPFGALNPGSAIRYREN  338
+
+
+>MBP6054683.1 hypothetical protein [Cytophagaceae bacterium]
+ MBP6093242.1 hypothetical protein [Cytophagaceae bacterium]
+Length=175
+
+ Score = 80.9 bits (198),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 47/128 (37%), Positives = 76/128 (59%), Gaps = 14/128 (11%)
+
+Query  217  LDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFI  276
+            +D  E YF+ +D + ++R    W T SDY+  +  G  I++IGPT +E + R VY PFF 
+Sbjct  28   VDIAEAYFIGFDDAGASRNANFWVTSSDYYAKMFSGSIIALIGPTFSEAIKRPVYFPFFF  87
+
+Query  277  EGIL-------SFILMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNP  329
+            E ++         IL I++  +L KS ++  L+  LFY      +++ +++HYPFG+FN 
+Sbjct  88   ESLIFVGYILYYLILGIILQVKL-KSISQYFLFM-LFY-----VIVLTMIMHYPFGVFNS  140
+
+Query  330  GSAIRYKQ  337
+            GSA+RY+ 
+Sbjct  141  GSALRYRA  148
+
+
+Sequence with id EGZ6803612 no longer exists in database...alignment skipped
+>MBU2268632.1 hypothetical protein [Bacteroidetes bacterium]
+Length=145
+
+ Score = 79.7 bits (195),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 52/129 (40%), Positives = 76/129 (59%), Gaps = 17/129 (13%)
+
+Query  229  ASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMI--  286
+            +S S R    W + SD F     G FI+ +GPTL E++N+  ++P+F+EG+L  I MI  
+Sbjct  8    SSTSTRKFGFWKSASDLFLKAPQGIFIANLGPTLPESINKPYFMPYFLEGMLFIITMIYL  67
+
+Query  287  ---VISYRLYKST-NENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN----  338
+               +I  +L++ T N N +   LF       +I+IL ++YPFGLFNPGSA RY+ +    
+Sbjct  68   ISAIIFKQLFRDTINPNFVMFLLF------GVILILFMNYPFGLFNPGSATRYRSSYYHI  121
+
+Query  339  -ITPLIYFY  346
+             I  L+YFY
+Sbjct  122  IIVGLLYFY  130
+
+
+Sequence with id MBM3503056 no longer exists in database...alignment skipped
+>EII5642465.1 hypothetical protein [Vibrio cholerae]
+Length=352
+
+ Score = 83.6 bits (205),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 92/327 (28%), Positives = 146/327 (45%), Gaps = 22/327 (7%)
+
+Query  20   FAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTFAFLKYVMS---SSLLVNIS  74
+            F+ F+YSN + LGD+ RYL     F+     + T  +D     L Y  S     +L NI 
+Sbjct  3    FSVFVYSNLTTLGDTYRYLQGPEAFSPTFWHNSTALMDT----LGYSFSFFLGPILANIP  58
+
+Query  75   ISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIAVIGFLFFIKWVI  133
+              VL     +Y    + +  ++ ++ ++ L  PSF +WTS+A KE + V      + + I
+Sbjct  59   FLVLSIIGVYYPISRLSLTNNQLIILLALLSLPSFGVWTSIASKEAVGVFFLGIILGFCI  118
+
+Query  134  NIQFGRDNRIHYLVIGILF-GVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLF  192
+            +      N+ ++LV   L+  +  +P Y I    L I   +  +   R       ++  F
+Sbjct  119  DFIKRNPNKQYFLVGFCLYLCLIFKPQYLIGVSALFIFVFVSRKFALRGLGKSILLILFF  178
+
+Query  193  IIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWG  252
+            + +     +    +N         L  I     S DA+ S R +  W    D F N  +G
+Sbjct  179  LFSFFALYLFRHQIN--------ELSFIIPLHFSLDAA-STRENTIWVNDFDVFRNAPYG  229
+
+Query  253  FFISIIGPTLNETLNRVVYLPFFIE-GILSFILMIVISYRLYKSTNENVLYRKLFYFSFL  311
+             FI   GPT +E L++  +L  F+E  I+  + +  +   L  S N   L    F   FL
+Sbjct  230  MFIGFFGPTFSEALSKPTHLLVFLESAIIVGVFLYALLKLLLISINTGRL-NVYFVGIFL  288
+
+Query  312  PALIIILMIHYPFGLFNPGSAIRYKQN  338
+               + +L +HYPFG  NPGSAIRY++N
+Sbjct  289  TVSLWVLFVHYPFGALNPGSAIRYREN  315
+
+
+Sequence with id WP_230325943 no longer exists in database...alignment skipped
+Sequence with id MBU1371240 no longer exists in database...alignment skipped
+>EXY10163.1 putative membrane protein [Bacteroides fragilis str. 1007-1-F 
+#8]
+ EYA13022.1 putative membrane protein [Bacteroides fragilis str. 1007-1-F 
+#10]
+ EYA18017.1 putative membrane protein [Bacteroides fragilis str. 1007-1-F 
+#3]
+ OCR30479.1 hypothetical protein AC140_32600 [Bacteroides fragilis]
+Length=310
+
+ Score = 82.4 bits (202),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 81/260 (31%), Positives = 127/260 (49%), Gaps = 27/260 (10%)
+
+Query  89   DVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDN-RIHYL-  146
+            D+   +D K+L +   LP+F IWTSV  KE I +  F   I  ++ + +   N +IH+  
+Sbjct  39   DIRNLIDDKILLIILSLPTFCIWTSVCSKECIGL--FFSAILGILIVHYLNGNFKIHFRD  96
+
+Query  147  VIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNG-FYVLSLFIIAIMLFLVLALT  205
+             +     +F +P Y    +   +S +   R  F + S     +LS+F ++ ++F VL L+
+Sbjct  97   YVAFSLCLFFKPQY----LPFIVSTLFYLRFAFGLHSRRRLIILSVFYVSAIIF-VLYLS  151
+
+Query  206  VNIWSAQFLSVLDTIEGYFLSYDA--SNSNRYDIEWGTISDYFYNITWGFFISIIGPTLN  263
+             ++     L V    E     +D+  SNS R  + +    DYF     G FI+  GPTL 
+Sbjct  152  RDLIDLYSLGVQKAFE-----FDSQFSNSTRDTLFFVNKYDYFSKAPMGIFIAFWGPTLT  206
+
+Query  264  ETLNRVVYLPFFIEGILSFILMIVISYRLYKS-----TNENVLYRKLFYFSFLPALIIIL  318
+            E L +   +  +IE   SF+++ V  Y L         N  V  R +  +S L   + IL
+Sbjct  207  EALQKPFQMAVYIE---SFVVLCVFIYFLKTPLKKLIVNGIVNLRLIVSYSIL--FLGIL  261
+
+Query  319  MIHYPFGLFNPGSAIRYKQN  338
+            ++HYPFG+FN GSA RY+ N
+Sbjct  262  LVHYPFGVFNAGSATRYRTN  281
+
+
+>MBU1761261.1 hypothetical protein [Bacteroidetes bacterium]
+Length=213
+
+ Score = 80.5 bits (197),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 54/143 (38%), Positives = 84/143 (59%), Gaps = 20/143 (14%)
+
+Query  217  LDTIEGYF--LSYDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPF  274
+            L   E YF   S+ ++++ ++   W + SD F     G FI+ +GPTL E++N+  ++P+
+Sbjct  63   LPLAEAYFDPSSFSSTSTRKFGF-WKSASDLFLKAPQGIFIANLGPTLPESINKPYFMPY  121
+
+Query  275  FIEGILSFILMI-----VISYRLYKST-NENVLYRKLFYFSFLPALIIILMIHYPFGLFN  328
+            F+EG+L  I MI     +I  +L++ T N N +   LF       +I+IL ++YPFGLFN
+Sbjct  122  FLEGMLFIITMIYLISAIIFKQLFRDTINPNFVMFLLF------GVILILFMNYPFGLFN  175
+
+Query  329  PGSAIRYKQN-----ITPLIYFY  346
+            PGSA RY+ +     I  L+YFY
+Sbjct  176  PGSATRYRSSYYHIIIVGLLYFY  198
+
+
+Sequence with id EXZ32471 no longer exists in database...alignment skipped
+>EXY16797.1 putative membrane protein [Bacteroides fragilis str. 2-F-2 #5]
+ EXY38073.1 putative membrane protein [Bacteroides fragilis str. 34-F-2 #13]
+Length=325
+
+ Score = 82.4 bits (202),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 81/260 (31%), Positives = 127/260 (49%), Gaps = 27/260 (10%)
+
+Query  89   DVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDN-RIHYL-  146
+            D+   +D K+L +   LP+F IWTSV  KE I +  F   I  ++ + +   N +IH+  
+Sbjct  54   DIRNLIDDKILLIILSLPTFCIWTSVCSKECIGL--FFSAILGILIVHYLNGNFKIHFRD  111
+
+Query  147  VIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNG-FYVLSLFIIAIMLFLVLALT  205
+             +     +F +P Y    +   +S +   R  F + S     +LS+F ++ ++F VL L+
+Sbjct  112  YVAFSLCLFFKPQY----LPFIVSTLFYLRFAFGLHSRRRLIILSVFYVSAIIF-VLYLS  166
+
+Query  206  VNIWSAQFLSVLDTIEGYFLSYDA--SNSNRYDIEWGTISDYFYNITWGFFISIIGPTLN  263
+             ++     L V    E     +D+  SNS R  + +    DYF     G FI+  GPTL 
+Sbjct  167  RDLIDLYSLGVQKAFE-----FDSQFSNSTRDTLFFVNKYDYFSKAPMGIFIAFWGPTLT  221
+
+Query  264  ETLNRVVYLPFFIEGILSFILMIVISYRLYKS-----TNENVLYRKLFYFSFLPALIIIL  318
+            E L +   +  +IE   SF+++ V  Y L         N  V  R +  +S L   + IL
+Sbjct  222  EALQKPFQMAVYIE---SFVVLCVFIYFLKTPLKKLIVNGIVNLRLIVSYSIL--FLGIL  276
+
+Query  319  MIHYPFGLFNPGSAIRYKQN  338
+            ++HYPFG+FN GSA RY+ N
+Sbjct  277  LVHYPFGVFNAGSATRYRTN  296
+
+
+>EHP3508379.1 hypothetical protein [Vibrio cholerae]
+Length=352
+
+ Score = 82.4 bits (202),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 93/327 (28%), Positives = 146/327 (45%), Gaps = 22/327 (7%)
+
+Query  20   FAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTFAFLKYVMS---SSLLVNIS  74
+            F+ F+YSN + LGD+ RYL     F+     + T  +D     L Y  S     +L NI 
+Sbjct  3    FSVFVYSNLTTLGDTYRYLQGPEAFSPTFWHNSTALMDT----LGYSFSFFLGPILANIP  58
+
+Query  75   ISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIAVIGFLFFIKWVI  133
+              VL     +Y    + +  ++ ++ ++ L  PSF +WTS+A KE + V      + + I
+Sbjct  59   FLVLSIIGVYYPISRLSLTNNQLIILLALLSLPSFGVWTSIASKEAVGVFFLGIILGFCI  118
+
+Query  134  NIQFGRDNRIHYLVIGILF-GVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLF  192
+            +      N+ ++LV   L+  +  +P Y I    L I   +  +   R       ++  F
+Sbjct  119  DFIKRNPNKQYFLVGFCLYLCLIFKPQYLIGVSALFIFVFVSRKFALRGLGKSILLILFF  178
+
+Query  193  IIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWG  252
+            + +     +    +N         L  I     S DA+ S R +  W    D F N  +G
+Sbjct  179  LFSFFSLYLFRHQIN--------ELSFIIPLHFSLDAA-STRENTIWVNDFDVFRNAPYG  229
+
+Query  253  FFISIIGPTLNETLNRVVYLPFFIEG-ILSFILMIVISYRLYKSTNENVLYRKLFYFSFL  311
+             FI   GPT +E L++  +L  F+E  I+  + +  +   L  S N   L    F   FL
+Sbjct  230  MFIGFFGPTFSEALSKPTHLLVFLESTIIVGVFLYALLKLLLISINTGRL-NVYFVGIFL  288
+
+Query  312  PALIIILMIHYPFGLFNPGSAIRYKQN  338
+               + IL +HYPFG  NPGSAIRY++N
+Sbjct  289  TLSLWILFVHYPFGALNPGSAIRYREN  315
+
+
+Sequence with id WP_005797902 no longer exists in database...alignment skipped
+Sequence with id WP_032571175 no longer exists in database...alignment skipped
+Sequence with id WP_136156648 no longer exists in database...alignment skipped
+Sequence with id MBT3396006 no longer exists in database...alignment skipped
+>WP_004397426.1 hypothetical protein [Vibrio metschnikovii]
+ EEX35763.1 hypothetical protein VIB_002912 [Vibrio metschnikovii CIP 69.14]
+ SUP07874.1 Uncharacterised protein [Vibrio metschnikovii]
+ SUP47199.1 Uncharacterised protein [Vibrio metschnikovii]
+Length=350
+
+ Score = 80.1 bits (196),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 101/354 (29%), Positives = 169/354 (48%), Gaps = 42/354 (12%)
+
+Query  22   FFIYSNFSQLGDSNRYLNA--TLNFNNILDRTQFVDNTFAFLKYVMSSSLLVNISISVLF  79
+            F+   NF +LGDS RYLNA  + +F  + D + F+D  F      +    L     +++ 
+Sbjct  22   FYGLGNFIKLGDSYRYLNAGISFSFRVLYDSSFFLD--FLGGVLSLLLGPLAAGGFALI-  78
+
+Query  80   GYSFFYVFKDVLIFVDKKLLYMSFLL-----PSFQIWTSVAGKEIIAVIGFLFFIKWVIN  134
+              +F +++K +    D  +  +SF L     PSF +WTSV  KE+ A    L     VI 
+Sbjct  79   --NFIFIYKALDGLFD-NVQQLSFFLIILNFPSFILWTSVPSKEVFASGAILLIGSQVIR  135
+
+Query  135  IQFGRDNRIHYLVIGILFGVFL--RPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLF  192
+            + F R  RI    I   F + L  +P +        ISA+   R+ F  +S  F++ S+F
+Sbjct  136  VYFNR-CRIPKTWIVFSFYILLVFKPQFFPGVFVGYISALFYGRLNFGKWS--FFLTSIF  192
+
+Query  193  IIAIMLFLVLALTVNIWSAQFL--SVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNIT  250
+              +   F++LA+   I+ +  +  +VL  + G+ L   AS     +  W + SD++    
+Sbjct  193  GWS---FIILAM---IYFSDLIGDTVLRVVRGFDLEAGASR----EPFWNSYSDWYMKAP  242
+
+Query  251  WGFFISIIGPTLNETLNRVVYLPFFIEG----ILSFILMIVISYRLYKSTNENVLYRKLF  306
+             G  ++++GPT  E    +  +  FIE      L   L + I+ +++K     +    L 
+Sbjct  243  EGMLLTVLGPTFQEARRNISVMIVFIESLALIFLLIFLFLRINIKIFKMEKVRLSVFSLT  302
+
+Query  307  YFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACINKYKVK  360
+            ++SF    +++L   YPFG+ N GSAIRY+Q+  P    Y L++L C+   K +
+Sbjct  303  FYSF----VLLLFSAYPFGVMNYGSAIRYRQDFMP----YILVVLYCLAYLKPR  348
+
+
+Sequence with id EXZ23153 no longer exists in database...alignment skipped
+Sequence with id WP_156472483 no longer exists in database...alignment skipped
+>HCY31568.1 hypothetical protein [Bacteroides thetaiotaomicron]
+Length=304
+
+ Score = 79.3 bits (194),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 75/292 (26%), Positives = 138/292 (47%), Gaps = 41/292 (14%)
+
+Query  13   VKVLFSFFAFFIYSNFSQLGDSNRYLNATL----NFNNILDRTQFVDNTFAFLKYVMSSS  68
+            +++L+  FA  IY   +QLGD+ RYLNA+L    +F+ + + T+ +D   + +  +  S+
+Sbjct  18   IRILYLIFAIHIYGKLTQLGDTERYLNASLSSVTDFSFLWNSTKMMDAIGSIMGILGGSN  77
+
+Query  69   LLVNISISVLFGYSFF--------YVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEII  120
+            +L N+  ++L   SFF        Y F+    +++ +LL     LP+F IWT +  KE +
+Sbjct  78   VLTNLPFTIL---SFFTVKWIIDKYHFRQ---YINNRLLLFVLSLPNFCIWTDICSKETV  131
+
+Query  121  AVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFR  180
+             ++       +V++   G  +     +  +   +  +P Y   +I   +  I        
+Sbjct  132  GLVFSAILGSFVLDFLSGNYSIKKKHIFAMYLCLIFKPQYA-PFIIQGLFVI--------  182
+
+Query  181  VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLS-VLDTIEGY----FLSYDASNSNRY  235
+                  YV++ F   I   ++L L V   +A  L  V D +  Y    ++ +D   S+  
+Sbjct  183  ------YVMNRFCRTISRKVLLGLLVIFCNAVLLYLVKDVVNEYANMMYVHFDFDGSSTR  236
+
+Query  236  DIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIV  287
+            D  W   +D+FY    G F++  GPT++E ++   +L   I GI S IL+++
+Sbjct  237  DNLWLKDNDFFYEAPRGMFVAFFGPTVSEMMHTPTHL---IAGIESCILLML  285
+
+
+>WP_032559920.1 hypothetical protein [Bacteroides fragilis]
+Length=369
+
+ Score = 79.7 bits (195),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 92/349 (26%), Positives = 161/349 (46%), Gaps = 49/349 (14%)
+
+Query  12   LVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNF--NNILDRTQFVD----------NTFA  59
+            +V++ +  F+  ++   +  GD   Y+ + + F   +  D  +F+           N  +
+Sbjct  19   VVRLFYLLFSVLVFPTLTTFGDPIHYMTSGIPFPFTSSTDLMRFLGGILGSVLGGFNVVS  78
+
+Query  60   FLKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEI  119
+               +++ S  L+  ++ +L          D+   +D K+L +   LP+F IWTSV  KE 
+Sbjct  79   NFPFMLLSFGLIKWAVDIL----------DIRNLIDDKILLIILSLPTFCIWTSVCSKEC  128
+
+Query  120  IAVIGFLFFIKWVINIQFGRDN-RIHYL-VIGILFGVFLRPHYGIAYIYLAISAIILSRI  177
+            I +  F   I  ++ + +   N +IH+   +     +F +P Y    +   +S +   R 
+Sbjct  129  IGL--FFSAILGILIVHYLNGNFKIHFRDYVAFSLCLFFKPQY----LPFIVSTLFYLRF  182
+
+Query  178  KFRVFSNG-FYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDA--SNSNR  234
+             F + S     +LS+F ++ ++F VL L+ ++     L V    E     +D+  SNS R
+Sbjct  183  AFGLHSRRRLIILSVFYVSAIIF-VLYLSRDLIDLYSLGVQKAFE-----FDSQFSNSTR  236
+
+Query  235  YDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYK  294
+              + +    DYF     G FI+  GPTL E L +   +  +IE   SF+++ V  Y L  
+Sbjct  237  DTLFFVNKYDYFSKAPMGIFIAFWGPTLTEALQKPFQMAVYIE---SFVVLCVFIYFLKT  293
+
+Query  295  S-----TNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+                   N  V  R +  +S L   + IL+++YPFG+FN GSA RY+ N
+Sbjct  294  PLKKLIVNGIVNLRLIVSYSIL--FLGILLVYYPFGVFNAGSATRYRTN  340
+
+
+>MBV4312137.1 hypothetical protein [Bacteroides thetaiotaomicron]
+Length=297
+
+ Score = 78.6 bits (192),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 76/290 (26%), Positives = 131/290 (45%), Gaps = 42/290 (14%)
+
+Query  66   SSSLLVNISISVLFGYSFF--------YVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGK  117
+             S++L N+  ++L   SFF        Y F+    +++ +LL     LP+F IWT +  K
+Sbjct  14   GSNVLTNLPFTIL---SFFTVKWIIDKYHFRQ---YINNRLLLFVLSLPNFCIWTDICSK  67
+
+Query  118  EIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRI  177
+            E + ++        V++   G  +     +  +   +  +P Y   +I   +  I     
+Sbjct  68   ETVGLVFSAILGSLVLDFLSGNYSIKKKHIFAMYLCLIFKPQYA-PFIIQGLFVI-----  121
+
+Query  178  KFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLS-VLDTIEGY----FLSYDASNS  232
+                     YV++ F   I   ++L L V   +A  L  V D +  Y    ++ +D   S
+Sbjct  122  ---------YVMNRFCRTISRKVLLGLLVIFCNAVLLYLVKDVVNEYANMMYVHFDFDGS  172
+
+Query  233  NRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVIS---  289
+            +     W   +D+FY    G F++  GPT++E ++   +L   IE  +  +L +++    
+Sbjct  173  STRGNLWLKDNDFFYEAPRGMFVAFFGPTVSEMMHTPTHLIAGIESCILLMLFLILGSHF  232
+
+Query  290  -YRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+             YRL      NV      +FS+   +  I ++HYPFG+FNPGSAIRY+ N
+Sbjct  233  FYRLVYQYKLNVT----LFFSYFIIITGIALLHYPFGIFNPGSAIRYRTN  278
+
+
+>WP_118422008.1 hypothetical protein [Bacteroides intestinalis]
+ RGV50991.1 hypothetical protein DWW10_17470 [Bacteroides intestinalis]
+ RHA57090.1 hypothetical protein DW932_19120 [Bacteroides intestinalis]
+Length=361
+
+ Score = 79.0 bits (193),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 88/335 (26%), Positives = 151/335 (45%), Gaps = 24/335 (7%)
+
+Query  12   LVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTFAFLKYVMSSSL  69
+            +++  +  FA  ++   S LGD+ RYL A +NF   +  + T  +D     +  +   + 
+Sbjct  16   IIRFFYLLFAILVFGRISTLGDTQRYLGAGINFTISIFYNSTSLMDCIGGLIGTLFGGT-  74
+
+Query  70   LVNISISVLFGYSFFYVFK------DVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVI  123
+              NI  +  F    F++ K      ++  FV+   L +   LP+F IWTSV  KEI  + 
+Sbjct  75   --NIISNFPFMMISFWIVKWTINELNLRKFVNSSFLLVLISLPNFCIWTSVCSKEIFGLA  132
+
+Query  124  GFLFFIKWVINIQFGRDNRIHYL-VIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVF  182
+                F   +IN  F R  ++     + +   +  +P Y   +I  A+  + +   KF+  
+Sbjct  133  FSAIFGVLLINF-FNRKYQVRKRDFLALYLCLLFKPQY-FPFILQALILVYVINEKFKTP  190
+
+Query  183  SNGFYVLSLFIIAIMLFLVLALT-VNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGT  241
+                 V   FI   +L L L    VN ++       D +  +F S D++ S R +I W  
+Sbjct  191  EGKLGVGVFFIGCNLLGLYLMRDLVNEYA-------DMMYIHF-SLDSAESTRDNI-WLQ  241
+
+Query  242  ISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVL  301
+              D+F     G   +  GPTL+E + +  +L   +E +    L I +  +++        
+Sbjct  242  KDDFFRKAPLGMLEAFYGPTLSEMVMKPSHLVAGLESLFMIGLFIYLCRKIFFHFLVRAK  301
+
+Query  302  YRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYK  336
+               +F+  +   ++ I  +HYPFG+FNPGSAIRY+
+Sbjct  302  VHAMFFSVYSIIIVGICFLHYPFGIFNPGSAIRYR  336
+
+
+>WP_135045410.1 hypothetical protein [Barnesiella sp. WM24]
+ TFU92097.1 hypothetical protein E4T81_13370 [Barnesiella sp. WM24]
+Length=367
+
+ Score = 77.0 bits (188),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 95/356 (27%), Positives = 168/356 (47%), Gaps = 44/356 (12%)
+
+Query  3    YKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNN----ILDRTQFVDNTF  58
+            Y + ++    V++ +  F  F+Y   S LGD+ RYL+    F N    + + T  +D   
+Sbjct  9    YPRFWVAYFCVRIFYLLFDVFVYGRISTLGDTARYLSGGSAFQNGGLSLFNSTSVMDIIG  68
+
+Query  59   AFLKYV-MSSSLLVNISISVLFGYSFFYVFKDVLIF--VDKKLLYMSFLLPSFQIWTSVA  115
+              L  + + + L+ N+   ++  Y  ++      ++  ++K +L++   LP+F IWTS+ 
+Sbjct  69   LILGRISLGNELIANLPFMLMSFYCVYWTITKTEMYRYINKIVLFILISLPNFCIWTSIL  128
+
+Query  116  GKEIIAVI-------GFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLA  168
+             KE + ++        F+ F+     I+  RD    YL I     VF +P Y   +I+ +
+Sbjct  129  SKESVGLVFSAIFSVLFINFLNRKFKIRL-RDYFAAYLCI-----VF-KPQY-FPFIFGS  180
+
+Query  169  ISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYD  228
+            +  I L   K R       +LS+FI       +LA+ V +W AQ L  +  ++ Y     
+Sbjct  181  LLFIYLCS-KLRT-PEAKGLLSIFIT------ILAIAV-LWIAQPLIDVLALQMYAHFDF  231
+
+Query  229  ASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVI  288
+            A  S R +I +    D+ +   +G   S +GPT +E +   +    FI G+  + ++++ 
+Sbjct  232  AGTSTRPNI-FVNEGDFMHYAPYGMLQSFVGPTFSEMIGSPLN---FIAGLEGWGIVLIF  287
+
+Query  289  SYRLYKSTNENVLYRKLFYFSFLP------ALIIILMIHYPFGLFNPGSAIRYKQN  338
+             +   +     V + KL   S +P       ++ IL +HYPFG+FN GSAIRY+ N
+Sbjct  288  IWLASRGIIRVVKFGKL---SPVPLYSISFTVLGILFVHYPFGIFNAGSAIRYRTN  340
+
+
+Sequence with id WP_125730395 no longer exists in database...alignment skipped
+Sequence with id OUX78402 no longer exists in database...alignment skipped
+Sequence with id WP_175636903 no longer exists in database...alignment skipped
+>WP_158116959.1 hypothetical protein [Vibrio cincinnatiensis]
+Length=359
+
+ Score = 75.5 bits (184),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 94/352 (27%), Positives = 162/352 (46%), Gaps = 50/352 (14%)
+
+Query  22   FFIYSNFSQLGDSNRYLNA--TLNFNNILDRTQFVDNTFAFLKYVMSSSLLVNISISVLF  79
+            F+   NF +LGDS RYLNA  + +F  + D + F+D  F      +    L     +++ 
+Sbjct  22   FYGLGNFIKLGDSYRYLNAGISFSFRVLYDSSFFLD--FLGGVLSLLLGPLAAGGFALI-  78
+
+Query  80   GYSFFYVFKDVLIFVDKKLLYMSFLL----PSFQIWTSVAGKEIIAVIGFLFFIKWVINI  135
+              +F +++K +    D       FL+    PSF +WTSV  KE+ A    L     ++ I
+Sbjct  79   --NFIFIYKALDGLFDNYQQLSFFLIILNFPSFILWTSVPSKEVFASGAILLIGSQIVRI  136
+
+Query  136  QFGRDNRIHYLVIGILFGVFL----RPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSL  191
+             F   NR       I+F  ++    +P +        +SA+   R+ F  +S  F+++S+
+Sbjct  137  YF---NRCRIPKTWIIFSFYILLVFKPQFFPGVFVGYVSALFYGRLNFGKWS--FFLISI  191
+
+Query  192  F-----IIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYF  246
+            F     I+A++ F  L            +VL  + G+ L   AS     +  W + SD++
+Sbjct  192  FGWFSIILAMIYFSDLIGD---------TVLRVVRGFDLEAGASR----EPFWNSYSDWY  238
+
+Query  247  YNITWGFFISIIGPTLNETLNRVVYLPFFIEG----ILSFILMIVISYRLYKSTNENVLY  302
+                 G  ++++GPT  E    +  +  FIE      L   L + I+ ++++     +  
+Sbjct  239  IKAPEGMLLTVLGPTFQEARRNISVMIVFIESLALIFLLIFLFLRINIKIFRMEKIRLSV  298
+
+Query  303  RKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNITPLIYFYPLLMLACI  354
+              L ++SF    +++L   YPFG+ N GSAIRY+Q+  P    Y L++L C+
+Sbjct  299  FSLTFYSF----VLLLFSAYPFGVMNYGSAIRYRQDFMP----YILVVLYCL  342
+
+
+>NUS61283.1 hypothetical protein [Lysobacter sp.]
+Length=221
+
+ Score = 70.5 bits (171),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 48/184 (26%), Positives = 88/184 (48%), Gaps = 6/184 (3%)
+
+Query  154  VFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQF  213
+            VF+R  +G A       A +L R      S G  ++ L +I  ++ ++    ++ + A  
+Sbjct  1    VFIRAPFGGAMALFFFMACMLMRGPRVGLSLGVQMVLLLLIGAIVAIIAWPQIDAYIAN-  59
+
+Query  214  LSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLP  273
+               L     YF    A+     +I+  T      ++ W   +S++GPT  E   R V  P
+Sbjct  60   -EALPKARSYFTVGSATTRMWVNID--TTQGLLSSLWWTLPLSLVGPTPGEVFARPVMFP  116
+
+Query  274  FFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAI  333
+            F + G++ F L++      +++ +     RK+   ++LPA+++ L+ + PFG++NPGS I
+Sbjct  117  FMVSGLVVFFLLLYAIQTAFRAPSGTA--RKVLVLAWLPAMLVTLVAYVPFGVYNPGSGI  174
+
+Query  334  RYKQ  337
+            RY  
+Sbjct  175  RYAS  178
+
+
+>MBT5859784.1 hypothetical protein [Alphaproteobacteria bacterium]
+Length=253
+
+ Score = 71.2 bits (173),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 63/237 (27%), Positives = 111/237 (47%), Gaps = 25/237 (11%)
+
+Query  105  LPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDN-RIHYLVIGILFGVFLRPHYGIA  163
+            LPSF +W+S++GK+ I V    + + ++I++ +GR   R+ +LV   +  VF + HY  A
+Sbjct  7    LPSFTLWSSISGKDAIVVFAMGYAVGFLIDLHYGRARLRLGHLVAVWIVFVF-KTHYAPA  65
+
+Query  164  YIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGY  223
+             +Y     +I   ++ +  +      +  +    L                 V+D +   
+Sbjct  66   LLYAFGMILIFRHVRHKAIAALAAGAASLLPLYWL---------------RDVVDELSFA  110
+
+Query  224  FLSYDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNE--TLNRVVYLPFFIEGILS  281
+               +  S  +  ++ W    D F+   +G F S +GPT+ E  T   V+ +  + EG+  
+Sbjct  111  VAPHFESGRSTREVFWVDQFDVFWRAPYGMFQSFMGPTMTEAMTSGNVMQIATYFEGL--  168
+
+Query  282  FILMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+            FI+ +++    Y + N   L      FS   +L  IL  +YPFG+ NPGSAIRY+ +
+Sbjct  169  FIIFVLV---FYAARNLPRLPVHALIFSTF-SLFWILFPNYPFGILNPGSAIRYRAD  221
+
+
+>MBM3506200.1 hypothetical protein [Alphaproteobacteria bacterium]
+Length=379
+
+ Score = 72.0 bits (175),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 89/352 (25%), Positives = 160/352 (45%), Gaps = 44/352 (13%)
+
+Query  7    FILLILVKVLFSFFAFFIYSNFSQLGDSN----------RYLNATLNFNNILDR------  50
+            + +L L + +FS     +    + + D+            Y  + ++F+  L        
+Sbjct  9    YAVLFLYRCVFSVLGQTVVMRLTSIPDTEGYQSHGLGYVAYATSQMSFDPALTMQGQATL  68
+
+Query  51   -TQFVDNTFAFLKYVMSSSLLVNISISVLFGYSFFYVFK--DVLIFVDKKLLYMSFLLPS  107
+             T  V   F+FL     + +L+NI    +   +F  +++  D L    +K   +  +LPS
+Sbjct  69   ITAIVGAFFSFLG--GGNPILINIGFQTI---AFIGIWRMLDALDPEIRKYCAVLVMLPS  123
+
+Query  108  FQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDN-RIHYLVIGILFGVFLRPHYGIAYIY  166
+            F +W+S+A KE I V       +++I I  GR   RI +++   L  VF +PH+  A ++
+Sbjct  124  FSVWSSIASKEAIVVFLVGMLGRYIIQIYQGRGRLRIRHVLWFFLLYVF-KPHFAPAILF  182
+
+Query  167  LAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLS  226
+            L I   +++R   +       V + F+  I L+L L  +V+ +      VL  +   +  
+Sbjct  183  L-IGVPLVARWSRQ--PAAIAVGAGFVSLIPLYL-LRDSVDAY------VLRVVRSVYAE  232
+
+Query  227  YDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMI  286
+              AS  +   I      D+F +   G F + +GPTL+E  + +++L  F E IL  +L++
+Sbjct  233  PGASTRDERIIS--QAYDFFAHAPQGMFRAFMGPTLSEATSGILHLMSFAESILIVVLIL  290
+
+Query  287  VISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+                 LY       L   L   SF   +  +L+ +YP G+ NPG+A+RY+ +
+Sbjct  291  -----LYVVPRLPRLPAYLAIVSFF-TVFWVLLANYPLGIANPGTAVRYRTD  336
+
+
+Sequence with id NBQ40968 no longer exists in database...alignment skipped
+Sequence with id MBL41935 no longer exists in database...alignment skipped
+Sequence with id MAI34627 no longer exists in database...alignment skipped
+>HIF10161.1 hypothetical protein [Sneathiellales bacterium]
+Length=358
+
+ Score = 67.8 bits (164),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 90/341 (26%), Positives = 150/341 (44%), Gaps = 45/341 (13%)
+
+Query  24   IYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMS--SSLLVNISISVLFGY  81
+            + + F+ LGD+N+Y  +TL   + L+R       F   +Y  +  +  L  I  ++LFG 
+Sbjct  8    VVTRFTTLGDTNQYQRSTLTIFD-LERELSFGKLFEDGRYFATIVTETLGGIFHALLFGN  66
+
+Query  82   SFF-------------YVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFF  128
+            +               Y F   +   ++++L +  L PSF +W+SVA KE + V      
+Sbjct  67   AILIDIGFQTIAFIGIYKFLMAVPMTERRILAIFVLTPSFNLWSSVAAKEPLIVFFIGVI  126
+
+Query  129  IKWVINIQFGRDNRIHYLVIGILFGV-FLRPHYGIAYIYLAISAIILSRIKFRVFSNGFY  187
+              +++ + +    ++  L I  + G+ F + HY  A ++L  S I    +K +     F 
+Sbjct  127  CAYLVKL-YSNKAKLGALEIVSVIGIFFFKVHYVPALLFLYFSLIFGKNVKQKA---AFV  182
+
+Query  188  VLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFY  247
+            VL+  I  + L+L     V+  + Q       I  +FLSY     N  +  W    D F 
+Sbjct  183  VLAGMISLVPLYLARD-KVDEMAFQ-------ITPHFLSY----GNSREAIWVEKYDVFS  230
+
+Query  248  NITWGFFISIIGPTLNETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLFY  307
+               +G F    GPT++E+    + L  F+E  +   L++++  R           RKL  
+Sbjct  231  KAPYGMFQGFFGPTISESQAGPLQLASFMESTVIIALLLLLLVR---------RIRKLPV  281
+
+Query  308  FSFLP---ALIIILMIHYPFGLFNPGSAIRYKQNITPLIYF  345
+            +SF     AL  +L   YP G+ N GSAIRY+     L+ F
+Sbjct  282  YSFFVGSFALGWLLFASYPLGIMNSGSAIRYRTGHLLLVVF  322
+
+
+>PPR79229.1 hypothetical protein CFH01_00552 [Alphaproteobacteria bacterium 
+MarineAlpha2_Bin1]
+Length=381
+
+ Score = 67.8 bits (164),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 87/369 (24%), Positives = 164/369 (44%), Gaps = 50/369 (14%)
+
+Query  7    FILLILVKVLFSFFAFFIYSNFSQLGDSNRYL------------NATLNFNNILDRT-QF  53
+            ++LL + +   +  A F  S  + LGD+  Y+            ++ L    ++D   +F
+Sbjct  9    YLLLYIYRTSVTVIADFFLSKITTLGDNQTYIVGGDFASSLAGNSSALTLGVLMDAPRKF  68
+
+Query  54   VDNTFAFLKYVMSS----SLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLLPSFQ  109
+                   L Y ++S    +L++N+    +  +    V K +     K +L++  +LPSF 
+Sbjct  69   ATQLTLALGYYLNSYIGMALIINLVFQTIAFFGIIAVLKALEPQHRKWVLFL-LVLPSFT  127
+
+Query  110  IWTSVAGKEIIAVIGFLFFIKWVINI-QFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLA  168
+            IW+S+AGKE I V        ++I   +  +   I  L+  IL  +F +  Y  A++++ 
+Sbjct  128  IWSSIAGKEAIVVFAVGISTAYLIKTTKKSKLPNIKELLSAILLLIF-KAQYLPAFLFIY  186
+
+Query  169  ISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYD  228
+            ++ I  ++I        F +L + +I++    +     N       + L+ I   F++  
+Sbjct  187  LTIIFANKIH----QKSFLILLVGLISLSFLYIERDRFN------YATLEQIPRSFVNLT  236
+
+Query  229  ------------ASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETL--NRVVYLPF  274
+                        A   +  ++ W   +D+ +    G  I++IGPT  E L  N  ++   
+Sbjct  237  HKTLVYSGDDGLAGGRSTREVFWEETNDFIWKSPKGMIIALIGPTYKEALLYNNKLHFFG  296
+
+Query  275  FIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIR  334
+            FIEG++  + +I+     Y S N + +     + + +  L  +L   YPFG+ NPG+AIR
+Sbjct  297  FIEGMIILVFLIIFIS--YHSKNASAV----LFIAVIFTLFWLLFASYPFGVMNPGTAIR  350
+
+Query  335  YKQNITPLI  343
+            Y+  I P I
+Sbjct  351  YRTGIIPFI  359
+
+
+Sequence with id RXJ90611 no longer exists in database...alignment skipped
+Sequence with id MBO5760957 no longer exists in database...alignment skipped
+Sequence with id MBM3489812 no longer exists in database...alignment skipped
+>MBM3555166.1 hypothetical protein [Alphaproteobacteria bacterium]
+Length=351
+
+ Score = 65.5 bits (158),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 76/265 (29%), Positives = 122/265 (46%), Gaps = 46/265 (17%)
+
+Query  95   DKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGV  154
+            D+ LLY+ F  PSF +W+S+  KE     GF+     +I   F R         G+    
+Sbjct  84   DRLLLYLLFCAPSFTLWSSIPSKE-----GFVVLFVCLILRGFAR---------GLEQKA  129
+
+Query  155  FLRPHYGIAYIYLAI------SAIILSRIKFRVFSNGFYV--LSLFIIAIMLFLVLALTV  206
+             + P + IA+  LA+      +A++     F   + G Y+    L I+   LF +  L V
+Sbjct  130  IVTPVFVIAFAMLAVFKIQYLAAVLF---LFVPLALGRYIGGRELLILIGGLFSIAVLVV  186
+
+Query  207  NIWSAQFLS--VLDTIEGYFLSYDASNSNR-YDIEWGTISDYFYNITWGFFISIIGPTLN  263
+               +  F+S   L  I+ + +  +A ++   + +E G   D F  +  G  ++ IGPT  
+Sbjct  187  ---ARDFVSSMALLQIQPHMIGDNARSTRELFFVEHG---DVFGKMAEGMLLTFIGPTFK  240
+
+Query  264  ETLNRVVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLP---ALIIILMI  320
+            E    +V+L  F E   S +L++ IS  L        L      FSFL    A+   ++ 
+Sbjct  241  EATISIVHLATFTE---SVVLLVAISLILVHRLPSMPL------FSFLLVGFAVFWTIVA  291
+
+Query  321  HYPFGLFNPGSAIRYKQNITPLIYF  345
+            +YP G+ NPG+AIRY+    P+I+F
+Sbjct  292  NYPLGVMNPGTAIRYRTGWIPIIFF  316
+
+
+Sequence with id GGN38554 no longer exists in database...alignment skipped
+Sequence with id WP_032482275 no longer exists in database...alignment skipped
+>WP_032482276.1 hypothetical protein [Vibrio cholerae]
+ KFE14893.1 putative membrane protein [Vibrio cholerae]
+Length=194
+
+ Score = 58.9 bits (141),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 53/177 (30%), Positives = 89/177 (50%), Gaps = 21/177 (12%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNF---NNILDRTQFVD--  55
+            M  KK +    + K+++ F A F+YS F+QLGD+ RY++  +N+   N     T+ +D  
+Sbjct  1    MRVKKIWFFYTISKLIYMFLALFVYSKFTQLGDTKRYISG-VNYGSPNWWYSSTEMMDLL  59
+
+Query  56   -NTFAFLKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFL-LPSFQIWTS  113
+             +TFA     +   +L N+    L  Y  +Y  +      ++K+  + FL LPSF IW+S
+Sbjct  60   AHTFA----KIVGPILANVPFVFLAVYGVYYSVERSGFTYNQKIKVLLFLSLPSFSIWSS  115
+
+Query  114  VAGKEIIAVIGFLFFIKWVINIQFGRDNRIHY-----LVIGILFGVFLRPHYGIAYI  165
+            +A KE +AV    FF+  ++   F   N++       +++ I   V  +P Y I  I
+Sbjct  116  IASKEAMAV----FFMGVILGFFFEIINKVKVTNKLLVILCIYLCVIFKPQYMIGLI  168
+
+
+Sequence with id MBT3789670 no longer exists in database...alignment skipped
+>NQV81971.1 hypothetical protein [Alphaproteobacteria bacterium]
+Length=308
+
+ Score = 59.7 bits (143),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 70/240 (29%), Positives = 108/240 (45%), Gaps = 26/240 (11%)
+
+Query  104  LLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGV--FLRPHYG  161
+            L+PSF +W+SVA KE I V       + V+  Q+ R ++I + ++G+   +    + HY 
+Sbjct  52   LMPSFSLWSSVASKEAIVVFAVGLIAQQVVR-QY-RQSKISWPLLGLGLAITFVFKNHYL  109
+
+Query  162  IAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIE  221
+             A I+L +   + SR++   F     ++ L +  I L+L   L   I    F  +   +E
+Sbjct  110  AAVIFLIVGTWMASRVRQVHF---LGLVGLMVPIIPLYL---LRDRIAELAFGILPHFLE  163
+
+Query  222  GYFLSYDASNSNRYDIE--WGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGI  279
+              FL        R   E  W   SD F     G FIS  GPT+ E     + +  F E  
+Sbjct  164  TGFLR------GRLTREAFWLDPSDVFTKAPEGMFISFFGPTVQEAGIGALQMAAFTESA  217
+
+Query  280  LSFILMIVISYRLYKSTNENVLYRKLFY-FSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+            +  +L+  I      +         LF  F  +  L++IL  +YPFG+ N GSAIRY+  
+Sbjct  218  VLLVLLAAILVMRLPTA-------PLFSIFVGVGTLLLILFANYPFGVMNSGSAIRYRTG  270
+
+
+>MBH63928.1 hypothetical protein [Alphaproteobacteria bacterium]
+Length=395
+
+ Score = 60.1 bits (144),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 83/326 (25%), Positives = 135/326 (41%), Gaps = 54/326 (17%)
+
+Query  33   DSNRYLNATLNFNNILDRTQFVDNTFA-----FLKYVMSSSLLVNISISVLFGYSFFYVF  87
+            D ++ + A L F   L  TQF     A     F   +  + +L+N+    +      Y  
+Sbjct  71   DESQPITAGLIFE--LGSTQFSTILTARIGGLFNALLFGNPILINMGFQTIAFVGLLYFL  128
+
+Query  88   KDVLIFVDKKLLYMSFL--LPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHY  145
+            K V    DK    M+ L  LPSF +W+S+A KE I V        +++ +  GR  R+  
+Sbjct  129  KSV---DDKARRPMALLILLPSFTVWSSIASKEAIVVFAVAILSGFLLRMYQGR-ARLGV  184
+
+Query  146  LVIGILFGVFL-RPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLAL  204
+            L I   F +FL +P++  A+ +  I   I  R++ +         +L +I  ML + L  
+Sbjct  185  LPIIAGFLIFLYKPYFLAAFAFALIGTWICQRVRQKA--------TLALIGGMLSIALLY  236
+
+Query  205  TVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDY--FYNITWGFFISIIGPTL  262
+             +   + +    L  +     SY+ +      +E   +  Y  F+    G  ++  GP +
+Sbjct  237  MLRDTADELAFALQQL----FSYETAQGRSSRLEPFFVEQYDVFFKAPAGMLLAFFGPMI  292
+
+Query  263  NETLNRVVYLPFFIE-GILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPA--------  313
+             E L   + L  FIE   L+  L ++ +YR                F +LPA        
+Sbjct  293  TEILVSPLALVTFIESAALAAFLGVLFAYR----------------FMYLPAYSLILGSF  336
+
+Query  314  -LIIILMIHYPFGLFNPGSAIRYKQN  338
+             L  I+   YPFG+ N G+AIRY+  
+Sbjct  337  TLFWIMFPSYPFGVGNIGTAIRYRTG  362
+
+
+>WP_182796412.1 hypothetical protein [Vibrio sp. SG41-7]
+ MBB1464847.1 hypothetical protein [Vibrio sp. SG41-7]
+Length=334
+
+ Score = 59.3 bits (142),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 69/250 (28%), Positives = 115/250 (46%), Gaps = 42/250 (17%)
+
+Query  97   KLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGIL-FGVF  155
+            +L+YM+ L+P++ +WTS   KE    I F F +     +     +RI  L I  L F   
+Sbjct  99   RLIYMAMLVPNYLLWTSQMSKESFFQIVFFFAL-----LALNSKHRI--LAIPFLYFSYV  151
+
+Query  156  LRPHYGIAYIYLAISAIILSRIKFRVFSN--GFYVLSLFIIAIMLFLVLALTVNIWSAQF  213
+            ++  Y I ++       +  R+  R  SN   +Y+LS   ++++   VLA          
+Sbjct  152  MKFQYFIPFL-------LTLRLFKRTISNFYTYYILS--TLSLVAIFVLAY---------  193
+
+Query  214  LSVLDTIEGYFLSY----DASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRV  269
+                D IE + +S+    D   S R D  W  +SD+  +         IGP + +     
+Sbjct  194  -DNFDVIEKFAVSFAMYFDGGGSAR-DTSWNDVSDFAVDFIIYPIPFFIGPLITDITKGP  251
+
+Query  270  VYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNP  329
+            +YL  FIEGI   IL+I     ++ S  ++   +++F       +I ++ +H+PF  FN 
+Sbjct  252  LYLISFIEGIFQLILLIY----MFVSLGQDKYAKRVFVL----VVISLVYLHFPFSAFNI  303
+
+Query  330  GSAIRYKQNI  339
+            G+ IRYKQ +
+Sbjct  304  GAGIRYKQAL  313
+
+
+Sequence with id KAA4746877 no longer exists in database...alignment skipped
+Sequence with id MBS38973 no longer exists in database...alignment skipped
+>WP_025534542.1 hypothetical protein, partial [Vibrio parahaemolyticus]
+Length=237
+
+ Score = 55.1 bits (131),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 55/200 (28%), Positives = 95/200 (48%), Gaps = 19/200 (10%)
+
+Query  154  VFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQF  213
+            V  +P Y IAY  L     +L R K    +    +  + +  I++   +   V+ ++ Q 
+Sbjct  33   VIFKPQYCIAYFSLV--TYLLFRKKLSSVTLACMLAVVVLCQILILDYIQPIVDYFALQM  90
+
+Query  214  LSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLP  273
+             +  D+        + + S R +I + +  D++ NI  G FIS  GPT +E ++      
+Sbjct  91   YAHFDS--------ETALSTRENI-FISEGDFYKNIIPGVFISFWGPTFSEAISSAPKSF  141
+
+Query  274  FFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILM-IHYPFGLFNPGSA  332
+             FIE ++   +++    +++   +   L   +F+ S L   +  L+ +HYPFG+FN GSA
+Sbjct  142  AFIESLILCSMLLTCVLKVFIDVHAR-LKLNVFHVSILLLFVFWLLFMHYPFGIFNSGSA  200
+
+Query  333  IRYKQNITPLIYFYPLLMLA  352
+            IRY+ N      F P LM A
+Sbjct  201  IRYRNN------FIPFLMAA  214
+
+
+>WP_025675217.1 hypothetical protein [Salinivibrio socompensis]
+Length=181
+
+ Score = 53.9 bits (128),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 45/139 (32%), Positives = 65/139 (47%), Gaps = 16/139 (12%)
+
+Query  1    MLYKKEFILLILVKVLFSFFAFFIYSNFSQLGDSNRYLNATLNFNNIL--DRTQFVDNTF  58
+            M  +K +    L K+ +   A F+Y+ F+QLGD+ RYL      +       T  +D   
+Sbjct  1    MRVRKVWFFYTLAKLTYMLLALFVYTRFTQLGDTYRYLGGRTYGSESWWYSSTHMMD---  57
+
+Query  59   AFLKYVMSSSL---LVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFL-LPSFQIWTSV  114
+             FL +  S  L   L N+   +L  Y  +Y  +       +K   + FL LPSF IW+S+
+Sbjct  58   -FLAHSFSKVLGPTLANVPFVLLAVYGVYYAVERAGFTHSQKTKVLLFLCLPSFSIWSSI  116
+
+Query  115  AGKEIIAV------IGFLF  127
+            A KE I V      +GFLF
+Sbjct  117  ASKEAIGVFFMGVILGFLF  135
+
+
+Sequence with id NJN66452 no longer exists in database...alignment skipped
+Sequence with id MBM3516528 no longer exists in database...alignment skipped
+>HIF09860.1 hypothetical protein [Sneathiellales bacterium]
+Length=368
+
+ Score = 53.1 bits (126),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 85/338 (25%), Positives = 138/338 (41%), Gaps = 54/338 (16%)
+
+Query  24   IYSNFSQLGDSNRYLNATLNFNNILDRTQFVDNTFAFLKYVMSSSLLVNISISVLFGYSF  83
+            + +  + LGDS++Y    L    IL+R   +D  F   + V+S+ L    S+  LF + F
+Sbjct  5    VIARLTPLGDSSQY---QLGGARILNR-NLLDLGFWGNERVVSTEL--TQSLGALFHFLF  58
+
+Query  84   FY------------VFKDVLIFVDKKLLYMS------FLLPSFQIWTSVAGKEIIAV--I  123
+            F              F  ++IF+     ++        + PSF IW+SVAGKE I V  +
+Sbjct  59   FKNIILINIGFQAIAFAGIVIFLRAVPPHLRVWLAALLMFPSFSIWSSVAGKEAIIVYLV  118
+
+Query  124  GFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFS  183
+            G L  +   +     R   + +L   +++  F +  Y  A +++     I   ++ + F 
+Sbjct  119  GTLAALVMRMFRGPTRIRPMEFLAAILIY--FFKIQYMPALVFIIAGTWIAGHVRQKTF-  175
+
+Query  184  NGFYVLSLFIIAIMLFLVLALTVNIWSAQFL-SVLDTIE-GYFLSYDASNSNRYDIEWGT  241
+                        IML  V++L        FL + LDT+  G    +           W  
+Sbjct  176  -----------VIMLGSVVSLV----PLYFLRNTLDTMAFGIIPHFSGVGRTTRPPFWVE  220
+
+Query  242  ISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGILSF-ILMIVISYRLYKSTNENV  300
+              D F+    G + +  GPTL E+   ++    F E  L   IL  V+ + L K     +
+Sbjct  221  KFDVFWKAPEGMYQAFFGPTLAESSFGILTFASFAESALMLLILSTVLIWHLPKVPAAML  280
+
+Query  301  LYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+            +      F        +L  +YP G+ NPGSAIRY+  
+Sbjct  281  VMAGTTIF-------WVLFANYPLGIQNPGSAIRYRTG  311
+
+
+Sequence with id MBR4377027 no longer exists in database...alignment skipped
+Sequence with id WP_029785665 no longer exists in database...alignment skipped
+>MBT4690924.1 hypothetical protein [Rhodospirillaceae bacterium]
+ MBT5081495.1 hypothetical protein [Rhodospirillaceae bacterium]
+ MBT5526937.1 hypothetical protein [Rhodospirillaceae bacterium]
+ MBT5881833.1 hypothetical protein [Rhodospirillaceae bacterium]
+ MBT6587538.1 hypothetical protein [Rhodospirillaceae bacterium]
+Length=401
+
+ Score = 50.1 bits (118),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 78/330 (24%), Positives = 137/330 (42%), Gaps = 46/330 (14%)
+
+Query  26   SNFSQLGDSNRYLNATLNFNNILDR-TQFVDNTFAFLKYVMSSSLLVNISISVLFGYSFF  84
+            S+F  +G +      TL F  +    TQ +   F  + +   +++L NI    + G+   
+Sbjct  68   SSFVDIGSTG--YGGTLGFQALATGLTQLIGGVFGAIFF--HNAILSNIGFQTI-GFIGL  122
+
+Query  85   YVFKDVLIFVDKKLLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIH  144
+                  L   ++ L     +LPS  +WTS+A KE +           +INI   +D    
+Sbjct  123  VAMLRALEPKERALFLPLLMLPSVTVWTSIASKEALLTFMLGIICAHIINIYKNKDKIRW  182
+
+Query  145  YLVIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLAL  204
+            Y    +L     +PH+ I+ +Y+ +  I  +   FR  +    +++L    +ML+     
+Sbjct  183  YHWFSLLLLYAFKPHFLISVMYVLL--ITYTAKYFRQKAT-VAIVALISSLMMLYFFRDE  239
+
+Query  205  TVNI--WSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTL  262
+               +  W+   L+ +    G      A     YD+        FY   +G FIS  GPTL
+Sbjct  240  YSELANWTNTVLAAMGGESG----RPALLVEEYDV--------FYKAPYGMFISFFGPTL  287
+
+Query  263  NETLNRVVYLPFFIE--GILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALII----  316
+             E +++V+ +  FIE   I++  L ++I              R L++      ++     
+Sbjct  288  GE-VDKVLQVFTFIESSAIIAVFLGLII--------------RGLWFLPIYSVIVSFGVI  332
+
+Query  317  --ILMIHYPFGLFNPGSAIRYKQNITPLIY  344
+              I+ ++YP G  N G+AIRY+     LI+
+Sbjct  333  FWIIFLNYPLGATNAGTAIRYRSGYILLIF  362
+
+
+>MBM3993241.1 hypothetical protein [Planctomycetes bacterium]
+Length=401
+
+ Score = 47.0 bits (110),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 59/240 (25%), Positives = 109/240 (45%), Gaps = 26/240 (11%)
+
+Query  104  LLPSFQIWTSVAGKEIIAVIGFLFFIKWVINI--QFGRDNRIHYLVIGILFGVFLRPHY-  160
+            LLPSF +WTS+A KE I  +       +++ +    GR   +      +L+ VF + HY 
+Sbjct  129  LLPSFSLWTSIASKEAIVTMALTILSAYIVKMYDHRGRLGPMELFAAVVLY-VF-KAHYL  186
+
+Query  161  -GIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDT  219
+              IAY +   +  ++ R  FR      + L   + ++ +  V+   V+        + D+
+Sbjct  187  AAIAYFW---TVTVVGRF-FR--QRAAFALVAGLASLTVLYVVRDKVD-------RMADS  233
+
+Query  220  IEGYFLS-YDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEG  278
+            ++   L+  +   S R ++ +    D F+    G   +  GP+L +     +++  F+E 
+Sbjct  234  VQTLILTGTNFGRSTRAELFFVDPYDVFWRAPEGMLRAFFGPSLEQVGLSPLHMIAFLE-  292
+
+Query  279  ILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+              S +L+ V+ +   +       Y  +   SF+  L  I  ++YP G+ NPGSAIRY+  
+Sbjct  293  --SSVLIAVLGFLALRELPRLPAY-SVIVASFV--LFWIGFVNYPVGVMNPGSAIRYRSG  347
+
+
+>EAU52251.1 hypothetical protein OM2255_08856 [alpha proteobacterium HTCC2255] 
+[Rhodobacterales bacterium HTCC2255]
+Length=351
+
+ Score = 46.6 bits (109),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 82/336 (24%), Positives = 149/336 (44%), Gaps = 30/336 (9%)
+
+Query  13   VKVLFSFFAFFIYSNFSQLGDSNRYLNATLNF--NNILDRTQFVDNTFAFLKYVMSSSLL  70
+            +K++ S     + S +  + D+ RYL+A   +        T  +D   + L  V+     
+Sbjct  12   IKLIISILVVTVLSQYVAVADNIRYLDAPSAWVAGWYYSSTSLMDTLSSVLNLVVGK-YA  70
+
+Query  71   VNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFLL-PSFQIWTSVAGKEIIA--VIGFLF  127
+             NI    L  +  + V++ + +   + + +  FLL PSF IWTS+  KE I   ++G LF
+Sbjct  71   NNIIFCALSLWGVYSVYRSLKLSGKESVWFFLFLLSPSFLIWTSITSKEAITTLILGLLF  130
+
+Query  128  FIKWVINIQFGRDNRIHYLVIGILFGVFL--RPHYGIAYIYLAISAIILSRIKFRVFSNG  185
+             I  ++N +      I       L  + +  + HY  +  +L +    L      VF   
+Sbjct  131  SI--LLNAKLDPSKPIPKFSALFLLYILVIFKAHYVPSVFFLFLYCCGLRYKSTIVF---  185
+
+Query  186  FYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEGYFLSYDASNSNRYDIEWGTISDY  245
+             Y++     +  L+  L L   + S         I  +F   + +  N + ++      Y
+Sbjct  186  IYLIVFVFSSWALYAALPLINEMAS--------IIPAHFSDGNVTRENTFWVKDNDAVTY  237
+
+Query  246  FYNITWGFFISIIGPTLNETLNRVVYLPFFIEG--ILSFIL-MIVISYRLYKSTNENVLY  302
+             +    G  I+  GP L+E    ++    ++E   I+S  L M++I++R    +   + Y
+Sbjct  238  AFK---GTIIAFWGPMLSEINGNILTSIIWVESLIIVSVTLSMLIIAFR---RSVFKIGY  291
+
+Query  303  RKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQN  338
+             +L  FS + A++++L+ HYPFGLFN GS +RY+  
+Sbjct  292  IRLNSFSLIIAILLLLIAHYPFGLFNFGSGLRYRSG  327
+
+
+>MBO7048766.1 hypothetical protein [Spirochaetia bacterium]
+Length=371
+
+ Score = 45.8 bits (107),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 63/250 (25%), Positives = 114/250 (46%), Gaps = 28/250 (11%)
+
+Query  106  PSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRD---NRIHYLVIGILFGVFLRPHYGI  162
+            PSF IW+S+ GKE + V G       +I + F ++     I + V   L  V  +P+   
+Sbjct  126  PSFNIWSSIGGKECLVVFGMGILCAELIKL-FKKEPFKPSILFFVALWLVMVLKKPYI--  182
+
+Query  163  AYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEG  222
+                      IL    + VF     V   + +AI+  L+ A+ V I+   F   LD+   
+Sbjct  183  --------PFILVTFGYVVFRRSVDVPYKWDVAILAGLIAAVAVGIY--LFRYQLDSYA-  231
+
+Query  223  YFLSYD----ASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEG  278
+             F + D    ++ S R  +      D+F  + +   ++  GPT  E    +++L  F+E 
+Sbjct  232  -FYAQDVPRVSARSTRGHLFIEQF-DFFKKMPYLLPLAFWGPTWAECSTSLLHLFSFMES  289
+
+Query  279  ILSFILMIVISYRLYKSTNENVLYRKLFYFSFLP--ALIIILMIHYPFGLFNPGSAIRYK  336
+             +  ++ +++ +    +   N  +RK + +  L   ++ ++L + Y  G+ NPG+ IRY+
+Sbjct  290  GVIILMAVIMLWGFPVALVRN--FRKYYQWFLLGCNSVFLLLFVQYGQGIINPGAGIRYR  347
+
+Query  337  QNI-TPLIYF  345
+             NI  P+I F
+Sbjct  348  TNIYLPIIAF  357
+
+
+>WP_036918708.1 MULTISPECIES: hypothetical protein [unclassified Prochlorococcus]
+ KGG16345.1 O-unit polymerasee-like protein [Prochlorococcus sp. MIT 0603]
+ KGG17921.1 O-unit polymerasee-like protein [Prochlorococcus sp. MIT 0602]
+Length=379
+
+ Score = 45.8 bits (107),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 88/379 (23%), Positives = 163/379 (43%), Gaps = 37/379 (10%)
+
+Query  3    YKKEFILLILVKVLFSFFAFFIYSNFSQ-LGDSNRYLNATLNFNNILDRTQFV----DNT  57
+            +KK+F+  +L +++     + + +  +  LGD+  Y+    +      R+Q       N 
+Sbjct  7    FKKQFLFYVLYRLIIVCVMYGLLNELTDSLGDATYYMGLADDHEPESWRSQLTLWIYVNL  66
+
+Query  58   FAFLKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKLLYMSFL---LPSFQIWTSV  114
+            F   K +  +S L++I   +L       ++  V  F+  K  Y+ +L   LPS  +WT++
+Sbjct  67   FGQDKLI--ASFLLSIVGPIL-------LWSSVKRFIYDKYTYLWWLVLALPSMVVWTAI  117
+
+Query  115  AGKEIIAVIGFLFFIKWVINIQFGRD-----NRIHYLVIG--------ILFGVFLRPHYG  161
+              KE + V     F   +      R+     N +  L++         IL GV + P + 
+Sbjct  118  PSKEAL-VWPVAIFYAVIEGTNLARNDIDKWNNLRSLILRFSLLSLLYILRGVLVTPLFL  176
+
+Query  162  IAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLD-TI  220
+            I         I L     R    GF ++   II + L  ++   V + +  F+  +D  +
+Sbjct  177  IGITTTIFPLIRLKYKPLRTSQLGFSLIP--IITLSLGFLIVTIVYLTNRFFIEWIDMVV  234
+
+Query  221  EGYFLSYDASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGIL  280
+             G FLS DA+ S  + ++ G     F N     F+++  PT++E LN  +   F +    
+Sbjct  235  TGSFLSLDANFSRYFLVDLGGFYQ-FSNFIRLPFLALF-PTVSEVLNSPMKSMFILLDSF  292
+
+Query  281  SFILMIVISY-RLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNI  339
+             F+ +  I++ R  +  +EN   +++    F     I L +    G FN G+A R++ N 
+Sbjct  293  IFLFLYYITWTRALRKCSENTYLKRVLNIIFFGITFIYLTLFCVPGAFNVGTAQRHRVNF  352
+
+Query  340  TPLIYFYPLLMLACINKYK  358
+             P    +PL +++ + K K
+Sbjct  353  IPPGIVFPLAVISQLEKDK  371
+
+
+>EDN70405.1 conserved hypothetical protein, membrane [Beggiatoa sp. PS]
+Length=424
+
+ Score = 45.4 bits (106),  Expect = 0.44, Method: Compositional matrix adjust.
+ Identities = 78/316 (25%), Positives = 145/316 (46%), Gaps = 38/316 (12%)
+
+Query  40   ATLNFNNILDRTQ-FVDNTFAFLKYVMSSSLLVNISISVLFGYSFFYVFKDVLIFVDKKL  98
+             T N  N+    Q F+ +++  LK  ++S+++  I+I + +  +  ++ ++     + ++
+Sbjct  124  GTPNMINLARLHQYFIADSYHALK--VTSAMVGMIAIYIFYRAAVLFLKRE-----EIQI  176
+
+Query  99   LYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGILFGVFLRP  158
+             Y+  L P+   W+S+ GK+ I +IG   ++  V+  +     ++ YL+ G L GV++  
+Sbjct  177  FYVLALYPTILFWSSILGKDPIMLIGVALYVYGVVGWE--NSGKLQYLLWGAL-GVWIA-  232
+
+Query  159  HYGIAYIYLAISAIILSRIK--FRVFSNGFYVLSLFI-IAIMLFL----VLALTVNIWSA  211
+                ++I L  + I+L+ +   F +    F+V   FI I I  FL    + A   +I + 
+Sbjct  233  ----SFIRLWYAPILLAPLAVFFVLGKRNFFVKIAFIGIIITAFLFSFSLFAERFSIETT  288
+
+Query  212  Q-FLSVLDTIEGYFLSYDASNSNRYDIEWG--TISDYFYNITWGFFISIIGPTLNETLNR  268
+            Q  +S   TI   F    ++  +  +IE G   IS        G F +   P L E LN 
+Sbjct  289  QDVVSTTGTISENF----STGGSGQEIEGGFSGISSMLLFAPLGIFTAFFRPLLAEVLNP  344
+
+Query  269  VVYLPFFIEGILSFILMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHY-PFGLF  327
+               +      +L F  ++ I     K   E ++       ++  AL+II  I Y P    
+Sbjct  345  FGMIAGLENSVLLFFFILAIKRTKLKELKEPLI-------AWAIALVIIWGIVYGPVSYG  397
+
+Query  328  NPGSAIRYKQNITPLI  343
+            N G+A+RYK  + P++
+Sbjct  398  NLGTAVRYKLQVLPIL  413
+
+
+>MBR4436678.1 hypothetical protein [Spirochaetales bacterium]
+Length=267
+
+ Score = 44.3 bits (103),  Expect = 0.66, Method: Compositional matrix adjust.
+ Identities = 72/264 (27%), Positives = 116/264 (44%), Gaps = 31/264 (12%)
+
+Query  95   DKKLLYMSFLL---PSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGIL  151
+            D K+  +  LL   PSF IW+S+ GKE + V G       +I + + R+         IL
+Sbjct  6    DSKMYLLLILLCYSPSFNIWSSIGGKECLVVFGMGVLCAELIKL-YKREP----FKPDIL  60
+
+Query  152  FGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSA  211
+            F V L   Y +  I       +L    + VF     V   + + I+L L+ A+ V ++  
+Sbjct  61   FFVAL---YLVMVIKKPYIPFVLVTFGYVVFRRCVDVPYKWDLTILLGLLAAVAVGMY--  115
+
+Query  212  QFLSVLDTIEGYFLSYDASNSNRYDIEWGTIS--DYFYNITWGFFISIIGPTLNETLNRV  269
+             F   LD    +F       S R   +   I   D+F  + +   ++  GPT  E     
+Sbjct  116  LFRYQLDEY-AFFAQQTPRVSARSTRDHLFIEQFDFFRKMPYLMPLAFWGPTWAECATSP  174
+
+Query  270  VYLPFFIE-GILSFILMI------VISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHY  322
+            ++L  FIE G++  + +I      V  +R ++S      Y + F      A+ ++L + Y
+Sbjct  175  LHLFSFIESGVILLVAVIMLWGFPVALFRQFRS------YYQWFLLG-CNAVFLLLFVQY  227
+
+Query  323  PFGLFNPGSAIRYKQNI-TPLIYF  345
+              G+ NPG+ IRY+ NI  P+I F
+Sbjct  228  GQGIINPGAGIRYRTNIYLPVIAF  251
+
+
+Sequence with id MBR0318465 no longer exists in database...alignment skipped
+Sequence with id MBR5927724 no longer exists in database...alignment skipped
+>WP_167906325.1 glycosyltransferase family 39 protein [Thermococcus sp. CX2]
+ NJE84888.1 hypothetical protein [Thermococcus sp. CX2]
+Length=821
+
+ Score = 44.3 bits (103),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 46/150 (31%), Positives = 76/150 (51%), Gaps = 6/150 (4%)
+
+Query  81   YSFFYVFKDVLIFVDKKLLYMSFLL--PSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFG  138
+            + F+  FK+++    + LL  S L   P+F   T +   E + +  F F +  ++ I+F 
+Sbjct  102  FGFYLAFKELMEDEKRALLATSLLAFAPNFIYRTGLYIPENLGLAMFSFSL--LLLIKFL  159
+
+Query  139  RDNRIHYL-VIGILFGVFLRPHYGIAYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIM  197
+            +  R+ YL V+G+L GV++  H G  +  +A S IILS I   +  N  Y ++L I+A +
+Sbjct  160  KTRRLKYLIVLGVLLGVYMLTHRGWVFFLMAASVIILSYIWPIIKKNLHYFIALLILAYI  219
+
+Query  198  LFLVLALTVNIWSAQFLSVLDTIEGYFLSY  227
+             +L +   +N   A F   L   E  FL Y
+Sbjct  220  AYLKIDF-INSLVADFFLRLQKTEVSFLGY  248
+
+
+Sequence with id MBT7758854 no longer exists in database...alignment skipped
+Sequence with id OQW92731 no longer exists in database...alignment skipped
+>MBQ3319957.1 hypothetical protein [Spirochaetia bacterium]
+Length=371
+
+ Score = 42.4 bits (98),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 59/246 (24%), Positives = 107/246 (43%), Gaps = 20/246 (8%)
+
+Query  106  PSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDN---RIHYLVIGILFGVFLRPHYGI  162
+            PSF IW+S+ GKE + V G       +I + + R+     I + V   L  V  +P+   
+Sbjct  126  PSFNIWSSIGGKECLVVFGMGILCAELIKL-YNREPFKPDILFFVALYLVMVLKKPYI--  182
+
+Query  163  AYIYLAISAIILSRIKFRVFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFLSVLDTIEG  222
+                      +L    + +F     V   + +AI++ L+ A+ V ++   F   LD    
+Sbjct  183  --------PFVLVTFGYVIFRRCVDVPYKWDVAILVGLMAAVAVGMY--LFRYQLDDYAF  232
+
+Query  223  YFLSYD--ASNSNRYDIEWGTISDYFYNITWGFFISIIGPTLNETLNRVVYLPFFIEGIL  280
+            Y       ++ S R D  +    D+F  + +   ++  GPT  E     ++L  FIE  +
+Sbjct  233  YAQQVPRVSARSTR-DHLFMEQFDFFRKLPYLMPLAFWGPTWAECSTSPLHLFSFIESGV  291
+
+Query  281  SFILMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHYPFGLFNPGSAIRYKQNI-  339
+              I  I++ +    +      +   ++     ++ ++L + Y  G+ NPG+ IRY+ NI 
+Sbjct  292  IIITAIIMLWGFPVALIRQFRHYYQWFLLGCNSVFLLLFVQYGQGIINPGAGIRYRTNIY  351
+
+Query  340  TPLIYF  345
+             P+I F
+Sbjct  352  LPVIAF  357
+
+
+Sequence with id MBQ3713189 no longer exists in database...alignment skipped
+Sequence with id WP_029271367 no longer exists in database...alignment skipped
+>WP_194567586.1 MULTISPECIES: hypothetical protein [unclassified Flavobacterium]
+ MBF4492433.1 hypothetical protein [Flavobacterium sp. MR2016-29]
+ MBF4506288.1 hypothetical protein [Flavobacterium sp. JLP]
+Length=354
+
+ Score = 41.6 bits (96),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 71/269 (26%), Positives = 121/269 (45%), Gaps = 52/269 (19%)
+
+Query  98   LLYMSFLLPSFQIWTSVAGKEIIAVIGFLFFIKWVINIQFGRDNRIHYLVIGIL-FGVFL  156
+            L+YM  L+    I+ S+  KE I  +     +   +N Q      I Y+V+ +L FG F 
+Sbjct  105  LVYMGILM--IAIFMSMPSKEFITFLYVSPIVFLCLNDQISLKKTIVYVVLLLLIFGAFY  162
+
+Query  157  RPHYGIAYIYLAISAIILSRIKFR--VFSNGFYVLSLFIIAIMLFLVLALTVNIWSAQFL  214
+            RP+Y +  I +     ++SR+ F+    +  FY        +++ + L+ +  I   ++L
+Sbjct  163  RPYYALIPI-IGGGMYLVSRVTFKNKTVTTIFY-------GLLIAVFLSFSHGIIKGKYL  214
+
+Query  215  SVL--DTIEGYFLSYDASNS-----NRYDIEWGTISDYFYNITWGFFISIIGPTLNETLN  267
+            S +  + +    +    +NS      + D  +G I   FY    GFF      T+N  +N
+Sbjct  215  SEISREVVNSDRVGSADANSIIISPVKTDTWYGEIVGIFY----GFF------TVNVPVN  264
+
+Query  268  RVVYLPFFIEGILSFI-----LMIVISYRLYKSTNENVLYRKLFYFSFLPALIIILMIHY  322
+             + ++  F   I++FI     L  ++  R  K   E   Y         P  ++IL+I +
+Sbjct  265  GLKHI--FSPQIITFIIWQLFLFYILLVRFSKCLKERKRY---------PKELLILLIIF  313
+
+Query  323  PF----GLFNP--GSAIRYKQNITPLIYF  345
+             F    G+F P  G+A+R+K  I PLIYF
+Sbjct  314  SFFIVQGVFEPDLGTAVRHKIGIFPLIYF  342
+
+
+Sequence with id MBO4543178 no longer exists in database...alignment skipped
+Sequence with id MBR4683439 no longer exists in database...alignment skipped
+
+Lambda      K        H        a         alpha
+   0.335    0.150    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18677951304926
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jan 3, 2022  2:35 AM
+  Number of letters in database: 168,524,408,266
+  Number of sequences in database:  449,466,297
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

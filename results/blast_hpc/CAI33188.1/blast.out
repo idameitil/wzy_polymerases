@@ -1,0 +1,3332 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+           449,466,297 sequences; 168,524,408,266 total letters
+
+
+
+Query= CAI33188.1 3d6d6a1c8f90375315f694f87b3517b9
+
+Length=390
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+WP_001222996.1 Unknown                                                759     0.0   
+WP_054382955.1 O-antigen ligase family protein [Streptococcus pne...  758     0.0   
+WP_054382655.1 Unknown                                                756     0.0   
+WP_061370541.1 O-antigen ligase family protein [Streptococcus pne...  756     0.0   
+VSI86017.1 oligosaccharide repeat unit polymerase Wzy [Streptococ...  755     0.0   
+WP_044812585.1 O-antigen ligase family protein [Streptococcus pne...  725     0.0   
+VJJ48136.1 Unknown                                                    723     0.0   
+CAI33207.1 Unknown                                                    720     0.0   
+WP_088786327.1 Unknown                                                545     0.0   
+SNN73714.1 Unknown                                                    456     4e-159
+WP_093586745.1 Unknown                                                437     6e-149
+WP_050076590.1 O-antigen ligase family protein [Streptococcus pne...  437     7e-149
+WP_196301099.1 Unknown                                                402     5e-138
+AGF93697.1 Unknown                                                    288     3e-94 
+MBZ4248518.1 Unknown                                                  276     2e-89 
+WP_196300785.1 Unknown                                                221     2e-68 
+WP_230680495.1 O-antigen ligase family protein [Streptococcus pne...  204     1e-61 
+WP_196299935.1 Unknown                                                199     1e-59 
+MBZ4249320.1 polymerase [Streptococcus pneumoniae]                    155     5e-43 
+OLA58773.1 Unknown                                                    127     8e-29 
+MBQ4104639.1 O-antigen ligase family protein [Clostridia bacterium]   120     3e-26 
+NFE74564.1 O-antigen ligase family protein [Clostridium botulinum]    112     2e-23 
+MBS4919800.1 Unknown                                                  105     3e-21 
+WP_077868875.1 O-antigen ligase family protein [Clostridium beije...  105     3e-21 
+WP_058301362.1 O-antigen ligase family protein [Gorillibacterium ...  103     2e-20 
+WP_172578025.1 O-antigen ligase family protein [Ligilactobacillus...  103     4e-20 
+MBQ8440120.1 Unknown                                                  99.8    6e-19 
+WP_207686794.1 Unknown                                                97.4    1e-18 
+WP_147569626.1 O-antigen ligase family protein [Collinsella ihumii]   90.9    6e-16 
+RJW52536.1 hypothetical protein DXB25_04260 [Lachnospiraceae bact...  90.1    1e-15 
+WP_172462738.1 Unknown                                                82.8    9e-14 
+MCD5543701.1 Unknown                                                  84.0    1e-13 
+WP_143675688.1 Unknown                                                84.0    1e-13 
+SKA70700.1 Unknown                                                    84.0    1e-13 
+WP_109214776.1 O-antigen ligase family protein [Eubacterium ramulus]  83.6    2e-13 
+WP_118702688.1 MULTISPECIES: O-antigen ligase family protein [Eub...  82.0    5e-13 
+MBS5989423.1 Unknown                                                  82.0    6e-13 
+MQB68038.1 Unknown                                                    80.5    2e-12 
+WP_191991158.1 O-antigen ligase family protein [Limosilactobacill...  80.5    2e-12 
+WP_117820311.1 MULTISPECIES: O-antigen ligase family protein [unc...  79.7    3e-12 
+MBT9042951.1 hypothetical protein [Lactobacillus delbrueckii subs...  77.0    3e-11 
+MBT9000962.1 Unknown                                                  77.0    3e-11 
+MBD9043080.1 O-antigen ligase domain-containing protein [Solobact...  70.5    4e-09 
+WP_227991908.1 Unknown                                                70.1    5e-09 
+MBD8923905.1 O-antigen ligase domain-containing protein [bacterium]   63.2    9e-08 
+WP_066093597.1 Unknown                                                62.8    1e-06 
+WP_161795264.1 O-antigen ligase family protein [Clostridium sp. I...  59.7    8e-06 
+WP_207641770.1 Unknown                                                59.7    8e-06 
+MBW4467863.1 O-antigen ligase family protein [Pegethrix bostrycho...  60.5    8e-06 
+WP_160295185.1 Unknown                                                59.7    8e-06 
+ACR76387.1 Hypothetical protein EUBREC_2656 [[Eubacterium] rectal...  60.1    8e-06 
+WP_094076342.1 O-antigen ligase family protein [Notoacmeibacter m...  58.9    2e-05 
+MCD7812065.1 O-antigen ligase family protein [Ruminococcus sp.]       57.0    9e-05 
+MCC8135336.1 O-antigen ligase family protein [Ruminococcus sp.]       57.0    1e-04 
+MBU3956515.1 O-antigen ligase family protein [bacterium]              56.6    1e-04 
+MCD7890604.1 Unknown                                                  56.2    2e-04 
+WP_166434497.1 O-antigen ligase family protein [Enterocloster lav...  55.8    2e-04 
+WP_049846079.1 Unknown                                                55.8    2e-04 
+PST33017.1 Unknown                                                    55.8    2e-04 
+WP_094661747.1 O-antigen ligase family protein [Bifidobacterium t...  55.5    2e-04 
+RHR54143.1 O-antigen ligase family protein [Clostridium sp. AF18-27]  55.5    3e-04 
+WP_166435004.1 MULTISPECIES: O-antigen ligase family protein [Eub...  55.5    3e-04 
+WP_054962220.1 O-antigen ligase family protein [Vibrio bivalvicida]   55.8    3e-04 
+MCD8187926.1 Unknown                                                  55.5    3e-04 
+WP_224913855.1 O-antigen ligase family protein [Vibrio alginolyti...  55.5    3e-04 
+WP_224188073.1 Unknown                                                55.1    3e-04 
+WP_150382167.1 Unknown                                                55.1    4e-04 
+MBR9846952.1 O-antigen ligase family protein [Algicola sp.]           55.1    4e-04 
+NGY80497.1 O-antigen ligase family protein [Priestia megaterium]      55.1    4e-04 
+WP_195635292.1 O-antigen ligase family protein [Blautia massilien...  55.1    4e-04 
+WP_195376113.1 O-antigen ligase family protein [Faecalitalea cyli...  55.1    4e-04 
+WP_179879601.1 Unknown                                                53.9    5e-04 
+MBP6380049.1 Unknown                                                  53.9    6e-04 
+PES61581.1 hypothetical protein CN507_29000 [Bacillus cereus]         53.9    6e-04 
+MBS1553047.1 O-antigen ligase family protein [Bacteroidetes bacte...  54.3    7e-04 
+TFG71748.1 Unknown                                                    54.3    7e-04 
+WP_216924581.1 O-antigen ligase family protein [Alkalihalobacillu...  53.9    9e-04 
+PWJ70923.1 Unknown                                                    53.9    0.001 
+MBA00728.1 Unknown                                                    53.1    0.001 
+NOZ64845.1 tetratricopeptide repeat protein [Caldiserica bacterium]   53.5    0.001 
+WP_065297304.1 Unknown                                                53.1    0.002 
+WP_212139995.1 Unknown                                                53.1    0.002 
+WP_015193078.1 O-antigen ligase family protein [Stanieria cyanosp...  53.1    0.002 
+WP_212141594.1 Unknown                                                52.8    0.002 
+WP_118168890.1 O-antigen ligase family protein [Ruminococcus sp. ...  52.8    0.002 
+MBX9651430.1 Unknown                                                  52.8    0.002 
+MBR3322455.1 Unknown                                                  52.8    0.002 
+WP_212142748.1 O-antigen ligase family protein [Campylobacter ana...  52.4    0.002 
+WP_098328127.1 Unknown                                                52.4    0.003 
+MBT5911744.1 O-antigen ligase family protein [Rhodospirillaceae b...  52.4    0.003 
+WP_065300137.1 Unknown                                                52.4    0.003 
+OYQ67630.1 Unknown                                                    52.0    0.004 
+WP_154581141.1 O-antigen ligase family protein [Anaerobutyricum s...  52.0    0.004 
+WP_094518121.1 Unknown                                                52.0    0.004 
+WP_095843274.1 Unknown                                                51.6    0.004 
+MBT4353336.1 O-antigen ligase family protein [Rhodospirillaceae b...  51.6    0.005 
+WP_135373283.1 Unknown                                                51.6    0.005 
+RGZ76584.1 O-antigen ligase domain-containing protein [[Eubacteri...  52.0    0.005 
+WP_069428753.1 Unknown                                                51.6    0.005 
+MBD8922488.1 hypothetical protein [bacterium]                         50.1    0.006 
+WP_062108629.1 Unknown                                                51.2    0.006 
+MBR5405066.1 Unknown                                                  51.2    0.007 
+WP_113945477.1 Unknown                                                51.2    0.008 
+MBI2355998.1 O-antigen ligase family protein [Candidatus Doudnaba...  50.8    0.009 
+WP_227101500.1 Unknown                                                50.1    0.009 
+CDC36487.1 putative uncharacterized protein [Butyrivibrio sp. CAG...  50.8    0.010 
+NEO92654.1 Unknown                                                    50.4    0.010 
+WP_141771947.1 O-antigen ligase family protein [Rossellomorea aqu...  50.4    0.011 
+WP_070468777.1 Unknown                                                50.4    0.011 
+RGW32964.1 O-antigen ligase domain-containing protein [[Eubacteri...  50.4    0.013 
+QBQ85315.1 Unknown                                                    50.1    0.013 
+MBS5714203.1 Unknown                                                  50.4    0.013 
+APZ79098.1 Wzy [Streptococcus suis]                                   50.1    0.014 
+NEQ88704.1 Unknown                                                    49.3    0.014 
+WP_102199516.1 Unknown                                                50.1    0.015 
+MAJ82294.1 Unknown                                                    50.1    0.016 
+WP_071107484.1 O-antigen ligase family protein [Moorena producens]    50.1    0.018 
+WP_025721056.1 O-antigen ligase family protein [Paenibacillus sp....  49.7    0.019 
+WP_056063276.1 Unknown                                                49.7    0.019 
+WP_025147120.1 MULTISPECIES: O-antigen ligase family protein [Bac...  49.7    0.021 
+MBT6305168.1 Unknown                                                  49.7    0.022 
+AOX03947.1 Unknown                                                    49.7    0.022 
+WP_024414175.1 O-antigen ligase family protein [Streptococcus suis]   49.7    0.022 
+WP_039713761.1 Unknown                                                49.7    0.022 
+AKE80186.1 Unknown                                                    49.3    0.025 
+NEP27006.1 Unknown                                                    49.3    0.025 
+WP_158517652.1 O-antigen ligase family protein [Moorena producens]    49.3    0.027 
+OGL38682.1 hypothetical protein A2042_06070 [Candidatus Schekmanb...  49.3    0.029 
+MAT96897.1 hypothetical protein [Anaerolineaceae bacterium]           49.3    0.031 
+WP_230896419.1 O-antigen ligase family protein [Salipaludibacillu...  48.9    0.033 
+WP_227311336.1 O-antigen ligase family protein [Blautia sp. DFI.3...  48.9    0.035 
+WP_018071880.1 Unknown                                                48.9    0.036 
+OGX14969.1 hypothetical protein A2Y01_05115 [Omnitrophica WOR_2 b...  48.9    0.036 
+SMC34568.1 Unknown                                                    48.9    0.036 
+WP_143238362.1 Unknown                                                48.9    0.039 
+WP_016130911.1 Unknown                                                48.5    0.042 
+KQL56489.1 hypothetical protein AN965_13605 [Alkalihalobacillus p...  48.5    0.044 
+WP_160319305.1 MULTISPECIES: O-antigen ligase family protein [Alk...  48.5    0.046 
+WP_155203207.1 O-antigen ligase family protein [Mediterraneibacte...  48.5    0.046 
+WP_130719698.1 O-antigen ligase family protein [Rhizobium legumin...  48.5    0.047 
+HCT97333.1 TPA: polymerase [Aerococcus urinaeequi]                    48.5    0.051 
+GFI03990.1 Unknown                                                    48.5    0.052 
+WP_130718561.1 O-antigen ligase family protein [Rhizobium legumin...  48.5    0.055 
+WP_186941975.1 Unknown                                                48.5    0.055 
+WP_130747214.1 Unknown                                                48.5    0.057 
+WP_018493931.1 Unknown                                                48.1    0.064 
+WP_164564146.1 Unknown                                                48.1    0.064 
+WP_130707156.1 Unknown                                                48.1    0.067 
+WP_036477065.1 Unknown                                                48.1    0.069 
+WP_130680704.1 O-antigen ligase family protein [Rhizobium legumin...  48.1    0.069 
+WP_130691941.1 O-antigen ligase family protein [Rhizobium legumin...  48.1    0.069 
+WP_130704477.1 Unknown                                                48.1    0.071 
+WP_098813219.1 O-antigen ligase family protein [Priestia megaterium]  47.8    0.077 
+TAF09695.1 Unknown                                                    47.8    0.078 
+WP_039935415.1 Unknown                                                47.8    0.084 
+EFG49789.1 O-antigen polymerase [Aerococcus viridans ATCC 11563 =...  47.8    0.086 
+SUU17616.1 Unknown                                                    47.8    0.087 
+WP_142727551.1 O-antigen ligase family protein [Vibrio cholerae]      47.8    0.089 
+WP_139903738.1 O-antigen ligase family protein [Clostridium therm...  47.8    0.089 
+NEO24263.1 O-antigen ligase family protein [Moorena sp. SIO4A5]       47.8    0.091 
+NEO45386.1 O-antigen ligase family protein [Moorena sp. SIO4A3]       47.4    0.093 
+MBR9943751.1 Unknown                                                  47.8    0.094 
+NEN99083.1 Unknown                                                    47.8    0.096 
+MBO7179273.1 O-antigen ligase family protein [Clostridia bacterium]   47.8    0.098 
+OLT62925.1 hypothetical protein BJP37_31715 [Moorena bouillonii PNG]  47.4    0.10  
+MBQ1898966.1 O-antigen ligase family protein [Ruminococcus sp.]       47.8    0.10  
+WP_194004795.1 O-antigen ligase family protein [aff. Roholtiella ...  47.4    0.11  
+CUM97649.1 Lipid A core-O-antigen ligase and related enzymes [Bla...  47.4    0.11  
+MBQ7784461.1 Unknown                                                  45.8    0.11  
+WP_069285951.1 O-antigen ligase family protein [Aerococcus urinae...  47.4    0.12  
+HAL00819.1 Unknown                                                    47.4    0.12  
+WP_190310926.1 Unknown                                                47.4    0.12  
+OKZ73771.1 hypothetical protein BHW00_06530 [Clostridium sp. 26_22]   47.4    0.12  
+MBR2129513.1 Unknown                                                  47.4    0.12  
+WP_168769249.1 Unknown                                                47.0    0.12  
+WP_118526228.1 Unknown                                                47.4    0.12  
+WP_182022978.1 Unknown                                                47.4    0.13  
+WP_026466132.1 MULTISPECIES: O-antigen ligase family protein [Lac...  47.4    0.13  
+WP_176255397.1 O-antigen ligase family protein [Clostridium sp. C...  47.4    0.13  
+WP_225968926.1 Unknown                                                47.4    0.13  
+WP_144300046.1 O-antigen ligase family protein [Elioraea rosea]       47.4    0.13  
+WP_055165166.1 O-antigen ligase family protein [Blautia hydrogeno...  47.4    0.13  
+WP_146935140.1 Unknown                                                47.0    0.13  
+MBD8926756.1 O-antigen ligase family protein [[Eubacterium] rectale]  47.4    0.14  
+NEO14126.1 Unknown                                                    47.0    0.14  
+NEO80977.1 Unknown                                                    47.0    0.14  
+NEO59812.1 O-antigen ligase family protein [Moorena sp. SIO4G2]       47.0    0.14  
+WP_143727922.1 Unknown                                                47.0    0.14  
+WP_055171043.1 Unknown                                                47.0    0.15  
+WP_225999030.1 Unknown                                                47.0    0.15  
+MCB7527017.1 O-antigen ligase family protein [Blautia sp. MSK18_10]   47.0    0.15  
+WP_118408253.1 MULTISPECIES: O-antigen ligase family protein [Eub...  47.0    0.15  
+WP_118521057.1 Unknown                                                47.0    0.16  
+HJB26917.1 Unknown                                                    47.0    0.16  
+WP_171029207.1 Unknown                                                46.6    0.17  
+WP_205988841.1 O-antigen ligase family protein [Pseudoalteromonas...  47.0    0.17  
+WP_195287407.1 Unknown                                                46.6    0.17  
+MBQ2746598.1 O-antigen ligase family protein [Clostridia bacterium]   46.6    0.18  
+MBE6805081.1 O-antigen ligase family protein [Oscillospiraceae ba...  46.6    0.18  
+HBF59043.1 Unknown                                                    46.6    0.18  
+WP_104496847.1 Unknown                                                46.6    0.19  
+WP_076731547.1 O-antigen ligase family protein [Lacinutrix veneru...  46.6    0.19  
+WP_055065985.1 Unknown                                                46.6    0.19  
+WP_131715422.1 Unknown                                                46.6    0.20  
+WP_032077251.1 O-antigen ligase family protein [Clostridium drakei]   46.6    0.21  
+OKZ73303.1 hypothetical protein BHV87_10335 [Clostridiales bacter...  46.2    0.23  
+WP_084763299.1 Unknown                                                46.6    0.23  
+WP_108849509.1 O-antigen ligase family protein [Clostridium drakei]   46.6    0.23  
+WP_173680988.1 Unknown                                                46.2    0.24  
+WP_096718395.1 O-antigen ligase family protein [Chondrocystis sp....  46.2    0.24  
+WP_066736772.1 Unknown                                                46.2    0.26  
+WP_153853535.1 O-antigen ligase family protein [Enterococcus faec...  46.2    0.26  
+WP_004748223.1 O-antigen ligase family protein [Vibrio tubiashii]     46.2    0.26  
+HAD67035.1 Unknown                                                    46.2    0.27  
+MBI5404057.1 Unknown                                                  46.2    0.29  
+MBC8388143.1 O-antigen ligase family protein [Actinomycetia bacte...  45.8    0.30  
+KHD89994.1 Unknown                                                    45.8    0.32  
+MBS5026138.1 O-antigen ligase family protein [Peptostreptococcace...  45.8    0.33  
+WP_029517291.1 MULTISPECIES: O-antigen ligase family protein [Pae...  45.8    0.33  
+WP_025723043.1 O-antigen ligase family protein [Paenibacillus pol...  45.8    0.35  
+WP_209018489.1 Unknown                                                45.8    0.36  
+QYK62850.1 Unknown                                                    45.8    0.37  
+SDC07252.1 O-Antigen ligase [Terribacillus halophilus]                45.8    0.39  
+WP_095506974.1 Unknown                                                45.8    0.39  
+WP_162809386.1 O-antigen ligase family protein [Vibrio cholerae]      45.4    0.40  
+WP_114742516.1 O-antigen ligase family protein [Vibrio cholerae]      45.4    0.40  
+WP_209947350.1 O-antigen ligase family protein [Paenibacillus sp....  45.4    0.40  
+WP_071644326.1 MULTISPECIES: O-antigen ligase family protein [Pae...  45.4    0.41  
+KPJ56994.1 Unknown                                                    45.8    0.44  
+WP_170829547.1 O-antigen ligase family protein [Terribacillus hal...  45.4    0.45  
+MBB1202247.1 Unknown                                                  45.4    0.45  
+MBQ9280525.1 Unknown                                                  45.8    0.45  
+WP_118633090.1 MULTISPECIES: O-antigen ligase family protein [Eub...  45.4    0.46  
+WP_111928264.1 MULTISPECIES: O-antigen ligase family protein [Clo...  45.8    0.46  
+WP_103048841.1 O-antigen ligase family protein [Paenibacillus sp....  45.4    0.47  
+OGS22612.1 Unknown                                                    45.4    0.49  
+WP_180175637.1 Unknown                                                45.4    0.49  
+KAF6636708.1 Unknown                                                  45.4    0.50  
+WP_039270991.1 Unknown                                                45.4    0.52  
+MBN1118636.1 Unknown                                                  45.4    0.61  
+MBQ7936504.1 Unknown                                                  45.4    0.69  
+WP_165296288.1 Unknown                                                45.1    0.70  
+WP_206872484.1 Unknown                                                45.1    0.70  
+WP_195205378.1 O-antigen ligase family protein [Parabacteroides d...  44.7    0.76  
+WP_135379649.1 O-antigen ligase family protein [Desulfosporosinus...  44.7    0.78  
+MBX8802171.1 Unknown                                                  44.7    0.78  
+WP_152382050.1 O-antigen ligase family protein [Paenibacillus bra...  44.7    0.89  
+WP_061581004.1 Unknown                                                44.7    0.90  
+MCA9353491.1 Unknown                                                  44.7    0.90  
+WP_091022966.1 O-antigen ligase family protein [Bacillus sp. UNCC...  44.7    0.92  
+MAZ55068.1 hypothetical protein [Flavobacteriales bacterium]          44.3    0.97  
+ARS34773.1 hypothetical protein CA264_04580 [Pontibacter actiniarum]  44.3    0.97  
+WP_127082037.1 O-antigen ligase family protein [Calothrix desertica]  44.3    1.0   
+MBU2430603.1 Unknown                                                  44.3    1.0   
+WP_216565047.1 O-antigen ligase family protein [Eubacterium sp. M...  44.7    1.0   
+MBU1196131.1 Unknown                                                  44.3    1.1   
+RHU78854.1 Unknown                                                    44.3    1.1   
+WP_072985156.1 O-antigen ligase family protein [Clostridium caven...  44.3    1.2   
+WP_073077204.1 Unknown                                                44.3    1.2   
+QYK68008.1 hypothetical protein KAI36_03158 [Paenibacillus sp. S02]   44.3    1.2   
+WP_196342179.1 Unknown                                                43.5    1.3   
+OPL12017.1 hypothetical protein AVO34_02045 [Firmicutes bacterium...  43.9    1.3   
+WP_098813222.1 O-antigen ligase family protein [Priestia megaterium]  43.9    1.3   
+WP_133685833.1 Unknown                                                44.3    1.3   
+WP_173753415.1 O-antigen ligase family protein [Blautia caecimuris]   43.9    1.3   
+SEQ86998.1 Unknown                                                    43.9    1.4   
+MCD7790729.1 O-antigen ligase family protein [Bacteroides thetaio...  43.9    1.4   
+WP_220025371.1 Unknown                                                43.9    1.4   
+TDT46346.1 Unknown                                                    44.3    1.4   
+OMG55126.1 Unknown                                                    43.5    1.4   
+WP_083651064.1 Unknown                                                43.9    1.5   
+OGW71623.1 Unknown                                                    43.5    1.5   
+HAZ10980.1 TPA: hypothetical protein [Candidatus Omnitrophica bac...  43.1    1.6   
+CEP47884.1 Lipid A core--O-antigen ligase-like protein [[Clostrid...  43.5    1.7   
+WP_150336091.1 Unknown                                                43.5    1.8   
+WP_114901924.1 O-antigen ligase family protein [Kordia sp. SMS9]      43.5    1.8   
+WP_091587441.1 Unknown                                                43.5    1.9   
+MBQ3074946.1 O-antigen ligase family protein [Clostridia bacterium]   43.9    1.9   
+WP_072896002.1 O-antigen ligase family protein [Clostridium fallax]   43.5    2.0   
+MBS5884512.1 Unknown                                                  43.9    2.1   
+MBQ7339448.1 O-antigen ligase family protein [Clostridia bacterium]   43.5    2.1   
+WP_101229230.1 Unknown                                                43.1    2.2   
+MBS4959070.1 O-antigen ligase family protein [Clostridium sp.]        43.1    2.2   
+MBI5614079.1 Unknown                                                  43.1    2.3   
+HBC6259359.1 Unknown                                                  43.1    2.4   
+WP_088239443.1 Unknown                                                43.1    2.5   
+WP_036485578.1 Unknown                                                43.1    2.5   
+WP_224905032.1 Unknown                                                43.1    2.5   
+WP_214724026.1 Unknown                                                43.1    2.6   
+MBU7583981.1 O-antigen ligase family protein [Nostoc sp. TH1S01]      43.1    2.7   
+OGX15732.1 Unknown                                                    43.1    2.7   
+QNV57662.1 Unknown                                                    43.1    2.7   
+WP_214771521.1 polymerase [Exiguobacterium sp. s39]                   43.1    2.8   
+WP_016952923.1 O-antigen ligase family protein [Anabaena sp. PCC ...  43.1    2.8   
+HGT48139.1 TPA: hypothetical protein [Ignavibacterium album]          42.7    3.0   
+WP_221684656.1 Unknown                                                42.7    3.0   
+WP_043882228.1 Unknown                                                42.7    3.1   
+MBH83078.1 Unknown                                                    42.7    3.1   
+MBQ0083555.1 O-antigen ligase family protein [Clostridiales bacte...  42.7    3.2   
+KXT82432.1 Oligosaccharide repeat unit polymerase Wzy [Streptococ...  42.7    3.4   
+WP_195616809.1 O-antigen ligase family protein [Clostridium parap...  42.7    3.4   
+RKZ84672.1 Unknown                                                    42.7    3.4   
+MBP1545703.1 Unknown                                                  42.7    3.7   
+MBO5912921.1 O-antigen ligase family protein [Clostridia bacterium]   42.7    3.8   
+EEL79465.1 O-Antigen Polymerase [Bacillus cereus AH1271]              42.4    3.8   
+WP_204387419.1 O-antigen ligase family protein [Bifidobacterium p...  42.7    3.9   
+MBO5726351.1 Unknown                                                  42.4    4.1   
+EEQ59550.1 Unknown                                                    42.4    4.1   
+MBN1550570.1 O-antigen ligase family protein [bacterium]              42.7    4.2   
+WP_162024079.1 O-antigen ligase family protein [Shewanella sp. Ar...  42.4    4.3   
+HAT5555070.1 Unknown                                                  41.6    4.3   
+WP_217484731.1 Unknown                                                42.4    4.3   
+WP_196267204.1 O-antigen ligase family protein [Pontibacter sp. 1...  42.4    4.4   
+ASB02006.1 hypothetical protein AM403_10190 [Proteus mirabilis]       41.6    4.5   
+MBQ2729568.1 O-antigen ligase family protein [Clostridia bacterium]   42.4    4.5   
+PIP15542.1 hypothetical protein COX45_01980 [Candidatus Portnoyba...  42.4    4.5   
+MBE6562329.1 Unknown                                                  42.4    4.6   
+MBQ7410038.1 Unknown                                                  42.4    4.8   
+WP_025365148.1 MULTISPECIES: O-antigen ligase family protein [Pae...  42.4    5.0   
+WP_088206933.1 Unknown                                                42.0    5.1   
+WP_211189298.1 O-antigen ligase family protein [Paenibacillus pol...  42.4    5.1   
+WP_165177271.1 Unknown                                                42.0    5.2   
+WP_134902895.1 Unknown                                                42.0    5.3   
+WP_031461682.1 O-antigen ligase family protein [Paenibacillus pol...  42.0    5.3   
+WP_025675630.1 O-antigen ligase family protein [Paenibacillus pol...  42.0    5.3   
+WP_000924683.1 Unknown                                                41.6    5.4   
+HCJ14304.1 Unknown                                                    41.6    5.4   
+WP_016822258.1 Unknown                                                42.0    5.4   
+WP_069940980.1 Unknown                                                42.0    5.4   
+WP_195997303.1 Unknown                                                42.0    5.6   
+KKP40067.1 Unknown                                                    42.4    5.6   
+QPC47646.1 Unknown                                                    42.0    5.7   
+WP_098436596.1 Unknown                                                42.0    5.8   
+WP_098431888.1 Unknown                                                42.0    6.0   
+PJA63947.1 Unknown                                                    42.0    6.1   
+WP_086398030.1 Unknown                                                42.0    6.1   
+WP_215083601.1 Unknown                                                42.0    6.1   
+WP_064299319.1 Unknown                                                42.0    6.3   
+WP_090738846.1 O-antigen ligase family protein [Paenibacillus sp....  42.0    6.3   
+WP_169936008.1 Unknown                                                42.0    6.3   
+OIP68291.1 O-antigen polymerase [Oscillatoriales cyanobacterium C...  42.0    6.5   
+WP_050678154.1 polymerase [Exiguobacterium acetylicum]                42.0    6.5   
+WP_215147129.1 O-antigen ligase family protein [Exiguobacterium s...  42.0    6.6   
+WP_229145035.1 Unknown                                                41.6    6.6   
+WP_149427851.1 MULTISPECIES: polymerase [Exiguobacterium]             42.0    6.7   
+WP_058829749.1 O-antigen ligase family protein [Paenibacillus pol...  42.0    6.7   
+MBQ2155812.1 O-antigen ligase family protein [Clostridiales bacte...  42.0    6.8   
+WP_129549521.1 O-antigen ligase family protein [Paenibacillus sp....  41.6    6.8   
+WP_044749133.1 Unknown                                                41.6    6.9   
+WP_097826137.1 Unknown                                                41.6    7.1   
+WP_044080051.1 O-antigen ligase family protein [Prevotella pectin...  41.6    7.2   
+NLH92435.1 Unknown                                                    41.6    7.6   
+NWG29379.1 Unknown                                                    41.6    7.7   
+MBQ4218054.1 O-antigen ligase family protein [Butyrivibrio sp.]       41.6    7.9   
+WP_170015998.1 Unknown                                                41.6    8.0   
+WP_029342636.1 Unknown                                                41.6    8.0   
+WP_067177507.1 O-antigen ligase family protein [Sulfurospirillum ...  41.6    8.1   
+WP_214858334.1 O-antigen ligase family protein [Exiguobacterium s...  41.6    8.4   
+MBI5555275.1 Unknown                                                  41.6    8.8   
+WP_107589002.1 O-antigen ligase family protein [Alkalihalobacillu...  41.2    9.3   
+WP_202028738.1 O-antigen ligase family protein [Galbibacter mesop...  41.2    9.8   
+WP_226888775.1 Unknown                                                41.2    9.9   
+WP_102999125.1 Unknown                                                41.2    9.9   
+WP_017427517.1 O-antigen ligase family protein [Paenibacillus pol...  41.2    9.9   
+
+
+Sequence with id WP_001222996 no longer exists in database...alignment skipped
+>WP_054382955.1 O-antigen ligase family protein [Streptococcus pneumoniae]
+ CTN90281.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ VIX33178.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ VJF18765.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ VJJ49246.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ VJK15362.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+Length=390
+
+ Score = 758 bits (1956),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 389/390 (99%), Positives = 390/390 (100%), Gaps = 0/390 (0%)
+
+Query  1    MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK  60
+            MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK
+Sbjct  1    MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK  60
+
+Query  61   ILSRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV  120
+            ILSRNIAIHQHAFFILQYYFIV+ILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV
+Sbjct  61   ILSRNIAIHQHAFFILQYYFIVMILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV  120
+
+Query  121  LIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR  180
+            LIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR
+Sbjct  121  LIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR  180
+
+Query  181  NILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV  240
+            NILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV
+Sbjct  181  NILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV  240
+
+Query  241  VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE  300
+            VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE
+Sbjct  241  VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE  300
+
+Query  301  VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF  360
+            VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF
+Sbjct  301  VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF  360
+
+Query  361  IESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+            IESVTYYPYYFIIIVLQTLYLKLERERNVK
+Sbjct  361  IESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+
+
+Sequence with id WP_054382655 no longer exists in database...alignment skipped
+>WP_061370541.1 O-antigen ligase family protein [Streptococcus pneumoniae]
+ CVX60399.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ CWE75546.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+Length=390
+
+ Score = 756 bits (1951),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 389/390 (99%), Positives = 389/390 (99%), Gaps = 0/390 (0%)
+
+Query  1    MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK  60
+            MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK
+Sbjct  1    MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK  60
+
+Query  61   ILSRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV  120
+            ILSRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV
+Sbjct  61   ILSRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV  120
+
+Query  121  LIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR  180
+            LIFDIFLYILT LFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR
+Sbjct  121  LIFDIFLYILTSLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR  180
+
+Query  181  NILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV  240
+            NILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV
+Sbjct  181  NILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV  240
+
+Query  241  VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE  300
+            VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE
+Sbjct  241  VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE  300
+
+Query  301  VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF  360
+            VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF
+Sbjct  301  VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF  360
+
+Query  361  IESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+            IESVTYYPYYFIIIVLQTLYLKLERERNVK
+Sbjct  361  IESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+
+
+>VSI86017.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+Length=390
+
+ Score = 755 bits (1950),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 388/390 (99%), Positives = 389/390 (99%), Gaps = 0/390 (0%)
+
+Query  1    MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK  60
+            MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK
+Sbjct  1    MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK  60
+
+Query  61   ILSRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV  120
+            ILSRNIAIHQHAFFILQYYFIV+ILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV
+Sbjct  61   ILSRNIAIHQHAFFILQYYFIVMILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV  120
+
+Query  121  LIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR  180
+            LIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR
+Sbjct  121  LIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR  180
+
+Query  181  NILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV  240
+            NILVAQLL ILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV
+Sbjct  181  NILVAQLLFILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV  240
+
+Query  241  VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE  300
+            VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE
+Sbjct  241  VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE  300
+
+Query  301  VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF  360
+            VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF
+Sbjct  301  VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF  360
+
+Query  361  IESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+            IESVTYYPYYFIIIVLQTLYLKLERERNVK
+Sbjct  361  IESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+
+
+>WP_044812585.1 O-antigen ligase family protein [Streptococcus pneumoniae]
+ ASO97423.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ ASO97439.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ AUC46775.1 polymerase [Streptococcus pneumoniae]
+ QCO91875.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ CEO72212.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+Length=390
+
+ Score = 725 bits (1872),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 367/390 (94%), Positives = 381/390 (98%), Gaps = 0/390 (0%)
+
+Query  1    MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK  60
+            MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIY  SLYLSILLG IYVILK
+Sbjct  1    MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYKESLYLSILLGSIYVILK  60
+
+Query  61   ILSRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV  120
+            ILSRNIAIHQHAFFILQYYFIV+ILTFM+SGSIG G+QSIFYPIFIYLFFNEVRDKKSIV
+Sbjct  61   ILSRNIAIHQHAFFILQYYFIVMILTFMLSGSIGDGVQSIFYPIFIYLFFNEVRDKKSIV  120
+
+Query  121  LIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR  180
+            LIFDIFLYILT LFVINTID+FLNFTNIFH+TFLGHVQVISQYS++GFLVSAYYLLEEKR
+Sbjct  121  LIFDIFLYILTALFVINTIDIFLNFTNIFHVTFLGHVQVISQYSILGFLVSAYYLLEEKR  180
+
+Query  181  NILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV  240
+            NILVAQLLLILTIINCFFSDVSLSK IALFMI+YIISYKL+KLFWKRGRKISV+TFIASV
+Sbjct  181  NILVAQLLLILTIINCFFSDVSLSKAIALFMIIYIISYKLKKLFWKRGRKISVITFIASV  240
+
+Query  241  VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE  300
+            VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYG+FGFQFKLPWQ+LGE
+Sbjct  241  VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGVFGFQFKLPWQELGE  300
+
+Query  301  VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF  360
+            +GINYTHNQ+LQLALDSGIVGIISFFTMIFYMIFSTKNIQN  I SLFIFAYFCLFIIMF
+Sbjct  301  IGINYTHNQILQLALDSGIVGIISFFTMIFYMIFSTKNIQNPAIGSLFIFAYFCLFIIMF  360
+
+Query  361  IESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+            IESVTYYPYYFIIIVLQTLYLKLERERNVK
+Sbjct  361  IESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+
+
+Sequence with id VJJ48136 no longer exists in database...alignment skipped
+Sequence with id CAI33207 no longer exists in database...alignment skipped
+Sequence with id WP_088786327 no longer exists in database...alignment skipped
+Sequence with id SNN73714 no longer exists in database...alignment skipped
+Sequence with id WP_093586745 no longer exists in database...alignment skipped
+>WP_050076590.1 O-antigen ligase family protein [Streptococcus pneumoniae]
+ CAI33149.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ CAI33169.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ CNB02713.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ VIS24524.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+ VKB47476.1 oligosaccharide repeat unit polymerase Wzy [Streptococcus pneumoniae]
+Length=389
+
+ Score = 437 bits (1123),  Expect = 7e-149, Method: Compositional matrix adjust.
+ Identities = 218/385 (57%), Positives = 294/385 (76%), Gaps = 0/385 (0%)
+
+Query  1    MRISPSKLIFAFFSSFYILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILK  60
+            M+IS SK+ F  F + YI  IL+PRGI L +S  A    +IY   LY +I   +IY+ +K
+Sbjct  1    MKISLSKVFFLQFCALYIFTILYPRGITLTYSPSADFFTLIYKFCLYFTIAASIIYIFIK  60
+
+Query  61   ILSRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIV  120
+            IL + + +  + FFILQYY + I++T +++G+I  GLQS+FYPI IYLFFNE++D+  I+
+Sbjct  61   ILYQRLHLASYTFFILQYYIVSIVITLLLTGTIDSGLQSVFYPICIYLFFNEIQDRVLII  120
+
+Query  121  LIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKR  180
+             I DIFLY LT LF IN +D+ +NFTNI+HITFLGHVQVISQ+ +I F +S+YYL+   R
+Sbjct  121  KISDIFLYCLTLLFFINILDLMMNFTNIYHITFLGHVQVISQFGIIAFFISSYYLMIGNR  180
+
+Query  181  NILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASV  240
+            N  +A LL ILT++NC ++DV LSKVIA+FMI+Y +S+ ++++FWKRG  IS +TFI ++
+Sbjct  181  NRKIAFLLQILTVLNCLYADVFLSKVIAIFMIIYALSFNIKRVFWKRGILISFLTFIITI  240
+
+Query  241  VMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE  300
+            ++L + I GY + YL+YFDFTFNGRYQIWRI Y   L  K +GYG+F F F LPWQ  G 
+Sbjct  241  LLLFIDIQGYLIRYLQYFDFTFNGRYQIWRIAYQKFLDSKIYGYGVFSFHFNLPWQDSGA  300
+
+Query  301  VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF  360
+             GINY HNQ++QLA+D+G++GI+SFF MIFYMIF T+ I+N  ++SLF+F+YFCLFI+MF
+Sbjct  301  KGINYAHNQLMQLAIDNGVIGIVSFFIMIFYMIFLTRKIRNFRVASLFLFSYFCLFIVMF  360
+
+Query  361  IESVTYYPYYFIIIVLQTLYLKLER  385
+            IESVTYYPYYFII++ Q LY +LE+
+Sbjct  361  IESVTYYPYYFIILIFQILYERLEQ  385
+
+
+Sequence with id WP_196301099 no longer exists in database...alignment skipped
+Sequence with id AGF93697 no longer exists in database...alignment skipped
+Sequence with id MBZ4248518 no longer exists in database...alignment skipped
+Sequence with id WP_196300785 no longer exists in database...alignment skipped
+>WP_230680495.1 O-antigen ligase family protein, partial [Streptococcus pneumoniae]
+Length=99
+
+ Score = 204 bits (518),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 99/99 (100%), Positives = 99/99 (100%), Gaps = 0/99 (0%)
+
+Query  210  FMIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIW  269
+            FMIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIW
+Sbjct  1    FMIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIW  60
+
+Query  270  RIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHN  308
+            RIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHN
+Sbjct  61   RIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHN  99
+
+
+Sequence with id WP_196299935 no longer exists in database...alignment skipped
+>MBZ4249320.1 polymerase [Streptococcus pneumoniae]
+Length=80
+
+ Score = 155 bits (392),  Expect = 5e-43, Method: Compositional matrix adjust.
+ Identities = 80/80 (100%), Positives = 80/80 (100%), Gaps = 0/80 (0%)
+
+Query  104  IFIYLFFNEVRDKKSIVLIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQY  163
+            IFIYLFFNEVRDKKSIVLIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQY
+Sbjct  1    IFIYLFFNEVRDKKSIVLIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQY  60
+
+Query  164  SVIGFLVSAYYLLEEKRNIL  183
+            SVIGFLVSAYYLLEEKRNIL
+Sbjct  61   SVIGFLVSAYYLLEEKRNIL  80
+
+
+Sequence with id OLA58773 no longer exists in database...alignment skipped
+>MBQ4104639.1 O-antigen ligase family protein [Clostridia bacterium]
+Length=399
+
+ Score = 120 bits (300),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 100/339 (29%), Positives = 176/339 (52%), Gaps = 42/339 (12%)
+
+Query  58   ILKILSRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSI--------FYPIFIYLF  109
+            ++K L++ + I +  FF+L YY + +I T    G+I  G Q +        F+ +F+  +
+Sbjct  56   VIKALAQKLLIKKSVFFMLLYYSVFLIETVRSQGTIISGYQKLIVTPLFGLFFVVFLQEY  115
+
+Query  110  FNEVRDKKS--IVLIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIG  167
+              E+ +  S  ++++F + L I  P+F       + ++ +   ++F+GH+Q++SQ S+ G
+Sbjct  116  KKEIVNAISNFLIMLFVLNLTIFNPVF-------WPDYFSFSMVSFIGHIQLVSQISLFG  168
+
+Query  168  FLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYK---LRKLF  224
+              ++   L   ++    A  L++L++I  F S  SL  ++   +I+  + YK   LR +F
+Sbjct  169  CYIAV--LKNREKTKYSAVFLVVLSLITLFLSKASLGYIVIFMLIISFLCYKTKFLRSIF  226
+
+Query  225  WKRGRKISVVTFIASVVMLALVIFGY------FLPYLRYFDFTFNGRYQIWRIVYATILQ  278
+             ++ +      +I +  +L +++F Y      FL   +Y D++F+GR  IW+     I Q
+Sbjct  227  MQKTQ-----IYILAYSILNVIMFWYSNNLKHFLWLNKYIDYSFSGRTFIWQEAIELIKQ  281
+
+Query  279  VKWFGYGLFGFQFKLPWQKL--GEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFST  336
+              WFGYG +G    + W +     +G+NY HN++LQ  LD GI+ +I F   I ++ F  
+Sbjct  282  QPWFGYGAYGVNIVMFWHEWLNAGLGMNYAHNEILQRLLDGGIILLICF---ILFLWFYG  338
+
+Query  337  KNIQNSTISSLFIFAYFCLFI---IMFIESVTYYPYYFI  372
+            KN+ N     +  F+  C  I   IM  ESVT Y YYFI
+Sbjct  339  KNVNNLKDDKVKYFSNSCYMIFLLIMVSESVTEY-YYFI  376
+
+
+>NFE74564.1 O-antigen ligase family protein [Clostridium botulinum]
+ NFL58272.1 O-antigen ligase family protein [Clostridium botulinum]
+ NFL62954.1 O-antigen ligase family protein [Clostridium botulinum]
+ NFO67959.1 O-antigen ligase family protein [Clostridium botulinum]
+Length=408
+
+ Score = 112 bits (280),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 115/373 (31%), Positives = 175/373 (47%), Gaps = 26/373 (7%)
+
+Query  17   YILVI--LFPRG---IFLGHSTLASRLWIIYNGSLYLSILLGLIYVILKILSRNIAIHQH  71
+            YI++I  L+PRG    F G+          +   +YLS+ +G IY++L      I   + 
+Sbjct  30   YIVIIPYLYPRGFSECFQGYKKF-------FTAWMYLSVCMGFIYILLCFFKNKIKFQKI  82
+
+Query  72   AFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNE--VRDKKSIVLIFDIFLYI  129
+              FIL YY I I++T      +G GLQ +F    + LF+     +D  SI+ +    + I
+Sbjct  83   LVFILIYYAICILITIYNLNGLGSGLQKMFAAPILCLFYVIWIQQDSYSILTVTSNIMII  142
+
+Query  130  --LTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKRNILVAQL  187
+              L  L V N   + +  T IFH+ FLGHVQV S+Y +I   ++    +  K+N +   L
+Sbjct  143  EFLLDLIVFNPSKM-MQITGIFHLNFLGHVQVYSEYGLIALYIAYILFVRFKKNKVKPIL  201
+
+Query  188  LLILTIINCFFSDVSLSKVIALFMIVYIIS---YKLRKLFWKRGRKISVVTFIASVVMLA  244
+            L +L+++    S+   SK+  + +I+ +       ++KLF    +   +V  + SV+++ 
+Sbjct  202  LSVLSVLCMINSETDASKICLIIIIIILFLSMFKGIKKLFLLDSKIYVIVLTMISVIIVF  261
+
+Query  245  LVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGIN  304
+            L I   FL      D TF+GR  IW      I      GYG+ G      W       +N
+Sbjct  262  LKIQYVFLNTDLGVDLTFSGRTFIWNNALELISSNTILGYGIQGAHITTFWGG----NMN  317
+
+Query  305  YTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESV  364
+            Y HNQ LQ  LD GIV  ISF+ MI   +   K I+   +         C   +M  ESV
+Sbjct  318  YAHNQFLQNLLDGGIVLCISFYAMILTYVSEIKKIKKDNVIFFSNVILICYMFLMIFESV  377
+
+Query  365  TYYPYYFIIIVLQ  377
+            +   Y++III L 
+Sbjct  378  S--EYFYIIIFLS  388
+
+
+Sequence with id MBS4919800 no longer exists in database...alignment skipped
+>WP_077868875.1 O-antigen ligase family protein [Clostridium beijerinckii]
+ NYB98114.1 O-antigen ligase [Clostridium beijerinckii]
+ OOM23271.1 hypothetical protein CLBEI_27920 [Clostridium beijerinckii]
+ GEP65543.1 hypothetical protein CBE01nite_33110 [Clostridium beijerinckii]
+ SQB12939.1 Lipid A core--O-antigen ligase-like protein [Clostridium beijerinckii]
+Length=380
+
+ Score = 105 bits (263),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 101/357 (28%), Positives = 163/357 (46%), Gaps = 20/357 (6%)
+
+Query  22   LFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILKILSRNIAIHQHAFFILQYYFI  81
+            L+PRG     S +     + +   +++++LL L    L+ +      +   F I  Y+ +
+Sbjct  25   LYPRGF----SEINEGYKLFFTIWIWIAVLLILSQFFLRCIKEGCKFNNKKFMISLYFLL  80
+
+Query  82   VIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIVLIFDIFLYILTPLFVINTIDV  141
+             II+T++  G+IG GLQ +     + +FF+   ++  I +I  I + IL   F+IN +  
+Sbjct  81   AIIITWVKRGTIGSGLQQMIAAPALCIFFSMNFEEDGIKIINSI-VNILFVNFIINLVA-  138
+
+Query  142  FLNFTNIF----HITFLGHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCF  197
+               F +IF    HI FLGHVQ ISQ+  +     +   L +K   + A   +I+++I  F
+Sbjct  139  ---FRSIFFAYEHIVFLGHVQTISQFGTLALYFGSLQFLLDKNRRIKAVFFIIISLITMF  195
+
+Query  198  FSDVSLSKVIALFMIVYIISYKLR--KLFWKRGRKISVVTFIASVVMLALVIFGYFLPYL  255
+              D   ++V A+ MIV  + YK +   L W +  K  V  F    V +   + G  +   
+Sbjct  196  TGDADSARVAAIIMIVVGMMYKFKIYHLLWFK-SKWYVFAFWGLSVFIVYTVSGNNIFVN  254
+
+Query  256  RYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLAL  315
+               + TF+GR  +W+          +FGYG+ G      W      G+NY HNQ++Q  +
+Sbjct  255  IIDNSTFSGRNFVWKNALELFCNSPYFGYGIDGALITTFW----STGMNYAHNQIVQNLI  310
+
+Query  316  DSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYYFI  372
+            D G+V  ISF+ M+         IQ      L          IM  +S T Y Y F+
+Sbjct  311  DGGVVLCISFWIMMIEFSSYIDRIQLKKYKVLANGTLITFLAIMITDSTTLYCYMFL  367
+
+
+>WP_058301362.1 O-antigen ligase family protein [Gorillibacterium timonense]
+Length=387
+
+ Score = 103 bits (258),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 98/335 (29%), Positives = 162/335 (48%), Gaps = 28/335 (8%)
+
+Query  68   IHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIVLIFDIFL  127
+            I++  F +  Y+ + I+LT ++ G++  GLQ +     + +F         I+  FD + 
+Sbjct  67   INRRGFALTLYFVLSILLTIIIRGNLSSGLQQMLAAPSLCVF---------IIYNFDKYW  117
+
+Query  128  Y-ILTPLFVINTIDVFLN-------FTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEK  179
+            + IL  L  I  + +FLN       F    H+ FLGHVQV+SQ  ++   V+    +  K
+Sbjct  118  HKILGALLNIFIMLLFLNGVVFKGYFVEYTHVIFLGHVQVVSQIGMVAIFVALLNYMLIK  177
+
+Query  180  RNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLR--KLFWKRGRKISVVTFI  237
+            R    + LLLI++I+  F +D + + ++++ +IV  I YK R   +F  + +   V  F+
+Sbjct  178  RRKFKSVLLLIMSILTMFSTDATSAVLVSIILIVIGIVYKWRLYHIFCLKSKWYVVFGFL  237
+
+Query  238  AS--VVMLALVIFGY--FLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKL  293
+             S  V+ +A V   Y  F+      D TF+GR  +W    + I     FG+G+ G     
+Sbjct  238  MSISVIYIATVNNNYSVFIS-----DPTFSGRRFVWLNAISHITSRPIFGFGIDGVLITT  292
+
+Query  294  PWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYF  353
+             W +    G NY HNQ++Q  LD GIV   +F+TM+F       N+++     L      
+Sbjct  293  FWTQWSGGGFNYAHNQIIQNLLDGGIVLCAAFWTMMFTYASYIDNLKHLRYKVLSNAILI  352
+
+Query  354  CLFIIMFIESVTYYPYYFIIIVLQTLYLKLERERN  388
+             L I+M  +S T Y Y FI + +      +E +R+
+Sbjct  353  VLLIVMIFDSTTLYCYMFIFLAILVKLPNIENDRS  387
+
+
+>WP_172578025.1 O-antigen ligase family protein [Ligilactobacillus agilis]
+ GET15718.1 hypothetical protein NB11A_00090 [Ligilactobacillus agilis]
+Length=411
+
+ Score = 103 bits (256),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 108/374 (29%), Positives = 173/374 (46%), Gaps = 22/374 (6%)
+
+Query  18   ILVILFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILKILSRNIAIHQHAFFILQ  77
+            I + LFP     G+ T + +   I N  L +++ +    VI  +L + + I +   ++  
+Sbjct  20   IFMFLFP----YGYVTYSIQYKEIRNYILLIAMFIAFGVVIYDVLKKPVYIKKSIVYLSI  75
+
+Query  78   YYFIVIILTFMVSGSIGVGLQSIF-YP-IFIYLFFNEVRDKKSIVLIF-DIFL-YILTPL  133
+            Y  ++I       G IG GLQ IF +P + I++  N  R  K ++L F D+ L   L  L
+Sbjct  76   YQLLLIFTALYNKGGIGDGLQRIFVFPALLIFVAINLRRRPKQLILAFTDVMLVQFLLSL  135
+
+Query  134  FVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTI  193
+            FV N       F    HI FLGHVQ+ S+Y ++G  V    +    +N      L+ L+I
+Sbjct  136  FVFNQHFFPQYFAIDNHIAFLGHVQMYSEYGILGVFVGYLSIRLSHKN--KGLFLICLSI  193
+
+Query  194  INCFFSDVSLS----KVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFG  249
+            +N  +S    S     V+A F+++Y  +  L+ +  K    IS +  + +  +L + +  
+Sbjct  194  LNMLYSATVASYMSVGVLAFFLLIYK-AKCLKDIISKNVYLISCLLLVVNFCLLKISLIS  252
+
+Query  250  YFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEV-----GIN  304
+                + R+     N R  IW        Q K  GYG++G   K  W     V     G +
+Sbjct  253  N--SFTRWLSIVTNSRVSIWADGVNLFEQKKLLGYGIYGAHIKPYWLAWATVISDRQGFS  310
+
+Query  305  YTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESV  364
+            Y HN VLQL LD GIV +I+F   +FY+I     I++  I  +    +    +I   ES+
+Sbjct  311  YAHNTVLQLILDGGIVLLIAFLVCVFYVIKEITMIKDENIRYITSIVFIIYLMIGIFESL  370
+
+Query  365  TYYPYYFIIIVLQT  378
+            T Y Y+F+ +V  +
+Sbjct  371  TEYVYFFVFLVFSS  384
+
+
+Sequence with id MBQ8440120 no longer exists in database...alignment skipped
+Sequence with id WP_207686794 no longer exists in database...alignment skipped
+>WP_147569626.1 O-antigen ligase family protein [Collinsella ihumii]
+Length=411
+
+ Score = 90.9 bits (224),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 93/324 (29%), Positives = 161/324 (50%), Gaps = 17/324 (5%)
+
+Query  12   FFSSFYILVI--LFPRGIFLGHSTLASRLWIIYNGSLYLSILLGLIYVILKILSRNIAIH  69
+            F  S Y+++I  L+P+G+      L       +   LYL++L+ L ++   +++  I I 
+Sbjct  38   FHISIYLILIPFLYPKGL----DQLVPLSKQFFTAWLYLAMLIMLCFLAKHLMNITIQIT  93
+
+Query  70   QHAFFILQYYFIVIILTFMVSGSIGVGLQSIF-YPIF-IYLFFNEVRDKKSIVLIFDIFL  127
+              + F++ ++   I++T         GLQ++F +P+  ++L F   +D KSI+   +  +
+Sbjct  94   VRSIFVVLFFMSSILITLYDQQGFAEGLQALFAWPLLCLWLTFAFAKDHKSIL---NAII  150
+
+Query  128  YILTPLFVINTIDVFLN-FTNIFHITFLGHVQVISQYSVIGFL-VSAYYLLEEKRNILVA  185
+             I+  LF+   I  +L+ +       F GH+QV++Q ++I FL VS Y     K++    
+Sbjct  151  NIMIILFLFQNIFTYLDVYRGQQTACFFGHIQVVAQEAIIAFLAVSLYSSHLPKKSCKRI  210
+
+Query  186  QLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASVVMLAL  245
+             LL+ L ++  +  D   SKV+ +   + +I  K +K+    G    ++  +  +  L +
+Sbjct  211  ILLVALVVLALWSVDTDSSKVVLILFFIALILNKNKKVKLMIGNSAPMLAAVLIIASLLV  270
+
+Query  246  VIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINY  305
+            V        L  FD+ FNGR  +WR     I +    GYG+ G Q  L W  +    +NY
+Sbjct  271  VDLSVRNSTLFGFDWGFNGRDYVWREAIGLIQEEPVLGYGVQGVQMTLFWGGI----MNY  326
+
+Query  306  THNQVLQLALDSGIVGIISFFTMI  329
+             HNQ++Q  LD GIV +I F TMI
+Sbjct  327  AHNQLMQTLLDGGIVLLILFITMI  350
+
+
+>RJW52536.1 hypothetical protein DXB25_04260 [Lachnospiraceae bacterium OM02-31]
+ RJW57863.1 hypothetical protein DXB24_09555 [Lachnospiraceae bacterium OM02-3]
+Length=391
+
+ Score = 90.1 bits (222),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 111/370 (30%), Positives = 179/370 (48%), Gaps = 32/370 (9%)
+
+Query  22   LFPRGI---FLGHSTLASRLWIIYNGSLYLSILLGLIYVILKILSRNIAIHQHAFFILQY  78
+            LFPRG+   F  +   A+ L       LY SILL ++Y + +I  R + +    F +  Y
+Sbjct  20   LFPRGLSEYFSIYKLFATIL-------LYGSILLTVVYAVARISKRKMGMAPRFFPLFWY  72
+
+Query  79   YFIVIILTFMVSGSIGVGLQSIFYPIFIYLFF---NEVRDKKSIVLIFDIFLYILTPLFV  135
+            YF++I +T +V GS+  GLQ +F    + LF     E R   SI +I +I +  LT    
+Sbjct  73   YFVMIGITILVHGSLREGLQKMFATPALCLFCIMTLEDRFYDSIDVICNILITNLTLNVT  132
+
+Query  136  INT---IDVFLNFTNIFHITFLGHVQVISQYSVIGFLVS----AYYLLEEKRNILVAQLL  188
+            + +   +   +    I +I F+GHVQ+  QY  + F ++     YY L+ K  I+    L
+Sbjct  133  VASPYILKKIMGSEYITNIMFIGHVQICLQYCCLAFFIAFIIYHYYNLKIKSIIIFLTGL  192
+
+Query  189  LILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIF  248
+            L L +     S ++++ +I+ +     I YKL K     GRK       A +  L  ++ 
+Sbjct  193  LSLLLSGAVASYLAVAVIISCY-----IFYKLSK-----GRKFISKANSAVLFALGTLLQ  242
+
+Query  249  GYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQK-LGEVGINYTH  307
+            G  + ++  +   F  RY ++    + I+   + GYG++G      W +     G+NY H
+Sbjct  243  GLVVLFVIRYKIDFAARYYVYIDAASQIIAKPFIGYGIYGTLIHTFWMEWTNSSGMNYAH  302
+
+Query  308  NQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIM-FIESVTY  366
+            N+VLQ  LD GI+ +I++      ++   KN  N T    +      LF+I  F+ESVT 
+Sbjct  303  NEVLQQLLDGGILLLINYVIFNVALLRKKKNEGNDTFLMYWTNILLVLFLIDGFVESVTE  362
+
+Query  367  YPYYFIIIVL  376
+            Y YY+I I+L
+Sbjct  363  YNYYYIFIIL  372
+
+
+Sequence with id WP_172462738 no longer exists in database...alignment skipped
+Sequence with id MCD5543701 no longer exists in database...alignment skipped
+Sequence with id WP_143675688 no longer exists in database...alignment skipped
+Sequence with id SKA70700 no longer exists in database...alignment skipped
+>WP_109214776.1 O-antigen ligase family protein [Eubacterium ramulus]
+ PWE87596.1 hypothetical protein LG34_02905 [Eubacterium ramulus]
+Length=381
+
+ Score = 83.6 bits (205),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 97/345 (28%), Positives = 167/345 (48%), Gaps = 34/345 (10%)
+
+Query  46   LYLSILLGLIYVILKILSRNIAIHQHA-FFILQYYFIVIILTFMVSGSIGVGLQSIFYPI  104
+            +YL++LL +  + L+     I + + A   I  Y+  VI++T    G +  GLQ++    
+Sbjct  43   VYLALLLIIFEMCLQYRGNLIHMEKRAEIAIFSYFVAVILITLTAQGGLHEGLQNMIATP  102
+
+Query  105  F--IYLFFNEVRDKKSIVLIFDIFLYILTPLFVINTIDVFLNFT-----NIFHITFLGHV  157
+            F  +Y       D K  + +      IL  LF++N + +F  +        +HI FLGHV
+Sbjct  103  FLCVYAILCLRNDPKHFIKMIS---NILIVLFLLN-LTIFNPYIMQYKIAEYHIIFLGHV  158
+
+Query  158  QVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIIS  217
+            QV +Q+ V+G L  A      K+  L+ +LL ILT++    +   L+ V+ L + + ++ 
+Sbjct  159  QVAAQFGVLGILCGALEFRSRKKTALLLELLSILTMLTSNAASAILT-VVLLVVFIVLVI  217
+
+Query  218  YKLRKLFWKRGRKISVV---TFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYA  274
+            +K+  +F K G  I +V    F A +VM+ + + G+ +  L       N R  IW +   
+Sbjct  218  FKVYGIFCK-GIPIYIVLYTIFSAILVMVNVRLPGFVISML-------NSRQSIWAVALQ  269
+
+Query  275  TILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIF  334
+             I +    GYG+ G   +L W        NY H+Q  Q  LD GIV  I FF M   + F
+Sbjct  270  HIKEAPVIGYGVQGVTLELYWGG----KFNYAHSQFAQNLLDGGIVLSILFFVMFVAVAF  325
+
+Query  335  STKNIQNS---TISSLFIFAYFCLFIIMFIESVTYYPYYFIIIVL  376
+              +  +N    +I +L + A+ C   +   +S+++YPY+ + +++
+Sbjct  326  CVRKTENKILRSIGTLTMIAFMC---VALFDSISFYPYFMLTLMI  367
+
+
+>WP_118702688.1 MULTISPECIES: O-antigen ligase family protein [Eubacteriales]
+ RHV69959.1 O-antigen ligase domain-containing protein [Roseburia sp. OM02-15]
+Length=381
+
+ Score = 82.0 bits (201),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 96/345 (28%), Positives = 167/345 (48%), Gaps = 34/345 (10%)
+
+Query  46   LYLSILLGLIYVILKILSRNIAIHQHA-FFILQYYFIVIILTFMVSGSIGVGLQSIFYPI  104
+            +YL++LL +  + L+     I + + A   I  Y+  VI++T    G +  GLQ++    
+Sbjct  43   VYLALLLIIFEMCLQYRGNLIHMEKRAEIAIFSYFAAVILITLTAQGGLHEGLQNMIATP  102
+
+Query  105  F--IYLFFNEVRDKKSIVLIFDIFLYILTPLFVINTIDVFLNFT-----NIFHITFLGHV  157
+            F  +Y       D K  + +      IL  LF++N + +F  +        +HI FLGH+
+Sbjct  103  FLCVYAILCLRNDPKHFIKMIS---NILIVLFLLN-LTIFNPYIMQYKIAEYHIIFLGHI  158
+
+Query  158  QVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIIS  217
+            QV +Q+ V+G L  A      K+  L+ +LL ILT++    +  ++  V+ L + + ++ 
+Sbjct  159  QVAAQFGVLGILCGALAFRSRKKTALLLELLSILTMLTSNAAS-AILIVVLLVVFIVLVI  217
+
+Query  218  YKLRKLFWKRGRKISVV---TFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYA  274
+            +K+  +F K G  I +V    F A +VM+ + + G+ +  L       N R  IW +   
+Sbjct  218  FKVYGIFCK-GIPIYIVLYTIFSAILVMVNVRLPGFVISML-------NSRQSIWAVALQ  269
+
+Query  275  TILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIF  334
+             I +    GYG+ G   +L W        NY H+Q  Q  LD GIV  I FF M   + F
+Sbjct  270  HIKEAPVIGYGVQGVTLELYWGG----KFNYAHSQFAQNLLDGGIVLSILFFVMFVAVAF  325
+
+Query  335  STKNIQNS---TISSLFIFAYFCLFIIMFIESVTYYPYYFIIIVL  376
+              +  +N    +I +L + A+ C   +   +SV++YPY+ + +++
+Sbjct  326  CVRKTENKILRSIGTLTMIAFMC---VALFDSVSFYPYFMLTLMI  367
+
+
+Sequence with id MBS5989423 no longer exists in database...alignment skipped
+Sequence with id MQB68038 no longer exists in database...alignment skipped
+>WP_191991158.1 O-antigen ligase family protein [Limosilactobacillus reuteri]
+Length=372
+
+ Score = 80.5 bits (197),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 91/345 (26%), Positives = 164/345 (48%), Gaps = 28/345 (8%)
+
+Query  60   KILSRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSI  119
+            +IL + + I +   F++ Y   ++++T    GSI  G Q IF    I L F +   +   
+Sbjct  32   RILQKRLKIDRSGLFLIFYSLTLLLITLWKQGSINQGFQKIFVIPCICLIFADYLQRNPE  91
+
+Query  120  VLIFDIFLYILTPLFVINTIDVFLNFTNIF----HITFLGHVQVISQYSV----IGFLVS  171
+            ++I  +   +L  LF+   +   L F  +F    HI FLGHVQV+S+  +    +G+L  
+Sbjct  92   IVISTLTNVLLILLFLNIIVFNQLLFPQLFLVDNHIIFLGHVQVVSEIGLLAVFVGYLNC  151
+
+Query  172  AYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYII---SYKLRKLFWKRG  228
+             Y+  + K  IL+     +L + N  + + S S +    +I++++   +   RK+  K  
+Sbjct  152  RYFDTKFKGCILI-----LLALCNMIYVETSASYIAIFELIIFVVLGKNLNFRKIICKSL  206
+
+Query  229  RKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFG  288
+              I ++  I S+ ++ + I    L + ++     NGR  IW      + +   FGYG +G
+Sbjct  207  PYIILILIIVSLFLINIKIDSNTLAWDKF----LNGRLSIWNKGILFVKESLLFGYGAYG  262
+
+Query  289  FQFKLPWQKL--GEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISS  346
+             + ++ W +     +G NY HN VLQL LD GI   + +  M   ++  T++I+      
+Sbjct  263  VKIQMFWSQWVNNGIGFNYAHNTVLQLLLDGGIALTVIYTIM---LLSYTRDIELVKYEK  319
+
+Query  347  LFIFAYFCLFI---IMFIESVTYYPYYFIIIVLQTLYLKLERERN  388
+            +  +    + I   + F+ES+T Y Y+FI + +      L  E+N
+Sbjct  320  IKFYTSIIMIIFVTVGFVESLTEYNYFFIYLSILPYVPLLMEEKN  364
+
+
+>WP_117820311.1 MULTISPECIES: O-antigen ligase family protein [unclassified Collinsella]
+ RGS24383.1 O-antigen ligase domain-containing protein [Collinsella sp. AF23-6]
+ RGS24685.1 O-antigen ligase domain-containing protein [Collinsella sp. AF23-4AC]
+Length=387
+
+ Score = 79.7 bits (195),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 95/387 (25%), Positives = 179/387 (46%), Gaps = 21/387 (5%)
+
+Query  6    SKLIFAFFSSFYILVILFPRG---IFLGHSTLASRLWIIYNGSLYLSILLGLIYVILKIL  62
+            +K I +    F ++ +L P+G   I  G+ T+ + LW +      L++   L+ +I ++ 
+Sbjct  15   NKSIASLIRYFVLIPLLLPQGLGSIIPGYKTVTT-LWAM------LALYFVLLDIIFRVC  67
+
+Query  63   SRNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSI-FYPIFIYLFFNEVRDKKSIVL  121
+               ++++  A  ++ Y+ + I +T + S  +  GLQ + F+P       +   D+  +  
+Sbjct  68   HGELSLNIPAGIVI-YFLMAISVTVLSSKGVANGLQELLFFPAVSVYMLSLSEDELRVYA  126
+
+Query  122  IFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKRN  181
+            +    + ++  L  +        F    H+T LGHVQV SQY ++   ++ +  L++   
+Sbjct  127  VACARVLMVLFLLQLLVPSSL--FAGRLHMTMLGHVQVFSQYGLLSITLACFLYLKKWVK  184
+
+Query  182  ILVAQLLLILTIINCFFSDVSLSKVIALFM-IVYIISYKLRKLFWKRGRKISVVTFIASV  240
+               A LLL L+++ C  +  + S   ALF+  V ++  K+  +  K   +I V+ FIA  
+Sbjct  185  PSFAFLLLGLSVV-CMVTADADSAHYALFVFAVVLLLLKICPILLKLDFRIVVIFFIAFS  243
+
+Query  241  VMLALVIFGYFLPYL-RYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLG  299
+            +++ ++      P +    D+TF+GR  +W    A   Q   FGYG+        W    
+Sbjct  244  MLVVMLTIRRQSPLMGTDLDWTFSGRLFVWDSADALFRQSPLFGYGVENSVITTFW----  299
+
+Query  300  EVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIM  359
+              G++Y HNQV+Q  +D GIV +++   M+  +      I + +   + I     L  + 
+Sbjct  300  SAGMSYAHNQVMQCLIDGGIVLLLAMVWMLCSIAGKVNMILDVSFRKVAISVLCALLFVT  359
+
+Query  360  FIESVTYYPYYFIIIVLQTLYLKLERE  386
+              +S T Y Y FI++   T    L R+
+Sbjct  360  VFDSFTPYSYVFIMLAFITREGMLSRK  386
+
+
+>MBT9042951.1 hypothetical protein [Lactobacillus delbrueckii subsp. bulgaricus]
+ MBT9073098.1 hypothetical protein [Lactobacillus delbrueckii subsp. bulgaricus]
+Length=395
+
+ Score = 77.0 bits (188),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 92/331 (28%), Positives = 155/331 (47%), Gaps = 35/331 (11%)
+
+Query  81   IVIILTFMVSGSIGVGLQSIFYPIFIYLFFNEVRDKKSIVLIFDIFLYILTPLFVINT--  138
+            I++++T  V G++  GLQ I   I +  FF +   +K +  + ++   IL   F +N   
+Sbjct  77   ILLVVTLSVQGTVTQGLQKIIV-IPVLCFFLDETCRKDLWYVINVICNILILDFALNLFF  135
+
+Query  139  -----IDVFLNFTNIFHITFLGHVQVISQYSVIGFLVS--AYYLLEEKRNILVAQLLLIL  191
+                 +  +    N  HI F+GHVQV ++ +++G  V+   Y     KR  +V  +L +L
+Sbjct  136  FNQWLVPKYFLIEN--HIMFIGHVQVAAEIAILGIFVAYIEYSYGVHKRKSIVLFILAML  193
+
+Query  192  TIINCFFSDVSLSKVIALFM---IVYIISYKLRKLFWKR--GRKI---SVVTFIASVVML  243
+            T++         ++ IA FM   ++ I S   R   +K+   + I   S +  + S V++
+Sbjct  194  TML--------YAQTIASFMSIGLLAIFSLLGRNRGFKKHINKHIYFYSFMQIVISYVLI  245
+
+Query  244  ALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKL--GEV  301
+             +     F  Y    +  FNGR  IW   +    + K+FGYG +G   K  W      ++
+Sbjct  246  NIQEIHLFSKYRAVINAFFNGRPFIWSEGWELFEKRKFFGYGAYGVLIKPFWSAWSSNKL  305
+
+Query  302  GINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFI  361
+            G NY HN +LQL LD GIV  I+F   +   I   K  +    S+    AY  L I + I
+Sbjct  306  GFNYAHNTLLQLMLDGGIVLAIAFIITVALYIRELK--KTDMCSNAKYVAYVLLLIFLSI  363
+
+Query  362  ---ESVTYYPYYFIIIVLQTLYLKLERERNV  389
+               ES+T Y Y+FI + +     +++  +++
+Sbjct  364  GLFESLTEYFYFFIFLSILPFLGEIDENKSL  394
+
+
+Sequence with id MBT9000962 no longer exists in database...alignment skipped
+>MBD9043080.1 O-antigen ligase domain-containing protein [Solobacterium sp.]
+Length=406
+
+ Score = 70.5 bits (171),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 55/176 (31%), Positives = 89/176 (51%), Gaps = 8/176 (5%)
+
+Query  150  HITFLGHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLS----K  205
+            HITFLGHVQV++QY ++    S   L+   +        ++LT++N   +D S +     
+Sbjct  140  HITFLGHVQVVAQYGILSVFTSVLILILGHKQYKKTIFQIVLTMLNLVLTDASSALLTFM  199
+
+Query  206  VIALFMIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGR  265
+            ++ LF+++Y+   K +KL W    K S + F  S+++L  V+F      +  F    +GR
+Sbjct  200  LLVLFLLIYVFREKQKKL-WNLLLKNSTI-FYCSLLILN-VVFMIIACNISIFRGFISGR  256
+
+Query  266  YQIWRIVYATILQVKWFGYGLFGFQFKLPWQK-LGEVGINYTHNQVLQLALDSGIV  320
+              IW+  +  I +    GYG+ G   K  W       G NY HNQ++Q  LD G++
+Sbjct  257  DLIWQEAFTKIKKHWLLGYGIQGVLIKPFWLSWTTSNGFNYGHNQIIQFFLDGGLI  312
+
+
+Sequence with id WP_227991908 no longer exists in database...alignment skipped
+>MBD8923905.1 O-antigen ligase domain-containing protein [bacterium]
+Length=159
+
+ Score = 63.2 bits (152),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 43/113 (38%), Positives = 56/113 (50%), Gaps = 1/113 (1%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPW-QKLGEVGINYTHNQVLQLALDSGI  319
+             F+GR  +W      I     FGYG+ G + ++ W Q     G NY HNQ+LQ  LD G+
+Sbjct  30   DFSGRSFVWIGAIEKIRNSLLFGYGIDGIKLRVFWNQWTATDGFNYAHNQILQNLLDGGM  89
+
+Query  320  VGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYYFI  372
+            V  I+F+ MI     + KNI N  + +L         IIM  ES T Y Y FI
+Sbjct  90   VLFITFWNMIITFCKNIKNISNEKVKALSNSILIIFLIIMIFESATLYSYLFI  142
+
+
+Sequence with id WP_066093597 no longer exists in database...alignment skipped
+>WP_161795264.1 O-antigen ligase family protein [Clostridium sp. IBUN13A]
+Length=308
+
+ Score = 59.7 bits (143),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 67/273 (25%), Positives = 123/273 (45%), Gaps = 39/273 (14%)
+
+Query  124  DIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKRNIL  183
+            D++   L P+F + T     N T +F IT +  V VIS              +++  N  
+Sbjct  58   DLYTNKLNPIFFMTTD----NGTGVFIITTMLFV-VISNN------------IKKYHNRY  100
+
+Query  184  VAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKIS------VVTFI  237
+            + +L+L   ++  FFS  + S VI  F  +Y+       +F+++ +KI+       ++++
+Sbjct  101  IVELILSCCLLCAFFSGSTTSMVICCFFTIYL------GMFFRKNKKIAFNPIILAISYL  154
+
+Query  238  ASVVMLALVIFGYFLPYLR---YFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLP  294
+               VM+   I   F+P++    +   TF GR Q+W+     I    W GYG     +   
+Sbjct  155  ILSVMIISGITNVFMPFIEGILHKSITFTGRNQLWQDALQLIKTKFWIGYGRINGDYISI  214
+
+Query  295  WQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNI-QNSTISSLFIFAYF  353
+            W      G   +HN  L+L L+ G +  I  FT+I Y       I +N  I+++     F
+Sbjct  215  WG-----GKYSSHNIFLELLLEGGAITFI-LFTLINYKAIKILKIYKNVRIANILAIGLF  268
+
+Query  354  CLFIIMFIESVTYYPYYFIIIVLQTLYLKLERE  386
+             +FI + +E+  +  Y + I+++     K+++ 
+Sbjct  269  LIFIALMMEAFVHEVYLYGILIISCQMPKIKKN  301
+
+
+Sequence with id WP_207641770 no longer exists in database...alignment skipped
+>MBW4467863.1 O-antigen ligase family protein [Pegethrix bostrychoides GSE-TBD4-15B]
+Length=426
+
+ Score = 60.5 bits (145),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 67/256 (26%), Positives = 111/256 (43%), Gaps = 32/256 (13%)
+
+Query  150  HITFLGHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIAL  209
+            H   LG   V S   V+ FL+ ++   + +R   +A  +++L++I   FS  + S + A+
+Sbjct  167  HKNGLGASMVTS---VMAFLILSF---DHQRWRWLAWTMILLSMILILFSKSTSSLINAV  220
+
+Query  210  FMIVYIISYKLRKLFWKRGRKISV---VTFIASVVMLALVIFGYFLPYLRYFDFTFNGRY  266
+            F+ V II   L+ + W+   K++    +  +  V  L  V +   L      D T  GR 
+Sbjct  221  FITVAII--ILQMIRWRYRSKMAAFMTLLLLLEVFTLGFVTYAQTLANALGKDLTLTGRT  278
+
+Query  267  QIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEV---------GINYTHNQVLQLALDS  317
+             +W  V+  + Q  WFGYG  GF     W    EV          +N+ HN  L L +D 
+Sbjct  279  VLWSAVWDVVQQQPWFGYGYGGF-----WNAKSEVTSIWLATGWKMNHPHNGFLALLIDL  333
+
+Query  318  GIVGIISFFTMI---FYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTY----YPYY  370
+            G VG+I F   +   F+       ++ +  + L + + F L      ES  +    +P+ 
+Sbjct  334  GAVGLIIFLVALVQSFHRALLLARLETTAAAFLPVASLFFLITSNLTESALFSSNAFPWL  393
+
+Query  371  FIIIVLQTLYLKLERE  386
+              I +  T+   LER 
+Sbjct  394  LYISLTLTVIKSLERR  409
+
+
+Sequence with id WP_160295185 no longer exists in database...alignment skipped
+>ACR76387.1 Hypothetical protein EUBREC_2656 [[Eubacterium] rectale ATCC 
+33656]
+ CUN94387.1 Lipid A core-O-antigen ligase and related enzymes [[Eubacterium] 
+rectale]
+Length=396
+
+ Score = 60.1 bits (144),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 99/367 (27%), Positives = 167/367 (46%), Gaps = 36/367 (10%)
+
+Query  46   LYLSILLGLIYV--ILKILS-RNIAIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFY  102
+            LYLS+  G+IY+  I K+L+ + I I+     ++ Y+ I+II+TF+V  S    LQ +F 
+Sbjct  40   LYLSV--GIIYIVAIAKLLTLKKIKINSFVGSMILYFSIIIIITFLVRQSFSGALQKLFA  97
+
+Query  103  -PIFI-----YLFFNEVR----DKKSIVLIFDIFLYILTPLFVINTIDVFLNFTNIFHIT  152
+             P        YL  N ++        +++IF +   I +PLF         N     H+ 
+Sbjct  98   TPALCIFSVYYLKKNPLQIIKYTNNILIIIFVLNSTIFSPLFWPTYFRPISN-----HLL  152
+
+Query  153  FLGHVQVISQYSVIGFLVS--AYYLLEEKRNILVAQLLLILTIINCF--FSDVSLSKVIA  208
+            F+GHVQ   Q  ++  L +   Y +    +   V  LL+IL+ IN    F+  +   +I 
+Sbjct  153  FIGHVQTAVQIGMLAILTAYIEYEVYNGNKKKYV--LLMILSYINMLMSFTSAAYISIIL  210
+
+Query  209  LFMIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQI  268
+            L +   + ++K+       GR    +  + + +   ++  G     L    F+ NGR  I
+Sbjct  211  LLLFKILGNFKIYGSIALEGRVYLSLYLLLNFIFFLIICAGK--SSLEIAGFSLNGRGFI  268
+
+Query  269  WRIVYATILQVKWFGYGLFGFQFKLPWQK-LGE-VGINYTHNQVLQLALDSGIVGIISFF  326
+            W     +  +   +GYG  G   K+ W   +G+  G+NY HNQ+LQ+  D GI+   +F 
+Sbjct  269  WAKAIESFFKSPIYGYGANGVLIKVFWSYWVGDGQGMNYMHNQILQILNDGGIILFAAFI  328
+
+Query  327  TMIFYMIFSTKNIQNSTIS---SLFIFAYFCLFIIMFIESVTYYPYYFIIIVLQTLYLKL  383
+             M++  + +   ++   I    S FI     + I+M  ESV  Y Y+  I+ +     KL
+Sbjct  329  YMLYIAMSTIDKLKGKKIRYQISTFI---AIILIVMTFESVMEYFYFSYILCIVAYLPKL  385
+
+Query  384  ERERNVK  390
+             + R   
+Sbjct  386  VQNRGAS  392
+
+
+>WP_094076342.1 O-antigen ligase family protein [Notoacmeibacter marinus]
+ OXT02387.1 hypothetical protein B7H23_05675 [Notoacmeibacter marinus]
+Length=426
+
+ Score = 58.9 bits (141),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 65/263 (25%), Positives = 121/263 (46%), Gaps = 46/263 (17%)
+
+Query  154  LGHVQVISQYSVIGF------------------LVSAYYLLEEKRNILVAQLLLILTIIN  195
+            LGH++ ++  +++GF                  + +A   L  +R ++     LI+++++
+Sbjct  158  LGHLEDLNSQNLLGFGNVRASTRLFVPAIMCAIVPAALPSLPIRRRVMFLAAALIISLLS  217
+
+Query  196  CFFSDVSLSKVIALFMIVYIISYKLRKLF--WKRGRKISVVTFIASVVMLALVIFGYFLP  253
+             +    S S ++AL M + ++++ L + F  W+    I+V T   +VV   LV    FLP
+Sbjct  218  GYTG--SRSTILAL-MSISVMAFLLSRGFGYWR----IAVTT--TAVVGFGLVA-ARFLP  267
+
+Query  254  YLRYF--DFTFN---GRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHN  308
+             + YF  D T N   GR +IW  V+  +LQ  +FG+G  GF   +P       G +  HN
+Sbjct  268  SVEYFGLDITRNHDSGRMEIWSAVFEYVLQSPFFGWGGIGFPDPVP------GGPSNAHN  321
+
+Query  309  QVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFI----FAYFCLFIIMFIESV  364
+             VLQ+  + G+VG++S   +    +     I     +S ++     A   +     +   
+Sbjct  322  IVLQIFYEVGLVGLVSMAILAALFLLRVLRIVQDKAASPYVTATALAACAIMADALVSPA  381
+
+Query  365  TYYPY-YFIIIVLQTLYLKLERE  386
+             ++ Y  F+ +VL  + L  ++E
+Sbjct  382  LWFQYSAFLFVVLAVMMLTAKQE  404
+
+
+>MCD7812065.1 O-antigen ligase family protein [Ruminococcus sp.]
+Length=448
+
+ Score = 57.0 bits (136),  Expect = 9e-05, Method: Compositional matrix adjust.
+ Identities = 47/169 (28%), Positives = 76/169 (45%), Gaps = 22/169 (13%)
+
+Query  239  SVVMLALVIFGYFLPYLRYF---DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPW  295
+            S +M   +IF YF  Y+  +     T  GR  IW+   + I +   FGYG     ++   
+Sbjct  282  SYLMSVKLIFQYFGEYIELYLNKSATLTGREYIWQTALSYINRALLFGYG-----YEPQT  336
+
+Query  296  QKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCL  355
+                ++GIN+THN +L+     GI+G+I F   +F +    K +Q++ +  + I A F  
+Sbjct  337  VSEAKLGINHTHNILLETMYRGGIIGLILFAVALFMIGSRAKKVQDNPMYKMLIAASFLF  396
+
+Query  356  FIIMFIESVTY-YPYYFIIIVL-------------QTLYLKLERERNVK  390
+             I+  +E   Y YPY  + ++L                 LK  R R V+
+Sbjct  397  LILCSVEFAFYRYPYLIVFVLLCHDELFEVDELTQAEAMLKPRRRRKVR  445
+
+
+>MCC8135336.1 O-antigen ligase family protein [Ruminococcus sp.]
+Length=448
+
+ Score = 57.0 bits (136),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 73/308 (24%), Positives = 122/308 (40%), Gaps = 61/308 (20%)
+
+Query  138  TIDVFLNFTNIFHITFLGHVQVI-SQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINC  196
+             +  F+ F N   +   GH   I S  S  G  +S YYLL E  N     +  +L ++  
+Sbjct  144  AVGSFMCFLNEITMFLFGHSGGIYSDVSARGLDISTYYLLAED-NATFYWVWPVLILVWV  202
+
+Query  197  FFSDVSLSKVIALFMIVYIIS-----------------------------YKLRKLFWKR  227
+            ++     S ++ L+ IV+ IS                             +  R    + 
+Sbjct  203  YYYKFDSSSIMKLWAIVFTISTVGAYVYVWSVMAMLGLSITAVFILIFGIFNKRTKTPRL  262
+
+Query  228  GRKISVVTFIASVVMLAL--------VIFGYFLPYLRYF---DFTFNGRYQIWRIVYATI  276
+             +K     F  S ++ AL        +IF YF  Y+  +     T  GR  IW+   + I
+Sbjct  263  TKKHRFSLFNVSWLLAALFSYLMSIKLIFQYFGEYIELYLNKSATLTGREYIWQTALSYI  322
+
+Query  277  LQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFST  336
+             +   FGYG     ++     + ++GIN+THN +L+     GI+G+I F   +F +    
+Sbjct  323  NRALLFGYG-----YEPQSVSIAKLGINHTHNILLETMYRGGIIGLILFAVALFMIGSRA  377
+
+Query  337  KNIQNSTISSLFIFAYFCLFIIMFIESVTY-YPYYFIIIVL-------------QTLYLK  382
+            K +Q++ +  + I A F   ++  +E   Y YPY  + ++L                 LK
+Sbjct  378  KKVQDNPMYKMLIAASFLFLMLCSVEFAFYRYPYLIVFVLLCHDELFEVDELTQAEAMLK  437
+
+Query  383  LERERNVK  390
+              R R V+
+Sbjct  438  PRRRRKVR  445
+
+
+>MBU3956515.1 O-antigen ligase family protein [bacterium]
+Length=401
+
+ Score = 56.6 bits (135),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 49/166 (30%), Positives = 77/166 (46%), Gaps = 16/166 (10%)
+
+Query  223  LFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWF  282
+            +F+K+ + I + T  A ++ L  + F   +P  R       GR  IW+     + +   F
+Sbjct  220  MFFKKTKAIILPTAAAVIIALLSITFFKGMPLKRRLHLKLEGRQYIWKGAEGIVKKYPLF  279
+
+Query  283  GYGLFGFQFKLPWQKLG-EVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFST--KNI  339
+            G G       L   KLG EV +++THN  LQ+ + SGI  +I+FF +I Y  F    K I
+Sbjct  280  GVGQGNVYDALTETKLGREVKLSHTHNTYLQILVASGIFALITFFWVI-YAFFKELLKRI  338
+
+Query  340  QNSTISS---------LFIFAY--FC-LFIIMFIESVTYYPYYFII  373
+            ++  +           LF FA    C +   +F  +  YYP YF++
+Sbjct  339  KHPDVGKFEKYILVGLLFGFAAEGMCGMTDDLFCRAEIYYPIYFLM  384
+
+
+Sequence with id MCD7890604 no longer exists in database...alignment skipped
+>WP_166434497.1 O-antigen ligase family protein [Enterocloster lavalensis]
+Length=392
+
+ Score = 55.8 bits (133),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 37/119 (31%), Positives = 55/119 (46%), Gaps = 9/119 (8%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE--VGINYTHNQVLQLALDSG  318
+            T  GR  IW       LQ   FGYG+     K+ W   GE   G    HN +LQ   + G
+Sbjct  255  TLTGRTLIWNNAVNGFLQRPLFGYGV-----KMLWVSRGEYSTGTAMVHNNLLQFLTEGG  309
+
+Query  319  IVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFC-LFIIMFIESVTYYPYYFIIIVL  376
+            + G+  F  MI   +   + I+ + +  + + A  C +F  M  E +T Y Y++ +IVL
+Sbjct  310  LTGLALFLIMIAAAVKCLR-IRRNRMEDILLLAALCSMFTAMITEVLTLYNYFYFMIVL  367
+
+
+Sequence with id WP_049846079 no longer exists in database...alignment skipped
+Sequence with id PST33017 no longer exists in database...alignment skipped
+>WP_094661747.1 O-antigen ligase family protein [Bifidobacterium tissieri]
+ OZG59419.1 oligosaccharide repeat unit polymerase Wzy [Bifidobacterium tissieri]
+Length=388
+
+ Score = 55.5 bits (132),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 54/166 (33%), Positives = 77/166 (46%), Gaps = 22/166 (13%)
+
+Query  237  IASVVMLALVIF---GYFLPYLRYF--DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQF  291
+            IAS V L +VIF     F P +     + TF+GR  IW      I     FGYG+     
+Sbjct  228  IASSVWLLIVIFRIVNIFAPIVLKLGKNLTFSGRLAIWDNAIIAISHNPVFGYGVLTNDE  287
+
+Query  292  KLPWQKLGE----VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQN-----S  342
+             + +  L       G  + HNQ+LQ+A   G++ ++ F T+I  ++   K+I N     S
+Sbjct  288  MVQYLGLSSNGLWTGATHCHNQILQIAFQGGLIALLLFLTVIVLIL--KKSINNWPSKQS  345
+
+Query  343  TISSLFIFAYFCLFIIMFIESVTYYPYYFIIIVLQTLYLKLERERN  388
+             I+S  I AY    IIM    +  +P  F+I  L  +YL L RE  
+Sbjct  346  QIASYAISAY----IIMCTTEIFIFPVMFVIFPL--MYLVLSREEK  385
+
+
+>RHR54143.1 O-antigen ligase family protein [Clostridium sp. AF18-27]
+Length=394
+
+ Score = 55.5 bits (132),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 37/119 (31%), Positives = 55/119 (46%), Gaps = 9/119 (8%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE--VGINYTHNQVLQLALDSG  318
+            T  GR  IW       LQ   FGYG+     K+ W   GE   G    HN +LQ   + G
+Sbjct  257  TLTGRTLIWNNAVNGFLQRPLFGYGV-----KMLWVSRGEYSTGTAMVHNNLLQFLTEGG  311
+
+Query  319  IVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFC-LFIIMFIESVTYYPYYFIIIVL  376
+            + G+  F  MI   +   + I+ + +  + + A  C +F  M  E +T Y Y++ +IVL
+Sbjct  312  LTGLALFLIMIAAAVKCLR-IRRNRMEDILLLAALCSMFTAMITEVLTLYNYFYFMIVL  369
+
+
+>WP_166435004.1 MULTISPECIES: O-antigen ligase family protein [Eubacteriales]
+ MBS5604466.1 O-antigen ligase family protein [Enterocloster asparagiformis]
+ SET59916.1 O-antigen ligase [Enterocloster lavalensis]
+Length=392
+
+ Score = 55.5 bits (132),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 37/119 (31%), Positives = 55/119 (46%), Gaps = 9/119 (8%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE--VGINYTHNQVLQLALDSG  318
+            T  GR  IW       LQ   FGYG+     K+ W   GE   G    HN +LQ   + G
+Sbjct  255  TLTGRTLIWNNAVNGFLQRPLFGYGV-----KMLWVSRGEYSTGTAMVHNNLLQFLTEGG  309
+
+Query  319  IVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFC-LFIIMFIESVTYYPYYFIIIVL  376
+            + G+  F  MI   +   + I+ + +  + + A  C +F  M  E +T Y Y++ +IVL
+Sbjct  310  LTGLALFLIMIAAAVKCLR-IRRNRMEDILLLAALCSMFTAMITEVLTLYNYFYFMIVL  367
+
+
+>WP_054962220.1 O-antigen ligase family protein [Vibrio bivalvicida]
+ OAJ95269.1 exopolysaccharide biosynthesis protein [Vibrio bivalvicida]
+Length=418
+
+ Score = 55.8 bits (133),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 43/141 (30%), Positives = 68/141 (48%), Gaps = 19/141 (13%)
+
+Query  260  FTFNGRYQIWRIVYATILQVKWFGYG------LFGFQFKLPWQKLGEVGINYTHNQVLQL  313
+            FTF GR  IW +V   I +  W GYG      L    F+  W   G   +N +H  +LQL
+Sbjct  270  FTFTGRTMIWEVVTELIAEKPWLGYGYAASKQLLPLHFETSW---GWTTVN-SHQFILQL  325
+
+Query  314  ALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIES--VTYYPYYF  371
+             L SG++G +  F ++   ++     ++   SSLFIF    + +   +ES  +   P Y 
+Sbjct  326  LLSSGVIGSLPVFIILAIQVYFLVTFKSKLASSLFIF----ILVTGALESGAIGPIPNYL  381
+
+Query  372  IIIVLQT---LYLKLERERNV  389
+             ++ L T   L+ + ERE++ 
+Sbjct  382  TLLWLVTISMLFKEYEREKST  402
+
+
+Sequence with id MCD8187926 no longer exists in database...alignment skipped
+>WP_224913855.1 O-antigen ligase family protein [Vibrio alginolyticus]
+ MCA0934755.1 O-antigen ligase family protein [Vibrio alginolyticus]
+Length=424
+
+ Score = 55.5 bits (132),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 39/140 (28%), Positives = 70/140 (50%), Gaps = 22/140 (16%)
+
+Query  264  GRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGII  323
+            GR  +WR   + ILQ  +FGYG     +        ++G    HN +LQ  L+ G++G I
+Sbjct  287  GRIDLWRESISLILQKPFFGYGPEAHAYT------TKIGFLQPHNSILQSLLEFGVLGTI  340
+
+Query  324  SFFTMIFYMIFST--KNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYY----FIIIVLQ  377
+             F  ++ Y++ +     I+  T+++LF F+   L + +FI S+   P+Y     I++ + 
+Sbjct  341  PFLIILTYLVKNATINAIEEPTVNNLFCFS---LIVSIFIHSLYSGPFYHATSMILVCIA  397
+
+Query  378  TLYL-------KLERERNVK  390
+            + Y+       K  ++RN K
+Sbjct  398  SAYILSITLQRKTTKQRNKK  417
+
+
+Sequence with id WP_224188073 no longer exists in database...alignment skipped
+Sequence with id WP_150382167 no longer exists in database...alignment skipped
+>MBR9846952.1 O-antigen ligase family protein [Algicola sp.]
+Length=424
+
+ Score = 55.1 bits (131),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 32/91 (35%), Positives = 49/91 (54%), Gaps = 8/91 (9%)
+
+Query  263  NGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGI  322
+            NGR+++W+   + ILQ   FGYG     F+       ++G    HN +LQ  L+ GIVG 
+Sbjct  285  NGRFELWQESISLILQKPLFGYGPEAHAFE------TKIGFLQPHNALLQSLLEFGIVGT  338
+
+Query  323  ISFFTMIFYMIFST--KNIQNSTISSLFIFA  351
+            I F  MI Y++ ++    I   T+++LF F 
+Sbjct  339  IPFLIMIIYIVKNSTINAIAEPTVNNLFCFG  369
+
+
+>NGY80497.1 O-antigen ligase family protein [Priestia megaterium]
+Length=371
+
+ Score = 55.1 bits (131),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 53/197 (27%), Positives = 95/197 (48%), Gaps = 16/197 (8%)
+
+Query  187  LLLILTIINCFFSDVSLSKVIALFMIVYIISYK-----LRKLFWKRGRKISVVTFIASVV  241
+            LL+++  ++ + S+     V++   I+++I  K         FW     I +V F+  V+
+Sbjct  167  LLILICAVSLYLSESGTGIVVSFLAILFVILPKKYFPSFITYFW-----IYIVVFLTIVI  221
+
+Query  242  -MLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE  300
+              L  ++FG F+  + + D TF GR  IW +V   I Q    GYG         +  L E
+Sbjct  222  FRLQELLFGDFIINVLHKDMTFTGRTYIWDLVLDLIKQSWLIGYGRGNQIISHHFANLNE  281
+
+Query  301  VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMF  360
+                 THN +L++ + SGI+G++ F  ++  +     + +N  +S +  F+ F   II  
+Sbjct  282  -----THNGLLEIMMYSGILGVLFFLIILLVVGHKLNSNKNHILSKILSFSIFAYLIIGL  336
+
+Query  361  IESVTYYPYYFIIIVLQ  377
+             ESV Y   ++I++V+ 
+Sbjct  337  TESVFYKKEFWILLVIS  353
+
+
+>WP_195635292.1 O-antigen ligase family protein [Blautia massiliensis]
+ PWM19581.1 hypothetical protein DBX49_02540 [Clostridia bacterium]
+Length=398
+
+ Score = 55.1 bits (131),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 33/135 (24%), Positives = 64/135 (47%), Gaps = 12/135 (9%)
+
+Query  259  DFTFNGRYQIWR----IVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLA  314
+            D TF+GRY++W+    ++    +  + +GYG +     + WQ      I  +H+Q+LQ+ 
+Sbjct  260  DITFSGRYELWKYGISMIQNDDVNHQLWGYGFYNVSLWVKWQ--WYTIITESHDQLLQMV  317
+
+Query  315  LDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYYFIII  374
+             D+GI+G I  +    + +      +N    +L     F + I+   E  +Y+ Y++II 
+Sbjct  318  HDTGIIGTILMYLTFHFQLRGLNECKNILARNLIAAVCFAMMIMCITEIYSYHSYFYIIF  377
+
+Query  375  VLQTLYLKLERERNV  389
+             +        R +N+
+Sbjct  378  AIAA------RSKNI  386
+
+
+>WP_195376113.1 O-antigen ligase family protein [Faecalitalea cylindroides]
+Length=398
+
+ Score = 55.1 bits (131),  Expect = 4e-04, Method: Compositional matrix adjust.
+ Identities = 46/143 (32%), Positives = 66/143 (46%), Gaps = 17/143 (12%)
+
+Query  259  DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGE------VGINYTHNQVLQ  312
+            D TF GR  IW      I+    FGYG+      +  Q LG+      VG  + H+Q+LQ
+Sbjct  253  DITFTGRITIWDNAINCIINNPIFGYGILTNDAMV--QYLGKSSTGIWVGATHCHSQLLQ  310
+
+Query  313  LALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYYFI  372
+             A   GIV  +  F +I  +   +  I  + +S+L   A   L+IIM I  V  +P  ++
+Sbjct  311  TAFQGGIVAALLLFCIIGVVTCKSARIWPNKLSNLSGLA-IALYIIMSITEVFSFPIMYM  369
+
+Query  373  IIVLQTL--------YLKLERER  387
+            I  L  L         L+L+RER
+Sbjct  370  IFPLINLICDWKIDCTLELKRER  392
+
+
+Sequence with id WP_179879601 no longer exists in database...alignment skipped
+Sequence with id MBP6380049 no longer exists in database...alignment skipped
+>PES61581.1 hypothetical protein CN507_29000 [Bacillus cereus]
+Length=294
+
+ Score = 53.9 bits (128),  Expect = 6e-04, Method: Compositional matrix adjust.
+ Identities = 54/206 (26%), Positives = 105/206 (51%), Gaps = 16/206 (8%)
+
+Query  178  EKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFI  237
+             K++  +  LL+++  I+ + SD     +++   I++I   K     +K    I +V F+
+Sbjct  74   HKKSKALPLLLILICSISLYLSDSGTGIMVSFLTILFIFLPKKVLPTFKTYLYIYIVVFL  133
+
+Query  238  ASVV-MLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYG----LFGFQFK  292
+              +V  L  ++FG F+  + + D TF GR  IW +V   I +    G+G    +  + F 
+Sbjct  134  NIIVFRLQELLFGDFIINVLHKDMTFTGRTNIWDVVLNVIKESWILGFGRGNDIISYYF-  192
+
+Query  293  LPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNI-QNSTISSLFIFA  351
+                      +N THN VL++ + SG++GI+ FF +I +++ +  +I ++  IS +  F+
+Sbjct  193  --------FNLNETHNGVLEIMMYSGLLGIL-FFMIILFVVGNKLSINKDHIISKILSFS  243
+
+Query  352  YFCLFIIMFIESVTYYPYYFIIIVLQ  377
+             F   I+   ESV Y   ++I++++ 
+Sbjct  244  IFAYMILGLTESVFYKKEFWILLIIS  269
+
+
+>MBS1553047.1 O-antigen ligase family protein [Bacteroidetes bacterium]
+Length=393
+
+ Score = 54.3 bits (129),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 35/106 (33%), Positives = 59/106 (56%), Gaps = 5/106 (5%)
+
+Query  239  SVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPW-QK  297
+            + +++   IF  F   +  F +T + R  I+R  +   L    FGYGL  F+   P+  K
+Sbjct  231  AAILIVPDIFNRFYKLINLFSYT-SERDIIYRAAWDMALDRPLFGYGLATFKLIFPYFDK  289
+
+Query  298  LGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFST--KNIQN  341
+            + + G+N  HN  +Q+ ++SGIVG+ S+   +F+MI  T  +NI+N
+Sbjct  290  ITDTGVNSWHNDFIQIYMESGIVGLGSYL-FLFFMIIKTGIENIKN  334
+
+
+Sequence with id TFG71748 no longer exists in database...alignment skipped
+>WP_216924581.1 O-antigen ligase family protein [Alkalihalobacillus clausii]
+ MBU8597381.1 O-antigen ligase family protein [Alkalihalobacillus clausii]
+Length=429
+
+ Score = 53.9 bits (128),  Expect = 9e-04, Method: Compositional matrix adjust.
+ Identities = 64/228 (28%), Positives = 108/228 (47%), Gaps = 24/228 (11%)
+
+Query  153  FLGHVQVISQYSVIGFLVSAYYLLEEKRN---ILVAQLLL--ILTIINCFFSDVSLSKVI  207
+            F  H   +++++++ F+      L  K++   ++ A L +  +L +I  F    S +  I
+Sbjct  164  FFSHKNHLARFAILAFVTLLVMFLTTKKSRYKVITAALTIASLLLLIKSF----SATAYI  219
+
+Query  208  ALFMIVYIISYKLRKLFWKRGRKISVVTFIAS----VVMLALVIFGYFLPYLRYFDFTFN  263
+             LF+++  I   LR+   K   +ISV+ F+ S    + + AL      L Y+   D T  
+Sbjct  220  LLFIVIAAIPL-LRRFRLKNYLEISVLAFMLSGLSGLALYALFNANQLLAYVGR-DLTLT  277
+
+Query  264  GRYQIWRIVYATILQVKWFGYGLFGF--QFKLPWQKL----GEVGINYTHNQVLQLALDS  317
+            GR  IW      + +  +FGYG  GF   +  P Q+L    G+  IN+ HN  + +AL  
+Sbjct  278  GRTDIWAAAIDAVAREPFFGYGFSGFWAGYYGPSQQLLMATGK-DINHAHNGFIDVALQI  336
+
+Query  318  GIVGIISFFTMIFYMIFSTKNI--QNSTISSLFIFAYFCLFIIMFIES  363
+            GIVG+I F  ++   +F +  +   NS+  +L+   Y  L I M I  
+Sbjct  337  GIVGLIVFAILLGLTVFRSIKMITSNSSYLNLWPVLYLILLISMNISE  384
+
+
+Sequence with id PWJ70923 no longer exists in database...alignment skipped
+Sequence with id MBA00728 no longer exists in database...alignment skipped
+>NOZ64845.1 tetratricopeptide repeat protein [Caldiserica bacterium]
+Length=509
+
+ Score = 53.5 bits (127),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 31/112 (28%), Positives = 61/112 (54%), Gaps = 9/112 (8%)
+
+Query  229  RKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFG  288
+            +K  V+  I  + ++ L++F  F P+      TF GR ++WR+ +  + +    G+G   
+Sbjct  221  KKKKVLLVILGITVIFLLVFVKFAPFRELL--TFQGRQEVWRVSWNMLKEKPVSGWGWGS  278
+
+Query  289  FQFKLPWQK-------LGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMI  333
+            +++ LP+ K       L EV I   HN  LQ+A++ GI+ +++F  ++F ++
+Sbjct  279  YKYYLPFFKDKSFHRVLPEVNIEQAHNDYLQVAVEGGIISLVAFLFLLFQVM  330
+
+
+Sequence with id WP_065297304 no longer exists in database...alignment skipped
+Sequence with id WP_212139995 no longer exists in database...alignment skipped
+>WP_015193078.1 O-antigen ligase family protein [Stanieria cyanosphaera]
+ AFZ35407.1 O-antigen polymerase [Stanieria cyanosphaera PCC 7437]
+Length=410
+
+ Score = 53.1 bits (126),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 59/190 (31%), Positives = 77/190 (41%), Gaps = 27/190 (14%)
+
+Query  221  RKLFWKRGRKISVVT----FIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATI  276
+            R L W+  R I ++T    FIASVV+L +      +  L   D T +GR ++W  V   I
+Sbjct  216  RTLRWRNPRSILILTLIGLFIASVVVLLIGNAELIVTSLGK-DITLSGRTELWNGVIDQI  274
+
+Query  277  LQVKWFGYGLFGFQFKLPWQKLGE--------VGINY----THNQVLQLALDSGIVGIIS  324
+             Q  W GYG  GF     W             V IN+     HN  L L  D GIVG+I 
+Sbjct  275  RQKPWLGYGRGGF-----WNSESNMSEIVGSYVAINFLVPDAHNGFLDLTADLGIVGLIL  329
+
+Query  325  F---FTMIFYMIFSTKNIQNSTISSLFIFAYF-CLFIIMFIESVTYYPYYFIIIVLQTLY  380
+            F   F   F   F    + N    +L+   Y  C F+    ES        I  V   + 
+Sbjct  330  FLCSFIFAFQRAFVYARL-NFAPEALWHLTYLSCFFLYNLTESSVMKHNSIIWTVYMVVS  388
+
+Query  381  LKLERERNVK  390
+            L L R+ + K
+Sbjct  389  LSLNRKDSQK  398
+
+
+Sequence with id WP_212141594 no longer exists in database...alignment skipped
+>WP_118168890.1 O-antigen ligase family protein [Ruminococcus sp. AM41-10BH]
+ RGH50063.1 O-antigen ligase domain-containing protein [Ruminococcus sp. 
+AM41-10BH]
+Length=403
+
+ Score = 52.8 bits (125),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 45/171 (26%), Positives = 79/171 (46%), Gaps = 25/171 (15%)
+
+Query  237  IASVVMLALVIFGYFLPYLRYFDF-------------TFNGRYQIWRIVYATILQVKWFG  283
+            IAS+++LA+V       +LR  DF             TF  R  IW      I++    G
+Sbjct  228  IASILLLAVV-------FLRNADFLEPLIVNVLGKDMTFTSRLGIWDNAIKAIIEKPIIG  280
+
+Query  284  YG-LFGFQFKLPWQKLGEV---GINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNI  339
+            +G L+  Q      ++GE+   G  + H Q+LQ+   SGIVG+I + T+I       K  
+Sbjct  281  HGILYSNQIVEQLGQIGEILWKGATHCHCQILQVMFQSGIVGLICYLTVIIISFSCCKKY  340
+
+Query  340  QNSTISSLFIFAYFCLFIIMFIESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+              ++I+ +     F +F ++ I  V  YP  +++ ++     K+  + ++K
+Sbjct  341  IKTSIAQVGTICLF-IFCVISITEVYEYPQMYLLFIVPCYLKKILNDIDLK  390
+
+
+Sequence with id MBX9651430 no longer exists in database...alignment skipped
+Sequence with id MBR3322455 no longer exists in database...alignment skipped
+>WP_212142748.1 O-antigen ligase family protein [Campylobacter anatolicus]
+ MBR8465220.1 O-antigen ligase family protein [Campylobacter anatolicus]
+Length=390
+
+ Score = 52.4 bits (124),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 42/132 (32%), Positives = 62/132 (47%), Gaps = 3/132 (2%)
+
+Query  228  GRK--ISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYG  285
+            G+K  I+V T +  VV+L L    +        +   +GR+ IW      I Q   FGYG
+Sbjct  232  GKKELITVTTLVLFVVILYLSFDSFQQRVSALINLNSSGRFTIWTYSIQMIQQSPIFGYG  291
+
+Query  286  LFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTIS  345
+            L  F++      L     N THN +L+L L +G+ G I + ++IF         QN  I 
+Sbjct  292  LDSFRYLPNTPALQRTDFNATHNIILELLLYTGVFGAIFYLSLIFATFLKAYKSQNFAIF  351
+
+Query  346  SLFIFAY-FCLF  356
+            +LF + +  CLF
+Sbjct  352  TLFTYMFVLCLF  363
+
+
+Sequence with id WP_098328127 no longer exists in database...alignment skipped
+>MBT5911744.1 O-antigen ligase family protein [Rhodospirillaceae bacterium]
+Length=401
+
+ Score = 52.4 bits (124),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 46/193 (24%), Positives = 91/193 (47%), Gaps = 21/193 (11%)
+
+Query  174  YLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIA-LFMIVYIISYKLRK-LFWKRGRKI  231
+            Y +  K +  +A +L+ +T      SD + + VI+ L  +V I +Y     +FW     +
+Sbjct  176  YWVYRKGHPFIAVILISITCFTAALSDSNSALVISILIPLVAIAAYFFATFIFWLVLSSL  235
+
+Query  232  SVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQF  291
+            S+ T ++ ++ L L+   +  P+      +   R +IW    + +L+  W G+G+   ++
+Sbjct  236  SIFTLLSPIIFLFLL--NWVKPFADRIPPSTLDRIEIWHRTASAVLEAPWLGHGIGVTRY  293
+
+Query  292  -KLPWQKLGE-----VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTIS  345
+              +P + L +         + HN  +QL L+ G +G+I FF ++++ I   + I +S   
+Sbjct  294  LVIPPELLDQYKYHVTATTHPHNAAIQLWLELGAIGVIIFFLVLWFAIQPLRRISSS---  350
+
+Query  346  SLFIFAYFCLFII  358
+                    CLFI+
+Sbjct  351  --------CLFIV  355
+
+
+Sequence with id WP_065300137 no longer exists in database...alignment skipped
+Sequence with id OYQ67630 no longer exists in database...alignment skipped
+>WP_154581141.1 O-antigen ligase family protein [Anaerobutyricum soehngenii]
+ MSU82545.1 O-antigen ligase family protein [Anaerobutyricum soehngenii]
+Length=387
+
+ Score = 52.0 bits (123),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 39/122 (32%), Positives = 61/122 (50%), Gaps = 10/122 (8%)
+
+Query  263  NGRYQIWRIVYATILQVKWFGYGLFGFQFKLP-WQKLGEVGINYTHNQVLQLALDSGIVG  321
+            NGR  IW      I +   FGYG++G    LP W        NY HNQ+LQ  LD G++ 
+Sbjct  257  NGRSIIWDSAIKLIKEKLIFGYGVYGVYIPLPDWWG---TSYNYAHNQILQFLLDGGLIA  313
+
+Query  322  IISFFTMIFYM---IFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYYFIIIVLQT  378
+             I F  +I      I +++N +   IS++ +F+Y    ++M  E+ + Y  ++ +I L  
+Sbjct  314  TILFGLLIVIAGRNIDASRNYRIGKISAIVMFSY---LLMMISEAYSNYLVFYALIALLG  370
+
+Query  379  LY  380
+             Y
+Sbjct  371  EY  372
+
+
+Sequence with id WP_094518121 no longer exists in database...alignment skipped
+Sequence with id WP_095843274 no longer exists in database...alignment skipped
+>MBT4353336.1 O-antigen ligase family protein [Rhodospirillaceae bacterium]
+Length=401
+
+ Score = 51.6 bits (122),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 46/193 (24%), Positives = 91/193 (47%), Gaps = 21/193 (11%)
+
+Query  174  YLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIA-LFMIVYIISYKLRK-LFWKRGRKI  231
+            Y +  K +  +A +L+ +T      SD + + VI+ L  +V I +Y     +FW     +
+Sbjct  176  YWVYRKGHPFIAVILISITCFTAALSDSNSALVISILIPLVAIAAYFFATFIFWLVLSSL  235
+
+Query  232  SVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQF  291
+            S+ T ++ ++ L L+   +  P+      +   R +IW    + +L+  W G+G+   ++
+Sbjct  236  SIFTLLSPLIFLFLL--NWVKPFADRIPPSTLDRIEIWHRTASAVLEAPWLGHGIGVTRY  293
+
+Query  292  -KLPWQKLGE-----VGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTIS  345
+              +P + L +         + HN  +QL L+ G +G+I FF ++++ I   + I +S   
+Sbjct  294  LVIPPELLDQYKYHVTATTHPHNAAIQLWLELGAIGVIIFFLVLWFAIQPLRRISSS---  350
+
+Query  346  SLFIFAYFCLFII  358
+                    CLFI+
+Sbjct  351  --------CLFIV  355
+
+
+Sequence with id WP_135373283 no longer exists in database...alignment skipped
+>RGZ76584.1 O-antigen ligase domain-containing protein [[Eubacterium] rectale]
+Length=553
+
+ Score = 52.0 bits (123),  Expect = 0.005, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 43/85 (51%), Gaps = 2/85 (2%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIV  320
+            T NGR+  W      +L     G G  G+ FK P  + G     Y HN  LQ+ LD+GI+
+Sbjct  250  TLNGRFLYW-FDGIRVLMKNPLGLGYMGYYFKQPQFQTGNYATKYVHNDFLQMGLDNGII  308
+
+Query  321  GIISFFTMIFYMIFSTK-NIQNSTI  344
+             +I+F  ++ Y I S + N +N  I
+Sbjct  309  AMIAFIVIVGYCIVSKRTNDRNRLI  333
+
+
+Sequence with id WP_069428753 no longer exists in database...alignment skipped
+>MBD8922488.1 hypothetical protein [bacterium]
+Length=201
+
+ Score = 50.1 bits (118),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 40/113 (35%), Positives = 59/113 (52%), Gaps = 5/113 (4%)
+
+Query  71   HAFFILQYYFIVIILTFMVSGSIGVGLQSIF-YPIFIYLFFNEVRDKKSIVLIFDIFLYI  129
+             A  I+ Y+FI I++T +V   I  GLQ +F YP        EV+  + + L  +    I
+Sbjct  71   DAISIVTYFFIAILITIIVRNGIFTGLQQLFAYPTICAFIIFEVKGNQKMFL--NCMNNI  128
+
+Query  130  LTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYY--LLEEKR  180
+            +  LF++N I     F    H+TFLGHVQ+ISQ  ++    S  Y  L +EK+
+Sbjct  129  MLILFILNPIMTKAFFELGSHLTFLGHVQLISQLGLLATFSSILYYILFKEKK  181
+
+
+Sequence with id WP_062108629 no longer exists in database...alignment skipped
+Sequence with id MBR5405066 no longer exists in database...alignment skipped
+Sequence with id WP_113945477 no longer exists in database...alignment skipped
+>MBI2355998.1 O-antigen ligase family protein [Candidatus Doudnabacteria bacterium]
+Length=379
+
+ Score = 50.8 bits (120),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 44/155 (28%), Positives = 77/155 (50%), Gaps = 17/155 (11%)
+
+Query  179  KRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIA  238
+             R+ L+A L++I   +   +S  +   VI   +I+   +Y  +K              +A
+Sbjct  185  NRHSLLAGLVIITAALILTYSRGAWIAVILAVLILLFKTYSAKK-----------AVSLA  233
+
+Query  239  SVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKL  298
+             V++LA ++       L   D +      +W+I    I+Q   FG GL+GF+  L  QK 
+Sbjct  234  IVIVLAGLLLSPIRSRLTLTDASSLAHRDLWQISMDKIVQSPIFGNGLYGFRDTL--QKA  291
+
+Query  299  ---GEVGINYTHNQVLQLALDSGIVGIISFFTMIF  330
+               GE+ +NY HN +L   L++G++G++SFF +I+
+Sbjct  292  HFQGEI-LNYPHNIILNFWLETGLLGLLSFFAVIY  325
+
+
+Sequence with id WP_227101500 no longer exists in database...alignment skipped
+>CDC36487.1 putative uncharacterized protein [Butyrivibrio sp. CAG:318]
+Length=391
+
+ Score = 50.8 bits (120),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 74/275 (27%), Positives = 126/275 (46%), Gaps = 34/275 (12%)
+
+Query  135  VINTIDVFLNFTNIFHIT--------FLGHVQVISQYSVIGFLVSAYYLLEEKRNILVAQ  186
+            +INTI VF+ F    ++T        FLG       Y +IG ++SA Y +  K+ + +  
+Sbjct  123  LINTITVFM-FPGAMYLTNRGKPECWFLGLDNTAIVYYIIGNILSAVYNIRRKKPLWIF-  180
+
+Query  187  LLLILTIINCFFSDVSLSKVIALFMIVYI-ISYKLRKLFWKRGRKISVVTF-IASVVMLA  244
+            +  + T +  F +D++  KV  + MI+ I +SY  +KLF     KI+V+   I   V++ 
+Sbjct  181  ISFLQTFLFVFKNDIATGKVCLIVMILMIGLSYIFKKLF----SKINVLRLSIVDAVLMI  236
+
+Query  245  LVIF--------GYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQ  296
+            +V+F         + + YL   D TF+ R  IW  +   I +   FGYG   ++ +   +
+Sbjct  237  MVVFLNTSAFFKDFAMKYLGRSD-TFSNRTNIWAAIMHLIKKNPIFGYGT--YEGETMSR  293
+
+Query  297  KLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLF  356
+             LG  GI   HN    +    G++ +  F   +  ++ + K   +S  +   IF    +F
+Sbjct  294  ILGIEGITSAHNYYFMILFWGGMIALAMF---VVILVIANKGYDDSRTN---IFLAIGVF  347
+
+Query  357  IIMFIESVTYYPYYFIIIVLQTLYLK-LERERNVK  390
+             IM    V    Y  I I++   Y + L R  N++
+Sbjct  348  TIMLRAVVETGGYELIFILISVYYAQYLARPNNMQ  382
+
+
+Sequence with id NEO92654 no longer exists in database...alignment skipped
+>WP_141771947.1 O-antigen ligase family protein [Rossellomorea aquimaris]
+Length=375
+
+ Score = 50.4 bits (119),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 38/108 (35%), Positives = 57/108 (53%), Gaps = 23/108 (21%)
+
+Query  252  LPYLRYFDFTFN------------GRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLG  299
+            LPY +YF +  N            GR  IWR V A I +  WFGYG       LP   + 
+Sbjct  224  LPYWKYFPYFENLMLEYTGKSIMSGRDDIWRPVIAAINEQPWFGYG----PGTLP---ID  276
+
+Query  300  EVGIN-YTHNQVLQLALDSGIVGIISFFTMI--FYMIFSTKNIQNSTI  344
+              GI+  THN  LQ+AL +G +G++ F  ++  F++IF  +N+++ T+
+Sbjct  277  VTGIDLSTHNLYLQIALQNGYLGLLVFIILLLYFWIIF-YRNLKDKTV  323
+
+
+Sequence with id WP_070468777 no longer exists in database...alignment skipped
+>RGW32964.1 O-antigen ligase domain-containing protein [[Eubacterium] rectale]
+ CUO51150.1 Lipid A core-O-antigen ligase and related enzymes [[Eubacterium] 
+rectale]
+Length=553
+
+ Score = 50.4 bits (119),  Expect = 0.013, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 42/85 (49%), Gaps = 2/85 (2%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIV  320
+            T NGR   W      +L     G G  G+ FK P  + G     Y HN  LQ+ LD+GI+
+Sbjct  250  TLNGRVLYW-FDGIRVLMKNPLGLGYMGYYFKQPQFQTGNYATKYVHNDFLQMGLDNGII  308
+
+Query  321  GIISFFTMIFYMIFSTK-NIQNSTI  344
+             +I+F  ++ Y I S + N +N  I
+Sbjct  309  AMIAFIVIVGYCIVSKRTNDRNRLI  333
+
+
+Sequence with id QBQ85315 no longer exists in database...alignment skipped
+Sequence with id MBS5714203 no longer exists in database...alignment skipped
+>APZ79098.1 Wzy [Streptococcus suis]
+Length=384
+
+ Score = 50.1 bits (118),  Expect = 0.014, Method: Compositional matrix adjust.
+ Identities = 62/249 (25%), Positives = 113/249 (45%), Gaps = 27/249 (11%)
+
+Query  153  FLGHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSK--VIALF  210
+            FLG    ++ Y V  F +  +YLL  K +  ++   +I  I+  F S +S S   ++   
+Sbjct  151  FLGRKNALTPYLV--FTMGCFYLLTNKMSRRLSYSEIIFLILGSFVSLLSNSSTTILCFA  208
+
+Query  211  MIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYF------DFTFNG  264
+            + V+   + LR +      KI+++++     + + +I     P+ R        D TF+G
+Sbjct  209  LFVFFRFWGLRDVVSNTYLKITLISY----AVFSFLILSVQSPFFRVLTGLFGKDITFSG  264
+
+Query  265  RYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIIS  324
+            R  IW+   A   Q   FG GL    F  PW     V +N  HN +L L    G++  I 
+Sbjct  265  RLSIWQQAIAFFKQNPLFGNGL-NLNFT-PWTN--GVVVNTAHNYLLDLLARFGLITGIL  320
+
+Query  325  FFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYY----PYYFIIIVLQTLY  380
+            F  ++   +     I+N T+ ++ +   +  +I+M I S ++Y       F + V ++  
+Sbjct  321  FILLLVNFVLGKNRIKNKTLFAMLV--CYLYYILMEISSTSFYLALIACIFYVGVQES--  376
+
+Query  381  LKLERERNV  389
+             +L+ E+N+
+Sbjct  377  -RLKNEKNI  384
+
+
+Sequence with id NEQ88704 no longer exists in database...alignment skipped
+Sequence with id WP_102199516 no longer exists in database...alignment skipped
+Sequence with id MAJ82294 no longer exists in database...alignment skipped
+>WP_071107484.1 O-antigen ligase family protein [Moorena producens]
+ AOY84348.1 hypothetical protein BJP36_34905 [Moorena producens JHB]
+ NET63564.1 O-antigen ligase family protein [Moorena sp. SIO1G6]
+Length=411
+
+ Score = 50.1 bits (118),  Expect = 0.018, Method: Compositional matrix adjust.
+ Identities = 31/90 (34%), Positives = 42/90 (47%), Gaps = 20/90 (22%)
+
+Query  259  DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQK-----------LGEVGINYTH  307
+            D  FNGR  IW +V+  IL+  W GYG  GF     W             L   G  ++H
+Sbjct  259  DLEFNGRLPIWTLVFERILERPWLGYGFEGF-----WSSDAGYSVINSTWLAHGGYGHSH  313
+
+Query  308  NQVLQLALDSGIVG----IISFFTMIFYMI  333
+            +  L+LAL  G +G    ++SF T  F +I
+Sbjct  314  SGYLELALQLGFLGVLLFVLSFLTAFFRII  343
+
+
+>WP_025721056.1 O-antigen ligase family protein [Paenibacillus sp. 1-18]
+Length=403
+
+ Score = 49.7 bits (117),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 73/288 (25%), Positives = 126/288 (44%), Gaps = 34/288 (12%)
+
+Query  118  SIVLIFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLE  177
+            SI+ + ++   IL P F I+     +  T ++     GH   +   S++ F+    Y   
+Sbjct  114  SILSVLNLLAVILVPSFAIHG---GVEHTGLWK-GISGHKNTLGTLSLLSFVSHVIYFFR  169
+
+Query  178  EKRNILVAQLLLILTI--INCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVT  235
+             +R  L    +L+ T+  I C  S  SL    +LF  +  I      L +KR R +S+  
+Sbjct  170  GRRKALHIGFILLNTLLLIKCQ-STTSLVLTSSLFAFILFI------LLFKRIRSVSLRG  222
+
+Query  236  FIAS----VVMLALVI-FGYFLPYLRYFD--FTFNGRYQIWRIVYATILQVKWFGYGLFG  288
+            F  S    +V+L LV+ F Y       F    T  GR +IW+ +   I    WFG+G   
+Sbjct  223  FFISTSCLIVLLGLVVTFTYGDAIASEFGKTTTLTGRTEIWQGIAGAIQSHYWFGHGYGS  282
+
+Query  289  FQFKLPWQKLGEVGINYT--HNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISS  346
+            +    P    G +  + T  H+    L +D G+ G+++  T++   +   + I  + + +
+Sbjct  283  YWAARPSIYAGGIRFDLTSSHSGFRDLWIDVGLTGLLATITLVITTLLKFR-IGKADMYT  341
+
+Query  347  LFIFAYFCLFIIM-------FIESVTYYPYYFIIIVLQTLYLKLERER  387
+                A F LFI++       F+ S++ Y   F++IV++      ER R
+Sbjct  342  WLTAAVFFLFIVLNNITDSRFLNSLSIYWIIFMVIVIKV----QERHR  385
+
+
+Sequence with id WP_056063276 no longer exists in database...alignment skipped
+>WP_025147120.1 MULTISPECIES: O-antigen ligase family protein [Bacillus]
+ PFD42947.1 hypothetical protein CN285_08310 [Bacillus cereus]
+Length=378
+
+ Score = 49.7 bits (117),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 54/195 (28%), Positives = 99/195 (51%), Gaps = 12/195 (6%)
+
+Query  187  LLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASVV-MLAL  245
+            ++++++I + + S+     V+A+   ++++ +K      K    I V+ F A +V  L  
+Sbjct  172  IVILISIASIYLSESGTGIVVAIVTALFLVVHKRYFPSLKTYLLIYVILFFAIIVFRLQE  231
+
+Query  246  VIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINY  305
+            ++F  F+  + + D TF GR  +W ++  TI    + G+G         +  L E     
+Sbjct  232  LLFEDFIINVLHKDLTFTGRTYVWDLILNTIGGSYFIGFGRGNNIINQHFINLHE-----  286
+
+Query  306  THNQVLQLALDSGIVGIISFFTMIFYMIFSTKNI---QNSTISSLFIFAYFCLFIIMFIE  362
+             HN +L++ + SGI+G ISFF +I  +I   KN+   +N  IS +  F+ F   II   E
+Sbjct  287  AHNGLLEILMYSGILG-ISFFMVI--LIIVAKNLGYFKNHVISKVLSFSIFAYMIIGLTE  343
+
+Query  363  SVTYYPYYFIIIVLQ  377
+            SV Y   ++++IV+ 
+Sbjct  344  SVFYKNEFWMLIVIS  358
+
+
+Sequence with id MBT6305168 no longer exists in database...alignment skipped
+Sequence with id AOX03947 no longer exists in database...alignment skipped
+>WP_024414175.1 O-antigen ligase family protein [Streptococcus suis]
+ NQN57499.1 O-antigen ligase family protein [Streptococcus suis]
+ NQS32229.1 O-antigen ligase family protein [Streptococcus suis]
+ CYX72335.1 Lipid A core-O-antigen ligase and related enzymes [Streptococcus 
+suis]
+Length=384
+
+ Score = 49.7 bits (117),  Expect = 0.022, Method: Compositional matrix adjust.
+ Identities = 62/249 (25%), Positives = 113/249 (45%), Gaps = 27/249 (11%)
+
+Query  153  FLGHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSK--VIALF  210
+            FLG    ++ Y V  F +  +YLL  K +  ++   +I  I+  F S +S S   ++   
+Sbjct  151  FLGRKNALTPYLV--FTMGCFYLLTNKMSRRLSYSEIIFLILGSFVSLLSNSSTTILCFA  208
+
+Query  211  MIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYF------DFTFNG  264
+            + V+   + LR +      KI+++++     + + +I     P+ R        D TF+G
+Sbjct  209  LFVFFRFWGLRDVVSNAYLKITLISY----AVFSFLILSAQSPFFRVLTGLFGKDITFSG  264
+
+Query  265  RYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIIS  324
+            R  IW+   A   Q   FG GL    F  PW     V +N  HN +L L    G++  I 
+Sbjct  265  RLSIWQQAIAFFKQNPLFGNGL-TLNFT-PWTN--GVVVNTAHNYLLDLLARFGLITGIL  320
+
+Query  325  FFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYY----PYYFIIIVLQTLY  380
+            F  ++   +     I+N T+ ++ +   +  +I+M I S ++Y       F + V ++  
+Sbjct  321  FILLLVNFVLGKNRIKNKTLFAMLV--CYLYYILMEISSTSFYLALIACIFYVGVQES--  376
+
+Query  381  LKLERERNV  389
+             +L+ E+N+
+Sbjct  377  -RLKNEKNI  384
+
+
+Sequence with id WP_039713761 no longer exists in database...alignment skipped
+Sequence with id AKE80186 no longer exists in database...alignment skipped
+Sequence with id NEP27006 no longer exists in database...alignment skipped
+>WP_158517652.1 O-antigen ligase family protein [Moorena producens]
+Length=364
+
+ Score = 49.3 bits (116),  Expect = 0.027, Method: Compositional matrix adjust.
+ Identities = 47/161 (29%), Positives = 75/161 (47%), Gaps = 21/161 (13%)
+
+Query  232  SVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQF  291
+            +++ F+AS+V+L  + F   L  +   D   NGR  IW +V+  IL+  W GYG  GF  
+Sbjct  153  ALLAFVASIVILWNLEF--ILVDILGKDLQLNGRLPIWTLVFDKILERPWLGYGFEGF--  208
+
+Query  292  KLPWQK-----------LGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQ  340
+               W             L   G    H+  L+LAL  G +GI  F   +F  +F  K IQ
+Sbjct  209  ---WSSDAGYSVINSTWLAHGGYGNAHSGYLELALQLGFLGIFLFVLSLFIALF--KTIQ  263
+
+Query  341  NSTISSLFIFAYFCLFIIMF-IESVTYYPYYFIIIVLQTLY  380
+              +++    F +  L+++ F I +++  P      ++ TLY
+Sbjct  264  VLSVTKKIEFFWMFLYLVFFSIVNLSLDPSILAEDIVWTLY  304
+
+
+>OGL38682.1 hypothetical protein A2042_06070 [Candidatus Schekmanbacteria 
+bacterium GWA2_38_11]
+Length=494
+
+ Score = 49.3 bits (116),  Expect = 0.029, Method: Compositional matrix adjust.
+ Identities = 32/111 (29%), Positives = 58/111 (52%), Gaps = 9/111 (8%)
+
+Query  249  GYFLPYLRYFDFTF-----NGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKL--GEV  301
+            G+   + RY +F+       GR+ IW+  Y         G G   F +  P   L   ++
+Sbjct  333  GFTPVFDRYLNFSMKEELEEGRFSIWKSTYNIFKDYPILGTGFGSFVYVFPSYSLRSNQL  392
+
+Query  302  GINYTHNQVLQLALDSGIVGIISFFTMIFYM-IFSTKNI-QNSTISSLFIF  350
+             +N+ HN  L+L  D+GI+G+++  + +FY+ IFS +N+ +  + S ++IF
+Sbjct  393  EVNHAHNDWLELLSDTGILGLLTMGSGVFYLSIFSLRNVLKTKSDSQIWIF  443
+
+
+>MAT96897.1 hypothetical protein [Anaerolineaceae bacterium]
+Length=429
+
+ Score = 49.3 bits (116),  Expect = 0.031, Method: Compositional matrix adjust.
+ Identities = 61/203 (30%), Positives = 90/203 (44%), Gaps = 21/203 (10%)
+
+Query  144  NFTNIFHITFLGHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSL  203
+             +  IFH        V+ Q++ IG +V  +    + R+     LL  L  I   FS  S 
+Sbjct  156  KWHGIFH-----QKGVLGQFASIGAIVFFFLAWTKSRHRWFLWLLFGLATILLIFSQ-SR  209
+
+Query  204  SKVIALFMIVYIISYKLRKLFWKRGRKISVVTFI----ASVVMLALVIF--GYFLPYLRY  257
+            +  IAL +++ I+ +   K  WKR   +  V F+    A   + A VIF    FL  L  
+Sbjct  210  NPTIALVLVIGILPFL--KFLWKRWHFLLTVPFVIASLAFTAVTATVIFSQAEFLLNLIG  267
+
+Query  258  FDFTFNGRYQIWRIVYATILQVKWFGYGLFGF--QFKLP----WQKLGEVGINYTHNQVL  311
+               T  GR  +WR +   IL+    GYG  GF   ++ P    WQ    +  N+ HN  L
+Sbjct  268  RSATLTGRTGLWRDIGYMILERPILGYGYNGFWHGWEGPSAQIWQTNNWL-PNHAHNGFL  326
+
+Query  312  QLALDSGIVGIISFFTMIFYMIF  334
+            +L L  G++G+I FF      +F
+Sbjct  327  ELILTLGVLGLILFFADFLKTLF  349
+
+
+>WP_230896419.1 O-antigen ligase family protein, partial [Salipaludibacillus 
+sp. CUR1]
+Length=331
+
+ Score = 48.9 bits (115),  Expect = 0.033, Method: Compositional matrix adjust.
+ Identities = 29/89 (33%), Positives = 48/89 (54%), Gaps = 10/89 (11%)
+
+Query  259  DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINY--THNQVLQLALD  316
+            D TF+GR +IW  V+ TI    W+G+G+         + LG + + Y   HN +LQ+ LD
+Sbjct  212  DLTFSGRTRIWDSVFDTIPNSLWYGFGINS-------EVLGGI-VTYFAAHNMILQIFLD  263
+
+Query  317  SGIVGIISFFTMIFYMIFSTKNIQNSTIS  345
+            +G++G+  FF  I       +  +N+ +S
+Sbjct  264  TGLIGLTLFFICIVVGGVKLQKTKNNRVS  292
+
+
+>WP_227311336.1 O-antigen ligase family protein [Blautia sp. DFI.3.45]
+ MCB8625562.1 O-antigen ligase family protein [Blautia sp. DFI.3.45]
+Length=397
+
+ Score = 48.9 bits (115),  Expect = 0.035, Method: Compositional matrix adjust.
+ Identities = 51/193 (26%), Positives = 85/193 (44%), Gaps = 11/193 (6%)
+
+Query  206  VIALFMIVYIISYKLRK-LFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNG  264
+            V+ +FM    +  K +K    K G  I V+  +A VV       G F+  +   D T  G
+Sbjct  205  VLGVFMWYCTVCNKRKKPANMKAGIVIGVIADVAIVVFRVQEKLGLFIGTIFGKDTTLTG  264
+
+Query  265  RYQIWRIVYATI----LQVKWFGYGL--FGFQFKLPWQKLGEVGINY---THNQVLQLAL  315
+            R  +W      I    L  K   Y L  +G+  K  W    ++  +     HNQ L++ +
+Sbjct  265  RTDLWDQALELIGIHFLYGKGDSYALNQYGWLTKTYWNDKTQILEDVYFVAHNQFLEVLV  324
+
+Query  316  DSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVT-YYPYYFIII  374
+            + GI+ +I F    + MI S + I+N    ++   A    FI M  + +T Y P Y  I+
+Sbjct  325  NGGIICLIPFLLFFYSMIKSARKIRNYNYKNIIAAAILGYFIAMITDLITPYEPLYLFIL  384
+
+Query  375  VLQTLYLKLERER  387
+            +   +Y+ ++ +R
+Sbjct  385  ISSYIYICVKNDR  397
+
+
+Sequence with id WP_018071880 no longer exists in database...alignment skipped
+>OGX14969.1 hypothetical protein A2Y01_05115 [Omnitrophica WOR_2 bacterium 
+GWC2_44_8]
+ OGX22459.1 hypothetical protein A2Y00_03285 [Omnitrophica WOR_2 bacterium 
+GWF2_43_52]
+ HAH20877.1 hypothetical protein [Candidatus Omnitrophica bacterium]
+ HBG64545.1 hypothetical protein [Candidatus Omnitrophica bacterium]
+Length=410
+
+ Score = 48.9 bits (115),  Expect = 0.036, Method: Compositional matrix adjust.
+ Identities = 37/124 (30%), Positives = 62/124 (50%), Gaps = 12/124 (10%)
+
+Query  229  RKISVVTFIASVVMLALVIFGYFLPYLR--------YFDFTFNGRYQIWRIVYATILQVK  280
+            R +SV  F+ ++ +L + +  ++ PYLR        + D +   R  IW+  +   L   
+Sbjct  226  RPLSV--FLLAIAILVIALQPFYPPYLRERLRSFFIFTDTSSIDRKIIWQAGWKMFLSKP  283
+
+Query  281  WFGYGL--FGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKN  338
+            W G GL  F F FK    +    GI Y HN  LQ+A + GI+G+++F +++F   +    
+Sbjct  284  WLGVGLGAFMFNFKKFVVENYPSGIVYAHNCYLQMASEIGIIGLLTFLSILFSFFYHGIK  343
+
+Query  339  IQNS  342
+            I N+
+Sbjct  344  ILNT  347
+
+
+Sequence with id SMC34568 no longer exists in database...alignment skipped
+Sequence with id WP_143238362 no longer exists in database...alignment skipped
+Sequence with id WP_016130911 no longer exists in database...alignment skipped
+>KQL56489.1 hypothetical protein AN965_13605 [Alkalihalobacillus plakortidis]
+Length=399
+
+ Score = 48.5 bits (114),  Expect = 0.044, Method: Compositional matrix adjust.
+ Identities = 31/105 (30%), Positives = 51/105 (49%), Gaps = 7/105 (7%)
+
+Query  259  DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSG  318
+            D T +GR  IW  V   I +  W+G+G+   +  +     G      +HN +LQ  L+SG
+Sbjct  270  DMTLSGRTAIWEQVLNVIPESFWYGFGI-NVRILVSHTYFG------SHNLILQTTLESG  322
+
+Query  319  IVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIES  363
+            I+G+I   + +       +  +NS I+ + + A F +FI    ES
+Sbjct  323  IIGLILLISCVVVSGIQLQKFRNSNITIILLVAVFGIFIGGLTES  367
+
+
+>WP_160319305.1 MULTISPECIES: O-antigen ligase family protein [Alkalihalobacillus]
+Length=393
+
+ Score = 48.5 bits (114),  Expect = 0.046, Method: Compositional matrix adjust.
+ Identities = 31/105 (30%), Positives = 51/105 (49%), Gaps = 7/105 (7%)
+
+Query  259  DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSG  318
+            D T +GR  IW  V   I +  W+G+G+   +  +     G      +HN +LQ  L+SG
+Sbjct  264  DMTLSGRTAIWEQVLNVIPESFWYGFGI-NVRILVSHTYFG------SHNLILQTTLESG  316
+
+Query  319  IVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIES  363
+            I+G+I   + +       +  +NS I+ + + A F +FI    ES
+Sbjct  317  IIGLILLISCVVVSGIQLQKFRNSNITIILLVAVFGIFIGGLTES  361
+
+
+>WP_155203207.1 O-antigen ligase family protein [Mediterraneibacter faecis]
+ MTR75418.1 hypothetical protein [Mediterraneibacter faecis]
+Length=400
+
+ Score = 48.5 bits (114),  Expect = 0.046, Method: Compositional matrix adjust.
+ Identities = 47/172 (27%), Positives = 79/172 (46%), Gaps = 19/172 (11%)
+
+Query  230  KISVVTFIASVVMLALVIF------GYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFG  283
+            K++VV  I S+V +A+V+F      G  +  L   D T  GR  +W      +    WFG
+Sbjct  226  KMAVV--IGSLVDIAIVVFRIQERLGGIISTLFGKDTTLTGRTGLWDQALELMRINPWFG  283
+
+Query  284  YG------LFGFQFKLPW----QKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMI  333
+             G       +G+     W    Q L +V    +HNQ L++ ++ G++ +I F  + ++MI
+Sbjct  284  KGNSYALNQYGWLTMHFWNSRTQTLDDVYF-VSHNQFLEIMVNGGLICLIPFIGIFYWMI  342
+
+Query  334  FSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYYFIIIVLQTLYLKLER  385
+             S + I+NS        A    FI M  + +T Y   ++ I++ +   K E 
+Sbjct  343  RSAQRIENSKYKMTIGAALIAYFIAMITDLITPYESVYLFIIVASYIHKCEN  394
+
+
+>WP_130719698.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TAZ76874.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TAZ90574.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TBA12981.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TBA52568.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TBB41813.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+Length=439
+
+ Score = 48.5 bits (114),  Expect = 0.047, Method: Compositional matrix adjust.
+ Identities = 46/187 (25%), Positives = 82/187 (44%), Gaps = 10/187 (5%)
+
+Query  156  HVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYI  215
+            H  V+  Y+ +  LV++  L++    +     +L+   + C  S  S++ +IA  +   +
+Sbjct  172  HKNVLGWYASLMILVASAVLIDGTLGLRRTAFILLAAGVICLASSGSMTAIIATSVAYCL  231
+
+Query  216  IS-YKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYF--DFTFNGRYQIWRIV  272
+            I  Y L +     GR + V+ F+   V + + +  + +P L     D T  GR  +W +V
+Sbjct  232  IGFYSLLQRSSSIGRVVIVLFFVQLSVAILISLHEFLVPALEALGKDATLTGRVPLWELV  291
+
+Query  273  YATILQVKWFGYGLFGF------QFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFF  326
+               I     FGYG   F      +    W K+G     + HN    + L  GI+G+I F 
+Sbjct  292  DREISDRWMFGYGYQAFWTTANPEATRMWLKIGWAA-PHAHNGYRDILLSFGIMGMIPFV  350
+
+Query  327  TMIFYMI  333
+             ++ + I
+Sbjct  351  LLLLHAI  357
+
+
+>HCT97333.1 polymerase [Aerococcus urinaeequi]
+Length=404
+
+ Score = 48.5 bits (114),  Expect = 0.051, Method: Compositional matrix adjust.
+ Identities = 31/93 (33%), Positives = 42/93 (45%), Gaps = 2/93 (2%)
+
+Query  229  RKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFG  288
+            +KI+V TF+ + +   +VI   FLP      F F  R+ IW I    +    WFG G   
+Sbjct  227  KKIAVGTFLTATIGTLIVIKLGFLPRFEDLGFAFEDRFVIWEIGLKGLRDNFWFGQG--P  284
+
+Query  289  FQFKLPWQKLGEVGINYTHNQVLQLALDSGIVG  321
+              +   WQ  G+    + HN VL   L  G VG
+Sbjct  285  LTYLNVWQDYGDKYTQHAHNIVLDTLLSYGAVG  317
+
+
+Sequence with id GFI03990 no longer exists in database...alignment skipped
+>WP_130718561.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TAT92482.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TAZ25730.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TBD07804.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+Length=439
+
+ Score = 48.5 bits (114),  Expect = 0.055, Method: Compositional matrix adjust.
+ Identities = 46/187 (25%), Positives = 82/187 (44%), Gaps = 10/187 (5%)
+
+Query  156  HVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYI  215
+            H  V+  Y+ +  LV++  L++    +     +L+   + C  S  S++ +IA  +   +
+Sbjct  172  HKNVLGWYASLMILVASAVLIDGTLGLRRTAFILLAAGLVCLASSGSMTAIIATSVAYCL  231
+
+Query  216  IS-YKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYF--DFTFNGRYQIWRIV  272
+            I  Y L +     GR + V+ F+   V + + +  + +P L     D T  GR  +W +V
+Sbjct  232  IGFYSLLQKSSSIGRVVIVLFFVQLSVAILISLHEFLVPALEALGKDATLTGRVPLWELV  291
+
+Query  273  YATILQVKWFGYGLFGF------QFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFF  326
+               I     FGYG   F      +    W K+G     + HN    + L  GI+G+I F 
+Sbjct  292  DREISDRWMFGYGYQAFWTVANPEATRMWLKIGWAA-PHAHNGYRDILLSFGIMGMIPFV  350
+
+Query  327  TMIFYMI  333
+             ++ + I
+Sbjct  351  LLLLHAI  357
+
+
+Sequence with id WP_186941975 no longer exists in database...alignment skipped
+Sequence with id WP_130747214 no longer exists in database...alignment skipped
+Sequence with id WP_018493931 no longer exists in database...alignment skipped
+Sequence with id WP_164564146 no longer exists in database...alignment skipped
+Sequence with id WP_130707156 no longer exists in database...alignment skipped
+Sequence with id WP_036477065 no longer exists in database...alignment skipped
+>WP_130680704.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TAV20157.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+Length=439
+
+ Score = 48.1 bits (113),  Expect = 0.069, Method: Compositional matrix adjust.
+ Identities = 46/187 (25%), Positives = 82/187 (44%), Gaps = 10/187 (5%)
+
+Query  156  HVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYI  215
+            H  V+  Y+ +  LV++  L++    +     +L+   + C  S  S++ +IA  +   +
+Sbjct  172  HKNVLGWYASLMILVASAVLIDGTLGLRRTAFILLAAGMVCLASSGSMTAIIATSVAYCL  231
+
+Query  216  IS-YKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYF--DFTFNGRYQIWRIV  272
+            I  Y L +     GR + V+ F+   V + + +  + +P L     D T  GR  +W +V
+Sbjct  232  IGFYSLLQKSSSIGRVVIVLFFVQLSVAILISLHEFLVPALEALGKDATLTGRVPLWELV  291
+
+Query  273  YATILQVKWFGYGLFGF------QFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFF  326
+               I     FGYG   F      +    W K+G     + HN    + L  GI+G+I F 
+Sbjct  292  DREISDRWMFGYGYQAFWTTANPEATRMWLKIGWAA-PHAHNGYRDILLSFGIMGMIPFV  350
+
+Query  327  TMIFYMI  333
+             ++ + I
+Sbjct  351  LLLLHAI  357
+
+
+>WP_130691941.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ QND24849.1 O-antigen ligase family protein [Rhizobium leguminosarum bv. 
+viciae]
+ TAT70657.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TAT75364.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TAU61342.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+ TAW48581.1 O-antigen ligase family protein [Rhizobium leguminosarum]
+Length=439
+
+ Score = 48.1 bits (113),  Expect = 0.069, Method: Compositional matrix adjust.
+ Identities = 46/187 (25%), Positives = 82/187 (44%), Gaps = 10/187 (5%)
+
+Query  156  HVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYI  215
+            H  V+  Y+ +  LV++  L++    +     +L+   + C  S  S++ +IA  +   +
+Sbjct  172  HKNVLGWYASLMILVASAVLIDGTLGLRRTAFILLAAGMVCLASSGSMTAIIATSVAYCL  231
+
+Query  216  IS-YKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYF--DFTFNGRYQIWRIV  272
+            I  Y L +     GR + V+ F+   V + + +  + +P L     D T  GR  +W +V
+Sbjct  232  IGFYSLLQKSSSIGRVVIVLFFVQLSVAILISLHEFLVPALEALGKDATLTGRVPLWELV  291
+
+Query  273  YATILQVKWFGYGLFGF------QFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFF  326
+               I     FGYG   F      +    W K+G     + HN    + L  GI+G+I F 
+Sbjct  292  DREISDRWMFGYGYQAFWTTANPEATRMWLKIGWAA-PHAHNGYRDILLSFGIMGMIPFV  350
+
+Query  327  TMIFYMI  333
+             ++ + I
+Sbjct  351  LLLLHAI  357
+
+
+Sequence with id WP_130704477 no longer exists in database...alignment skipped
+>WP_098813219.1 O-antigen ligase family protein [Priestia megaterium]
+ PGT76789.1 hypothetical protein COD15_02935 [Priestia megaterium]
+Length=399
+
+ Score = 47.8 bits (112),  Expect = 0.077, Method: Compositional matrix adjust.
+ Identities = 38/140 (27%), Positives = 68/140 (49%), Gaps = 17/140 (12%)
+
+Query  259  DFTFNGRYQIWRIVYATILQVKWFGYGLFGF----QFKLPWQKLGEVGINYTHNQVLQLA  314
+            D T   R  IW IV   I +    GYG+        + +P+Q      I+ +H+ VL++ 
+Sbjct  261  DATLTNRTDIWGIVLHYIKEAWLLGYGVKNTIVLDHYYVPYQT-----ISSSHDGVLEIL  315
+
+Query  315  LDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTY--YPYYFI  372
+            L +G VG+  FF M+   +   +  + S  S++  ++ F   II   ESV Y   P+++I
+Sbjct  316  LSTGAVGLFFFFVMLVSSLLRLQYTKKSLSSTILAYSIFSYLIISISESVFYIDRPFFWI  375
+
+Query  373  IIVLQ------TLYLKLERE  386
+            ++++        L+LK  ++
+Sbjct  376  LLLMAVNINKINLWLKSNKD  395
+
+
+Sequence with id TAF09695 no longer exists in database...alignment skipped
+Sequence with id WP_039935415 no longer exists in database...alignment skipped
+>EFG49789.1 O-antigen polymerase [Aerococcus viridans ATCC 11563 = CCUG 4311]
+Length=374
+
+ Score = 47.8 bits (112),  Expect = 0.086, Method: Compositional matrix adjust.
+ Identities = 30/93 (32%), Positives = 41/93 (44%), Gaps = 2/93 (2%)
+
+Query  229  RKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFG  288
+            +KI+V TF+ +     + I   FLP      F F  R+ IW I    +    WFG G   
+Sbjct  197  KKIAVGTFLTATTGTLIAIKLGFLPRFEDLGFAFEDRFVIWEIGLKGLRDNFWFGQG--P  254
+
+Query  289  FQFKLPWQKLGEVGINYTHNQVLQLALDSGIVG  321
+              +   WQ  G+    + HN VL   L  G+VG
+Sbjct  255  LTYLNVWQDYGDKYTQHAHNIVLDTLLSYGVVG  287
+
+
+Sequence with id SUU17616 no longer exists in database...alignment skipped
+>WP_142727551.1 O-antigen ligase family protein [Vibrio cholerae]
+ TQP92240.1 O-antigen ligase family protein [Vibrio cholerae]
+Length=383
+
+ Score = 47.8 bits (112),  Expect = 0.089, Method: Compositional matrix adjust.
+ Identities = 38/128 (30%), Positives = 69/128 (54%), Gaps = 9/128 (7%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIV  320
+            T +GR+ +W   +  I Q   FGYG+F  ++ +  + LG+VG  Y+HN  + + L+SG++
+Sbjct  263  TGSGRFYLWDFAFEKIEQSPIFGYGIFTTKY-IFIELLGKVG--YSHNTYIDITLESGLI  319
+
+Query  321  GIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIE-SVTYYPYYFIIIVLQTL  379
+            G+  F  MI  +++   N++ +    + I  +F L   M +  S   + Y+F ++V+   
+Sbjct  320  GLFIFSCMILSILY-IANLKFNNYPWMMISLFFILIQFMSLSLSFNEFFYFFCVVVMVLN  378
+
+Query  380  YLKLERER  387
+            Y    RER
+Sbjct  379  Y----RER  382
+
+
+>WP_139903738.1 O-antigen ligase family protein [Clostridium thermarum]
+Length=395
+
+ Score = 47.8 bits (112),  Expect = 0.089, Method: Compositional matrix adjust.
+ Identities = 47/144 (33%), Positives = 63/144 (44%), Gaps = 18/144 (13%)
+
+Query  199  SDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVI------FGYFL  252
+            S+ S S VI L   V I+SYK    +      I + TFI+ ++   L        FG   
+Sbjct  192  SNSSTSLVILLISTVAILSYKFINAY-----IIIIGTFISGIIFYILFFLQNNEWFGSIA  246
+
+Query  253  PYL-RYF--DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQ----KLGEVGINY  305
+              L +YF  D T  GR  IW      +      GYG  GF +  P+        E  I +
+Sbjct  247  SQLLQYFNRDITLTGRTGIWNFSIEAMKLKPLLGYGYHGFWYNNPYSYYFSMANEFMIGH  306
+
+Query  306  THNQVLQLALDSGIVGIISFFTMI  329
+            +HN  + L LD G++G I FF MI
+Sbjct  307  SHNGYIDLLLDLGVIGTIVFFIMI  330
+
+
+>NEO24263.1 O-antigen ligase family protein [Moorena sp. SIO4A5]
+Length=364
+
+ Score = 47.8 bits (112),  Expect = 0.091, Method: Compositional matrix adjust.
+ Identities = 46/161 (29%), Positives = 74/161 (46%), Gaps = 21/161 (13%)
+
+Query  232  SVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQF  291
+            +++ F+AS+V+L  + F   L  +   D   NGR  IW +V+  IL+  W GYG  GF  
+Sbjct  153  ALLAFVASIVILWNLEF--ILVDILGKDLQLNGRLPIWTLVFDKILERPWLGYGFEGF--  208
+
+Query  292  KLPWQK-----------LGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQ  340
+               W             L   G    H+  L+LAL  G +GI  F   +   +F  K IQ
+Sbjct  209  ---WSSDAGYSVINSTWLAHGGYGNAHSGYLELALQLGFLGIFLFVLSLLIALF--KTIQ  263
+
+Query  341  NSTISSLFIFAYFCLFIIMF-IESVTYYPYYFIIIVLQTLY  380
+              +++    F +  L+++ F I +++  P      ++ TLY
+Sbjct  264  VLSVTKKLEFFWMFLYLVFFSIVNLSLDPSILAEDIVWTLY  304
+
+
+>NEO45386.1 O-antigen ligase family protein [Moorena sp. SIO4A3]
+Length=364
+
+ Score = 47.4 bits (111),  Expect = 0.093, Method: Compositional matrix adjust.
+ Identities = 46/161 (29%), Positives = 74/161 (46%), Gaps = 21/161 (13%)
+
+Query  232  SVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQF  291
+            +++ F+AS+V+L  + F   L  +   D   NGR  IW +V+  IL+  W GYG  GF  
+Sbjct  153  ALLAFVASIVILWNLEF--ILVDILGKDLQLNGRLPIWTLVFDKILERPWLGYGFEGF--  208
+
+Query  292  KLPWQK-----------LGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQ  340
+               W             L   G    H+  L+LAL  G +GI  F   +   +F  K IQ
+Sbjct  209  ---WSSDAGYYVINSTWLAHGGYGNAHSGYLELALQLGFLGIFLFVLSLLIALF--KTIQ  263
+
+Query  341  NSTISSLFIFAYFCLFIIMF-IESVTYYPYYFIIIVLQTLY  380
+              +++    F +  L+++ F I +++  P      ++ TLY
+Sbjct  264  VLSVTKKLEFFWMFLYLVFFSIVNLSLDPSILAEDIVWTLY  304
+
+
+Sequence with id MBR9943751 no longer exists in database...alignment skipped
+Sequence with id NEN99083 no longer exists in database...alignment skipped
+>MBO7179273.1 O-antigen ligase family protein [Clostridia bacterium]
+Length=412
+
+ Score = 47.8 bits (112),  Expect = 0.098, Method: Compositional matrix adjust.
+ Identities = 35/146 (24%), Positives = 72/146 (49%), Gaps = 12/146 (8%)
+
+Query  247  IFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYT  306
+            IF Y +  +   D TF+GR +IW +   +  +   FGYG+         + + ++ IN +
+Sbjct  264  IFSYVIKNVLDKDLTFSGRTEIWDLSIKSFYKSPVFGYGIEDLT-----ETIRKISINSS  318
+
+Query  307  HNQVLQLALDSGIVGIISFFTMIFYMI---FSTKNIQNSTISSLFIFAYFCLFIIMFIES  363
+            HNQ L +    G+V  + F  M+F ++   +  +NI    ++++   A   +FI+   E+
+Sbjct  319  HNQYLWILYRGGLVHFLPFIVMLFSVVKRLYEKRNIAYVRVTAI---ALCTIFIMWQFEA  375
+
+Query  364  VTYYPYYFIII-VLQTLYLKLERERN  388
+            ++ +    +++      Y+KLE ++ 
+Sbjct  376  ISTHSIMILLVFAYHVGYVKLETKKE  401
+
+
+>OLT62925.1 hypothetical protein BJP37_31715 [Moorena bouillonii PNG]
+Length=413
+
+ Score = 47.4 bits (111),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 46/161 (29%), Positives = 74/161 (46%), Gaps = 21/161 (13%)
+
+Query  232  SVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQF  291
+            +++ F+AS+V+L  + F   L  +   D   NGR  IW +V+  IL+  W GYG  GF  
+Sbjct  202  ALLAFVASIVILWNLEF--ILVDILGKDLQLNGRLPIWTLVFDKILERPWLGYGFEGF--  257
+
+Query  292  KLPWQK-----------LGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQ  340
+               W             L   G    H+  L+LAL  G +GI  F   +   +F  K IQ
+Sbjct  258  ---WSSDAGYSVINSTWLAHGGYGNAHSGYLELALQLGFLGIFLFVLSLCIALF--KTIQ  312
+
+Query  341  NSTISSLFIFAYFCLFIIMF-IESVTYYPYYFIIIVLQTLY  380
+              +++    F +  L+++ F I +++  P      ++ TLY
+Sbjct  313  VLSVTKKLEFFWMFLYLVFFSIVNLSLDPSILAEDIVWTLY  353
+
+
+>MBQ1898966.1 O-antigen ligase family protein [Ruminococcus sp.]
+Length=561
+
+ Score = 47.8 bits (112),  Expect = 0.10, Method: Compositional matrix adjust.
+ Identities = 36/119 (30%), Positives = 56/119 (47%), Gaps = 8/119 (7%)
+
+Query  226  KRGRKISVVTFI--ASVVMLALVIFGYFLPYLRY-----FDFTFNGRYQIWRIVYATILQ  278
+            K+GR I +V  I  A+ ++L   +     P+ R+     F+ TF GR   WR     IL+
+Sbjct  215  KKGRIILLVAVIVLATAIVLLYPVLSKTEPFSRFLSLSVFESTFAGRLLYWRDALPLILK  274
+
+Query  279  VKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTK  337
+               FG G  G+ F     + G   + + HN +LQL LD G +  + F   +   +FS +
+Sbjct  275  -HPFGMGYLGYYFTEQSVQTGVYAVRFIHNDILQLLLDVGWIPALLFAAAVLRKLFSKE  332
+
+
+>WP_194004795.1 O-antigen ligase family protein [aff. Roholtiella sp. LEGE 12411]
+ MBE9037032.1 O-antigen ligase family protein [aff. Roholtiella sp. LEGE 12411]
+Length=404
+
+ Score = 47.4 bits (111),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 54/206 (26%), Positives = 96/206 (47%), Gaps = 24/206 (12%)
+
+Query  155  GHVQVISQYSVIGFLVSAYYLLEEKRN--ILVAQLLLILTIINCFFSDVSLSKVIALFMI  212
+             H Q +++   +G +V    LL  ++   + +A L ++L ++   +   S + +  L + 
+Sbjct  150  AHKQYLARAMTVGCMVFLLALLSTRKYWWLKLAMLFIMLLLL---WQSTSKTGIGFLLVC  206
+
+Query  213  VYIIS-YKLRKLFWKRGRKISVVTFI--ASVVMLALVIFGYFLPYLRYFDFTFNGRYQIW  269
+            +YI+  YK+ K  ++    I  V F+   +V ML L      +  +   D  FNGR  +W
+Sbjct  207  IYIMPLYKIAKQKFRIRETILAVAFMINGTVAMLLLGNLETIVVDIMGKDLEFNGRLPLW  266
+
+Query  270  RIVYATILQVKWFGYGLFGFQ--------FKLPWQKLGEVGINYTHNQVLQLALDSGIVG  321
+            +          WFGYG  GF          K  W +  E+  N++HN  + + L  G+VG
+Sbjct  267  QKAIEVGCNQPWFGYGYAGFWSSPISLEVAKSLWIR-QELNANHSHNGFIDIFLQLGVVG  325
+
+Query  322  II----SFFTMIF---YMIFSTKNIQ  340
+            +I    +F  +IF   Y++F +K I+
+Sbjct  326  LILLAFNFSIVIFNVIYLLFISKTIE  351
+
+
+>CUM97649.1 Lipid A core-O-antigen ligase and related enzymes [Blautia hydrogenotrophica]
+Length=393
+
+ Score = 47.4 bits (111),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 38/156 (24%), Positives = 70/156 (45%), Gaps = 31/156 (20%)
+
+Query  248  FGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYG---------LFGFQFKLPWQKL  298
+            F + L  +   D +  GR +IW +  A I +  WFGYG         L+ F         
+Sbjct  247  FSWLLSGILQKDISLTGRTEIWDVALAVINKQLWFGYGYTNHGNFVALYDF---------  297
+
+Query  299  GEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFII  358
+                +   H+Q++Q+    GIVG++ F  ++F ++          IS L      C F++
+Sbjct  298  ----VTSGHSQMIQVLYYGGIVGMVLFLVLLFSVVRKAIKAHYKEISIL-----LCTFVV  348
+
+Query  359  MFIESVTYYP----YYFIIIVLQTLYLKLERERNVK  390
+            + IE+++       Y+  ++V+  + + L+ E NV+
+Sbjct  349  IVIETISEICMDNLYFITLLVVMEMSVYLKGEINVR  384
+
+
+Sequence with id MBQ7784461 no longer exists in database...alignment skipped
+>WP_069285951.1 O-antigen ligase family protein [Aerococcus urinaeequi]
+Length=404
+
+ Score = 47.4 bits (111),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 30/93 (32%), Positives = 41/93 (44%), Gaps = 2/93 (2%)
+
+Query  229  RKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFG  288
+            +KI+V TF+ + +   + I   FLP      F F  R+ IW I    +    WFG G   
+Sbjct  227  KKIAVGTFLTATIGTLIAIKLGFLPRFEDLGFAFEDRFVIWEIGLKGLRDNFWFGQG--P  284
+
+Query  289  FQFKLPWQKLGEVGINYTHNQVLQLALDSGIVG  321
+              +   WQ  G+    + HN VL   L  G VG
+Sbjct  285  LTYLNVWQDYGDKYTQHAHNIVLDTLLSYGAVG  317
+
+
+Sequence with id HAL00819 no longer exists in database...alignment skipped
+Sequence with id WP_190310926 no longer exists in database...alignment skipped
+>OKZ73771.1 hypothetical protein BHW00_06530 [Clostridium sp. 26_22]
+Length=392
+
+ Score = 47.4 bits (111),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 29/118 (25%), Positives = 58/118 (49%), Gaps = 5/118 (4%)
+
+Query  259  DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSG  318
+            D TF GR +IW      I   K  G G    +     Q++ ++ I + H+  L + L+SG
+Sbjct  264  DITFTGRTEIWDKTLEEIEDNKIIGTGYMNMK-----QRMEKMNIYHAHSTYLNILLESG  318
+
+Query  319  IVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYYFIIIVL  376
+            I+G +++  ++ ++    K I +  + ++  FA F   I+   E      Y+++++V+
+Sbjct  319  IIGELTYLILLIFIGCRIKKIDDKNLVNIASFAIFTYLIMSIFEVYIDILYFYLLVVV  376
+
+
+Sequence with id MBR2129513 no longer exists in database...alignment skipped
+Sequence with id WP_168769249 no longer exists in database...alignment skipped
+Sequence with id WP_118526228 no longer exists in database...alignment skipped
+Sequence with id WP_182022978 no longer exists in database...alignment skipped
+>WP_026466132.1 MULTISPECIES: O-antigen ligase family protein [Lactobacillales]
+ QGS37135.1 O-antigen ligase family protein [Aerococcus viridans]
+ ALZ87750.1 polymerase [Aerococcus urinaeequi]
+ AMB96762.1 polymerase [Aerococcus urinaeequi]
+ KAF3300606.1 O-antigen ligase family protein [Carnobacterium sp. PL12RED10]
+ KAF3303025.1 O-antigen ligase family protein [Carnobacterium sp. PL17RED31]
+Length=404
+
+ Score = 47.4 bits (111),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 30/93 (32%), Positives = 41/93 (44%), Gaps = 2/93 (2%)
+
+Query  229  RKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFG  288
+            +KI+V TF+ + +   + I   FLP      F F  R+ IW I    +    WFG G   
+Sbjct  227  KKIAVGTFLTATIGTLIAIKLGFLPRFEDLGFAFEDRFVIWEIGLKGLRDNFWFGQG--P  284
+
+Query  289  FQFKLPWQKLGEVGINYTHNQVLQLALDSGIVG  321
+              +   WQ  G+    + HN VL   L  G VG
+Sbjct  285  LTYLNVWQDYGDKYTQHAHNIVLDTLLSYGAVG  317
+
+
+>WP_176255397.1 O-antigen ligase family protein [Clostridium sp. C5-48]
+ MBS7139266.1 O-antigen ligase family protein [Clostridiales bacterium]
+Length=390
+
+ Score = 47.4 bits (111),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 59/227 (26%), Positives = 101/227 (44%), Gaps = 37/227 (16%)
+
+Query  170  VSAYYLLEEKRNILVAQLLLILTIINCFF-SDVSLSKVI---ALFMIVYIISYKLRKLFW  225
+            V+AY   +++R       L+IL  IN FF    S+S  I    +F+++Y + Y+++  F 
+Sbjct  158  VAAYTKGQDRRRFQRYASLVIL--INSFFILKESVSTAILGMVIFLVLYAVFYRIK--FD  213
+
+Query  226  KRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDF-------------TFNGRYQIWRIV  272
+            K           A+V ++ LVI+ + + +L+ FD+             T  GR  IW   
+Sbjct  214  K---------IPATVYVIILVIYNFAIVFLQNFDYMKFIFENLLGESMTMTGRLVIWNNA  264
+
+Query  273  YATILQVKWFGYGLFGFQFKLPWQKLGE--VGINYTHNQVLQLALDSGIVGIISFFTMIF  330
+              T LQ   FGYG     + +     G+     +Y HN  LQ  ++ GIV +  F  ++ 
+Sbjct  265  ILTFLQKPLFGYG-----YAMANVSRGQYATSTSYVHNDFLQHCVEGGIVDLALFVLILV  319
+
+Query  331  YMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYYFIIIVLQ  377
+            + +   K   +S +    +     L I M  E  +   Y+F+++VL 
+Sbjct  320  FAVRFFKKYSSSKLKCAMLAGILGLEITMVSEVPSSLNYFFVLMVLS  366
+
+
+Sequence with id WP_225968926 no longer exists in database...alignment skipped
+>WP_144300046.1 O-antigen ligase family protein [Elioraea rosea]
+Length=469
+
+ Score = 47.4 bits (111),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 27/93 (29%), Positives = 43/93 (46%), Gaps = 6/93 (6%)
+
+Query  228  GRKISVVTFIASVVMLALVIFG------YFLPYLRYFDFTFNGRYQIWRIVYATILQVKW  281
+            G K+ +      +V++   IFG       F        F F+GR  IW +    I    W
+Sbjct  280  GHKLRLAGMAVPIVLVGAAIFGPQIIDRSFTTATGQAGFQFSGRDVIWDLFIDVIALSPW  339
+
+Query  282  FGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLA  314
+            FGYG+   +F +  +++  +G N  HN+ L+LA
+Sbjct  340  FGYGIGAGRFAVDMEQVALLGTNAAHNEYLRLA  372
+
+
+>WP_055165166.1 O-antigen ligase family protein [Blautia hydrogenotrophica]
+ SCH89605.1 Lipid A core-O-antigen ligase and related enzymes [uncultured 
+Blautia sp.]
+Length=417
+
+ Score = 47.4 bits (111),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 38/156 (24%), Positives = 70/156 (45%), Gaps = 31/156 (20%)
+
+Query  248  FGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYG---------LFGFQFKLPWQKL  298
+            F + L  +   D +  GR +IW +  A I +  WFGYG         L+ F         
+Sbjct  271  FSWLLSGILQKDISLTGRTEIWDVALAVINKQLWFGYGYTNHGNFVALYDF---------  321
+
+Query  299  GEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFII  358
+                +   H+Q++Q+    GIVG++ F  ++F ++          IS L      C F++
+Sbjct  322  ----VTSGHSQMIQVLYYGGIVGMVLFLVLLFSVVRKAIKAHYKEISIL-----LCTFVV  372
+
+Query  359  MFIESVTYYP----YYFIIIVLQTLYLKLERERNVK  390
+            + IE+++       Y+  ++V+  + + L+ E NV+
+Sbjct  373  IVIETISEICMDNLYFITLLVVMEMSVYLKGEINVR  408
+
+
+Sequence with id WP_146935140 no longer exists in database...alignment skipped
+>MBD8926756.1 O-antigen ligase family protein [[Eubacterium] rectale]
+Length=556
+
+ Score = 47.4 bits (111),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 31/78 (40%), Positives = 39/78 (50%), Gaps = 1/78 (1%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIV  320
+            T NGR   W      I++    G G  G+ F  P  + G     Y HN +LQLALD+GIV
+Sbjct  255  TLNGRILYWYDAIKMIVKNP-LGLGYMGYFFMQPQFQTGNYVTKYVHNDILQLALDAGIV  313
+
+Query  321  GIISFFTMIFYMIFSTKN  338
+              + F  +I   IFS KN
+Sbjct  314  VAVLFVIVITKNIFSKKN  331
+
+
+Sequence with id NEO14126 no longer exists in database...alignment skipped
+Sequence with id NEO80977 no longer exists in database...alignment skipped
+>NEO59812.1 O-antigen ligase family protein [Moorena sp. SIO4G2]
+Length=364
+
+ Score = 47.0 bits (110),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 46/161 (29%), Positives = 74/161 (46%), Gaps = 21/161 (13%)
+
+Query  232  SVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQF  291
+            +++ F+AS+V+L  + F   L  +   D   NGR  IW +V+  IL+  W GYG  GF  
+Sbjct  153  ALLAFVASIVILWNLEF--ILVDILGKDLQLNGRLPIWTLVFDKILERPWLGYGFEGF--  208
+
+Query  292  KLPWQK-----------LGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQ  340
+               W             L   G    H+  L+LAL  G +GI  F   +   +F  K IQ
+Sbjct  209  ---WSSDAGYSVINSTWLAHGGYGNAHSGYLELALQLGFLGIFLFVLSLCIALF--KTIQ  263
+
+Query  341  NSTISSLFIFAYFCLFIIMF-IESVTYYPYYFIIIVLQTLY  380
+              +++    F +  L+++ F I +++  P      ++ TLY
+Sbjct  264  VLSVTKKLEFFWMFLYLVFFSIVNLSLDPSILAEDIVWTLY  304
+
+
+Sequence with id WP_143727922 no longer exists in database...alignment skipped
+Sequence with id WP_055171043 no longer exists in database...alignment skipped
+Sequence with id WP_225999030 no longer exists in database...alignment skipped
+>MCB7527017.1 O-antigen ligase family protein [Blautia sp. MSK18_10]
+Length=404
+
+ Score = 47.0 bits (110),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 51/191 (27%), Positives = 83/191 (43%), Gaps = 11/191 (6%)
+
+Query  206  VIALFMIVYIISYKLRK-LFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNG  264
+            V+ +FM    +  K +K    K G  I V+  +A VV       G F+  +   D T  G
+Sbjct  205  VLGVFMWYCTVCNKRKKPANMKAGIVIGVIADVAIVVFRVQEKLGLFIGTIFGKDTTLTG  264
+
+Query  265  RYQIWRIVYATI----LQVKWFGYGL--FGFQFKLPWQKLGEVGINY---THNQVLQLAL  315
+            R  +W      I    L  K   Y L  +G+  K  W    ++  +     HNQ L++ +
+Sbjct  265  RTDLWDQALELIGIHFLYGKGDSYALNQYGWLTKTYWNDKTQILEDVYFVAHNQFLEVLV  324
+
+Query  316  DSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVT-YYPYYFIII  374
+            + GI+ +I F    + MI S + I+N    ++   A    FI M  + +T Y P Y  I+
+Sbjct  325  NGGIICLIPFLLFFYSMIKSARKIRNYNYKNIIAAAILGYFIAMITDLITPYEPLYLFIL  384
+
+Query  375  VLQTLYLKLER  385
+            +   +Y+  +R
+Sbjct  385  ISSYIYMCEKR  395
+
+
+>WP_118408253.1 MULTISPECIES: O-antigen ligase family protein [Eubacteriales]
+ MBS6423271.1 O-antigen ligase family protein [Ruminococcus sp.]
+ MBT9806106.1 hypothetical protein [Blautia wexlerae]
+ MCB5710674.1 O-antigen ligase family protein [Blautia wexlerae]
+ NSC39288.1 O-antigen ligase family protein [Blautia wexlerae]
+ NSC42814.1 O-antigen ligase family protein [Blautia wexlerae]
+Length=404
+
+ Score = 47.0 bits (110),  Expect = 0.15, Method: Compositional matrix adjust.
+ Identities = 51/191 (27%), Positives = 83/191 (43%), Gaps = 11/191 (6%)
+
+Query  206  VIALFMIVYIISYKLRK-LFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNG  264
+            V+ +FM    +  K +K    K G  I V+  +A VV       G F+  +   D T  G
+Sbjct  205  VLGVFMWYCTVCNKRKKPANMKAGIVIGVIADVAIVVFRVQEKLGLFIGTIFGKDTTLTG  264
+
+Query  265  RYQIWRIVYATI----LQVKWFGYGL--FGFQFKLPWQKLGEVGINY---THNQVLQLAL  315
+            R  +W      I    L  K   Y L  +G+  K  W    ++  +     HNQ L++ +
+Sbjct  265  RTDLWDQALELIGIHFLYGKGDSYALNQYGWLTKTYWNDKTQILEDVYFVAHNQFLEVLV  324
+
+Query  316  DSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVT-YYPYYFIII  374
+            + GI+ +I F    + MI S + I+N    ++   A    FI M  + +T Y P Y  I+
+Sbjct  325  NGGIICLIPFLLFFYSMIKSARKIRNYNYKNIIAAAILGYFIAMITDLITPYEPLYLFIL  384
+
+Query  375  VLQTLYLKLER  385
+            +   +Y+  +R
+Sbjct  385  ISSYIYMCEKR  395
+
+
+Sequence with id WP_118521057 no longer exists in database...alignment skipped
+Sequence with id HJB26917 no longer exists in database...alignment skipped
+Sequence with id WP_171029207 no longer exists in database...alignment skipped
+>WP_205988841.1 O-antigen ligase family protein [Pseudoalteromonas sp. DL-6]
+Length=399
+
+ Score = 47.0 bits (110),  Expect = 0.17, Method: Compositional matrix adjust.
+ Identities = 34/115 (30%), Positives = 55/115 (48%), Gaps = 15/115 (13%)
+
+Query  247  IFGYFLPYLRYFD-----FTFNGRYQIWRIVYATILQVKWFGYG------LFGFQFKLPW  295
+            ++ Y LP L         FTF GR  IW +V+  I +  +FGYG      +    F+  W
+Sbjct  254  LYKYLLPSLSRSGSVDELFTFTGRTLIWEVVWELIKESPYFGYGYASSKVIIPLNFETSW  313
+
+Query  296  QKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIF  350
+               G   +N +H+ +LQL L +G +G +  F +I +  +     +    S+LF+F
+Sbjct  314  ---GWTTVN-SHSFMLQLLLSTGFIGSLPIFLLISFQFYRLLTFKGRLSSALFVF  364
+
+
+Sequence with id WP_195287407 no longer exists in database...alignment skipped
+>MBQ2746598.1 O-antigen ligase family protein [Clostridia bacterium]
+Length=403
+
+ Score = 46.6 bits (109),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 34/122 (28%), Positives = 57/122 (47%), Gaps = 4/122 (3%)
+
+Query  233  VVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFK  292
+            +V F A+++  A  +F   LP + + D TF+ R  IW      I +   FG G F + ++
+Sbjct  230  MVAFAAALLYTAPELFEKILPRIIHADGTFDNRVLIWDFTIDAIRKTPLFGRGFFTY-YQ  288
+
+Query  293  LPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMI---FYMIFSTKNIQNSTISSLFI  349
+            +           + HN  L+  L  GI+G +  F MI   FY +   KN+   +  ++ I
+Sbjct  289  VSAGNPSAYQTTHAHNIFLEPLLSFGIIGSLILFAMIFILFYRVVLCKNLLRKSQITILI  348
+
+Query  350  FA  351
+            F+
+Sbjct  349  FS  350
+
+
+>MBE6805081.1 O-antigen ligase family protein [Oscillospiraceae bacterium]
+Length=403
+
+ Score = 46.6 bits (109),  Expect = 0.18, Method: Compositional matrix adjust.
+ Identities = 34/122 (28%), Positives = 57/122 (47%), Gaps = 4/122 (3%)
+
+Query  233  VVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFK  292
+            +V F A+++  A  +F   LP + + D TF+ R  IW      I +   FG G F + ++
+Sbjct  230  MVAFAAALLYTAPELFEKILPRIIHADGTFDNRVLIWDFTIDAIRKTPLFGRGFFTY-YQ  288
+
+Query  293  LPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMI---FYMIFSTKNIQNSTISSLFI  349
+            +           + HN  L+  L  GI+G +  F MI   FY +   KN+   +  ++ I
+Sbjct  289  VSAGNPSAYQTTHAHNIFLEPLLSFGIIGSLILFAMIFILFYRVVLCKNLLRKSQITILI  348
+
+Query  350  FA  351
+            F+
+Sbjct  349  FS  350
+
+
+Sequence with id HBF59043 no longer exists in database...alignment skipped
+Sequence with id WP_104496847 no longer exists in database...alignment skipped
+>WP_076731547.1 O-antigen ligase family protein [Lacinutrix venerupis]
+ APX98902.1 hypothetical protein BWR22_00800 [Lacinutrix venerupis]
+Length=383
+
+ Score = 46.6 bits (109),  Expect = 0.19, Method: Compositional matrix adjust.
+ Identities = 72/310 (23%), Positives = 134/310 (43%), Gaps = 60/310 (19%)
+
+Query  67   AIHQHAFFILQYYFIVIILTFMVSGSIGVGLQSIFYPIFIYLF--------FNEVRDKKS  118
+            AI     F L  YFI+++ + + + ++  G++++   I + LF        F   +  KS
+Sbjct  54   AIKFKTTFSLVVYFIILVCSLIYTKALDFGIETVIKSITLTLFPLALSTTSFVSEKQLKS  113
+
+Query  119  IVL--------------IFDIFLYILTPLFVINTIDVFLNFTNIFHITFLGHVQVISQYS  164
+            I +              I+ I +Y + PL +      F N+ +I       H    S Y 
+Sbjct  114  IAIGFFVGNMVVFIISIIYAIGVYKINPLPLREGFSYFTNYVDI-------HSSYYSIYL  166
+
+Query  165  VIGFLVSAYYLLEEKR-NILVAQLLLILTIINCFF--SDVSLSKVIALFMIVYIISYKLR  221
+            +    +  +   ++KR N+ +   L+I  ++   +  S   L    AL  I  I++Y+ R
+Sbjct  167  IFSTALIFWAFRKDKRFNLFIKIGLVIAIVLMQLYLKSRAGLLSTAALIFIYVILNYRKR  226
+
+Query  222  KLFWKRGRKISVVTFIASVVMLALVIFGYFLPYL----RYFDFTFNGRYQIWRIVYATIL  277
+                       ++ F A    L LV+F +    L    R  + + N R+ +W      I+
+Sbjct  227  -----------IIIFSA----LGLVVFIFLFNNLDFLNRNLNESTNDRFSVWSSAKDVIV  271
+
+Query  278  QVKWFGYGLFGFQFKLPWQ---KLGEVGIN---YTHNQVLQLALDSGIVGIISFFTMIFY  331
+                FG G+  +Q++L  Q    L   GI+    +HNQ L+  + +GI+G+I+F  + ++
+Sbjct  272  NKPIFGVGIGDYQYELDKQYYLNLFNHGIDDKLNSHNQFLETTVATGIIGLIAFLAIFYF  331
+
+Query  332  MI---FSTKN  338
+            ++   F TK+
+Sbjct  332  LMKRYFETKS  341
+
+
+Sequence with id WP_055065985 no longer exists in database...alignment skipped
+Sequence with id WP_131715422 no longer exists in database...alignment skipped
+>WP_032077251.1 O-antigen ligase family protein [Clostridium drakei]
+Length=429
+
+ Score = 46.6 bits (109),  Expect = 0.21, Method: Compositional matrix adjust.
+ Identities = 38/118 (32%), Positives = 62/118 (53%), Gaps = 17/118 (14%)
+
+Query  238  ASVVMLALVIF-GYFLPYLRYFDFTFNGRYQIWRIVYATI-LQVKWFGYGLFGFQF----  291
+             S+V+  L IF G    + R  + T  GR  IW I+ + + L  KWFGYG +G  +    
+Sbjct  257  GSIVVYCLSIFNGVLQTFGR--NITLTGRLPIWNIITSEMMLGNKWFGYG-YGTAWDVNN  313
+
+Query  292  ----KLPWQ---KLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNS  342
+                K+  Q    LG + +  +HN +++L +  GIVG++ F  MI+ +   T+N+ +S
+Sbjct  314  DIFLKICRQYNLVLGGIPVG-SHNGLIELWMSIGIVGVVVFLLMIYKICAHTRNMSSS  370
+
+
+>OKZ73303.1 hypothetical protein BHV87_10335 [Clostridiales bacterium 36_14]
+Length=310
+
+ Score = 46.2 bits (108),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 51/192 (27%), Positives = 84/192 (44%), Gaps = 12/192 (6%)
+
+Query  206  VIALFMIVYIISYKLRK-LFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNG  264
+            V+ +FM    +  K +K    K G  I V+  +A VV       G F+  +   D T  G
+Sbjct  111  VLGVFMWYCTVCNKRKKPANMKAGIVIGVIADVAIVVFRVQEKLGLFIGTIFGKDTTLTG  170
+
+Query  265  RYQIWRIVYATI----LQVKWFGYGL--FGFQFKLPWQKLGEVGINY---THNQVLQLAL  315
+            R  +W      I    L  K   Y L  +G+  K  W    ++  +     HNQ L++ +
+Sbjct  171  RTDLWDQALELIGIHFLYGKGDSYALNQYGWLTKTYWNDKTQILEDVYFVAHNQFLEVLV  230
+
+Query  316  DSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVT-YYPYYFIII  374
+            + GI+ +I F    + MI S + I+N    ++   A    FI M  + +T Y P Y  I+
+Sbjct  231  NGGIICLIPFLLFFYSMIKSARKIRNYNYKNIIAAAILGYFIAMITDLITPYEPLYLFIL  290
+
+Query  375  VLQTLYLKLERE  386
+            +   +Y+  E++
+Sbjct  291  ISSYIYM-CEKQ  301
+
+
+Sequence with id WP_084763299 no longer exists in database...alignment skipped
+>WP_108849509.1 O-antigen ligase family protein [Clostridium drakei]
+ AWI06384.1 hypothetical protein B9W14_18395 [Clostridium drakei]
+Length=429
+
+ Score = 46.6 bits (109),  Expect = 0.23, Method: Compositional matrix adjust.
+ Identities = 38/118 (32%), Positives = 62/118 (53%), Gaps = 17/118 (14%)
+
+Query  238  ASVVMLALVIF-GYFLPYLRYFDFTFNGRYQIWRIVYATI-LQVKWFGYGLFGFQF----  291
+             S+V+  L IF G    + R  + T  GR  IW I+ + + L  KWFGYG +G  +    
+Sbjct  257  GSIVVYCLSIFNGVLQTFGR--NITLTGRLPIWNIITSEMMLGNKWFGYG-YGTAWDVNN  313
+
+Query  292  ----KLPWQ---KLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNS  342
+                K+  Q    LG + +  +HN +++L +  GIVG++ F  MI+ +   T+N+ +S
+Sbjct  314  DIFLKICRQYNLVLGGIPVG-SHNGLIELWMSIGIVGVVVFLLMIYKICAHTRNMSSS  370
+
+
+Sequence with id WP_173680988 no longer exists in database...alignment skipped
+>WP_096718395.1 O-antigen ligase family protein [Chondrocystis sp. NIES-4102]
+ BAZ43841.1 O-antigen polymerase [Chondrocystis sp. NIES-4102]
+Length=417
+
+ Score = 46.2 bits (108),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 64/230 (28%), Positives = 107/230 (47%), Gaps = 26/230 (11%)
+
+Query  121  LIFDIFLYILTPLF-VINTIDVFLNFTNIF-HITFLGHVQVISQYSVIGFLVSAYYLL--  176
+            +IF +   I  P + ++NT  +   +  I+ H   LG    IS      F+  A+Y L  
+Sbjct  134  IIFSLLFVIAAPQYGIMNTAAISGAWRGIYPHKNGLGASMFIS------FM--AFYFLSK  185
+
+Query  177  EEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRK----IS  232
+            E+K+  L+ Q+  +L++I  +FS+ + S +  LF  ++ +S  L+ L  +  R     + 
+Sbjct  186  EQKKYRLLLQIFCLLSVILTYFSESATSLMSILF--IFALSQGLKHLSLRDKRSVLLILL  243
+
+Query  233  VVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGF---  289
+             +  I SV  L L+ F  FL  +   D T +GR  +W+ ++  I Q    GYG   F   
+Sbjct  244  FLIVIFSVQFLLLINFNTFLS-VNDKDVTLSGRTVLWKSLWQFIQQKPILGYGYGSFFSG  302
+
+Query  290  ---QFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFST  336
+               Q  L W K+      + HN  +Q+ L  G VG+I       Y +F++
+Sbjct  303  VHRQTDLLW-KVHNWSPVHAHNGYIQVLLHFGFVGLIPLVVGYIYSLFTS  351
+
+
+Sequence with id WP_066736772 no longer exists in database...alignment skipped
+>WP_153853535.1 O-antigen ligase family protein [Enterococcus faecium]
+ MCD5103794.1 O-antigen ligase family protein [Enterococcus faecium]
+ MRI45696.1 O-antigen ligase family protein [Enterococcus faecium]
+ NTL97222.1 O-antigen ligase family protein [Enterococcus faecium]
+ HAQ0365802.1 O-antigen ligase family protein [Enterococcus faecium]
+ HAR8797394.1 O-antigen ligase family protein [Enterococcus faecium]
+Length=391
+
+ Score = 46.2 bits (108),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 41/141 (29%), Positives = 65/141 (46%), Gaps = 11/141 (8%)
+
+Query  249  GYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWF-GYGL-FGFQFKLPWQKLGEVGINYT  306
+            G+ L      D TFNGR  +W      I  V W  GYGL  G  F+LP            
+Sbjct  248  GWLLEGFLKEDLTFNGRTILWEKALEKIEGVHWIIGYGLSHGQWFELP----NGFAATTA  303
+
+Query  307  HNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIF-AYFCLFIIMFIESVT  365
+            H+Q + +   SG++G+  +   I+ M+  + N+    +S  +I  +  C F +  I S T
+Sbjct  304  HSQYINIVFRSGVIGLTFYILAIYKMLRDSFNVH--IVSYRYILVSSICAFWVTGI-STT  360
+
+Query  366  YYPYYFIIIVLQTLYLKLERE  386
+             Y  +F+ + + T+Y +L R 
+Sbjct  361  TYESFFMYVWMTTIY-QLNRN  380
+
+
+>WP_004748223.1 O-antigen ligase family protein [Vibrio tubiashii]
+ AIW16169.1 exopolysaccharide biosynthesis protein [Vibrio tubiashii ATCC 
+19109]
+ EGU48122.1 exopolysaccharide production protein [Vibrio tubiashii ATCC 19109]
+ EIF03494.1 exopolysaccharide production protein [Vibrio tubiashii NCIMB 
+1337 = ATCC 19106]
+Length=410
+
+ Score = 46.2 bits (108),  Expect = 0.26, Method: Compositional matrix adjust.
+ Identities = 44/142 (31%), Positives = 63/142 (44%), Gaps = 21/142 (15%)
+
+Query  260  FTFNGRYQIWRIVYATILQVKWFGYG------LFGFQFKLPWQKLGEVGINYTHNQVLQL  313
+            FTF GR  IW +V   I    W GYG      L    F+  W   G   +N +H  +LQL
+Sbjct  270  FTFTGRTLIWEVVVDLISDKPWTGYGYASSKTLIPLNFETSW---GWTTVN-SHQFILQL  325
+
+Query  314  ALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIES--VTYYPYYF  371
+             L +G +G I    ++   ++     +    SSLFIF    + I   +ES  +   P Y 
+Sbjct  326  LLSTGFIGSIPILLILLTQLYFLITFKAKLSSSLFIF----VLITGILESGAIGPIPNYL  381
+
+Query  372  IIIVLQTLYL-----KLERERN  388
+             ++ L T+ +     KLER  N
+Sbjct  382  TLVWLITISVLFKEFKLERLPN  403
+
+
+Sequence with id HAD67035 no longer exists in database...alignment skipped
+Sequence with id MBI5404057 no longer exists in database...alignment skipped
+>MBC8388143.1 O-antigen ligase family protein [Actinomycetia bacterium]
+Length=297
+
+ Score = 45.8 bits (107),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 42/164 (26%), Positives = 82/164 (50%), Gaps = 22/164 (13%)
+
+Query  176  LEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVT  235
+            +E ++  ++   L +L ++  FFS      VIAL +I +I  + L K+        S++ 
+Sbjct  75   MESRKYRMINLFLSLLCLMMVFFSKSIGGIVIALGLITFIFIFPLLKIR-------SIIG  127
+
+Query  236  FIASVVMLALVIFGYFLPYLRYFDF---------TFNGRYQIWRIVYATILQ--VKWFGY  284
+            F  ++ ++ +++FG  +  L +F+F         T  GR  IW + +  I +  +  +GY
+Sbjct  128  FTLAITIV-IIVFGIMIIGLEHFNFLMKNLGKDPTMTGRTIIWALSWGMIQKEFIWGYGY  186
+
+Query  285  GLFGFQFKLPWQKLGEVGI---NYTHNQVLQLALDSGIVGIISF  325
+              F   +  P +++ ++ I   ++ HN +  L LD G++GII F
+Sbjct  187  NAFWVGWDGPSREIWKIAIWEPSHAHNGIFDLWLDLGLIGIIIF  230
+
+
+Sequence with id KHD89994 no longer exists in database...alignment skipped
+>MBS5026138.1 O-antigen ligase family protein [Peptostreptococcaceae bacterium]
+Length=392
+
+ Score = 45.8 bits (107),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 55/228 (24%), Positives = 106/228 (46%), Gaps = 13/228 (6%)
+
+Query  169  LVSAYYLLEEKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRG  228
+            L+ + Y+ E+ RN  +    ++L II    S  S   ++   +++Y++  K  K+     
+Sbjct  169  LIRSEYIYEKVRNKDILLCFMVLIII--LLSKSSTGFIVGSLLVIYVLLLKKIKIKLNIN  226
+
+Query  229  RKISVVTFIASVVML---ALVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYG  285
+            + +S+ T I + V++      +F  F+      + T  GR  IW  +   I     FGYG
+Sbjct  227  KLMSIYTIIYTQVVIFRIQETVFRGFIENTLQKNVTLTGRTLIWDFIMKIIPNSLIFGYG  286
+
+Query  286  LFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTIS  345
+                +  +  Q      +   HN +L++ L +GI+G+   F +I   +F   N  NS IS
+Sbjct  287  ----RNDIIAQNAIIRDVTEAHNGLLEILLCTGIIGLF-VFILILLNVFKALNKSNSKIS  341
+
+Query  346  ---SLFIFAYFCLFIIMFIESVTYYPYYFIIIVLQTLYLKLERERNVK  390
+               S+ IF YFC+ +     + T   ++ +II+   +   ++++ N++
+Sbjct  342  YILSMAIFLYFCIALTESAFTYTKIGFWILIIISSNIEKIIKQKDNLE  389
+
+
+>WP_029517291.1 MULTISPECIES: O-antigen ligase family protein [Paenibacillus]
+ KAF6575198.1 O-antigen ligase family protein [Paenibacillus sp. EKM206P]
+ KAF6590129.1 O-antigen ligase family protein [Paenibacillus sp. EKM205P]
+ MBM0632522.1 O-antigen ligase family protein [Paenibacillus polymyxa]
+ MBO3286684.1 O-antigen ligase family protein [Paenibacillus polymyxa]
+ ODB51429.1 ligase [Paenibacillus polymyxa]
+Length=403
+
+ Score = 45.8 bits (107),  Expect = 0.33, Method: Compositional matrix adjust.
+ Identities = 63/245 (26%), Positives = 107/245 (44%), Gaps = 34/245 (14%)
+
+Query  155  GHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLI--LTIINCFFSDVSLSKVIALFMI  212
+            GH   +   S++GF+    Y    K  +L    +L+  L +I C  S  SL    + F+ 
+Sbjct  147  GHKNTLGTLSLLGFVSHVIYFFRGKHKVLHIGFILLNALLLIKCQ-STTSLMLTSSFFVF  205
+
+Query  213  VYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDF---------TFN  263
+            +  I      L +KR R I++  F  S   L LV+ G    +  Y D          T  
+Sbjct  206  ILFI------LLFKRIRSIALRGFFISCSCL-LVLLGLVFTF-TYGDAIASEFGKTTTLT  257
+
+Query  264  GRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINY----THNQVLQLALDSGI  319
+            GR +IW+ +   I    WFG+G   +    P   +   GI +    +H+    L +D G+
+Sbjct  258  GRTEIWQGIAGAIQSHYWFGHGYGSYWAARP--SIYANGIRFDLTSSHSGFRDLWIDVGL  315
+
+Query  320  VGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIM-------FIESVTYYPYYFI  372
+             G+++  T+    +F  + I  + + +    A F LFII+       F+ S++ Y   F+
+Sbjct  316  TGLLATITLAITTLFKFR-IGKADMYTWLTAAVFFLFIILNNITDSRFLNSLSIYWIIFM  374
+
+Query  373  IIVLQ  377
+            +IV++
+Sbjct  375  VIVIK  379
+
+
+>WP_025723043.1 O-antigen ligase family protein [Paenibacillus polymyxa]
+Length=403
+
+ Score = 45.8 bits (107),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 63/245 (26%), Positives = 107/245 (44%), Gaps = 34/245 (14%)
+
+Query  155  GHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLI--LTIINCFFSDVSLSKVIALFMI  212
+            GH   +   S++ F+    Y    KR +L    +L+  L +I C  S  SL    +LF+ 
+Sbjct  147  GHKNTLGTLSLLSFVSHVIYFFRGKRKVLHIGFILLNALLLIECQ-STTSLVLTSSLFVF  205
+
+Query  213  VYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDF---------TFN  263
+            +  I      L +KR R I++  F  S   L LV+ G    +  Y D          T  
+Sbjct  206  ILFI------LLFKRIRSIALRGFFISCSCL-LVLLGLVFTF-TYGDAIASEFGKTTTLT  257
+
+Query  264  GRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINY----THNQVLQLALDSGI  319
+            GR +IW+ +   I    WFG+G   +    P   +   GI +    +H+    L +D G+
+Sbjct  258  GRTEIWQGIGGAIQSHYWFGHGYGSYWAARP--SIYANGIRFDLTSSHSGFRDLWIDVGL  315
+
+Query  320  VGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIM-------FIESVTYYPYYFI  372
+             G+++  T+    +F  + I  + + +    A F LFI++       F+ S+  Y   F+
+Sbjct  316  TGLLATITLAITTLFKFR-IGKADMYTWLTAAVFFLFIVLNNITDSRFLNSLAIYWIIFM  374
+
+Query  373  IIVLQ  377
+            +IV++
+Sbjct  375  VIVIK  379
+
+
+Sequence with id WP_209018489 no longer exists in database...alignment skipped
+Sequence with id QYK62850 no longer exists in database...alignment skipped
+>SDC07252.1 O-Antigen ligase [Terribacillus halophilus]
+Length=379
+
+ Score = 45.8 bits (107),  Expect = 0.39, Method: Compositional matrix adjust.
+ Identities = 50/205 (24%), Positives = 98/205 (48%), Gaps = 8/205 (4%)
+
+Query  191  LTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASVV-MLALVIFG  249
+            L +++ + +      VI   +I+YI+ +K  K  +     I + TF+  V+  L  ++F 
+Sbjct  177  LGLLSTYLAGSGTGTVIVFLLILYILLHKKIKPTFIVLFLIYISTFLTIVIFRLQEILFK  236
+
+Query  250  YFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQ  309
+             F+  + +   TF+ R  IW +    +      GYG       +   K+  +G++  HN 
+Sbjct  237  NFIVNVLHKSLTFSDRTFIWDVTIDAVKNSWLIGYGR---DNNIILTKVSSLGVDQAHNG  293
+
+Query  310  VLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPY  369
+            +L+++L+SG++G++ F  ++  +       + S  +SL     F   II   ES+ Y   
+Sbjct  294  LLEISLESGVLGVLVFIYILLLIGRRLDEYRLSFEASLISVTIFLYLIIGLTESIFYRIE  353
+
+Query  370  YFIIIVLQTLYLKL---ERER-NVK  390
+            ++I+++L    L++    R R NVK
+Sbjct  354  FWIVLILGYSILRIIDKTRSRFNVK  378
+
+
+Sequence with id WP_095506974 no longer exists in database...alignment skipped
+>WP_162809386.1 O-antigen ligase family protein [Vibrio cholerae]
+Length=383
+
+ Score = 45.4 bits (106),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 37/128 (29%), Positives = 68/128 (53%), Gaps = 9/128 (7%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIV  320
+            T +GR+ +W   +  I Q    GYG+F  ++ +  + LG+VG  Y+HN  + + L+SG++
+Sbjct  263  TGSGRFYLWDFAFEKIEQSPILGYGIFTTKY-IFIELLGKVG--YSHNTYIDITLESGLI  319
+
+Query  321  GIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIE-SVTYYPYYFIIIVLQTL  379
+            G+  F  MI  +++   N++ +    + I  +F L   M +  S   + Y+F ++V+   
+Sbjct  320  GLFIFSCMILSILY-IANLKFNNYPWMMISLFFILIQFMSLSLSFNEFFYFFCVVVMVLN  378
+
+Query  380  YLKLERER  387
+            Y    RER
+Sbjct  379  Y----RER  382
+
+
+>WP_114742516.1 O-antigen ligase family protein [Vibrio cholerae]
+Length=384
+
+ Score = 45.4 bits (106),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 37/128 (29%), Positives = 68/128 (53%), Gaps = 9/128 (7%)
+
+Query  261  TFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIV  320
+            T +GR+ +W   +  I Q    GYG+F  ++ +  + LG+VG  Y+HN  + + L+SG++
+Sbjct  264  TGSGRFYLWDFAFEKIEQSPILGYGIFTTKY-IFIELLGKVG--YSHNTYIDITLESGLI  320
+
+Query  321  GIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIE-SVTYYPYYFIIIVLQTL  379
+            G+  F  MI  +++   N++ +    + I  +F L   M +  S   + Y+F ++V+   
+Sbjct  321  GLFIFSCMILSILY-IANLKFNNYPWMMISLFFILIQFMSLSLSFNEFFYFFCVVVMVLN  379
+
+Query  380  YLKLERER  387
+            Y    RER
+Sbjct  380  Y----RER  383
+
+
+>WP_209947350.1 O-antigen ligase family protein [Paenibacillus sp. 1182]
+ MBP1307103.1 O-antigen ligase [Paenibacillus sp. 1182]
+Length=396
+
+ Score = 45.4 bits (106),  Expect = 0.40, Method: Compositional matrix adjust.
+ Identities = 64/243 (26%), Positives = 108/243 (44%), Gaps = 30/243 (12%)
+
+Query  155  GHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLI--LTIINCFFSDVSLSKVIALFMI  212
+            GH   +   S++ F+    Y    K  +L    +L+  L +I C  S  SL    +LF+ 
+Sbjct  147  GHKNTLGTLSLLSFVSHVIYFFRGKHKVLHIGFILLNALLLIECQ-STTSLVLTSSLFVF  205
+
+Query  213  VYIISYKLRKLFWKRGRKISVVTFIASV----VMLALV-IFGYFLPYLRYFD--FTFNGR  265
+            +  I      L +KR R I++  F  S     V+L LV IF Y       F    T  GR
+Sbjct  206  ILFI------LLFKRIRSIALRGFFISCSCLFVLLGLVFIFTYGDAIASEFGKTTTLTGR  259
+
+Query  266  YQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINY----THNQVLQLALDSGIVG  321
+             +IW+ +   I    WFG+G   +    P   +   GI +    +H+    L +D G+ G
+Sbjct  260  TEIWQGIGGAIQSHYWFGHGYGSYWAARP--SIYANGIRFDLTSSHSGFRDLWIDVGLTG  317
+
+Query  322  IISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIM-------FIESVTYYPYYFIII  374
+            +++  T+    +F  + I  + + +    A F LFI++       F+ S++ Y   F++I
+Sbjct  318  LLATITLAITTLFKFR-IGKADMYTWLTAAVFFLFIVLNNITDSRFLNSLSIYWIIFMVI  376
+
+Query  375  VLQ  377
+            V++
+Sbjct  377  VIK  379
+
+
+>WP_071644326.1 MULTISPECIES: O-antigen ligase family protein [Paenibacillus]
+ APB73376.1 O-antigen ligase family protein [Paenibacillus polymyxa]
+ OMF49375.1 ligase [Paenibacillus peoriae]
+Length=403
+
+ Score = 45.4 bits (106),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 64/243 (26%), Positives = 108/243 (44%), Gaps = 30/243 (12%)
+
+Query  155  GHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLI--LTIINCFFSDVSLSKVIALFMI  212
+            GH   +   S++ F+    Y    KR +L    +L+  L +I C  S  SL    +LF+ 
+Sbjct  147  GHKNTLGTLSLLSFVSHVIYFFRGKRKVLHIGFILLNALLLIECQ-STTSLVLTSSLFVF  205
+
+Query  213  VYIISYKLRKLFWKRGRKISVVTFIAS----VVMLALV-IFGYFLPYLRYFD--FTFNGR  265
+            +  I      L +KR R I++  F  S    +V+L LV  F Y       F    T  GR
+Sbjct  206  ILFI------LLFKRIRSIALRGFFISGSCLLVLLGLVFTFTYGDAIASEFGKTTTLTGR  259
+
+Query  266  YQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINY----THNQVLQLALDSGIVG  321
+             +IW+ +   I    WFG+G   +    P   +   GI +    +H+    L +D G+ G
+Sbjct  260  TEIWQGIGGAIQSHYWFGHGYGSYWAARP--SIYANGIRFDLTSSHSGFRDLWIDVGLTG  317
+
+Query  322  IISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIM-------FIESVTYYPYYFIII  374
+            +++  T+    +F  + I  + + +    A F LFI++       F+ S+  Y   F++I
+Sbjct  318  LLATITLAITTLFKFR-IGKADMYTWLTAAVFFLFIVLNNITDSRFLNSLAIYWIIFMVI  376
+
+Query  375  VLQ  377
+            V++
+Sbjct  377  VIK  379
+
+
+Sequence with id KPJ56994 no longer exists in database...alignment skipped
+>WP_170829547.1 O-antigen ligase family protein [Terribacillus halophilus]
+Length=357
+
+ Score = 45.4 bits (106),  Expect = 0.45, Method: Compositional matrix adjust.
+ Identities = 50/205 (24%), Positives = 98/205 (48%), Gaps = 8/205 (4%)
+
+Query  191  LTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIASVV-MLALVIFG  249
+            L +++ + +      VI   +I+YI+ +K  K  +     I + TF+  V+  L  ++F 
+Sbjct  155  LGLLSTYLAGSGTGTVIVFLLILYILLHKKIKPTFIVLFLIYISTFLTIVIFRLQEILFK  214
+
+Query  250  YFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYTHNQ  309
+             F+  + +   TF+ R  IW +    +      GYG       +   K+  +G++  HN 
+Sbjct  215  NFIVNVLHKSLTFSDRTFIWDVTIDAVKNSWLIGYG---RDNNIILTKVSSLGVDQAHNG  271
+
+Query  310  VLQLALDSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPY  369
+            +L+++L+SG++G++ F  ++  +       + S  +SL     F   II   ES+ Y   
+Sbjct  272  LLEISLESGVLGVLVFIYILLLIGRRLDEYRLSFEASLISVTIFLYLIIGLTESIFYRIE  331
+
+Query  370  YFIIIVLQTLYLKL---ERER-NVK  390
+            ++I+++L    L++    R R NVK
+Sbjct  332  FWIVLILGYSILRIIDKTRSRFNVK  356
+
+
+Sequence with id MBB1202247 no longer exists in database...alignment skipped
+Sequence with id MBQ9280525 no longer exists in database...alignment skipped
+>WP_118633090.1 MULTISPECIES: O-antigen ligase family protein [Eubacteriales]
+ MCC2178157.1 O-antigen ligase family protein [Blautia wexlerae]
+ RHV26020.1 O-antigen ligase family protein [Ruminococcus sp. OM05-7]
+Length=404
+
+ Score = 45.4 bits (106),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 51/192 (27%), Positives = 84/192 (44%), Gaps = 12/192 (6%)
+
+Query  206  VIALFMIVYIISYKLRK-LFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNG  264
+            V+ +FM    +  K +K    K G  I V+  +A VV       G F+  +   D T  G
+Sbjct  205  VLGVFMWYCTVCNKRKKPANMKAGIVIGVIADVAIVVFRVQEKLGLFIGTIFGKDTTLTG  264
+
+Query  265  RYQIWRIVYATI----LQVKWFGYGL--FGFQFKLPWQKLGEVGINY---THNQVLQLAL  315
+            R  +W      I    L  K   Y L  +G+  K  W    ++  +     HNQ L++ +
+Sbjct  265  RTDLWDQALELIGIHFLYGKGDSYALNQYGWLTKTYWNDKTQILEDVYFVAHNQFLEVLV  324
+
+Query  316  DSGIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVT-YYPYYFIII  374
+            + GI+ +I F    + MI S + I+N    ++   A    FI M  + +T Y P Y  I+
+Sbjct  325  NGGIICLIPFLLFFYSMIKSARKIRNYNYKNIIAAAILGYFIAMITDLITPYEPLYLFIL  384
+
+Query  375  VLQTLYLKLERE  386
+            +   +Y+  E++
+Sbjct  385  ISSYIYM-CEKQ  395
+
+
+>WP_111928264.1 MULTISPECIES: O-antigen ligase family protein [Clostridium]
+ MBS5306019.1 O-antigen ligase family protein [Clostridium sp.]
+ MBU6134250.1 O-antigen ligase family protein [Clostridium tertium]
+Length=812
+
+ Score = 45.8 bits (107),  Expect = 0.46, Method: Compositional matrix adjust.
+ Identities = 35/113 (31%), Positives = 59/113 (52%), Gaps = 8/113 (7%)
+
+Query  282  FGYGLFGFQFKLPWQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFY---MIFSTKN  338
+            FG G+  FQ+KL         + Y HN +LQ+A D+G++  I+F  +I Y   +I  +KN
+Sbjct  298  FGNGINMFQYKLFEDATAFYDVKYIHNSILQVAYDAGVINCIAFIGVIAYGVIIIAKSKN  357
+
+Query  339  IQNSTISSLFIFAYFCLFIIMFIE-SVTYYPYYFIIIVLQTLYLKLERERNVK  390
+               S I    I AY  + +   ++  +++  +  I+++L TL    E E+ VK
+Sbjct  358  KDKSYI----ILAYISILLHSLLDFDLSFSTFPIILMMLVTLGEISEEEKRVK  406
+
+
+>WP_103048841.1 O-antigen ligase family protein [Paenibacillus sp. F4]
+ PNQ80610.1 ligase [Paenibacillus sp. F4]
+Length=403
+
+ Score = 45.4 bits (106),  Expect = 0.47, Method: Compositional matrix adjust.
+ Identities = 65/243 (27%), Positives = 108/243 (44%), Gaps = 30/243 (12%)
+
+Query  155  GHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLI--LTIINCFFSDVSLSKVIALFMI  212
+            GH   +   S++ F+    Y    K  +L    +L+  L +I C  S  SL    +LF+ 
+Sbjct  147  GHKNTLGTLSLLSFVSHVIYFFRGKHKVLHIGFILLNALLLIECQ-STTSLVLTSSLFVF  205
+
+Query  213  VYIISYKLRKLFWKRGRKISVVTFIASV----VMLALV-IFGYFLPYLRYFD--FTFNGR  265
+            +  I      L +KR R I++  F  S     V+L LV IF Y       F    T  GR
+Sbjct  206  ILFI------LLFKRIRSIALRGFFISCSCLFVLLGLVFIFTYGDAIASEFGKTTTLTGR  259
+
+Query  266  YQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINY----THNQVLQLALDSGIVG  321
+             +IW+ +   I    WFG+G   +    P   +   GI +    +H+    L +D G+ G
+Sbjct  260  TEIWQGIGGAIQSHYWFGHGYGSYWAARP--SIYANGIRFDLTSSHSGFRDLWIDVGLTG  317
+
+Query  322  IISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIM-------FIESVTYYPYYFIII  374
+            +++  T+    +F  + I  + + +    A F LFII+       F+ S++ Y   F++I
+Sbjct  318  LLATITIAITTLFKFR-IGKADMYTWLTAAVFFLFIILNNITDSRFLNSLSIYWIIFMVI  376
+
+Query  375  VLQ  377
+            V++
+Sbjct  377  VIK  379
+
+
+Sequence with id OGS22612 no longer exists in database...alignment skipped
+Sequence with id WP_180175637 no longer exists in database...alignment skipped
+Sequence with id KAF6636708 no longer exists in database...alignment skipped
+Sequence with id WP_039270991 no longer exists in database...alignment skipped
+Sequence with id MBN1118636 no longer exists in database...alignment skipped
+Sequence with id MBQ7936504 no longer exists in database...alignment skipped
+Sequence with id WP_165296288 no longer exists in database...alignment skipped
+Sequence with id WP_206872484 no longer exists in database...alignment skipped
+>WP_195205378.1 O-antigen ligase family protein [Parabacteroides distasonis]
+Length=346
+
+ Score = 44.7 bits (104),  Expect = 0.76, Method: Compositional matrix adjust.
+ Identities = 39/136 (29%), Positives = 63/136 (46%), Gaps = 12/136 (9%)
+
+Query  259  DFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQKLGEVGINY-THNQVLQLALDS  317
+            D TF+GR  +W+ +   I      GYGL    +         VGI+   HN  L L+   
+Sbjct  217  DITFSGRALLWQQMLYAIQSNPILGYGLRDSDYVRSL-----VGISAGAHNYYLDLSFQR  271
+
+Query  318  GIVGIISFFTMIFYMIFSTKNIQNSTISSLFIFAYFCLFIIMFIESVTYYPYYF---III  374
+            G+VG+ SF ++  Y++   KN +N  I    +  +   +++MFI    Y+   F   +I 
+Sbjct  272  GLVGLASFLSIFIYILVKLKN-KNGDI--YLLLGFVGAYLLMFISEPFYFTEKFHMPVIY  328
+
+Query  375  VLQTLYLKLERERNVK  390
+            +L  L    +R+ NV 
+Sbjct  329  ILAVLLSDKKRKSNVS  344
+
+
+>WP_135379649.1 O-antigen ligase family protein [Desulfosporosinus sp. Sb-LF]
+ TGE31896.1 O-antigen ligase domain-containing protein [Desulfosporosinus 
+sp. Sb-LF]
+Length=420
+
+ Score = 44.7 bits (104),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 58/223 (26%), Positives = 106/223 (48%), Gaps = 18/223 (8%)
+
+Query  173  YYLLE-EKRNILVAQLLLILTIINCFFSDVSLSKVIALFMIVYII-SYKLRKLFWKRGRK  230
+            YYLL+   +NI   +L  ++ I+    + +S++ +I LF+I+ ++ S  L K+    G+K
+Sbjct  196  YYLLQIRGKNIY--KLFNLICILQVVIT-LSVTGIIGLFLILVLMKSRNLYKML--SGKK  250
+
+Query  231  ISVVTFIASVVMLALVIFGYFLPYLRYFD--FTFNGRYQIWRIVYATILQVKWFGYGLFG  288
+              VV+ I  + ++++ +   F   L  ++   T  GR  IW      I +    GYG   
+Sbjct  251  AIVVSGILFIGLISMQLQKLFSILLNAYNIGLTLGGRTVIWGWALEYIKESPLIGYGYNI  310
+
+Query  289  FQFKLP--WQKLGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNI---QNST  343
+             + K    W+    +G++  HNQ+L + L SGIVG+  F  ++   +     I   ++  
+Sbjct  311  ERAKTVFFWR----IGVSGAHNQILDVLLHSGIVGLFLFLVIVAVPLGRLGKIYRHEHMK  366
+
+Query  344  ISSLFIFAYFCLFIIMFIESVTYYPYYFIIIVLQTLYLKLERE  386
+               L I +     +IM +ES + Y  Y ++ VL      ++R 
+Sbjct  367  YQKLLIISISVYLVIMMVESYSAYSSYPLLFVLLEFAWDMKRR  409
+
+
+Sequence with id MBX8802171 no longer exists in database...alignment skipped
+>WP_152382050.1 O-antigen ligase family protein [Paenibacillus brasilensis]
+Length=403
+
+ Score = 44.7 bits (104),  Expect = 0.89, Method: Compositional matrix adjust.
+ Identities = 59/245 (24%), Positives = 105/245 (43%), Gaps = 18/245 (7%)
+
+Query  155  GHVQVISQYSVIGFLVSAYYLLEEKRNILVAQLLLI--LTIINCFFSDVSLSKVIALFM-  211
+            GH   +   S++ F+    Y    +R  L    +L+  L +I C  S  SL    +LF  
+Sbjct  147  GHKNTLGTLSLLSFVSHVIYFFRGRRKTLHIGFILLNALLLIKCQ-STTSLVLTSSLFAF  205
+
+Query  212  IVYIISYKLRKLFWKRGRKISVVTFIASVVMLALVIFGYFLPYLRYFDFTFNGRYQIWRI  271
+            I++I+ +K       RG  IS    IA + ++  + +G  +        T  GR +IW  
+Sbjct  206  ILFILLFKRIGSVALRGFFISTSCLIALLGLVVAITYGDAIASEFGKTTTLTGRTEIWEG  265
+
+Query  272  VYATILQVKWFGYGLFGFQFKLPWQKLGEVGINYT--HNQVLQLALDSGIVGIISFFTMI  329
+            +   I    WFG+G   +    P    G    + T  H+    L +D G+ G+++  T++
+Sbjct  266  ITGAIQSHYWFGHGYGSYWAARPIIYAGGTRFDLTSSHSGFRDLWIDVGLTGLLATITLV  325
+
+Query  330  FYMIFSTKNIQNSTISSLFIFAYFCLFIIM-------FIESVTYYPYYFIIIVLQTLYLK  382
+               +   + I  + + +      F LFI++       F+ S++ Y   F++IV++     
+Sbjct  326  ITTLLKFR-IGKADMYTWLTAVVFFLFIVLNNITDSRFLNSLSIYWIIFMVIVIKV----  380
+
+Query  383  LERER  387
+             ER R
+Sbjct  381  QERHR  385
+
+
+Sequence with id WP_061581004 no longer exists in database...alignment skipped
+Sequence with id MCA9353491 no longer exists in database...alignment skipped
+>WP_091022966.1 O-antigen ligase family protein [Bacillus sp. UNCCL81]
+ SFD09998.1 O-antigen ligase [Bacillus sp. UNCCL81]
+Length=411
+
+ Score = 44.7 bits (104),  Expect = 0.92, Method: Compositional matrix adjust.
+ Identities = 50/169 (30%), Positives = 78/169 (46%), Gaps = 18/169 (11%)
+
+Query  189  LILTIINCFFSDVSLSKVIALFMIVYIISYKLRKLFWKRGRKISVVTFIAS----VVMLA  244
+            LI + I  F SD S++ V+ L +IV I  Y + KL   +   ++V  FI      ++ L 
+Sbjct  196  LITSAIFLFMSD-SVTSVVTLVLIVII--YYINKLLRNKLNIVNVGLFINLSVIFIIKLQ  252
+
+Query  245  LVIFGYFLPYLRYFDFTFNGRYQIWRIVYATILQVKWFGYGLFGFQFKLPWQK-------  297
+             +   YFL YL   D TF GR  IW  + +   +   FGYG   F    P  +       
+Sbjct  253  SIFEEYFLQYLGR-DLTFTGRTYIWDAIISQTGRGLIFGYGYGTFWGYNPLLEQSIISNY  311
+
+Query  298  ---LGEVGINYTHNQVLQLALDSGIVGIISFFTMIFYMIFSTKNIQNST  343
+               +G V ++ +HN  L+L L  GI+G + F  ++ Y     + I++  
+Sbjct  312  SGYIGGVIVSGSHNGFLELMLQIGIIGTMIFIGILIYSGMKLRKIKDKN  360
+
+
+
+Lambda      K        H        a         alpha
+   0.338    0.152    0.461    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21231555583725
+
+
+  Database: All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF
+excluding environmental samples from WGS projects
+    Posted date:  Jan 3, 2022  2:35 AM
+  Number of letters in database: 168,524,408,266
+  Number of sequences in database:  449,466,297
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
