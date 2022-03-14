@@ -2,7 +2,7 @@
 ''' Download png images for csdb sugars
 '''
 
-WZY = "/Users/garrygippert/group/wzy_polymerases"
+WZY = "/Users/idamei/wzy_polymerases"
 DB = WZY + "/csdb/dat/CSDB_slice_for_Ida.txt"
 
 import os
@@ -10,11 +10,12 @@ import re
 import sys
 import csv
 import wget
+import pandas as pd
 
 os.system("ls -l {}".format(DB))
 
 # root of images directory
-images = './snfg'
+images = WZY + "/csdb/snfg"
 
 def doit(cmd, forgive=False):
 	s = os.system(cmd)
@@ -25,6 +26,7 @@ def doit(cmd, forgive=False):
 	return s
 
 def fetch_snfg_image(record_id, csdb_linear, scale=3, overwrite=False):
+	print('hej')
 	outdir ="{}/{}".format(images,scale)
 	outfil ="{}/{}.gif".format(outdir,record_id)
 	clean = False
@@ -69,8 +71,8 @@ def fetch_snfg_image(record_id, csdb_linear, scale=3, overwrite=False):
 			
 	print("DONE {} {}\n".format(record_id, csdb_linear))
 
-wanted = []
-
+polymerase_df = pd.read_csv(WZY + "/polymerase_data/polymerases_with_csdb_and_taxonomy.tsv", sep='\t', dtype={'CSDB_record_ID':'string'})
+wanted = list(polymerase_df.CSDB_record_ID.dropna())
 
 # Open DB file, iterate over rows, avoiding record_ids we have already seen
 seen = []
@@ -88,16 +90,12 @@ with open(DB, 'r') as fp:
 		# a specific data model, just to make life simpler
 		CSDB_record_ID, CSDB_Linear, glycoct, CSDB_nonpersistent_article_ID, doi, pmid, Taxonomic_name, Strain_or_Serogroup, NCBI_TaxID = row
 		#print( CSDB_record_ID, CSDB_Linear, glycoct, CSDB_nonpersistent_article_ID, doi, pmid, Taxonomic_name, Strain_or_Serogroup, NCBI_TaxID)
-
-		if Taxonomic_name != "Escherichia coli":
-			continue
-
 		# Avoid repeating an id
 		if CSDB_record_ID in seen:
 			continue
 		seen.append(CSDB_record_ID)
 
-		if len(wanted)>0 and int(CSDB_record_ID) not in wanted:
+		if len(wanted)>0 and CSDB_record_ID not in wanted:
 			continue
 
 		fetch_snfg_image(CSDB_record_ID, CSDB_Linear)
