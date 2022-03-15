@@ -26,7 +26,6 @@ def doit(cmd, forgive=False):
 	return s
 
 def fetch_snfg_image(record_id, csdb_linear, scale=3, overwrite=False):
-	print('hej')
 	outdir ="{}/{}".format(images,scale)
 	outfil ="{}/{}.gif".format(outdir,record_id)
 	clean = False
