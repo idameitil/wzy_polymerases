@@ -44,7 +44,7 @@ def fetch_snfg_image(record_id, csdb_linear, scale=3, overwrite=False):
 		Some of these rendering failures are mitigated by removal of square-bracketed sections. Others are not so easy.
 		For example 110981
 	'''
-	if re.search("\[[^\]]*\]", csdb_linear) and False:
+	if re.search("\[[^\]]*\]", csdb_linear):
 		print("Removing bracket section from record_id {} csdb_linear structure {}\n".format(record_id, csdb_linear))
 		csdb_linear = re.sub("\[[^\]]*\]", "", csdb_linear)
 		'''
@@ -70,7 +70,7 @@ def fetch_snfg_image(record_id, csdb_linear, scale=3, overwrite=False):
 			
 	print("DONE {} {}\n".format(record_id, csdb_linear))
 
-polymerase_df = pd.read_csv(WZY + "/polymerase_data/polymerases_with_csdb_and_taxonomy.tsv", sep='\t', dtype={'CSDB_record_ID':'string'})
+polymerase_df = pd.read_csv(WZY + "/polymerase_data/wzy_with_csdb_and_taxonomy.tsv", sep='\t', dtype={'CSDB_record_ID':'string'})
 wanted = list(polymerase_df.CSDB_record_ID.dropna())
 
 # Open DB file, iterate over rows, avoiding record_ids we have already seen
@@ -94,7 +94,7 @@ with open(DB, 'r') as fp:
 			continue
 		seen.append(CSDB_record_ID)
 
-		if len(wanted)>0 and CSDB_record_ID not in wanted:
+		if len(wanted) > 0 and CSDB_record_ID not in wanted:
 			continue
 
 		fetch_snfg_image(CSDB_record_ID, CSDB_Linear)
