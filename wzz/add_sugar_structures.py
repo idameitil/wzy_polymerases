@@ -1,7 +1,7 @@
 from heapq import merge
 import pandas as pd
 
-polymerase_df = pd.read_csv("../polymerase_data/polymerases_with_csdb_and_taxonomy.tsv", sep = '\t')
+polymerase_df = pd.read_csv("../polymerase_data/wzy_with_csdb_and_taxonomy.tsv", dtype=object, sep = '\t')
 
 wzz_df = pd.read_csv("wzz1.tsv", sep = '\t')
 

@@ -19,7 +19,7 @@ csdb_df = pd.read_csv("../csdb/dat/CSDB_slice_for_Ida.txt",
 polymerase_df = pd.read_csv("../data/combined_polymerases.tsv", sep = '\t')
 # Make id column
 polymerase_df['id'] = polymerase_df['species'].astype('str') + polymerase_df['serotype'].astype('str')
-polymerase_df.drop(['csdb_structure_id', 'csdb_record_id', 'csdb_glycan', 'original_sequence'], axis=1, inplace=True)
+#polymerase_df.drop(['csdb_structure_id', 'csdb_record_id', 'csdb_glycan', 'original_sequence'], axis=1, inplace=True)
 
 # Make new dataframe
 data = []
