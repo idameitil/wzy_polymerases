@@ -44,13 +44,20 @@ def fetch_snfg_image(record_id, csdb_linear, scale=3, overwrite=False):
 		Some of these rendering failures are mitigated by removal of square-bracketed sections. Others are not so easy.
 		For example 110981
 	'''
-	if re.search("\[[^\]]*\]", csdb_linear):
-		print("Removing bracket section from record_id {} csdb_linear structure {}\n".format(record_id, csdb_linear))
-		csdb_linear = re.sub("\[[^\]]*\]", "", csdb_linear)
-		'''
-		csdb_linear = re.sub("\[<<.*>>\]", "", csdb_linear) # Earlier version
-		'''
-		print("After bracket removal for  record_id {} csdb_linear structure {}\n".format(record_id, csdb_linear))
+	# if re.search(r"\[[^\]]*\]", csdb_linear):
+	# 	print("Removing bracket section from record_id {} csdb_linear structure {}\n".format(record_id, csdb_linear))
+	# 	csdb_linear = re.sub("\[[^\]]*\]", "", csdb_linear)
+	# 	print("After bracket removal for  record_id {} csdb_linear structure {}\n".format(record_id, csdb_linear))
+	# if re.search(r",*\d*\%Ac\(1-2\)", csdb_linear):
+	# 	print("Removing percent section from record_id {} csdb_linear structure {}\n".format(record_id, csdb_linear))
+	# 	csdb_linear = re.sub(r",*\d*\%Ac\(1-2\)", "", csdb_linear)
+	# 	print("After percent removal for  record_id {} csdb_linear structure {}\n".format(record_id, csdb_linear))
+	# # Change this
+	# if re.search(r"\%\d*", csdb_linear):
+	# 	print("Removing percent section from record_id {} csdb_linear structure {}\n".format(record_id, csdb_linear))
+	# 	csdb_linear = re.sub(r"\%\d*", "", csdb_linear)
+	# 	print("After percent removal for  record_id {} csdb_linear structure {}\n".format(record_id, csdb_linear))
+
 	print("record_id: {} linear: {}\n".format(record_id, csdb_linear))
 	image_url = "http://csdb.glycoscience.ru/database/core/graphic.php?to_draw={}&scale={}&on_white=0&backdrop=checkers&no_reducing=0".format(csdb_linear, scale)
 	print("IMAGE_URL:".format(image_url))
