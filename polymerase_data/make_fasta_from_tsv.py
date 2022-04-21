@@ -1,7 +1,7 @@
 import pandas as pd
 import math
-tsv_file_df = pd.read_csv("polymerases.tsv", sep='\t')
-outfile = open("polymerases.fasta", "w")
+tsv_file_df = pd.read_csv("wzy.tsv", sep='\t')
+outfile = open("wzy.fasta", "w")
 
 for index, row in tsv_file_df.iterrows():
     accession = row['protein_accession']

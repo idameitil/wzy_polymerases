@@ -36,7 +36,7 @@ for gb_record in SeqIO.parse(open(gb_file,"r"), "genbank") :
     serotype = get_serotype(gb_record)
     # name "wzy"
     cds_feature_wzy = get_cds_feature_with_qualifier_value(gb_record, "gene", "wzy")
-    cds_feature_wzyE = get_cds_feature_with_qualifier_value(gb_record, "gene", "wzyE")
+    #cds_feature_wzyE = get_cds_feature_with_qualifier_value(gb_record, "gene", "wzyE")
     cds_feature_rfc = get_cds_feature_with_qualifier_value(gb_record, "gene", "rfc")
     cds_feature_o_antigen = get_cds_feature_with_qualifier_value(gb_record, "product", "O-antigen polymerase")
     cds_feature_oligo = get_cds_feature_with_qualifier_value(gb_record, "product", "oligosaccharide repeat unit polymerase")
@@ -44,11 +44,11 @@ for gb_record in SeqIO.parse(open(gb_file,"r"), "genbank") :
         wzy_accession = cds_feature_wzy.qualifiers.get('protein_id')[0]
         wzy_seq = cds_feature_wzy.qualifiers.get('translation')[0]
         tsv_outfile.write(f"{wzy_accession}\t{organism}\t{serotype}\t{operon_accession}\t{wzy_seq}\n")
-    # name "wzyE"
-    elif cds_feature_wzyE is not None:
-        wzy_accession = cds_feature_wzyE.qualifiers.get('protein_id')[0]
-        wzy_seq = cds_feature_wzyE.qualifiers.get('translation')[0]
-        tsv_outfile.write(f"{wzy_accession}\t{organism}\t{serotype}\t{operon_accession}\t{wzy_seq}\n")
+    # name "wzyE" THIS IS NOT O-ANTIGEN POLYMERASE
+    #elif cds_feature_wzyE is not None:
+    #    wzy_accession = cds_feature_wzyE.qualifiers.get('protein_id')[0]
+    #    wzy_seq = cds_feature_wzyE.qualifiers.get('translation')[0]
+    #    tsv_outfile.write(f"{wzy_accession}\t{organism}\t{serotype}\t{operon_accession}\t{wzy_seq}\n")
     elif cds_feature_rfc is not None:
         wzy_accession = cds_feature_rfc.qualifiers.get('protein_id')[0]
         wzy_seq = cds_feature_rfc.qualifiers.get('translation')[0]

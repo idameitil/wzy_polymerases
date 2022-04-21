@@ -31,6 +31,7 @@ polymerase_df['id'] = polymerase_df['species_original'].astype('str') + polymera
 # Make new dataframe with csdb info
 data = []
 row_id_done = []
+forced_done = []
 print('getting csdb')
 # Loop through polymerase_df
 for index, row in polymerase_df.iterrows():
@@ -41,8 +42,10 @@ for index, row in polymerase_df.iterrows():
             row_id_done.append(row.id)
         else:
             rows_condition_true = csdb_df[(csdb_df.CSDB_record_ID == row.CSDB_record_ID_forced)]
-            data.append(list(rows_condition_true.iloc[0])+[row.id])
-            row_id_done.append(row.id)
+            # If that 
+            if row.CSDB_record_ID_forced not in forced_done:
+                data.append(list(rows_condition_true.iloc[0])+[row.id])
+                forced_done.append(row.CSDB_record_ID_forced)
     else:
         # Get rows in csdb df with that serotype
         rows_condition_true = csdb_df[(csdb_df.Taxonomic_name == row.species) & (csdb_df.Strain_or_Serogroup == row.serotype_edited)]
@@ -57,12 +60,6 @@ new_df.drop(['Taxonomic_name', 'Strain_or_Serogroup'], axis = 1, inplace = True)
 # Join dataframes
 merged = pd.merge(polymerase_df, new_df, on='id', how='left')
 merged.drop(['id'], axis = 1, inplace = True)
-
-# # Add: manually corrected sugars
-# for index, row in merged.iterrows():
-#     if not pd.isna(row.CSDB_record_ID_forced):
-#         if row.CSDB_record_ID_forced == 'no_sugar':
-            
 
 ### ADD ANNOTATED COLUMN ###
 merged['annotated'] = 1
