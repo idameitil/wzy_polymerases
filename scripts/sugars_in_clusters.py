@@ -11,12 +11,12 @@ info_df = pd.read_csv("polymerase_data/wzy_with_csdb_and_taxonomy.tsv", sep = '\
 
 image_folder = "data/cluster_csdb_images/"
 
-combined_image_paths = list()
+combined_image_paths = dict()
 # Make cluster images
 for cluster in cluster_df.cluster.unique():
     members = cluster_df.loc[cluster_df.cluster == cluster, 'acc']
     combined_image_path = image_folder + str(cluster).zfill(3) + '.jpg'
-    combined_image_paths.append(combined_image_path)
+    combined_image_paths[cluster] = combined_image_path
     # single_image_paths = list()
     # fs = []
     # largest_x = 0
@@ -89,17 +89,15 @@ def gallery(array, ncols=10):
               .swapaxes(1,2)
               .reshape(height*nrows, width*ncols, intensity))
     return result
-def make_array():
-    from PIL import Image
-    return np.array([np.asarray(Image.open(combined_image_paths[0]).convert('RGB'))]*12)
-print(np.asarray(Image.open(combined_image_paths[0]).convert('RGB')).shape)
-array = make_array()
 
-combined_image_paths.sort()
-combined_image_paths.append(combined_image_paths[221]) # put an empty one in the end so there are 230
+clusters_ordered = list(cluster_df.groupby(['cluster'])[['cluster']].count().rename_axis(None).sort_values(by='cluster', ascending=False).index)
+print(clusters_ordered)
+
 data = []
-for i in combined_image_paths:
-    data.append(np.asarray(Image.open(i).convert('RGB')))
+for cluster in clusters_ordered:
+    path = combined_image_paths[cluster]
+    data.append(np.asarray(Image.open(path).convert('RGB')))
+data.append(np.asarray(Image.open(combined_image_paths[221]).convert('RGB'))) # put an empty one in the end so there are 230
 
 array = np.array(data)
 result = gallery(array)
