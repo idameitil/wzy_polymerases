@@ -9,8 +9,6 @@ cluster_df = pd.read_csv("clusters_ssns/clusters_1e-30_150.tsv", sep = '\t', hea
 
 info_df = pd.read_csv("polymerase_data/wzy_with_csdb_and_taxonomy.tsv", sep = '\t')
 
-#print(cluster_df.groupby(['cluster'])[['cluster']].count().rename_axis(None).sort_values(by='cluster', ascending=False))
-
 image_folder = "data/cluster_csdb_images/"
 
 combined_image_paths = list()
@@ -82,12 +80,11 @@ for cluster in cluster_df.cluster.unique():
     #     new_im.save(combined_image_path)
 
 # Make combined image
-def gallery(array, ncols=23):
+def gallery(array, ncols=10):
     print(array.shape)
     nindex, height, width, intensity = array.shape
     nrows = nindex//ncols
-    assert nindex == nrows*ncols
-    # want result.shape = (height*nrows, width*ncols, intensity)
+    assert nindex == nrows*ncols # make sure to have a number dividable by 10 (add empty ones below)
     result = (array.reshape(nrows, ncols, height, width, intensity)
               .swapaxes(1,2)
               .reshape(height*nrows, width*ncols, intensity))
@@ -97,26 +94,14 @@ def make_array():
     return np.array([np.asarray(Image.open(combined_image_paths[0]).convert('RGB'))]*12)
 print(np.asarray(Image.open(combined_image_paths[0]).convert('RGB')).shape)
 array = make_array()
-#result = gallery(array)
-#plt.imshow(result)
-#plt.show()
 
 combined_image_paths.sort()
-combined_image_paths.append(combined_image_paths[222]) # put a black one in the end
+combined_image_paths.append(combined_image_paths[221]) # put an empty one in the end so there are 230
 data = []
 for i in combined_image_paths:
     data.append(np.asarray(Image.open(i).convert('RGB')))
-
-# combined_image_paths.sort()
-# data = []
-# for i in combined_image_paths:
-#     data.append(np.asarray(Image.open(i).convert('RGB')))
-#     new_im = Image.new('RGB', (max_width, max_height))
-#     new_im.paste(im, (0, 0))
 
 array = np.array(data)
 result = gallery(array)
 im = Image.fromarray(result)
 im.save('data/sugars_in_clusters.jpeg')
-#plt.imshow(result)
-#plt.show()
